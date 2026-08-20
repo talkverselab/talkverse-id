@@ -2,15 +2,15 @@
  "lang": "id",
  "variant": "id",
  "label": "인도네시아어 표준어 (Bahasa Indonesia baku) / 자카르타 구어 참고",
- "version": "v1-2026-08-16",
+ "version": "v2-2026-08-20",
  "schema": "v4",
  "levels": {
   "L1": {
    "file": "L1.json",
    "schema": "5ep40turn",
    "target_turns": 200,
-   "current_turns": 10,
-   "status": "scaffold — ep1 10턴 샘플"
+   "current_turns": 80,
+   "status": "ep1·ep2 완성 (80/200턴)"
   },
   "L2": {
    "file": null,
@@ -34,8 +34,16 @@
   }
  },
  "characters_canonical": {
-  "A": {"name": "Mark", "role": "외국인 학습자(남)", "gender": "male"},
-  "B": {"name": "Sari", "role": "인도네시아 여성(여)", "gender": "female"}
+  "A": {
+   "name": "Mark",
+   "role": "외국인 학습자(남)",
+   "gender": "male"
+  },
+  "B": {
+   "name": "Sari",
+   "role": "인도네시아 여성(여)",
+   "gender": "female"
+  }
  },
  "turn_fields": {
   "num": "int",
@@ -45,6 +53,11 @@
   "ko": "한국어 뜻",
   "gloss": "단어별 뜻 (선택)",
   "note": "학습 포인트 (접사·소사·어순·대명사)",
-  "tags": ["greeting", "affix:ber-", "particle:ya", "pronoun:saya"]
+  "tags": [
+   "greeting",
+   "affix:ber-",
+   "particle:ya",
+   "pronoun:saya"
+  ]
  }
 }

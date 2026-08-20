@@ -11,8 +11,8 @@ import 'app_database.dart';
 /// 앱 최초 실행 시 assets/data → SQLite 시딩.
 /// 콘텐츠가 바뀌면 [_kSeededKey] 버전을 올려 재시딩한다.
 class SeedLoader {
-  // v1: 초기 scaffold (L1 ep1 샘플 + 어근 core + 접사)
-  static const _kSeededKey = 'db_seeded_v1';
+  // v2: L1 ep1 40턴 + ep2 40턴, 어근 80, 변이 41, freq 120
+  static const _kSeededKey = 'db_seeded_v2';
 
   final AppDatabase db;
   SeedLoader(this.db);
