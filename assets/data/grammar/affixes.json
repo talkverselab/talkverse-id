@@ -1,0 +1,150 @@
+{
+ "version": "v1-2026-08-16",
+ "note": "인도네시아어·말레이어 핵심 접사. kind 는 lib/core/constants.dart AffixKind 키. position: prefix|suffix|circumfix.",
+ "affixes": [
+  {
+   "form": "meN-", "kind": "me", "position": "prefix",
+   "ko": "능동 타동사/자동사 만들기 (가장 빈도 높은 동사 접두사)",
+   "allomorphs": ["me-", "mem-", "men-", "meng-", "meny-", "menge-"],
+   "rule": "me-+l,r,m,n,w,y / mem-+b,f,v (p 탈락) / men-+d,c,j,z (t 탈락) / meng-+g,h,모음 (k 탈락) / meny-+s (s 탈락) / menge-+단음절",
+   "examples": [
+    {"word": "makan", "root": "makan", "ko": "먹다 (어근 그대로 사용)"},
+    {"word": "membaca", "root": "baca", "ko": "읽다 (mem-+baca)"},
+    {"word": "menulis", "root": "tulis", "ko": "쓰다 (men-+tulis, t 탈락)"},
+    {"word": "mengambil", "root": "ambil", "ko": "가져가다 (meng-+ambil)"},
+    {"word": "menyapu", "root": "sapu", "ko": "쓸다 (meny-+sapu, s 탈락)"},
+    {"word": "memakai", "root": "pakai", "ko": "입다·사용하다 (mem-+pakai, p 탈락)"},
+    {"word": "mengecat", "root": "cat", "ko": "페인트칠하다 (menge-+단음절 cat)"}
+   ]
+  },
+  {
+   "form": "ber-", "kind": "ber", "position": "prefix",
+   "ko": "자동사·상태·소유 (~을 가지다, ~하다)",
+   "allomorphs": ["ber-", "be-", "bel-"],
+   "rule": "be-+r로 시작 (bekerja←kerja / berenang←renang) / bel-+ajar (belajar)",
+   "examples": [
+    {"word": "berjalan", "root": "jalan", "ko": "걷다"},
+    {"word": "bekerja", "root": "kerja", "ko": "일하다 (be-+kerja)"},
+    {"word": "belajar", "root": "ajar", "ko": "배우다 (bel-+ajar)"},
+    {"word": "berbicara", "root": "bicara", "ko": "말하다"},
+    {"word": "bermain", "root": "main", "ko": "놀다·경기하다"}
+   ]
+  },
+  {
+   "form": "di-", "kind": "di", "position": "prefix",
+   "ko": "수동 (~되다). 3인칭 행위자 수동에 사용",
+   "allomorphs": ["di-"],
+   "examples": [
+    {"word": "dimakan", "root": "makan", "ko": "먹히다"},
+    {"word": "dibaca", "root": "baca", "ko": "읽히다"},
+    {"word": "dibuat", "root": "buat", "ko": "만들어지다"}
+   ]
+  },
+  {
+   "form": "ter-", "kind": "ter", "position": "prefix",
+   "ko": "비의도·우연 (~해 버리다) / 최상급 (가장 ~한) / 가능",
+   "allomorphs": ["ter-", "te-"],
+   "examples": [
+    {"word": "tertidur", "root": "tidur", "ko": "잠들어 버리다"},
+    {"word": "terbesar", "root": "besar", "ko": "가장 큰"},
+    {"word": "terlihat", "root": "lihat", "ko": "보이다"}
+   ]
+  },
+  {
+   "form": "peN-", "kind": "circum", "position": "prefix",
+   "ko": "행위자·도구 명사 (~하는 사람/것)",
+   "allomorphs": ["pe-", "pem-", "pen-", "peng-", "peny-", "penge-"],
+   "examples": [
+    {"word": "penulis", "root": "tulis", "ko": "작가"},
+    {"word": "pembaca", "root": "baca", "ko": "독자"},
+    {"word": "pengajar", "root": "ajar", "ko": "교사(가르치는 사람)"},
+    {"word": "pemain", "root": "main", "ko": "선수·연주자"}
+   ]
+  },
+  {
+   "form": "se-", "kind": "other", "position": "prefix",
+   "ko": "하나의(satu) / 같은 / 온(전체) / ~하자마자",
+   "allomorphs": ["se-"],
+   "examples": [
+    {"word": "seorang", "root": "orang", "ko": "한 사람"},
+    {"word": "sekali", "root": "kali", "ko": "한 번 / 매우"},
+    {"word": "setiap", "root": "tiap", "ko": "매(每)"}
+   ]
+  },
+  {
+   "form": "-kan", "kind": "kan", "position": "suffix",
+   "ko": "사역(~하게 하다) / 수혜(~을 위해 해 주다) / 타동사화",
+   "examples": [
+    {"word": "membelikan", "root": "beli", "ko": "사 주다 (수혜)"},
+    {"word": "memberikan", "root": "beri", "ko": "주다"},
+    {"word": "menjelaskan", "root": "jelas", "ko": "설명하다 (jelas 분명한 → 분명하게 하다)"},
+    {"word": "masukkan", "root": "masuk", "ko": "넣어라 (명령형)"}
+   ]
+  },
+  {
+   "form": "-i", "kind": "i", "position": "suffix",
+   "ko": "장소·대상 지향 / 반복 / 타동사화",
+   "examples": [
+    {"word": "menaiki", "root": "naik", "ko": "~에 올라타다"},
+    {"word": "mencintai", "root": "cinta", "ko": "~를 사랑하다"},
+    {"word": "memasuki", "root": "masuk", "ko": "~에 들어가다"}
+   ]
+  },
+  {
+   "form": "-an", "kind": "an", "position": "suffix",
+   "ko": "명사화 (결과·대상·집합)",
+   "examples": [
+    {"word": "makanan", "root": "makan", "ko": "음식"},
+    {"word": "minuman", "root": "minum", "ko": "음료"},
+    {"word": "tulisan", "root": "tulis", "ko": "글·글씨"},
+    {"word": "pakaian", "root": "pakai", "ko": "옷"}
+   ]
+  },
+  {
+   "form": "-nya", "kind": "other", "position": "suffix",
+   "ko": "3인칭 소유/대명사 (그의·그것) / 한정(the) / 부사화",
+   "examples": [
+    {"word": "bukunya", "root": "buku", "ko": "그의 책 / 그 책"},
+    {"word": "sebenarnya", "root": "benar", "ko": "사실은"},
+    {"word": "biasanya", "root": "biasa", "ko": "보통은"}
+   ]
+  },
+  {
+   "form": "ke-an", "kind": "circum", "position": "circumfix",
+   "ko": "추상 명사 (~함, ~성) / 비의도 수동 (~을 당하다)",
+   "examples": [
+    {"word": "kebersihan", "root": "bersih", "ko": "청결"},
+    {"word": "kesehatan", "root": "sehat", "ko": "건강"},
+    {"word": "kehujanan", "root": "hujan", "ko": "비를 맞다"},
+    {"word": "kebahagiaan", "root": "bahagia", "ko": "행복"}
+   ]
+  },
+  {
+   "form": "peN-an", "kind": "circum", "position": "circumfix",
+   "ko": "행위·과정 명사 (~하기, ~함)",
+   "examples": [
+    {"word": "pendidikan", "root": "didik", "ko": "교육"},
+    {"word": "pembelajaran", "root": "ajar", "ko": "학습 (pem-+belajar+-an)"},
+    {"word": "penulisan", "root": "tulis", "ko": "집필·작성"}
+   ]
+  },
+  {
+   "form": "per-an", "kind": "circum", "position": "circumfix",
+   "ko": "결과·장소·집합 명사",
+   "examples": [
+    {"word": "pertanyaan", "root": "tanya", "ko": "질문"},
+    {"word": "perjalanan", "root": "jalan", "ko": "여행·여정"},
+    {"word": "pertemuan", "root": "temu", "ko": "만남·회의"}
+   ]
+  },
+  {
+   "form": "ber-an", "kind": "circum", "position": "circumfix",
+   "ko": "상호 (서로 ~하다) / 다수·반복",
+   "examples": [
+    {"word": "berkenalan", "root": "kenal", "ko": "서로 알게 되다"},
+    {"word": "berpegangan", "root": "pegang", "ko": "서로 붙잡다"},
+    {"word": "berdatangan", "root": "datang", "ko": "(여럿이) 몰려오다"}
+   ]
+  }
+ ]
+}
