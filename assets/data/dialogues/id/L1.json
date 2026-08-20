@@ -1,29 +1,29 @@
 {
  "level": "L1",
  "variant": "id",
- "version": "v1-2026-08-16",
- "schema": "v5-L1-5ep40turn-scaffold",
+ "version": "v2-2026-08-20",
+ "schema": "v5-L1-5ep40turn",
  "title": "L1 — 매칭 narrative (200 turn 목표)",
- "description": "외국인 Mark 와 인도네시아 여성 Sari 의 첫 만남 → 약속 → 가족 → 갈등 → 미래. 5 ep × 40 turn = 200. (현재 ep1 10턴 샘플)",
+ "description": "외국인 Mark 와 인도네시아 여성 Sari 의 첫 만남 → 약속 → 가족 → 갈등 → 미래. 5 ep × 40 turn = 200. (현재 ep1·ep2 완성 = 80턴)",
  "kpi": {
   "episodes_target": 5,
   "turns_per_episode": 40,
   "turns_total_target": 200,
-  "turns_total_current": 10,
-  "progress_pct": 5.0
+  "turns_total_current": 80,
+  "progress_pct": 40.0
  },
  "characters": {
   "A": {"name": "Mark", "role": "외국인 학습자(남)", "gender": "male", "voice": "id-ID male"},
   "B": {"name": "Sari", "role": "인도네시아 여성(여)", "gender": "female", "voice": "id-ID female"}
  },
- "particles": ["ya", "sih", "dong", "kok", "deh", "lho", "kan", "nih", "tuh"],
- "function_words": ["sudah", "belum", "sedang", "akan", "masih", "baru", "bisa", "mau", "harus", "boleh"],
+ "particles": ["ya", "sih", "dong", "kok", "deh", "lho", "kan", "nih", "tuh", "nah"],
+ "function_words": ["sudah", "belum", "sedang", "akan", "masih", "baru", "bisa", "mau", "harus", "boleh", "jangan", "usah"],
  "episodes": [
   {
    "id": "ep1",
    "title": "매칭",
    "emoji": "💕",
-   "scenario": "Mark 매칭앱 첫 메시지 → Sari 자기소개 → 자카르타 거주 확인 → 인도네시아어 학습 hook",
+   "scenario": "Mark 매칭앱 첫 메시지 → Sari 자기소개 → 직업·취미 → 렌당 약속 → 토요일 카페 약속 확정",
    "turns": [
     {
      "num": 1,
@@ -119,6 +119,656 @@
      "gloss": "bagus=좋다 nanti=나중에 kita=우리(청자 포함) ngobrol=수다 떨다 lagi=다시",
      "note": "kita(청자 포함) vs kami(청자 제외). ngobrol 은 자카르타 구어 (표준 mengobrol). MS 는 berbual.",
      "tags": ["pronoun:kita", "colloquial:ngobrol", "particle:ya"]
+    },
+    {
+     "num": 11,
+     "speaker": "A",
+     "id": "Sari kerja apa?",
+     "ms": "Sari kerja apa?",
+     "ko": "사리 씨는 무슨 일 해요?",
+     "gloss": "kerja=일하다 apa=무엇",
+     "note": "kerja apa = 일하다+무엇 (의문사 후치). 구어에서 bekerja 대신 kerja.",
+     "tags": ["question:apa", "colloquial"]
+    },
+    {
+     "num": 12,
+     "speaker": "B",
+     "id": "Saya bekerja di kafe dekat kampus. Kamu?",
+     "ms": "Saya bekerja di kafe dekat kampus. Awak?",
+     "ko": "캠퍼스 근처 카페에서 일해요. 당신은요?",
+     "gloss": "be-kerja=일하다 dekat=가까운 kampus=캠퍼스",
+     "note": "bekerja = be-+kerja (r 앞 be- 변이). dekat kampus = 전치사 없이 '~근처'.",
+     "tags": ["affix:ber-", "prep:dekat"]
+    },
+    {
+     "num": 13,
+     "speaker": "A",
+     "id": "Saya mengajar bahasa Inggris di sekolah.",
+     "ko": "저는 학교에서 영어를 가르쳐요.",
+     "gloss": "meng-ajar=가르치다 Inggris=영국·영어 sekolah=학교",
+     "note": "mengajar = meng-+ajar (모음 앞 meng-). belajar(배우다)와 같은 어근 ajar!",
+     "tags": ["affix:meN-", "root:ajar"]
+    },
+    {
+     "num": 14,
+     "speaker": "B",
+     "id": "Wah, keren! Jadi kamu guru, ya.",
+     "ko": "와, 멋지다! 그럼 선생님이시네요.",
+     "gloss": "keren=멋진 jadi=그래서·되다 guru=교사",
+     "note": "jadi = 문두에서 '그럼·그러니까'. keren 은 구어 칭찬.",
+     "tags": ["conj:jadi", "colloquial:keren"]
+    },
+    {
+     "num": 15,
+     "speaker": "A",
+     "id": "Iya. Tapi bahasa Indonesia saya masih jelek.",
+     "ko": "네. 근데 제 인도네시아어는 아직 형편없어요.",
+     "gloss": "tapi=하지만 jelek=나쁜·못생긴",
+     "note": "tapi = tetapi 의 구어형. bahasa Indonesia saya = 언어+인도네시아+나의 (2중 후치).",
+     "tags": ["conj:tapi", "order:DM"]
+    },
+    {
+     "num": 16,
+     "speaker": "B",
+     "id": "Tidak apa-apa. Pelan-pelan saja.",
+     "ms": "Tak apa. Perlahan-lahan saja.",
+     "ko": "괜찮아요. 천천히 하면 돼요.",
+     "gloss": "tidak apa-apa=괜찮다 pelan-pelan=천천히 saja=그냥·~만",
+     "note": "중첩 2개: apa-apa(아무것도), pelan-pelan(천천히). saja = '그냥 ~하면 돼'. MS 구어 tak = tidak.",
+     "tags": ["reduplication", "idiom:tidak-apa-apa", "particle:saja"]
+    },
+    {
+     "num": 17,
+     "speaker": "A",
+     "id": "Kamu suka masak?",
+     "ko": "요리하는 거 좋아해요?",
+     "gloss": "suka=좋아하다 masak=요리하다",
+     "note": "suka + 동사원형 = ~하기를 좋아하다. memasak 의 구어형 masak.",
+     "tags": ["verb:suka", "colloquial"]
+    },
+    {
+     "num": 18,
+     "speaker": "B",
+     "id": "Suka banget! Aku sering masak rendang.",
+     "ko": "완전 좋아해요! 저 렌당 자주 만들어요.",
+     "gloss": "banget=완전·매우(구어) aku=나(친근) sering=자주 rendang=렌당",
+     "note": "banget = sekali 의 자카르타 구어. saya → aku 전환 = 친해졌다는 신호!",
+     "tags": ["colloquial:banget", "pronoun:aku", "adv:sering"]
+    },
+    {
+     "num": 19,
+     "speaker": "A",
+     "id": "Rendang? Aku belum pernah coba.",
+     "ko": "렌당요? 저 아직 한 번도 안 먹어봤어요.",
+     "gloss": "belum=아직 안 pernah=~한 적 있다 coba=시도하다",
+     "note": "belum pernah = 아직 ~해 본 적 없다 (경험 부정). tidak pernah(절대 안)과 구별.",
+     "tags": ["aspect:belum-pernah", "verb:coba"]
+    },
+    {
+     "num": 20,
+     "speaker": "B",
+     "id": "Serius? Nanti aku masakkan, deh.",
+     "ko": "정말요? 그럼 나중에 내가 만들어 줄게요.",
+     "gloss": "serius=진심 masak-kan=만들어 주다 deh=(제안 강조)",
+     "note": "-kan 수혜 용법: masak(요리하다) → masakkan(요리해 주다). 소사 deh = '~할게, 그래'.",
+     "tags": ["affix:-kan", "particle:deh"]
+    },
+    {
+     "num": 21,
+     "speaker": "A",
+     "id": "Wah, mau banget! Kapan?",
+     "ms": "Wah, nak sangat! Bila?",
+     "ko": "와, 완전 좋아요! 언제요?",
+     "gloss": "mau=원하다 kapan=언제",
+     "note": "MS: mau→nak, kapan→bila, banget→sangat. 의문사 kapan 은 단독 사용 가능.",
+     "tags": ["question:kapan", "modal:mau"]
+    },
+    {
+     "num": 22,
+     "speaker": "B",
+     "id": "Hmm, hari Sabtu kamu ada waktu?",
+     "ko": "음, 토요일에 시간 있어요?",
+     "gloss": "hari=날 Sabtu=토요일 ada=있다 waktu=시간",
+     "note": "ada = 존재·소유 겸용 ('시간이 있다'). hari Sabtu = 날+토요일.",
+     "tags": ["verb:ada", "time:hari"]
+    },
+    {
+     "num": 23,
+     "speaker": "A",
+     "id": "Ada. Sabtu aku kosong.",
+     "ko": "있어요. 토요일은 비어 있어요.",
+     "gloss": "kosong=비어 있는·0",
+     "note": "kosong = 빈. 전화번호 읽을 때 0도 kosong. 한 단어 대답 Ada 가 자연스러움.",
+     "tags": ["adj:kosong", "short-answer"]
+    },
+    {
+     "num": 24,
+     "speaker": "B",
+     "id": "Oke, kita ketemu di mana, ya?",
+     "ms": "Okey, kita jumpa di mana, ya?",
+     "ko": "좋아요, 우리 어디서 만날까요?",
+     "gloss": "ketemu=만나다(구어) di mana=어디서",
+     "note": "ketemu = bertemu 의 구어형. di mana = 전치사+의문사. MS 는 jumpa.",
+     "tags": ["colloquial:ketemu", "question:di-mana"]
+    },
+    {
+     "num": 25,
+     "speaker": "A",
+     "id": "Di kafe tempat kamu kerja, bagaimana?",
+     "ms": "Di kafe tempat awak kerja, macam mana?",
+     "ko": "당신이 일하는 카페에서 어때요?",
+     "gloss": "tempat=장소 bagaimana=어떻게·어때",
+     "note": "tempat kamu kerja = 관계절 없이 '장소+네가+일하다'. MS 는 bagaimana 대신 macam mana.",
+     "tags": ["relative:tempat", "question:bagaimana"]
+    },
+    {
+     "num": 26,
+     "speaker": "B",
+     "id": "Boleh! Jam berapa?",
+     "ko": "좋아요! 몇 시에요?",
+     "gloss": "boleh=해도 된다·좋다 jam=시 berapa=몇",
+     "note": "boleh = 허가·승낙 '좋아요'. jam berapa = 시+몇 (수량 의문사 후치).",
+     "tags": ["modal:boleh", "question:berapa"]
+    },
+    {
+     "num": 27,
+     "speaker": "A",
+     "id": "Jam dua siang, bisa?",
+     "ko": "낮 2시, 가능해요?",
+     "gloss": "dua=2 siang=낮",
+     "note": "jam dua = 2시 (jam+숫자). siang(11~15시)·pagi·sore·malam 으로 시간대 구분.",
+     "tags": ["time:jam", "time:siang"]
+    },
+    {
+     "num": 28,
+     "speaker": "B",
+     "id": "Bisa. Jangan telat, ya!",
+     "ms": "Boleh. Jangan lewat, ya!",
+     "ko": "가능해요. 늦지 마세요!",
+     "gloss": "jangan=~하지 마 telat=늦다(구어)",
+     "note": "jangan + 동사 = 금지 명령. telat 는 terlambat 의 구어형.",
+     "tags": ["imperative:jangan", "colloquial:telat"]
+    },
+    {
+     "num": 29,
+     "speaker": "A",
+     "id": "Tenang saja. Aku selalu datang lebih awal.",
+     "ko": "걱정 마세요. 전 항상 일찍 와요.",
+     "gloss": "tenang=침착한 selalu=항상 lebih=더 awal=이른",
+     "note": "tenang saja = '진정해, 걱정 마'. lebih + 형용사 = 비교급 (lebih awal 더 일찍).",
+     "tags": ["idiom:tenang-saja", "comparative:lebih"]
+    },
+    {
+     "num": 30,
+     "speaker": "B",
+     "id": "Bagus. Oh iya, kamu suka kopi?",
+     "ko": "좋아요. 아 맞다, 커피 좋아해요?",
+     "gloss": "oh iya=아 맞다 kopi=커피",
+     "note": "oh iya = 화제 전환 '아 맞다'.",
+     "tags": ["discourse:oh-iya"]
+    },
+    {
+     "num": 31,
+     "speaker": "A",
+     "id": "Suka. Di Korea aku minum kopi setiap hari.",
+     "ko": "좋아해요. 한국에서 매일 커피 마셨어요.",
+     "gloss": "minum=마시다 setiap=매 hari=날",
+     "note": "setiap hari = 매일. 시제 변화 없음 — 과거도 동사 그대로 (문맥으로 판단).",
+     "tags": ["affix:se-", "no-tense"]
+    },
+    {
+     "num": 32,
+     "speaker": "B",
+     "id": "Kalau begitu, coba kopi Indonesia. Enak sekali!",
+     "ko": "그러면 인도네시아 커피 마셔 봐요. 진짜 맛있어요!",
+     "gloss": "kalau begitu=그렇다면 enak=맛있는 sekali=매우",
+     "note": "kalau begitu = 그렇다면. 형용사+sekali = 매우 ~하다 (후치 강조).",
+     "tags": ["conj:kalau", "adv:sekali"]
+    },
+    {
+     "num": 33,
+     "speaker": "A",
+     "id": "Aku dengar kopi Toraja terkenal.",
+     "ko": "토라자 커피가 유명하다고 들었어요.",
+     "gloss": "dengar=듣다 ter-kenal=유명한",
+     "note": "terkenal = ter-+kenal (알려진→유명한). ter- 의 상태 용법.",
+     "tags": ["affix:ter-", "root:kenal"]
+    },
+    {
+     "num": 34,
+     "speaker": "B",
+     "id": "Betul! Kamu tahu banyak, ya.",
+     "ko": "맞아요! 많이 아시네요.",
+     "gloss": "betul=맞다 tahu=알다 banyak=많이",
+     "note": "betul = benar 와 같은 '맞다'. tahu 발음 [타우] — h 묵음 주의 (두부 tahu 는 [타후]).",
+     "tags": ["adj:betul", "pronunciation:tahu"]
+    },
+    {
+     "num": 35,
+     "speaker": "A",
+     "id": "Aku membaca tentang Indonesia setiap malam.",
+     "ko": "매일 밤 인도네시아에 대해 읽어요.",
+     "gloss": "mem-baca=읽다 tentang=~에 대해 malam=밤",
+     "note": "membaca = mem-+baca. tentang = ~에 관해.",
+     "tags": ["affix:meN-", "prep:tentang"]
+    },
+    {
+     "num": 36,
+     "speaker": "B",
+     "id": "Rajin sekali! Kenapa kamu belajar bahasa Indonesia?",
+     "ms": "Rajin sangat! Kenapa awak belajar bahasa Indonesia?",
+     "ko": "정말 부지런하네요! 왜 인도네시아어를 배워요?",
+     "gloss": "rajin=부지런한 kenapa=왜",
+     "note": "kenapa = mengapa 의 구어형.",
+     "tags": ["question:kenapa", "adj:rajin"]
+    },
+    {
+     "num": 37,
+     "speaker": "A",
+     "id": "Karena aku mau tinggal di sini lama.",
+     "ms": "Kerana aku nak tinggal di sini lama.",
+     "ko": "여기서 오래 살고 싶어서요.",
+     "gloss": "karena=왜냐하면 di sini=여기 lama=오래",
+     "note": "karena = 이유 접속사 (MS 철자 kerana). mau + 동사 = ~하고 싶다.",
+     "tags": ["conj:karena", "modal:mau"]
+    },
+    {
+     "num": 38,
+     "speaker": "B",
+     "id": "Oh ya? Senangnya dengar itu.",
+     "ko": "그래요? 그 말 들으니 기쁘네요.",
+     "gloss": "senang-nya=기쁘게도 itu=그것",
+     "note": "형용사+-nya = 감탄·부사화 (senangnya = '기쁘기도 해라').",
+     "tags": ["affix:-nya", "exclamation"]
+    },
+    {
+     "num": 39,
+     "speaker": "A",
+     "id": "Sampai ketemu hari Sabtu, Sari.",
+     "ms": "Sampai jumpa hari Sabtu, Sari.",
+     "ko": "토요일에 봐요, 사리.",
+     "gloss": "sampai=~까지 ketemu=만나다",
+     "note": "sampai ketemu / sampai jumpa = '또 만나요' 작별 인사.",
+     "tags": ["farewell", "idiom:sampai-jumpa"]
+    },
+    {
+     "num": 40,
+     "speaker": "B",
+     "id": "Sampai jumpa, Mark! Selamat malam.",
+     "ko": "또 봐요, 마크! 좋은 밤 되세요.",
+     "gloss": "selamat=축복·안녕 malam=밤",
+     "note": "selamat + 시간대 = 인사 (selamat pagi/siang/sore/malam).",
+     "tags": ["farewell", "greeting:selamat"]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "첫 만남",
+   "emoji": "☕",
+   "scenario": "토요일 카페 — 늦은 Mark, 커피 주문, 서로 알아가기, 렌당 약속 재확인",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "id": "Mark! Di sini!",
+     "ko": "마크! 여기예요!",
+     "gloss": "di sini=여기",
+     "note": "di sini(여기)·di situ(거기)·di sana(저기) 3단 지시.",
+     "tags": ["deixis:sini"]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "id": "Halo, Sari! Maaf, aku telat sedikit.",
+     "ko": "안녕하세요, 사리! 미안해요, 조금 늦었어요.",
+     "gloss": "maaf=미안 telat=늦다 sedikit=조금",
+     "note": "maaf = 사과. sedikit 은 문미에서 '조금'.",
+     "tags": ["apology:maaf"]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "id": "Tidak apa-apa. Baru lima menit, kok.",
+     "ms": "Tak apa. Baru lima minit, kok.",
+     "ko": "괜찮아요. 겨우 5분인걸요.",
+     "gloss": "lima=5 menit=분 kok=(가벼운 반박·안심)",
+     "note": "소사 kok = '~인걸, 뭘'. baru + 수량 = 겨우 ~밖에. MS 철자 minit.",
+     "tags": ["particle:kok", "aspect:baru"]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "id": "Jalanan macet sekali.",
+     "ko": "길이 엄청 막혔어요.",
+     "gloss": "jalanan=도로 macet=막히다",
+     "note": "macet = 교통 체증 (자카르타 필수 단어!). jalanan = jalan+-an (도로 전반).",
+     "tags": ["affix:-an", "vocab:macet"]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "id": "Biasa, Jakarta memang begitu.",
+     "ko": "늘 그래요, 자카르타가 원래 그렇죠.",
+     "gloss": "biasa=보통·늘 있는 일 memang=원래·정말 begitu=그렇게",
+     "note": "memang = '원래, 사실'. begitu = begini(이렇게)의 짝.",
+     "tags": ["adv:memang", "deixis:begitu"]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "id": "Kafe ini bagus. Kamu sering ke sini?",
+     "ko": "이 카페 좋네요. 여기 자주 와요?",
+     "gloss": "ini=이 ke sini=여기로",
+     "note": "kafe ini = 카페+이 (지시사도 후치!). ke sini = 여기로 (동사 datang 생략).",
+     "tags": ["order:DM", "ellipsis"]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "id": "Setiap hari! Kan aku kerja di sini.",
+     "ko": "매일요! 저 여기서 일하잖아요.",
+     "gloss": "kan=~잖아",
+     "note": "소사 kan = 상대도 아는 사실 환기 '~잖아'.",
+     "tags": ["particle:kan"]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "id": "Oh iya, benar. Aku lupa.",
+     "ko": "아 맞다, 그렇죠. 깜빡했어요.",
+     "gloss": "benar=맞다 lupa=잊다",
+     "note": "lupa = 잊다 (아무 접사 없이 그대로 사용).",
+     "tags": ["verb:lupa"]
+    },
+    {
+     "num": 9,
+     "speaker": "B",
+     "id": "Kamu mau minum apa?",
+     "ko": "뭐 마실래요?",
+     "gloss": "mau=원하다 minum=마시다",
+     "note": "mau + 동사 + apa = 뭘 ~할래? (주문 표현).",
+     "tags": ["question:apa", "ordering"]
+    },
+    {
+     "num": 10,
+     "speaker": "A",
+     "id": "Kopi hitam saja. Tidak pakai gula.",
+     "ko": "블랙커피로 할게요. 설탕은 빼고요.",
+     "gloss": "hitam=검은 pakai=사용하다 gula=설탕",
+     "note": "kopi hitam = 커피+검은. tidak pakai X = X 빼고 (주문 필수 표현).",
+     "tags": ["ordering", "order:DM", "verb:pakai"]
+    },
+    {
+     "num": 11,
+     "speaker": "B",
+     "id": "Oke. Aku pesan dulu, ya.",
+     "ko": "알겠어요. 먼저 주문할게요.",
+     "gloss": "pesan=주문하다 dulu=먼저",
+     "note": "동사 + dulu = 먼저 ~하다. pesan 은 '주문하다·메시지' 겸용.",
+     "tags": ["adv:dulu", "verb:pesan"]
+    },
+    {
+     "num": 12,
+     "speaker": "A",
+     "id": "Terima kasih. Aku yang bayar, dong.",
+     "ko": "고마워요. 계산은 제가 해야죠.",
+     "gloss": "yang=~하는 쪽 bayar=내다 dong=(당연·응석)",
+     "note": "aku yang bayar = '내가 (바로 그) 내는 사람' — yang 강조 구문. 소사 dong = '당연히 ~해야지'.",
+     "tags": ["focus:yang", "particle:dong"]
+    },
+    {
+     "num": 13,
+     "speaker": "B",
+     "id": "Tidak usah! Kamu kan tamu.",
+     "ms": "Tak payah! Awak kan tetamu.",
+     "ko": "그럴 필요 없어요! 손님이잖아요.",
+     "gloss": "tidak usah=~할 필요 없다 tamu=손님",
+     "note": "tidak usah = 부드러운 거절 '안 그래도 돼'. MS 는 tak payah, tamu→tetamu.",
+     "tags": ["idiom:tidak-usah", "particle:kan"]
+    },
+    {
+     "num": 14,
+     "speaker": "A",
+     "id": "Baiklah. Lain kali aku yang traktir.",
+     "ms": "Baiklah. Lain kali aku yang belanja.",
+     "ko": "알겠어요. 다음엔 제가 살게요.",
+     "gloss": "lain kali=다음번 traktir=한턱내다",
+     "note": "traktir = 한턱내다. MS 는 belanja (ID 에서 belanja 는 '쇼핑'! 뜻 충돌 주의).",
+     "tags": ["vocab:traktir", "variant-trap"]
+    },
+    {
+     "num": 15,
+     "speaker": "B",
+     "id": "Nah, itu baru adil.",
+     "ko": "그래요, 그래야 공평하죠.",
+     "gloss": "nah=자·그래 adil=공평한",
+     "note": "nah = 동의·주의 환기. itu baru X = '그게 바로 X지'.",
+     "tags": ["particle:nah", "idiom:itu-baru"]
+    },
+    {
+     "num": 16,
+     "speaker": "A",
+     "id": "Bahasa Indonesia kamu cepat sekali. Aku belum mengerti semua.",
+     "ko": "인도네시아어가 너무 빨라요. 아직 다 못 알아들어요.",
+     "gloss": "cepat=빠른 mengerti=이해하다 semua=전부",
+     "note": "mengerti = meng-+erti (이해하다). belum = '아직 안' (나중엔 할 것 암시).",
+     "tags": ["affix:meN-", "aspect:belum"]
+    },
+    {
+     "num": 17,
+     "speaker": "B",
+     "id": "Maaf! Aku bicara pelan-pelan, ya.",
+     "ms": "Maaf! Aku cakap perlahan-lahan, ya.",
+     "ko": "미안해요! 천천히 말할게요.",
+     "gloss": "bicara=말하다 pelan-pelan=천천히",
+     "note": "중첩 부사 pelan-pelan. MS 는 bicara 대신 cakap.",
+     "tags": ["reduplication", "variant:cakap"]
+    },
+    {
+     "num": 18,
+     "speaker": "A",
+     "id": "Terima kasih. Pelan-pelan aku bisa mengerti.",
+     "ko": "고마워요. 천천히면 알아들을 수 있어요.",
+     "note": "부사구를 문두로 이동 가능 (어순 유연).",
+     "tags": ["word-order"]
+    },
+    {
+     "num": 19,
+     "speaker": "B",
+     "id": "Kata siapa bahasa kamu jelek? Sudah bagus, kok!",
+     "ko": "누가 당신 언어가 형편없대요? 이미 잘하는걸요!",
+     "gloss": "kata siapa=누가 그래",
+     "note": "kata siapa = '누가 그래?' 반박 관용구. sudah bagus = 이미 좋다.",
+     "tags": ["idiom:kata-siapa", "particle:kok"]
+    },
+    {
+     "num": 20,
+     "speaker": "A",
+     "id": "Kamu terlalu baik.",
+     "ko": "너무 친절하시네요.",
+     "gloss": "terlalu=너무(과도)",
+     "note": "terlalu + 형용사 = 지나치게 ~한. ter- 접두사와 다른 독립 부사.",
+     "tags": ["adv:terlalu"]
+    },
+    {
+     "num": 21,
+     "speaker": "B",
+     "id": "Hahaha. Oh iya, ini kopinya.",
+     "ko": "하하. 아 맞다, 여기 커피요.",
+     "gloss": "kopi-nya=그 커피",
+     "note": "-nya 한정 용법: kopinya = '(주문한 바로 그) 커피'. 영어 the 에 가까움.",
+     "tags": ["affix:-nya"]
+    },
+    {
+     "num": 22,
+     "speaker": "A",
+     "id": "Wah, harum sekali. Ini kopi apa?",
+     "ko": "와, 향이 진짜 좋네요. 이거 무슨 커피예요?",
+     "gloss": "harum=향기로운",
+     "note": "kopi apa = 커피+무엇 (종류 묻기).",
+     "tags": ["question:apa", "adj:harum"]
+    },
+    {
+     "num": 23,
+     "speaker": "B",
+     "id": "Kopi Gayo, dari Aceh.",
+     "ko": "가요 커피예요, 아체산이요.",
+     "gloss": "dari=~에서·~산",
+     "note": "dari = 출신·유래 (사람·물건 모두).",
+     "tags": ["prep:dari"]
+    },
+    {
+     "num": 24,
+     "speaker": "A",
+     "id": "Enak! Pahitnya pas.",
+     "ko": "맛있어요! 쓴맛이 딱 좋아요.",
+     "gloss": "pahit-nya=쓴맛이 pas=딱 맞다",
+     "note": "형용사+-nya = 명사화 (pahitnya = 그 쓴 정도). pas = 딱 맞음.",
+     "tags": ["affix:-nya", "adj:pas"]
+    },
+    {
+     "num": 25,
+     "speaker": "B",
+     "id": "Kan? Kopi Indonesia terbaik di dunia.",
+     "ko": "그렇죠? 인도네시아 커피가 세계 최고예요.",
+     "gloss": "ter-baik=가장 좋은 dunia=세계",
+     "note": "ter-+형용사 = 최상급 (terbaik = 최고). kan 단독 = '그렇지?'.",
+     "tags": ["affix:ter-", "superlative"]
+    },
+    {
+     "num": 26,
+     "speaker": "A",
+     "id": "Di Korea, kopi seperti ini mahal sekali.",
+     "ko": "한국에선 이런 커피 엄청 비싸요.",
+     "gloss": "seperti=~같은 mahal=비싼",
+     "note": "seperti ini = 이것 같은 → '이런'.",
+     "tags": ["prep:seperti", "adj:mahal"]
+    },
+    {
+     "num": 27,
+     "speaker": "B",
+     "id": "Di sini murah. Makanya, jangan pulang ke Korea.",
+     "ko": "여긴 싸요. 그러니까 한국 돌아가지 마요.",
+     "gloss": "murah=싼 makanya=그러니까 pulang=집·고국에 돌아가다",
+     "note": "makanya = maka+-nya '그러니까'. pulang = '(자기 자리로) 돌아가다' 전용 동사.",
+     "tags": ["conj:makanya", "verb:pulang", "humor"]
+    },
+    {
+     "num": 28,
+     "speaker": "A",
+     "id": "Hahaha. Kalau ada kamu, aku tidak mau pulang.",
+     "ko": "하하. 당신이 있으면 돌아가고 싶지 않아요.",
+     "gloss": "kalau=만약 ada=있다",
+     "note": "kalau ada kamu = 네가 있다면. 플러팅 라인!",
+     "tags": ["conj:kalau", "flirting"]
+    },
+    {
+     "num": 29,
+     "speaker": "B",
+     "id": "Aduh, gombal!",
+     "ko": "어머, 느끼해!",
+     "gloss": "aduh=어이쿠 gombal=입발린 말",
+     "note": "aduh = 감탄사. gombal = 달콤한 거짓말·작업 멘트 (구어 필수 단어).",
+     "tags": ["exclamation:aduh", "colloquial:gombal"]
+    },
+    {
+     "num": 30,
+     "speaker": "A",
+     "id": "Gombal itu apa?",
+     "ko": "곰발이 뭐예요?",
+     "note": "X itu apa? = X가 뭐예요? (뜻 묻기 만능 패턴).",
+     "tags": ["pattern:itu-apa"]
+    },
+    {
+     "num": 31,
+     "speaker": "B",
+     "id": "Artinya... kata-kata manis yang bohong.",
+     "ko": "뜻은... 거짓인 달콤한 말이요.",
+     "gloss": "arti-nya=그 뜻은 kata-kata=말들 manis=달콤한 bohong=거짓",
+     "note": "kata-kata = 중첩 복수. yang = 관계절 연결 (달콤한 말+yang+거짓).",
+     "tags": ["relative:yang", "reduplication"]
+    },
+    {
+     "num": 32,
+     "speaker": "A",
+     "id": "Bukan bohong! Aku serius.",
+     "ko": "거짓말 아니에요! 진심이에요.",
+     "gloss": "bukan=~이 아니다(명사 부정)",
+     "note": "bukan = 명사 부정 / tidak = 동사·형용사 부정. 구별 필수!",
+     "tags": ["negation:bukan-vs-tidak"]
+    },
+    {
+     "num": 33,
+     "speaker": "B",
+     "id": "Iya, iya. Aku percaya, deh.",
+     "ko": "네네. 믿어 줄게요.",
+     "gloss": "percaya=믿다",
+     "note": "iya, iya 반복 = '알았어 알았어'. deh = 양보 '~할게 뭐'.",
+     "tags": ["particle:deh", "verb:percaya"]
+    },
+    {
+     "num": 34,
+     "speaker": "A",
+     "id": "Minggu depan kamu masak rendang untuk aku, kan?",
+     "ko": "다음 주에 렌당 만들어 주는 거 맞죠?",
+     "gloss": "minggu depan=다음 주 untuk=~를 위해",
+     "note": "minggu depan = 주+앞(다음 주) / minggu lalu = 지난주. untuk = ~를 위해.",
+     "tags": ["time:depan", "prep:untuk", "particle:kan"]
+    },
+    {
+     "num": 35,
+     "speaker": "B",
+     "id": "Iya! Datang ke rumahku jam dua belas.",
+     "ko": "네! 12시에 우리 집으로 와요.",
+     "gloss": "rumah-ku=내 집 dua belas=12",
+     "note": "-ku = aku 의 소유 접미형 (rumahku = 내 집). belas = 11~19 의 단위.",
+     "tags": ["affix:-ku", "number:belas"]
+    },
+    {
+     "num": 36,
+     "speaker": "A",
+     "id": "Aku bawa apa? Buah? Kue?",
+     "ko": "뭐 가져갈까요? 과일? 케이크?",
+     "gloss": "bawa=가져가다 buah=과일 kue=과자·케이크",
+     "note": "손님 문화: 방문 시 선물 제안이 예의.",
+     "tags": ["verb:bawa", "culture"]
+    },
+    {
+     "num": 37,
+     "speaker": "B",
+     "id": "Tidak usah bawa apa-apa. Datang saja.",
+     "ms": "Tak payah bawa apa-apa. Datang saja.",
+     "ko": "아무것도 안 가져와도 돼요. 그냥 와요.",
+     "gloss": "apa-apa=아무것도",
+     "note": "부정문 + apa-apa = 아무것도 (~않다). 동사 + saja = 그냥 ~해.",
+     "tags": ["reduplication:apa-apa", "particle:saja"]
+    },
+    {
+     "num": 38,
+     "speaker": "A",
+     "id": "Baik. Aku tidak sabar!",
+     "ko": "알겠어요. 기대돼요!",
+     "gloss": "sabar=참을성 있는",
+     "note": "tidak sabar = 직역 '못 참겠다' → 기대된다 (영어 can't wait).",
+     "tags": ["idiom:tidak-sabar"]
+    },
+    {
+     "num": 39,
+     "speaker": "B",
+     "id": "Aku juga. Hati-hati di jalan, ya.",
+     "ko": "저도요. 조심히 가요.",
+     "gloss": "juga=~도 hati-hati=조심히",
+     "note": "hati(마음) 중첩 = 조심히. 헤어질 때 관용구.",
+     "tags": ["reduplication:hati-hati", "farewell"]
+    },
+    {
+     "num": 40,
+     "speaker": "A",
+     "id": "Sampai jumpa, Sari!",
+     "ko": "또 봐요, 사리!",
+     "note": "sampai jumpa — ID·MS 공통 작별 인사.",
+     "tags": ["farewell"]
     }
    ]
   }
