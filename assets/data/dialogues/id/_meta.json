@@ -1,0 +1,50 @@
+{
+ "lang": "id",
+ "variant": "id",
+ "label": "인도네시아어 표준어 (Bahasa Indonesia baku) / 자카르타 구어 참고",
+ "version": "v1-2026-08-16",
+ "schema": "v4",
+ "levels": {
+  "L1": {
+   "file": "L1.json",
+   "schema": "5ep40turn",
+   "target_turns": 200,
+   "current_turns": 10,
+   "status": "scaffold — ep1 10턴 샘플"
+  },
+  "L2": {
+   "file": null,
+   "schema": "23dial",
+   "target_turns": 300,
+   "current_turns": 0,
+   "status": "미작성"
+  },
+  "L3": {
+   "file": null,
+   "schema": "23dial",
+   "target_turns": 304,
+   "current_turns": 0,
+   "status": "미작성"
+  },
+  "L4": {
+   "file": null,
+   "schema": "TBD",
+   "target_turns": null,
+   "status": "미결정"
+  }
+ },
+ "characters_canonical": {
+  "A": {"name": "Mark", "role": "외국인 학습자(남)", "gender": "male"},
+  "B": {"name": "Sari", "role": "인도네시아 여성(여)", "gender": "female"}
+ },
+ "turn_fields": {
+  "num": "int",
+  "speaker": "A|B",
+  "id": "인도네시아어 원문",
+  "ms": "말레이어 대응문 (선택 — 차이가 있을 때만)",
+  "ko": "한국어 뜻",
+  "gloss": "단어별 뜻 (선택)",
+  "note": "학습 포인트 (접사·소사·어순·대명사)",
+  "tags": ["greeting", "affix:ber-", "particle:ya", "pronoun:saya"]
+ }
+}

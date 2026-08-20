@@ -1,0 +1,126 @@
+{
+ "level": "L1",
+ "variant": "id",
+ "version": "v1-2026-08-16",
+ "schema": "v5-L1-5ep40turn-scaffold",
+ "title": "L1 — 매칭 narrative (200 turn 목표)",
+ "description": "외국인 Mark 와 인도네시아 여성 Sari 의 첫 만남 → 약속 → 가족 → 갈등 → 미래. 5 ep × 40 turn = 200. (현재 ep1 10턴 샘플)",
+ "kpi": {
+  "episodes_target": 5,
+  "turns_per_episode": 40,
+  "turns_total_target": 200,
+  "turns_total_current": 10,
+  "progress_pct": 5.0
+ },
+ "characters": {
+  "A": {"name": "Mark", "role": "외국인 학습자(남)", "gender": "male", "voice": "id-ID male"},
+  "B": {"name": "Sari", "role": "인도네시아 여성(여)", "gender": "female", "voice": "id-ID female"}
+ },
+ "particles": ["ya", "sih", "dong", "kok", "deh", "lho", "kan", "nih", "tuh"],
+ "function_words": ["sudah", "belum", "sedang", "akan", "masih", "baru", "bisa", "mau", "harus", "boleh"],
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "매칭",
+   "emoji": "💕",
+   "scenario": "Mark 매칭앱 첫 메시지 → Sari 자기소개 → 자카르타 거주 확인 → 인도네시아어 학습 hook",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "id": "Halo! Apa kabar?",
+     "ms": "Helo! Apa khabar?",
+     "ko": "안녕하세요! 잘 지내세요?",
+     "gloss": "halo=안녕 apa=무엇 kabar=소식",
+     "note": "apa kabar = 인사 관용구 (직역: 소식이 뭐예요?). MS 는 khabar 철자.",
+     "tags": ["greeting", "idiom:apa-kabar"]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "id": "Baik, terima kasih. Kamu siapa, ya?",
+     "ms": "Baik, terima kasih. Awak siapa, ya?",
+     "ko": "잘 지내요, 고마워요. 그런데 누구세요?",
+     "gloss": "baik=좋은 terima kasih=고맙다 kamu=너 siapa=누구 ya=(부드러운 확인)",
+     "note": "문말 소사 ya — 부드럽게 묻기. 의문사 siapa 는 문장 끝에도 옴 (어순 자유). MS 는 kamu 대신 awak.",
+     "tags": ["particle:ya", "pronoun:kamu", "question:siapa"]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "id": "Nama saya Mark. Saya orang Korea.",
+     "ko": "제 이름은 마크예요. 저는 한국 사람이에요.",
+     "gloss": "nama=이름 saya=나(의) orang=사람 Korea=한국",
+     "note": "수식어 후치 (DM 법칙): nama saya = 이름+나의 / orang Korea = 사람+한국. be동사 없음.",
+     "tags": ["order:DM", "pronoun:saya", "no-copula"]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "id": "Oh, senang berkenalan! Nama saya Sari.",
+     "ko": "아, 만나서 반가워요! 제 이름은 사리예요.",
+     "gloss": "senang=기쁜 ber-kenal-an=서로 알게 되다",
+     "note": "ber-…-an 접환사: kenal(알다) → berkenalan(서로 알게 되다, 통성명하다).",
+     "tags": ["affix:ber-an", "greeting"]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "id": "Sari tinggal di Jakarta?",
+     "ko": "사리 씨는 자카르타에 살아요?",
+     "gloss": "tinggal=살다 di=~에",
+     "note": "이름을 2인칭 대신 사용 (kamu 보다 정중). 의문문은 어순 그대로 + 억양만 올림.",
+     "tags": ["pronoun:name-as-you", "question:intonation", "prep:di"]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "id": "Iya, saya tinggal di Jakarta Selatan. Kamu?",
+     "ms": "Ya, saya tinggal di Jakarta Selatan. Awak?",
+     "ko": "네, 남부 자카르타에 살아요. 당신은요?",
+     "gloss": "iya=네 selatan=남쪽",
+     "note": "Jakarta Selatan = 자카르타+남쪽 (수식어 후치). 구어 iya / 표준 ya.",
+     "tags": ["order:DM", "yes:iya"]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "id": "Saya baru datang ke Jakarta minggu lalu.",
+     "ko": "저는 지난주에 자카르타에 막 왔어요.",
+     "gloss": "baru=막·방금 datang=오다 ke=~로 minggu=주 lalu=지난",
+     "note": "baru + 동사 = 막 ~했다 (완료 근접). minggu lalu = 주+지난 (후치).",
+     "tags": ["aspect:baru", "prep:ke", "time:minggu-lalu"]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "id": "Wah, sudah bisa bahasa Indonesia?",
+     "ms": "Wah, dah boleh cakap bahasa Indonesia?",
+     "ko": "와, 벌써 인도네시아어 할 수 있어요?",
+     "gloss": "wah=와 sudah=이미 bisa=할 수 있다 bahasa=언어",
+     "note": "sudah = 완료상 표지 / bisa = 능력. 주어 kamu 생략. MS 는 bisa 대신 boleh.",
+     "tags": ["aspect:sudah", "modal:bisa", "ellipsis"]
+    },
+    {
+     "num": 9,
+     "speaker": "A",
+     "id": "Sedikit-sedikit. Saya masih belajar.",
+     "ko": "조금씩요. 아직 배우는 중이에요.",
+     "gloss": "sedikit=조금 masih=아직 bel-ajar=배우다",
+     "note": "중첩(kata ulang) sedikit-sedikit = 조금씩. masih = 진행·지속. belajar = ber-+ajar 의 변이형 bel-.",
+     "tags": ["reduplication", "aspect:masih", "affix:ber-"]
+    },
+    {
+     "num": 10,
+     "speaker": "B",
+     "id": "Bagus! Nanti kita ngobrol lagi, ya.",
+     "ms": "Bagus! Nanti kita berbual lagi, ya.",
+     "ko": "좋아요! 나중에 또 얘기해요.",
+     "gloss": "bagus=좋다 nanti=나중에 kita=우리(청자 포함) ngobrol=수다 떨다 lagi=다시",
+     "note": "kita(청자 포함) vs kami(청자 제외). ngobrol 은 자카르타 구어 (표준 mengobrol). MS 는 berbual.",
+     "tags": ["pronoun:kita", "colloquial:ngobrol", "particle:ya"]
+    }
+   ]
+  }
+ ]
+}

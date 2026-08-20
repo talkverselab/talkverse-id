@@ -1,0 +1,31 @@
+{
+ "version": "v1-2026-08-16",
+ "note": "인도네시아어(id) ↔ 말레이어(ms) 차이 샘플. category: vocab|spelling|pronoun|idiom.",
+ "pairs": [
+  {"id": "bisa", "ms": "boleh", "ko": "할 수 있다", "category": "vocab", "note": "MS 에서 bisa 는 '독(毒)'. ID 의 boleh 는 '해도 된다(허가)'."},
+  {"id": "kamu / Anda", "ms": "awak / anda", "ko": "너 / 당신", "category": "pronoun", "note": "MS 구어 awak 이 매우 흔함. ID 자카르타 구어 lu/gue."},
+  {"id": "aku / saya", "ms": "aku / saya", "ko": "나 (친근 / 정중)", "category": "pronoun", "note": "양쪽 동일. MS 구어에서 saya 사용 빈도가 더 높음."},
+  {"id": "mobil", "ms": "kereta", "ko": "자동차", "category": "vocab", "note": "ID 의 kereta 는 '기차'(kereta api). 혼동 주의."},
+  {"id": "kantor", "ms": "pejabat", "ko": "사무실", "category": "vocab", "note": "ID 의 pejabat 은 '공무원·관리'."},
+  {"id": "polisi", "ms": "polis", "ko": "경찰", "category": "vocab", "note": "MS 의 polisi 는 '보험 증권'."},
+  {"id": "sepeda", "ms": "basikal", "ko": "자전거", "category": "vocab", "note": "MS 는 영어 bicycle 차용."},
+  {"id": "toko", "ms": "kedai", "ko": "가게", "category": "vocab", "note": "ID 에서도 kedai 는 '작은 식당·노점' 의미로 씀."},
+  {"id": "uang", "ms": "wang / duit", "ko": "돈", "category": "vocab", "note": "duit 는 양쪽 구어 공통."},
+  {"id": "apa kabar", "ms": "apa khabar", "ko": "잘 지내요?", "category": "spelling", "note": "kh 철자 (아랍어 차용어 표기 차이)."},
+  {"id": "bicara", "ms": "bercakap / cakap", "ko": "말하다", "category": "vocab", "note": "ID 의 cakap 은 '유능한·잘생긴'."},
+  {"id": "handphone (HP)", "ms": "telefon bimbit", "ko": "휴대폰", "category": "vocab", "note": "ID 구어 'HP(하뻬)'."},
+  {"id": "karena", "ms": "kerana", "ko": "왜냐하면", "category": "spelling", "note": "모음 표기 차이."},
+  {"id": "gratis", "ms": "percuma", "ko": "무료", "category": "vocab", "note": "ID 의 percuma 는 '헛된·소용없는'. 완전 반대 뉘앙스."},
+  {"id": "kamar", "ms": "bilik", "ko": "방", "category": "vocab", "note": "ID 의 bilik 은 '작은 칸막이 방'."},
+  {"id": "televisi", "ms": "televisyen", "ko": "텔레비전", "category": "spelling", "note": "MS 는 영어식 -syen, ID 는 네덜란드식 -si."},
+  {"id": "stasiun", "ms": "stesen", "ko": "역", "category": "spelling", "note": "네덜란드어 station vs 영어 station 차용."},
+  {"id": "apotek", "ms": "farmasi", "ko": "약국", "category": "vocab", "note": "ID 는 네덜란드어 apotheek."},
+  {"id": "Agustus", "ms": "Ogos", "ko": "8월", "category": "vocab", "note": "월 이름: ID 는 네덜란드/라틴식, MS 는 영어식 (Januari 공통, Mac/Maret, Ogos/Agustus)."},
+  {"id": "Minggu", "ms": "Ahad", "ko": "일요일", "category": "vocab", "note": "MS 는 아랍어 Ahad. ID 의 minggu 는 '주(週)'로도 씀."},
+  {"id": "tidak apa-apa", "ms": "tak apa", "ko": "괜찮아요", "category": "idiom", "note": "MS 구어 tak = tidak."},
+  {"id": "sudah", "ms": "sudah / dah", "ko": "이미·벌써", "category": "idiom", "note": "MS 구어 축약 dah."},
+  {"id": "ngobrol", "ms": "berbual", "ko": "수다 떨다", "category": "vocab", "note": "ID 자카르타 구어. 표준 mengobrol."},
+  {"id": "pusing", "ms": "pening", "ko": "어지럽다·머리 아프다", "category": "vocab", "note": "MS 의 pusing 은 '돌다·회전하다'."},
+  {"id": "butuh", "ms": "perlu", "ko": "필요하다", "category": "vocab", "note": "MS 에서 butuh 는 비속어. 절대 주의!"}
+ ]
+}

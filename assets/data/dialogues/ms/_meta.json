@@ -1,0 +1,17 @@
+{
+ "lang": "ms",
+ "variant": "ms",
+ "label": "말레이시아 표준 말레이어 (Bahasa Melayu Malaysia)",
+ "version": "v1-2026-08-16",
+ "schema": "v4",
+ "policy": "별도 L*.json 을 만들지 않고 id/L*.json 각 턴의 `ms` 필드로 차이만 기록. 차이가 없는 턴은 ms 생략.",
+ "levels": {
+  "L1": {"file": null, "status": "id/L1.json 의 ms 필드 참조"},
+  "L2": {"file": null, "status": "미작성"},
+  "L3": {"file": null, "status": "미작성"}
+ },
+ "characters_canonical": {
+  "A": {"name": "Mark", "role": "외국인 학습자(남)", "gender": "male"},
+  "B": {"name": "Aisyah", "role": "말레이시아 여성(여)", "gender": "female"}
+ }
+}
