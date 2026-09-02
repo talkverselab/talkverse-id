@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../core/theme.dart';
 import '../data/db/app_database.dart';
 import '../main.dart';
+import '../services/memorized_store.dart';
 import '../services/tts_service.dart';
 import '../widgets/affix_text.dart';
 
@@ -22,6 +23,9 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
   @override
   void initState() {
     super.initState();
+    MemorizedStore.load().then((_) {
+      if (mounted) setState(() {});
+    });
     rootRepo.topWords(limit: 2500).then((v) {
       if (mounted) setState(() => _words = v);
     });
@@ -73,9 +77,38 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
                           ].join(' · '),
                           style: const TextStyle(fontSize: 11),
                         ),
-                        trailing: IconButton(
-                          icon: const Icon(Icons.volume_up, size: 18, color: AppColors.merah),
-                          onPressed: () => TtsService.instance.speak(w.word),
+                        trailing: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            ValueListenableBuilder<int>(
+                              valueListenable: MemorizedStore.version,
+                              builder: (context, _, _) {
+                                final memorized =
+                                    MemorizedStore.contains(w.word);
+                                return IconButton(
+                                  tooltip: memorized ? '외움 해제' : '외웠어요',
+                                  icon: Icon(
+                                    memorized
+                                        ? Icons.check_circle
+                                        : Icons.radio_button_unchecked,
+                                    size: 18,
+                                    color: memorized
+                                        ? AppColors.merah
+                                        : AppColors.kayuLight
+                                            .withValues(alpha: 0.6),
+                                  ),
+                                  onPressed: () =>
+                                      MemorizedStore.toggle(w.word),
+                                );
+                              },
+                            ),
+                            IconButton(
+                              icon: const Icon(Icons.volume_up,
+                                  size: 18, color: AppColors.merah),
+                              onPressed: () =>
+                                  TtsService.instance.speak(w.word),
+                            ),
+                          ],
                         ),
                       );
                     },
