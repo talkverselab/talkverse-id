@@ -109,7 +109,7 @@ DB 컬럼: `zh`→`body`, `pinyin/tones`→`gloss`, `dialect`→`variant`, `Hanz
 ## 미결 (`memo/id/decisions/` 에 결정 로그 예정)
 
 1. 앱 이름/패키지 최종 (인도네시아어유니버스 vs 인니·말레이유니버스 / `com.talkverse.indo_universe`)
-2. 어근 cliff 실측 — 코퍼스(OpenSubtitles id / Leipzig / TED id) + stemmer 선택 (Sastrawi vs 자체 AffixUtil)
+2. 어근 cliff 실측 — 코퍼스(공개 말뭉치 id / Leipzig / TED id) + stemmer 선택 (Sastrawi vs 자체 AffixUtil)
 3. MS 콘텐츠 깊이 — 턴별 `ms` 필드만 vs 별도 `ms/L1.json` (등장인물 Aisyah)
 4. L1 캐릭터 이름 (Sari) 확정, L2/L3 시나리오
 5. TTS 정책 (시스템 flutter_tts dev → 클라우드 TTS release), 사전 녹음 여부
@@ -120,3 +120,20 @@ DB 컬럼: `zh`→`body`, `pinyin/tones`→`gloss`, `dialect`→`variant`, `Hanz
 ## 메모 (SOT)
 
 `C:/Users/Johnjeon/OneDrive/memo/id/` (생성 예정) — zh 와 동일 구성: `HANDOFF.md`, `architecture.md`, `content-plan.md`, `build.md`, `decisions/`.
+
+## 배포 · 앱 업데이트 (2026-09-10 통일)
+
+- **리포 이름**: `talkverselab/talkverse-id` (이전 `talkverse-id` — GitHub 리다이렉트되지만 remote를 새 이름으로 바꿔 두세요)
+  ```
+  git remote set-url origin https://github.com/talkverselab/talkverse-id.git
+  ```
+- **푸시하면 자동 배포**: master 푸시 → GitHub Actions가 서명된 APK와 `latest.json`을 `latest` 릴리스에 올립니다.
+  `**.md`만 바꾼 푸시는 빌드하지 않습니다.
+- **폰에서 업데이트**: 앱의 설정(프로필) 화면 → **「앱 업데이트」** → 최신 빌드 확인 → 내려받아 설치.
+  케이블·adb 없이 갱신됩니다. 첫 설치 때 한 번 「출처를 알 수 없는 앱 설치」 허용이 필요합니다.
+- **빌드 번호**는 CI 실행 번호(`--build-number`)입니다. 로컬 `flutter build apk`로 만든 APK는
+  pubspec의 작은 번호를 쓰므로 앱이 늘 "새 빌드 있음"으로 표시합니다 — 정상입니다.
+- 관련 파일: `lib/services/update_service.dart`, `lib/screens/update_screen.dart`,
+  `android/app/src/main/kotlin/**/MainActivity.kt`, `android/app/src/main/res/xml/file_paths.xml`,
+  `.github/workflows/release.yml`
+- 구현 안내서: https://github.com/talkverselab/talkverse-th/blob/master/docs/in-app-update-via-github.md

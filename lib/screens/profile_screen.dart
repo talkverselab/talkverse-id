@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'update_screen.dart';
+
 import '../core/constants.dart';
 import '../core/theme.dart';
 import '../services/tts_service.dart';
@@ -23,6 +25,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          const UpdateEntryTile(),
           Container(
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(

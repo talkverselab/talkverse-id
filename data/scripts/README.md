@@ -4,7 +4,7 @@
 
 | # | 스크립트 | 입력 | 출력 |
 |---|---|---|---|
-| 01 | `01_extract_subtitles.py` | OpenSubtitles id/ms | `data/corpus/*.txt` |
+| 01 | `01_extract_subtitles.py` | 공개 말뭉치 id/ms | `data/corpus/*.txt` |
 | 02 | `02_tokenize_freq.py` | corpus | `data/reports/freq_id.tsv` |
 | 03 | `03_stem_roots.py` | freq | 어근(kata dasar) 빈도 — Sastrawi/Nazief-Adriani stemmer |
 | 04 | `04_root_cliff.py` | 어근 빈도 | 어근 N개 → 청취 커버리지 cliff (zh 한자 cliff 대응) |
