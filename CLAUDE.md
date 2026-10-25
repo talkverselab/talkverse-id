@@ -73,6 +73,9 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
   ⚠ **맥미니(M4·M6)의 `~/.android/debug.keystore` 는 다른 키다**(M4 는 SHA-1 `BE:B3:…:0B:81`) — §1 의 `cp ~/.android/debug.keystore …` 를 여기서 하면 서명이 바뀐다.
   `signing-key.jks` 를 지우거나 덮어쓰지 말 것(없어지면 다른 언어 앱 폴더의 같은 파일이나 노트북에서 가져온다).
 
+- **앱 아이콘** = `~/.venvs/img/bin/python tools/make_icon.py ID`(talkverse.uk 톤: 파스텔 메시 바탕 + 남색 글자 + 하늘색→인디고 강조선, 일본어앱과 같은 생성기).
+  Android 레거시·라운드·적응형과 iOS AppIcon 을 모두 덮어쓴다. `flutter_launcher_icons` 는 2026-10-25 뺐다 — 다시 넣어 돌리지 말 것.
+
 관련 파일: `lib/services/update_service.dart`, `lib/screens/update_screen.dart`,
 `android/app/src/main/kotlin/**/MainActivity.kt`(설치 메서드 채널),
 `android/app/src/main/res/xml/file_paths.xml`, `.github/workflows/release.yml`
