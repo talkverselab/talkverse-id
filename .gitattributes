@@ -1,0 +1,6 @@
+# 줄 끝은 LF 로 통일 (2026-10-25 — 노트북에서 옮겨 온 CRLF 사본이 수정 표시 44개로 보이던 문제)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jks binary
+*.apk binary
