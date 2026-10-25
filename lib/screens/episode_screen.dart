@@ -85,7 +85,7 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
           IconButton(
             tooltip: '한국어 뜻',
             icon: Icon(_showKo ? Icons.translate : Icons.translate_outlined,
-                color: _showKo ? AppColors.emasBright : AppColors.gading),
+                color: _showKo ? AppColors.merah : AppColors.emasDeep),
             onPressed: () => setState(() => _showKo = !_showKo),
           ),
           IconButton(
@@ -93,14 +93,14 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
             icon: Text('MS',
                 style: TextStyle(
                   fontWeight: FontWeight.w900,
-                  color: _showMs ? AppColors.kuningMs : AppColors.gading,
+                  color: _showMs ? AppColors.biruMs : AppColors.emasDeep,
                 )),
             onPressed: () => setState(() => _showMs = !_showMs),
           ),
           IconButton(
             tooltip: '접사 색상',
             icon: Icon(Icons.palette,
-                color: _colorize ? AppColors.emasBright : AppColors.gading),
+                color: _colorize ? AppColors.merah : AppColors.emasDeep),
             onPressed: () => setState(() => _colorize = !_colorize),
           ),
         ],

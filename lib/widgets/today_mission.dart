@@ -27,13 +27,15 @@ class TodayMissionCard extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
+        clipBehavior: Clip.antiAlias,
         decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(18),
           gradient: const LinearGradient(
             colors: [AppColors.merahDeep, AppColors.merah],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
-          border: Border.all(color: AppColors.emas, width: 1.5),
+          border: Border.all(color: Colors.white.withValues(alpha: 0.25), width: 1),
           boxShadow: [
             BoxShadow(
               color: AppColors.merah.withValues(alpha: 0.3),

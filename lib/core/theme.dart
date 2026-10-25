@@ -1,35 +1,38 @@
 import 'package:flutter/material.dart';
 
-/// 인도네시아·말레이풍 컬러 팔레트 — "Merah Putih × Batik".
+/// 컬러 팔레트 — talkverse.uk 톤(2026-10-25).
 ///
-/// 국기의 붉은색(merah)을 메인으로, 바틱 소간(sogan) 갈색,
-/// 사원·왕궁의 금(emas), 열대 바다의 틸(laut)을 조합한다.
-/// 배경은 상아색(gading), 텍스트는 짙은 목재색(kayu).
+/// 흰 바탕 + 남색 글자 + 인디고 포인트 하나, 그 밖의 색은 절제한다.
+/// 이름(merah·emas·sogan…)은 옛 "Merah Putih × Batik" 팔레트에서 온 것이라
+/// 화면 코드가 그대로 쓰고, 값만 사이트 토큰(`--ink`·`--body`·`--accent`…)에 맞췄다.
 class AppColors {
-  // 主色 — 메라 (merah, 국기 빨강 / 사룽·바틱의 강조색)
-  static const Color merah = Color(0xFFCE1126);
-  static const Color merahDeep = Color(0xFF8E0B1A);
-  static const Color merahLight = Color(0xFFE8455A);
+  // 주색 — 사이트 `--accent` 인디고
+  static const Color merah = Color(0xFF635BFF);
+  static const Color merahDeep = Color(0xFF4B44D6); // `--accent-ink`
+  static const Color merahLight = Color(0xFFA9A4FF);
 
-  // 副色 — 에마스 (emas, 금박·왕궁·크바야 자수)
-  static const Color emas = Color(0xFFD4A12C);
-  static const Color emasBright = Color(0xFFF5C842);
-  static const Color emasDeep = Color(0xFF8B6914);
+  // 보조 — 옛 금색 자리. 테두리는 사이트 `--line` 계열, 밝은 강조는 히어로 피치
+  static const Color emas = Color(0xFFDDE3EC);
+  static const Color emasBright = Color(0xFFFFD39B);
+  static const Color emasDeep = Color(0xFF6B7C93); // `--muted`
 
-  // 소간 (sogan, 바틱 솔로·족자의 갈색)
-  static const Color sogan = Color(0xFF7B4B2A);
-  static const Color soganLight = Color(0xFFA9754C);
+  // 옛 바틱 갈색 자리 — 짙은 남색 계열
+  static const Color sogan = Color(0xFF1B3A5C);
+  static const Color soganLight = Color(0xFF6B7C93);
 
-  // 카유 (kayu, 짙은 목재 — 텍스트)
-  static const Color kayu = Color(0xFF2A1F16);
-  static const Color kayuLight = Color(0xFF5C4A3B);
+  // 글자 — `--ink` / `--body`
+  static const Color kayu = Color(0xFF0A2540);
+  static const Color kayuLight = Color(0xFF425466);
 
-  // 가딩 (gading, 상아색 배경)
-  static const Color gading = Color(0xFFFBF6EA);
-  static const Color gadingDeep = Color(0xFFF1E7D0);
+  // 바탕 — 흰색 / `--soft`
+  static const Color gading = Color(0xFFFFFFFF);
+  static const Color gadingDeep = Color(0xFFF6F9FC);
 
-  // 라웃 (laut, 열대 바다 틸 — 보조 강조)
-  static const Color laut = Color(0xFF00897B);
+  // 보조 강조 — 차분한 청록(완료·학습됨)
+  static const Color laut = Color(0xFF0E7C8C);
+
+  // 인도네시아어 카드색 — talkverse.uk 언어 카드의 `--c`
+  static const Color bahasa = Color(0xFFD04A4A);
 
   // 말레이 변이(ms) 강조 — 말레이시아 국기 파랑/노랑
   static const Color biruMs = Color(0xFF003F87);
@@ -64,16 +67,16 @@ class AppTheme {
       colorScheme: ColorScheme(
         brightness: Brightness.light,
         primary: AppColors.merah,
-        onPrimary: AppColors.gading,
+        onPrimary: Colors.white,
         primaryContainer: AppColors.merahLight,
         onPrimaryContainer: AppColors.kayu,
-        secondary: AppColors.emas,
-        onSecondary: AppColors.kayu,
+        secondary: AppColors.sogan,
+        onSecondary: Colors.white,
         secondaryContainer: AppColors.emasBright,
         onSecondaryContainer: AppColors.kayu,
         tertiary: AppColors.laut,
         onTertiary: AppColors.gading,
-        tertiaryContainer: const Color(0xFFB2DFDB),
+        tertiaryContainer: const Color(0xFFCDEFF2),
         onTertiaryContainer: AppColors.kayu,
         error: const Color(0xFFB00020),
         onError: Colors.white,
@@ -82,7 +85,7 @@ class AppTheme {
         surfaceContainerHighest: AppColors.gadingDeep,
         onSurfaceVariant: AppColors.kayuLight,
         outline: AppColors.emasDeep,
-        outlineVariant: const Color(0xFFDCCBA8),
+        outlineVariant: AppColors.emas,
       ),
       scaffoldBackgroundColor: AppColors.gading,
       fontFamily: 'Pretendard',
@@ -90,56 +93,81 @@ class AppTheme {
     );
 
     return base.copyWith(
+      textTheme: base.textTheme.apply(
+        bodyColor: AppColors.kayuLight,
+        displayColor: AppColors.kayu,
+      ),
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 0,
-        backgroundColor: AppColors.merah,
-        foregroundColor: AppColors.gading,
+        scrolledUnderElevation: 0,
+        backgroundColor: AppColors.gading,
+        surfaceTintColor: Colors.transparent,
+        foregroundColor: AppColors.kayu,
+        shape: Border(bottom: BorderSide(color: AppColors.emas, width: 1)),
         titleTextStyle: TextStyle(
-          color: AppColors.gading,
-          fontSize: 18,
-          fontWeight: FontWeight.w700,
-          letterSpacing: 1.2,
+          color: AppColors.kayu,
+          fontSize: 17,
+          fontWeight: FontWeight.w600,
+          letterSpacing: -0.3,
         ),
       ),
       cardTheme: CardThemeData(
         elevation: 0,
         color: AppColors.gading,
+        shadowColor: const Color(0x1A32325D),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(6),
-          side: const BorderSide(color: AppColors.emas, width: 0.8),
+          borderRadius: BorderRadius.circular(14),
+          side: const BorderSide(color: AppColors.emas, width: 1),
         ),
       ),
       navigationBarTheme: NavigationBarThemeData(
-        backgroundColor: AppColors.kayu,
-        indicatorColor: AppColors.merah,
+        backgroundColor: AppColors.gading,
+        surfaceTintColor: Colors.transparent,
+        indicatorColor: const Color(0xFFEFEEFE),
         labelTextStyle: WidgetStateProperty.resolveWith((states) {
           final selected = states.contains(WidgetState.selected);
           return TextStyle(
-            color: selected ? AppColors.emasBright : AppColors.gadingDeep,
+            color: selected ? AppColors.merah : AppColors.emasDeep,
             fontSize: 11,
-            fontWeight: FontWeight.w600,
+            fontWeight: selected ? FontWeight.w600 : FontWeight.w500,
           );
         }),
         iconTheme: WidgetStateProperty.resolveWith((states) {
           final selected = states.contains(WidgetState.selected);
           return IconThemeData(
-            color: selected ? AppColors.gading : AppColors.gadingDeep,
+            color: selected ? AppColors.merah : AppColors.emasDeep,
             size: 24,
           );
         }),
+      ),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(
+          backgroundColor: AppColors.kayu,
+          foregroundColor: Colors.white,
+          shape: const StadiumBorder(),
+          textStyle: const TextStyle(fontWeight: FontWeight.w600),
+        ),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          foregroundColor: AppColors.kayu,
+          side: const BorderSide(color: AppColors.emas),
+          shape: const StadiumBorder(),
+        ),
       ),
       chipTheme: ChipThemeData(
         backgroundColor: AppColors.gadingDeep,
         labelStyle:
             const TextStyle(color: AppColors.kayu, fontWeight: FontWeight.w600),
         side: const BorderSide(color: AppColors.emas),
+        shape: const StadiumBorder(),
         selectedColor: AppColors.merah,
         secondaryLabelStyle: const TextStyle(color: AppColors.gading),
       ),
       dividerTheme: const DividerThemeData(
         color: AppColors.emas,
-        thickness: 0.5,
+        thickness: 1,
       ),
       listTileTheme: const ListTileThemeData(
         iconColor: AppColors.merah,
