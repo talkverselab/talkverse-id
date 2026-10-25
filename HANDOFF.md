@@ -21,7 +21,7 @@
 
 ### 남은 일 (순서대로)
 
-1. **줄 끝 정리부터.** 수정 표시 44개는 실제 작업이 아니므로 커밋하지 말 것. 미처 저장 못 한 내용이 없다는 것을 `git diff -w --ignore-cr-at-eol` 로 다시 확인한 뒤 `git checkout -- .` 로 되돌리거나(작업 폴더 파일을 덮어쓰므로 사용자 확인 후), `.gitattributes` 에 `* text=auto eol=lf` 를 넣어 재발을 막는다. 이걸 안 하면 다음 작업의 diff 가 4천 줄 잡음에 묻힌다.
+1. ~~줄 끝 정리~~ — 2026-10-25 완료: 작업 트리를 HEAD 로 되돌리고 `.gitattributes`(`* text=auto eol=lf`) 추가(`0af9354`).
 2. **로컬 서명 파일 확인.** `android/key.properties`·`android/app/signing-key.jks` 가 이 맥에 있는지 이번에는 확인하지 않았다. 로컬 릴리스 빌드 전에 CLAUDE.md §1 대로 `~/.android/debug.keystore` 에서 만든다(맥의 그 키 SHA-1 이 `9C:C4:BC:…:47:6B` 인지 먼저 대조 — 다르면 노트북의 키를 가져와야 한다).
 3. **CI 가 지금도 도는지 확인.** 마지막 릴리스 빌드가 9월 10~11일이다. `gh run list -R talkverselab/talkverse-id -L 5` 로 최근 실행과 `latest` 릴리스의 `latest.json` 빌드 번호를 본다.
 4. **다음 콘텐츠 확장.** 지난 흐름(ep1·ep2 → 어근 → 변이 → 빈도 단어)을 이어 대화 ep3 이후, 어근·빈도 단어 추가. 범위는 사용자에게 먼저 묻는다 — 이 폴더에는 다음 목표가 적혀 있지 않다.
