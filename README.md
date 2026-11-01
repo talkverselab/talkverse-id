@@ -109,7 +109,7 @@ DB 컬럼: `zh`→`body`, `pinyin/tones`→`gloss`, `dialect`→`variant`, `Hanz
 ## 미결 (`memo/id/decisions/` 에 결정 로그 예정)
 
 1. 앱 이름/패키지 최종 (인도네시아어유니버스 vs 인니·말레이유니버스 / `com.talkverse.indo_universe`)
-2. 어근 cliff 실측 — 코퍼스(공개 말뭉치 id / 공개 말뭉치 / 공개 말뭉치) + stemmer 선택 (Sastrawi vs 자체 AffixUtil)
+2. 어근 cliff 실측 — 코퍼스 선택(통계만 사용) + stemmer 선택 (오픈소스 stemmer vs 자체 AffixUtil)
 3. MS 콘텐츠 깊이 — 턴별 `ms` 필드만 vs 별도 `ms/L1.json` (등장인물 Aisyah)
 4. L1 캐릭터 이름 (Sari) 확정, L2/L3 시나리오
 5. TTS 정책 (시스템 flutter_tts dev → 클라우드 TTS release), 사전 녹음 여부

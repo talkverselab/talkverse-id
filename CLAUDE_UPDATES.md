@@ -10,6 +10,5 @@
 - `services/memorized_store.dart` 신설. `screens/word_freq_screen.dart` 행 trailing에 외움 체크(◯/✓) 버튼 추가(원문 `word` 키, 영구 저장).
 
 ## 보류 사유
-- 여행책 정제 MD가 없음(자료 폴더의 인니어 자료는 스캔 OCR raw.md만 있고 글자 깨짐 심함) → 주제별 단어·표현 메뉴는 넣지 않음.
-- 정제 MD가 생기면 `es/tool/parse_travel_generic.py`를 복사해 투입 가능 (es의 `topic_vocab_screen.dart`도 함께 포팅).
+- 주제별 단어·표현 메뉴는 넣지 않음 — 쓸 수 있는 자체 정제 자료가 없음. 자체 제작 자료가 생기면 다른 언어앱의 주제별 단어 화면을 포팅.
 - 독음 토글도 독음 데이터가 없어 미적용.
