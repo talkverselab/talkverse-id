@@ -76,6 +76,10 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - **앱 아이콘** = `~/.venvs/img/bin/python tools/make_icon.py ID`(talkverse.uk 톤: 파스텔 메시 바탕 + 남색 글자 + 하늘색→인디고 강조선, 일본어앱과 같은 생성기).
   Android 레거시·라운드·적응형과 iOS AppIcon 을 모두 덮어쓴다. `flutter_launcher_icons` 는 2026-10-25 뺐다 — 다시 넣어 돌리지 말 것.
 
+- **iOS(TestFlight)** = `bash tools/ios_release.sh`(일본어앱 판 복사, 번들 ID `com.talkverse.indoUniverse`, 팀 `QP8QRMA9CC`, 빌드 번호 = KST `yymmddHHMM`).
+  아이콘은 1024 한 장 + 다크·틴티드(`tools/make_icon.py` = 공용 생성기 사본). 2026-11-01 첫 업로드는 `missingApp` —
+  사용자가 App Store Connect 에 앱 레코드를 만든 뒤 `bash tools/ios_release.sh --no-build` 로 다시 올린다.
+
 관련 파일: `lib/services/update_service.dart`, `lib/screens/update_screen.dart`,
 `android/app/src/main/kotlin/**/MainActivity.kt`(설치 메서드 채널),
 `android/app/src/main/res/xml/file_paths.xml`, `.github/workflows/release.yml`
