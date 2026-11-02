@@ -17,9 +17,20 @@ class SeedLoader {
   final AppDatabase db;
   SeedLoader(this.db);
 
+  /// 어근·빈도 단어만 다시 넣는 버전(2026-11-02 어근 80→178, 빈도 단어 120→2,500).
+  /// [_kSeededKey] 를 올리면 회화 학습 기록까지 지워지므로, 어근·단어가 바뀔 때는 이 키만 올린다.
+  static const _kRootsWordsKey = 'db_roots_words_v3';
+
   Future<void> seedIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
-    if (prefs.getBool(_kSeededKey) == true) return;
+    if (prefs.getBool(_kSeededKey) == true) {
+      if (prefs.getBool(_kRootsWordsKey) != true) {
+        await _seedRoots();
+        await _seedWords();
+        await prefs.setBool(_kRootsWordsKey, true);
+      }
+      return;
+    }
 
     await _seedRoots();
     await _seedAffixes();
@@ -27,6 +38,7 @@ class SeedLoader {
     await _seedTurns();
 
     await prefs.setBool(_kSeededKey, true);
+    await prefs.setBool(_kRootsWordsKey, true);
   }
 
   Future<void> _seedRoots() async {

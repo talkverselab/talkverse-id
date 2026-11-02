@@ -1,0 +1,12 @@
+# 우연 일치·학습자에게 오해를 주는 「단어 어근」 쌍 — tools/build_roots.py 가 빼고 계산한다(2026-11-02 검토)
+kalian kali      # 너희 ≠ 번
+tetapi tetap     # 그러나 ≠ 여전히
+selalu lalu      # 늘 — 어원은 같아도 뜻이 멀다
+terlalu lalu     # 너무
+berangkat angkat # 출발하다 ≠ 들다
+sebab bab        # 때문에 ≠ 장(章)
+babi bab         # 돼지
+lahan lah        # 땅
+perlahan lah     # 천천히
+diatas atas      # 띄어 써야 하는 전치사(di atas)
+dirumah rumah    # 띄어 써야 하는 전치사(di rumah)

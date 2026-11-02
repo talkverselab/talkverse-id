@@ -1,6 +1,6 @@
 {
- "version": "v2-2026-08-20",
- "note": "어근(kata dasar) core 80. rank/freq 는 임시값 — data/scripts 로 코퍼스 실측 후 교체. phase 1=회화 첫 100 어근 목표. ms 는 말레이어에서 다른 형태만.",
+ "version": "v3-2026-11-02",
+ "note": "어근(kata dasar). phase 1 = 손으로 검토한 핵심 80개(회화 첫 100 어근 목표), phase 2·3 = 2,500 빈도 단어 목록에서 tools/build_roots.py 로 뽑은 어근(phase 2 = 어근이 R1·R2, 3 = R3·R4). 가족은 목록 안 단어만. ms 는 말레이어에서 다른 형태만.",
  "roots": [
   {
    "root": "makan",
@@ -133,6 +133,16 @@
      "word": "penglihatan",
      "affix": "peN-an",
      "ko": "시력·시각"
+    },
+    {
+     "word": "dilihat",
+     "affix": "di-",
+     "ko": "보이다"
+    },
+    {
+     "word": "kelihatan",
+     "affix": "ke-an",
+     "ko": "보이다"
     }
    ]
   },
@@ -351,6 +361,11 @@
      "word": "pecinta",
      "affix": "pe-",
      "ko": "애호가"
+    },
+    {
+     "word": "bercinta",
+     "affix": "ber-",
+     "ko": "성관계하다"
     }
    ]
   },
@@ -375,6 +390,11 @@
      "word": "pembaca",
      "affix": "peN-",
      "ko": "독자"
+    },
+    {
+     "word": "dibaca",
+     "affix": "di-",
+     "ko": "읽히다"
     }
    ]
   },
@@ -404,6 +424,11 @@
      "word": "tertulis",
      "affix": "ter-",
      "ko": "쓰여진"
+    },
+    {
+     "word": "ditulis",
+     "affix": "di-",
+     "ko": "쓰여지다"
     }
    ]
   },
@@ -433,6 +458,16 @@
      "word": "menjalankan",
      "affix": "meN-kan",
      "ko": "운영하다·실행하다"
+    },
+    {
+     "word": "menjalani",
+     "affix": "meN-i",
+     "ko": "겪다"
+    },
+    {
+     "word": "jalanan",
+     "affix": "-an",
+     "ko": "길거리"
     }
    ]
   },
@@ -515,6 +550,16 @@
      "word": "terjual",
      "affix": "ter-",
      "ko": "팔리다"
+    },
+    {
+     "word": "dijual",
+     "affix": "di-",
+     "ko": "팔리다"
+    },
+    {
+     "word": "penjualan",
+     "affix": "peN-an",
+     "ko": "판매"
     }
    ]
   },
@@ -539,6 +584,11 @@
      "word": "terbawa",
      "affix": "ter-",
      "ko": "휩쓸리다·딸려가다"
+    },
+    {
+     "word": "dibawa",
+     "affix": "di-",
+     "ko": "가져가다"
     }
    ]
   },
@@ -592,6 +642,16 @@
      "word": "diberi",
      "affix": "di-",
      "ko": "받다(주어지다)"
+    },
+    {
+     "word": "berikan",
+     "affix": "-kan",
+     "ko": "주세요"
+    },
+    {
+     "word": "diberikan",
+     "affix": "di-kan",
+     "ko": "주어지다"
     }
    ]
   },
@@ -635,6 +695,11 @@
      "word": "menanyakan",
      "affix": "meN-kan",
      "ko": "~에 대해 묻다"
+    },
+    {
+     "word": "tanyakan",
+     "affix": "-kan",
+     "ko": "물어보다"
     }
    ]
   },
@@ -684,6 +749,16 @@
      "word": "memikirkan",
      "affix": "meN-kan",
      "ko": "~을 생각하다"
+    },
+    {
+     "word": "pemikiran",
+     "affix": "peN-an",
+     "ko": "사고"
+    },
+    {
+     "word": "pikirkan",
+     "affix": "-kan",
+     "ko": "생각해라"
     }
    ]
   },
@@ -708,6 +783,16 @@
      "word": "terasa",
      "affix": "ter-",
      "ko": "느껴지다"
+    },
+    {
+     "word": "merasakan",
+     "affix": "meN-kan",
+     "ko": "느끼다"
+    },
+    {
+     "word": "rasakan",
+     "affix": "-kan",
+     "ko": "느껴라"
     }
    ]
   },
@@ -737,6 +822,16 @@
      "word": "permainan",
      "affix": "per-an",
      "ko": "게임·놀이"
+    },
+    {
+     "word": "memainkan",
+     "affix": "meN-kan",
+     "ko": "연주하다"
+    },
+    {
+     "word": "dimainkan",
+     "affix": "di-kan",
+     "ko": "연주되다"
     }
    ]
   },
@@ -766,6 +861,11 @@
      "word": "ketinggalan",
      "affix": "ke-an",
      "ko": "놓치다·두고 오다"
+    },
+    {
+     "word": "tinggalkan",
+     "affix": "-kan",
+     "ko": "떠나라"
     }
    ]
   },
@@ -795,6 +895,26 @@
      "word": "dibuat",
      "affix": "di-",
      "ko": "만들어지다"
+    },
+    {
+     "word": "berbuat",
+     "affix": "ber-",
+     "ko": "행하다"
+    },
+    {
+     "word": "pembuatan",
+     "affix": "peN-an",
+     "ko": "제작"
+    },
+    {
+     "word": "terbuat",
+     "affix": "ter-",
+     "ko": "~로 만들어진"
+    },
+    {
+     "word": "pembuat",
+     "affix": "peN-",
+     "ko": "제작자"
     }
    ]
   },
@@ -820,6 +940,11 @@
      "word": "pemakaian",
      "affix": "peN-an",
      "ko": "사용"
+    },
+    {
+     "word": "dipakai",
+     "affix": "di-",
+     "ko": "사용되다"
     }
    ]
   },
@@ -873,6 +998,16 @@
      "word": "pendapatan",
      "affix": "peN-an",
      "ko": "수입"
+    },
+    {
+     "word": "dapatkan",
+     "affix": "-kan",
+     "ko": "얻으세요"
+    },
+    {
+     "word": "terdapat",
+     "affix": "ter-",
+     "ko": "존재하다"
     }
    ]
   },
@@ -902,6 +1037,11 @@
      "word": "teringat",
      "affix": "ter-",
      "ko": "문득 생각나다"
+    },
+    {
+     "word": "mengingatkan",
+     "affix": "meN-kan",
+     "ko": "상기시키다"
     }
    ]
   },
@@ -926,6 +1066,11 @@
      "word": "pelupa",
      "affix": "pe-",
      "ko": "건망증 있는 사람"
+    },
+    {
+     "word": "lupakan",
+     "affix": "-kan",
+     "ko": "잊어라"
     }
    ]
   },
@@ -979,6 +1124,11 @@
      "word": "memperkenalkan",
      "affix": "memper-kan",
      "ko": "소개하다"
+    },
+    {
+     "word": "dikenal",
+     "affix": "di-",
+     "ko": "알려지다"
     }
    ]
   },
@@ -1071,6 +1221,11 @@
      "word": "pembangunan",
      "affix": "peN-an",
      "ko": "개발·건설"
+    },
+    {
+     "word": "dibangun",
+     "affix": "di-",
+     "ko": "지어지다"
     }
    ]
   },
@@ -1114,6 +1269,16 @@
      "word": "pemasukan",
      "affix": "peN-an",
      "ko": "수입(收入)"
+    },
+    {
+     "word": "termasuk",
+     "affix": "ter-",
+     "ko": "포함하다"
+    },
+    {
+     "word": "memasukkan",
+     "affix": "meN-kan",
+     "ko": "넣다"
     }
    ]
   },
@@ -1133,6 +1298,11 @@
      "word": "pengeluaran",
      "affix": "peN-an",
      "ko": "지출"
+    },
+    {
+     "word": "dikeluarkan",
+     "affix": "di-kan",
+     "ko": "발행되다"
     }
    ]
   },
@@ -1205,6 +1375,11 @@
      "word": "bayaran",
      "affix": "-an",
      "ko": "보수·요금"
+    },
+    {
+     "word": "dibayar",
+     "affix": "di-",
+     "ko": "지불되다"
     }
    ]
   },
@@ -1229,6 +1404,16 @@
      "word": "pengiriman",
      "affix": "peN-an",
      "ko": "배송"
+    },
+    {
+     "word": "dikirim",
+     "affix": "di-",
+     "ko": "보내지다"
+    },
+    {
+     "word": "mengirimkan",
+     "affix": "meN-kan",
+     "ko": "보내다"
     }
    ]
   },
@@ -1272,6 +1457,11 @@
      "word": "permulaan",
      "affix": "per-an",
      "ko": "시작·초반"
+    },
+    {
+     "word": "dimulai",
+     "affix": "di-",
+     "ko": "시작되다"
     }
    ]
   },
@@ -1334,6 +1524,16 @@
      "word": "pemilihan",
      "affix": "peN-an",
      "ko": "선거"
+    },
+    {
+     "word": "dipilih",
+     "affix": "di-",
+     "ko": "선택되다"
+    },
+    {
+     "word": "terpilih",
+     "affix": "ter-",
+     "ko": "선출된"
     }
    ]
   },
@@ -1382,6 +1582,11 @@
      "word": "berganti",
      "affix": "ber-",
      "ko": "바뀌다"
+    },
+    {
+     "word": "diganti",
+     "affix": "di-",
+     "ko": "바뀌다"
     }
    ]
   },
@@ -1406,6 +1611,16 @@
      "word": "penutup",
      "affix": "peN-",
      "ko": "뚜껑·마무리"
+    },
+    {
+     "word": "ditutup",
+     "affix": "di-",
+     "ko": "닫히다"
+    },
+    {
+     "word": "menutupi",
+     "affix": "meN-i",
+     "ko": "덮다"
     }
    ]
   },
@@ -1430,6 +1645,11 @@
      "word": "pembukaan",
      "affix": "peN-an",
      "ko": "개막·개장"
+    },
+    {
+     "word": "dibuka",
+     "affix": "di-",
+     "ko": "열리다"
     }
    ]
   },
@@ -1579,6 +1799,11 @@
      "word": "menyakiti",
      "affix": "meN-i",
      "ko": "~를 아프게 하다"
+    },
+    {
+     "word": "menyakitkan",
+     "affix": "meN-kan",
+     "ko": "아프게 하는"
     }
    ]
   },
@@ -1628,6 +1853,11 @@
      "word": "terbesar",
      "affix": "ter-",
      "ko": "가장 큰"
+    },
+    {
+     "word": "sebesar",
+     "affix": "se-",
+     "ko": "~만큼 큰"
     }
    ]
   },
@@ -1802,6 +2032,11 @@
      "word": "pendekatan",
      "affix": "peN-an",
      "ko": "접근(법)"
+    },
+    {
+     "word": "terdekat",
+     "affix": "ter-",
+     "ko": "가장 가까운"
     }
    ]
   },
@@ -1889,6 +2124,2153 @@
      "word": "peminta",
      "affix": "peN-",
      "ko": "구걸하는 사람"
+    },
+    {
+     "word": "diminta",
+     "affix": "di-",
+     "ko": "요청받다"
+    }
+   ]
+  },
+  {
+   "root": "aku",
+   "rank": 10,
+   "pos": "pron",
+   "phase": 2,
+   "ko": "나",
+   "family": [
+    {
+     "word": "mengaku",
+     "affix": "meN-",
+     "ko": "인정하다"
+    },
+    {
+     "word": "diakui",
+     "affix": "di-i",
+     "ko": "인정받다"
+    }
+   ]
+  },
+  {
+   "root": "ada",
+   "rank": 11,
+   "pos": "v",
+   "phase": 2,
+   "ko": "있다",
+   "family": [
+    {
+     "word": "berada",
+     "affix": "ber-",
+     "ko": "~에 있다"
+    },
+    {
+     "word": "keadaan",
+     "affix": "ke-an",
+     "ko": "상황"
+    },
+    {
+     "word": "mengadakan",
+     "affix": "meN-kan",
+     "ko": "개최하다"
+    },
+    {
+     "word": "diadakan",
+     "affix": "di-kan",
+     "ko": "열리다"
+    }
+   ]
+  },
+  {
+   "root": "lebih",
+   "rank": 26,
+   "pos": "adv",
+   "phase": 2,
+   "ko": "더",
+   "family": [
+    {
+     "word": "berlebihan",
+     "affix": "ber-an",
+     "ko": "지나친"
+    },
+    {
+     "word": "terlebih",
+     "affix": "ter-",
+     "ko": "특히"
+    },
+    {
+     "word": "kelebihan",
+     "affix": "ke-an",
+     "ko": "장점"
+    },
+    {
+     "word": "melebihi",
+     "affix": "meN-i",
+     "ko": "초과하다"
+    }
+   ]
+  },
+  {
+   "root": "apa",
+   "rank": 27,
+   "pos": "pron",
+   "phase": 2,
+   "ko": "무엇",
+   "family": [
+    {
+     "word": "berapa",
+     "affix": "ber-",
+     "ko": "얼마"
+    },
+    {
+     "word": "mengapa",
+     "affix": "meN-",
+     "ko": "왜"
+    },
+    {
+     "word": "apaan",
+     "affix": "-an",
+     "ko": "뭐"
+    }
+   ]
+  },
+  {
+   "root": "baik",
+   "rank": 35,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "좋다",
+   "family": [
+    {
+     "word": "terbaik",
+     "affix": "ter-",
+     "ko": "최고의"
+    },
+    {
+     "word": "kebaikan",
+     "affix": "ke-an",
+     "ko": "선행"
+    },
+    {
+     "word": "sebaik",
+     "affix": "se-",
+     "ko": "~만큼 좋은"
+    },
+    {
+     "word": "perbaikan",
+     "affix": "per-an",
+     "ko": "수리"
+    }
+   ]
+  },
+  {
+   "root": "jadi",
+   "rank": 36,
+   "pos": "conj",
+   "phase": 2,
+   "ko": "그래서",
+   "family": [
+    {
+     "word": "menjadi",
+     "affix": "meN-",
+     "ko": "~이 되다"
+    },
+    {
+     "word": "terjadi",
+     "affix": "ter-",
+     "ko": "일어나다"
+    },
+    {
+     "word": "kejadian",
+     "affix": "ke-an",
+     "ko": "사건"
+    },
+    {
+     "word": "dijadikan",
+     "affix": "di-kan",
+     "ko": "~로 만들어지다"
+    },
+    {
+     "word": "jadikan",
+     "affix": "-kan",
+     "ko": "~로 만들다"
+    }
+   ]
+  },
+  {
+   "root": "satu",
+   "rank": 38,
+   "pos": "num",
+   "phase": 2,
+   "ko": "하나",
+   "family": [
+    {
+     "word": "bersatu",
+     "affix": "ber-",
+     "ko": "단결하다"
+    },
+    {
+     "word": "satuan",
+     "affix": "-an",
+     "ko": "단위"
+    }
+   ]
+  },
+  {
+   "root": "banyak",
+   "rank": 42,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "많다",
+   "family": [
+    {
+     "word": "sebanyak",
+     "affix": "se-",
+     "ko": "~만큼"
+    },
+    {
+     "word": "kebanyakan",
+     "affix": "ke-an",
+     "ko": "대부분"
+    }
+   ]
+  },
+  {
+   "root": "tahun",
+   "rank": 47,
+   "pos": "n",
+   "phase": 2,
+   "ko": "해/년",
+   "family": [
+    {
+     "word": "setahun",
+     "affix": "se-",
+     "ko": "일 년"
+    },
+    {
+     "word": "bertahun",
+     "affix": "ber-",
+     "ko": "수년"
+    },
+    {
+     "word": "tahunan",
+     "affix": "-an",
+     "ko": "연간의"
+    }
+   ]
+  },
+  {
+   "root": "hari",
+   "rank": 50,
+   "pos": "n",
+   "phase": 2,
+   "ko": "날",
+   "family": [
+    {
+     "word": "sehari",
+     "affix": "se-",
+     "ko": "하루"
+    },
+    {
+     "word": "harian",
+     "affix": "-an",
+     "ko": "일간의"
+    }
+   ]
+  },
+  {
+   "root": "lain",
+   "rank": 64,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "다른",
+   "family": [
+    {
+     "word": "selain",
+     "affix": "se-",
+     "ko": "~외에"
+    },
+    {
+     "word": "melainkan",
+     "affix": "meN-kan",
+     "ko": "오히려"
+    }
+   ]
+  },
+  {
+   "root": "sama",
+   "rank": 67,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "같다",
+   "family": [
+    {
+     "word": "bersama",
+     "affix": "ber-",
+     "ko": "함께"
+    },
+    {
+     "word": "sesama",
+     "affix": "se-",
+     "ko": "서로"
+    }
+   ]
+  },
+  {
+   "root": "salah",
+   "rank": 73,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "틀리다",
+   "family": [
+    {
+     "word": "kesalahan",
+     "affix": "ke-an",
+     "ko": "잘못"
+    },
+    {
+     "word": "bersalah",
+     "affix": "ber-",
+     "ko": "유죄의"
+    }
+   ]
+  },
+  {
+   "root": "ingin",
+   "rank": 75,
+   "pos": "v",
+   "phase": 2,
+   "ko": "원하다",
+   "family": [
+    {
+     "word": "inginkan",
+     "affix": "-kan",
+     "ko": "원하다"
+    },
+    {
+     "word": "menginginkan",
+     "affix": "meN-kan",
+     "ko": "원하다"
+    },
+    {
+     "word": "keinginan",
+     "affix": "ke-an",
+     "ko": "소망"
+    }
+   ]
+  },
+  {
+   "root": "sampai",
+   "rank": 80,
+   "pos": "prep",
+   "phase": 2,
+   "ko": "~까지",
+   "family": [
+    {
+     "word": "menyampaikan",
+     "affix": "meN-kan",
+     "ko": "전달하다"
+    },
+    {
+     "word": "sampaikan",
+     "affix": "-kan",
+     "ko": "전달하다"
+    }
+   ]
+  },
+  {
+   "root": "tempat",
+   "rank": 81,
+   "pos": "n",
+   "phase": 2,
+   "ko": "장소",
+   "family": [
+    {
+     "word": "menempatkan",
+     "affix": "meN-kan",
+     "ko": "두다"
+    },
+    {
+     "word": "setempat",
+     "affix": "se-",
+     "ko": "현지의"
+    }
+   ]
+  },
+  {
+   "root": "mungkin",
+   "rank": 84,
+   "pos": "adv",
+   "phase": 2,
+   "ko": "아마도",
+   "family": [
+    {
+     "word": "kemungkinan",
+     "affix": "ke-an",
+     "ko": "가능성"
+    },
+    {
+     "word": "memungkinkan",
+     "affix": "meN-kan",
+     "ko": "가능하게 하다"
+    }
+   ]
+  },
+  {
+   "root": "lalu",
+   "rank": 102,
+   "pos": "adv",
+   "phase": 2,
+   "ko": "그리고 나서",
+   "family": [
+    {
+     "word": "melalui",
+     "affix": "meN-i",
+     "ko": "~을 통해"
+    },
+    {
+     "word": "berlalu",
+     "affix": "ber-",
+     "ko": "지나가다"
+    }
+   ]
+  },
+  {
+   "root": "diri",
+   "rank": 105,
+   "pos": "n",
+   "phase": 2,
+   "ko": "자신",
+   "family": [
+    {
+     "word": "berdiri",
+     "affix": "ber-",
+     "ko": "서다"
+    },
+    {
+     "word": "terdiri",
+     "affix": "ter-",
+     "ko": "~로 구성되다"
+    },
+    {
+     "word": "didirikan",
+     "affix": "di-kan",
+     "ko": "설립되다"
+    }
+   ]
+  },
+  {
+   "root": "pasti",
+   "rank": 108,
+   "pos": "adv",
+   "phase": 2,
+   "ko": "확실히",
+   "family": [
+    {
+     "word": "pastikan",
+     "affix": "-kan",
+     "ko": "확실히 하다"
+    },
+    {
+     "word": "memastikan",
+     "affix": "meN-kan",
+     "ko": "확인하다"
+    }
+   ]
+  },
+  {
+   "root": "tetap",
+   "rank": 119,
+   "pos": "adv",
+   "phase": 2,
+   "ko": "여전히",
+   "family": [
+    {
+     "word": "ditetapkan",
+     "affix": "di-kan",
+     "ko": "정해지다"
+    },
+    {
+     "word": "menetapkan",
+     "affix": "meN-kan",
+     "ko": "정하다"
+    }
+   ]
+  },
+  {
+   "root": "perlu",
+   "rank": 123,
+   "pos": "v",
+   "phase": 2,
+   "ko": "필요하다",
+   "family": [
+    {
+     "word": "diperlukan",
+     "affix": "di-kan",
+     "ko": "필요하다"
+    },
+    {
+     "word": "memerlukan",
+     "affix": "meN-kan",
+     "ko": "필요로 하다"
+    }
+   ]
+  },
+  {
+   "root": "kata",
+   "rank": 128,
+   "pos": "n",
+   "phase": 2,
+   "ko": "말/단어",
+   "family": [
+    {
+     "word": "mengatakan",
+     "affix": "meN-kan",
+     "ko": "말하다"
+    },
+    {
+     "word": "berkata",
+     "affix": "ber-",
+     "ko": "말하다"
+    },
+    {
+     "word": "dikatakan",
+     "affix": "di-kan",
+     "ko": "말해지다"
+    },
+    {
+     "word": "katakan",
+     "affix": "-kan",
+     "ko": "말하라"
+    }
+   ]
+  },
+  {
+   "root": "hati",
+   "rank": 143,
+   "pos": "n",
+   "phase": 2,
+   "ko": "마음",
+   "family": [
+    {
+     "word": "perhatian",
+     "affix": "per-an",
+     "ko": "관심"
+    },
+    {
+     "word": "perhatikan",
+     "affix": "per-kan",
+     "ko": "주목하라"
+    },
+    {
+     "word": "berhati",
+     "affix": "ber-",
+     "ko": "마음을 쓰다"
+    }
+   ]
+  },
+  {
+   "root": "bagi",
+   "rank": 165,
+   "pos": "prep",
+   "phase": 2,
+   "ko": "~에게",
+   "family": [
+    {
+     "word": "bagian",
+     "affix": "-an",
+     "ko": "부분"
+    },
+    {
+     "word": "sebagian",
+     "affix": "se-an",
+     "ko": "일부"
+    },
+    {
+     "word": "berbagi",
+     "affix": "ber-",
+     "ko": "나누다"
+    },
+    {
+     "word": "dibagi",
+     "affix": "di-",
+     "ko": "나뉘다"
+    }
+   ]
+  },
+  {
+   "root": "selamat",
+   "rank": 167,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "안녕/축하",
+   "family": [
+    {
+     "word": "menyelamatkan",
+     "affix": "meN-kan",
+     "ko": "구하다"
+    },
+    {
+     "word": "keselamatan",
+     "affix": "ke-an",
+     "ko": "안전"
+    }
+   ]
+  },
+  {
+   "root": "tinggi",
+   "rank": 175,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "높다",
+   "family": [
+    {
+     "word": "tertinggi",
+     "affix": "ter-",
+     "ko": "가장 높은"
+    },
+    {
+     "word": "ketinggian",
+     "affix": "ke-an",
+     "ko": "높이"
+    }
+   ]
+  },
+  {
+   "root": "biasa",
+   "rank": 180,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "평범하다",
+   "family": [
+    {
+     "word": "kebiasaan",
+     "affix": "ke-an",
+     "ko": "습관"
+    },
+    {
+     "word": "terbiasa",
+     "affix": "ter-",
+     "ko": "익숙한"
+    }
+   ]
+  },
+  {
+   "root": "serta",
+   "rank": 201,
+   "pos": "conj",
+   "phase": 2,
+   "ko": "그리고",
+   "family": [
+    {
+     "word": "beserta",
+     "affix": "ber-",
+     "ko": "~와 함께"
+    },
+    {
+     "word": "disertai",
+     "affix": "di-i",
+     "ko": "동반되다"
+    }
+   ]
+  },
+  {
+   "root": "siap",
+   "rank": 221,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "준비되다",
+   "family": [
+    {
+     "word": "siapkan",
+     "affix": "-kan",
+     "ko": "준비하라"
+    },
+    {
+     "word": "persiapan",
+     "affix": "per-an",
+     "ko": "준비"
+    },
+    {
+     "word": "menyiapkan",
+     "affix": "meN-kan",
+     "ko": "준비하다"
+    }
+   ]
+  },
+  {
+   "root": "lakukan",
+   "rank": 223,
+   "pos": "v",
+   "phase": 2,
+   "ko": "하세요",
+   "family": [
+    {
+     "word": "melakukan",
+     "affix": "meN-",
+     "ko": "하다"
+    },
+    {
+     "word": "dilakukan",
+     "affix": "di-",
+     "ko": "행해지다"
+    }
+   ]
+  },
+  {
+   "root": "penting",
+   "rank": 225,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "중요하다",
+   "family": [
+    {
+     "word": "kepentingan",
+     "affix": "ke-an",
+     "ko": "이익"
+    },
+    {
+     "word": "terpenting",
+     "affix": "ter-",
+     "ko": "가장 중요한"
+    }
+   ]
+  },
+  {
+   "root": "percaya",
+   "rank": 228,
+   "pos": "v",
+   "phase": 2,
+   "ko": "믿다",
+   "family": [
+    {
+     "word": "kepercayaan",
+     "affix": "ke-an",
+     "ko": "신뢰"
+    },
+    {
+     "word": "dipercaya",
+     "affix": "di-",
+     "ko": "믿어지다"
+    }
+   ]
+  },
+  {
+   "root": "tentu",
+   "rank": 233,
+   "pos": "adv",
+   "phase": 2,
+   "ko": "물론",
+   "family": [
+    {
+     "word": "tertentu",
+     "affix": "ter-",
+     "ko": "특정한"
+    },
+    {
+     "word": "menentukan",
+     "affix": "meN-kan",
+     "ko": "정하다"
+    },
+    {
+     "word": "ditentukan",
+     "affix": "di-kan",
+     "ko": "결정되다"
+    }
+   ]
+  },
+  {
+   "root": "hasil",
+   "rank": 260,
+   "pos": "n",
+   "phase": 2,
+   "ko": "결과",
+   "family": [
+    {
+     "word": "berhasil",
+     "affix": "ber-",
+     "ko": "성공하다"
+    },
+    {
+     "word": "menghasilkan",
+     "affix": "meN-kan",
+     "ko": "만들어내다"
+    },
+    {
+     "word": "dihasilkan",
+     "affix": "di-kan",
+     "ko": "생산되다"
+    }
+   ]
+  },
+  {
+   "root": "tengah",
+   "rank": 265,
+   "pos": "n",
+   "phase": 2,
+   "ko": "가운데",
+   "family": [
+    {
+     "word": "setengah",
+     "affix": "se-",
+     "ko": "절반"
+    },
+    {
+     "word": "menengah",
+     "affix": "meN-",
+     "ko": "중간의"
+    }
+   ]
+  },
+  {
+   "root": "ikut",
+   "rank": 269,
+   "pos": "v",
+   "phase": 2,
+   "ko": "따라가다/참여하다",
+   "family": [
+    {
+     "word": "berikut",
+     "affix": "ber-",
+     "ko": "다음의"
+    },
+    {
+     "word": "mengikuti",
+     "affix": "meN-i",
+     "ko": "따르다"
+    },
+    {
+     "word": "ikuti",
+     "affix": "-i",
+     "ko": "따르다"
+    },
+    {
+     "word": "diikuti",
+     "affix": "di-i",
+     "ko": "뒤따르다"
+    }
+   ]
+  },
+  {
+   "root": "akhir",
+   "rank": 277,
+   "pos": "n",
+   "phase": 2,
+   "ko": "끝",
+   "family": [
+    {
+     "word": "terakhir",
+     "affix": "ter-",
+     "ko": "마지막"
+    },
+    {
+     "word": "berakhir",
+     "affix": "ber-",
+     "ko": "끝나다"
+    },
+    {
+     "word": "mengakhiri",
+     "affix": "meN-i",
+     "ko": "끝내다"
+    }
+   ]
+  },
+  {
+   "root": "butuh",
+   "rank": 279,
+   "pos": "v",
+   "phase": 2,
+   "ko": "필요하다",
+   "family": [
+    {
+     "word": "membutuhkan",
+     "affix": "meN-kan",
+     "ko": "필요로 하다"
+    },
+    {
+     "word": "kebutuhan",
+     "affix": "ke-an",
+     "ko": "필요"
+    },
+    {
+     "word": "dibutuhkan",
+     "affix": "di-kan",
+     "ko": "필요하다"
+    },
+    {
+     "word": "butuhkan",
+     "affix": "-kan",
+     "ko": "필요로 하다"
+    }
+   ]
+  },
+  {
+   "root": "harga",
+   "rank": 306,
+   "pos": "n",
+   "phase": 2,
+   "ko": "가격",
+   "family": [
+    {
+     "word": "berharga",
+     "affix": "ber-",
+     "ko": "소중한"
+    },
+    {
+     "word": "penghargaan",
+     "affix": "peN-an",
+     "ko": "상"
+    },
+    {
+     "word": "menghargai",
+     "affix": "meN-i",
+     "ko": "존중하다"
+    }
+   ]
+  },
+  {
+   "root": "kurang",
+   "rank": 332,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "부족하다",
+   "family": [
+    {
+     "word": "kekurangan",
+     "affix": "ke-an",
+     "ko": "부족"
+    },
+    {
+     "word": "mengurangi",
+     "affix": "meN-i",
+     "ko": "줄이다"
+    }
+   ]
+  },
+  {
+   "root": "bentuk",
+   "rank": 338,
+   "pos": "n",
+   "phase": 2,
+   "ko": "모양",
+   "family": [
+    {
+     "word": "membentuk",
+     "affix": "meN-",
+     "ko": "형성하다"
+    },
+    {
+     "word": "berbentuk",
+     "affix": "ber-",
+     "ko": "~모양의"
+    }
+   ]
+  },
+  {
+   "root": "umum",
+   "rank": 345,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "일반의",
+   "family": [
+    {
+     "word": "pengumuman",
+     "affix": "peN-an",
+     "ko": "공지"
+    },
+    {
+     "word": "mengumumkan",
+     "affix": "meN-kan",
+     "ko": "발표하다"
+    }
+   ]
+  },
+  {
+   "root": "jelas",
+   "rank": 355,
+   "pos": "adj",
+   "phase": 2,
+   "ko": "분명하다",
+   "family": [
+    {
+     "word": "menjelaskan",
+     "affix": "meN-kan",
+     "ko": "설명하다"
+    },
+    {
+     "word": "penjelasan",
+     "affix": "peN-an",
+     "ko": "설명"
+    }
+   ]
+  },
+  {
+   "root": "berapa",
+   "rank": 380,
+   "pos": "pron",
+   "phase": 2,
+   "ko": "얼마",
+   "family": [
+    {
+     "word": "beberapa",
+     "affix": "ber-",
+     "ko": "몇몇"
+    },
+    {
+     "word": "seberapa",
+     "affix": "se-",
+     "ko": "얼마나"
+    }
+   ]
+  },
+  {
+   "root": "menang",
+   "rank": 394,
+   "pos": "v",
+   "phase": 2,
+   "ko": "이기다",
+   "family": [
+    {
+     "word": "kemenangan",
+     "affix": "ke-an",
+     "ko": "승리"
+    },
+    {
+     "word": "memenangkan",
+     "affix": "meN-kan",
+     "ko": "이기다"
+    },
+    {
+     "word": "pemenang",
+     "affix": "peN-",
+     "ko": "승자"
+    }
+   ]
+  },
+  {
+   "root": "tingkat",
+   "rank": 434,
+   "pos": "n",
+   "phase": 2,
+   "ko": "수준",
+   "family": [
+    {
+     "word": "meningkat",
+     "affix": "meN-",
+     "ko": "늘다"
+    },
+    {
+     "word": "peningkatan",
+     "affix": "peN-an",
+     "ko": "증가"
+    }
+   ]
+  },
+  {
+   "root": "nilai",
+   "rank": 480,
+   "pos": "n",
+   "phase": 2,
+   "ko": "가치/점수",
+   "family": [
+    {
+     "word": "menilai",
+     "affix": "meN-",
+     "ko": "평가하다"
+    },
+    {
+     "word": "dinilai",
+     "affix": "di-",
+     "ko": "평가되다"
+    }
+   ]
+  },
+  {
+   "root": "alam",
+   "rank": 498,
+   "pos": "n",
+   "phase": 2,
+   "ko": "자연",
+   "family": [
+    {
+     "word": "mengalami",
+     "affix": "meN-i",
+     "ko": "겪다"
+    },
+    {
+     "word": "alami",
+     "affix": "-i",
+     "ko": "자연의"
+    },
+    {
+     "word": "pengalaman",
+     "affix": "peN-an",
+     "ko": "경험"
+    }
+   ]
+  },
+  {
+   "root": "biar",
+   "rank": 502,
+   "pos": "conj",
+   "phase": 2,
+   "ko": "~하도록",
+   "family": [
+    {
+     "word": "biarkan",
+     "affix": "-kan",
+     "ko": "내버려 두다"
+    },
+    {
+     "word": "membiarkan",
+     "affix": "meN-kan",
+     "ko": "내버려두다"
+    }
+   ]
+  },
+  {
+   "root": "usaha",
+   "rank": 515,
+   "pos": "n",
+   "phase": 3,
+   "ko": "노력/사업",
+   "family": [
+    {
+     "word": "perusahaan",
+     "affix": "per-an",
+     "ko": "회사"
+    },
+    {
+     "word": "berusaha",
+     "affix": "ber-",
+     "ko": "노력하다"
+    },
+    {
+     "word": "pengusaha",
+     "affix": "peN-",
+     "ko": "사업가"
+    }
+   ]
+  },
+  {
+   "root": "hilang",
+   "rank": 532,
+   "pos": "v",
+   "phase": 3,
+   "ko": "사라지다",
+   "family": [
+    {
+     "word": "kehilangan",
+     "affix": "ke-an",
+     "ko": "잃다"
+    },
+    {
+     "word": "menghilang",
+     "affix": "meN-",
+     "ko": "사라지다"
+    }
+   ]
+  },
+  {
+   "root": "milik",
+   "rank": 578,
+   "pos": "n",
+   "phase": 3,
+   "ko": "소유",
+   "family": [
+    {
+     "word": "memiliki",
+     "affix": "meN-i",
+     "ko": "가지고 있다"
+    },
+    {
+     "word": "miliki",
+     "affix": "-i",
+     "ko": "가지다"
+    },
+    {
+     "word": "dimiliki",
+     "affix": "di-i",
+     "ko": "소유되다"
+    },
+    {
+     "word": "pemilik",
+     "affix": "peN-",
+     "ko": "주인"
+    }
+   ]
+  },
+  {
+   "root": "kalah",
+   "rank": 600,
+   "pos": "v",
+   "phase": 3,
+   "ko": "지다",
+   "family": [
+    {
+     "word": "mengalahkan",
+     "affix": "meN-kan",
+     "ko": "이기다"
+    },
+    {
+     "word": "kekalahan",
+     "affix": "ke-an",
+     "ko": "패배"
+    }
+   ]
+  },
+  {
+   "root": "sebab",
+   "rank": 623,
+   "pos": "conj",
+   "phase": 3,
+   "ko": "~때문에",
+   "family": [
+    {
+     "word": "menyebabkan",
+     "affix": "meN-kan",
+     "ko": "일으키다"
+    },
+    {
+     "word": "penyebab",
+     "affix": "peN-",
+     "ko": "원인"
+    },
+    {
+     "word": "disebabkan",
+     "affix": "di-kan",
+     "ko": "~때문이다"
+    }
+   ]
+  },
+  {
+   "root": "bukti",
+   "rank": 648,
+   "pos": "n",
+   "phase": 3,
+   "ko": "증거",
+   "family": [
+    {
+     "word": "terbukti",
+     "affix": "ter-",
+     "ko": "입증되다"
+    },
+    {
+     "word": "membuktikan",
+     "affix": "meN-kan",
+     "ko": "증명하다"
+    }
+   ]
+  },
+  {
+   "root": "per",
+   "rank": 673,
+   "pos": "prep",
+   "phase": 3,
+   "ko": "~당",
+   "family": [
+    {
+     "word": "peran",
+     "affix": "-an",
+     "ko": "역할"
+    },
+    {
+     "word": "berperan",
+     "affix": "ber-an",
+     "ko": "역할을 하다"
+    }
+   ]
+  },
+  {
+   "root": "lahir",
+   "rank": 697,
+   "pos": "v",
+   "phase": 3,
+   "ko": "태어나다",
+   "family": [
+    {
+     "word": "melahirkan",
+     "affix": "meN-kan",
+     "ko": "출산하다"
+    },
+    {
+     "word": "kelahiran",
+     "affix": "ke-an",
+     "ko": "출생"
+    }
+   ]
+  },
+  {
+   "root": "tampil",
+   "rank": 705,
+   "pos": "v",
+   "phase": 3,
+   "ko": "나타나다",
+   "family": [
+    {
+     "word": "penampilan",
+     "affix": "peN-an",
+     "ko": "외모"
+    },
+    {
+     "word": "menampilkan",
+     "affix": "meN-kan",
+     "ko": "보여주다"
+    }
+   ]
+  },
+  {
+   "root": "bantu",
+   "rank": 723,
+   "pos": "v",
+   "phase": 3,
+   "ko": "돕다",
+   "family": [
+    {
+     "word": "membantu",
+     "affix": "meN-",
+     "ko": "돕다"
+    },
+    {
+     "word": "bantuan",
+     "affix": "-an",
+     "ko": "도움"
+    },
+    {
+     "word": "dibantu",
+     "affix": "di-",
+     "ko": "도움받다"
+    }
+   ]
+  },
+  {
+   "root": "wakil",
+   "rank": 783,
+   "pos": "n",
+   "phase": 3,
+   "ko": "대표/부~",
+   "family": [
+    {
+     "word": "perwakilan",
+     "affix": "per-an",
+     "ko": "대표"
+    },
+    {
+     "word": "mewakili",
+     "affix": "meN-i",
+     "ko": "대표하다"
+    }
+   ]
+  },
+  {
+   "root": "lanjut",
+   "rank": 792,
+   "pos": "v",
+   "phase": 3,
+   "ko": "계속하다",
+   "family": [
+    {
+     "word": "melanjutkan",
+     "affix": "meN-kan",
+     "ko": "계속하다"
+    },
+    {
+     "word": "lanjutkan",
+     "affix": "-kan",
+     "ko": "계속하다"
+    }
+   ]
+  },
+  {
+   "root": "nyata",
+   "rank": 798,
+   "pos": "adj",
+   "phase": 3,
+   "ko": "현실의",
+   "family": [
+    {
+     "word": "ternyata",
+     "affix": "ter-",
+     "ko": "알고 보니"
+    },
+    {
+     "word": "menyatakan",
+     "affix": "meN-kan",
+     "ko": "말하다/선언하다"
+    },
+    {
+     "word": "kenyataan",
+     "affix": "ke-an",
+     "ko": "현실"
+    },
+    {
+     "word": "pernyataan",
+     "affix": "per-an",
+     "ko": "진술"
+    },
+    {
+     "word": "dinyatakan",
+     "affix": "di-kan",
+     "ko": "선언되다"
+    }
+   ]
+  },
+  {
+   "root": "temukan",
+   "rank": 803,
+   "pos": "v",
+   "phase": 3,
+   "ko": "찾으세요",
+   "family": [
+    {
+     "word": "menemukan",
+     "affix": "meN-",
+     "ko": "발견하다"
+    },
+    {
+     "word": "ditemukan",
+     "affix": "di-",
+     "ko": "발견되다"
+    }
+   ]
+  },
+  {
+   "root": "isi",
+   "rank": 826,
+   "pos": "n",
+   "phase": 3,
+   "ko": "내용",
+   "family": [
+    {
+     "word": "berisi",
+     "affix": "ber-",
+     "ko": "담겨 있다"
+    },
+    {
+     "word": "mengisi",
+     "affix": "meN-",
+     "ko": "채우다"
+    }
+   ]
+  },
+  {
+   "root": "tahan",
+   "rank": 865,
+   "pos": "v",
+   "phase": 3,
+   "ko": "견디다",
+   "family": [
+    {
+     "word": "bertahan",
+     "affix": "ber-",
+     "ko": "버티다"
+    },
+    {
+     "word": "menahan",
+     "affix": "meN-",
+     "ko": "참다"
+    },
+    {
+     "word": "pertahanan",
+     "affix": "per-an",
+     "ko": "방어"
+    },
+    {
+     "word": "ditahan",
+     "affix": "di-",
+     "ko": "구금되다"
+    },
+    {
+     "word": "tahanan",
+     "affix": "-an",
+     "ko": "수감자"
+    }
+   ]
+  },
+  {
+   "root": "jaga",
+   "rank": 877,
+   "pos": "v",
+   "phase": 3,
+   "ko": "지키다",
+   "family": [
+    {
+     "word": "menjaga",
+     "affix": "meN-",
+     "ko": "지키다"
+    },
+    {
+     "word": "penjaga",
+     "affix": "peN-",
+     "ko": "경비"
+    }
+   ]
+  },
+  {
+   "root": "tumbuh",
+   "rank": 891,
+   "pos": "v",
+   "phase": 3,
+   "ko": "자라다",
+   "family": [
+    {
+     "word": "pertumbuhan",
+     "affix": "per-an",
+     "ko": "성장"
+    },
+    {
+     "word": "tumbuhan",
+     "affix": "-an",
+     "ko": "식물"
+    }
+   ]
+  },
+  {
+   "root": "rusak",
+   "rank": 934,
+   "pos": "adj",
+   "phase": 3,
+   "ko": "고장 난",
+   "family": [
+    {
+     "word": "kerusakan",
+     "affix": "ke-an",
+     "ko": "손상"
+    },
+    {
+     "word": "merusak",
+     "affix": "meN-",
+     "ko": "망가뜨리다"
+    }
+   ]
+  },
+  {
+   "root": "batas",
+   "rank": 975,
+   "pos": "n",
+   "phase": 3,
+   "ko": "경계",
+   "family": [
+    {
+     "word": "terbatas",
+     "affix": "ter-",
+     "ko": "제한되다"
+    },
+    {
+     "word": "perbatasan",
+     "affix": "per-an",
+     "ko": "국경"
+    }
+   ]
+  },
+  {
+   "root": "beda",
+   "rank": 976,
+   "pos": "adj",
+   "phase": 3,
+   "ko": "다른",
+   "family": [
+    {
+     "word": "berbeda",
+     "affix": "ber-",
+     "ko": "다르다"
+    },
+    {
+     "word": "perbedaan",
+     "affix": "per-an",
+     "ko": "차이"
+    }
+   ]
+  },
+  {
+   "root": "janji",
+   "rank": 979,
+   "pos": "n",
+   "phase": 3,
+   "ko": "약속",
+   "family": [
+    {
+     "word": "perjanjian",
+     "affix": "per-an",
+     "ko": "계약"
+    },
+    {
+     "word": "berjanji",
+     "affix": "ber-",
+     "ko": "약속하다"
+    }
+   ]
+  },
+  {
+   "root": "ribu",
+   "rank": 1080,
+   "pos": "num",
+   "phase": 3,
+   "ko": "천",
+   "family": [
+    {
+     "word": "ribuan",
+     "affix": "-an",
+     "ko": "수천"
+    },
+    {
+     "word": "seribu",
+     "affix": "se-",
+     "ko": "천"
+    }
+   ]
+  },
+  {
+   "root": "bakar",
+   "rank": 1109,
+   "pos": "v",
+   "phase": 3,
+   "ko": "태우다",
+   "family": [
+    {
+     "word": "kebakaran",
+     "affix": "ke-an",
+     "ko": "화재"
+    },
+    {
+     "word": "terbakar",
+     "affix": "ter-",
+     "ko": "불타다"
+    }
+   ]
+  },
+  {
+   "root": "sebut",
+   "rank": 1165,
+   "pos": "v",
+   "phase": 3,
+   "ko": "부르다",
+   "family": [
+    {
+     "word": "tersebut",
+     "affix": "ter-",
+     "ko": "그~"
+    },
+    {
+     "word": "disebut",
+     "affix": "di-",
+     "ko": "불리다"
+    },
+    {
+     "word": "menyebut",
+     "affix": "meN-",
+     "ko": "언급하다"
+    },
+    {
+     "word": "sebutan",
+     "affix": "-an",
+     "ko": "명칭"
+    }
+   ]
+  },
+  {
+   "root": "putus",
+   "rank": 1309,
+   "pos": "v",
+   "phase": 3,
+   "ko": "끊어지다",
+   "family": [
+    {
+     "word": "memutuskan",
+     "affix": "meN-kan",
+     "ko": "결정하다"
+    },
+    {
+     "word": "keputusan",
+     "affix": "ke-an",
+     "ko": "결정"
+    }
+   ]
+  },
+  {
+   "root": "harap",
+   "rank": 1321,
+   "pos": "v",
+   "phase": 3,
+   "ko": "바라다",
+   "family": [
+    {
+     "word": "berharap",
+     "affix": "ber-",
+     "ko": "바라다"
+    },
+    {
+     "word": "harapan",
+     "affix": "-an",
+     "ko": "희망"
+    },
+    {
+     "word": "diharapkan",
+     "affix": "di-kan",
+     "ko": "기대되다"
+    },
+    {
+     "word": "mengharapkan",
+     "affix": "meN-kan",
+     "ko": "기대하다"
+    },
+    {
+     "word": "harapkan",
+     "affix": "-kan",
+     "ko": "바라다"
+    }
+   ]
+  },
+  {
+   "root": "lari",
+   "rank": 1350,
+   "pos": "v",
+   "phase": 3,
+   "ko": "달리다",
+   "family": [
+    {
+     "word": "melarikan",
+     "affix": "meN-kan",
+     "ko": "도망치다"
+    },
+    {
+     "word": "berlari",
+     "affix": "ber-",
+     "ko": "달리다"
+    }
+   ]
+  },
+  {
+   "root": "adil",
+   "rank": 1366,
+   "pos": "adj",
+   "phase": 3,
+   "ko": "공정하다",
+   "family": [
+    {
+     "word": "pengadilan",
+     "affix": "peN-an",
+     "ko": "법원"
+    },
+    {
+     "word": "keadilan",
+     "affix": "ke-an",
+     "ko": "정의"
+    }
+   ]
+  },
+  {
+   "root": "pasang",
+   "rank": 1431,
+   "pos": "v",
+   "phase": 3,
+   "ko": "설치하다",
+   "family": [
+    {
+     "word": "pasangan",
+     "affix": "-an",
+     "ko": "커플/짝"
+    },
+    {
+     "word": "memasang",
+     "affix": "meN-",
+     "ko": "설치하다"
+    }
+   ]
+  },
+  {
+   "root": "angkat",
+   "rank": 1472,
+   "pos": "v",
+   "phase": 3,
+   "ko": "들다",
+   "family": [
+    {
+     "word": "mengangkat",
+     "affix": "meN-",
+     "ko": "들어 올리다"
+    },
+    {
+     "word": "angkatan",
+     "affix": "-an",
+     "ko": "세대"
+    },
+    {
+     "word": "diangkat",
+     "affix": "di-",
+     "ko": "임명되다"
+    }
+   ]
+  },
+  {
+   "root": "bunuh",
+   "rank": 1477,
+   "pos": "v",
+   "phase": 3,
+   "ko": "죽이다",
+   "family": [
+    {
+     "word": "membunuh",
+     "affix": "meN-",
+     "ko": "죽이다"
+    },
+    {
+     "word": "pembunuhan",
+     "affix": "peN-an",
+     "ko": "살인"
+    },
+    {
+     "word": "dibunuh",
+     "affix": "di-",
+     "ko": "살해당하다"
+    }
+   ]
+  },
+  {
+   "root": "kena",
+   "rank": 1484,
+   "pos": "v",
+   "phase": 3,
+   "ko": "맞다",
+   "family": [
+    {
+     "word": "mengenai",
+     "affix": "meN-i",
+     "ko": "~에 관해"
+    },
+    {
+     "word": "terkena",
+     "affix": "ter-",
+     "ko": "맞다"
+    },
+    {
+     "word": "mengenakan",
+     "affix": "meN-kan",
+     "ko": "입다"
+    }
+   ]
+  },
+  {
+   "root": "puluh",
+   "rank": 1493,
+   "pos": "num",
+   "phase": 3,
+   "ko": "열 단위",
+   "family": [
+    {
+     "word": "sepuluh",
+     "affix": "se-",
+     "ko": "열"
+    },
+    {
+     "word": "puluhan",
+     "affix": "-an",
+     "ko": "수십"
+    }
+   ]
+  },
+  {
+   "root": "tambah",
+   "rank": 1550,
+   "pos": "v",
+   "phase": 3,
+   "ko": "더하다",
+   "family": [
+    {
+     "word": "tambahan",
+     "affix": "-an",
+     "ko": "추가"
+    },
+    {
+     "word": "bertambah",
+     "affix": "ber-",
+     "ko": "늘어나다"
+    },
+    {
+     "word": "menambah",
+     "affix": "meN-",
+     "ko": "더하다"
+    },
+    {
+     "word": "ditambah",
+     "affix": "di-",
+     "ko": "더해지다"
+    }
+   ]
+  },
+  {
+   "root": "anggap",
+   "rank": 1587,
+   "pos": "v",
+   "phase": 3,
+   "ko": "여기다",
+   "family": [
+    {
+     "word": "dianggap",
+     "affix": "di-",
+     "ko": "여겨지다"
+    },
+    {
+     "word": "menganggap",
+     "affix": "meN-",
+     "ko": "여기다"
+    }
+   ]
+  },
+  {
+   "root": "guna",
+   "rank": 1595,
+   "pos": "n",
+   "phase": 3,
+   "ko": "쓸모",
+   "family": [
+    {
+     "word": "menggunakan",
+     "affix": "meN-kan",
+     "ko": "사용하다"
+    },
+    {
+     "word": "digunakan",
+     "affix": "di-kan",
+     "ko": "사용되다"
+    },
+    {
+     "word": "gunakan",
+     "affix": "-kan",
+     "ko": "사용하세요"
+    },
+    {
+     "word": "pengguna",
+     "affix": "peN-",
+     "ko": "사용자"
+    },
+    {
+     "word": "berguna",
+     "affix": "ber-",
+     "ko": "유용한"
+    }
+   ]
+  },
+  {
+   "root": "bohong",
+   "rank": 1616,
+   "pos": "v",
+   "phase": 3,
+   "ko": "거짓말하다",
+   "family": [
+    {
+     "word": "berbohong",
+     "affix": "ber-",
+     "ko": "거짓말하다"
+    },
+    {
+     "word": "kebohongan",
+     "affix": "ke-an",
+     "ko": "거짓말"
+    }
+   ]
+  },
+  {
+   "root": "tarik",
+   "rank": 1648,
+   "pos": "v",
+   "phase": 3,
+   "ko": "당기다",
+   "family": [
+    {
+     "word": "menarik",
+     "affix": "meN-",
+     "ko": "흥미롭다"
+    },
+    {
+     "word": "tertarik",
+     "affix": "ter-",
+     "ko": "관심 있는"
+    }
+   ]
+  },
+  {
+   "root": "panggil",
+   "rank": 1748,
+   "pos": "v",
+   "phase": 3,
+   "ko": "부르다",
+   "family": [
+    {
+     "word": "panggilan",
+     "affix": "-an",
+     "ko": "호출"
+    },
+    {
+     "word": "dipanggil",
+     "affix": "di-",
+     "ko": "불려지다"
+    },
+    {
+     "word": "memanggil",
+     "affix": "meN-",
+     "ko": "부르다"
+    }
+   ]
+  },
+  {
+   "root": "manfaat",
+   "rank": 1940,
+   "pos": "n",
+   "phase": 3,
+   "ko": "이익",
+   "family": [
+    {
+     "word": "bermanfaat",
+     "affix": "ber-",
+     "ko": "유용하다"
+    },
+    {
+     "word": "memanfaatkan",
+     "affix": "meN-kan",
+     "ko": "활용하다"
+    }
+   ]
+  },
+  {
+   "root": "pandang",
+   "rank": 2003,
+   "pos": "v",
+   "phase": 3,
+   "ko": "보다",
+   "family": [
+    {
+     "word": "pandangan",
+     "affix": "-an",
+     "ko": "시각"
+    },
+    {
+     "word": "pemandangan",
+     "affix": "peN-an",
+     "ko": "경치"
+    },
+    {
+     "word": "memandang",
+     "affix": "meN-",
+     "ko": "바라보다"
+    }
+   ]
+  },
+  {
+   "root": "nonton",
+   "rank": 2083,
+   "pos": "v",
+   "phase": 3,
+   "ko": "보다(영상)",
+   "family": [
+    {
+     "word": "menonton",
+     "affix": "meN-",
+     "ko": "보다"
+    },
+    {
+     "word": "penonton",
+     "affix": "peN-",
+     "ko": "관객"
+    }
+   ]
+  },
+  {
+   "root": "rupa",
+   "rank": 2288,
+   "pos": "n",
+   "phase": 3,
+   "ko": "모습",
+   "family": [
+    {
+     "word": "merupakan",
+     "affix": "meN-kan",
+     "ko": "~이다"
+    },
+    {
+     "word": "berupa",
+     "affix": "ber-",
+     "ko": "~의 형태로"
+    },
+    {
+     "word": "serupa",
+     "affix": "se-",
+     "ko": "비슷한"
+    }
+   ]
+  },
+  {
+   "root": "nikmat",
+   "rank": 2358,
+   "pos": "adj",
+   "phase": 3,
+   "ko": "맛있는/즐거운",
+   "family": [
+    {
+     "word": "menikmati",
+     "affix": "meN-i",
+     "ko": "즐기다"
+    },
+    {
+     "word": "nikmati",
+     "affix": "-i",
+     "ko": "즐기다"
+    }
+   ]
+  },
+  {
+   "root": "untung",
+   "rank": 2368,
+   "pos": "adj",
+   "phase": 3,
+   "ko": "운 좋게/이익",
+   "family": [
+    {
+     "word": "beruntung",
+     "affix": "ber-",
+     "ko": "운 좋은"
+    },
+    {
+     "word": "keuntungan",
+     "affix": "ke-an",
+     "ko": "이익"
+    }
+   ]
+  },
+  {
+   "root": "serang",
+   "rank": 2452,
+   "pos": "v",
+   "phase": 3,
+   "ko": "공격하다",
+   "family": [
+    {
+     "word": "serangan",
+     "affix": "-an",
+     "ko": "공격"
+    },
+    {
+     "word": "menyerang",
+     "affix": "meN-",
+     "ko": "공격하다"
+    }
+   ]
+  },
+  {
+   "root": "gerak",
+   "rank": 2470,
+   "pos": "n",
+   "phase": 3,
+   "ko": "움직임",
+   "family": [
+    {
+     "word": "bergerak",
+     "affix": "ber-",
+     "ko": "움직이다"
+    },
+    {
+     "word": "gerakan",
+     "affix": "-an",
+     "ko": "움직임"
     }
    ]
   }

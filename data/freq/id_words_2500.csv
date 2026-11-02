@@ -1,0 +1,2501 @@
+rank,word,reading,ko,en,pos,level,picturable
+1,yang,,~인 것(관계사),which/that,pron,R1,N
+2,dan,,그리고,and,conj,R1,N
+3,di,,~에서/~에,at/in,prep,R1,N
+4,ini,,이것,this,pron,R1,N
+5,dari,,~로부터,from,prep,R1,N
+6,untuk,,~을 위해,for,prep,R1,N
+7,dengan,,~와 함께,with,prep,R1,N
+8,itu,,그것,that,pron,R1,N
+9,bisa,,~할 수 있다,can,verb,R1,N
+10,aku,,나,I,pron,R1,N
+11,ada,,있다,exist,verb,R1,N
+12,tidak,,아니다/않다,not,adv,R1,N
+13,akan,,~할 것이다,will,adv,R1,N
+14,adalah,,~이다,be,verb,R1,N
+15,dalam,,안에,in,prep,R1,N
+16,pada,,~에,at/on,prep,R1,N
+17,kita,,우리(청자 포함),we,pron,R1,N
+18,orang,,사람,person,noun,R1,Y
+19,ke,,~로,to,prep,R1,N
+20,juga,,또한,also,adv,R1,N
+21,anda,,당신,you,pron,R1,N
+22,dia,,그/그녀,he/she,pron,R1,N
+23,saya,,저,I,pron,R1,N
+24,ya,,네,yes,interj,R1,N
+25,kamu,,너,you,pron,R1,N
+26,lebih,,더,more,adv,R1,N
+27,apa,,무엇,what,pron,R1,N
+28,sudah,,이미 ~했다,already,adv,R1,N
+29,mereka,,그들,they,pron,R1,N
+30,tapi,,하지만,but,conj,R1,N
+31,karena,,왜냐하면,because,conj,R1,N
+32,atau,,또는,or,conj,R1,N
+33,menjadi,,~이 되다,become,verb,R1,N
+34,tak,,~않다,not,adv,R1,N
+35,baik,,좋다,good,adj,R1,N
+36,jadi,,그래서,so,conj,R1,N
+37,harus,,~해야 한다,must,verb,R1,N
+38,satu,,하나,one,num,R1,N
+39,lagi,,또/다시,again,adv,R1,N
+40,seperti,,~처럼,like,prep,R1,N
+41,oleh,,~에 의해,by,prep,R1,N
+42,banyak,,많다,many,adj,R1,N
+43,jika,,만약,if,conj,R1,N
+44,hanya,,단지,only,adv,R1,N
+45,kami,,우리(청자 제외),we,pron,R1,N
+46,saat,,때,moment,noun,R1,N
+47,tahun,,해/년,year,noun,R1,N
+48,jangan,,~하지 마,don't,adv,R1,N
+49,sebagai,,~로서,as,prep,R1,N
+50,hari,,날,day,noun,R1,Y
+51,telah,,이미 ~했다,already,adv,R1,N
+52,semua,,모든,all,det,R1,N
+53,dapat,,~할 수 있다,can,verb,R1,N
+54,hal,,일/사항,matter,noun,R1,N
+55,anak,,아이,child,noun,R1,Y
+56,bahwa,,~라는 것,that,conj,R1,N
+57,bukan,,~이 아니다,not,adv,R1,N
+58,saja,,~만/그냥,just,adv,R1,N
+59,sangat,,매우,very,adv,R1,N
+60,masih,,아직,still,adv,R1,N
+61,memiliki,,가지고 있다,have,verb,R1,N
+62,pernah,,~한 적 있다,ever,adv,R1,N
+63,mau,,원하다,want,verb,R1,N
+64,lain,,다른,other,adj,R1,N
+65,sekarang,,지금,now,adv,R1,N
+66,baru,,새로운,new,adj,R1,N
+67,sama,,같다,same,adj,R1,N
+68,seorang,,한 사람,a person,det,R1,N
+69,tersebut,,그~,that/said,det,R1,N
+70,kalau,,만약,if,conj,R1,N
+71,beberapa,,몇몇,several,det,R1,N
+72,besar,,크다,big,adj,R1,Y
+73,salah,,틀리다,wrong,adj,R1,N
+74,sendiri,,스스로,self,adv,R1,N
+75,ingin,,원하다,wish,verb,R1,N
+76,sebuah,,하나의,a,det,R1,N
+77,ia,,그/그녀,he/she,pron,R1,N
+78,setelah,,~한 후에,after,conj,R1,N
+79,waktu,,시간,time,noun,R1,N
+80,sampai,,~까지,until,prep,R1,N
+81,tempat,,장소,place,noun,R1,Y
+82,membuat,,만들다,make,verb,R1,Y
+83,punya,,가지다,have,verb,R1,N
+84,mungkin,,아마도,maybe,adv,R1,N
+85,hidup,,살다,live,verb,R1,N
+86,melakukan,,하다,do,verb,R1,N
+87,siapa,,누구,who,pron,R1,N
+88,belum,,아직 ~않다,not yet,adv,R1,N
+89,kali,,번/회,time,noun,R1,N
+90,kau,,너,you,pron,R1,N
+91,tentang,,~에 대해,about,prep,R1,N
+92,atas,,위,above,noun,R1,N
+93,dua,,둘,two,num,R1,N
+94,dunia,,세계,world,noun,R1,Y
+95,secara,,~하게,in a way,adv,R1,N
+96,ketika,,~할 때,when,conj,R1,N
+97,bahasa,,언어,language,noun,R1,N
+98,cara,,방법,way,noun,R1,N
+99,para,,~들(복수),plural marker,det,R1,N
+100,rumah,,집,house,noun,R1,Y
+101,selalu,,항상,always,adv,R1,N
+102,lalu,,그리고 나서,then,adv,R1,N
+103,benar,,맞다,correct,adj,R1,N
+104,kota,,도시,city,noun,R1,Y
+105,diri,,자신,self,noun,R1,N
+106,bagian,,부분,part,noun,R1,N
+107,kembali,,돌아오다,return,verb,R1,N
+108,pasti,,확실히,certain,adv,R1,N
+109,selama,,~동안,during,prep,R1,N
+110,pertama,,첫 번째,first,num,R1,N
+111,bersama,,함께,together,adv,R1,N
+112,nama,,이름,name,noun,R1,N
+113,setiap,,매~,every,det,R1,N
+114,tanpa,,~없이,without,prep,R1,N
+115,terjadi,,일어나다,happen,verb,R1,N
+116,kepada,,~에게,to,prep,R1,N
+117,mulai,,시작하다,start,verb,R1,N
+118,paling,,가장,most,adv,R1,N
+119,tetap,,여전히,remain,adv,R1,N
+120,masa,,시기,period,noun,R1,N
+121,tahu,,알다,know,verb,R1,N
+122,lama,,오래되다,long,adj,R1,N
+123,perlu,,필요하다,need,verb,R1,N
+124,berada,,~에 있다,be located,verb,R1,N
+125,cukup,,충분하다,enough,adj,R1,N
+126,kan,,~잖아,right,particle,R1,N
+127,kasih,,사랑/주다,love,noun,R1,N
+128,kata,,말/단어,word,noun,R1,N
+129,kemudian,,그 다음에,then,adv,R1,N
+130,luar,,밖,outside,noun,R1,N
+131,mana,,어디/어느,which,pron,R1,N
+132,masalah,,문제,problem,noun,R1,N
+133,bulan,,달,month,noun,R1,Y
+134,malam,,밤,night,noun,R1,Y
+135,masuk,,들어가다,enter,verb,R1,Y
+136,melihat,,보다,see,verb,R1,Y
+137,namun,,그러나,however,conj,R1,N
+138,wanita,,여자,woman,noun,R1,Y
+139,memang,,정말로,indeed,adv,R1,N
+140,sedang,,~하는 중이다,currently,adv,R1,N
+141,sekali,,매우/한 번,very,adv,R1,N
+142,tetapi,,그러나,but,conj,R1,N
+143,hati,,마음,heart,noun,R1,Y
+144,hingga,,~까지,until,prep,R1,N
+145,makan,,먹다,eat,verb,R1,Y
+146,merupakan,,~이다,constitute,verb,R1,N
+147,nya,,그의/그것의,his/its,particle,R1,N
+148,pun,,~도,even,particle,R1,N
+149,air,,물,water,noun,R1,Y
+150,kalian,,너희,you all,pron,R1,N
+151,seseorang,,어떤 사람,someone,pron,R1,N
+152,suka,,좋아하다,like,verb,R1,N
+153,teman,,친구,friend,noun,R1,Y
+154,jalan,,길,road,noun,R1,Y
+155,kecil,,작다,small,adj,R1,Y
+156,kenapa,,왜,why,pron,R1,N
+157,terus,,계속,continue,adv,R1,N
+158,tuhan,,신,god,noun,R1,N
+159,jam,,시간/시계,hour,noun,R1,Y
+160,sebelum,,~하기 전에,before,conj,R1,N
+161,terlalu,,너무,too,adv,R1,N
+162,cepat,,빠르다,fast,adj,R1,N
+163,negara,,나라,country,noun,R1,Y
+164,pemain,,선수,player,noun,R1,Y
+165,bagi,,~에게,for,prep,R1,N
+166,inggris,,영국/영어,English,noun,R1,N
+167,selamat,,안녕/축하,safe,adj,R1,N
+168,sering,,자주,often,adv,R1,N
+169,yaitu,,즉,namely,conj,R1,N
+170,agar,,~하도록,so that,conj,R1,N
+171,lainnya,,그 밖의,other,adj,R1,N
+172,manusia,,인간,human,noun,R1,Y
+173,menggunakan,,사용하다,use,verb,R1,N
+174,tanggal,,날짜,date,noun,R1,N
+175,tinggi,,높다,high,adj,R1,Y
+176,bahkan,,심지어,even,adv,R1,N
+177,begitu,,그렇게,so,adv,R1,N
+178,dulu,,예전에,formerly,adv,R1,N
+179,terbaik,,최고의,best,adj,R1,N
+180,biasa,,평범하다,usual,adj,R1,N
+181,mendapatkan,,얻다,get,verb,R1,N
+182,bagaimana,,어떻게,how,pron,R1,N
+183,datang,,오다,come,verb,R1,Y
+184,ibu,,어머니,mother,noun,R1,Y
+185,merasa,,느끼다,feel,verb,R1,N
+186,rasa,,맛/느낌,taste,noun,R1,N
+187,uang,,돈,money,noun,R1,Y
+188,depan,,앞,front,noun,R1,N
+189,ku,,나의,my,particle,R1,N
+190,maka,,그러면,then,conj,R1,N
+191,suatu,,어떤,a certain,det,R1,N
+192,biasanya,,보통,usually,adv,R1,N
+193,pria,,남자,man,noun,R1,Y
+194,sekitar,,주변/약,around,prep,R1,N
+195,sekolah,,학교,school,noun,R1,Y
+196,terima,,받다,receive,verb,R1,N
+197,akhirnya,,마침내,finally,adv,R1,N
+198,antara,,사이,between,prep,R1,N
+199,kedua,,두 번째,second,num,R1,N
+200,sakit,,아프다,sick,adj,R1,Y
+201,serta,,그리고,and,conj,R1,N
+202,bawah,,아래,under,noun,R1,N
+203,jauh,,멀다,far,adj,R1,N
+204,mata,,눈,eye,noun,R1,Y
+205,tiga,,셋,three,num,R1,N
+206,tim,,팀,team,noun,R1,Y
+207,apakah,,~입니까,whether,particle,R1,N
+208,buat,,~을 위해/만들다,for,prep,R1,N
+209,kerja,,일하다,work,verb,R1,Y
+210,lihat,,보다,look,verb,R1,Y
+211,sayang,,사랑하는/아깝다,dear,adj,R1,N
+212,seluruh,,전체의,whole,det,R1,N
+213,sesuatu,,어떤 것,something,pron,R1,N
+214,tidur,,자다,sleep,verb,R1,Y
+215,dimana,,어디에,where,pron,R1,N
+216,disini,,여기에,here,adv,R1,N
+217,keluarga,,가족,family,noun,R1,Y
+218,mencari,,찾다,search,verb,R1,Y
+219,mudah,,쉽다,easy,adj,R1,N
+220,sejak,,~이래로,since,prep,R1,N
+221,siap,,준비되다,ready,adj,R1,N
+222,bagus,,좋다/멋지다,good,adj,R1,N
+223,lakukan,,하세요,do,verb,R1,N
+224,melalui,,~을 통해,through,prep,R1,N
+225,penting,,중요하다,important,adj,R1,N
+226,pergi,,가다,go,verb,R1,Y
+227,perusahaan,,회사,company,noun,R1,Y
+228,percaya,,믿다,believe,verb,R1,N
+229,bekerja,,일하다,work,verb,R1,Y
+230,bola,,공,ball,noun,R1,Y
+231,langsung,,바로,direct,adv,R1,N
+232,mobil,,자동차,car,noun,R1,Y
+233,tentu,,물론,certainly,adv,R1,N
+234,tinggal,,살다/남다,stay,verb,R1,N
+235,kepala,,머리,head,noun,R1,Y
+236,mengatakan,,말하다,say,verb,R1,Y
+237,sebelumnya,,이전에,previously,adv,R1,N
+238,sehingga,,그래서,so that,conj,R1,N
+239,digunakan,,사용되다,be used,verb,R1,N
+240,terhadap,,~에 대해,toward,prep,R1,N
+241,berhasil,,성공하다,succeed,verb,R1,N
+242,laki,,남자,male,noun,R1,Y
+243,masyarakat,,사회/대중,society,noun,R1,N
+244,memberikan,,주다,give,verb,R1,Y
+245,menurut,,~에 따르면,according to,prep,R1,N
+246,pemerintah,,정부,government,noun,R1,N
+247,selain,,~외에,besides,prep,R1,N
+248,si,,~라는 사람,the one,det,R1,N
+249,sistem,,시스템,system,noun,R1,N
+250,buku,,책,book,noun,R1,Y
+251,cinta,,사랑,love,noun,R1,Y
+252,apapun,,무엇이든,anything,pron,R1,N
+253,berbagai,,여러 가지,various,det,R1,N
+254,bermain,,놀다,play,verb,R1,Y
+255,dekat,,가깝다,near,adj,R1,N
+256,dilakukan,,행해지다,be done,verb,R1,N
+257,maaf,,미안합니다,sorry,interj,R1,N
+258,sedikit,,조금,few,adj,R1,N
+259,bilang,,말하다,say,verb,R1,N
+260,hasil,,결과,result,noun,R1,N
+261,pagi,,아침,morning,noun,R1,Y
+262,situs,,사이트,site,noun,R1,N
+263,takut,,무섭다,afraid,adj,R1,Y
+264,tangan,,손,hand,noun,R1,Y
+265,tengah,,가운데,middle,noun,R1,N
+266,belajar,,공부하다,study,verb,R1,Y
+267,berarti,,의미하다,mean,verb,R1,N
+268,daerah,,지역,area,noun,R1,N
+269,ikut,,따라가다/참여하다,follow,verb,R1,N
+270,membantu,,돕다,help,verb,R1,Y
+271,nanti,,나중에,later,adv,R1,N
+272,sebenarnya,,사실은,actually,adv,R1,N
+273,segera,,곧,soon,adv,R1,N
+274,sini,,여기,here,adv,R1,N
+275,tepat,,정확하다,exact,adj,R1,N
+276,terlihat,,보이다,appear,verb,R1,N
+277,akhir,,끝,end,noun,R1,N
+278,awal,,처음,beginning,noun,R1,N
+279,butuh,,필요하다,need,verb,R1,N
+280,kuat,,강하다,strong,adj,R1,Y
+281,lagu,,노래,song,noun,R1,Y
+282,pesawat,,비행기,airplane,noun,R1,Y
+283,cuma,,단지,only,adv,R1,N
+284,kelas,,수업/반,class,noun,R1,Y
+285,menemukan,,발견하다,find,verb,R1,N
+286,sementara,,잠시/한편,meanwhile,adv,R1,N
+287,terakhir,,마지막,last,adj,R1,N
+288,termasuk,,포함하다,include,verb,R1,N
+289,acara,,행사/프로그램,event,noun,R1,N
+290,coba,,시도하다,try,verb,R1,N
+291,perempuan,,여자,female,noun,R1,Y
+292,tiba,,도착하다,arrive,verb,R1,N
+293,anggota,,회원,member,noun,R1,N
+294,berbeda,,다르다,different,adj,R1,N
+295,film,,영화,movie,noun,R1,Y
+296,kehidupan,,삶,life,noun,R1,N
+297,mu,,너의,your,particle,R1,N
+298,semakin,,점점 더,increasingly,adv,R1,N
+299,semuanya,,전부,everything,pron,R1,N
+300,video,,비디오,video,noun,R1,Y
+301,daftar,,목록,list,noun,R1,N
+302,keluar,,나가다,exit,verb,R1,Y
+303,minta,,요청하다,ask for,verb,R1,N
+304,nah,,자,well,interj,R1,N
+305,yah,,아이고,oh,interj,R1,N
+306,harga,,가격,price,noun,R1,N
+307,nomor,,번호,number,noun,R1,N
+308,ruang,,방/공간,room,noun,R1,Y
+309,sebagian,,일부,part,pron,R1,N
+310,semoga,,~하기를,hopefully,adv,R1,N
+311,sulit,,어렵다,difficult,adj,R1,N
+312,tadi,,아까,earlier,adv,R1,N
+313,tua,,늙다,old,adj,R1,Y
+314,berubah,,변하다,change,verb,R1,N
+315,dasar,,기초,basis,noun,R1,N
+316,hubungan,,관계,relationship,noun,R1,N
+317,islam,,이슬람,Islam,noun,R1,N
+318,masing,,각각,each,det,R1,N
+319,menit,,분,minute,noun,R1,N
+320,muda,,젊다,young,adj,R1,Y
+321,program,,프로그램,program,noun,R1,N
+322,proses,,과정,process,noun,R1,N
+323,soal,,문제,question,noun,R1,N
+324,ternyata,,알고 보니,turns out,adv,R1,N
+325,utama,,주요한,main,adj,R1,N
+326,alasan,,이유,reason,noun,R1,N
+327,aman,,안전하다,safe,adj,R1,N
+328,cari,,찾다,search,verb,R1,Y
+329,jenis,,종류,kind,noun,R1,N
+330,jumlah,,수량,amount,noun,R1,N
+331,kesempatan,,기회,chance,noun,R1,N
+332,kurang,,부족하다,lack,adj,R1,N
+333,makanan,,음식,food,noun,R1,Y
+334,mati,,죽다,die,verb,R1,Y
+335,mencoba,,시도하다,try,verb,R1,N
+336,mengambil,,가져가다,take,verb,R1,Y
+337,tanah,,땅,ground,noun,R1,Y
+338,bentuk,,모양,shape,noun,R1,N
+339,bila,,만약,if,conj,R1,N
+340,dapatkan,,얻으세요,get,verb,R1,N
+341,meningkatkan,,높이다,increase,verb,R1,N
+342,panjang,,길다,long,adj,R2,Y
+343,resmi,,공식의,official,adj,R2,N
+344,suara,,소리/목소리,voice,noun,R2,N
+345,umum,,일반의,general,adj,R2,N
+346,desa,,마을,village,noun,R2,Y
+347,foto,,사진,photo,noun,R2,Y
+348,kabupaten,,군(행정구역),regency,noun,R2,N
+349,mendapat,,얻다,get,verb,R2,N
+350,minggu,,주/일요일,week,noun,R2,N
+351,pendidikan,,교육,education,noun,R2,N
+352,penuh,,가득하다,full,adj,R2,Y
+353,cerita,,이야기,story,noun,R2,Y
+354,indah,,아름답다,beautiful,adj,R2,N
+355,jelas,,분명하다,clear,adj,R2,N
+356,memilih,,고르다,choose,verb,R2,N
+357,posisi,,위치,position,noun,R2,N
+358,pula,,또한,also,adv,R2,N
+359,warga,,주민,resident,noun,R2,N
+360,badan,,몸,body,noun,R2,Y
+361,belakang,,뒤,back,noun,R2,N
+362,disebut,,불리다,be called,verb,R2,N
+363,itulah,,바로 그것,that is,pron,R2,N
+364,mampu,,할 수 있다,able,adj,R2,N
+365,membawa,,가져오다,bring,verb,R2,Y
+366,pak,,아저씨/선생님,sir,noun,R2,Y
+367,satunya,,유일한,only one,adj,R2,N
+368,berjalan,,걷다,walk,verb,R2,Y
+369,cantik,,예쁘다,pretty,adj,R2,Y
+370,hai,,안녕,hi,interj,R2,N
+371,hampir,,거의,almost,adv,R2,N
+372,hukum,,법,law,noun,R2,N
+373,juta,,백만,million,num,R2,N
+374,menarik,,흥미롭다,interesting,adj,R2,N
+375,menerima,,받아들이다,receive,verb,R2,N
+376,menuju,,~로 향하다,head to,verb,R2,N
+377,menunjukkan,,보여주다,show,verb,R2,Y
+378,meskipun,,비록 ~이지만,although,conj,R2,N
+379,naik,,오르다,go up,verb,R2,Y
+380,berapa,,얼마,how many,pron,R2,N
+381,kaki,,발/다리,foot,noun,R2,Y
+382,kapan,,언제,when,pron,R2,N
+383,kesehatan,,건강,health,noun,R2,N
+384,muncul,,나타나다,appear,verb,R2,N
+385,negeri,,나라,state,noun,R2,N
+386,pekerjaan,,직업,job,noun,R2,N
+387,presiden,,대통령,president,noun,R2,Y
+388,pulang,,집에 가다,go home,verb,R2,Y
+389,berusaha,,노력하다,try hard,verb,R2,N
+390,demi,,~을 위해,for the sake of,prep,R2,N
+391,jatuh,,떨어지다,fall,verb,R2,Y
+392,lewat,,지나가다,pass,verb,R2,N
+393,mempunyai,,가지다,have,verb,R2,N
+394,menang,,이기다,win,verb,R2,Y
+395,mengenai,,~에 관해,regarding,prep,R2,N
+396,menunggu,,기다리다,wait,verb,R2,Y
+397,raja,,왕,king,noun,R2,Y
+398,berharap,,바라다,hope,verb,R2,N
+399,guru,,선생님,teacher,noun,R2,Y
+400,memberi,,주다,give,verb,R2,Y
+401,mesin,,기계,machine,noun,R2,Y
+402,permainan,,게임,game,noun,R2,Y
+403,dirimu,,너 자신,yourself,pron,R2,N
+404,kehilangan,,잃다,lose,verb,R2,N
+405,lupa,,잊다,forget,verb,R2,N
+406,putih,,하얗다,white,adj,R2,Y
+407,surat,,편지,letter,noun,R2,Y
+408,terdapat,,존재하다,exist,verb,R2,N
+409,ah,,아,ah,interj,R2,N
+410,api,,불,fire,noun,R2,Y
+411,asal,,기원/출신,origin,noun,R2,N
+412,barang,,물건,thing,noun,R2,Y
+413,ingat,,기억하다,remember,verb,R2,N
+414,lima,,다섯,five,num,R2,N
+415,murah,,싸다,cheap,adj,R2,N
+416,musim,,계절,season,noun,R2,N
+417,perjalanan,,여행,trip,noun,R2,Y
+418,sang,,~님(존칭),the,det,R2,N
+419,segala,,모든,all,det,R2,N
+420,barat,,서쪽,west,noun,R2,N
+421,batu,,돌,stone,noun,R2,Y
+422,berikut,,다음의,following,adj,R2,N
+423,boleh,,~해도 된다,may,verb,R2,N
+424,dirinya,,그 자신,himself,pron,R2,N
+425,empat,,넷,four,num,R2,N
+426,ilmu,,학문,knowledge,noun,R2,N
+427,kapal,,배,ship,noun,R2,Y
+428,keras,,단단하다/세다,hard,adj,R2,N
+429,khusus,,특별하다,special,adj,R2,N
+430,namanya,,그의 이름,his name,noun,R2,N
+431,nasional,,국가의,national,adj,R2,N
+432,selesai,,끝나다,finish,verb,R2,N
+433,silahkan,,~하세요,please,interj,R2,N
+434,tingkat,,수준,level,noun,R2,N
+435,tubuh,,몸,body,noun,R2,Y
+436,warna,,색,color,noun,R2,Y
+437,adanya,,~이 있음,existence,noun,R2,N
+438,april,,4월,April,noun,R2,N
+439,bahan,,재료,material,noun,R2,Y
+440,data,,데이터,data,noun,R2,N
+441,kasus,,사건/경우,case,noun,R2,N
+442,oh,,아/오,oh,interj,R2,N
+443,peduli,,신경 쓰다,care,verb,R2,N
+444,pilihan,,선택,choice,noun,R2,N
+445,sana,,저쪽,there,pron,R2,N
+446,besok,,내일,tomorrow,adv,R2,N
+447,diam,,조용하다,quiet,adj,R2,N
+448,kekuatan,,힘,strength,noun,R2,N
+449,perang,,전쟁,war,noun,R2,Y
+450,polisi,,경찰,police,noun,R2,Y
+451,sedangkan,,반면에,while,conj,R2,N
+452,sumber,,출처/원천,source,noun,R2,N
+453,tau,,알다,know,verb,R2,N
+454,yakin,,확신하다,sure,adj,R2,N
+455,agama,,종교,religion,noun,R2,N
+456,bangun,,일어나다,wake up,verb,R2,Y
+457,berasal,,~에서 오다,come from,verb,R2,N
+458,darah,,피,blood,noun,R2,Y
+459,dibuat,,만들어지다,made,verb,R2,N
+460,gak,,아니/안,not,particle,R2,N
+461,jasa,,서비스,service,noun,R2,N
+462,jawab,,대답하다,answer,verb,R2,N
+463,kabar,,소식,news,noun,R2,N
+464,kamar,,방,room,noun,R2,Y
+465,media,,매체,media,noun,R2,N
+466,mencapai,,도달하다,reach,verb,R2,N
+467,musik,,음악,music,noun,R2,Y
+468,pulau,,섬,island,noun,R2,Y
+469,sehat,,건강하다,healthy,adj,R2,N
+470,sesuai,,~에 맞는,suitable,adj,R2,N
+471,tugas,,과제/임무,task,noun,R2,N
+472,tujuan,,목적/목적지,goal,noun,R2,N
+473,asli,,진짜의/원래의,original,adj,R2,N
+474,bumi,,지구,earth,noun,R2,Y
+475,buruk,,나쁘다,bad,adj,R2,N
+476,informasi,,정보,information,noun,R2,N
+477,kadang,,가끔,sometimes,adv,R2,N
+478,ketua,,회장/대표,chief,noun,R2,N
+479,mengalami,,겪다,experience,verb,R2,N
+480,nilai,,가치/점수,value,noun,R2,N
+481,produk,,제품,product,noun,R2,Y
+482,tanda,,표시,sign,noun,R2,N
+483,wilayah,,지역,region,noun,R2,N
+484,berhenti,,멈추다,stop,verb,R2,Y
+485,berita,,뉴스,news,noun,R2,N
+486,ekonomi,,경제,economy,noun,R2,N
+487,iya,,응/네,yes,interj,R2,N
+488,kantor,,사무실,office,noun,R2,Y
+489,kelompok,,그룹,group,noun,R2,N
+490,laut,,바다,sea,noun,R2,Y
+491,maupun,,~든지/그리고,or,conj,R2,N
+492,meninggal,,사망하다,die,verb,R2,N
+493,nyaman,,편안하다,comfortable,adj,R2,N
+494,panas,,뜨겁다,hot,adj,R2,Y
+495,pasangan,,커플/짝,couple,noun,R2,Y
+496,pesan,,메시지,message,noun,R2,N
+497,pribadi,,개인의,private,adj,R2,N
+498,alam,,자연,nature,noun,R2,Y
+499,aplikasi,,앱,app,noun,R2,Y
+500,ayo,,자/가자,let's,interj,R2,N
+501,berat,,무겁다,heavy,adj,R2,Y
+502,biar,,~하도록,let,conj,R2,N
+503,main,,놀다,play,verb,R2,Y
+504,melawan,,맞서다,fight against,verb,R2,N
+505,menulis,,쓰다,write,verb,R2,Y
+506,merah,,빨갛다,red,adj,R3,Y
+507,pertandingan,,경기,match,noun,R3,Y
+508,pusat,,중심,center,noun,R3,N
+509,rata,,평평한,flat,adj,R3,N
+510,senang,,기쁘다,happy,adj,R3,Y
+511,sepanjang,,내내,throughout,prep,R3,N
+512,sosial,,사회의,social,adj,R3,N
+513,terbaru,,최신의,latest,adj,R3,N
+514,timur,,동쪽,east,noun,R3,N
+515,usaha,,노력/사업,effort,noun,R3,N
+516,berikan,,주세요,give,verb,R3,N
+517,bidang,,분야,field,noun,R3,N
+518,dokter,,의사,doctor,noun,R3,Y
+519,inilah,,이것이,this is,pron,R3,N
+520,lokasi,,위치,location,noun,R3,N
+521,mengapa,,왜,why,adv,R3,N
+522,nggak,,아니/안,not,particle,R3,N
+523,pertanyaan,,질문,question,noun,R3,N
+524,rasanya,,느낌에,feels like,adv,R3,N
+525,sebanyak,,~만큼,as many as,adv,R3,N
+526,sma,,고등학교,high school,noun,R3,N
+527,ulang,,반복하다,repeat,verb,R3,N
+528,artinya,,뜻은,meaning,noun,R3,N
+529,bank,,은행,bank,noun,R3,Y
+530,berdasarkan,,~에 근거해,based on,prep,R3,N
+531,buka,,열다,open,verb,R3,Y
+532,hilang,,사라지다,lost,verb,R3,N
+533,kini,,지금,now,adv,R3,N
+534,macam,,종류,kind,noun,R3,N
+535,mengikuti,,따르다,follow,verb,R3,N
+536,menyebabkan,,일으키다,cause,verb,R3,N
+537,obat,,약,medicine,noun,R3,Y
+538,tunggu,,기다리다,wait,verb,R3,Y
+539,walaupun,,비록 ~지만,although,conj,R3,N
+540,bisnis,,사업,business,noun,R3,N
+541,dikenal,,알려지다,known,verb,R3,N
+542,hitam,,검다,black,adj,R3,Y
+543,meminta,,요청하다,ask for,verb,R3,N
+544,meski,,비록 ~지만,although,conj,R3,N
+545,minum,,마시다,drink,verb,R3,Y
+546,pasar,,시장,market,noun,R3,Y
+547,alat,,도구,tool,noun,R3,Y
+548,ayah,,아버지,father,noun,R3,Y
+549,bertahan,,버티다,endure,verb,R3,N
+550,bertemu,,만나다,meet,verb,R3,N
+551,kegiatan,,활동,activity,noun,R3,N
+552,kesalahan,,잘못,mistake,noun,R3,N
+553,menjaga,,지키다,guard,verb,R3,N
+554,oke,,좋아,okay,interj,R3,N
+555,pantai,,해변,beach,noun,R3,Y
+556,saling,,서로,each other,adv,R3,N
+557,sempurna,,완벽하다,perfect,adj,R3,N
+558,sisi,,옆/면,side,noun,R3,N
+559,arah,,방향,direction,noun,R3,N
+560,gambar,,그림,picture,noun,R3,Y
+561,gratis,,공짜,free,adj,R3,N
+562,kebanyakan,,대부분,most,adj,R3,N
+563,kematian,,죽음,death,noun,R3,N
+564,mantan,,전 ~,former,adj,R3,N
+565,marah,,화나다,angry,adj,R3,Y
+566,pakai,,쓰다/입다,use,verb,R3,N
+567,sebesar,,~만큼 큰,as big as,adv,R3,N
+568,turun,,내려가다,go down,verb,R3,Y
+569,udara,,공기,air,noun,R3,N
+570,akun,,계정,account,noun,R3,N
+571,bangsa,,민족/국가,nation,noun,R3,N
+572,bantuan,,도움,help,noun,R3,N
+573,daripada,,~보다,than,conj,R3,N
+574,duduk,,앉다,sit,verb,R3,Y
+575,jaringan,,네트워크,network,noun,R3,N
+576,mengerti,,이해하다,understand,verb,R3,N
+577,menyenangkan,,즐겁다,pleasant,adj,R3,N
+578,milik,,소유,own,noun,R3,N
+579,perubahan,,변화,change,noun,R3,N
+580,pihak,,측,party,noun,R3,N
+581,selatan,,남쪽,south,noun,R3,N
+582,serius,,진지하다,serious,adj,R3,N
+583,wajah,,얼굴,face,noun,R3,Y
+584,web,,웹,web,noun,R3,N
+585,bergabung,,합류하다,join,verb,R3,N
+586,berkata,,말하다,say,verb,R3,N
+587,istri,,아내,wife,noun,R3,Y
+588,katanya,,~라고 하더라,he said,adv,R3,N
+589,keamanan,,안전/보안,security,noun,R3,N
+590,kereta,,기차,train,noun,R3,Y
+591,kondisi,,상태,condition,noun,R3,N
+592,operasi,,수술/작전,operation,noun,R3,N
+593,terkenal,,유명하다,famous,adj,R3,N
+594,utara,,북쪽,north,noun,R3,N
+595,aktif,,활동적인,active,adj,R3,N
+596,apalagi,,하물며,especially,adv,R3,N
+597,beli,,사다,buy,verb,R3,Y
+598,berikutnya,,다음의,next,adj,R3,N
+599,dimulai,,시작되다,begin,verb,R3,N
+600,kalah,,지다,lose,verb,R3,N
+601,keadaan,,상황,situation,noun,R3,N
+602,liga,,리그,league,noun,R3,N
+603,memakai,,입다/쓰다,wear,verb,R3,Y
+604,membutuhkan,,필요로 하다,need,verb,R3,N
+605,model,,모델,model,noun,R3,N
+606,putri,,공주/딸,princess,noun,R3,Y
+607,rakyat,,국민,people,noun,R3,N
+608,teknologi,,기술,technology,noun,R3,N
+609,terutama,,특히,especially,adv,R3,N
+610,umumnya,,보통,generally,adv,R3,N
+611,benda,,물건,object,noun,R3,Y
+612,berdiri,,서다,stand,verb,R3,Y
+613,berpikir,,생각하다,think,verb,R3,Y
+614,burung,,새,bird,noun,R3,Y
+615,enak,,맛있다,delicious,adj,R3,N
+616,hak,,권리,right,noun,R3,N
+617,luas,,넓다,wide,adj,R3,N
+618,menikah,,결혼하다,marry,verb,R3,Y
+619,meninggalkan,,떠나다,leave,verb,R3,N
+620,olahraga,,운동,sport,noun,R3,Y
+621,pembangunan,,건설/개발,development,noun,R3,N
+622,saudara,,형제/친척,sibling,noun,R3,N
+623,sebab,,~때문에,because,conj,R3,N
+624,sejarah,,역사,history,noun,R3,N
+625,selanjutnya,,그다음,next,adv,R3,N
+626,sih,,~인데/대체,particle,particle,R3,N
+627,sukses,,성공,success,noun,R3,N
+628,terkait,,관련된,related,adj,R3,N
+629,bawa,,가져가다,bring,verb,R3,Y
+630,bebas,,자유롭다,free,adj,R3,N
+631,bernama,,~라는 이름의,named,verb,R3,N
+632,cocok,,어울리다,suitable,adj,R3,N
+633,dewasa,,어른,adult,noun,R3,Y
+634,diberikan,,주어지다,given,verb,R3,N
+635,ditemukan,,발견되다,found,verb,R3,N
+636,ikan,,물고기,fish,noun,R3,Y
+637,jual,,팔다,sell,verb,R3,Y
+638,ketiga,,세 번째,third,num,R3,N
+639,memutuskan,,결정하다,decide,verb,R3,N
+640,online,,온라인,online,adj,R3,N
+641,pikiran,,생각,thought,noun,R3,N
+642,sebelah,,옆/쪽,side,noun,R3,N
+643,tolong,,도와주세요,please,interj,R3,N
+644,usia,,나이,age,noun,R3,N
+645,ahli,,전문가,expert,noun,R3,Y
+646,berani,,용감하다,brave,adj,R3,N
+647,buah,,과일,fruit,noun,R3,Y
+648,bukti,,증거,proof,noun,R3,N
+649,bunga,,꽃,flower,noun,R3,Y
+650,gaya,,스타일,style,noun,R3,N
+651,gol,,골,goal,noun,R3,Y
+652,gunakan,,사용하세요,use,verb,R3,N
+653,inginkan,,원하다,want,verb,R3,N
+654,kenal,,알다/아는 사이,know,verb,R3,N
+655,keren,,멋있다,cool,adj,R3,N
+656,korban,,피해자,victim,noun,R3,N
+657,memulai,,시작하다,start,verb,R3,N
+658,partai,,정당,party,noun,R3,N
+659,perhatian,,관심,attention,noun,R3,N
+660,sejumlah,,일정 수의,a number of,det,R3,N
+661,siang,,낮,daytime,noun,R3,Y
+662,tenang,,차분하다,calm,adj,R3,N
+663,akibat,,결과,result,noun,R3,N
+664,ambil,,가져가다,take,verb,R3,Y
+665,bahagia,,행복하다,happy,adj,R3,Y
+666,bintang,,별,star,noun,R3,Y
+667,daya,,힘/전력,power,noun,R3,N
+668,dianggap,,여겨지다,considered,verb,R3,N
+669,jiwa,,영혼,soul,noun,R3,N
+670,lingkungan,,환경,environment,noun,R3,N
+671,lucu,,웃기다/귀엽다,funny,adj,R3,Y
+672,mimpi,,꿈,dream,noun,R3,Y
+673,per,,~당,per,prep,R3,N
+674,politik,,정치,politics,noun,R3,N
+675,tiap,,매 ~,every,det,R3,N
+676,tv,,텔레비전,TV,noun,R3,Y
+677,agen,,에이전트,agent,noun,R3,N
+678,bayi,,아기,baby,noun,R3,Y
+679,game,,게임,game,noun,R3,Y
+680,hadiah,,선물/상,gift,noun,R3,Y
+681,kartu,,카드,card,noun,R3,Y
+682,kira,,생각하다,guess,verb,R3,N
+683,kulit,,피부,skin,noun,R3,Y
+684,mahasiswa,,대학생,student,noun,R3,Y
+685,merasakan,,느끼다,feel,verb,R3,N
+686,pilih,,고르다,choose,verb,R3,N
+687,pintu,,문,door,noun,R3,Y
+688,pukul,,~시/치다,o'clock,noun,R3,N
+689,rambut,,머리카락,hair,noun,R3,Y
+690,berakhir,,끝나다,end,verb,R3,N
+691,emas,,금,gold,noun,R3,Y
+692,gubernur,,주지사,governor,noun,R3,N
+693,gunung,,산,mountain,noun,R3,Y
+694,juara,,우승자,champion,noun,R3,Y
+695,karya,,작품,work,noun,R3,N
+696,kisah,,이야기,story,noun,R3,N
+697,lahir,,태어나다,born,verb,R3,N
+698,matahari,,태양,sun,noun,R3,Y
+699,menghasilkan,,만들어내다,produce,verb,R3,N
+700,motor,,오토바이,motorcycle,noun,R3,Y
+701,pasukan,,군대,troops,noun,R3,N
+702,penyakit,,병,disease,noun,R3,N
+703,produksi,,생산,production,noun,R3,N
+704,rencana,,계획,plan,noun,R3,N
+705,tampil,,나타나다,appear,verb,R3,N
+706,terbuka,,열려 있는,open,adj,R3,N
+707,versi,,버전,version,noun,R3,N
+708,agak,,약간,somewhat,adv,R3,N
+709,agustus,,8월,August,noun,R3,N
+710,aneh,,이상하다,strange,adj,R3,N
+711,baca,,읽다,read,verb,R3,Y
+712,bergerak,,움직이다,move,verb,R3,Y
+713,gagal,,실패하다,fail,verb,R3,N
+714,layanan,,서비스,service,noun,R3,N
+715,mengetahui,,알다,know,verb,R3,N
+716,pemimpin,,지도자,leader,noun,R3,N
+717,pohon,,나무,tree,noun,R3,Y
+718,seharusnya,,~해야 했다,should,adv,R3,N
+719,sempat,,~할 틈이 있다,had chance,verb,R3,N
+720,silakan,,~하세요,please,interj,R3,N
+721,sungguh,,정말,truly,adv,R3,N
+722,tanya,,묻다,ask,verb,R3,N
+723,bantu,,돕다,help,verb,R3,N
+724,contoh,,예시,example,noun,R3,N
+725,kemarin,,어제,yesterday,adv,R3,N
+726,keputusan,,결정,decision,noun,R3,N
+727,komputer,,컴퓨터,computer,noun,R3,Y
+728,malah,,오히려,instead,adv,R3,N
+729,mandi,,목욕하다,bathe,verb,R3,Y
+730,manis,,달다,sweet,adj,R3,Y
+731,membangun,,짓다,build,verb,R3,Y
+732,muslim,,무슬림,Muslim,noun,R3,N
+733,paket,,소포/패키지,package,noun,R3,Y
+734,rendah,,낮다,low,adj,R3,N
+735,serangan,,공격,attack,noun,R3,N
+736,terbesar,,가장 큰,biggest,adj,R3,N
+737,tipe,,종류,type,noun,R3,N
+738,baju,,옷,clothes,noun,R3,Y
+739,bangunan,,건물,building,noun,R3,Y
+740,budaya,,문화,culture,noun,R3,N
+741,calon,,후보,candidate,noun,R3,N
+742,gila,,미치다,crazy,adj,R3,N
+743,harapan,,희망,hope,noun,R3,N
+744,hebat,,대단하다,great,adj,R3,N
+745,internet,,인터넷,internet,noun,R3,N
+746,maret,,3월,March,noun,R3,N
+747,membuka,,열다,open,verb,R3,Y
+748,mendukung,,지지하다,support,verb,R3,N
+749,padahal,,~인데도,even though,conj,R3,N
+750,penelitian,,연구,research,noun,R3,N
+751,sadar,,알아차리다,aware,adj,R3,N
+752,sifat,,성격/특성,trait,noun,R3,N
+753,teknik,,기술/기법,technique,noun,R3,N
+754,terasa,,느껴지다,felt,verb,R3,N
+755,universitas,,대학교,university,noun,R3,Y
+756,awalnya,,처음에는,initially,adv,R3,N
+757,bertanya,,질문하다,ask,verb,R3,N
+758,catatan,,메모,note,noun,R3,Y
+759,demikian,,그렇게,thus,adv,R3,N
+760,hutan,,숲,forest,noun,R3,Y
+761,sambil,,~하면서,while,conj,R3,N
+762,sebaiknya,,~하는 게 좋다,should,adv,R3,N
+763,senjata,,무기,weapon,noun,R3,Y
+764,terdiri,,~로 구성되다,consist,verb,R3,N
+765,tertentu,,특정한,certain,adj,R3,N
+766,wisata,,관광,tourism,noun,R3,N
+767,yakni,,즉,namely,conj,R3,N
+768,berbicara,,말하다,speak,verb,R3,Y
+769,caranya,,방법은,way,noun,R3,N
+770,diketahui,,알려지다,known,verb,R3,N
+771,eh,,어/저기,hey,interj,R3,N
+772,gedung,,건물,building,noun,R3,Y
+773,hewan,,동물,animal,noun,R3,Y
+774,kemana,,어디로,where to,adv,R3,N
+775,kemungkinan,,가능성,possibility,noun,R3,N
+776,khawatir,,걱정하다,worry,verb,R3,N
+777,mendengar,,듣다,hear,verb,R3,Y
+778,menteri,,장관,minister,noun,R3,N
+779,perasaan,,감정,feeling,noun,R3,N
+780,pindah,,이사하다,move,verb,R3,N
+781,sel,,세포,cell,noun,R3,N
+782,titik,,점,dot,noun,R3,N
+783,wakil,,대표/부~,deputy,noun,R3,N
+784,alami,,자연의,natural,adj,R3,N
+785,asing,,낯설다/외국의,foreign,adj,R3,N
+786,bakal,,~할 것이다,will,adv,R3,N
+787,balik,,돌아가다,return,verb,R3,N
+788,bicara,,말하다,talk,verb,R3,Y
+789,enam,,여섯,six,num,R3,N
+790,kode,,코드,code,noun,R3,N
+791,kopi,,커피,coffee,noun,R3,Y
+792,lanjut,,계속하다,continue,verb,R3,N
+793,membaca,,읽다,read,verb,R3,Y
+794,mengubah,,바꾸다,change,verb,R3,N
+795,miliki,,가지다,have,verb,R3,N
+796,misalnya,,예를 들어,for example,adv,R3,N
+797,mohon,,부탁드립니다,please,verb,R3,N
+798,nyata,,현실의,real,adj,R3,N
+799,penggunaan,,사용,use,noun,R3,N
+800,pernikahan,,결혼,marriage,noun,R3,Y
+801,provinsi,,도/지방,province,noun,R3,N
+802,sederhana,,간단하다,simple,adj,R3,N
+803,temukan,,찾으세요,find,verb,R3,N
+804,waktunya,,~할 시간,time,noun,R3,N
+805,detik,,초,second,noun,R3,N
+806,gadis,,소녀,girl,noun,R3,Y
+807,hujan,,비,rain,noun,R3,Y
+808,kaya,,부유하다,rich,adj,R3,Y
+809,kemampuan,,능력,ability,noun,R3,N
+810,listrik,,전기,electricity,noun,R3,Y
+811,mari,,자/~합시다,let's,interj,R3,N
+812,membeli,,사다,buy,verb,R3,Y
+813,mengirim,,보내다,send,verb,R3,Y
+814,mirip,,닮다,similar,adj,R3,N
+815,organisasi,,조직,organization,noun,R3,N
+816,otak,,뇌,brain,noun,R3,Y
+817,sepatu,,신발,shoes,noun,R3,Y
+818,tambahan,,추가,addition,noun,R3,N
+819,tampak,,보이다,appear,verb,R3,N
+820,website,,웹사이트,website,noun,R3,N
+821,biarkan,,내버려 두다,let,verb,R3,N
+822,entah,,~인지 모르겠다,unknown,adv,R3,N
+823,gue,,나,I,pron,R3,N
+824,hotel,,호텔,hotel,noun,R3,Y
+825,industri,,산업,industry,noun,R3,N
+826,isi,,내용,content,noun,R3,N
+827,kayu,,나무/목재,wood,noun,R3,Y
+828,kemenangan,,승리,victory,noun,R3,N
+829,keuangan,,재정,finance,noun,R3,N
+830,menyatakan,,말하다/선언하다,state,verb,R3,N
+831,tokoh,,인물,figure,noun,R3,N
+832,banget,,아주/진짜,very,adv,R3,N
+833,bupati,,군수,regent,noun,R3,N
+834,dewa,,신,god,noun,R3,N
+835,kawan,,친구,friend,noun,R3,Y
+836,lantai,,바닥/층,floor,noun,R3,Y
+837,meraih,,얻다/달성하다,achieve,verb,R3,N
+838,sepertinya,,~인 것 같다,seems,adv,R3,N
+839,tangga,,계단,stairs,noun,R3,Y
+840,terkadang,,때때로,sometimes,adv,R3,N
+841,tiket,,표,ticket,noun,R3,Y
+842,total,,총계,total,noun,R3,N
+843,bukanlah,,~가 아니다,is not,particle,R3,N
+844,dingin,,차갑다,cold,adj,R3,Y
+845,energi,,에너지,energy,noun,R3,N
+846,grup,,그룹,group,noun,R3,N
+847,jalur,,길/노선,route,noun,R3,N
+848,jarak,,거리,distance,noun,R3,N
+849,jarang,,드물다,rare,adv,R3,N
+850,jawaban,,대답,answer,noun,R3,N
+851,kanan,,오른쪽,right,noun,R3,Y
+852,karakter,,성격/캐릭터,character,noun,R3,N
+853,kecamatan,,면/구,district,noun,R3,N
+854,kecuali,,~를 제외하고,except,conj,R3,N
+855,latihan,,연습,practice,noun,R3,Y
+856,lengkap,,완전하다,complete,adj,R3,N
+857,luka,,상처,wound,noun,R3,Y
+858,menangis,,울다,cry,verb,R3,Y
+859,pakaian,,옷,clothes,noun,R3,Y
+860,proyek,,프로젝트,project,noun,R3,N
+861,rahasia,,비밀,secret,noun,R3,N
+862,semangat,,열정,spirit,noun,R3,N
+863,setidaknya,,적어도,at least,adv,R3,N
+864,sungai,,강,river,noun,R3,Y
+865,tahan,,견디다,endure,verb,R3,N
+866,taman,,공원,park,noun,R3,Y
+867,terbang,,날다,fly,verb,R3,Y
+868,aja,,~만,just,particle,R3,N
+869,anaknya,,그의 아이,his child,noun,R3,N
+870,berlangsung,,진행되다,take place,verb,R3,N
+871,berupa,,~의 형태로,in form of,prep,R3,N
+872,bodoh,,멍청한,stupid,adj,R3,N
+873,disana,,저기에,there,adv,R3,N
+874,garis,,선,line,noun,R3,Y
+875,habis,,다 떨어지다,run out,verb,R3,N
+876,internasional,,국제적인,international,adj,R3,N
+877,jaga,,지키다,guard,verb,R3,Y
+878,jahat,,나쁜,evil,adj,R3,N
+879,kakak,,형/누나,older sibling,noun,R3,Y
+880,kejadian,,사건,event,noun,R3,N
+881,mei,,5월,May,noun,R3,N
+882,membuatmu,,너를 ~하게 하다,make you,verb,R3,N
+883,mencintaimu,,너를 사랑하다,love you,verb,R3,N
+884,menyerang,,공격하다,attack,verb,R3,Y
+885,pertemuan,,만남,meeting,noun,R3,Y
+886,saatnya,,~할 때,time to,noun,R3,N
+887,sibuk,,바쁜,busy,adj,R3,N
+888,status,,상태,status,noun,R3,N
+889,tindakan,,행동,action,noun,R3,N
+890,toko,,가게,shop,noun,R3,Y
+891,tumbuh,,자라다,grow,verb,R3,Y
+892,bapak,,아버지/씨,father,noun,R3,Y
+893,berwarna,,색깔 있는,colored,adj,R3,N
+894,efek,,효과,effect,noun,R3,N
+895,fokus,,집중,focus,noun,R3,N
+896,hadir,,참석하다,attend,verb,R3,N
+897,ide,,아이디어,idea,noun,R3,N
+898,keduanya,,둘 다,both,pron,R3,N
+899,kiri,,왼쪽,left,noun,R3,N
+900,kunci,,열쇠,key,noun,R3,Y
+901,langkah,,걸음,step,noun,R3,Y
+902,laporan,,보고서,report,noun,R3,N
+903,membuatnya,,그것을 만들다,make it,verb,R3,N
+904,penulis,,작가,writer,noun,R3,Y
+905,piala,,트로피,trophy,noun,R3,Y
+906,raya,,큰,great,adj,R3,N
+907,september,,9월,September,noun,R3,N
+908,siswa,,학생,student,noun,R3,Y
+909,smp,,중학교,junior high,noun,R3,N
+910,super,,아주 좋은,super,adj,R3,N
+911,unit,,단위,unit,noun,R3,N
+912,angka,,숫자,number,noun,R3,N
+913,begini,,이렇게,like this,adv,R3,N
+914,berkembang,,발전하다,develop,verb,R3,N
+915,diberi,,주어지다,be given,verb,R3,N
+916,jujur,,정직한,honest,adj,R3,N
+917,lah,,~요(강조),emphasis,particle,R3,N
+918,lokal,,지역의,local,adj,R3,N
+919,menyelesaikan,,끝내다,finish,verb,R3,N
+920,persen,,퍼센트,percent,noun,R3,N
+921,peserta,,참가자,participant,noun,R3,N
+922,tewas,,사망하다,die,verb,R3,N
+923,berbagi,,나누다,share,verb,R3,N
+924,bersih,,깨끗한,clean,adj,R3,N
+925,gerakan,,움직임,movement,noun,R3,N
+926,kebijakan,,정책,policy,noun,R3,N
+927,kerajaan,,왕국,kingdom,noun,R3,N
+928,komunikasi,,의사소통,communication,noun,R3,N
+929,lembaga,,기관,institution,noun,R3,N
+930,menciptakan,,창조하다,create,verb,R3,N
+931,menyadari,,깨닫다,realize,verb,R3,N
+932,pasal,,조항,article,noun,R3,N
+933,perangkat,,장치,device,noun,R3,Y
+934,rusak,,고장 난,broken,adj,R3,Y
+935,seni,,예술,art,noun,R3,N
+936,setengah,,절반,half,num,R3,N
+937,ayat,,구절,verse,noun,R3,N
+938,cahaya,,빛,light,noun,R3,Y
+939,daging,,고기,meat,noun,R3,Y
+940,dana,,자금,fund,noun,R3,N
+941,fungsi,,기능,function,noun,R3,N
+942,halo,,안녕,hello,interj,R3,N
+943,kalo,,만약/~면,if,conj,R3,N
+944,kendaraan,,탈것,vehicle,noun,R3,Y
+945,minyak,,기름,oil,noun,R3,Y
+946,misi,,임무,mission,noun,R3,N
+947,sampah,,쓰레기,trash,noun,R3,Y
+948,sekaligus,,한꺼번에,at once,adv,R3,N
+949,sesungguhnya,,사실은,truly,adv,R3,N
+950,supaya,,~하도록,so that,conj,R3,N
+951,tanaman,,식물,plant,noun,R3,Y
+952,tentara,,군인,soldier,noun,R3,Y
+953,terlibat,,관련되다,involved,verb,R3,N
+954,udah,,이미,already,adv,R3,N
+955,aksi,,행동,action,noun,R3,N
+956,arti,,의미,meaning,noun,R3,N
+957,banyaknya,,많음,amount,noun,R3,N
+958,biaya,,비용,cost,noun,R3,N
+959,dipakai,,사용되다,be used,verb,R3,N
+960,fasilitas,,시설,facility,noun,R3,N
+961,halaman,,페이지/마당,page,noun,R3,Y
+962,memenangkan,,이기다,win,verb,R3,N
+963,menjelaskan,,설명하다,explain,verb,R3,N
+964,menyerah,,항복하다,give up,verb,R3,N
+965,metode,,방법,method,noun,R3,N
+966,modern,,현대적인,modern,adj,R3,N
+967,populer,,인기 있는,popular,adj,R3,N
+968,positif,,긍정적인,positive,adj,R3,N
+969,ruangan,,방,room,noun,R3,Y
+970,sehari,,하루,one day,noun,R3,N
+971,tenaga,,힘,energy,noun,R3,N
+972,tertarik,,관심 있는,interested,adj,R3,N
+973,unik,,독특한,unique,adj,R3,N
+974,ayam,,닭,chicken,noun,R3,Y
+975,batas,,경계,limit,noun,R3,N
+976,beda,,다른,different,adj,R3,N
+977,berangkat,,출발하다,depart,verb,R3,Y
+978,diambil,,가져가지다,be taken,verb,R3,N
+979,janji,,약속,promise,noun,R3,N
+980,maju,,앞으로 나아가다,advance,verb,R3,N
+981,mencintai,,사랑하다,love,verb,R3,N
+982,menghadapi,,맞서다,face,verb,R3,N
+983,mengingat,,기억하다,remember,verb,R3,N
+984,meter,,미터,meter,noun,R3,N
+985,paham,,이해하다,understand,verb,R3,N
+986,pantas,,걸맞은,proper,adj,R3,N
+987,pastikan,,확실히 하다,make sure,verb,R3,N
+988,penampilan,,외모,appearance,noun,R3,N
+989,pengguna,,사용자,user,noun,R3,N
+990,publik,,대중,public,noun,R3,N
+991,setuju,,동의하다,agree,verb,R3,N
+992,ayahnya,,그의 아버지,his father,noun,R3,N
+993,hp,,휴대폰,phone,noun,R3,Y
+994,iklan,,광고,advertisement,noun,R3,N
+995,klub,,클럽,club,noun,R3,N
+996,komunitas,,공동체,community,noun,R3,N
+997,lapangan,,운동장,field,noun,R3,Y
+998,lawan,,상대,opponent,noun,R3,N
+999,malu,,부끄러운,shy,adj,R3,N
+1000,masjid,,모스크,mosque,noun,R3,Y
+1001,meja,,탁자,table,noun,R3,Y
+1002,melewati,,지나가다,pass,verb,R3,N
+1003,menikmati,,즐기다,enjoy,verb,R3,N
+1004,normal,,정상적인,normal,adj,R3,N
+1005,pemenang,,승자,winner,noun,R3,Y
+1006,penduduk,,주민,resident,noun,R3,N
+1007,perbedaan,,차이,difference,noun,R3,N
+1008,pikir,,생각하다,think,verb,R3,N
+1009,sahabat,,친구,best friend,noun,R3,Y
+1010,seberapa,,얼마나,how much,adv,R3,N
+1011,situasi,,상황,situation,noun,R3,N
+1012,suami,,남편,husband,noun,R3,Y
+1013,susah,,어려운,difficult,adj,R3,N
+1014,umat,,신도,believers,noun,R3,N
+1015,aturan,,규칙,rule,noun,R3,N
+1016,betapa,,얼마나,how,adv,R3,N
+1017,dah,,이미,already,adv,R3,N
+1018,dahulu,,예전에,formerly,adv,R3,N
+1019,desain,,디자인,design,noun,R3,N
+1020,gelar,,칭호,title,noun,R3,N
+1021,kamera,,카메라,camera,noun,R3,Y
+1022,kaum,,무리,group,noun,R3,N
+1023,kecepatan,,속도,speed,noun,R3,N
+1024,kuliah,,대학 수업,college,noun,R3,N
+1025,kursi,,의자,chair,noun,R3,Y
+1026,langit,,하늘,sky,noun,R3,Y
+1027,lemah,,약한,weak,adj,R3,N
+1028,malang,,불운한,unlucky,adj,R3,N
+1029,menjual,,팔다,sell,verb,R3,Y
+1030,pelajaran,,수업,lesson,noun,R3,Y
+1031,pemilihan,,선거,election,noun,R3,N
+1032,pintar,,똑똑한,smart,adj,R3,N
+1033,planet,,행성,planet,noun,R3,Y
+1034,sd,,초등학교,elementary school,noun,R3,N
+1035,sikap,,태도,attitude,noun,R3,N
+1036,tamu,,손님,guest,noun,R3,Y
+1037,undang,,초대하다,invite,verb,R3,N
+1038,zaman,,시대,era,noun,R3,N
+1039,area,,지역,area,noun,R3,N
+1040,artis,,연예인,artist,noun,R3,Y
+1041,berguna,,유용한,useful,adj,R3,N
+1042,berusia,,~세인,aged,adj,R3,N
+1043,biru,,파란색,blue,adj,R3,Y
+1044,dukungan,,지지,support,noun,R3,N
+1045,fisik,,신체의,physical,adj,R3,N
+1046,hijau,,초록색,green,adj,R3,Y
+1047,kepercayaan,,신뢰,trust,noun,R3,N
+1048,mahal,,비싼,expensive,adj,R3,N
+1049,mas,,형(자바 호칭),brother,noun,R3,N
+1050,mengandung,,포함하다,contain,verb,R3,N
+1051,mengeluarkan,,꺼내다,take out,verb,R3,N
+1052,menolak,,거절하다,refuse,verb,R3,N
+1053,perkembangan,,발전,development,noun,R3,N
+1054,pura,,힌두 사원,temple,noun,R3,Y
+1055,selamanya,,영원히,forever,adv,R3,N
+1056,studi,,연구,study,noun,R3,N
+1057,terluka,,다친,injured,adj,R3,Y
+1058,tuan,,주인/님,master,noun,R3,N
+1059,wajib,,의무의,mandatory,adj,R3,N
+1060,abu,,재,ash,noun,R3,Y
+1061,berharga,,소중한,valuable,adj,R3,N
+1062,berhubungan,,관련되다,related,verb,R3,N
+1063,betul,,맞는,correct,adj,R3,N
+1064,dibandingkan,,~에 비해,compared,prep,R3,N
+1065,diterima,,받아들여지다,be accepted,verb,R3,N
+1066,gigi,,이,tooth,noun,R3,Y
+1067,ikuti,,따르다,follow,verb,R3,N
+1068,kampus,,캠퍼스,campus,noun,R3,Y
+1069,khas,,특유의,typical,adj,R3,N
+1070,konsep,,개념,concept,noun,R3,N
+1071,kualitas,,품질,quality,noun,R3,N
+1072,kucing,,고양이,cat,noun,R3,Y
+1073,layak,,~할 만한,worthy,adj,R3,N
+1074,membayar,,지불하다,pay,verb,R3,Y
+1075,memperoleh,,얻다,obtain,verb,R3,N
+1076,mengalahkan,,이기다,defeat,verb,R3,N
+1077,mulut,,입,mouth,noun,R3,Y
+1078,pelatih,,코치,coach,noun,R3,Y
+1079,remaja,,청소년,teenager,noun,R3,Y
+1080,ribu,,천,thousand,num,R3,N
+1081,stasiun,,역,station,noun,R3,Y
+1082,tujuh,,일곱,seven,num,R3,N
+1083,urusan,,일,matter,noun,R3,N
+1084,bandara,,공항,airport,noun,R3,Y
+1085,bekas,,흔적/중고의,used,adj,R3,N
+1086,berbuat,,행하다,do,verb,R3,N
+1087,beri,,주다,give,verb,R3,Y
+1088,cm,,센티미터,centimeter,noun,R4,N
+1089,dikatakan,,말해지다,be said,verb,R4,N
+1090,dimiliki,,소유되다,be owned,verb,R4,N
+1091,fakta,,사실,fact,noun,R4,N
+1092,ga,,안,not,adv,R4,N
+1093,gereja,,교회,church,noun,R4,Y
+1094,jadwal,,일정,schedule,noun,R4,N
+1095,komisi,,위원회,commission,noun,R4,N
+1096,melanjutkan,,계속하다,continue,verb,R4,N
+1097,membunuh,,죽이다,kill,verb,R4,N
+1098,penerbangan,,비행,flight,noun,R4,Y
+1099,pengetahuan,,지식,knowledge,noun,R4,N
+1100,peran,,역할,role,noun,R4,N
+1101,peraturan,,규정,regulation,noun,R4,N
+1102,sisa,,나머지,remainder,noun,R4,N
+1103,takkan,,~않을 것이다,will not,adv,R4,N
+1104,target,,목표,target,noun,R4,N
+1105,teh,,차,tea,noun,R4,Y
+1106,tulisan,,글,writing,noun,R4,N
+1107,upaya,,노력,effort,noun,R4,N
+1108,angin,,바람,wind,noun,R4,Y
+1109,bakar,,태우다,burn,verb,R4,Y
+1110,benci,,미워하다,hate,verb,R4,N
+1111,berdua,,둘이서,two of us,pron,R4,N
+1112,berlaku,,유효하다,apply,verb,R4,N
+1113,bingung,,혼란스러운,confused,adj,R4,N
+1114,dijadikan,,~로 만들어지다,be made,verb,R4,N
+1115,dinding,,벽,wall,noun,R4,Y
+1116,es,,얼음,ice,noun,R4,Y
+1117,hanyalah,,단지,only,adv,R4,N
+1118,kesulitan,,어려움,difficulty,noun,R4,N
+1119,lepas,,풀리다,release,verb,R4,N
+1120,makin,,점점 더,increasingly,adv,R4,N
+1121,mengenal,,알다,know,verb,R4,N
+1122,miliar,,십억,billion,num,R4,N
+1123,militer,,군대,military,noun,R4,N
+1124,pendek,,짧은,short,adj,R4,Y
+1125,petugas,,담당자,officer,noun,R4,Y
+1126,putra,,아들,son,noun,R4,Y
+1127,ratu,,여왕,queen,noun,R4,Y
+1128,situ,,거기,there,pron,R4,N
+1129,tips,,팁,tip,noun,R4,N
+1130,ukuran,,크기,size,noun,R4,N
+1131,aktivitas,,활동,activity,noun,R4,N
+1132,anti,,반대하는,anti,other,R4,N
+1133,apabila,,만약,if,conj,R4,N
+1134,bangga,,자랑스러운,proud,adj,R4,N
+1135,beruntung,,운 좋은,lucky,adj,R4,N
+1136,daun,,잎,leaf,noun,R4,Y
+1137,engkau,,너,you,pron,R4,N
+1138,ganti,,바꾸다,change,verb,R4,N
+1139,ibunya,,그의 어머니,his mother,noun,R4,N
+1140,kalinya,,~번째,time,noun,R4,N
+1141,kebutuhan,,필요,need,noun,R4,N
+1142,lampu,,전등,lamp,noun,R4,Y
+1143,lomba,,대회,contest,noun,R4,Y
+1144,lulus,,합격하다,pass,verb,R4,N
+1145,memasuki,,들어가다,enter,verb,R4,Y
+1146,minuman,,음료,drink,noun,R4,Y
+1147,pemuda,,청년,youth,noun,R4,Y
+1148,tergantung,,~에 달려 있다,depend,verb,R4,N
+1149,tersedia,,이용 가능한,available,adj,R4,N
+1150,berbahaya,,위험한,dangerous,adj,R4,N
+1151,dibuka,,열리다,be opened,verb,R4,N
+1152,dilihat,,보이다,be seen,verb,R4,N
+1153,generasi,,세대,generation,noun,R4,N
+1154,info,,정보,info,noun,R4,N
+1155,ma,,엄마,mom,noun,R4,N
+1156,melindungi,,보호하다,protect,verb,R4,N
+1157,memahami,,이해하다,understand,verb,R4,N
+1158,mengaku,,인정하다,admit,verb,R4,N
+1159,menghabiskan,,다 쓰다,spend,verb,R4,N
+1160,menyebut,,언급하다,mention,verb,R4,N
+1161,parah,,심한,severe,adj,R4,N
+1162,pengembangan,,개발,development,noun,R4,N
+1163,perintah,,명령,order,noun,R4,N
+1164,perut,,배,stomach,noun,R4,Y
+1165,sebut,,부르다,call,verb,R4,N
+1166,siapapun,,누구든,anyone,pron,R4,N
+1167,standar,,기준,standard,noun,R4,N
+1168,telepon,,전화,telephone,noun,R4,Y
+1169,tertawa,,웃다,laugh,verb,R4,Y
+1170,tulang,,뼈,bone,noun,R4,Y
+1171,ujian,,시험,exam,noun,R4,Y
+1172,ujung,,끝,end,noun,R4,N
+1173,apaan,,뭐,what,pron,R4,N
+1174,bayar,,지불하다,pay,verb,R4,Y
+1175,bertanggung,,책임지다,responsible,verb,R4,N
+1176,buang,,버리다,throw away,verb,R4,Y
+1177,bus,,버스,bus,noun,R4,Y
+1178,cek,,확인하다,check,verb,R4,N
+1179,cita,,바람,aspiration,noun,R4,N
+1180,digital,,디지털의,digital,adj,R4,N
+1181,dll,,등등,etc,other,R4,N
+1182,drama,,드라마,drama,noun,R4,N
+1183,fitur,,기능,feature,noun,R4,N
+1184,harusnya,,~해야 했다,should,adv,R4,N
+1185,hmm,,흠,hmm,interj,R4,N
+1186,istilah,,용어,term,noun,R4,N
+1187,jantung,,심장,heart,noun,R4,Y
+1188,kok,,왜/~인데,why,particle,R4,N
+1189,kosong,,빈,empty,adj,R4,Y
+1190,lahan,,땅,land,noun,R4,N
+1191,lelah,,피곤한,tired,adj,R4,Y
+1192,manajemen,,관리,management,noun,R4,N
+1193,memakan,,먹다,eat,verb,R4,Y
+1194,memungkinkan,,가능하게 하다,enable,verb,R4,N
+1195,menjadikan,,~로 만들다,make,verb,R4,N
+1196,mm,,음,hmm,interj,R4,N
+1197,palsu,,가짜의,fake,adj,R4,N
+1198,pas,,딱 맞는,fit,adj,R4,N
+1199,pekan,,주,week,noun,R4,N
+1200,peristiwa,,사건,event,noun,R4,N
+1201,perjuangan,,투쟁,struggle,noun,R4,N
+1202,puncak,,정상,peak,noun,R4,Y
+1203,semacam,,일종의,kind of,det,R4,N
+1204,singkat,,짧은,brief,adj,R4,N
+1205,tekanan,,압력,pressure,noun,R4,N
+1206,terimakasih,,고마워요,thanks,interj,R4,N
+1207,tradisional,,전통적인,traditional,adj,R4,N
+1208,umur,,나이,age,noun,R4,N
+1209,untukmu,,너를 위해,for you,prep,R4,N
+1210,adik,,동생,younger sibling,noun,R4,Y
+1211,alih,,전환,shift,noun,R4,N
+1212,doa,,기도,prayer,noun,R4,Y
+1213,hidupnya,,그의 삶,his life,noun,R4,N
+1214,kirim,,보내다,send,verb,R4,Y
+1215,kompetisi,,경쟁,competition,noun,R4,N
+1216,memainkan,,연주하다,play,verb,R4,Y
+1217,memegang,,잡다,hold,verb,R4,Y
+1218,mengembangkan,,발전시키다,develop,verb,R4,N
+1219,menjalankan,,운영하다,run,verb,R4,N
+1220,menyimpan,,보관하다,keep,verb,R4,N
+1221,menyukai,,좋아하다,like,verb,R4,N
+1222,padamu,,너에게,to you,prep,R4,N
+1223,pemerintahan,,정부,government,noun,R4,N
+1224,pengalaman,,경험,experience,noun,R4,N
+1225,periode,,기간,period,noun,R4,N
+1226,pesta,,파티,party,noun,R4,Y
+1227,saluran,,채널,channel,noun,R4,N
+1228,sengaja,,일부러,on purpose,adv,R4,N
+1229,anjing,,개,dog,noun,R4,Y
+1230,artikel,,기사,article,noun,R4,N
+1231,berjuang,,싸우다,fight,verb,R4,N
+1232,besi,,철,iron,noun,R4,Y
+1233,bu,,아주머니,ma'am,noun,R4,N
+1234,dalamnya,,그 안에,inside it,adv,R4,N
+1235,diatas,,위에,above,prep,R4,N
+1236,direktur,,이사,director,noun,R4,Y
+1237,jari,,손가락,finger,noun,R4,Y
+1238,kerusakan,,손상,damage,noun,R4,N
+1239,liburan,,휴가,vacation,noun,R4,Y
+1240,mama,,엄마,mom,noun,R4,Y
+1241,memikirkan,,생각하다,think about,verb,R4,N
+1242,mempertahankan,,지키다,defend,verb,R4,N
+1243,menguasai,,장악하다,master,verb,R4,N
+1244,menjawab,,대답하다,answer,verb,R4,N
+1245,mesti,,반드시 ~해야,must,adv,R4,N
+1246,musuh,,적,enemy,noun,R4,N
+1247,pabrik,,공장,factory,noun,R4,Y
+1248,pacar,,애인,boyfriend,noun,R4,Y
+1249,pajak,,세금,tax,noun,R4,N
+1250,poin,,점수,point,noun,R4,N
+1251,profesional,,전문적인,professional,adj,R4,N
+1252,sayangnya,,아쉽게도,unfortunately,adv,R4,N
+1253,sekedar,,단지,merely,adv,R4,N
+1254,sore,,오후,afternoon,noun,R4,Y
+1255,suku,,부족,tribe,noun,R4,N
+1256,tahap,,단계,stage,noun,R4,N
+1257,tas,,가방,bag,noun,R4,Y
+1258,tata,,질서,order,noun,R4,N
+1259,turut,,함께하다,join,verb,R4,N
+1260,babak,,라운드,round,noun,R4,N
+1261,berfungsi,,작동하다,function,verb,R4,N
+1262,berlebihan,,지나친,excessive,adj,R4,N
+1263,cerdas,,영리한,clever,adj,R4,N
+1264,ciri,,특징,feature,noun,R4,N
+1265,dibawah,,아래에,below,prep,R4,N
+1266,huruf,,글자,letter,noun,R4,Y
+1267,judul,,제목,title,noun,R4,N
+1268,katakan,,말하라,say,verb,R4,N
+1269,klik,,클릭,click,verb,R4,Y
+1270,laga,,경기,match,noun,R4,Y
+1271,makhluk,,생물,creature,noun,R4,N
+1272,melayani,,시중들다,serve,verb,R4,Y
+1273,membentuk,,형성하다,form,verb,R4,N
+1274,menentukan,,정하다,decide,verb,R4,N
+1275,mengatur,,정리하다,arrange,verb,R4,N
+1276,pangeran,,왕자,prince,noun,R4,Y
+1277,pembuatan,,제작,making,noun,R4,N
+1278,penasaran,,궁금하다,curious,adj,R4,N
+1279,promo,,프로모션,promo,noun,R4,N
+1280,sendirian,,혼자,alone,adv,R4,Y
+1281,serikat,,연합,union,noun,R4,N
+1282,sobat,,친구,buddy,noun,R4,Y
+1283,suci,,신성하다,holy,adj,R4,N
+1284,sudut,,모퉁이,corner,noun,R4,Y
+1285,teori,,이론,theory,noun,R4,N
+1286,tinggalkan,,떠나라,leave,verb,R4,N
+1287,ulama,,이슬람 학자,scholar,noun,R4,Y
+1288,ataupun,,또는,or,conj,R4,N
+1289,berisi,,담겨 있다,contain,verb,R4,N
+1290,bikin,,만들다,make,verb,R4,N
+1291,dibawa,,가져가다,carried,verb,R4,N
+1292,diriku,,나 자신,myself,pron,R4,N
+1293,justru,,오히려,precisely,adv,R4,N
+1294,kecelakaan,,사고,accident,noun,R4,Y
+1295,kekurangan,,부족,shortage,noun,R4,N
+1296,kimia,,화학,chemistry,noun,R4,N
+1297,kotak,,상자,box,noun,R4,Y
+1298,latar,,배경,background,noun,R4,N
+1299,maksud,,의도,intention,noun,R4,N
+1300,maksudnya,,그러니까,meaning,conj,R4,N
+1301,melakukannya,,그것을 하다,do it,verb,R4,N
+1302,memastikan,,확인하다,ensure,verb,R4,N
+1303,memimpin,,이끌다,lead,verb,R4,N
+1304,nabi,,예언자,prophet,noun,R4,N
+1305,pemilik,,주인,owner,noun,R4,Y
+1306,pengadilan,,법원,court,noun,R4,Y
+1307,perdagangan,,무역,trade,noun,R4,N
+1308,permintaan,,요청,request,noun,R4,N
+1309,putus,,끊어지다,break up,verb,R4,N
+1310,ribuan,,수천,thousands,num,R4,N
+1311,segalanya,,모든 것,everything,pron,R4,N
+1312,sepuluh,,열,ten,num,R4,N
+1313,tutup,,닫다,close,verb,R4,Y
+1314,usah,,~할 필요,need,adv,R4,N
+1315,album,,앨범,album,noun,R4,Y
+1316,amat,,매우,very,adv,R4,N
+1317,asam,,시다,sour,adj,R4,Y
+1318,bau,,냄새,smell,noun,R4,Y
+1319,bertambah,,늘어나다,increase,verb,R4,N
+1320,dewan,,위원회,council,noun,R4,N
+1321,harap,,바라다,hope,verb,R4,N
+1322,hubungi,,연락하다,contact,verb,R4,N
+1323,juli,,7월,July,noun,R4,N
+1324,kawasan,,지역,area,noun,R4,N
+1325,kebiasaan,,습관,habit,noun,R4,N
+1326,kue,,케이크,cake,noun,R4,Y
+1327,memenuhi,,채우다,fulfill,verb,R4,N
+1328,mengurangi,,줄이다,reduce,verb,R4,N
+1329,menjalani,,겪다,undergo,verb,R4,N
+1330,menyediakan,,제공하다,provide,verb,R4,N
+1331,nasi,,밥,rice,noun,R4,Y
+1332,pekerja,,노동자,worker,noun,R4,Y
+1333,pengusaha,,사업가,businessman,noun,R4,Y
+1334,sedih,,슬프다,sad,adj,R4,Y
+1335,sepak,,차다,kick,verb,R4,Y
+1336,solusi,,해결책,solution,noun,R4,N
+1337,abad,,세기,century,noun,R4,N
+1338,akses,,접근,access,noun,R4,N
+1339,antar,,~사이,between,prep,R4,N
+1340,band,,밴드,band,noun,R4,Y
+1341,berkualitas,,양질의,quality,adj,R4,N
+1342,bersifat,,~한 성질이다,be of nature,verb,R4,N
+1343,dijual,,팔리다,for sale,verb,R4,Y
+1344,diperlukan,,필요하다,needed,verb,R4,N
+1345,dosa,,죄,sin,noun,R4,N
+1346,jembatan,,다리,bridge,noun,R4,Y
+1347,jenderal,,장군,general,noun,R4,Y
+1348,kategori,,범주,category,noun,R4,N
+1349,khususnya,,특히,especially,adv,R4,N
+1350,lari,,달리다,run,verb,R4,Y
+1351,lubang,,구멍,hole,noun,R4,Y
+1352,menderita,,고통받다,suffer,verb,R4,N
+1353,menganggap,,여기다,consider,verb,R4,N
+1354,nak,,얘야,child,noun,R4,N
+1355,oktober,,10월,October,noun,R4,N
+1356,pos,,우편,post,noun,R4,Y
+1357,ragu,,망설이다,doubt,verb,R4,N
+1358,rapat,,회의,meeting,noun,R4,Y
+1359,rasakan,,느껴라,feel,verb,R4,N
+1360,rekan,,동료,colleague,noun,R4,Y
+1361,santai,,느긋하다,relaxed,adj,R4,Y
+1362,seri,,시리즈,series,noun,R4,N
+1363,terbatas,,제한되다,limited,adj,R4,N
+1364,virus,,바이러스,virus,noun,R4,Y
+1365,walau,,비록,although,conj,R4,N
+1366,adil,,공정하다,fair,adj,R4,N
+1367,dengar,,듣다,hear,verb,R4,Y
+1368,dibangun,,지어지다,built,verb,R4,N
+1369,final,,결승,final,noun,R4,N
+1370,gas,,가스,gas,noun,R4,Y
+1371,hasilnya,,그 결과,result,noun,R4,N
+1372,hidupmu,,너의 삶,your life,noun,R4,N
+1373,istirahat,,쉬다,rest,verb,R4,Y
+1374,kebaikan,,선행,kindness,noun,R4,N
+1375,kertas,,종이,paper,noun,R4,Y
+1376,menampilkan,,보여주다,display,verb,R4,N
+1377,mengadakan,,개최하다,hold,verb,R4,N
+1378,menginginkan,,원하다,want,verb,R4,N
+1379,menutup,,닫다,close,verb,R4,Y
+1380,narkoba,,마약,drugs,noun,R4,N
+1381,ok,,오케이,ok,interj,R4,N
+1382,pendukung,,지지자,supporter,noun,R4,Y
+1383,penyebab,,원인,cause,noun,R4,N
+1384,perlindungan,,보호,protection,noun,R4,N
+1385,radio,,라디오,radio,noun,R4,Y
+1386,saham,,주식,stock,noun,R4,N
+1387,seks,,성,sex,noun,R4,N
+1388,seminggu,,일주일,one week,noun,R4,N
+1389,sinyal,,신호,signal,noun,R4,N
+1390,tema,,주제,theme,noun,R4,N
+1391,tertinggi,,가장 높은,highest,adj,R4,N
+1392,cenderung,,경향이 있다,tend,verb,R4,N
+1393,delapan,,여덟,eight,num,R4,N
+1394,desember,,12월,December,noun,R4,N
+1395,didalam,,안에,inside,prep,R4,N
+1396,dipilih,,선택되다,chosen,verb,R4,N
+1397,era,,시대,era,noun,R4,N
+1398,faktor,,요인,factor,noun,R4,N
+1399,gampang,,쉽다,easy,adj,R4,N
+1400,gelap,,어둡다,dark,adj,R4,Y
+1401,kuda,,말,horse,noun,R4,Y
+1402,lelaki,,남자,man,noun,R4,Y
+1403,link,,링크,link,noun,R4,N
+1404,lintas,,가로지르는,across,prep,R4,N
+1405,memperbaiki,,고치다,fix,verb,R4,Y
+1406,menahan,,참다,hold back,verb,R4,N
+1407,meningkat,,늘다,increase,verb,R4,N
+1408,menyesal,,후회하다,regret,verb,R4,N
+1409,ni,,이것,this,pron,R4,N
+1410,pahlawan,,영웅,hero,noun,R4,Y
+1411,peralatan,,장비,equipment,noun,R4,Y
+1412,peringatan,,경고,warning,noun,R4,N
+1413,sosok,,모습,figure,noun,R4,Y
+1414,terbukti,,입증되다,proven,verb,R4,N
+1415,terletak,,위치하다,located,verb,R4,N
+1416,wa,,왓츠앱,WhatsApp,noun,R4,N
+1417,agung,,위대하다,great,adj,R4,N
+1418,bulu,,털,fur,noun,R4,Y
+1419,harta,,재산,wealth,noun,R4,N
+1420,januari,,1월,January,noun,R4,N
+1421,konser,,콘서트,concert,noun,R4,Y
+1422,lancar,,순조롭다,smooth,adj,R4,N
+1423,lembut,,부드럽다,soft,adj,R4,Y
+1424,lolos,,통과하다,pass,verb,R4,N
+1425,melainkan,,오히려,but rather,conj,R4,N
+1426,menawarkan,,제안하다,offer,verb,R4,N
+1427,merusak,,망가뜨리다,damage,verb,R4,N
+1428,mi,,국수,noodles,noun,R4,Y
+1429,murid,,학생,pupil,noun,R4,Y
+1430,padang,,들판,field,noun,R4,Y
+1431,pasang,,설치하다,install,verb,R4,Y
+1432,pasien,,환자,patient,noun,R4,Y
+1433,pelayanan,,서비스,service,noun,R4,N
+1434,pengaruh,,영향,influence,noun,R4,N
+1435,penjualan,,판매,sales,noun,R4,N
+1436,ponsel,,휴대폰,cellphone,noun,R4,Y
+1437,ratusan,,수백,hundreds,num,R4,N
+1438,ringan,,가볍다,light,adj,R4,Y
+1439,samping,,옆,side,noun,R4,N
+1440,sebentar,,잠깐,a moment,adv,R4,N
+1441,sejauh,,~만큼 멀리,as far as,conj,R4,N
+1442,sembuh,,낫다,recover,verb,R4,N
+1443,sepenuhnya,,완전히,fully,adv,R4,N
+1444,siapkan,,준비하라,prepare,verb,R4,N
+1445,surga,,천국,heaven,noun,R4,N
+1446,susu,,우유,milk,noun,R4,Y
+1447,tanggung,,책임지다,bear,verb,R4,N
+1448,via,,~를 통해,via,prep,R4,N
+1449,dikirim,,보내지다,sent,verb,R4,N
+1450,ditangkap,,체포되다,arrested,verb,R4,N
+1451,februari,,2월,February,noun,R4,N
+1452,imam,,이맘,imam,noun,R4,Y
+1453,istana,,궁전,palace,noun,R4,Y
+1454,istimewa,,특별하다,special,adj,R4,N
+1455,jin,,정령,jinn,noun,R4,N
+1456,juni,,6월,June,noun,R4,N
+1457,ketemu,,만나다,meet,verb,R4,N
+1458,lumayan,,꽤 괜찮다,decent,adj,R4,N
+1459,menceritakan,,이야기하다,tell,verb,R4,N
+1460,menempatkan,,두다,place,verb,R4,N
+1461,mengganggu,,방해하다,disturb,verb,R4,N
+1462,mundur,,물러나다,retreat,verb,R4,N
+1463,pandangan,,시각,view,noun,R4,N
+1464,pejabat,,공무원,official,noun,R4,Y
+1465,penghargaan,,상,award,noun,R4,Y
+1466,puas,,만족하다,satisfied,adj,R4,N
+1467,setahun,,일 년,one year,noun,R4,N
+1468,sms,,문자,SMS,noun,R4,N
+1469,telur,,달걀,egg,noun,R4,Y
+1470,tepatnya,,정확히,exactly,adv,R4,N
+1471,angkasa,,하늘,sky,noun,R4,Y
+1472,angkat,,들다,lift,verb,R4,Y
+1473,berbasis,,~기반의,based,adj,R4,N
+1474,berdoa,,기도하다,pray,verb,R4,Y
+1475,bos,,사장,boss,noun,R4,Y
+1476,bukannya,,~가 아니라,not,adv,R4,N
+1477,bunuh,,죽이다,kill,verb,R4,N
+1478,dosen,,교수,lecturer,noun,R4,Y
+1479,gangguan,,방해,disturbance,noun,R4,N
+1480,gua,,나,I,pron,R4,N
+1481,kalangan,,계층,circle,noun,R4,N
+1482,keinginan,,소망,desire,noun,R4,N
+1483,kejahatan,,범죄,crime,noun,R4,N
+1484,kena,,맞다,hit,verb,R4,N
+1485,kepadanya,,그에게,to him,pron,R4,N
+1486,keuntungan,,이익,profit,noun,R4,N
+1487,koleksi,,수집품,collection,noun,R4,Y
+1488,memasang,,설치하다,install,verb,R4,Y
+1489,mengumpulkan,,모으다,collect,verb,R4,Y
+1490,ngomong,,말하다,speak,verb,R4,N
+1491,perjanjian,,계약,agreement,noun,R4,N
+1492,permukaan,,표면,surface,noun,R4,N
+1493,puluh,,열 단위,tens,num,R4,N
+1494,sabar,,참다,patient,adj,R4,N
+1495,salam,,인사,greeting,noun,R4,N
+1496,syarat,,조건,condition,noun,R4,N
+1497,tersenyum,,미소 짓다,smile,verb,R4,Y
+1498,berkat,,덕분에,thanks to,prep,R4,N
+1499,binatang,,동물,animal,noun,R4,Y
+1500,celana,,바지,pants,noun,R4,Y
+1501,diduga,,추정되다,alleged,verb,R4,N
+1502,dokumen,,문서,document,noun,R4,Y
+1503,hatiku,,내 마음,my heart,noun,R4,N
+1504,izin,,허락,permission,noun,R4,N
+1505,kontrak,,계약,contract,noun,R4,N
+1506,layar,,화면,screen,noun,R4,Y
+1507,pendapat,,의견,opinion,noun,R4,N
+1508,pertumbuhan,,성장,growth,noun,R4,N
+1509,sarapan,,아침 식사,breakfast,noun,R4,Y
+1510,tampaknya,,~인 것 같다,seemingly,adv,R4,N
+1511,tes,,시험,test,noun,R4,N
+1512,tukang,,기술자,craftsman,noun,R4,Y
+1513,unsur,,요소,element,noun,R4,N
+1514,wah,,와,wow,interj,R4,N
+1515,ajang,,행사,event,noun,R4,N
+1516,baiknya,,~하는 게 좋다,better,adv,R4,N
+1517,beban,,짐,burden,noun,R4,N
+1518,cabang,,지점,branch,noun,R4,Y
+1519,cewek,,여자애,girl,noun,R4,Y
+1520,dibanding,,~보다,compared,prep,R4,N
+1521,disebabkan,,~때문이다,caused,verb,R4,N
+1522,dong,,~요(강조),particle,particle,R4,N
+1523,hamil,,임신하다,pregnant,adj,R4,Y
+1524,hukuman,,처벌,punishment,noun,R4,N
+1525,jurusan,,전공,major,noun,R4,N
+1526,kenyataan,,현실,reality,noun,R4,N
+1527,ketahui,,알다,know,verb,R4,N
+1528,kuno,,고대의,ancient,adj,R4,N
+1529,lebar,,넓다,wide,adj,R4,Y
+1530,mandiri,,독립적이다,independent,adj,R4,N
+1531,mempelajari,,배우다,study,verb,R4,Y
+1532,mendengarkan,,듣다,listen,verb,R4,Y
+1533,mengakui,,인정하다,admit,verb,R4,N
+1534,menghubungi,,연락하다,contact,verb,R4,N
+1535,mengirimkan,,보내다,send,verb,R4,Y
+1536,min,,관리자님,admin,noun,R4,N
+1537,modal,,자본,capital,noun,R4,N
+1538,muka,,얼굴,face,noun,R4,Y
+1539,pasir,,모래,sand,noun,R4,Y
+1540,pemilu,,총선,election,noun,R4,N
+1541,perhatikan,,주목하라,pay attention,verb,R4,N
+1542,petani,,농부,farmer,noun,R4,Y
+1543,prestasi,,성과,achievement,noun,R4,N
+1544,saran,,제안,suggestion,noun,R4,N
+1545,sejati,,진정한,true,adj,R4,N
+1546,seolah,,마치,as if,conj,R4,N
+1547,sepeda,,자전거,bicycle,noun,R4,Y
+1548,setia,,충실하다,loyal,adj,R4,N
+1549,suasana,,분위기,atmosphere,noun,R4,N
+1550,tambah,,더하다,add,verb,R4,N
+1551,tersangka,,용의자,suspect,noun,R4,Y
+1552,transportasi,,교통,transport,noun,R4,N
+1553,berbentuk,,~모양의,shaped,adj,R4,N
+1554,bermanfaat,,유용하다,useful,adj,R4,N
+1555,diantara,,~사이에,among,prep,R4,N
+1556,dilaksanakan,,실시되다,carried out,verb,R4,N
+1557,dipercaya,,믿어지다,trusted,verb,R4,N
+1558,kampanye,,캠페인,campaign,noun,R4,N
+1559,karna,,때문에,because,conj,R4,N
+1560,kebenaran,,진실,truth,noun,R4,N
+1561,keberadaan,,존재,existence,noun,R4,N
+1562,kementerian,,부처,ministry,noun,R4,N
+1563,materi,,자료,material,noun,R4,N
+1564,melepaskan,,놓아주다,release,verb,R4,N
+1565,member,,회원,member,noun,R4,N
+1566,mencetak,,인쇄하다,print,verb,R4,Y
+1567,mendorong,,밀다,push,verb,R4,Y
+1568,mengangkat,,들어 올리다,lift,verb,R4,Y
+1569,menghancurkan,,파괴하다,destroy,verb,R4,N
+1570,menghargai,,존중하다,respect,verb,R4,N
+1571,mengunjungi,,방문하다,visit,verb,R4,Y
+1572,menonton,,보다,watch,verb,R4,Y
+1573,peningkatan,,증가,increase,noun,R4,N
+1574,penumpang,,승객,passenger,noun,R4,Y
+1575,percayalah,,믿어라,trust,verb,R4,N
+1576,pertanian,,농업,agriculture,noun,R4,Y
+1577,pertempuran,,전투,battle,noun,R4,Y
+1578,prajurit,,병사,soldier,noun,R4,Y
+1579,rekaman,,녹음,recording,noun,R4,N
+1580,roh,,영혼,spirit,noun,R4,N
+1581,sebaliknya,,반대로,instead,adv,R4,N
+1582,sekitarnya,,주변,surroundings,noun,R4,N
+1583,skor,,점수,score,noun,R4,N
+1584,staf,,직원,staff,noun,R4,Y
+1585,tu,,저것,that,pron,R4,N
+1586,utk,,위해,for,prep,R4,N
+1587,anggap,,여기다,consider,verb,R4,N
+1588,bahaya,,위험,danger,noun,R4,N
+1589,beliau,,그분,he/she,pron,R4,N
+1590,bertindak,,행동하다,act,verb,R4,N
+1591,cobalah,,해 보세요,try,verb,R4,N
+1592,efektif,,효과적이다,effective,adj,R4,N
+1593,fakultas,,학부,faculty,noun,R4,N
+1594,global,,세계적인,global,adj,R4,N
+1595,guna,,쓸모,use,noun,R4,N
+1596,hakim,,판사,judge,noun,R4,Y
+1597,istrinya,,그의 아내,his wife,noun,R4,Y
+1598,jumat,,금요일,Friday,noun,R4,N
+1599,kanker,,암,cancer,noun,R4,N
+1600,lambat,,느리다,slow,adj,R4,Y
+1601,matanya,,그의 눈,his eyes,noun,R4,Y
+1602,medis,,의료의,medical,adj,R4,N
+1603,membuktikan,,증명하다,prove,verb,R4,N
+1604,pelaku,,행위자,perpetrator,noun,R4,N
+1605,penjara,,감옥,prison,noun,R4,Y
+1606,petunjuk,,단서,clue,noun,R4,N
+1607,prinsip,,원칙,principle,noun,R4,N
+1608,promosi,,홍보,promotion,noun,R4,N
+1609,roti,,빵,bread,noun,R4,Y
+1610,sapi,,소,cow,noun,R4,Y
+1611,terbuat,,~로 만들어진,made,verb,R4,N
+1612,wali,,보호자,guardian,noun,R4,N
+1613,aliran,,흐름,flow,noun,R4,N
+1614,angkatan,,세대,generation,noun,R4,N
+1615,berkaitan,,관련되다,related,verb,R4,N
+1616,bohong,,거짓말하다,lie,verb,R4,N
+1617,budak,,노예,slave,noun,R4,Y
+1618,diluar,,밖에,outside,prep,R4,N
+1619,dinas,,관청,office,noun,R4,N
+1620,format,,형식,format,noun,R4,N
+1621,golongan,,계층,class,noun,R4,N
+1622,haji,,순례,pilgrimage,noun,R4,N
+1623,iman,,믿음,faith,noun,R4,N
+1624,kampung,,마을,village,noun,R4,Y
+1625,kekerasan,,폭력,violence,noun,R4,N
+1626,kekuasaan,,권력,power,noun,R4,N
+1627,keluarganya,,그의 가족,his family,noun,R4,Y
+1628,korupsi,,부패,corruption,noun,R4,N
+1629,melupakan,,잊다,forget,verb,R4,N
+1630,membuatku,,나를 ~하게 하다,make me,verb,R4,N
+1631,memerlukan,,필요로 하다,need,verb,R4,N
+1632,menghilangkan,,없애다,remove,verb,R4,N
+1633,mengungkapkan,,표현하다,express,verb,R4,N
+1634,menyebutkan,,언급하다,mention,verb,R4,N
+1635,november,,11월,November,noun,R4,N
+1636,pariwisata,,관광업,tourism,noun,R4,N
+1637,pelatihan,,훈련,training,noun,R4,N
+1638,peringkat,,순위,rank,noun,R4,N
+1639,pernyataan,,진술,statement,noun,R4,N
+1640,peta,,지도,map,noun,R4,Y
+1641,pimpinan,,지도자,leader,noun,R4,Y
+1642,rupanya,,알고 보니,apparently,adv,R4,N
+1643,sabtu,,토요일,Saturday,noun,R4,N
+1644,sanggup,,할 수 있다,capable,adj,R4,N
+1645,sebagaimana,,~처럼,as,conj,R4,N
+1646,senin,,월요일,Monday,noun,R4,N
+1647,spesial,,특별하다,special,adj,R4,N
+1648,tarik,,당기다,pull,verb,R4,Y
+1649,terlebih,,특히,especially,adv,R4,N
+1650,admin,,관리자,admin,noun,R4,N
+1651,ancaman,,위협,threat,noun,R4,N
+1652,bersikap,,태도를 취하다,behave,verb,R4,N
+1653,buatan,,~제,made,noun,R4,N
+1654,deh,,~요(강조),particle,particle,R4,N
+1655,dibutuhkan,,필요하다,needed,verb,R4,N
+1656,diikuti,,뒤따르다,followed,verb,R4,N
+1657,email,,이메일,email,noun,R4,Y
+1658,emosi,,감정,emotion,noun,R4,N
+1659,heran,,의아하다,surprised,adj,R4,N
+1660,intinya,,요점은,gist,noun,R4,N
+1661,kang,,형,brother,noun,R4,Y
+1662,kapten,,선장,captain,noun,R4,Y
+1663,kontak,,연락처,contact,noun,R4,N
+1664,melibatkan,,관여시키다,involve,verb,R4,N
+1665,mengajar,,가르치다,teach,verb,R4,Y
+1666,menilai,,평가하다,evaluate,verb,R4,N
+1667,nih,,이것(강조),particle,particle,R4,N
+1668,panggilan,,호출,call,noun,R4,N
+1669,pedagang,,상인,trader,noun,R4,Y
+1670,pertahanan,,방어,defense,noun,R4,N
+1671,pola,,패턴,pattern,noun,R4,N
+1672,putaran,,회전,round,noun,R4,N
+1673,restoran,,식당,restaurant,noun,R4,Y
+1674,saksi,,증인,witness,noun,R4,Y
+1675,sarana,,수단,means,noun,R4,N
+1676,setan,,악마,devil,noun,R4,Y
+1677,setempat,,현지의,local,adj,R4,N
+1678,temannya,,그의 친구,his friend,noun,R4,Y
+1679,terserah,,맘대로,up to you,adv,R4,N
+1680,alamat,,주소,address,noun,R4,N
+1681,atap,,지붕,roof,noun,R4,Y
+1682,buru,,쫓다,chase,verb,R4,Y
+1683,butuhkan,,필요로 하다,need,verb,R4,N
+1684,danau,,호수,lake,noun,R4,Y
+1685,hangat,,따뜻한,warm,adj,R4,N
+1686,ibadah,,예배,worship,noun,R4,N
+1687,jelek,,못생긴,ugly,adj,R4,N
+1688,kasar,,거친,rough,adj,R4,N
+1689,kecewa,,실망하다,disappointed,adj,R4,N
+1690,lu,,너,you,pron,R4,N
+1691,melahirkan,,출산하다,give birth,verb,R4,Y
+1692,negatif,,부정적인,negative,adj,R4,N
+1693,objek,,대상,object,noun,R4,N
+1694,padanya,,그에게,to him,pron,R4,N
+1695,pegawai,,직원,employee,noun,R4,Y
+1696,pelajar,,학생,student,noun,R4,Y
+1697,pelanggan,,고객,customer,noun,R4,Y
+1698,pembunuhan,,살인,murder,noun,R4,N
+1699,pertunjukan,,공연,show,noun,R4,Y
+1700,raksasa,,거인,giant,noun,R4,Y
+1701,sektor,,부문,sector,noun,R4,N
+1702,sinar,,빛줄기,ray,noun,R4,Y
+1703,terang,,밝은,bright,adj,R4,N
+1704,terpilih,,선출된,chosen,adj,R4,N
+1705,wajar,,당연한,reasonable,adj,R4,N
+1706,alasannya,,그 이유,his reason,noun,R4,N
+1707,berhak,,권리가 있다,entitled,verb,R4,N
+1708,fase,,단계,phase,noun,R4,N
+1709,ialah,,~이다,is,verb,R4,N
+1710,investasi,,투자,investment,noun,R4,N
+1711,jawabannya,,그 대답,the answer,noun,R4,N
+1712,jaya,,번영하는,victorious,adj,R4,N
+1713,kebetulan,,우연히,by chance,adv,R4,N
+1714,keseluruhan,,전체,whole,noun,R4,N
+1715,kuning,,노란색,yellow,adj,R4,Y
+1716,malaikat,,천사,angel,noun,R4,Y
+1717,mencegah,,막다,prevent,verb,R4,N
+1718,menghindari,,피하다,avoid,verb,R4,N
+1719,menyelamatkan,,구하다,save,verb,R4,Y
+1720,nenek,,할머니,grandmother,noun,R4,Y
+1721,perlahan,,천천히,slowly,adv,R4,N
+1722,seksi,,섹시한,sexy,adj,R4,N
+1723,seputar,,~에 관한,about,prep,R4,N
+1724,suhu,,온도,temperature,noun,R4,N
+1725,tangannya,,그의 손,his hand,noun,R4,Y
+1726,terkena,,맞다,be hit,verb,R4,N
+1727,akal,,지혜,reason,noun,R4,N
+1728,aslinya,,원래,originally,adv,R4,N
+1729,batang,,줄기,stem,noun,R4,Y
+1730,berhati,,마음을 쓰다,careful,verb,R4,N
+1731,berpartisipasi,,참여하다,participate,verb,R4,N
+1732,bom,,폭탄,bomb,noun,R4,Y
+1733,bosan,,지루한,bored,adj,R4,N
+1734,disebutkan,,언급되다,be mentioned,verb,R4,N
+1735,ditulis,,쓰여지다,be written,verb,R4,N
+1736,ditutup,,닫히다,be closed,verb,R4,N
+1737,harganya,,그 가격,its price,noun,R4,N
+1738,identitas,,신원,identity,noun,R4,N
+1739,kaca,,유리,glass,noun,R4,Y
+1740,keberhasilan,,성공,success,noun,R4,N
+1741,kg,,킬로그램,kilogram,noun,R4,N
+1742,kitab,,경전,scripture,noun,R4,Y
+1743,maha,,매우 ~한,great,adv,R4,N
+1744,menangani,,다루다,handle,verb,R4,N
+1745,menangkap,,잡다,catch,verb,R4,Y
+1746,miskin,,가난한,poor,adj,R4,N
+1747,mulia,,고귀한,noble,adj,R4,N
+1748,panggil,,부르다,call,verb,R4,Y
+1749,pemikiran,,사고,thought,noun,R4,N
+1750,pengertian,,이해,understanding,noun,R4,N
+1751,penonton,,관객,audience,noun,R4,Y
+1752,perguruan,,학교,institution,noun,R4,N
+1753,potensi,,잠재력,potential,noun,R4,N
+1754,truk,,트럭,truck,noun,R4,Y
+1755,tulis,,쓰다,write,verb,R4,Y
+1756,usai,,끝난 후,after,prep,R4,N
+1757,arus,,흐름,current,noun,R4,Y
+1758,bencana,,재난,disaster,noun,R4,Y
+1759,berumur,,나이가 ~인,aged,adj,R4,N
+1760,bukit,,언덕,hill,noun,R4,Y
+1761,ditetapkan,,정해지다,be set,verb,R4,N
+1762,gula,,설탕,sugar,noun,R4,Y
+1763,individu,,개인,individual,noun,R4,N
+1764,jabatan,,직위,position,noun,R4,N
+1765,kalimat,,문장,sentence,noun,R4,N
+1766,kamis,,목요일,Thursday,noun,R4,N
+1767,kekalahan,,패배,defeat,noun,R4,N
+1768,kesuksesan,,성공,success,noun,R4,N
+1769,keterangan,,설명,explanation,noun,R4,N
+1770,lapar,,배고픈,hungry,adj,R4,Y
+1771,lupakan,,잊어라,forget,verb,R4,N
+1772,makna,,의미,meaning,noun,R4,N
+1773,massa,,대중,crowd,noun,R4,Y
+1774,mengenakan,,입다,wear,verb,R4,Y
+1775,mengisi,,채우다,fill,verb,R4,Y
+1776,papa,,아빠,papa,noun,R4,Y
+1777,republik,,공화국,republic,noun,R4,N
+1778,roda,,바퀴,wheel,noun,R4,Y
+1779,rumahnya,,그의 집,his house,noun,R4,Y
+1780,sembilan,,아홉,nine,num,R4,N
+1781,sesama,,서로,fellow,noun,R4,N
+1782,suruh,,시키다,order,verb,R4,N
+1783,televisi,,텔레비전,television,noun,R4,Y
+1784,terjun,,뛰어들다,plunge,verb,R4,Y
+1785,tubuhnya,,그의 몸,his body,noun,R4,Y
+1786,uji,,시험하다,test,verb,R4,N
+1787,belanja,,쇼핑하다,shop,verb,R4,Y
+1788,bocah,,아이,kid,noun,R4,Y
+1789,contohnya,,예를 들어,for example,adv,R4,N
+1790,diantaranya,,그 중에,among them,adv,R4,N
+1791,gimana,,어떻게,how,adv,R4,N
+1792,jaman,,시대,era,noun,R4,N
+1793,kacang,,콩,bean,noun,R4,Y
+1794,kenangan,,추억,memory,noun,R4,N
+1795,keturunan,,후손,descendant,noun,R4,N
+1796,makanya,,그러니까,that's why,conj,R4,N
+1797,masalahnya,,문제는,the problem,noun,R4,N
+1798,melaksanakan,,실행하다,carry out,verb,R4,N
+1799,melarikan,,도망치다,run away,verb,R4,Y
+1800,menyakiti,,아프게 하다,hurt,verb,R4,N
+1801,merek,,상표,brand,noun,R4,N
+1802,minat,,관심,interest,noun,R4,N
+1803,pensiun,,은퇴,retirement,noun,R4,N
+1804,pulsa,,통화 충전액,phone credit,noun,R4,N
+1805,ramah,,친절한,friendly,adj,R4,N
+1806,sekalian,,모두,all,pron,R4,N
+1807,seru,,신나는,exciting,adj,R4,N
+1808,terpisah,,분리된,separated,adj,R4,N
+1809,yo,,그래,yo,interj,R4,N
+1810,belas,,~십(10대),teen,num,R4,N
+1811,bersamaan,,동시에,simultaneous,adv,R4,N
+1812,coklat,,초콜릿,chocolate,noun,R4,Y
+1813,cuaca,,날씨,weather,noun,R4,Y
+1814,damai,,평화로운,peaceful,adj,R4,N
+1815,dampak,,영향,impact,noun,R4,N
+1816,departemen,,부서,department,noun,R4,N
+1817,enggak,,아니,no,adv,R4,N
+1818,kelapa,,코코넛,coconut,noun,R4,Y
+1819,kepentingan,,이익,interest,noun,R4,N
+1820,kepolisian,,경찰,police,noun,R4,N
+1821,kering,,마른,dry,adj,R4,N
+1822,komponen,,부품,component,noun,R4,N
+1823,kontrol,,통제,control,noun,R4,N
+1824,kreatif,,창의적인,creative,adj,R4,N
+1825,laba,,이익,profit,noun,R4,N
+1826,level,,수준,level,noun,R4,N
+1827,liar,,야생의,wild,adj,R4,N
+1828,matematika,,수학,math,noun,R4,N
+1829,melaporkan,,보고하다,report,verb,R4,N
+1830,membersihkan,,청소하다,clean,verb,R4,Y
+1831,menambah,,더하다,add,verb,R4,N
+1832,mengajukan,,제출하다,submit,verb,R4,N
+1833,menimbulkan,,일으키다,cause,verb,R4,N
+1834,nasib,,운명,fate,noun,R4,N
+1835,novel,,소설,novel,noun,R4,Y
+1836,orangnya,,그 사람,that person,noun,R4,Y
+1837,papan,,판자,board,noun,R4,Y
+1838,peluang,,기회,chance,noun,R4,N
+1839,puluhan,,수십,dozens,num,R4,N
+1840,rangka,,틀,frame,noun,R4,N
+1841,referensi,,참고,reference,noun,R4,N
+1842,suaminya,,그녀의 남편,her husband,noun,R4,Y
+1843,terbiasa,,익숙한,used to,adj,R4,N
+1844,transfer,,이체,transfer,noun,R4,N
+1845,upacara,,의식,ceremony,noun,R4,Y
+1846,ampun,,용서,mercy,interj,R4,N
+1847,anggaran,,예산,budget,noun,R4,N
+1848,berlalu,,지나가다,pass by,verb,R4,N
+1849,bro,,형,bro,noun,R4,N
+1850,dengannya,,그와 함께,with him,pron,R4,N
+1851,diharapkan,,기대되다,be expected,verb,R4,N
+1852,ditambah,,더해지다,be added,verb,R4,N
+1853,favorit,,좋아하는,favorite,adj,R4,N
+1854,gaji,,월급,salary,noun,R4,Y
+1855,gempa,,지진,earthquake,noun,R4,Y
+1856,harinya,,그 날,that day,noun,R4,N
+1857,hatinya,,그의 마음,his heart,noun,R4,N
+1858,hidupku,,내 삶,my life,noun,R4,N
+1859,kala,,때,when,conj,R4,N
+1860,kebun,,정원,garden,noun,R4,Y
+1861,kesepakatan,,합의,agreement,noun,R4,N
+1862,lapisan,,층,layer,noun,R4,N
+1863,manajer,,매니저,manager,noun,R4,Y
+1864,maya,,가상의,virtual,adj,R4,N
+1865,mengucapkan,,말하다,say,verb,R4,N
+1866,menjelang,,~을 앞두고,approaching,prep,R4,N
+1867,menuntut,,요구하다,demand,verb,R4,N
+1868,menyebar,,퍼지다,spread,verb,R4,N
+1869,menyerahkan,,넘겨주다,hand over,verb,R4,N
+1870,nampak,,보이다,appear,verb,R4,N
+1871,nikmati,,즐기다,enjoy,verb,R4,N
+1872,otomatis,,자동의,automatic,adj,R4,N
+1873,pencarian,,검색,search,noun,R4,N
+1874,perdana,,첫,first,adj,R4,N
+1875,perilaku,,행동,behavior,noun,R4,N
+1876,persiapan,,준비,preparation,noun,R4,N
+1877,rabu,,수요일,Wednesday,noun,R4,N
+1878,risiko,,위험,risk,noun,R4,N
+1879,selasa,,화요일,Tuesday,noun,R4,N
+1880,serupa,,비슷한,similar,adj,R4,N
+1881,alias,,별칭,alias,noun,R4,N
+1882,bunda,,엄마,mother,noun,R4,Y
+1883,dikeluarkan,,발행되다,be issued,verb,R4,N
+1884,diminta,,요청받다,be asked,verb,R4,N
+1885,diskon,,할인,discount,noun,R4,N
+1886,gara,,때문에,because,noun,R4,N
+1887,jadikan,,~로 만들다,make,verb,R4,N
+1888,jendela,,창문,window,noun,R4,Y
+1889,kebakaran,,화재,fire,noun,R4,Y
+1890,kebebasan,,자유,freedom,noun,R4,N
+1891,kedalam,,안으로,into,prep,R4,N
+1892,keempat,,네 번째,fourth,num,R4,N
+1893,lukisan,,그림,painting,noun,R4,Y
+1894,meliputi,,포함하다,cover,verb,R4,N
+1895,menghentikan,,멈추다,stop,verb,R4,N
+1896,mental,,정신,mental,noun,R4,N
+1897,merdeka,,독립한,independent,adj,R4,N
+1898,merokok,,담배를 피우다,smoke,verb,R4,Y
+1899,padat,,빽빽한,dense,adj,R4,N
+1900,pastinya,,분명히,surely,adv,R4,N
+1901,patah,,부러지다,broken,verb,R4,Y
+1902,penggemar,,팬,fan,noun,R4,Y
+1903,perbuatan,,행위,deed,noun,R4,N
+1904,reaksi,,반응,reaction,noun,R4,N
+1905,rilis,,출시하다,release,verb,R4,N
+1906,seiring,,~에 따라,along with,prep,R4,N
+1907,sidang,,재판,trial,noun,R4,N
+1908,sipil,,민간의,civil,adj,R4,N
+1909,struktur,,구조,structure,noun,R4,N
+1910,tantangan,,도전,challenge,noun,R4,N
+1911,terdengar,,들리다,be heard,verb,R4,N
+1912,tertulis,,쓰여 있다,written,verb,R4,N
+1913,tetangga,,이웃,neighbor,noun,R4,Y
+1914,tol,,고속도로,toll road,noun,R4,Y
+1915,tunggal,,단일의,single,adj,R4,N
+1916,analisis,,분석,analysis,noun,R4,N
+1917,banjir,,홍수,flood,noun,R4,Y
+1918,berperan,,역할을 하다,play a role,verb,R4,N
+1919,bertugas,,임무를 맡다,on duty,verb,R4,N
+1920,beserta,,~와 함께,along with,prep,R4,N
+1921,bonus,,보너스,bonus,noun,R4,N
+1922,cetak,,인쇄하다,print,verb,R4,Y
+1923,diciptakan,,만들어지다,be created,verb,R4,N
+1924,didukung,,지지받다,be supported,verb,R4,N
+1925,dilengkapi,,갖추어지다,be equipped,verb,R4,N
+1926,ditentukan,,결정되다,be decided,verb,R4,N
+1927,duluan,,먼저,first,adv,R4,N
+1928,gelombang,,파도,wave,noun,R4,Y
+1929,gerbang,,문,gate,noun,R4,Y
+1930,gitu,,그렇게,like that,adv,R4,N
+1931,hancur,,부서지다,destroyed,verb,R4,N
+1932,impian,,꿈,dream,noun,R4,N
+1933,kabel,,케이블,cable,noun,R4,Y
+1934,kaos,,티셔츠,T-shirt,noun,R4,Y
+1935,kelahiran,,출생,birth,noun,R4,N
+1936,keselamatan,,안전,safety,noun,R4,N
+1937,keyakinan,,신념,belief,noun,R4,N
+1938,komandan,,지휘관,commander,noun,R4,Y
+1939,kunjungi,,방문하다,visit,verb,R4,N
+1940,manfaat,,이익,benefit,noun,R4,N
+1941,menambahkan,,덧붙이다,add,verb,R4,N
+1942,mendekati,,다가가다,approach,verb,R4,N
+1943,mengakibatkan,,초래하다,result in,verb,R4,N
+1944,merubah,,바꾸다,change,verb,R4,N
+1945,museum,,박물관,museum,noun,R4,Y
+1946,nantinya,,나중에,later,adv,R4,N
+1947,pelaksanaan,,실행,implementation,noun,R4,N
+1948,pendaftaran,,등록,registration,noun,R4,N
+1949,rupiah,,루피아,rupiah,noun,R4,Y
+1950,teks,,글,text,noun,R4,N
+1951,terlambat,,늦은,late,adj,R4,N
+1952,babi,,돼지,pig,noun,R4,Y
+1953,beragam,,다양한,various,adj,R4,N
+1954,ceritanya,,그 이야기,the story,noun,R4,N
+1955,detail,,세부,detail,noun,R4,N
+1956,dibilang,,말해지다,be said,verb,R4,N
+1957,dinilai,,평가되다,be judged,verb,R4,N
+1958,hiburan,,오락,entertainment,noun,R4,N
+1959,inti,,핵심,core,noun,R4,N
+1960,jutaan,,수백만,millions,num,R4,N
+1961,kemerdekaan,,독립,independence,noun,R4,N
+1962,kolam,,연못,pond,noun,R4,Y
+1963,mengatasi,,해결하다,overcome,verb,R4,N
+1964,mengejar,,쫓다,chase,verb,R4,Y
+1965,mengharapkan,,기대하다,expect,verb,R4,N
+1966,niat,,의도,intention,noun,R4,N
+1967,panggung,,무대,stage,noun,R4,Y
+1968,penjaga,,경비,guard,noun,R4,Y
+1969,perwakilan,,대표,representative,noun,R4,N
+1970,relatif,,상대적인,relative,adj,R4,N
+1971,sekian,,이상,that's all,adv,R4,N
+1972,simbol,,상징,symbol,noun,R4,N
+1973,strategi,,전략,strategy,noun,R4,N
+1974,tempatnya,,그 장소,the place,noun,R4,N
+1975,tersisa,,남은,remaining,adj,R4,N
+1976,tertutup,,닫힌,closed,adj,R4,N
+1977,bakat,,재능,talent,noun,R4,N
+1978,beasiswa,,장학금,scholarship,noun,R4,N
+1979,bersamamu,,너와 함께,with you,adv,R4,N
+1980,cedera,,부상,injury,noun,R4,N
+1981,dewi,,여신,goddess,noun,R4,Y
+1982,dilarang,,금지되다,be forbidden,verb,R4,N
+1983,jadilah,,~이 되어라,be,verb,R4,N
+1984,kak,,형/누나,older sibling,noun,R4,Y
+1985,karyawan,,직원,employee,noun,R4,Y
+1986,kecantikan,,아름다움,beauty,noun,R4,N
+1987,kegagalan,,실패,failure,noun,R4,N
+1988,kekayaan,,재산,wealth,noun,R4,N
+1989,kelak,,훗날,someday,adv,R4,N
+1990,kelebihan,,장점,advantage,noun,R4,N
+1991,kelihatan,,보이다,look,verb,R4,N
+1992,kesini,,이쪽으로,here,adv,R4,N
+1993,konflik,,갈등,conflict,noun,R4,N
+1994,kredit,,대출,credit,noun,R4,N
+1995,memasukkan,,넣다,put in,verb,R4,Y
+1996,memeriksa,,검사하다,check,verb,R4,N
+1997,memproduksi,,생산하다,produce,verb,R4,N
+1998,mengalir,,흐르다,flow,verb,R4,Y
+1999,menghapus,,지우다,delete,verb,R4,N
+2000,motivasi,,동기,motivation,noun,R4,N
+2001,neraka,,지옥,hell,noun,R4,N
+2002,nusantara,,누산타라,archipelago,noun,R4,N
+2003,pandang,,보다,look,verb,R4,N
+2004,pelan,,느린,slow,adj,R4,N
+2005,pembuat,,제작자,maker,noun,R4,N
+2006,pendapatan,,수입,income,noun,R4,N
+2007,penyanyi,,가수,singer,noun,R4,Y
+2008,perahu,,배,boat,noun,R4,Y
+2009,pikirkan,,생각해라,think,verb,R4,N
+2010,potongan,,조각,piece,noun,R4,Y
+2011,rokok,,담배,cigarette,noun,R4,Y
+2012,seekor,,한 마리,one animal,num,R4,N
+2013,simak,,귀 기울이다,listen,verb,R4,N
+2014,tayang,,방영하다,broadcast,verb,R4,N
+2015,terpaksa,,어쩔 수 없이,forced,adv,R4,N
+2016,tradisi,,전통,tradition,noun,R4,N
+2017,ucapan,,말,words,noun,R4,N
+2018,ular,,뱀,snake,noun,R4,Y
+2019,zat,,물질,substance,noun,R4,N
+2020,balas,,답하다,reply,verb,R4,N
+2021,bangkit,,일어나다,rise,verb,R4,N
+2022,berencana,,계획하다,plan,verb,R4,N
+2023,bersyukur,,감사하다,grateful,verb,R4,N
+2024,campuran,,혼합물,mixture,noun,R4,N
+2025,cerah,,맑은,clear,adj,R4,N
+2026,diadakan,,열리다,be held,verb,R4,N
+2027,dimainkan,,연주되다,be played,verb,R4,N
+2028,dirilis,,출시되다,be released,verb,R4,N
+2029,disertai,,동반되다,accompanied,verb,R4,N
+2030,dolar,,달러,dollar,noun,R4,Y
+2031,episode,,에피소드,episode,noun,R4,N
+2032,hah,,하,huh,interj,R4,N
+2033,isu,,소문,issue,noun,R4,N
+2034,jerawat,,여드름,pimple,noun,R4,Y
+2035,kabur,,도망치다,flee,verb,R4,Y
+2036,lho,,어머,oh,particle,R4,N
+2037,lurus,,곧은,straight,adj,R4,N
+2038,maksimal,,최대의,maximum,adj,R4,N
+2039,membiarkan,,내버려두다,let,verb,R4,N
+2040,menara,,탑,tower,noun,R4,Y
+2041,menengah,,중간의,middle,adj,R4,N
+2042,mengembalikan,,돌려주다,return,verb,R4,N
+2043,menurunkan,,내리다,lower,verb,R4,N
+2044,murni,,순수한,pure,adj,R4,N
+2045,pandai,,똑똑한,smart,adj,R4,N
+2046,pembayaran,,지불,payment,noun,R4,N
+2047,perawatan,,치료,care,noun,R4,N
+2048,plus,,더하기,plus,conj,R4,N
+2049,sasaran,,목표,target,noun,R4,N
+2050,sekalipun,,~일지라도,even if,conj,R4,N
+2051,teknis,,기술적인,technical,adj,R4,N
+2052,timnas,,국가대표팀,national team,noun,R4,N
+2053,tipis,,얇은,thin,adj,R4,N
+2054,ac,,에어컨,air conditioner,noun,R4,Y
+2055,atlet,,운동선수,athlete,noun,R4,Y
+2056,ban,,타이어,tire,noun,R4,Y
+2057,bayangkan,,상상하라,imagine,verb,R4,N
+2058,blok,,구역/블록,block,noun,R4,N
+2059,demokrasi,,민주주의,democracy,noun,R4,N
+2060,derajat,,도(온도)/등급,degree,noun,R4,N
+2061,dibunuh,,살해당하다,be killed,verb,R4,N
+2062,dicari,,찾는 중이다,be sought,verb,R4,N
+2063,diet,,다이어트,diet,noun,R4,N
+2064,dihasilkan,,생산되다,be produced,verb,R4,N
+2065,dikarenakan,,~때문에,because,conj,R4,N
+2066,dikembangkan,,개발되다,be developed,verb,R4,N
+2067,dipanggil,,불려지다,be called,verb,R4,N
+2068,elektronik,,전자의,electronic,adj,R4,N
+2069,festival,,축제,festival,noun,R4,Y
+2070,halus,,부드러운,smooth,adj,R4,N
+2071,kebahagiaan,,행복,happiness,noun,R4,N
+2072,kepulauan,,군도,archipelago,noun,R4,N
+2073,kerjasama,,협력,cooperation,noun,R4,N
+2074,markas,,본부,headquarters,noun,R4,N
+2075,masakan,,요리,cooking,noun,R4,Y
+2076,membahas,,논의하다,discuss,verb,R4,N
+2077,mengakhiri,,끝내다,end,verb,R4,N
+2078,menghilang,,사라지다,disappear,verb,R4,N
+2079,menjauh,,멀어지다,move away,verb,R4,N
+2080,menyakitkan,,아프게 하는,painful,adj,R4,N
+2081,mini,,작은,mini,adj,R4,N
+2082,minimal,,최소한,minimum,adj,R4,N
+2083,nonton,,보다(영상),watch,verb,R4,Y
+2084,seandainya,,만약 ~라면,if,conj,R4,N
+2085,sekretaris,,비서,secretary,noun,R4,Y
+2086,seksual,,성적인,sexual,adj,R4,N
+2087,tali,,줄,rope,noun,R4,Y
+2088,terhubung,,연결되다,connected,verb,R4,N
+2089,tiada,,없다,there is none,verb,R4,N
+2090,triliun,,조(兆),trillion,num,R4,N
+2091,tumbuhan,,식물,plant,noun,R4,Y
+2092,yahudi,,유대인,Jewish,noun,R4,N
+2093,zona,,지역,zone,noun,R4,N
+2094,administrasi,,행정,administration,noun,R4,N
+2095,basah,,젖은,wet,adj,R4,Y
+2096,berkas,,서류,file,noun,R4,Y
+2097,bertahun,,수년,for years,adv,R4,N
+2098,bung,,형/동지,brother,noun,R4,N
+2099,dibaca,,읽히다,be read,verb,R4,N
+2100,dirumah,,집에서,at home,adv,R4,N
+2101,forum,,포럼,forum,noun,R4,N
+2102,ilmiah,,과학적인,scientific,adj,R4,N
+2103,ilmuwan,,과학자,scientist,noun,R4,Y
+2104,kain,,천,cloth,noun,R4,Y
+2105,kehormatan,,명예,honor,noun,R4,N
+2106,kendali,,통제,control,noun,R4,N
+2107,ketakutan,,두려움,fear,noun,R4,N
+2108,klasik,,고전의,classic,adj,R4,N
+2109,komentar,,댓글/논평,comment,noun,R4,N
+2110,kotor,,더러운,dirty,adj,R4,Y
+2111,memaksa,,강요하다,force,verb,R4,N
+2112,memanfaatkan,,활용하다,use,verb,R4,N
+2113,mengajarkan,,가르치다,teach,verb,R4,Y
+2114,mengganti,,바꾸다,replace,verb,R4,N
+2115,mengingatkan,,상기시키다,remind,verb,R4,N
+2116,menyentuh,,만지다,touch,verb,R4,Y
+2117,natal,,크리스마스,Christmas,noun,R4,Y
+2118,operator,,운영자,operator,noun,R4,N
+2119,orangtua,,부모,parents,noun,R4,Y
+2120,patut,,마땅하다,deserve,verb,R4,N
+2121,perpustakaan,,도서관,library,noun,R4,Y
+2122,pilkada,,지방선거,local election,noun,R4,N
+2123,profesor,,교수,professor,noun,R4,Y
+2124,rangkaian,,연속/시리즈,series,noun,R4,N
+2125,resiko,,위험,risk,noun,R4,N
+2126,rute,,경로,route,noun,R4,N
+2127,sebaik,,~만큼 좋은,as good as,adv,R4,N
+2128,sebulan,,한 달,a month,noun,R4,N
+2129,segar,,신선한,fresh,adj,R4,Y
+2130,selengkapnya,,자세히,in full,adv,R4,N
+2131,senyum,,미소,smile,noun,R4,Y
+2132,stres,,스트레스,stress,noun,R4,N
+2133,swasta,,민간의,private,adj,R4,N
+2134,wajahnya,,그의 얼굴,his face,noun,R4,Y
+2135,wawancara,,인터뷰,interview,noun,R4,Y
+2136,ajaran,,가르침,teaching,noun,R4,N
+2137,alternatif,,대안,alternative,noun,R4,N
+2138,anggur,,포도,grape,noun,R4,Y
+2139,aspek,,측면,aspect,noun,R4,N
+2140,bibir,,입술,lip,noun,R4,Y
+2141,bijak,,현명한,wise,adj,R4,N
+2142,boneka,,인형,doll,noun,R4,Y
+2143,dada,,가슴,chest,noun,R4,Y
+2144,dapur,,부엌,kitchen,noun,R4,Y
+2145,dendam,,원한,grudge,noun,R4,N
+2146,diatur,,정해지다,be arranged,verb,R4,N
+2147,dibagi,,나뉘다,be divided,verb,R4,N
+2148,dibantu,,도움받다,be helped,verb,R4,N
+2149,dini,,이른,early,adj,R4,N
+2150,diperkirakan,,예상되다,be estimated,verb,R4,N
+2151,elemen,,요소,element,noun,R4,N
+2152,fisika,,물리학,physics,noun,R4,N
+2153,gitar,,기타,guitar,noun,R4,Y
+2154,gudang,,창고,warehouse,noun,R4,Y
+2155,hamba,,종/저(겸양),servant,noun,R4,N
+2156,harian,,일간의,daily,adj,R4,N
+2157,kapasitas,,용량,capacity,noun,R4,N
+2158,kelurahan,,동(행정구역),village,noun,R4,N
+2159,ketat,,엄격한,strict,adj,R4,N
+2160,kolonel,,대령,colonel,noun,R4,Y
+2161,lunak,,부드러운,soft,adj,R4,N
+2162,maafkan,,용서하다,forgive,verb,R4,N
+2163,majalah,,잡지,magazine,noun,R4,Y
+2164,mall,,쇼핑몰,mall,noun,R4,Y
+2165,membuang,,버리다,throw away,verb,R4,Y
+2166,menetapkan,,정하다,decide,verb,R4,N
+2167,mengerjakan,,하다/작업하다,work on,verb,R4,N
+2168,menggunakannya,,그것을 쓰다,use it,verb,R4,N
+2169,momen,,순간,moment,noun,R4,N
+2170,olah,,처리/가공,process,noun,R4,N
+2171,paru,,폐,lung,noun,R4,Y
+2172,pelabuhan,,항구,port,noun,R4,Y
+2173,peneliti,,연구원,researcher,noun,R4,Y
+2174,potong,,자르다,cut,verb,R4,Y
+2175,robot,,로봇,robot,noun,R4,Y
+2176,semesta,,우주,universe,noun,R4,N
+2177,stabil,,안정된,stable,adj,R4,N
+2178,tembok,,벽,wall,noun,R4,Y
+2179,terjadinya,,발생,occurrence,noun,R4,N
+2180,tersebar,,퍼지다,spread,verb,R4,N
+2181,walikota,,시장,mayor,noun,R4,Y
+2182,ala,,~식의,style of,prep,R4,N
+2183,bar,,바,bar,noun,R4,Y
+2184,bawang,,양파/마늘,onion,noun,R4,Y
+2185,bergantung,,의존하다,depend,verb,R4,N
+2186,berpengaruh,,영향력 있는,influential,adj,R4,N
+2187,bersatu,,단결하다,unite,verb,R4,N
+2188,buta,,눈먼,blind,adj,R4,Y
+2189,ekor,,꼬리,tail,noun,R4,Y
+2190,jangka,,기간,term,noun,R4,N
+2191,kandang,,우리,pen,noun,R4,Y
+2192,kedatangan,,도착,arrival,noun,R4,N
+2193,menyaksikan,,목격하다,witness,verb,R4,N
+2194,mewah,,호화로운,luxurious,adj,R4,N
+2195,mil,,마일,mile,noun,R4,N
+2196,parkir,,주차,parking,noun,R4,Y
+2197,pemandangan,,경치,view,noun,R4,Y
+2198,pemberian,,선물/제공,giving,noun,R4,N
+2199,pemeriksaan,,검사,examination,noun,R4,N
+2200,penjelasan,,설명,explanation,noun,R4,N
+2201,perbaikan,,수리,repair,noun,R4,N
+2202,psikologi,,심리학,psychology,noun,R4,N
+2203,sebutan,,명칭,term,noun,R4,N
+2204,seleksi,,선발,selection,noun,R4,N
+2205,sopan,,예의 바른,polite,adj,R4,N
+2206,spesifikasi,,사양,specification,noun,R4,N
+2207,trik,,요령,trick,noun,R4,N
+2208,yuk,,~하자,let's,particle,R4,N
+2209,antaranya,,그 중에,among them,adv,R4,N
+2210,baja,,강철,steel,noun,R4,N
+2211,bakteri,,박테리아,bacteria,noun,R4,N
+2212,bendera,,깃발,flag,noun,R4,Y
+2213,bersedia,,기꺼이 하다,willing,adj,R4,N
+2214,botol,,병,bottle,noun,R4,Y
+2215,cowok,,남자애,boy,noun,R4,Y
+2216,darat,,육지,land,noun,R4,Y
+2217,dasarnya,,기본적으로,basically,adv,R4,N
+2218,diganti,,바뀌다,be replaced,verb,R4,N
+2219,dirancang,,설계되다,be designed,verb,R4,N
+2220,file,,파일,file,noun,R4,N
+2221,harapkan,,바라다,hope,verb,R4,N
+2222,hatimu,,네 마음,your heart,noun,R4,N
+2223,jaket,,재킷,jacket,noun,R4,Y
+2224,jumpa,,만나다,meet,verb,R4,N
+2225,keluhan,,불만,complaint,noun,R4,N
+2226,kristen,,기독교의,Christian,adj,R4,N
+2227,kunjungan,,방문,visit,noun,R4,N
+2228,kursus,,강좌,course,noun,R4,N
+2229,legenda,,전설,legend,noun,R4,N
+2230,lo,,너,you,pron,R4,N
+2231,mainan,,장난감,toy,noun,R4,Y
+2232,melihatnya,,그것을 보다,see it,verb,R4,N
+2233,memperkenalkan,,소개하다,introduce,verb,R4,N
+2234,menutupi,,덮다,cover,verb,R4,Y
+2235,menyampaikan,,전달하다,convey,verb,R4,N
+2236,mewakili,,대표하다,represent,verb,R4,N
+2237,patung,,조각상,statue,noun,R4,Y
+2238,pembelian,,구매,purchase,noun,R4,N
+2239,pengganti,,대체물,replacement,noun,R4,N
+2240,pengobatan,,치료,treatment,noun,R4,N
+2241,pengurus,,임원,administrator,noun,R4,N
+2242,rekor,,기록,record,noun,R4,N
+2243,rumit,,복잡한,complicated,adj,R4,N
+2244,sayap,,날개,wing,noun,R4,Y
+2245,senior,,선배,senior,noun,R4,N
+2246,seribu,,천,thousand,num,R4,N
+2247,sesi,,세션,session,noun,R4,N
+2248,simpan,,보관하다,keep,verb,R4,N
+2249,smartphone,,스마트폰,smartphone,noun,R4,Y
+2250,sumpah,,맹세,oath,noun,R4,N
+2251,survei,,설문조사,survey,noun,R4,N
+2252,tarif,,요금,fare,noun,R4,N
+2253,telinga,,귀,ear,noun,R4,Y
+2254,tenggara,,동남,southeast,noun,R4,N
+2255,topik,,주제,topic,noun,R4,N
+2256,urutan,,순서,order,noun,R4,N
+2257,wartawan,,기자,journalist,noun,R4,Y
+2258,abadi,,영원한,eternal,adj,R4,N
+2259,adat,,관습,custom,noun,R4,N
+2260,berdarah,,피 흘리는,bleeding,adj,R4,Y
+2261,berenang,,수영하다,swim,verb,R4,Y
+2262,berjudul,,제목이 ~인,titled,adj,R4,N
+2263,bersalah,,유죄의,guilty,adj,R4,N
+2264,blog,,블로그,blog,noun,R4,N
+2265,bukankah,,~아닌가,isn't it,particle,R4,N
+2266,ganda,,두 배의,double,adj,R4,N
+2267,goreng,,튀긴/볶은,fried,adj,R4,Y
+2268,hadapi,,맞서다,face,verb,R4,N
+2269,hobi,,취미,hobby,noun,R4,N
+2270,jalanan,,길거리,street,noun,R4,Y
+2271,jalannya,,그 길,its way,noun,R4,N
+2272,kumpulan,,모음,collection,noun,R4,N
+2273,laptop,,노트북,laptop,noun,R4,Y
+2274,logam,,금속,metal,noun,R4,Y
+2275,melanggar,,위반하다,violate,verb,R4,N
+2276,memanggil,,부르다,call,verb,R4,Y
+2277,mempengaruhi,,영향을 주다,affect,verb,R4,N
+2278,menatap,,응시하다,stare,verb,R4,Y
+2279,menemui,,만나다,meet,verb,R4,N
+2280,mengendalikan,,조종하다,control,verb,R4,N
+2281,nada,,음/어조,tone,noun,R4,N
+2282,pasca,,~후,post,prep,R4,N
+2283,pengunjung,,방문객,visitor,noun,R4,Y
+2284,perbatasan,,국경,border,noun,R4,N
+2285,protein,,단백질,protein,noun,R4,N
+2286,respon,,반응,response,noun,R4,N
+2287,riset,,연구,research,noun,R4,N
+2288,rupa,,모습,appearance,noun,R4,N
+2289,seakan,,마치 ~인 듯,as if,conj,R4,N
+2290,sepakbola,,축구,soccer,noun,R4,Y
+2291,sial,,재수 없는,unlucky,adj,R4,N
+2292,siaran,,방송,broadcast,noun,R4,Y
+2293,terpenting,,가장 중요한,most important,adj,R4,N
+2294,bab,,장(章),chapter,noun,R4,N
+2295,bagiku,,나에게는,for me,prep,R4,N
+2296,bahas,,논의하다,discuss,verb,R4,N
+2297,balapan,,경주,race,noun,R4,Y
+2298,batik,,바틱,batik,noun,R4,Y
+2299,berkumpul,,모이다,gather,verb,R4,Y
+2300,berlari,,달리다,run,verb,R4,Y
+2301,biji,,씨앗/알,seed,noun,R4,Y
+2302,buruh,,노동자,worker,noun,R4,Y
+2303,dinyatakan,,선언되다,be declared,verb,R4,N
+2304,gejala,,증상,symptom,noun,R4,N
+2305,gembira,,기쁜,happy,adj,R4,Y
+2306,hubungannya,,그 관계,its relation,noun,R4,N
+2307,inspirasi,,영감,inspiration,noun,R4,N
+2308,kasihan,,불쌍하다,pity,adj,R4,N
+2309,keadilan,,정의,justice,noun,R4,N
+2310,kehadiran,,출석,presence,noun,R4,N
+2311,kekasih,,연인,lover,noun,R4,Y
+2312,kepadamu,,너에게,to you,prep,R4,N
+2313,koran,,신문,newspaper,noun,R4,Y
+2314,krim,,크림,cream,noun,R4,Y
+2315,lemak,,지방,fat,noun,R4,N
+2316,lengan,,팔,arm,noun,R4,Y
+2317,lirik,,가사,lyrics,noun,R4,N
+2318,mahkota,,왕관,crown,noun,R4,Y
+2319,masak,,요리하다,cook,verb,R4,Y
+2320,mayoritas,,대다수,majority,noun,R4,N
+2321,melebihi,,초과하다,exceed,verb,R4,N
+2322,memandang,,바라보다,look at,verb,R4,Y
+2323,memasak,,요리하다,cook,verb,R4,Y
+2324,memperhatikan,,주목하다,pay attention,verb,R4,N
+2325,mengarah,,향하다,head toward,verb,R4,N
+2326,naga,,용,dragon,noun,R4,Y
+2327,repot,,번거로운,troublesome,adj,R4,N
+2328,rindu,,그리워하다,miss,verb,R4,N
+2329,sampaikan,,전달하다,convey,verb,R4,N
+2330,shalat,,예배,prayer,noun,R4,Y
+2331,terdekat,,가장 가까운,nearest,adj,R4,N
+2332,ton,,톤,ton,noun,R4,N
+2333,aktor,,배우,actor,noun,R4,Y
+2334,apartemen,,아파트,apartment,noun,R4,Y
+2335,belakangan,,최근,lately,adv,R4,N
+2336,berawal,,시작되다,begin,verb,R4,N
+2337,bercanda,,농담하다,joke,verb,R4,N
+2338,denganmu,,너와,with you,prep,R4,N
+2339,dibayar,,지불되다,be paid,verb,R4,N
+2340,digelar,,열리다,be held,verb,R4,N
+2341,disitu,,거기에,there,adv,R4,N
+2342,ditahan,,구금되다,be detained,verb,R4,N
+2343,garam,,소금,salt,noun,R4,Y
+2344,gw,,나,I,pron,R4,N
+2345,isinya,,그 내용,its content,noun,R4,N
+2346,kambing,,염소,goat,noun,R4,Y
+2347,karir,,경력,career,noun,R4,N
+2348,kebudayaan,,문화,culture,noun,R4,N
+2349,kemajuan,,발전,progress,noun,R4,N
+2350,ketinggalan,,뒤처지다,left behind,verb,R4,N
+2351,kinerja,,성과,performance,noun,R4,N
+2352,lulusan,,졸업생,graduate,noun,R4,Y
+2353,mbak,,누나/언니,sister,noun,R4,Y
+2354,membenci,,미워하다,hate,verb,R4,N
+2355,menolong,,돕다,help,verb,R4,N
+2356,menyiapkan,,준비하다,prepare,verb,R4,N
+2357,mode,,모드,mode,noun,R4,N
+2358,nikmat,,맛있는/즐거운,delicious,adj,R4,N
+2359,payah,,형편없는,hopeless,adj,R4,N
+2360,pembukaan,,개막,opening,noun,R4,N
+2361,pilot,,조종사,pilot,noun,R4,Y
+2362,romantis,,로맨틱한,romantic,adj,R4,N
+2363,satuan,,단위,unit,noun,R4,N
+2364,sholat,,예배,prayer,noun,R4,Y
+2365,tahunan,,연간의,annual,adj,R4,N
+2366,tambang,,광산,mine,noun,R4,Y
+2367,tercatat,,기록되다,be recorded,verb,R4,N
+2368,untung,,운 좋게/이익,lucky,adj,R4,N
+2369,utamanya,,주로,mainly,adv,R4,N
+2370,akibatnya,,그 결과,as a result,adv,R4,N
+2371,alhamdulillah,,알함둘릴라,thank God,interj,R4,N
+2372,asuransi,,보험,insurance,noun,R4,N
+2373,berbohong,,거짓말하다,lie,verb,R4,N
+2374,berfikir,,생각하다,think,verb,R4,N
+2375,berjanji,,약속하다,promise,verb,R4,N
+2376,berukuran,,크기가 ~인,sized,adj,R4,N
+2377,bursa,,증권거래소,exchange,noun,R4,N
+2378,cincin,,반지,ring,noun,R4,Y
+2379,darurat,,긴급한,emergency,adj,R4,N
+2380,diangkat,,임명되다,be appointed,verb,R4,N
+2381,hitungan,,계산,count,noun,R4,N
+2382,interaksi,,상호작용,interaction,noun,R4,N
+2383,kandungan,,함유량,content,noun,R4,N
+2384,karet,,고무,rubber,noun,R4,Y
+2385,kejutan,,놀라움,surprise,noun,R4,Y
+2386,kepemimpinan,,리더십,leadership,noun,R4,N
+2387,konsentrasi,,집중,concentration,noun,R4,N
+2388,lamanya,,기간,duration,noun,R4,N
+2389,lanjutkan,,계속하다,continue,verb,R4,N
+2390,melangkah,,걸음을 내딛다,step,verb,R4,Y
+2391,membalas,,답하다,reply,verb,R4,N
+2392,menggambarkan,,묘사하다,describe,verb,R4,N
+2393,otot,,근육,muscle,noun,R4,Y
+2394,pangan,,식량,food,noun,R4,N
+2395,pelindung,,보호자,protector,noun,R4,N
+2396,peluru,,총알,bullet,noun,R4,Y
+2397,pengacara,,변호사,lawyer,noun,R4,Y
+2398,pengumuman,,공지,announcement,noun,R4,N
+2399,perekonomian,,경제,economy,noun,R4,N
+2400,polda,,지방경찰청,regional police,noun,R4,N
+2401,pondok,,오두막,hut,noun,R4,Y
+2402,produsen,,생산자,producer,noun,R4,N
+2403,rela,,기꺼이 하는,willing,adj,R4,N
+2404,satelit,,위성,satellite,noun,R4,Y
+2405,signifikan,,상당한,significant,adj,R4,N
+2406,stadion,,경기장,stadium,noun,R4,Y
+2407,tanyakan,,물어보다,ask,verb,R4,N
+2408,tegas,,단호한,firm,adj,R4,N
+2409,tombol,,버튼,button,noun,R4,Y
+2410,asa,,희망,hope,noun,R4,N
+2411,beroperasi,,운영되다,operate,verb,R4,N
+2412,berulang,,반복되다,repeat,verb,R4,N
+2413,cairan,,액체,liquid,noun,R4,Y
+2414,campur,,섞다,mix,verb,R4,Y
+2415,dimakan,,먹히다,be eaten,verb,R4,N
+2416,dimensi,,차원,dimension,noun,R4,N
+2417,dulunya,,예전에,formerly,adv,R4,N
+2418,erat,,긴밀한,close,adj,R4,N
+2419,fashion,,패션,fashion,noun,R4,N
+2420,gemuk,,뚱뚱한,fat,adj,R4,Y
+2421,halal,,할랄,halal,adj,R4,N
+2422,ikatan,,유대/묶음,bond,noun,R4,N
+2423,janganlah,,~하지 마라,do not,particle,R4,N
+2424,kebohongan,,거짓말,lie,noun,R4,N
+2425,klaim,,주장/청구,claim,noun,R4,N
+2426,klien,,고객,client,noun,R4,Y
+2427,konsumsi,,소비,consumption,noun,R4,N
+2428,libur,,휴일,holiday,noun,R4,Y
+2429,lingkaran,,원,circle,noun,R4,Y
+2430,logo,,로고,logo,noun,R4,Y
+2431,malas,,게으른,lazy,adj,R4,Y
+2432,membela,,변호하다,defend,verb,R4,N
+2433,mempersiapkan,,준비하다,prepare,verb,R4,N
+2434,mencakup,,포함하다,include,verb,R4,N
+2435,menghitung,,세다,count,verb,R4,Y
+2436,nakal,,짓궂은,naughty,adj,R4,Y
+2437,pecah,,깨지다,break,verb,R4,Y
+2438,pegunungan,,산맥,mountains,noun,R4,Y
+2439,pelanggaran,,위반,violation,noun,R4,N
+2440,pendeta,,목사,pastor,noun,R4,Y
+2441,pengawasan,,감독,supervision,noun,R4,N
+2442,perayaan,,기념 행사,celebration,noun,R4,Y
+2443,percobaan,,시도,attempt,noun,R4,N
+2444,pers,,언론,press,noun,R4,N
+2445,perumahan,,주택단지,housing,noun,R4,Y
+2446,pokok,,기본,main,adj,R4,N
+2447,pusing,,어지러운,dizzy,adj,R4,Y
+2448,rumput,,풀,grass,noun,R4,Y
+2449,rutin,,일상적인,routine,adj,R4,N
+2450,sekelompok,,한 무리,group,det,R4,N
+2451,seragam,,제복,uniform,noun,R4,Y
+2452,serang,,공격하다,attack,verb,R4,Y
+2453,tahanan,,수감자,prisoner,noun,R4,Y
+2454,terbakar,,불타다,burn,verb,R4,Y
+2455,ucapkan,,말하다,say,verb,R4,N
+2456,awak,,승무원,crew,noun,R4,N
+2457,badai,,폭풍,storm,noun,R4,Y
+2458,bang,,형,bro,noun,R4,N
+2459,beras,,쌀,rice,noun,R4,Y
+2460,bercinta,,성관계하다,make love,verb,R4,N
+2461,bertujuan,,목적으로 하다,aim,verb,R4,N
+2462,cadangan,,예비,reserve,noun,R4,N
+2463,cokelat,,초콜릿,chocolate,noun,R4,Y
+2464,debut,,데뷔,debut,noun,R4,N
+2465,diakses,,접속된,accessed,verb,R4,N
+2466,diakui,,인정받다,recognized,verb,R4,N
+2467,didirikan,,설립되다,founded,verb,R4,N
+2468,diperoleh,,얻어지다,obtained,verb,R4,N
+2469,gajah,,코끼리,elephant,noun,R4,Y
+2470,gerak,,움직임,movement,noun,R4,Y
+2471,halnya,,마찬가지로,likewise,adv,R4,N
+2472,karang,,산호,coral,noun,R4,Y
+2473,keberuntungan,,행운,luck,noun,R4,N
+2474,keindahan,,아름다움,beauty,noun,R4,N
+2475,ketinggian,,높이,height,noun,R4,N
+2476,konstruksi,,건설,construction,noun,R4,Y
+2477,les,,과외,tutoring,noun,R4,N
+2478,mengumumkan,,발표하다,announce,verb,R4,N
+2479,mengundang,,초대하다,invite,verb,R4,N
+2480,mustahil,,불가능한,impossible,adj,R4,N
+2481,nuklir,,핵,nuclear,adj,R4,N
+2482,pameran,,전시회,exhibition,noun,R4,Y
+2483,pembelajaran,,학습,learning,noun,R4,N
+2484,pendekatan,,접근,approach,noun,R4,N
+2485,penerimaan,,수용,acceptance,noun,R4,N
+2486,penurunan,,하락,decline,noun,R4,N
+2487,perak,,은,silver,noun,R4,Y
+2488,persahabatan,,우정,friendship,noun,R4,N
+2489,persis,,정확히,exactly,adv,R4,N
+2490,pisang,,바나나,banana,noun,R4,Y
+2491,pramuka,,스카우트,scout,noun,R4,Y
+2492,sah,,유효한,valid,adj,R4,N
+2493,sari,,즙,essence,noun,R4,N
+2494,setara,,동등한,equal,adj,R4,N
+2495,sinetron,,TV 드라마,soap opera,noun,R4,Y
+2496,skala,,규모,scale,noun,R4,N
+2497,tampan,,잘생긴,handsome,adj,R4,Y
+2498,tebak,,맞히다,guess,verb,R4,N
+2499,tenggelam,,가라앉다,sink,verb,R4,Y
+2500,terkejut,,놀란,surprised,adj,R4,Y
