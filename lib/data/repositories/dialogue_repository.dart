@@ -14,14 +14,16 @@ class DialogueRepository {
 
   final List<EpisodeMeta> _catalog = [];
   final Map<String, Speaker> _speakers = {};
-  bool _loaded = false;
+  Future<void>? _loading;
 
   List<EpisodeMeta> get catalog => List.unmodifiable(_catalog);
   Map<String, Speaker> get speakers =>
       _speakers.isEmpty ? Speaker.defaults : _speakers;
 
-  Future<void> ensureLoaded() async {
-    if (_loaded) return;
+  /// 여러 화면이 동시에 불러도 한 번만 읽는다(넓은 화면에서 홈·진행 탭이 함께 떠 목록이 두 번 채워지던 문제, 2026-11-02).
+  Future<void> ensureLoaded() => _loading ??= _load();
+
+  Future<void> _load() async {
     for (final level in Levels.all) {
       try {
         final raw =
@@ -41,7 +43,6 @@ class DialogueRepository {
         continue;
       }
     }
-    _loaded = true;
   }
 
   List<EpisodeMeta> byLevel(String level) =>

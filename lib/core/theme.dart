@@ -52,7 +52,31 @@ class AppColors {
 
   // brand alias
   static const Color brand = merah;
+
+  // ── 일본어앱에서 옮긴 화면(회화 리더·그림 카드·성과)이 쓰는 이름 — 2026-11-02 ──
+  // 일본어앱은 워드마크 구리색 자리에 자기 언어색을 쓴다. 인도네시아어 = talkverse.uk 언어 페이지 `--a #c75b39`(테라코타) 잉크판.
+  static const Color beni = Color(0xFFB4512F); // 강조(버튼·현재 턴·성과)
+  static const Color beniDeep = Color(0xFF933F23);
+  static const Color beniLight = Color(0xFFC75B39); // 사이트 `--a`
+  static const Color kinDeep = Color(0xFFC9917F); // 사이트 `--a2 #e3b8ab` 진한 쪽
+  static const Color ai = merah; // 인디고 — 선택·보조 강조
+  static const Color sumi = kayu;
+  static const Color sumiLight = kayuLight;
+  static const Color washi = gading;
+  static const Color washiDeep = gadingDeep;
+  static const Color matcha = Color(0xFF0E6245); // 완료·맞음(사이트 `--ok`)
+  static const Color line = Color(0xFFE6EBF1);
+  static const Color muted = emasDeep;
+
+  /// 「인도네시아어」 워드마크 그라데이션(테라코타 → 옅은 장밋빛 갈색). 제목 글자·구분선.
+  static const LinearGradient wordmark = LinearGradient(colors: [beni, kinDeep]);
 }
+
+/// 카드·타일 공통 그림자(사이트 `0 2px 5px -1px rgba(50,50,93,.1), 0 1px 3px -1px rgba(0,0,0,.1)`)
+const List<BoxShadow> kCardShadow = [
+  BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2)),
+  BoxShadow(color: Color(0x1A000000), blurRadius: 3, offset: Offset(0, 1)),
+];
 
 class AppTheme {
   static const fontFallback = <String>[

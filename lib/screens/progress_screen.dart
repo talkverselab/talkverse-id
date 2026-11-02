@@ -5,6 +5,7 @@ import '../core/constants.dart';
 import '../core/theme.dart';
 import '../main.dart';
 import '../services/memo_service.dart';
+import '../widgets/achievement_desk.dart';
 import '../widgets/indo_decor.dart';
 
 /// 진행 탭 — 회화 턴 / 어근 / 메모 실데이터 요약.
@@ -59,6 +60,9 @@ class _ProgressScreenState extends State<ProgressScreen> {
               child: ListView(
                 padding: const EdgeInsets.all(12),
                 children: [
+                  // 성과 데스크(일본어앱 시안 02 §5) — 편 완주·그림 카드. 큰 숫자 대신 문장.
+                  const AchievementDesk(),
+                  const SizedBox(height: 16),
                   Row(
                     children: [
                       Expanded(child: _Stat('회화 턴', _turnsLearned, _turnsTotal, AppColors.merah)),

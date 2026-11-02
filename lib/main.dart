@@ -7,6 +7,8 @@ import 'data/db/seed_loader.dart';
 import 'data/account.dart';
 import 'data/entitlement.dart';
 import 'data/purchase.dart';
+import 'services/achievement_service.dart';
+import 'services/learner_prefs.dart';
 import 'data/repositories/dialogue_repository.dart';
 import 'data/repositories/root_repository.dart';
 import 'screens/main_screen.dart';
@@ -23,6 +25,8 @@ void main() async {
   rootRepo = RootRepository(appDb);
   await rootRepo.primeAffixUtil();
   await Entitlement.load();
+  await LearnerPrefs.load();
+  await AchievementService.instance.load();
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   Purchase.configure({Entitlement.lang: ('com.talkverse.indoUniverse.lifetime', 'lang_id')});
   runApp(const IndoUniverseApp());

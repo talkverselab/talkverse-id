@@ -8,6 +8,7 @@ import '../core/theme.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
+import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../widgets/indo_decor.dart';
 
@@ -66,6 +67,37 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                 ),
               ],
+            ),
+          ),
+          const SizedBox(height: 18),
+          // 학습자 프로필(일본어앱 learner_prefs) — 이름 → 회화의 {name} 자리, 성별 → 학습자 목소리(새 회화 구조부터)
+          const _SectionTitle('학습자'),
+          const SizedBox(height: 8),
+          ValueListenableBuilder<String>(
+            valueListenable: LearnerPrefs.name,
+            builder: (context, name, _) => ValueListenableBuilder<String>(
+              valueListenable: LearnerPrefs.gender,
+              builder: (context, gender, _) => Container(
+                decoration: _boxDeco(),
+                child: Column(children: [
+                  ListTile(
+                    leading: _leadIcon(Icons.badge_outlined),
+                    title: const Text('이름', style: TextStyle(fontWeight: FontWeight.w700)),
+                    subtitle: Text(name.isNotEmpty ? '$name — 회화 속 「나」로 나와요' : '없음 — 회화에서 「○○」로 보여요',
+                        style: const TextStyle(fontSize: 11, color: AppColors.kayuLight)),
+                    trailing: const Icon(Icons.edit_outlined, color: AppColors.merah, size: 18),
+                    onTap: () => _editName(context),
+                  ),
+                  Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
+                  ListTile(
+                    leading: _leadIcon(gender == 'female' ? Icons.face_3 : Icons.face),
+                    title: const Text('성별', style: TextStyle(fontWeight: FontWeight.w700)),
+                    subtitle: Text(gender == 'female' ? '여성 — 탭하면 남성' : '남성 — 탭하면 여성',
+                        style: const TextStyle(fontSize: 11, color: AppColors.kayuLight)),
+                    onTap: () => LearnerPrefs.setGender(gender == 'female' ? 'male' : 'female'),
+                  ),
+                ]),
+              ),
             ),
           ),
           const SizedBox(height: 18),
@@ -176,6 +208,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ],
       ),
     );
+  }
+
+  Future<void> _editName(BuildContext context) async {
+    final c = TextEditingController(text: LearnerPrefs.name.value);
+    final v = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('이름'),
+        content: TextField(controller: c, autofocus: true, decoration: const InputDecoration(hintText: '회화에서 불릴 이름')),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('취소')),
+          TextButton(onPressed: () => Navigator.pop(ctx, c.text), child: const Text('저장')),
+        ],
+      ),
+    );
+    if (v != null) await LearnerPrefs.setName(v);
   }
 
   /// Talkverse 계정 — 로그인 전: 로그인 칸 / 로그인 후: 이름·이메일, 로그아웃, 계정 삭제(스토어 심사 요구). 로그인은 선택.
