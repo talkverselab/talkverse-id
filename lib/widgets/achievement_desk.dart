@@ -104,13 +104,26 @@ class _WeekDots extends StatelessWidget {
           for (final (d, n) in week)
             Expanded(
               child: Column(children: [
-                Container(
-                  height: 32,
-                  margin: const EdgeInsets.symmetric(horizontal: 3),
-                  alignment: Alignment.center,
-                  decoration: BoxDecoration(color: n > 0 ? AppColors.beni.withValues(alpha: 0.14) : AppColors.washi, border: Border.all(color: n > 0 ? AppColors.beni : AppColors.line), borderRadius: BorderRadius.circular(8)),
-                  child: Text(tr(names[DateTime.parse(d).weekday - 1]), style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.sumi)),
-                ),
+                // 시안 02-4: 요일 + 날짜, 오늘은 남색으로 채움, 읽은 날은 강조색 테두리
+                Builder(builder: (_) {
+                  final day = DateTime.parse(d);
+                  final today = d == a.today;
+                  final fg = today ? Colors.white : AppColors.sumi;
+                  return Container(
+                    height: 44,
+                    margin: const EdgeInsets.symmetric(horizontal: 3),
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      color: today ? AppColors.sumi : (n > 0 ? AppColors.beni.withValues(alpha: 0.12) : AppColors.washi),
+                      border: Border.all(color: today ? AppColors.sumi : (n > 0 ? AppColors.beni : AppColors.line)),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Column(mainAxisSize: MainAxisSize.min, children: [
+                      Text(tr(names[day.weekday - 1]), style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: fg)),
+                      Text('${day.day}', style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: fg)),
+                    ]),
+                  );
+                }),
                 const SizedBox(height: 3),
                 Text(n > 0 ? trf('{0}편', [n]) : ' ', style: const TextStyle(fontSize: 9.5, fontWeight: FontWeight.w800, color: AppColors.beni)),
               ]),
@@ -159,7 +172,7 @@ class _IslandGrid extends StatelessWidget {
                 ]),
               ),
               const SizedBox(width: 6),
-              Text('$done/$all', style: TextStyle(fontSize: 9.5, fontWeight: FontWeight.w800, color: done > 0 ? AppColors.beni : AppColors.muted)),
+              Text(all == 0 ? '-' : '${(done * 100 / all).round()}%', style: TextStyle(fontSize: 9.5, fontWeight: FontWeight.w800, color: done > 0 ? AppColors.beni : AppColors.muted)),
             ]),
           ));
         }

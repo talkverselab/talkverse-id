@@ -13,6 +13,8 @@ import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import 'achievement_desk.dart';
+import 'affix_text.dart';
+import 'word_analysis_sheet.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — 일본어앱 Grok UXUI 시안 02 「만화책 읽기형」을 옮김(2026-11-02, 일본어앱 `data/review/uxui/sian_02.md`).
 ///
@@ -305,7 +307,7 @@ class _CutPanel extends StatelessWidget {
   }
 }
 
-/// 현재 문장 캡션.
+/// 현재 문장 캡션 — 단어를 누르면 단어 분석 시트.
 class _Caption extends StatelessWidget {
   final Dialogue d;
   final DialogueTurn turn;
@@ -326,7 +328,8 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(LearnerPrefs.fill(turn.tl), style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+              // 단어를 누르면 「단어 분석」 시트(시안 02-2)
+              AffixText(LearnerPrefs.fill(turn.tl), fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, colorize: false, onWordTap: (p) => WordAnalysisSheet.show(context, p)),
               if (showGloss && turn.gloss.isNotEmpty && turn.gloss != turn.tl) Text(turn.gloss, style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w600)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),

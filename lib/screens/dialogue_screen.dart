@@ -7,7 +7,9 @@ import '../core/theme.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
+import '../widgets/affix_text.dart';
 import '../widgets/episode_play_pane.dart';
+import '../widgets/word_analysis_sheet.dart';
 import '../widgets/indo_decor.dart';
 import 'dialogue_card_screen.dart';
 
@@ -45,7 +47,7 @@ class _DialogueHomeScreenState extends State<DialogueHomeScreen> {
           : ListView(
               padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + bottomInset(context)),
               children: [
-                const _TodayCut(),
+                const TodayCutCard(),
                 const SizedBox(height: 10),
                 for (final lv in svc.regions)
                   if (svc.count(lv) > 0) ...[
@@ -66,8 +68,9 @@ class _DialogueHomeScreenState extends State<DialogueHomeScreen> {
 }
 
 /// 「오늘의 컷」 — 마지막으로 열었던 편(없으면 현재 레벨 첫 편)의 장면 컷 + 읽기 시작(시안 02 홈).
-class _TodayCut extends StatelessWidget {
-  const _TodayCut();
+/// 홈·회화 홈 공용(시안 02-1).
+class TodayCutCard extends StatelessWidget {
+  const TodayCutCard({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -93,14 +96,18 @@ class _TodayCut extends StatelessWidget {
         label: Text(tr('읽기 시작'), style: const TextStyle(fontWeight: FontWeight.w800)),
       ),
     ]);
-    final cut = SizedBox(height: wide ? 180 : 150, child: SceneCut(dialogue: d, turn: t, bubble: true));
-    return Container(
+    // 화면 폭이 아니라 이 카드가 놓인 칸의 폭으로 좌우/위아래를 고른다(아이패드 왼쪽 좁은 칸에서 말풍선이 잘리던 문제)
+    return LayoutBuilder(builder: (context, c) {
+      final side = wide && c.maxWidth >= 560;
+      final cut = SizedBox(height: side ? 180 : 170, child: SceneCut(dialogue: d, turn: t, bubble: true));
+      return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(color: AppColors.washi, border: Border.all(color: AppColors.line), borderRadius: BorderRadius.circular(16), boxShadow: kCardShadow),
-      child: wide
+      child: side
           ? Row(crossAxisAlignment: CrossAxisAlignment.center, children: [Expanded(flex: 5, child: cut), const SizedBox(width: 14), Expanded(flex: 6, child: info)])
           : Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [cut, const SizedBox(height: 10), info]),
-    );
+      );
+    });
   }
 }
 
@@ -317,7 +324,7 @@ class _Bubble extends StatelessWidget {
                   InkWell(onTap: onPlayFrom, child: const Icon(Icons.play_circle_outline, size: 16, color: AppColors.ai)),
                 ]),
                 const SizedBox(height: 4),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
+                AffixText(LearnerPrefs.fill(t.tl), fontSize: 17, fontWeight: FontWeight.w800, colorize: false, onWordTap: (p) => WordAnalysisSheet.show(context, p)),
                 if (t.gloss.isNotEmpty) Text(t.gloss, style: const TextStyle(fontSize: 11.5, color: AppColors.ai, fontWeight: FontWeight.w600)),
                 if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
                 const SizedBox(height: 3),

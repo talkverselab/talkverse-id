@@ -58,6 +58,16 @@ void main() {
     await wait(t, 1500);
     await shot(t, '04_reader');
 
+    // 시안 02-2: 캡션의 단어를 누르면 단어 분석 시트
+    final w = find.text('kabar', findRichText: true);
+    if (w.evaluate().isNotEmpty) {
+      await t.tap(w.last);
+      await wait(t, 1500);
+      await shot(t, '04b_word_sheet');
+      await t.tapAt(const Offset(400, 120));
+      await wait(t, 800);
+    }
+
     await t.tap(find.text('재생').first);
     await wait(t, 6000);
     await shot(t, '05_reader_playing');

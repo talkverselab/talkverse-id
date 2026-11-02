@@ -4,14 +4,11 @@ import '../core/constants.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
-import '../data/models/episode.dart';
-import '../main.dart';
+import '../services/dialogue_service.dart';
 import '../widgets/indo_decor.dart';
-import '../widgets/today_mission.dart';
 import 'affix_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
-import 'episode_screen.dart';
 import 'flashcard_screen.dart';
 import 'profile_screen.dart';
 import 'progress_screen.dart';
@@ -94,7 +91,7 @@ class _MainScreenState extends State<MainScreen> {
                   child: ClipRect(
                     child: Navigator(
                       key: _pane,
-                      onGenerateInitialRoutes: (_, _) => [MaterialPageRoute(builder: (_) => const _PanePlaceholder())],
+                      onGenerateInitialRoutes: (_, _) => [MaterialPageRoute(builder: (_) => const DialogueHomeScreen())], // 시안 02-1: 오른쪽 칸 첫 화면 = 회화 홈
                     ),
                   ),
                 ),
@@ -105,30 +102,6 @@ class _MainScreenState extends State<MainScreen> {
       ),
     );
   }
-}
-
-/// 오른쪽 칸이 비어 있을 때.
-class _PanePlaceholder extends StatelessWidget {
-  const _PanePlaceholder();
-
-  @override
-  Widget build(BuildContext context) => const Scaffold(
-        backgroundColor: AppColors.washi,
-        body: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              BadgeStamp(text: 'ID', size: 56),
-              SizedBox(height: 14),
-              Text(
-                '왼쪽에서 고르면 여기에 열립니다 · 회화 재생·카드는 전체 화면',
-                textAlign: TextAlign.center,
-                style: TextStyle(color: AppColors.muted, fontWeight: FontWeight.w600),
-              ),
-            ],
-          ),
-        ),
-      );
 }
 
 // ────────── Home 탭 ──────────
@@ -206,7 +179,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 8),
-                const _TodayMission(),
+                const _HomeTodayCut(),
                 const SizedBox(height: 22),
                 const Row(
                   children: [
@@ -248,79 +221,23 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-/// 홈 '오늘의 학습' — 첫 미완료 에피소드와 실제 진행도 연결.
-class _TodayMission extends StatefulWidget {
-  const _TodayMission();
-
-  @override
-  State<_TodayMission> createState() => _TodayMissionState();
-}
-
-class _TodayMissionState extends State<_TodayMission> {
-  EpisodeMeta? _meta;
-  int _learned = 0;
-  int _total = 0;
-
-  @override
-  void initState() {
-    super.initState();
-    _load();
-  }
-
-  Future<void> _load() async {
-    final progress = await dialogueRepo.progressByEpisode();
-    final all = dialogueRepo.catalog;
-    if (all.isEmpty) return;
-    EpisodeMeta pick = all.first;
-    for (final meta in all) {
-      final (done, total) = progress[meta.key] ?? (0, 0);
-      if (total == 0 || done < total) {
-        pick = meta;
-        break;
-      }
-    }
-    final (done, total) = progress[pick.key] ?? (0, 0);
-    if (!mounted) return;
-    setState(() {
-      _meta = pick;
-      _learned = done;
-      _total = total;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final meta = _meta;
-    return TodayMissionCard(
-      level: meta?.level ?? 'L1',
-      lessonTitle: meta == null ? '준비 중' : '${meta.emoji} ${meta.title}',
-      lessonSubtitle: meta?.scenario ?? '대화 데이터를 불러오는 중',
-      progress: _learned,
-      total: _total,
-      onTap: meta == null
-          ? null
-          : () => openPane(context, (_) => EpisodeScreen(episode: meta)).then((_) => _load()),
-    );
-  }
-}
-
 class _MenuGrid extends StatelessWidget {
   const _MenuGrid();
 
   @override
   Widget build(BuildContext context) {
     final items = <_MenuItem>[
-      _MenuItem(label: '회화', sub: 'Percakapan', seal: 'L1', color: AppColors.merah,
+      _MenuItem(icon: Icons.chat_bubble_rounded, label: '회화', sub: 'Percakapan', seal: 'L1', color: AppColors.merah,
           builder: (_) => const DialogueHomeScreen()),
-      _MenuItem(label: '접사', sub: 'Afiks meN-/ber-/-kan', seal: 'AFX', color: AppColors.affixMe,
+      _MenuItem(icon: Icons.extension_rounded, label: '접사', sub: 'Afiks meN-/ber-/-kan', seal: 'AFX', color: AppColors.affixMe,
           builder: (_) => const AffixScreen()),
-      _MenuItem(label: '어근', sub: 'Kata dasar', seal: '√', color: AppColors.sogan,
+      _MenuItem(icon: Icons.account_tree_rounded, label: '어근', sub: 'Kata dasar', seal: '√', color: AppColors.sogan,
           builder: (_) => const RootsScreen()),
-      _MenuItem(label: '단어', sub: 'Frekuensi', seal: 'TOP', color: AppColors.laut,
+      _MenuItem(icon: Icons.layers_rounded, label: '단어', sub: 'Frekuensi', seal: 'TOP', color: AppColors.laut,
           builder: (_) => const WordFreqScreen()),
-      _MenuItem(label: 'ID ↔ MS', sub: '인니어·말레이어 차이', seal: 'MS', color: AppColors.biruMs,
+      _MenuItem(icon: Icons.compare_arrows_rounded, label: 'ID ↔ MS', sub: '인니어·말레이어 차이', seal: 'MS', color: AppColors.biruMs,
           builder: (_) => const VariantsScreen()),
-      _MenuItem(label: '복습', sub: 'Flashcard', seal: 'ULG', color: AppColors.emasDeep,
+      _MenuItem(icon: Icons.style_rounded, label: '복습', sub: 'Flashcard', seal: 'ULG', color: AppColors.emasDeep,
           builder: (_) => const FlashcardScreen()),
     ];
 
@@ -340,12 +257,14 @@ class _MenuGrid extends StatelessWidget {
 }
 
 class _MenuItem {
+  final IconData icon;
   final String label;
   final String sub;
   final String seal;
   final Color color;
   final WidgetBuilder builder;
   _MenuItem({
+    required this.icon,
     required this.label,
     required this.sub,
     required this.seal,
@@ -377,7 +296,7 @@ class _MenuTile extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              BadgeStamp(text: item.seal, size: 44, color: item.color),
+              Icon(item.icon, size: 34, color: item.color), // 시안 02-1: 도장 대신 아이콘
               const SizedBox(height: 8),
               Text(
                 item.label,
@@ -514,4 +433,25 @@ class _LessonRow extends StatelessWidget {
       ),
     );
   }
+}
+
+/// 홈 「오늘의 컷 / 이어서 읽기」(시안 02-1) — 회화 서비스를 불러온 뒤 그린다.
+class _HomeTodayCut extends StatefulWidget {
+  const _HomeTodayCut();
+  @override
+  State<_HomeTodayCut> createState() => _HomeTodayCutState();
+}
+
+class _HomeTodayCutState extends State<_HomeTodayCut> {
+  bool _loaded = false;
+
+  @override
+  void initState() {
+    super.initState();
+    DialogueService.instance.ensureLoaded().then((_) => mounted ? setState(() => _loaded = true) : null);
+  }
+
+  // const 로 두면 불러온 뒤에도 다시 그려지지 않는다 → 불러온 상태를 키로
+  @override
+  Widget build(BuildContext context) => TodayCutCard(key: ValueKey(_loaded));
 }

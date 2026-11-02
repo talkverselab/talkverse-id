@@ -8,7 +8,6 @@ import '../services/art_service.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
-import '../widgets/indo_decor.dart';
 
 /// 편의 문장 플래시카드 — 일본어앱에서 옮김(2026-11-02). 앞면은 **그림만**(글자 없음), 탭하면 인도네시아어·단어 뜻·독음·한국어.
 /// 그림 = 턴 장면 그림(`art`) → 핵심 단어 그림 → 장면 카드. 틀림/맞음 2단계, 틀린 카드는 끝에 다시.
@@ -96,10 +95,10 @@ class _DialogueCardScreenState extends State<DialogueCardScreen> {
         ),
         Padding(
           padding: EdgeInsets.fromLTRB(16, 6, 16, 20 + bottomInset(context)),
-          child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-            _Btn(icon: Icons.close, label: tr('틀렸어요'), color: AppColors.beni, onTap: () => _mark(false)),
-            _Btn(icon: Icons.volume_up, label: tr('듣기'), color: AppColors.ai, onTap: () => TtsService.instance.speakAs(t.tl.replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), ''), gender: d.voiceGender(t.speaker))),
-            _Btn(icon: Icons.check, label: tr('맞았어요'), color: AppColors.matcha, onTap: () => _mark(true)),
+          child: Row(children: [
+            _Btn(icon: Icons.close, label: tr('틀렸어요'), color: AppColors.beni, filled: true, onTap: () => _mark(false)),
+            _Btn(icon: Icons.volume_up, label: tr('듣기'), color: AppColors.sumi, filled: true, onTap: () => TtsService.instance.speakAs(t.tl.replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), ''), gender: d.voiceGender(t.speaker))),
+            _Btn(icon: Icons.check, label: tr('맞았어요'), color: AppColors.beni, filled: true, onTap: () => _mark(true)),
           ]),
         ),
       ]),
@@ -154,14 +153,39 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
-                if (t.gloss.isNotEmpty) ...[const SizedBox(height: 6), Text(t.gloss, style: const TextStyle(fontSize: 13, color: AppColors.ai, fontWeight: FontWeight.w600))],
+                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.sumi, height: 1.3)),
                 if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+                // 시안 02-3: 단어 뜻(gloss `kata=뜻`) 줄 목록 → 번역 → 메모 상자
+                if (_glossRows(t.gloss).isNotEmpty) ...[
+                  const SizedBox(height: 12),
+                  _section('단어 뜻'),
+                  for (final (w, m) in _glossRows(t.gloss))
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                        SizedBox(width: 120, child: Text(w, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi))),
+                        Expanded(child: Text(m, style: const TextStyle(fontSize: 14, color: AppColors.sumiLight))),
+                      ]),
+                    ),
+                ],
                 const SizedBox(height: 12),
-                const BrushDivider(height: 2),
+                const Divider(height: 1, color: AppColors.line),
                 const SizedBox(height: 10),
+                _section('번역'),
                 Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
-                if (t.note.isNotEmpty) ...[const SizedBox(height: 10), Text('💡 ${t.note}', style: const TextStyle(fontSize: 12, color: AppColors.beniDeep, height: 1.4))],
+                if (t.note.isNotEmpty) ...[
+                  const SizedBox(height: 12),
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(color: const Color(0xFFFFF8EE), border: Border.all(color: const Color(0xFFF1E1C6)), borderRadius: BorderRadius.circular(12)),
+                    child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      const Text('💡', style: TextStyle(fontSize: 16)),
+                      const SizedBox(width: 8),
+                      Expanded(child: Text(t.note, style: const TextStyle(fontSize: 13, color: AppColors.beniDeep, height: 1.45))),
+                    ]),
+                  ),
+                ],
               ]),
             )
           : Center(
@@ -177,25 +201,44 @@ class _CardText extends StatelessWidget {
   }
 }
 
+/// gloss `halo=안녕 apa=무엇 ber-kenal-an=서로 알게 되다` → [(halo, 안녕), …] — 표제어는 라틴 문자, 뜻은 다음 표제어 앞까지.
+List<(String, String)> _glossRows(String gloss) => [
+      for (final m in RegExp(r'([A-Za-z][A-Za-z\- ]*?)=(.*?)(?=\s[A-Za-z][A-Za-z\- ]*=|$)').allMatches(gloss))
+        (m.group(1)!.trim(), m.group(2)!.trim()),
+    ];
+
+Widget _section(String t) => Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Text(t, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.ai, letterSpacing: 1)),
+    );
+
 class _Btn extends StatelessWidget {
   final IconData icon;
   final String label;
   final Color color;
+  final bool filled; // 시안 02-3: 채운 알약 버튼
   final VoidCallback onTap;
-  const _Btn({required this.icon, required this.label, required this.color, required this.onTap});
+  const _Btn({required this.icon, required this.label, required this.color, required this.onTap, this.filled = false});
   @override
-  Widget build(BuildContext context) => InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(14),
-        child: Container(
-          width: 100,
-          padding: const EdgeInsets.symmetric(vertical: 10),
-          decoration: BoxDecoration(border: Border.all(color: color, width: 1.5), borderRadius: BorderRadius.circular(14)),
-          child: Column(mainAxisSize: MainAxisSize.min, children: [
-            Icon(icon, color: color),
-            const SizedBox(height: 4),
-            Text(label, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: AppColors.sumi)),
-          ]),
+  Widget build(BuildContext context) => Expanded(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 6),
+          child: Material(
+            color: filled ? color : Colors.transparent,
+            shape: StadiumBorder(side: BorderSide(color: color, width: 1.5)),
+            child: InkWell(
+              onTap: onTap,
+              customBorder: const StadiumBorder(),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 14),
+                child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  Icon(icon, color: filled ? Colors.white : color, size: 20),
+                  const SizedBox(width: 8),
+                  Text(label, style: TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: filled ? Colors.white : AppColors.sumi)),
+                ]),
+              ),
+            ),
+          ),
         ),
       );
 }

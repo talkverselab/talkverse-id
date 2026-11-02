@@ -116,7 +116,6 @@ class DialogueService {
   static const _prefLast = 'dialogue_last';
 
   final List<Dialogue> _all = [];
-  bool _loaded = false;
   String? _lastOpened;
   String? get lastOpenedId => _lastOpened;
   Future<void> setLastOpened(String id) async {
@@ -124,8 +123,11 @@ class DialogueService {
     (await SharedPreferences.getInstance()).setString(_prefLast, id);
   }
 
-  Future<void> ensureLoaded() async {
-    if (_loaded) return;
+  /// 여러 화면이 동시에 불러도 한 번만 읽는다(넓은 화면에서 홈·회화 홈이 함께 떠 편이 두 번 채워지던 문제).
+  Future<void> ensureLoaded() => _loading ??= _load();
+  Future<void>? _loading;
+
+  Future<void> _load() async {
     _lastOpened = (await SharedPreferences.getInstance()).getString(_prefLast);
     try {
       final j = json.decode(await rootBundle.loadString('assets/data/dialogues/id/L1.json')) as Map<String, dynamic>;
@@ -151,7 +153,6 @@ class DialogueService {
         ));
       }
     } catch (_) {}
-    _loaded = true;
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;

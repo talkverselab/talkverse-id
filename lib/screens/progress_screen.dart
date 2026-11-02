@@ -142,9 +142,15 @@ class _Stat extends StatelessWidget {
         children: [
           Text(label, style: const TextStyle(fontSize: 11, color: AppColors.kayuLight, letterSpacing: 1)),
           const SizedBox(height: 4),
-          Text(
-            total == null ? '$value' : '$value / $total',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900, color: color),
+          // 칸이 좁아도(아이패드 왼쪽 칸) 한 줄로 — 줄어들게
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            alignment: Alignment.centerLeft,
+            child: Text(
+              total == null ? '$value' : '$value / $total',
+              maxLines: 1,
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900, color: color),
+            ),
           ),
         ],
       ),
