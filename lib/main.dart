@@ -4,6 +4,9 @@ import 'core/constants.dart';
 import 'core/theme.dart';
 import 'data/db/app_database.dart';
 import 'data/db/seed_loader.dart';
+import 'data/account.dart';
+import 'data/entitlement.dart';
+import 'data/purchase.dart';
 import 'data/repositories/dialogue_repository.dart';
 import 'data/repositories/root_repository.dart';
 import 'screens/main_screen.dart';
@@ -19,6 +22,9 @@ void main() async {
   dialogueRepo = DialogueRepository(appDb);
   rootRepo = RootRepository(appDb);
   await rootRepo.primeAffixUtil();
+  await Entitlement.load();
+  Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
+  Purchase.configure({Entitlement.lang: ('com.talkverse.indoUniverse.lifetime', 'lang_id')});
   runApp(const IndoUniverseApp());
 }
 

@@ -80,6 +80,10 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
   아이콘은 1024 한 장 + 다크·틴티드(`tools/make_icon.py` = 공용 생성기 사본). 2026-11-01 첫 업로드는 `missingApp` —
   사용자가 App Store Connect 에 앱 레코드를 만든 뒤 `bash tools/ios_release.sh --no-build` 로 다시 올린다.
 
+- **Talkverse ID 로그인·결제(2026-11-02, 한자 앱 구성 복사)**: 안내서 `~/talkverse/TALKVERSE_ID_APP_GUIDE.md`. client_id `id`, 딥링크 `talkverse.id://auth`,
+  이용권 lang `id`(상품 iOS `com.talkverse.indoUniverse.lifetime` / Android `lang_id`). 로그인은 선택, 프로필 탭 → 계정. **무료/유료 범위·가격은 사용자 결정 대기 — 지금은 아무것도 잠그지 않는다**(`lib/data/entitlement.dart`).
+  `flutter_secure_storage` 는 10.x — 11.x 는 `package_info_plus` 10 을 요구하는데 그건 AGP 8.11 에서 컴파일 안 됨. iOS 는 App ID 에 Sign in with Apple capability(사용자, 포털).
+
 관련 파일: `lib/services/update_service.dart`, `lib/screens/update_screen.dart`,
 `android/app/src/main/kotlin/**/MainActivity.kt`(설치 메서드 채널),
 `android/app/src/main/res/xml/file_paths.xml`, `.github/workflows/release.yml`
