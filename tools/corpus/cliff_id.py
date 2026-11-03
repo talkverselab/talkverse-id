@@ -94,6 +94,8 @@ def analyze_simple(w):
     if r and r != w:
         for core, tail in suffix_splits(w):
             pre = prefixes(core, r)
+            if pre == [] and tail == ['-i'] and len(r) < 4:  # 이름·구어 오분해 막기(tomi·coki·gini → tom+-i 등, 2026-11-03 검수)
+                continue
             if pre is not None:
                 res = pre + [r] + tail
                 break

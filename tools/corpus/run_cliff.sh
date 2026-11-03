@@ -6,7 +6,7 @@ set -e
 PY=~/.venvs/id-corpus/bin/python   # pip install Sastrawi
 D=~/corpus/id; OUT="$(cd "$(dirname "$0")/../.." && pwd)/data/corpus/cliff_v2"
 mkdir -p "$D" "$OUT"
-[ -s "$D/id_raw.zip" ] || { echo "말뭉치 없음 — ~/corpus/README_local.txt 의 주소(ja→id)로 $D/id_raw.zip 을 받을 것"; exit 1; }
+[ -s "$D/id_raw.zip" ] || { echo "말뭉치 없음 — ~/corpus/README_local.txt 의 JA_SUB_URL(ja→id)로 $D/id_raw.zip 을 받을 것"; exit 1; }
 cp -n ~/corpus/ja/title.episode.tsv.gz "$D/" 2>/dev/null || true
 $PY "$(dirname "$0")/select_titles.py" "$D/id_raw.zip" Q252 "$D/id_titles.txt"
 $PY "$(dirname "$0")/cliff_id.py" "$D/id_raw.zip" "$OUT" --only "$D/id_titles.txt" --label id
