@@ -1,0 +1,153 @@
+{
+ "id": "r1_survival_s2",
+ "island": "survival",
+ "kind": "short",
+ "title": "여권이 없어요",
+ "emoji": "🛂",
+ "scene": "기차역 안내 창구. 여권이 없어졌다고 뛰어왔는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Petugas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "survival",
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Ada yang bisa saya bantu?",
+  "tidak ada",
+  "Sudah cari?",
+  "Terima kasih"
+ ],
+ "keep": [
+  "tidak",
+  "sudah",
+  "terima kasih",
+  "dan",
+  "yang",
+  "bisa"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Halo Kak, ada yang bisa dibantu?",
+   "rd": "할로 깍, 아다 양 비사 디반뚜?",
+   "ko": "안녕하세요 손님, 뭘 도와드릴까요?",
+   "note": "yang = ~하는 것 · bisa = 할 수 있다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Paspor saya tidak ada! Hilang!",
+   "rd": "빠스뽀르 사야 띠닥 아다! 힐랑!",
+   "ko": "제 여권이 없어요! 잃어버렸어요!",
+   "note": "tidak ada = 없다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Tenang, Kak. Sudah cari dan cek tas?",
+   "rd": "뜨낭, 깍. 수다흐 짜리 단 쩩 따스?",
+   "ko": "진정하세요, 손님. 가방은 찾아보고 확인하셨어요?",
+   "note": "sudah = 이미 ~했다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Sudah. Tas saya kosong banget.",
+   "rd": "수다흐. 따스 사야 꼬송 방읏.",
+   "ko": "했어요. 제 가방이 완전 비었어요.",
+   "note": "kosong = 비다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Waduh, Kak! Paspornya di tangan Kakak!",
+   "rd": "와두흐, 깍! 빠스뽀르냐 디 땅안 까깍!",
+   "ko": "아이고, 손님! 여권 손에 들고 계시잖아요!",
+   "note": "Anda = 당신(정중)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Oh iya, ini paspor saya. Terima kasih!",
+   "rd": "오 이야, 이니 빠스뽀르 사야. 뜨리마 까시흐!",
+   "ko": "아 맞다, 이거 제 여권이네요. 고맙습니다!",
+   "note": "terima kasih = 고맙습니다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Lain kali cek tangan dulu dong.",
+   "rd": "라인 깔리 쩩 땅안 둘루 동.",
+   "ko": "다음엔 손부터 확인해요.",
+   "note": "dan = 그리고 · silakan = ~하세요",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s2_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Selamat siang. Ada yang bisa saya bantu?",
+    "ko": "안녕하세요. 무엇을 도와드릴까요?"
+   },
+   {
+    "num": 2,
+    "id": "Paspor saya tidak ada!",
+    "ko": "제 여권이 없어요!"
+   },
+   {
+    "num": 3,
+    "id": "Tenang. Sudah cari di tas?",
+    "ko": "진정하세요. 가방은 찾아보셨어요?"
+   },
+   {
+    "num": 4,
+    "id": "Sudah. Tas saya kosong.",
+    "ko": "찾아봤어요. 가방이 텅 비었어요."
+   },
+   {
+    "num": 5,
+    "id": "Itu apa di tangan Anda?",
+    "ko": "손에 드신 건 뭐예요?"
+   },
+   {
+    "num": 6,
+    "id": "Oh... ini paspor saya. Terima kasih!",
+    "ko": "아… 이거 제 여권이네요. 고맙습니다!"
+   },
+   {
+    "num": 7,
+    "id": "Sama-sama. Silakan duduk dan minum dulu.",
+    "ko": "천만에요. 앉아서 물부터 드세요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_survival_s2_grok.md",
+  "kick": "손에 들고 있는데 잃어버렸다고 뛰어온 황당함과 직원의 놀",
+  "final": "재작성 반영 + Kak 음역(카) → 손님, 5번 sih 어색 정리"
+ }
+}

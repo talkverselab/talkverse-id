@@ -1,0 +1,152 @@
+{
+ "id": "r1_friends_a3",
+ "island": "friends",
+ "kind": "short",
+ "title": "사테 열 개",
+ "emoji": "🍢",
+ "scene": "저녁 캠퍼스. Nadia 가 먼저 「너희 어디 가?」 하고 끼어든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Kalian mau ke mana?",
+  "Mau ikut?",
+  "Benar?",
+  "untuk"
+ ],
+ "keep": [
+  "kalian",
+  "gak",
+  "enggak",
+  "benar",
+  "untuk",
+  "saja"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kalian mau ke mana sih malem ini?",
+   "rd": "깔리안 마우 끄 마나 시흐 말름 이니?",
+   "ko": "너희 오늘 밤 어디 가?",
+   "note": "kalian = 너희",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Ke pasar malam. Mau ikut yuk?",
+   "rd": "끄 빠사르 말람. 마우 이꿋 육?",
+   "ko": "야시장. 같이 가자?",
+   "note": "ikut = 따라가다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Mau banget! Tapi aku gak punya duit.",
+   "rd": "마우 방읏! 따삐 아꾸 각 뿌냐 두잇.",
+   "ko": "완전 갈래! 근데 나 돈 없어.",
+   "note": "gak = 안(구어)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Enggak apa-apa. Aku traktir deh.",
+   "rd": "엥각 아빠-아빠. 아꾸 뜨락띠르 데흐.",
+   "ko": "괜찮아. 내가 쏠게.",
+   "note": "enggak = 안(구어)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Benar? Aku makan sate sepuluh, es teh dua!",
+   "rd": "브나르? 아꾸 마깐 사떼 스뿔루흐, 에스 떼흐 두아!",
+   "ko": "진짜? 나 사테 열 개에 아이스티 두 잔!",
+   "note": "benar = 정말",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Sepuluh? Untuk kamu sendiri?",
+   "rd": "스뿔루흐? 운뚝 까무 슨디리?",
+   "ko": "열 개? 너 혼자?",
+   "note": "untuk = ~을 위해",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Untuk aku sendiri. Kamu makan nasi saja.",
+   "rd": "운뚝 아꾸 슨디리. 까무 마깐 나시 사자.",
+   "ko": "나 혼자. 넌 밥만 먹어.",
+   "note": "saja = ~만",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kalian mau ke mana malam ini?",
+    "ko": "너희 오늘 밤 어디 가?"
+   },
+   {
+    "num": 2,
+    "id": "Ke pasar malam. Mau ikut?",
+    "ko": "야시장. 같이 갈래?"
+   },
+   {
+    "num": 3,
+    "id": "Mau! Tapi aku gak punya uang.",
+    "ko": "갈래! 근데 나 돈 없어."
+   },
+   {
+    "num": 4,
+    "id": "Enggak apa-apa. Aku traktir.",
+    "ko": "괜찮아. 내가 쏠게."
+   },
+   {
+    "num": 5,
+    "id": "Benar? Kalau begitu aku makan sepuluh sate!",
+    "ko": "진짜? 그럼 나 사테 열 개!"
+   },
+   {
+    "num": 6,
+    "id": "Sepuluh? Untuk kamu sendiri?",
+    "ko": "열 개? 너 혼자?"
+   },
+   {
+    "num": 7,
+    "id": "Untuk aku sendiri. Kamu makan nasi saja.",
+    "ko": "나 혼자. 넌 밥만 먹어."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_friends_a3_grok.md",
+  "kick": "사테 열 개에 아이스티까지 혼자 먹겠다는 과장과, 너는 밥만 먹으라는 받아치기.",
+  "final": "재작성 반영 + 5번 쉼표"
+ }
+}

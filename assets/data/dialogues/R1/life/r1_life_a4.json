@@ -1,0 +1,152 @@
+{
+ "id": "r1_life_a4",
+ "island": "life",
+ "kind": "short",
+ "title": "양파 열 개",
+ "emoji": "🧅",
+ "scene": "Bu Sri 의 와룽 부엌. 아주머니가 「쉬워요」 하며 칼을 건넨다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Ayo",
+  "tak bisa",
+  "Gampang, kan?",
+  "saja"
+ ],
+ "keep": [
+  "ayo",
+  "tak",
+  "kan",
+  "saja",
+  "sudah",
+  "meN-"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Ayo, bantu Ibu masak dong!",
+   "rd": "아요, 반뚜 이부 마삭 동!",
+   "ko": "자, 아줌마 요리 좀 도와줘요!",
+   "note": "ayo = 자·하자",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Saya tak bisa masak, Bu.",
+   "rd": "사야 딱 비사 마삭, 부.",
+   "ko": "저 요리 못 해요, 아주머니.",
+   "note": "tak = 안·못(tidak 줄임)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Gampang kan? Potong bawang saja.",
+   "rd": "감빵 깐? 뽀똥 바왕 사자.",
+   "ko": "쉽잖아요? 양파만 썰어요.",
+   "note": "kan = ~잖아",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Bu... mata saya menangis banget!",
+   "rd": "부... 마따 사야 므낭이스 방읏!",
+   "ko": "아주머니… 눈이 너무 울어요!",
+   "note": "meN-tangis = 울다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Itu bukan menangis. Itu bawang kok!",
+   "rd": "이뚜 부깐 므낭이스. 이뚜 바왕 꼭!",
+   "ko": "우는 거 아니에요. 양파 때문이지!",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Bu, bawangnya sudah habis.",
+   "rd": "부, 바왕냐 수다흐 하비스.",
+   "ko": "아주머니, 양파 다 썰었어요.",
+   "note": "habis = 다 떨어지다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Bagus! Mata menangis? Potong dua puluh lagi, ya!",
+   "rd": "바구스! 마따 므낭이스? 뽀똥 두아 뿔루흐 라기, 야!",
+   "ko": "좋아요! 눈이 울어요? 스무 개 더 썰어요!",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a4_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Ayo, bantu Ibu masak!",
+    "ko": "자, 아줌마 요리 좀 도와줘요!"
+   },
+   {
+    "num": 2,
+    "id": "Saya tak bisa masak, Bu.",
+    "ko": "저 요리 못 해요, 아주머니."
+   },
+   {
+    "num": 3,
+    "id": "Gampang, kan? Potong bawang saja.",
+    "ko": "쉽잖아요? 양파만 썰어요."
+   },
+   {
+    "num": 4,
+    "id": "Bu... mata saya menangis!",
+    "ko": "아주머니… 눈이 울어요!"
+   },
+   {
+    "num": 5,
+    "id": "Itu bukan menangis. Itu bawang!",
+    "ko": "우는 거 아니에요. 양파 때문이지!"
+   },
+   {
+    "num": 6,
+    "id": "Bu, bawangnya sudah habis.",
+    "ko": "아주머니, 양파 다 썰었어요."
+   },
+   {
+    "num": 7,
+    "id": "Bagus! Sekarang potong sepuluh lagi!",
+    "ko": "좋아요! 이제 열 개 더!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_life_a4_grok.md",
+  "kick": "눈 울고 있는데 양파 스무 개 더 썰라는 아주머니의 무심폭주",
+  "final": "재작성 반영 + 7번 명령형 자연스럽게"
+ }
+}

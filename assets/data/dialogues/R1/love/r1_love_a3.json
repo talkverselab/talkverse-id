@@ -1,0 +1,152 @@
+{
+ "id": "r1_love_a3",
+ "island": "love",
+ "kind": "short",
+ "title": "넌 내 거야",
+ "emoji": "📺",
+ "scene": "Ayu 네 거실에서 드라마를 보는데 Ayu 가 대사를 따라 해 보라고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Kau milikku",
+  "seperti di drama",
+  "Coba",
+  "-lah"
+ ],
+ "keep": [
+  "kau",
+  "seperti",
+  "saja",
+  "-lah"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Eh, dia bilang \"Kau milikku!\"",
+   "rd": "에, 디아 빌랑 \"까우 밀릭꾸!\"",
+   "ko": "어, 저 사람 「넌 내 거야!」라고 해.",
+   "note": "kau = 너(드라마·노랫말 말투) · -ku = 나의",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Seperti drama saja sih.",
+   "rd": "스쁘르띠 드라마 사자 시흐.",
+   "ko": "드라마에서나 하는 말이네, 그냥.",
+   "note": "seperti = ~같이",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Coba kamu bilang gitu dong.",
+   "rd": "쪼바 까무 빌랑 기뚜 동.",
+   "ko": "너도 그렇게 말해 봐.",
+   "note": "coba = 한번 ~해 봐",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kau milikku... gitu?",
+   "rd": "까우 밀릭꾸... 기뚜?",
+   "ko": "넌… 내 거야… 이렇게?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Aduh, jantungku meledak banget!",
+   "rd": "아두흐, 잔뚱꾸 믈르닥 방읏!",
+   "ko": "아이고, 내 심장 터질 것 같아!",
+   "note": "jantung = 심장",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Meledak? Mau ke dokter?",
+   "rd": "믈르닥? 마우 끄 독뜨르?",
+   "ko": "터져? 병원 갈까?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Bukan sakit, bodoh. Nontonlah!",
+   "rd": "부깐 사낏, 보도흐. 논똔라흐!",
+   "ko": "아픈 거 아니야, 바보. 봐!",
+   "note": "-lah = (권유·강조)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Lihat, dia bilang \"Kau milikku!\"",
+    "ko": "봐, 저 사람이 「넌 내 거야!」래."
+   },
+   {
+    "num": 2,
+    "id": "Seperti di drama saja.",
+    "ko": "딱 드라마에서나 하는 말이네."
+   },
+   {
+    "num": 3,
+    "id": "Coba kamu bilang begitu.",
+    "ko": "너도 그렇게 말해 봐."
+   },
+   {
+    "num": 4,
+    "id": "Kau... milikku?",
+    "ko": "넌… 내 거야?"
+   },
+   {
+    "num": 5,
+    "id": "Aduh, kenapa jantungku begini?",
+    "ko": "아이고, 내 심장 왜 이래?"
+   },
+   {
+    "num": 6,
+    "id": "Kamu sakit? Mau ke dokter?",
+    "ko": "아파? 병원 갈래?"
+   },
+   {
+    "num": 7,
+    "id": "Bukan sakit, bodoh. Nontonlah lagi.",
+    "ko": "아픈 거 아니야, 바보야. 드라마나 계속 봐."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_love_a3_grok.md",
+  "kick": "심장 터진다는 말에 병원 가자고 하는 엉뚱한 반응과 바보 소리 듣는 심쿵",
+  "final": "재작성 그대로 반영(검수 통과)"
+ }
+}

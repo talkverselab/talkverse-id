@@ -41,7 +41,7 @@ TEMPLATE = """[ID-RW {id}] 아래는 한국인을 위한 인도네시아어 학�
 ③ 구어 추임새(nggak·udah·banget·sih·dong·kok·deh·wkwk 등)는 편 전체에 2~4개, 뜻이 맞는 자리에만. 교과서체·번역투·설명 대사 금지.
 ④ 학습자가 외우고 싶어지는 짧은 한 줄을 하나 이상.
 ⑤ 실제 브랜드·작품·인물 이름 금지, 성적 묘사 금지(12+).
-⑥ 한국어는 인도네시아어 말투에 맞춘 자연스러운 구어(존댓말/반말 일치).
+⑥ 한국어는 인도네시아어 말투에 맞춘 자연스러운 구어(존댓말/반말 일치).{keep}
 
 출력(이것만, 다른 설명 없이): 줄마다 `번호 화자: 인도네시아어 / 한국어`. 마지막 줄에 `킥: ` 뒤에 이 편의 웃음·설렘 포인트 한 줄.
 
@@ -57,7 +57,8 @@ def prompt_for(ep):
     b = ep['speakers'].get('B', 'B')
     lines = '\n'.join(f"{t['num']} {t['speaker']}: {t['id']} / {t['ko']}" for t in ep['turns'])
     return TEMPLATE.format(id=ep['id'], scene=ep['scene'], b=b, register=REGISTER.get(ep.get('register', ''), ep.get('register', '')),
-                           twist=ep.get('twist', ''), twist_type=ep.get('twist_type', ''), lines=lines)
+                           twist=ep.get('twist', ''), twist_type=ep.get('twist_type', ''), lines=lines,
+                           keep=('\n⑦ **꼭 남길 낱말(이 앱 R1 핵심 — 표준형 그대로, 구어형으로 바꾸지 말 것)**: ' + ', '.join(ep['keep'])) if ep.get('keep') else '')
 
 
 def cmd_prompt(path):

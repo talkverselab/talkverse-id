@@ -1,0 +1,152 @@
+{
+ "id": "r1_travel_a4",
+ "island": "travel",
+ "kind": "short",
+ "title": "마지막 탑승",
+ "emoji": "🪖",
+ "scene": "귀국 전날, 늘 타던 Pak Darto 의 오토바이를 마지막으로 탄다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "terakhir",
+  "Terima kasih untuk semuanya",
+  "seperti anak",
+  "jangan"
+ ],
+ "keep": [
+  "terima kasih",
+  "untuk",
+  "seperti",
+  "sudah",
+  "ter-",
+  "meN-"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, besok saya pulang, ini terakhir sih.",
+   "rd": "빡, 베속 사야 뿔랑, 이니 뜨르악히르 시흐.",
+   "ko": "아저씨, 내일 귀국해요, 이게 마지막이에요.",
+   "note": "ter-akhir = 마지막",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Lho, besok udah pulang Korea?",
+   "rd": "로, 베속 우다흐 뿔랑 꼬레아?",
+   "ko": "어, 내일 벌써 한국 가는 거야?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Iya besok. Terima kasih untuk semuanya.",
+   "rd": "이야 베속. 뜨리마 까시흐 운뚝 스무아냐.",
+   "ko": "네, 내일요. 그동안 다 고마웠어요.",
+   "note": "untuk = ~에 대해",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Kamu sudah seperti anak Bapak.",
+   "rd": "까무 수다흐 스쁘르띠 아낙 바빡.",
+   "ko": "넌 이미 내 자식 같아.",
+   "note": "seperti = ~같이",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Pak, jangan bikin saya menangis dong.",
+   "rd": "빡, 장안 비낀 사야 므낭이스 동.",
+   "ko": "아저씨, 울게 하지 마세요.",
+   "note": "meN-tangis = 울다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Ambil helm kesayangan Bapak untuk kamu.",
+   "rd": "암빌 헬므 끄사양안 바빡 운뚝 까무.",
+   "ko": "자, 이 아끼는 헬멧 가져가.",
+   "note": "kenang-kenangan = 기념품(중첩)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Pak, ini satu-satunya! Nanti Bapak gimana?",
+   "rd": "빡, 이니 사뚜-사뚜냐! 난띠 바빡 기마나?",
+   "ko": "아저씨, 이거 하나뿐인데! 아저씨는 뭐 쓰게요?",
+   "note": "satu-satunya = 유일한",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a4_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Pak, ini perjalanan terakhir saya.",
+    "ko": "아저씨, 이게 저 마지막으로 타는 거예요."
+   },
+   {
+    "num": 2,
+    "id": "Lho, mau pulang ke Korea?",
+    "ko": "어, 한국 돌아가?"
+   },
+   {
+    "num": 3,
+    "id": "Iya, besok. Terima kasih untuk semuanya.",
+    "ko": "네, 내일요. 그동안 다 고마웠어요."
+   },
+   {
+    "num": 4,
+    "id": "Kamu sudah seperti anak Bapak sendiri.",
+    "ko": "넌 이미 내 자식 같아."
+   },
+   {
+    "num": 5,
+    "id": "Pak... jangan bikin saya menangis.",
+    "ko": "아저씨… 울리지 마세요."
+   },
+   {
+    "num": 6,
+    "id": "Ini, helm untuk kenang-kenangan.",
+    "ko": "자, 기념으로 헬멧."
+   },
+   {
+    "num": 7,
+    "id": "Pak, ini helm Bapak satu-satunya!",
+    "ko": "아저씨, 이거 하나뿐인 헬멧이잖아요!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_travel_a4_grok.md",
+  "kick": "하나뿐인 아끼는 헬멧을 건네는 감동과 “그럼 아저씨는 뭐 타요?” 하는 엉뚱한 받아치기.",
+  "final": "재작성 그대로 반영(검수 통과)"
+ }
+}

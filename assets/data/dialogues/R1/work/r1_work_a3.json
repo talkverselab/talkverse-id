@@ -1,0 +1,154 @@
+{
+ "id": "r1_work_a3",
+ "island": "work",
+ "kind": "short",
+ "title": "인사 연습",
+ "emoji": "🤝",
+ "scene": "고객 미팅 전날, Dimas 와 인도네시아어 인사를 연습한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "akan bertemu dengan",
+  "sudah menyiapkan",
+  "Terima kasih",
+  "bagus sekali"
+ ],
+ "keep": [
+  "akan",
+  "dengan",
+  "sudah",
+  "terima kasih",
+  "sekali",
+  "tidak",
+  "meN-",
+  "ter-"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Besok kita akan bertemu dengan klien.",
+   "rd": "베속 끼따 아깐 브르뜨무 등안 끌리엔.",
+   "ko": "내일 고객이랑 만날 거예요.",
+   "note": "akan = ~할 것이다 · dengan = ~와",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Siap. Saya sudah menyiapkan semua, deh.",
+   "rd": "시압. 사야 수다흐 므니압깐 스무아, 데흐.",
+   "ko": "준비됐어요. 저 다 준비해 놨어요.",
+   "note": "meN-siap-kan = 준비하다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Terima kasih. Bahasamu sudah bagus sekali.",
+   "rd": "뜨리마 까시흐. 바하사무 수다흐 바구스 스깔리.",
+   "ko": "고마워요. 인도네시아어 진짜 잘하시네요.",
+   "note": "sekali = 매우",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Terima kasih. Saya terlalu deg-degan.",
+   "rd": "뜨리마 까시흐. 사야 뜨르랄루 덱-드간.",
+   "ko": "감사해요. 제가 너무 떨려요.",
+   "note": "ter- + lalu = 너무",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Coba latihan salam sekarang, dong.",
+   "rd": "쪼바 라띠한 살람 스까랑, 동.",
+   "ko": "지금 인사 연습해 봐요.",
+   "note": "salam = 인사",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Selamat tidur, Pak! Eh, selamat datang!",
+   "rd": "슬라맛 띠두르, 빡! 에, 슬라맛 다땅!",
+   "ko": "안녕히 주무세요! 아, 어서 오세요!",
+   "note": "selamat datang = 어서 오세요",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Klien pasti tidak akan tidur, deh.",
+   "rd": "끌리엔 빠스띠 띠닥 아깐 띠두르, 데흐.",
+   "ko": "고객은 절대 안 잘 거예요.",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Besok kita akan bertemu dengan klien.",
+    "ko": "내일 고객이랑 만날 거예요."
+   },
+   {
+    "num": 2,
+    "id": "Baik. Saya sudah menyiapkan semua.",
+    "ko": "네. 다 준비해 놨어요."
+   },
+   {
+    "num": 3,
+    "id": "Terima kasih. Bahasamu sudah bagus sekali.",
+    "ko": "고마워요. 인도네시아어 정말 잘하네요."
+   },
+   {
+    "num": 4,
+    "id": "Terima kasih. Saya terlalu semangat!",
+    "ko": "감사해요. 제가 너무 신나서요!"
+   },
+   {
+    "num": 5,
+    "id": "Coba latihan salam sekarang.",
+    "ko": "지금 인사 연습해 봐요."
+   },
+   {
+    "num": 6,
+    "id": "Selamat tidur, Pak! Eh, selamat datang!",
+    "ko": "안녕히 주무세요! 아니, 어서 오세요!"
+   },
+   {
+    "num": 7,
+    "id": "Bagus. Klien pasti tidak akan tidur.",
+    "ko": "좋아요. 고객은 절대 안 졸겠네요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_work_a3_grok.md",
+  "kick": "너무 떨려서 ‘잘 자’라고 크게 외치고 허둥대는 A와, 그걸 받아치는 B의 ‘고객은 안 잘 거야’.",
+  "final": "재작성 반영 + 카크 음역 제거, 6번 wkwk·길이 초과 → 초안 문장"
+ }
+}

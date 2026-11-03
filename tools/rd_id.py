@@ -62,7 +62,7 @@ def mark_e(word):
 
 
 # 낱말 통째로 읽는 것(감탄사·외래어·줄임말)
-WHOLE = {'lho': '로', 'ssst': '쉿', 'sst': '쉿', 'seember': '스엠브르', 'ember': '엠브르', 'loh': '로', 'wkwk': '웍웍', 'hehe': '헤헤', 'haha': '하하', 'hahaha': '하하하', 'oke': '오께', 'ok': '오께',
+WHOLE = {'lho': '로', 'klien': '끌리엔', 'cek': '쩩', 'korea': '꼬레아', 'terakhir': '뜨르악히르', 'deg': '덱', 'degan': '드간', 'ssst': '쉿', 'sst': '쉿', 'seember': '스엠브르', 'ember': '엠브르', 'loh': '로', 'wkwk': '웍웍', 'hehe': '헤헤', 'haha': '하하', 'hahaha': '하하하', 'oke': '오께', 'ok': '오께',
          'bro': '브로', 'sis': '시스', 'hah': '하', 'eh': '에', 'oh': '오', 'wah': '와', 'yuk': '육', 'kak': '깍', 'promo': '쁘로모',
          'mineral': '미느랄', 'grup': '그룹', 'bos': '보스', 'struk': '스뜨룩'}
 
