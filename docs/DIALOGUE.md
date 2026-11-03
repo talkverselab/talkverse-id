@@ -84,3 +84,6 @@
   → 편 JSON 에 `keep`(남길 낱말 목록)을 두면 `tools/grok_rewrite_id.py` 가 요청문에 「꼭 남길 낱말 — 표준형 그대로」 줄을 넣는다. 4차부터 적용, 효과 확인.
 - 받은 재작성은 그대로 쓰지 않는다: `tools/fix_turns.py <편> "<사유>" 번호="인니어|한국어"` 로 고치고 사유는 `review.final` 에. 자주 고친 것 — 호칭 음역(Kak→「카크」), 채팅체 wkwk 를 말에, 앞뒤 논리 깨짐, 8단어 초과, 한국어 말투 섞임.
 - 결과(2026-11-03): R1 24편, 카오스 58%, R1 104 토큰 전부 등장, 회화 토큰의 R1 비율 51%.
+- 5차(2026-11-04 새벽, `tools/write_r1_batch5.py`): 1~2회만 나온 R1 토큰(dan·kalau·harus·dengan·maaf·siapa·bagaimana·mereka·kami·kalian·tak·ayo·sekali) 위주로 6편, 반전 유형 reveal·ignore 추가.
+  → R1 30편, 카오스 57%(chaos 17·emotion 6·slip 4·ignore 2·reveal 1), 회화 토큰의 R1 비율 53%. 컷 120장.
+  장면 컷 검수에서 자주 걸린 것: 시트에 없는 조연(교수·기사)이 컷마다 바뀜 → redo 문구에 생김새를 글로 고정, 「라벨·말풍선 넣지 말 것」이라고 쓰면 오히려 그려 넣음 → "인물과 배경만 있는 순수한 그림"으로.
