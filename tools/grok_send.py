@@ -23,6 +23,26 @@ def answers(c):
 
 
 c = g.CDP(g.tab(frag)); c.call('Page.bringToFront')
+
+
+def ensure_expert(c):
+    """모델을 「전문가」로(사용자 지시 2026-11-03 — 「빠른」은 그림 한도가 금방 찬다). 새 대화마다 「빠른」으로 돌아갈 수 있다."""
+    import json as _j
+    lab = c.ev("(document.getElementById('model-select-trigger')||{getAttribute:()=>''}).getAttribute('aria-label')") or ''
+    if '전문가' in lab or not lab:
+        return
+    def click(x, y):
+        for t in ('mousePressed', 'mouseReleased'):
+            c.call('Input.dispatchMouseEvent', type=t, x=x, y=y, button='left', clickCount=1)
+    r = _j.loads(c.ev("JSON.stringify(document.getElementById('model-select-trigger').getBoundingClientRect())"))
+    click(r['x'] + r['width'] / 2, r['y'] + r['height'] / 2); time.sleep(2)
+    pos = c.ev("(()=>{const e=[...document.querySelectorAll('[role=menuitem],[role=menuitemradio],[role=option]')].find(e=>e.innerText.trim().startsWith('전문가'));if(!e)return null;const b=e.getBoundingClientRect();return JSON.stringify({x:b.x+b.width/2,y:b.y+b.height/2})})()")
+    if pos:
+        p = _j.loads(pos); click(p['x'], p['y']); time.sleep(2)
+    print('model:', c.ev("document.getElementById('model-select-trigger').getAttribute('aria-label')"))
+
+
+ensure_expert(c)
 _els0 = answers(c); last_answer = _els0[-1] if _els0 else ''
 text = open(src, encoding='utf-8').read().strip()
 if c.ev("document.querySelector('.ProseMirror')") is None:
