@@ -1,0 +1,161 @@
+{
+ "id": "r1_love_a2",
+ "island": "love",
+ "kind": "short",
+ "title": "커피 기다려",
+ "emoji": "☕",
+ "scene": "단골 카페. Ayu 가 먼저 「애인 있어?」 하고 묻더니 말이 꼬인다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Kamu punya pacar?",
+  "Tanya saja",
+  "Jangan lihat aku",
+  "dari tadi"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kamu punya pacar nggak?",
+   "rd": "까무 뿌냐 빠짜르 응각?",
+   "ko": "너 애인 있어?",
+   "note": "punya = 가지다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Nggak punya. Kenapa sih?",
+   "rd": "응각 뿌냐. 끄나빠 시흐?",
+   "ko": "없어. 왜?",
+   "note": "tidak = 아니다(동사·형용사 부정)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Nggak apa-apa. Tanya aja.",
+   "rd": "응각 아빠-아빠. 따냐 아자.",
+   "ko": "아니야. 그냥 물어본 거야.",
+   "note": "saja = 그냥·~만",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kamu sendiri punya?",
+   "rd": "까무 슨디리 뿌냐?",
+   "ko": "너는 있어?",
+   "note": "sendiri = 자신",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Belum. Aku nungguin kamu banget... eh, kopiku!",
+   "rd": "블룸. 아꾸 눙구인 까무 방읏... 에, 꼬삐꾸!",
+   "ko": "아직. 너 엄청 기다리고 있어... 아, 내 커피!",
+   "note": "-ku = 나의",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kopimu udah datang dari tadi.",
+   "rd": "꼬삐무 우다흐 다땅 다리 따디.",
+   "ko": "네 커피 아까부터 와 있었어.",
+   "note": "-mu = 너의 · tadi = 아까",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Ya udah deh. Jangan lihat aku gitu!",
+   "rd": "야 우다흐 데흐. 장안 리핫 아꾸 기뚜!",
+   "ko": "됐어. 그렇게 쳐다보지 마!",
+   "note": "jangan = ~하지 마",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Aku lihat kopimu aja kok.",
+   "rd": "아꾸 리핫 꼬삐무 아자 꼭.",
+   "ko": "나 네 커피만 보는 거야.",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a2_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kamu punya pacar?",
+    "ko": "너 애인 있어?"
+   },
+   {
+    "num": 2,
+    "id": "Tidak punya. Kenapa?",
+    "ko": "없어. 왜?"
+   },
+   {
+    "num": 3,
+    "id": "Nggak apa-apa. Tanya saja.",
+    "ko": "아니 그냥. 물어본 거야."
+   },
+   {
+    "num": 4,
+    "id": "Kamu sendiri punya?",
+    "ko": "너는 있어?"
+   },
+   {
+    "num": 5,
+    "id": "Belum. Aku tunggu kamu... eh, kopiku!",
+    "ko": "아직. 너 기다려… 아, 내 커피!"
+   },
+   {
+    "num": 6,
+    "id": "Kopimu sudah datang dari tadi.",
+    "ko": "네 커피 아까부터 와 있었는데."
+   },
+   {
+    "num": 7,
+    "id": "Ya sudah. Jangan lihat aku begitu!",
+    "ko": "됐어. 그렇게 쳐다보지 마!"
+   },
+   {
+    "num": 8,
+    "id": "Aku lihat kopimu saja kok.",
+    "ko": "나 네 커피만 보는 건데."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_love_a2_grok.md",
+  "kick": "Ayu가 무심코 \"너 기다리고 있어\"라고 실수하고 커피로 무마하려 하지만 이미 와 있어서 더 당황하는 설렘",
+  "final": "재작성 반영 + R1 목표 토큰 되살림(-mu·lihat 표준형)"
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "id": "r1_life_a3",
+ "island": "life",
+ "kind": "short",
+ "title": "공짜 아니었어",
+ "emoji": "🍳",
+ "scene": "Bu Sri 의 와룽. 아주머니가 오늘은 돈 내지 말라고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "yang pedas",
+  "Terima kasih",
+  "seperti anak saya",
+  "baik sekali"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Nak, mau makan apa hari ini?",
+   "rd": "낙, 마우 마깐 아빠 하리 이니?",
+   "ko": "얘야, 오늘은 뭐 먹을래?",
+   "note": "Nak = (아이·젊은이를 부를 때) 얘야",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Nasi goreng pedas satu, Bu.",
+   "rd": "나시 고렝 뻬다스 사뚜, 부.",
+   "ko": "나시고렝 매운 거 하나요, 아주머니.",
+   "note": "yang = ~한 것",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Nih, makan banyak-banyak ya.",
+   "rd": "니흐, 마깐 바냑-바냑 야.",
+   "ko": "여기, 많이 먹어.",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Makasih, Bu. Berapa harganya?",
+   "rd": "마까시흐, 부. 브라빠 하르가냐?",
+   "ko": "고마워요, 아주머니. 얼마예요?",
+   "note": "terima kasih = 고맙습니다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Nggak usah bayar. Kayak anak sendiri.",
+   "rd": "응각 우사흐 바야르. 까약 아낙 슨디리.",
+   "ko": "돈 안 내도 돼. 내 자식 같아서.",
+   "note": "seperti = ~같이 · anak = 아이·자식",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Wah, Bu baik banget sih!",
+   "rd": "와, 부 바익 방읏 시흐!",
+   "ko": "와, 아주머니 정말 좋으시네요!",
+   "note": "baik = 좋다·착하다 · sekali = 매우",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Eh, tapi kemarin belum bayar lho!",
+   "rd": "에, 따삐 끄마린 블룸 바야르 로!",
+   "ko": "어, 근데 어제 거는 아직 안 냈잖아!",
+   "note": "di- = ~되다(수동)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Mau makan apa, Nak?",
+    "ko": "뭐 먹을래요?"
+   },
+   {
+    "num": 2,
+    "id": "Nasi goreng satu, Bu. Yang pedas.",
+    "ko": "나시고렝 하나요, 아주머니. 매운 걸로요."
+   },
+   {
+    "num": 3,
+    "id": "Ini dia. Makan yang banyak.",
+    "ko": "자 여기요. 많이 먹어요."
+   },
+   {
+    "num": 4,
+    "id": "Terima kasih, Bu. Berapa?",
+    "ko": "고맙습니다, 아주머니. 얼마예요?"
+   },
+   {
+    "num": 5,
+    "id": "Tidak usah bayar. Kamu seperti anak saya.",
+    "ko": "돈 안 내도 돼요. 내 자식 같아서."
+   },
+   {
+    "num": 6,
+    "id": "Wah, Ibu baik sekali!",
+    "ko": "와, 아주머니 정말 좋으세요!"
+   },
+   {
+    "num": 7,
+    "id": "Tapi yang kemarin belum dibayar, ya.",
+    "ko": "근데 어제 거는 아직 안 냈죠?"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_life_a3_grok.md",
+  "kick": "너무 친절해서 감동했는데 갑자기 어제 거 안 냈다고 터지는 반전.",
+  "final": "재작성 그대로 반영(검수 통과)"
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "id": "r1_travel_a3",
+ "island": "travel",
+ "kind": "short",
+ "title": "지름길",
+ "emoji": "🛵",
+ "scene": "늦어서 Pak Darto 의 오토바이 택시를 탔는데 지름길이 이상하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "terlambat",
+  "Pegangan",
+  "mampir dulu",
+  "masih ada"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, ke stasiun. Saya telat banget!",
+   "rd": "빡, 끄 스따시운. 사야 뜰랏 방읏!",
+   "ko": "아저씨, 역으로요. 저 엄청 늦었어요!",
+   "note": "ter- = 저절로·이미 그렇게 된",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Siap! Pegangan kuat dong!",
+   "rd": "시압! 쁘강안 꾸앗 동!",
+   "ko": "알았어! 꽉 잡아!",
+   "note": "dengan = ~하게·~와",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Pak, kok kita masuk gang?",
+   "rd": "빡, 꼭 끼따 마숙 강?",
+   "ko": "아저씨, 왜 골목으로 들어가요?",
+   "note": "kenapa = 왜",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Jalan pintas. Saya tahu semua!",
+   "rd": "잘란 삔따스. 사야 따후 스무아!",
+   "ko": "지름길이야. 아저씨는 다 알아!",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Pak, ini rumah Bapak ya?",
+   "rd": "빡, 이니 루마흐 바빡 야?",
+   "ko": "아저씨, 여기 아저씨 집이에요?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Iya! Rumah saya! Mampir, istri masak seember!",
+   "rd": "이야! 루마흐 사야! 맘삐르, 이스뜨리 마삭 스엠브르!",
+   "ko": "응! 우리 집이야! 들렀다 가, 아내가 한 솥 했어!",
+   "note": "mampir = 들르다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Pak! Kereta saya bagaimana?",
+   "rd": "빡! 끄르따 사야 바가이마나?",
+   "ko": "아저씨! 제 기차는요?",
+   "note": "bagaimana = 어떻게",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Makan dulu deh, kereta masih ada!",
+   "rd": "마깐 둘루 데흐, 끄르따 마시흐 아다!",
+   "ko": "밥부터 먹어, 기차는 아직 있어!",
+   "note": "masih = 아직",
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Pak, ke stasiun, ya. Saya terlambat!",
+    "ko": "아저씨, 역으로요. 저 늦었어요!"
+   },
+   {
+    "num": 2,
+    "id": "Siap! Pegangan dengan kuat!",
+    "ko": "알겠어요! 꽉 잡아요!"
+   },
+   {
+    "num": 3,
+    "id": "Pak, kenapa kita masuk gang?",
+    "ko": "아저씨, 왜 골목으로 들어가요?"
+   },
+   {
+    "num": 4,
+    "id": "Jalan pintas. Bapak tahu semua jalan.",
+    "ko": "지름길이야. 아저씨는 길 다 알아."
+   },
+   {
+    "num": 5,
+    "id": "Pak... ini rumah Bapak?",
+    "ko": "아저씨… 여기 아저씨 집이에요?"
+   },
+   {
+    "num": 6,
+    "id": "Iya, mampir dulu. Istri saya masak!",
+    "ko": "응, 잠깐 들러. 아내가 밥 했어!"
+   },
+   {
+    "num": 7,
+    "id": "Pak! Kereta saya bagaimana?",
+    "ko": "아저씨! 제 기차는요?"
+   },
+   {
+    "num": 8,
+    "id": "Kereta berikutnya masih ada. Makan dulu!",
+    "ko": "다음 기차 아직 있어. 밥부터 먹어!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_travel_a3_grok.md",
+  "kick": "지름길인 줄 알고 탔는데 기사 집으로 초대해 아내가 한 통 밥 했다는 엉뚱한 반전",
+  "final": "재작성 반영 + 아저씨 말 한국어 반말로 통일"
+ }
+}

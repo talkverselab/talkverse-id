@@ -1,0 +1,144 @@
+{
+ "id": "r1_friends_a2",
+ "island": "friends",
+ "kind": "short",
+ "title": "한 곡 더",
+ "emoji": "🎤",
+ "scene": "Raka 네 원룸에서 둘이 노래방 앱을 켰다. 벽이 얇다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Ayo",
+  "lebih bagus",
+  "harus diam",
+  "satu lagi"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Yuk nyanyi duet sama gue dong!",
+   "rd": "육 냐니 두읏 사마 구에 동!",
+   "ko": "자, 나랑 듀엣 노래하자!",
+   "note": "ayo = 자·하자 · dan = 그리고",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Oke. Suara lo bagus nggak?",
+   "rd": "오께. 수아라 로 바구스 응각?",
+   "ko": "오케이. 너 목소리 좋긴 해?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Lebih bagus dari penyanyi, hahaha!",
+   "rd": "르비흐 바구스 다리 쁘냐니, 하하하!",
+   "ko": "가수보다 낫지, 하하하!",
+   "note": "lebih = 더",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Aduh, telinga gue! Stop dulu!",
+   "rd": "아두흐, 뜰링아 구에! 스똡 둘루!",
+   "ko": "아이고 내 귀! 일단 멈춰!",
+   "note": "dulu = 먼저·일단",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kenapa sih tetangga ketok terus?",
+   "rd": "끄나빠 시흐 뜨땅가 끄똑 뜨루스?",
+   "ko": "왜 이웃이 계속 두드려?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Mereka bilang kami harus diam.",
+   "rd": "므르까 빌랑 까미 하루스 디암.",
+   "ko": "우리 조용히 하래.",
+   "note": "mereka = 그들 · kami = 우리(상대 제외) · harus = ~해야 한다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Nggak bisa! Lebih kenceng lagi!",
+   "rd": "응각 비사! 르비흐 끈쯩 라기!",
+   "ko": "안 돼! 더 크게!",
+   "note": "bisa = 할 수 있다 · untuk = ~위해",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a2_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Ayo nyanyi! Kamu dan aku, duet!",
+    "ko": "자 노래하자! 너랑 나랑 듀엣!"
+   },
+   {
+    "num": 2,
+    "id": "Oke. Suaramu bagus?",
+    "ko": "오케이. 너 목소리 좋아?"
+   },
+   {
+    "num": 3,
+    "id": "Lebih bagus dari penyanyi!",
+    "ko": "가수보다 낫지!"
+   },
+   {
+    "num": 4,
+    "id": "Aduh, telingaku! Berhenti dulu!",
+    "ko": "아이고 내 귀! 일단 멈춰!"
+   },
+   {
+    "num": 5,
+    "id": "Kenapa tetangga ketuk pintu?",
+    "ko": "왜 이웃이 문을 두드려?"
+   },
+   {
+    "num": 6,
+    "id": "Mereka bilang kami harus diam.",
+    "ko": "우리 조용히 하래."
+   },
+   {
+    "num": 7,
+    "id": "Tidak bisa! Satu lagi untuk mereka!",
+    "ko": "안 돼! 저 사람들 위해 한 곡 더!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_friends_a2_grok.md",
+  "kick": "목소리에 설레다 귀 아프다고 멈췄는데 이웃 컴플레인에도 더 크게 부르겠다는 엉뚱한 고집",
+  "final": "재작성 반영 + 2번 논리(설렘↔귀 아픔) 되돌림, 채팅체 wkwk→웃음, R1 kami·harus 되살림"
+ }
+}

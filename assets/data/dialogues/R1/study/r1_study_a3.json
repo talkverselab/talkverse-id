@@ -1,0 +1,148 @@
+{
+ "id": "r1_study_a3",
+ "island": "study",
+ "kind": "short",
+ "title": "매일 같이",
+ "emoji": "📝",
+ "scene": "시험 망친 날, 캠퍼스 벤치. Nadia 가 먼저 다가온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "love"
+ ],
+ "domain": [
+  "study",
+  "love"
+ ],
+ "expressions": [
+  "Bagaimana",
+  "Kenapa tidak bilang",
+  "akan",
+  "Benar?"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Eh, ujianmu tadi gimana?",
+   "rd": "에, 우지안무 따디 기마나?",
+   "ko": "어, 아까 시험 어땠어?",
+   "note": "bagaimana = 어때·어떻게",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Hancur total. Aku nggak belajar.",
+   "rd": "한쭈르 또딸. 아꾸 응각 블라자르.",
+   "ko": "완전 망했어. 나 공부 안 했어.",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Kenapa nggak bilang ke aku?",
+   "rd": "끄나빠 응각 빌랑 끄 아꾸?",
+   "ko": "왜 나한테 말 안 했어?",
+   "note": "bilang = 말하다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Malu. Kamu selalu pintar banget.",
+   "rd": "말루. 까무 슬랄루 삔따르 방읏.",
+   "ko": "창피해서. 넌 항상 너무 똑똑해.",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Mulai besok aku jadi guru pribadimu deh.",
+   "rd": "물라이 베속 아꾸 자디 구루 쁘리바디무 데흐.",
+   "ko": "내일부터 내가 개인 선생님 되어줄게.",
+   "note": "meN-ajar-i = 가르치다 · akan = ~할 것이다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Beneran? Tiap hari gitu?",
+   "rd": "브느란? 띠압 하리 기뚜?",
+   "ko": "진짜로? 매일 그렇게?",
+   "note": "benar = 정말·맞다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tiap hari dong. Tapi kopi kamu yang bayar.",
+   "rd": "띠압 하리 동. 따삐 꼬삐 까무 양 바야르.",
+   "ko": "매일 그럼. 근데 커피는 네가 내.",
+   "note": "traktir = 한턱내다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Bagaimana ujianmu tadi?",
+    "ko": "아까 시험 어땠어?"
+   },
+   {
+    "num": 2,
+    "id": "Jelek. Aku tidak belajar.",
+    "ko": "망했어. 공부 안 했어."
+   },
+   {
+    "num": 3,
+    "id": "Kenapa tidak bilang aku?",
+    "ko": "왜 나한테 말 안 했어?"
+   },
+   {
+    "num": 4,
+    "id": "Aku malu. Kamu selalu pintar.",
+    "ko": "창피해서. 넌 늘 똑똑하잖아."
+   },
+   {
+    "num": 5,
+    "id": "Mulai besok aku akan mengajarimu.",
+    "ko": "내일부터 내가 가르쳐 줄게."
+   },
+   {
+    "num": 6,
+    "id": "Benar? Setiap hari?",
+    "ko": "진짜? 매일?"
+   },
+   {
+    "num": 7,
+    "id": "Setiap hari. Tapi kamu traktir kopi.",
+    "ko": "매일. 대신 커피는 네가 사."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_study_a3_grok.md",
+  "kick": "갑자기 개인 과외 선생님이 되겠다는 큰 제안이 터지고, 매일 커피 사는 조건으로 받아치는 펀치.",
+  "final": "재작성 그대로 반영(검수 통과)"
+ }
+}
