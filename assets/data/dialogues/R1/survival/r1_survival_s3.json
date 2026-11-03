@@ -1,0 +1,170 @@
+{
+ "id": "r1_survival_s3",
+ "island": "survival",
+ "kind": "short",
+ "title": "잘못 탔어요",
+ "emoji": "🚌",
+ "scene": "앙콧(미니버스) 안. 반대 방향으로 가는 걸 알았는데 기사가 안 세워 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Sopir"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "survival",
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Kiri, Pak!",
+  "Ke mana?",
+  "harus turun",
+  "Ayo"
+ ],
+ "keep": [
+  "ke",
+  "mana",
+  "harus",
+  "tidak",
+  "ayo",
+  "kalian",
+  "sekali",
+  "dan"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, angkot ini ke mana?",
+   "rd": "빡, 앙꼿 이니 끄 마나?",
+   "ko": "아저씨, 이 앙콧 어디로 가요?",
+   "note": "ke mana = 어디로",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Ke terminal. Duduk aja deh.",
+   "rd": "끄 뜨르미날. 두둑 아자 데흐.",
+   "ko": "터미널로요. 그냥 앉아 있어요.",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Saya harus ke kampus, bukan terminal!",
+   "rd": "사야 하루스 끄 깜뿌스, 부깐 뜨르미날!",
+   "ko": "저 캠퍼스 가야 해요, 터미널 아니라고요!",
+   "note": "harus = ~해야 한다 · bukan = ~이 아니다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Tidak bisa berhenti di sini, Mas.",
+   "rd": "띠닥 비사 브르흔띠 디 시니, 마스.",
+   "ko": "여기서는 못 세워요.",
+   "note": "ber-henti = 멈추다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Kiri dong, Pak! Berhenti kiri!",
+   "rd": "끼리 동, 빡! 브르흔띠 끼리!",
+   "ko": "왼쪽요 아저씨! 왼쪽에서 세워요!",
+   "note": "kiri = 왼쪽(「세워 달라」는 신호)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Kalian mau turun? Ayo turun sekali!",
+   "rd": "깔리안 마우 뚜룬? 아요 뚜룬 스깔리!",
+   "ko": "여러분 내릴 거예요? 한 번에 다 내려요!",
+   "note": "kalian = 너희 · sekali = 한 번에",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kenapa semua ikut turun?",
+   "rd": "끄나빠 스무아 이꿋 뚜룬?",
+   "ko": "왜 다 같이 내려요?",
+   "note": "ikut = 따라 하다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Mereka juga salah angkot, dan saya juga.",
+   "rd": "므르까 주가 살라흐 앙꼿, 단 사야 주가.",
+   "ko": "저 사람들도 잘못 탔고, 저도요.",
+   "note": "dan = 그리고",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s3_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Pak, mobil ini ke mana?",
+    "ko": "아저씨, 이 차 어디로 가요?"
+   },
+   {
+    "num": 2,
+    "id": "Ke terminal. Duduk saja.",
+    "ko": "터미널요. 앉아 있어요."
+   },
+   {
+    "num": 3,
+    "id": "Saya harus ke kampus, bukan terminal!",
+    "ko": "저 캠퍼스 가야 해요, 터미널 아니고요!"
+   },
+   {
+    "num": 4,
+    "id": "Tidak bisa berhenti di sini.",
+    "ko": "여기서는 못 세워요."
+   },
+   {
+    "num": 5,
+    "id": "Kiri, Pak! Kiri!",
+    "ko": "세워 주세요! 세워요!"
+   },
+   {
+    "num": 6,
+    "id": "Semua, kalian mau turun? Ayo turun sekali!",
+    "ko": "다들 내릴 거예요? 한꺼번에 내려요!"
+   },
+   {
+    "num": 7,
+    "id": "Kenapa semua orang ikut turun?",
+    "ko": "왜 다 같이 내려요?"
+   },
+   {
+    "num": 8,
+    "id": "Mereka juga salah mobil, dan saya juga.",
+    "ko": "저 사람들도 잘못 탔고, 저도요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_survival_s3_grok.md",
+  "kick": "기사가 운전하며 노래 부르다 보니 세우지 못하고, 알고 보니 기사까지 길을 잘못 들어 다 같이 내리는 황당함",
+  "final": "4번 논리 끊김(노래해서 못 세운다), 8번 채팅체 wkwk 를 말에"
+ }
+}

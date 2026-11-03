@@ -1,0 +1,169 @@
+{
+ "id": "r1_life_a5",
+ "island": "life",
+ "kind": "short",
+ "title": "아저씨 아니에요",
+ "emoji": "🧓",
+ "scene": "동네 시장. 처음 보는 가게 주인에게 호칭을 잘못 불렀는데 주인이 못 들은 척한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "daily"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Maaf, Bu",
+  "Berapa …?",
+  "bagaimana",
+  "harus"
+ ],
+ "keep": [
+  "maaf",
+  "bagaimana",
+  "harus",
+  "tidak",
+  "dengan",
+  "baik",
+  "di-",
+  "-i"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, ini berapa ya?",
+   "rd": "빡, 이니 브라빠 야?",
+   "ko": "아저씨, 이거 얼마예요?",
+   "note": "berapa = 얼마",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Hah? Saya tidak dengar kok.",
+   "rd": "하? 사야 띠닥 등아르 꼭.",
+   "ko": "응? 안 들리는데요.",
+   "note": "dengar = 듣다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Maaf, Bu! Ini berapa, Bu?",
+   "rd": "마아프, 부! 이니 브라빠, 부?",
+   "ko": "죄송해요, 아주머니! 이거 얼마예요?",
+   "note": "maaf = 죄송·실례 · Bu = 아주머니",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Nah, sekarang saya dengar. Lima ribu!",
+   "rd": "나흐, 스까랑 사야 등아르. 리마 리부!",
+   "ko": "자, 이제 들리네요. 오천!",
+   "note": "nah = 자·거봐",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Bagaimana saya harus bayar, Bu?",
+   "rd": "바가이마나 사야 하루스 바야르, 부?",
+   "ko": "어떻게 내야 돼요, 아주머니?",
+   "note": "bagaimana = 어떻게 · harus = ~해야 한다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Bayar dengan senyum dulu deh.",
+   "rd": "바야르 등안 스늄 둘루 데흐.",
+   "ko": "먼저 웃는 얼굴로 내요.",
+   "note": "dengan = ~로",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Baik, Bu, begini ya?",
+   "rd": "바익, 부, 브기니 야?",
+   "ko": "네, 이렇게요?",
+   "note": "begini = 이렇게",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Ditambahi lima ribu lagi. Baru bagus.",
+   "rd": "디땀바히 리마 리부 라기. 바루 바구스.",
+   "ko": "오천 더 얹어야 딱 좋네.",
+   "note": "di-tambah-i = 더해지다(접사)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_life_a5_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Pak, ini berapa?",
+    "ko": "아저씨, 이거 얼마예요?"
+   },
+   {
+    "num": 2,
+    "id": "Hmm? Saya tidak dengar.",
+    "ko": "응? 안 들려요."
+   },
+   {
+    "num": 3,
+    "id": "Maaf, Bu! Ini berapa, Bu?",
+    "ko": "죄송해요, 아주머니! 이거 얼마예요?"
+   },
+   {
+    "num": 4,
+    "id": "Nah, sekarang saya dengar. Lima ribu.",
+    "ko": "자, 이제 들리네. 오천."
+   },
+   {
+    "num": 5,
+    "id": "Bagaimana saya harus bayar, Bu?",
+    "ko": "어떻게 내면 돼요?"
+   },
+   {
+    "num": 6,
+    "id": "Bayar dengan senyum dulu.",
+    "ko": "먼저 웃는 얼굴로 내요."
+   },
+   {
+    "num": 7,
+    "id": "Baik, Bu... begini?",
+    "ko": "네… 이렇게요?"
+   },
+   {
+    "num": 8,
+    "id": "Ditambahi lima ribu lagi, baru bagus.",
+    "ko": "오천 더 얹어야 딱 좋겠네."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_life_a5_grok.md",
+  "kick": "호칭 하나로 귀가 열리고, 미소 하나에 가격이 오르는 장난.",
+  "final": "4번 sih 오용(Akhirnya saya dengar sih)"
+ }
+}

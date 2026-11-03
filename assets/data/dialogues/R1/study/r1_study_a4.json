@@ -1,0 +1,168 @@
+{
+ "id": "r1_study_a4",
+ "island": "study",
+ "kind": "short",
+ "title": "발표 5분",
+ "emoji": "🎤",
+ "scene": "강의실. 조별 발표 날, Nadia 가 「5분만 하면 돼」라고 했는데 교수가 자꾸 질문한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Bagaimana kalau…",
+  "harus",
+  "Siapa yang…?",
+  "maaf"
+ ],
+ "keep": [
+  "bagaimana",
+  "kalau",
+  "harus",
+  "siapa",
+  "maaf",
+  "dan",
+  "mereka",
+  "tidak"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Tenang dong, presentasi kita cuma lima menit.",
+   "rd": "뜨낭 동, 쁘르슨따시 끼따 쭈마 리마 므닛.",
+   "ko": "걱정 마, 우리 발표 5분이면 끝이야.",
+   "note": "cuma = 겨우·만",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Bagaimana kalau Pak dosen nanya?",
+   "rd": "바가이마나 깔라우 빡 도슨 나냐?",
+   "ko": "교수님이 질문하시면 어떡해?",
+   "note": "bagaimana kalau = ~하면 어떡하지 · ber-tanya = 묻다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Tidak akan. Dia selalu tidur sih.",
+   "rd": "띠닥 아깐. 디아 슬랄루 띠두르 시흐.",
+   "ko": "안 할 거야. 늘 주무시잖아.",
+   "note": "akan = ~할 것이다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Maaf, Pak... kok sudah bangun?!",
+   "rd": "마아프, 빡... 꼭 수다흐 방운?!",
+   "ko": "죄송해요 교수님… 왜 벌써 깨셨어요?!",
+   "note": "maaf = 죄송·실례",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Siapa yang bikin dia bangun?!",
+   "rd": "시아빠 양 비낀 디아 방운?!",
+   "ko": "누가 깨운 거야?!",
+   "note": "siapa = 누구 · yang = ~하는 (사람)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Dia nanya lagi dan lagi!",
+   "rd": "디아 나냐 라기 단 라기!",
+   "ko": "또 묻고 또 물으셔!",
+   "note": "dan = 그리고",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Sekarang mereka semua harus jawab.",
+   "rd": "스까랑 므르까 스무아 하루스 자왑.",
+   "ko": "이제 다른 조들도 전부 대답해야 해.",
+   "note": "mereka = 그들 · harus = ~해야 한다 · meN-jawab = 대답하다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Lima menit... jadi dua jam.",
+   "rd": "리마 므닛... 자디 두아 잠.",
+   "ko": "5분이… 두 시간 됐네.",
+   "note": "jadi = ~이 되다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a4_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Tenang, presentasi kita cuma lima menit.",
+    "ko": "걱정 마, 우리 발표 5분이면 끝이야."
+   },
+   {
+    "num": 2,
+    "id": "Bagaimana kalau Pak dosen bertanya?",
+    "ko": "교수님이 질문하시면 어떡해?"
+   },
+   {
+    "num": 3,
+    "id": "Tidak akan. Dia selalu tidur.",
+    "ko": "안 하셔. 늘 주무시잖아."
+   },
+   {
+    "num": 4,
+    "id": "Maaf, Pak... sudah bangun?",
+    "ko": "죄송한데요, 교수님… 깨셨어요?"
+   },
+   {
+    "num": 5,
+    "id": "Siapa yang bikin dia bangun?!",
+    "ko": "누가 깨운 거야?!"
+   },
+   {
+    "num": 6,
+    "id": "Dia bertanya lagi dan lagi!",
+    "ko": "또 묻고 또 물으셔!"
+   },
+   {
+    "num": 7,
+    "id": "Sekarang mereka semua harus menjawab.",
+    "ko": "이제 다른 조들도 전부 대답해야 해."
+   },
+   {
+    "num": 8,
+    "id": "Lima menit... jadi dua jam.",
+    "ko": "5분이… 두 시간 됐네."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_study_a4_grok.md",
+  "kick": "안 깰 줄 알고 안심했는데 A가 바로 깨워서 5분이 2시간 참사가 된 순간"
+ }
+}

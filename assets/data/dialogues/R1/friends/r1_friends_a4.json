@@ -1,0 +1,169 @@
+{
+ "id": "r1_friends_a4",
+ "island": "friends",
+ "kind": "short",
+ "title": "비밀",
+ "emoji": "🤫",
+ "scene": "카페 구석 자리. Nadia 가 「비밀 하나 말해 줄게」 하고 끌어당긴다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Jangan bilang siapa-siapa",
+  "Kalau…",
+  "Benar?",
+  "baik-baik saja"
+ ],
+ "keep": [
+  "kalau",
+  "siapa",
+  "benar",
+  "baik",
+  "tak",
+  "dan",
+  "mereka",
+  "kami"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Sini dong. Aku mau bilang rahasia.",
+   "rd": "시니 동. 아꾸 마우 빌랑 라하시아.",
+   "ko": "이리 와. 비밀 하나 말할게.",
+   "note": "rahasia = 비밀",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Rahasia? Kalau aku tak boleh tahu?",
+   "rd": "라하시아? 깔라우 아꾸 딱 볼레흐 따후?",
+   "ko": "비밀? 내가 알면 안 되는 거면?",
+   "note": "kalau = 만약",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Jangan bilang siapa-siapa ya.",
+   "rd": "장안 빌랑 시아빠-시아빠 야.",
+   "ko": "아무한테도 말하지 마.",
+   "note": "siapa-siapa = 아무도(중첩)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Baik. Aku tutup mulut rapat.",
+   "rd": "바익. 아꾸 뚜뚭 물룻 라빳.",
+   "ko": "알았어. 입 꽉 다물게.",
+   "note": "baik = 알겠다 · tutup mulut = 입을 다물다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Raka dan Dimas sudah tahu duluan!",
+   "rd": "라까 단 디마스 수다흐 따후 둘루안!",
+   "ko": "Raka 랑 Dimas 는 벌써 먼저 알고 있었어!",
+   "note": "dan = 그리고",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Mereka tahu? Benar?",
+   "rd": "므르까 따후? 브나르?",
+   "ko": "걔들이 알아? 진짜?",
+   "note": "mereka = 그들",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Kami semua tahu. Cuma kamu belum.",
+   "rd": "까미 스무아 따후. 쭈마 까무 블룸.",
+   "ko": "우리 다 알아. 너만 아직 몰라.",
+   "note": "kami = 우리(듣는 사람 제외)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Jadi rahasia ini tentang aku?!",
+   "rd": "자디 라하시아 이니 뜬땅 아꾸?!",
+   "ko": "그럼 이 비밀이… 나 얘기야?!",
+   "note": "tentang = ~에 대한",
+   "tags": [],
+   "art": "assets/images/scenes/r1_friends_a4_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Sini. Aku mau bilang satu rahasia.",
+    "ko": "이리 와. 비밀 하나 말해 줄게."
+   },
+   {
+    "num": 2,
+    "id": "Rahasia? Kalau aku tak boleh tahu?",
+    "ko": "비밀? 내가 알면 안 되는 거면?"
+   },
+   {
+    "num": 3,
+    "id": "Jangan bilang siapa-siapa, ya.",
+    "ko": "아무한테도 말하지 마."
+   },
+   {
+    "num": 4,
+    "id": "Baik. Aku tutup mulut.",
+    "ko": "알았어. 입 꼭 다물게."
+   },
+   {
+    "num": 5,
+    "id": "Raka dan Dimas tahu rahasia ini.",
+    "ko": "Raka 랑 Dimas 는 이 비밀 알아."
+   },
+   {
+    "num": 6,
+    "id": "Mereka tahu? Benar?",
+    "ko": "걔들이 알아? 진짜?"
+   },
+   {
+    "num": 7,
+    "id": "Kami semua tahu. Cuma kamu belum.",
+    "ko": "우리 다 알아. 너만 아직 몰라."
+   },
+   {
+    "num": 8,
+    "id": "Jadi rahasia ini... tentang aku?!",
+    "ko": "그럼 이 비밀이… 나 얘기야?!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_friends_a4_grok.md",
+  "kick": "모두가 이미 알고 나만 모르는 비밀이 바로 나 자신이라는 폭로에, 당황하며 들키는 순간의 심쿵.",
+  "final": "sih 위치 어색, duluan banget 비문, 8번 dong 남발로 뜻 흐림"
+ }
+}

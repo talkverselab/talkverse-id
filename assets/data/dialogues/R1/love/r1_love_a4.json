@@ -1,0 +1,170 @@
+{
+ "id": "r1_love_a4",
+ "island": "love",
+ "kind": "short",
+ "title": "누구랑 왔어?",
+ "emoji": "🎬",
+ "scene": "영화관 매표소 앞. Ayu 가 먼저 「누구랑 왔어?」 하고 묻는데, 대답할 때마다 사람이 늘어난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Dengan siapa?",
+  "Ayo",
+  "kalian",
+  "sekali"
+ ],
+ "keep": [
+  "siapa",
+  "dengan",
+  "ayo",
+  "kalian",
+  "sekali",
+  "dan",
+  "tak",
+  "saja"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kamu nonton dengan siapa sih?",
+   "rd": "까무 논똔 등안 시아빠 시흐?",
+   "ko": "너 누구랑 보러 온 거야?",
+   "note": "dengan siapa = 누구와",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Sendiri saja. Kamu?",
+   "rd": "슨디리 사자. 까무?",
+   "ko": "그냥 혼자. 너는?",
+   "note": "sendiri = 혼자",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Aku juga. Ayo nonton bareng dong.",
+   "rd": "아꾸 주가. 아요 논똔 바릉 동.",
+   "ko": "나도. 같이 보자.",
+   "note": "ayo = ~하자 · bersama = 함께",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Hai, kalian! Raka, Nadia, Dimas?",
+   "rd": "하이, 깔리안! 라까, 나디아, 디마스?",
+   "ko": "어, 너희! Raka, Nadia, Dimas?",
+   "note": "kalian = 너희",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kenapa mereka semua di sini sih? Gila banget!",
+   "rd": "끄나빠 므르까 스무아 디 시니 시흐? 길라 방읏!",
+   "ko": "왜 얘네가 다 여기 있는 거야? 완전 미쳤어!",
+   "note": "mereka = 그들",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kebetulan sekali, ya.",
+   "rd": "끄브뚤란 스깔리, 야.",
+   "ko": "우연치고 엄청나네.",
+   "note": "sekali = 아주·몹시",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Aku tak mau nonton dengan lima orang.",
+   "rd": "아꾸 딱 마우 논똔 등안 리마 오랑.",
+   "ko": "난 다섯 명이랑 보기 싫어.",
+   "note": "tak = 안(tidak 줄임)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Jadi aku dan kamu saja?",
+   "rd": "자디 아꾸 단 까무 사자?",
+   "ko": "그럼 나랑 너만?",
+   "note": "ber-dua = 둘이서",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a4_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kamu nonton dengan siapa?",
+    "ko": "너 누구랑 보러 왔어?"
+   },
+   {
+    "num": 2,
+    "id": "Sendiri saja. Kamu?",
+    "ko": "그냥 혼자. 너는?"
+   },
+   {
+    "num": 3,
+    "id": "Aku juga. Ayo nonton bersama.",
+    "ko": "나도. 같이 보자."
+   },
+   {
+    "num": 4,
+    "id": "Hai, kalian! Raka, Nadia, Dimas...?",
+    "ko": "어, 너희! Raka, Nadia, Dimas…?"
+   },
+   {
+    "num": 5,
+    "id": "Kenapa mereka semua di sini?",
+    "ko": "왜 얘네가 다 여기 있어?"
+   },
+   {
+    "num": 6,
+    "id": "Kebetulan sekali, ya.",
+    "ko": "우연치고 엄청나네."
+   },
+   {
+    "num": 7,
+    "id": "Aku tak mau nonton dengan lima orang.",
+    "ko": "난 다섯 명이랑 보기 싫어."
+   },
+   {
+    "num": 8,
+    "id": "Jadi... kita berdua saja?",
+    "ko": "그럼… 우리 둘만?"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_love_a4_grok.md",
+  "kick": "갑자기 친구들이 몰려와 당황하는 Ayu와, 결국 둘만 보자는 설렘"
+ }
+}

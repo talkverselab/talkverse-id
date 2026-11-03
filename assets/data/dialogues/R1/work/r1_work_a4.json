@@ -1,0 +1,169 @@
+{
+ "id": "r1_work_a4",
+ "island": "work",
+ "kind": "short",
+ "title": "사진 한 장",
+ "emoji": "📸",
+ "scene": "사무실 복사기 앞. Dimas 가 사장님께 보낼 보고서에 사진 한 장만 붙이라고 했는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Tolong …",
+  "dengan",
+  "kami",
+  "Baik, Pak"
+ ],
+ "keep": [
+  "dengan",
+  "kami",
+  "baik",
+  "tidak",
+  "sudah",
+  "lihat",
+  "meN-",
+  "ter-"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Tolong kirim laporan ini dengan satu foto.",
+   "rd": "똘롱 끼림 라뽀란 이니 등안 사뚜 포또.",
+   "ko": "이 보고서 사진 한 장 붙여서 보내 주세요.",
+   "note": "dengan = ~와 함께",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Baik, Pak. Foto yang mana sih?",
+   "rd": "바익, 빡. 포또 양 마나 시흐?",
+   "ko": "네, 어떤 사진이요?",
+   "note": "baik = 알겠다·좋다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Foto kantor kami aja dong. Jangan yang lain.",
+   "rd": "포또 깐또르 까미 아자 동. 장안 양 라인.",
+   "ko": "우리 사무실 사진만요. 다른 건 안 돼요.",
+   "note": "kami = 우리(듣는 사람 제외)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Sudah terkirim, Pak.",
+   "rd": "수다흐 뜨르끼림, 빡.",
+   "ko": "보냈어요.",
+   "note": "ter-kirim = 보내진",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kenapa Bapak Bos tertawa sampai pegang perut?",
+   "rd": "끄나빠 바빡 보스 뜨르따와 삼빠이 쁘강 쁘룻?",
+   "ko": "사장님이 왜 배를 잡고 웃으시지?",
+   "note": "ter-tawa = 웃다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Saya tidak tahu. Coba lihat dong.",
+   "rd": "사야 띠닥 따후. 쪼바 리핫 동.",
+   "ko": "모르겠어요. 한번 보세요.",
+   "note": "lihat = 보다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Ini foto kamu tidur di meja! Kok?",
+   "rd": "이니 포또 까무 띠두르 디 메자! 꼭?",
+   "ko": "이거 당신이 책상에서 자는 사진이잖아! 어떻게?",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Itu foto kantor kami juga, kan?",
+   "rd": "이뚜 포또 깐또르 까미 주가, 깐?",
+   "ko": "그것도 우리 사무실 사진이잖아요?",
+   "note": "kan = ~잖아",
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a4_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Tolong kirim laporan ini dengan satu foto.",
+    "ko": "이 보고서에 사진 한 장 붙여서 보내 주세요."
+   },
+   {
+    "num": 2,
+    "id": "Baik, Pak. Foto yang mana?",
+    "ko": "네, 알겠습니다. 어떤 사진이요?"
+   },
+   {
+    "num": 3,
+    "id": "Foto kantor kami. Jangan foto lain.",
+    "ko": "우리 사무실 사진요. 다른 사진은 안 돼요."
+   },
+   {
+    "num": 4,
+    "id": "Sudah terkirim, Pak.",
+    "ko": "보냈습니다."
+   },
+   {
+    "num": 5,
+    "id": "Kenapa Bapak Bos tertawa?",
+    "ko": "사장님이 왜 웃으시지?"
+   },
+   {
+    "num": 6,
+    "id": "Saya tidak tahu. Coba lihat.",
+    "ko": "모르겠어요. 한번 보세요."
+   },
+   {
+    "num": 7,
+    "id": "Ini foto kamu tidur di meja!",
+    "ko": "이거 당신이 책상에서 자는 사진이잖아!"
+   },
+   {
+    "num": 8,
+    "id": "Itu... foto kantor juga, kan?",
+    "ko": "그것도… 사무실 사진이긴 하잖아요?"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_work_a4_grok.md",
+  "kick": "책상 잠 사진이 사무실 사진으로 둔갑해 사장님이 배 잡고 웃고, 뻔뻔하게 받아치는 변명.",
+  "final": "tolong 뒤 명령형은 어근(mengirim→kirim), 5번 8단어·tertawa banget 어색"
+ }
+}
