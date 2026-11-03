@@ -99,9 +99,9 @@
   {
    "num": 7,
    "speaker": "B",
-   "id": "Bukan sakit, bodoh. Nontonlah!",
-   "rd": "부깐 사낏, 보도흐. 논똔라흐!",
-   "ko": "아픈 거 아니야, 바보. 봐!",
+   "id": "Bukan sakit, bodoh. Diamlah, nonton saja!",
+   "rd": "부깐 사낏, 보도흐. 디암라흐, 논똔 사자!",
+   "ko": "아픈 거 아니야, 바보야. 조용히 보기나 해!",
    "note": "-lah = (권유·강조)",
    "tags": [],
    "art": "assets/images/scenes/r1_love_a3_4.jpg"
@@ -147,6 +147,6 @@
   ],
   "grok_rewrite": "data/review/rewrite/r1_love_a3_grok.md",
   "kick": "심장 터진다는 말에 병원 가자고 하는 엉뚱한 반응과 바보 소리 듣는 심쿵",
-  "final": "재작성 그대로 반영(검수 통과)"
+  "final": "재작성 반영 + 7번 -lah 를 분석 가능한 형태로(nonton 은 구어 어근이라 사전 밖)"
  }
 }
