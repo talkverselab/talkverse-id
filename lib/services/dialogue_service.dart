@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'learner_prefs.dart';
@@ -153,11 +153,46 @@ class DialogueService {
         ));
       }
     } catch (_) {}
+    await _loadNew();
+  }
+
+  /// 고정 인물(data/review/uxui/CHARACTERS.md) 목소리 성별. A = 학습자 프로필.
+  static const _voice = {'Ayu': 'female', 'Raka': 'male', 'Bu Sri': 'female', 'Pak Darto': 'male', 'Nadia': 'female', 'Dimas': 'male', 'Kasir': 'female'};
+
+  /// 새 회화(일본어앱 구조): assets/data/dialogues/R<레벨>/<주제>/<편id>.json — 2026-11-03.
+  Future<void> _loadNew() async {
+    final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+    final paths = manifest.listAssets().where((p) => RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$').hasMatch(p)).toList()..sort();
+    for (final p in paths) {
+      try {
+        final m = json.decode(await rootBundle.loadString(p)) as Map<String, dynamic>;
+        final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
+        if (turns.isEmpty) continue;
+        final sp = ((m['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry(k.toString(), v.toString()));
+        _all.add(Dialogue(
+          id: m['id'] as String,
+          region: m['region'] as String? ?? 'R1',
+          island: m['island'] as String? ?? 'life',
+          title: m['title'] as String? ?? '',
+          emoji: m['emoji'] as String? ?? '💬',
+          scene: m['scene'] as String? ?? '',
+          speakers: sp,
+          genders: {for (final e in sp.entries) if (_voice.containsKey(e.value)) e.key: _voice[e.value]!},
+          expressions: (m['expressions'] as List?)?.cast<String>() ?? const [],
+          turns: turns,
+        ));
+      } catch (_) {}
+    }
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;
   List<Dialogue> get all => List.unmodifiable(_all);
-  List<String> get regions => _all.map((d) => d.region).toSet().toList();
+  /// 레벨 순서: R0~R4 먼저, 옛 이야기(L1)는 뒤.
+  List<String> get regions {
+    final r = _all.map((d) => d.region).toSet().toList();
+    r.sort((a, b) => (a.startsWith('R') ? a : 'Z$a').compareTo(b.startsWith('R') ? b : 'Z$b'));
+    return r;
+  }
 
   List<Dialogue> list({String? region, String? island}) =>
       _all.where((d) => (region == null || d.region == region) && (island == null || d.island == island)).toList();

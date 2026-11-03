@@ -1,0 +1,146 @@
+{
+ "id": "r1_study_a1",
+ "island": "study",
+ "kind": "short",
+ "title": "머리 말고 코코넛",
+ "emoji": "🥥",
+ "scene": "캠퍼스 매점에서 Nadia 가 음료를 사 준다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "study",
+  "friends"
+ ],
+ "expressions": [
+  "Makasih",
+  "Aku traktir",
+  "Maksudnya",
+  "tanpa"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Lo dari {country}? Bahasa Indonesia lo bagus banget!",
+   "rd": "로 다리 {country}? 바하사 인도느시아 로 바구스 방읏!",
+   "ko": "{country}에서 왔어? 인도네시아어 진짜 잘한다!",
+   "note": "bagus = 좋다·잘한다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Makasih! Gue belajar tiap hari.",
+   "rd": "마까시흐! 구에 블라자르 띠압 하리.",
+   "ko": "고마워! 나 매일 공부해.",
+   "note": "tiap hari = 매일",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Mau minum apa? Gue traktir dong.",
+   "rd": "마우 미눔 아빠? 구에 뜨락띠르 동.",
+   "ko": "뭐 마실래? 내가 살게.",
+   "note": "traktir = (밥·음료를) 사 주다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Gue mau es kepala muda deh!",
+   "rd": "구에 마우 에스 끄빨라 무다 데흐!",
+   "ko": "나 어린 머리 아이스 할래!",
+   "note": "kepala = 머리 ↔ kelapa = 코코넛",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kepala?! Hahaha! Kelapa dong!",
+   "rd": "끄빨라?! 하하하! 끌라빠 동!",
+   "ko": "머리?! 하하하! 코코넛이지!",
+   "note": "maksudnya = ~라는 뜻이지",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Iya, kelapa! Bukan kepala kok!",
+   "rd": "이야, 끌라빠! 부깐 끄빨라 꼭!",
+   "ko": "응, 코코넛! 머리 아니라니까!",
+   "note": "",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Oke, buat lo es kelapa muda... tanpa kepala.",
+   "rd": "오께, 부앗 로 에스 끌라빠 무다... 딴빠 끄빨라.",
+   "ko": "오케이, 너 줄 어린 코코넛 아이스... 머리는 빼고.",
+   "note": "tanpa = ~ 없이",
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a1_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kamu dari {country}? Bahasa Indonesia kamu bagus!",
+    "ko": "{country}에서 왔어? 인도네시아어 잘한다!"
+   },
+   {
+    "num": 2,
+    "id": "Makasih! Aku belajar tiap hari.",
+    "ko": "고마워! 매일 공부해."
+   },
+   {
+    "num": 3,
+    "id": "Mau minum apa? Aku traktir.",
+    "ko": "뭐 마실래? 내가 살게."
+   },
+   {
+    "num": 4,
+    "id": "Aku mau es kepala muda!",
+    "ko": "나 어린 머리 아이스!"
+   },
+   {
+    "num": 5,
+    "id": "Kepala?! Maksudnya kelapa, ya?",
+    "ko": "머리?! 코코넛 말하는 거지?"
+   },
+   {
+    "num": 6,
+    "id": "Iya, kelapa! Bukan kepala!",
+    "ko": "응, 코코넛! 머리 말고!"
+   },
+   {
+    "num": 7,
+    "id": "Oke. Satu es kelapa muda… tanpa kepala.",
+    "ko": "오케이. 어린 코코넛 아이스 하나… 머리는 빼고."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_study_a1_grok.md",
+  "kick": "머리-코코넛 말실수와 ㅋㅋ 받아치기, ‘머리는 빼고’ 펀치로 웃음 터지고 대접이 살짝 설렘.",
+  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "r1_survival_s1",
+ "island": "survival",
+ "kind": "survival",
+ "title": "조금만 맵게",
+ "emoji": "🌶️",
+ "scene": "와룽에서 나시고렝을 시키며 「조금만 맵게」라고 했는데, Bu Sri 의 「조금」은 차원이 달랐다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "survival"
+ ],
+ "domain": [
+  "life",
+  "travel"
+ ],
+ "expressions": [
+  "Mau pesan apa?",
+  "pedas sedikit",
+  "ya",
+  "Lho"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kak, mau pesan apa?",
+   "rd": "깍, 마우 쁘산 아빠?",
+   "ko": "손님, 뭐 주문할래요?",
+   "note": "Kak = 손님을 부르는 말(언니·오빠 둘 다)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Nasi goreng satu ya, Bu.",
+   "rd": "나시 고렝 사뚜 야, 부.",
+   "ko": "나시고렝 하나요, 아주머니.",
+   "note": "Bu = 아주머니·여사님(Ibu 줄임)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Pedas atau nggak, Kak?",
+   "rd": "뻬다스 아따우 응각, 깍?",
+   "ko": "맵게 할래요, 안 맵게 할래요?",
+   "note": "nggak = 아니(tidak 의 구어)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Sedikit aja deh, Bu.",
+   "rd": "스디낏 아자 데흐, 부.",
+   "ko": "조금만요, 아주머니.",
+   "note": "sedikit aja = 조금만",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Siap! Sedikit banget ya… eh, kebanyakan!",
+   "rd": "시압! 스디낏 방읏 야… 에, 끄바냐깐!",
+   "ko": "네! 아주 조금만… 어, 너무 많이 들어갔다!",
+   "note": "(삼발을 계속 붓는다) siap = 알겠어요",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Bu! Itu bukan sedikit!",
+   "rd": "부! 이뚜 부깐 스디낏!",
+   "ko": "아주머니! 그건 조금이 아니에요!",
+   "note": "bukan = (명사 부정) ~이 아니다",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Lho, ini sedikit buat orang sini.",
+   "rd": "로, 이니 스디낏 부앗 오랑 시니.",
+   "ko": "어머, 여기 사람한텐 이게 조금인데.",
+   "note": "Lho = 어머·어라(의외)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_4.jpg"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Es teh manis tiga dong.",
+   "rd": "에스 떼흐 마니스 띠가 동.",
+   "ko": "달달한 아이스티 세 잔 주세요.",
+   "note": "minta = 주세요(달라고 할 때)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_survival_s1_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Mau pesan apa, Kak?",
+    "ko": "뭐 주문할래요?"
+   },
+   {
+    "num": 2,
+    "id": "Nasi goreng satu, Bu.",
+    "ko": "나시고렝 하나요, 아주머니."
+   },
+   {
+    "num": 3,
+    "id": "Pedas atau nggak?",
+    "ko": "맵게? 아니면 안 맵게?"
+   },
+   {
+    "num": 4,
+    "id": "Pedas sedikit aja, ya.",
+    "ko": "조금만 맵게요."
+   },
+   {
+    "num": 5,
+    "id": "Siap! Sedikit… sedikit… sedikit…",
+    "ko": "네! 조금… 조금… 조금…"
+   },
+   {
+    "num": 6,
+    "id": "Bu! Itu bukan sedikit!",
+    "ko": "아주머니! 그건 조금이 아니에요!"
+   },
+   {
+    "num": 7,
+    "id": "Lho, ini sedikit buat orang sini.",
+    "ko": "어머, 여기 사람한텐 이게 조금인데."
+   },
+   {
+    "num": 8,
+    "id": "Minta es teh manis… tiga.",
+    "ko": "달달한 아이스티… 세 잔 주세요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_survival_s1_grok.md",
+  "kick": "‘조금’이라고 웃으며 확 많이 넣는 반전과, 입이 불타서 아이스티 세 잔을 시키는 과장된 받아치기.",
+  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+ }
+}

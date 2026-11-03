@@ -1,0 +1,136 @@
+{
+ "id": "r1_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "셀카 한 장",
+ "emoji": "🤳",
+ "scene": "Raka 와 공원에서 셀카를 찍는데 사람이 자꾸 늘어난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Ayo",
+  "Senyum",
+  "Siapa?",
+  "Satu lagi"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Yuk foto! Senyum lebar dong!",
+   "rd": "육 포또! 스늄 르바르 동!",
+   "ko": "자, 사진 찍자! 크게 웃어 봐!",
+   "note": "ayo = 자·하자(권유)",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Oke, satu dua tiga.",
+   "rd": "오께, 사뚜 두아 띠가.",
+   "ko": "오케이, 하나 둘 셋.",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Eh, bapak di belakang ikutan.",
+   "rd": "에, 바빡 디 블라깡 이꾸딴.",
+   "ko": "어, 뒤에 아저씨가 끼었어.",
+   "note": "ikut = 따라·같이",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Siapa sih orang itu?",
+   "rd": "시아빠 시흐 오랑 이뚜?",
+   "ko": "그 사람 누구야?",
+   "note": "siapa = 누구",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Nggak tau! Anjing sama seratus orang!",
+   "rd": "응각 따우! 안징 사마 스라뚜스 오랑!",
+   "ko": "몰라! 강아지에 백 명까지!",
+   "note": "anjing = 개",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kok semua orang datang?",
+   "rd": "꼭 스무아 오랑 다땅?",
+   "ko": "왜 다들 오는 거야?",
+   "note": "kenapa = 왜",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Kita jadi seleb deh!",
+   "rd": "끼따 자디 슬릅 데흐!",
+   "ko": "우리 갑자기 셀럽 됐어!",
+   "note": "minta = 달라고 하다",
+   "tags": []
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Ayo foto! Senyum!",
+    "ko": "사진 찍자! 웃어!"
+   },
+   {
+    "num": 2,
+    "id": "Oke. Satu, dua…",
+    "ko": "오케이. 하나, 둘…"
+   },
+   {
+    "num": 3,
+    "id": "Eh, ada bapak ikut senyum.",
+    "ko": "어, 아저씨 한 분도 같이 웃는데."
+   },
+   {
+    "num": 4,
+    "id": "Siapa dia?",
+    "ko": "그분 누구야?"
+   },
+   {
+    "num": 5,
+    "id": "Nggak tahu! Sekarang ada anjing juga!",
+    "ko": "몰라! 이제 강아지도 있어!"
+   },
+   {
+    "num": 6,
+    "id": "Kenapa semua orang datang?",
+    "ko": "왜 다들 오는 거야?"
+   },
+   {
+    "num": 7,
+    "id": "Satu lagi, ya. Bapaknya minta.",
+    "ko": "한 장만 더. 아저씨가 원하셔."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_friends_a1_grok.md",
+  "kick": "모르는 아저씨에 강아지와 백 명 단체까지 끼어들어 둘 다 셀럽이 된 줄 아는 황당 상황."
+ }
+}

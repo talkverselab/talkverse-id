@@ -1,0 +1,137 @@
+{
+ "id": "r1_travel_a2",
+ "island": "travel",
+ "kind": "short",
+ "title": "비옷",
+ "emoji": "🌧️",
+ "scene": "비가 쏟아지는 길, Pak Darto 의 오토바이 택시 뒷자리",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Hujan",
+  "Pakai ini",
+  "Hati-hati",
+  "Nggak usah"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Aduh, hujan deras banget!",
+   "rd": "아두흐, 후잔 드라스 방읏!",
+   "ko": "아, 비가 엄청 세게 오네!",
+   "note": "waduh = 아이고",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Pak, saya lupa bawa payung.",
+   "rd": "빡, 사야 루빠 바와 빠융.",
+   "ko": "아저씨, 저 우산 놓고 왔어요.",
+   "note": "payung = 우산",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Ini, pakai jas hujan saya.",
+   "rd": "이니, 빠까이 자스 후잔 사야.",
+   "ko": "자, 제 비옷 입어요.",
+   "note": "jas hujan = 비옷",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Terus Pak pakai apa dong?",
+   "rd": "뜨루스 빡 빠까이 아빠 동?",
+   "ko": "그럼 아저씨는 뭐 입어요?",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Bapak kayak bebek, biasa basah! Hehe.",
+   "rd": "바빡 까약 베벡, 비아사 바사흐! 헤헤.",
+   "ko": "아저씨는 오리 같아서 젖는 거 익숙해! 헤헤.",
+   "note": "basah = 젖다",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Pak… makasih banyak banget.",
+   "rd": "빡… 마까시흐 바냑 방읏.",
+   "ko": "아저씨… 정말 고마워요.",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Nggak usah. Bayar dua kali, ya!",
+   "rd": "응각 우사흐. 바야르 두아 깔리, 야!",
+   "ko": "됐어. 요금은 두 배야!",
+   "note": "nggak usah = 괜찮아·안 해도 돼",
+   "tags": []
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Waduh, hujan besar!",
+    "ko": "아이고, 비 엄청 오네!"
+   },
+   {
+    "num": 2,
+    "id": "Pak, saya nggak bawa payung.",
+    "ko": "아저씨, 저 우산 안 가져왔어요."
+   },
+   {
+    "num": 3,
+    "id": "Ini, pakai jas hujan Bapak.",
+    "ko": "자, 아저씨 비옷 입어요."
+   },
+   {
+    "num": 4,
+    "id": "Terus Bapak pakai apa?",
+    "ko": "그럼 아저씨는 뭐 입어요?"
+   },
+   {
+    "num": 5,
+    "id": "Bapak sudah biasa basah. Hehe.",
+    "ko": "아저씨는 젖는 거 익숙해. 헤헤."
+   },
+   {
+    "num": 6,
+    "id": "Pak… makasih banyak.",
+    "ko": "아저씨… 정말 고마워요."
+   },
+   {
+    "num": 7,
+    "id": "Nggak usah. Tapi bayar dua kali, ya!",
+    "ko": "됐어. 근데 요금은 두 배야!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_travel_a2_grok.md",
+  "kick": "오리처럼 젖는 게 익숙하다는 엉뚱한 반응과 젖은 값으로 요금 두 배라는 받아치기.",
+  "final": "최소 수정: 말로 하는 대사의 wkwk → hehe"
+ }
+}

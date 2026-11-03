@@ -1,0 +1,145 @@
+{
+ "id": "r1_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "토요일마다 온 이유",
+ "emoji": "☕",
+ "scene": "단골 카페, Ayu 가 먼저 옆자리에 앉으며 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "kosong?",
+  "Silakan",
+  "Makasih",
+  "kok"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kursinya kosong nggak, Kak?",
+   "rd": "꾸르시냐 꼬송 응각, 깍?",
+   "ko": "이 자리 비었어요?",
+   "note": "kosong = 비어 있다",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Iya, kosong. Silakan Kak.",
+   "rd": "이야, 꼬송. 실라깐 깍.",
+   "ko": "네, 비었어요. 앉으세요.",
+   "note": "silakan = 어서 ~하세요(권유)",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Makasih Kak. Sering ke sini?",
+   "rd": "마까시흐 깍. 스링 끄 시니?",
+   "ko": "고마워요. 여기 자주 와요?",
+   "note": "makasih = 고마워(terima kasih 줄임)",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Lumayan. Kopinya enak banget.",
+   "rd": "루마얀. 꼬삐냐 에낙 방읏.",
+   "ko": "꽤요. 커피가 정말 맛있어요.",
+   "note": "lumayan = 꽤·그럭저럭",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Tiap Sabtu saya ke sini... bukan karena kopi.",
+   "rd": "띠압 삽뚜 사야 끄 시니... 부깐 까르나 꼬삐.",
+   "ko": "매주 토요일 저 여기 오는데... 커피 때문은 아니에요.",
+   "note": "bukan karena = ~ 때문이 아니라",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Lho, terus karena apa dong?",
+   "rd": "로, 뜨루스 까르나 아빠 동?",
+   "ko": "어, 그럼 뭐 때문에요?",
+   "note": "terus = 그러면·그래서",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Hehe, kopinya enak juga kok.",
+   "rd": "헤헤, 꼬삐냐 에낙 주가 꼭.",
+   "ko": "헤헤, 커피도 맛있긴 해요.",
+   "note": "kok = (말끝) ~인걸·~거든",
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kursi ini kosong?",
+    "ko": "이 자리 비었어요?"
+   },
+   {
+    "num": 2,
+    "id": "Iya, kosong. Silakan.",
+    "ko": "네, 비었어요. 앉으세요."
+   },
+   {
+    "num": 3,
+    "id": "Makasih. Kamu sering ke sini?",
+    "ko": "고마워요. 여기 자주 와요?"
+   },
+   {
+    "num": 4,
+    "id": "Lumayan. Kopinya enak.",
+    "ko": "꽤요. 커피가 맛있어서."
+   },
+   {
+    "num": 5,
+    "id": "Aku datang tiap Sabtu… bukan karena kopi.",
+    "ko": "나 토요일마다 왔어요… 커피 때문은 아니고."
+   },
+   {
+    "num": 6,
+    "id": "Terus… karena apa?",
+    "ko": "그럼… 뭐 때문에요?"
+   },
+   {
+    "num": 7,
+    "id": "Hehe. Kopinya juga enak kok.",
+    "ko": "헤헤. 커피도 맛있긴 해요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_love_a1_grok.md",
+  "kick": "토요일마다 오는 이유가 커피가 아니라고 했다가 커피 맛있다고 살짝 빠지는 설렘 장난.",
+  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+ }
+}

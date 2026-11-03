@@ -1,0 +1,137 @@
+{
+ "id": "r1_life_a2",
+ "island": "life",
+ "kind": "short",
+ "title": "아무거나",
+ "emoji": "🍛",
+ "scene": "Bu Sri 의 와룽. 메뉴가 너무 많아 「아무거나요」라고 했더니",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "survival"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Apa saja",
+  "Habiskan",
+  "Kenyang",
+  "Enak"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Hari ini mau makan apa, Kak?",
+   "rd": "하리 이니 마우 마깐 아빠, 깍?",
+   "ko": "오늘은 뭐 먹을래요?",
+   "note": "hari ini = 오늘",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Apa aja, Bu. Semuanya enak kok.",
+   "rd": "아빠 아자, 부. 스무아냐 에낙 꼭.",
+   "ko": "아무거나요, 아주머니. 다 맛있어요.",
+   "note": "apa saja = 아무거나",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Oke deh, apa aja ya.",
+   "rd": "오께 데흐, 아빠 아자 야.",
+   "ko": "알겠어요, 아무거나요.",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Nih! Ayam ikan tahu tempe sayur telur semua!",
+   "rd": "니흐! 아얌 이깐 따후 뗌뻬 사유르 뜰루르 스무아!",
+   "ko": "여기요! 닭 생선 두부 템페 채소 달걀 다요!",
+   "note": "(접시가 계속 나온다)",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Bu! Ini buat sepuluh orang!",
+   "rd": "부! 이니 부앗 스뿔루흐 오랑!",
+   "ko": "아주머니! 이거 열 명분이에요!",
+   "note": "orang = 사람",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Kamu bilang apa aja. Habisin dong!",
+   "rd": "까무 빌랑 아빠 아자. 하비신 동!",
+   "ko": "아무거나라며. 다 먹어요!",
+   "note": "habiskan = 다 먹다",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Saya udah kenyang liat doang.",
+   "rd": "사야 우다흐 끄냥 리앗 도앙.",
+   "ko": "저 보기만 해도 배불러요.",
+   "note": "kenyang = 배부르다",
+   "tags": []
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Mau makan apa hari ini?",
+    "ko": "오늘은 뭐 먹을래요?"
+   },
+   {
+    "num": 2,
+    "id": "Apa saja, Bu. Semua enak.",
+    "ko": "아무거나요, 아주머니. 다 맛있어서요."
+   },
+   {
+    "num": 3,
+    "id": "Oke! Apa saja… ya.",
+    "ko": "오케이! 아무거나… 라."
+   },
+   {
+    "num": 4,
+    "id": "Ini ayam, ikan, tahu, tempe, sayur, telur…",
+    "ko": "닭, 생선, 두부, 템페, 채소, 달걀…"
+   },
+   {
+    "num": 5,
+    "id": "Bu! Ini buat sepuluh orang!",
+    "ko": "아주머니! 이거 열 명분이에요!"
+   },
+   {
+    "num": 6,
+    "id": "Kamu bilang apa saja. Habiskan, ya!",
+    "ko": "아무거나라며. 다 먹어요!"
+   },
+   {
+    "num": 7,
+    "id": "Saya… sudah kenyang lihat saja.",
+    "ko": "저… 보기만 해도 배불러요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_life_a2_grok.md",
+  "kick": "아무거나라고 했더니 한 상 가득 나와서 눈으로만 배부른 상황."
+ }
+}

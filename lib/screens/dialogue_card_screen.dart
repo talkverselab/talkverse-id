@@ -130,7 +130,7 @@ class _CardArt extends StatelessWidget {
           decoration: BoxDecoration(color: AppColors.washiDeep, border: Border.all(color: AppColors.line), borderRadius: BorderRadius.circular(18), boxShadow: kCardShadow),
           child: snap.data == null
               ? Center(child: Text(d.emoji, style: const TextStyle(fontSize: 72)))
-              : Image.network(snap.data!, fit: BoxFit.contain, errorBuilder: (_, _, _) => Center(child: Text(d.emoji, style: const TextStyle(fontSize: 72)))),
+              : artImage(snap.data!, fallback: () => Center(child: Text(d.emoji, style: const TextStyle(fontSize: 72)))),
         ),
       );
 }

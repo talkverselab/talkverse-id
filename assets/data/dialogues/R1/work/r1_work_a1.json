@@ -1,0 +1,151 @@
+{
+ "id": "r1_work_a1",
+ "island": "work",
+ "kind": "short",
+ "title": "아홉 시 회의",
+ "emoji": "🕘",
+ "scene": "회사 첫 주. Dimas 가 「내일 아홉 시 회의」라고 했는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Selamat pagi",
+  "jam sembilan",
+  "Lho",
+  "Nggak apa-apa"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Besok rapat jam sembilan ya.",
+   "rd": "베속 라빳 잠 슴빌란 야.",
+   "ko": "내일 아홉 시에 회의예요.",
+   "note": "rapat = 회의",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Siap, Pak Dimas.",
+   "rd": "시압, 빡 디마스.",
+   "ko": "네, 디마스 씨.",
+   "note": "Mas = (젊은 남자) ~씨·형",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Malam Pak! Saya udah siap.",
+   "rd": "말람 빡! 사야 우다흐 시압.",
+   "ko": "저녁이에요 디마스 씨! 준비됐어요.",
+   "note": "selamat malam = 저녁 인사",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Lho? Kamu di kantor jam sembilan malam?",
+   "rd": "로? 까무 디 깐또르 잠 슴빌란 말람?",
+   "ko": "어? 밤 아홉 시에 회사에 있어요?",
+   "note": "malam = 밤",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Kok rapatnya bukan sekarang, Pak? Saya siap banget!",
+   "rd": "꼭 라빳냐 부깐 스까랑, 빡? 사야 시압 방읏!",
+   "ko": "왜 회의가 지금이 아니에요 디마스 씨? 완전 준비됐는데!",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Jam sembilan pagi! Pulang tidur!",
+   "rd": "잠 슴빌란 빠기! 뿔랑 띠두르!",
+   "ko": "아침 아홉 시! 집에 가서 자!",
+   "note": "pagi = 아침",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Oke tapi saya bawa kopi dua.",
+   "rd": "오께 따삐 사야 바와 꼬삐 두아.",
+   "ko": "네 근데 커피 두 잔 사 왔어요.",
+   "note": "bawa = 가져오다",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Nggak apa-apa. Saya temani lima menit.",
+   "rd": "응각 아빠-아빠. 사야 뜨마니 리마 므닛.",
+   "ko": "괜찮아요. 오 분만 같이 있어 줄게요.",
+   "note": "temani = 함께 있어 주다",
+   "tags": []
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Besok rapat jam sembilan, ya.",
+    "ko": "내일 아홉 시에 회의예요."
+   },
+   {
+    "num": 2,
+    "id": "Siap, Mas Dimas.",
+    "ko": "알겠어요, 디마스 씨."
+   },
+   {
+    "num": 3,
+    "id": "Selamat malam! Saya sudah siap.",
+    "ko": "안녕하세요(저녁)! 준비됐어요."
+   },
+   {
+    "num": 4,
+    "id": "Lho? Kamu di kantor jam sembilan malam?",
+    "ko": "어? 밤 아홉 시에 회사에 있어요?"
+   },
+   {
+    "num": 5,
+    "id": "Rapatnya bukan sekarang?",
+    "ko": "회의 지금 아니에요?"
+   },
+   {
+    "num": 6,
+    "id": "Jam sembilan pagi! Pulang, tidur!",
+    "ko": "아침 아홉 시요! 집에 가서 자요!"
+   },
+   {
+    "num": 7,
+    "id": "Oke… tapi saya bawa kopi dua.",
+    "ko": "네… 근데 커피 두 잔 사 왔는데요."
+   },
+   {
+    "num": 8,
+    "id": "Nggak apa-apa. Saya temani lima menit.",
+    "ko": "괜찮아요. 오 분만 같이 있어 줄게요."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_work_a1_grok.md",
+  "kick": "밤 아홉 시에 완전 준비해서 나타난 학습자와 커피 두 잔 들고 온 반전, 디마스가 오 분 더 남으라고 붙잡는 설렘.",
+  "final": "최소 수정: 마지막 심쿵 줄(같이 있어 줄게) 되살림"
+ }
+}

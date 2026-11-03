@@ -1,0 +1,152 @@
+{
+ "id": "r1_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "네, 네, 네",
+ "emoji": "🛒",
+ "scene": "편의점 계산대. 물 한 병 사러 왔는데 점원이 묻는 말에 다 「네」라고 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Kasir"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "survival"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Mau pakai kantong?",
+  "Iya",
+  "Totalnya",
+  "cuma"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Mau kantong nggak, Kak?",
+   "rd": "마우 깐똥 응각, 깍?",
+   "ko": "봉투 필요하세요?",
+   "note": "pakai = 쓰다·사용하다",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Iya, Kak.",
+   "rd": "이야, 깍.",
+   "ko": "네.",
+   "note": "iya = 네(ya 보다 부드러움)",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Struknya mau diambil?",
+   "rd": "스뜨룩냐 마우 디암빌?",
+   "ko": "영수증도 드릴까요?",
+   "note": "struk = 영수증",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Iya, Kak.",
+   "rd": "이야, 깍.",
+   "ko": "네.",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Ada promo, beli satu gratis satu. Mau?",
+   "rd": "아다 쁘로모, 블리 사뚜 그라띠스 사뚜. 마우?",
+   "ko": "프로모 있어요, 하나 사면 하나 공짜. 하실래요?",
+   "note": "gratis = 무료",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Iya! Gratis banyak banget! Eh?",
+   "rd": "이야! 그라띠스 바냑 방읏! 에?",
+   "ko": "네! 공짜 완전 많이요! 어?",
+   "note": "",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Totalnya dua ratus ribu, Kak.",
+   "rd": "또딸냐 두아 라뚜스 리부, 깍.",
+   "ko": "총 20만 루피아예요.",
+   "note": "dua ratus ribu = 이십만",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Kok mahal? Air doang, Kak!",
+   "rd": "꼭 마할? 아이르 도앙, 깍!",
+   "ko": "왜 비싸요? 생수만 샀어요!",
+   "note": "air mineral = 생수",
+   "tags": []
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Mau pakai kantong?",
+    "ko": "봉투 필요하세요?"
+   },
+   {
+    "num": 2,
+    "id": "Iya.",
+    "ko": "네."
+   },
+   {
+    "num": 3,
+    "id": "Struknya mau?",
+    "ko": "영수증 드릴까요?"
+   },
+   {
+    "num": 4,
+    "id": "Iya.",
+    "ko": "네."
+   },
+   {
+    "num": 5,
+    "id": "Ada promo, beli satu gratis satu. Mau?",
+    "ko": "1+1 행사 있어요. 하실래요?"
+   },
+   {
+    "num": 6,
+    "id": "Iya… eh?",
+    "ko": "네… 어?"
+   },
+   {
+    "num": 7,
+    "id": "Totalnya dua ratus ribu, Kak.",
+    "ko": "총 20만 루피아입니다."
+   },
+   {
+    "num": 8,
+    "id": "Saya cuma beli air mineral!",
+    "ko": "저 생수만 샀는데요!"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_life_a1_grok.md",
+  "kick": "뭐든 네라고 했다가 공짜 잔뜩 달라더니 생수 한 병에 20만 나와서 당황하는 장면",
+  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+ }
+}

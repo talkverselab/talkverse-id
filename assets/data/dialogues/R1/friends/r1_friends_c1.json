@@ -1,0 +1,151 @@
+{
+ "id": "r1_friends_c1",
+ "island": "friends",
+ "kind": "chat",
+ "title": "음성 메시지",
+ "emoji": "🎤",
+ "scene": "Raka 와의 채팅. 음성 메시지를 보냈는데 엉뚱한 방으로 갔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "chat",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "jadi?",
+  "bro",
+  "HAH?!",
+  "udah"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Bro, nanti malem jadi dong?",
+   "rd": "브로, 난띠 말름 자디 동?",
+   "ko": "야, 오늘 밤 되는 거지?",
+   "note": "jadi = (약속이) 그대로 하다",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_1.jpg"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Jadi! Gue kirim pesan suara ya.",
+   "rd": "자디! 구에 끼림 쁘산 수아라 야.",
+   "ko": "되지! 음성 메시지 보낼게.",
+   "note": "pesan suara = 음성 메시지",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_1.jpg"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "🎤 (pesan suara 0:42)",
+   "rd": "🎤 (pesan suara 0:42)",
+   "ko": "🎤 (음성 메시지 0:42)",
+   "note": "",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_2.jpg"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Gila, itu masuk grup kantor!! Semua denger wkwk 😂",
+   "rd": "길라, 이뚜 마숙 그룹 깐또르!! 스무아 등으르 웍웍 😂",
+   "ko": "미쳤다, 그거 회사 단톡에 갔어!! 다들 들었어 ㅋㅋ 😂",
+   "note": "grup = 단톡방",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_2.jpg"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "HAH?! Gue nyanyi buat lo!",
+   "rd": "하?! 구에 냐니 부앗 로!",
+   "ko": "뭐?! 내가 너한테 노래한 건데!",
+   "note": "isinya = 그 내용",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_3.jpg"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Bos lo udah balas \"Suaranya bagus\" wkwk",
+   "rd": "보스 로 우다흐 발라스 \"수아라냐 바구스\" 웍웍",
+   "ko": "너네 사장님이 벌써 \"목소리 좋네\" 답했어 ㅋㅋ",
+   "note": "udah = 벌써(sudah 구어)",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_3.jpg"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Gue mau pindah negara deh.",
+   "rd": "구에 마우 삔다흐 느가라 데흐.",
+   "ko": "나 나라 옮기고 싶다.",
+   "note": "pindah = 옮기다·이사하다",
+   "tags": [],
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_friends_c1_4.jpg"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Bro, nanti malam jadi?",
+    "ko": "야, 오늘 밤 약속 그대로지?"
+   },
+   {
+    "num": 2,
+    "id": "Jadi! Aku kirim pesan suara, ya.",
+    "ko": "그대로지! 음성 메시지 보낼게."
+   },
+   {
+    "num": 3,
+    "id": "🎤 (pesan suara 0:42)",
+    "ko": "🎤 (음성 메시지 0:42)"
+   },
+   {
+    "num": 4,
+    "id": "Itu masuk grup kantor, bro 😂",
+    "ko": "그거 회사 단톡방에 갔어 😂"
+   },
+   {
+    "num": 5,
+    "id": "HAH?! Isinya aku nyanyi!",
+    "ko": "뭐?! 그거 내가 노래한 건데!"
+   },
+   {
+    "num": 6,
+    "id": "Bos kamu udah balas: \"Suaranya bagus.\"",
+    "ko": "너네 사장님이 벌써 답장했어: \"목소리 좋네.\""
+   },
+   {
+    "num": 7,
+    "id": "Aku mau pindah negara.",
+    "ko": "나 다른 나라로 이사 갈래."
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_friends_c1_grok.md",
+  "kick": "라카한테만 부르려던 노래가 회사 단톡에 가서 사장님한테 목소리 칭찬받은 황당 설렘",
+  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+ }
+}

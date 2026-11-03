@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart' show debugPrint;
+import 'package:flutter/widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// 단어 그림(talkverse.uk 공용 그림 저장소) — 2026-11-03.
@@ -12,6 +13,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 ///   → `{lang, level, count, base, items:[{id, rank, level, word, reading, ko, en, pos, key_1024, key_512}]}`
 /// - 그림 = `base + key` (512·1024 webp, 1년 캐시). 
 /// 매니페스트는 SharedPreferences 에 하루 캐시하고, 없으면 그림 없이 카드가 그대로 나온다(실패해도 화면은 멀쩡해야 한다).
+/// 그림 주소 → 위젯. `assets/` 로 시작하면 앱에 넣은 장면 컷(회화 그림 — 칸을 꽉 채움), 아니면 인터넷 단어 그림(잘리지 않게 [fit]).
+Widget artImage(String url, {BoxFit fit = BoxFit.contain, required Widget Function() fallback}) => url.startsWith('assets/')
+    ? Image.asset(url, fit: BoxFit.cover, errorBuilder: (_, _, _) => fallback())
+    : Image.network(url, fit: fit, errorBuilder: (_, _, _) => fallback());
+
 class ArtService {
   ArtService._();
   static final ArtService instance = ArtService._();

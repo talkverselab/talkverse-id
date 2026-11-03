@@ -1,0 +1,162 @@
+{
+ "id": "r1_love_c1",
+ "island": "love",
+ "kind": "chat",
+ "title": "하트 세 개",
+ "emoji": "💗",
+ "scene": "Ayu 와의 채팅. 「잘 자」에 하트를 보내려다 엉뚱한 방에 하트 세 개를 보냈다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "chat",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "friends"
+ ],
+ "expressions": [
+  "Udah tidur?",
+  "Belum",
+  "Kok",
+  "Mimpi indah"
+ ],
+ "region": "R1",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Udah bobok belum?",
+   "rd": "우다흐 보복 블룸?",
+   "ko": "벌써 잤어?",
+   "note": "udah = 벌써(sudah)",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Belum nih. Kamu?",
+   "rd": "블룸 니흐. 까무?",
+   "ko": "아직이야. 너는?",
+   "note": "belum = 아직 아니다",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Belum juga. Mimpi indah ya.",
+   "rd": "블룸 주가. 밈삐 인다흐 야.",
+   "ko": "나도 아직. 좋은 꿈 꿔.",
+   "note": "mimpi indah = 좋은 꿈",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "❤️❤️❤️",
+   "rd": "❤️❤️❤️",
+   "ko": "❤️❤️❤️",
+   "note": "",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kok sepi? Kamu kirim ke mana?",
+   "rd": "꼭 스삐? 까무 끼림 끄 마나?",
+   "ko": "왜 조용해? 어디로 보낸 거야?",
+   "note": "kok = 왜(의아함)",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Ke grup keluarga. Ibu udah balas.",
+   "rd": "끄 그룹 끌루아르가. 이부 우다흐 발라스.",
+   "ko": "가족 단톡방에. 엄마가 벌써 답장했어.",
+   "note": "keluarga = 가족",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Wkwk. Terus buat aku mana?",
+   "rd": "웍웍. 뜨루스 부앗 아꾸 마나?",
+   "ko": "ㅋㅋ. 그럼 내 건?",
+   "note": "mana = 어디(재촉)",
+   "tags": [],
+   "ui": "bubble"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "❤️",
+   "rd": "❤️",
+   "ko": "❤️",
+   "note": "",
+   "tags": [],
+   "ui": "bubble"
+  }
+ ],
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Udah tidur?",
+    "ko": "벌써 자?"
+   },
+   {
+    "num": 2,
+    "id": "Belum. Kamu?",
+    "ko": "아직. 너는?"
+   },
+   {
+    "num": 3,
+    "id": "Belum juga. Mimpi indah, ya.",
+    "ko": "나도 아직. 좋은 꿈 꿔."
+   },
+   {
+    "num": 4,
+    "id": "❤️❤️❤️",
+    "ko": "❤️❤️❤️"
+   },
+   {
+    "num": 5,
+    "id": "Kok sepi? Kamu kirim ke mana?",
+    "ko": "왜 조용해? 어디로 보낸 거야?"
+   },
+   {
+    "num": 6,
+    "id": "Ke grup keluarga… Ibu udah balas.",
+    "ko": "가족 단톡방에… 엄마가 벌써 답장했어."
+   },
+   {
+    "num": 7,
+    "id": "Hahaha. Terus buat aku mana?",
+    "ko": "하하하. 그럼 내 건?"
+   },
+   {
+    "num": 8,
+    "id": "❤️",
+    "ko": "❤️"
+   }
+  ],
+  "grok_rewrite": "data/review/rewrite/r1_love_c1_grok.md",
+  "kick": "엄마가 하트 세 개에 바로 답장한 황당함과 “내 건?” 하는 한 줄이 주는 설렘.",
+  "final": "최소 수정: 4번 「salah」가 5번 반전을 미리 터뜨려 하트만으로 되돌림"
+ }
+}

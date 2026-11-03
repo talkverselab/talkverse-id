@@ -476,7 +476,7 @@ class SceneCut extends StatelessWidget {
               if (p == null)
                 _SceneCard(dialogue: dialogue, turn: turn)
               else
-                Image.network(p.url, fit: BoxFit.contain, errorBuilder: (_, _, _) => _SceneCard(dialogue: dialogue, turn: turn)),
+                artImage(p.url, fallback: () => _SceneCard(dialogue: dialogue, turn: turn)),
               if (p?.word != null)
                 Positioned(
                   left: 10,

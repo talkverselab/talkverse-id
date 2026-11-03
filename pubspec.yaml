@@ -60,6 +60,14 @@ flutter:
     - assets/data/dialogues/id/_meta.json
     - assets/data/dialogues/id/L1.json
     - assets/data/dialogues/ms/_meta.json
+    - assets/images/scenes/
+    - assets/data/dialogues/R1/survival/
+    - assets/data/dialogues/R1/love/
+    - assets/data/dialogues/R1/travel/
+    - assets/data/dialogues/R1/friends/
+    - assets/data/dialogues/R1/life/
+    - assets/data/dialogues/R1/study/
+    - assets/data/dialogues/R1/work/
     - assets/data/grammar/affixes.json
     - assets/data/roots/kata_dasar_core.json
     - assets/data/freq/lang_id_top2500.csv
