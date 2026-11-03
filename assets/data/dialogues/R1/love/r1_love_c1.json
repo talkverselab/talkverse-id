@@ -39,7 +39,8 @@
    "ko": "벌써 잤어?",
    "note": "udah = 벌써(sudah)",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_1.jpg"
   },
   {
    "num": 2,
@@ -49,7 +50,8 @@
    "ko": "아직이야. 너는?",
    "note": "belum = 아직 아니다",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_1.jpg"
   },
   {
    "num": 3,
@@ -59,7 +61,8 @@
    "ko": "나도 아직. 좋은 꿈 꿔.",
    "note": "mimpi indah = 좋은 꿈",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_2.jpg"
   },
   {
    "num": 4,
@@ -69,7 +72,8 @@
    "ko": "❤️❤️❤️",
    "note": "",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_2.jpg"
   },
   {
    "num": 5,
@@ -79,7 +83,8 @@
    "ko": "왜 조용해? 어디로 보낸 거야?",
    "note": "kok = 왜(의아함)",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_3.jpg"
   },
   {
    "num": 6,
@@ -89,7 +94,8 @@
    "ko": "가족 단톡방에. 엄마가 벌써 답장했어.",
    "note": "keluarga = 가족",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_3.jpg"
   },
   {
    "num": 7,
@@ -99,7 +105,8 @@
    "ko": "ㅋㅋ. 그럼 내 건?",
    "note": "mana = 어디(재촉)",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_4.jpg"
   },
   {
    "num": 8,
@@ -109,7 +116,8 @@
    "ko": "❤️",
    "note": "",
    "tags": [],
-   "ui": "bubble"
+   "ui": "bubble",
+   "art": "assets/images/scenes/r1_love_c1_4.jpg"
   }
  ],
  "review": {

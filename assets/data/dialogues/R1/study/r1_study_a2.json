@@ -39,7 +39,8 @@
    "rd": "스스스뜨, 디음. 쁘르뿌스 니흐.",
    "ko": "쉿, 조용히. 도서관이잖아.",
    "note": "perpustakaan = 도서관",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_1.jpg"
   },
   {
    "num": 2,
@@ -48,7 +49,8 @@
    "rd": "이야, 마아프... 하... 하찌흐!",
    "ko": "응, 미안... 하... 에취!",
    "note": "maaf = 미안",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_1.jpg"
   },
   {
    "num": 3,
@@ -57,7 +59,8 @@
    "rd": "와, 끼따 자디 똔또난 데흐!",
    "ko": "와, 우리가 구경거리가 됐어!",
    "note": "lihat = 보다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_2.jpg"
   },
   {
    "num": 4,
@@ -66,7 +69,8 @@
    "rd": "아두흐, 아꾸 말루 방읏, 쁭은 까부르!",
    "ko": "아이고, 나 진짜 창피해서 도망가고 싶어!",
    "note": "malu = 창피하다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_2.jpg"
   },
   {
    "num": 5,
@@ -75,7 +79,8 @@
    "rd": "까무 루쭈 방읏 깔라우 말루.",
    "ko": "너 창피할 때 진짜 귀엽다.",
    "note": "lucu = 귀엽다·웃기다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_3.jpg"
   },
   {
    "num": 6,
@@ -84,7 +89,8 @@
    "rd": "하? 까무 빌랑 아빠 시흐?",
    "ko": "어? 뭐라고 한 거야?",
    "note": "",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_3.jpg"
   },
   {
    "num": 7,
@@ -93,7 +99,8 @@
    "rd": "스스스뜨. 쁘르뿌스, 잉앗 동.",
    "ko": "쉿. 도서관, 기억해.",
    "note": "(콜백 — 첫 줄을 되돌려준다)",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_study_a2_4.jpg"
   }
  ],
  "review": {

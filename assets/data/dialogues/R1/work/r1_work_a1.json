@@ -35,7 +35,8 @@
    "rd": "베속 라빳 잠 슴빌란 야.",
    "ko": "내일 아홉 시에 회의예요.",
    "note": "rapat = 회의",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_1.jpg"
   },
   {
    "num": 2,
@@ -44,7 +45,8 @@
    "rd": "시압, 빡 디마스.",
    "ko": "네, 디마스 씨.",
    "note": "Mas = (젊은 남자) ~씨·형",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_1.jpg"
   },
   {
    "num": 3,
@@ -53,7 +55,8 @@
    "rd": "말람 빡! 사야 우다흐 시압.",
    "ko": "저녁이에요 디마스 씨! 준비됐어요.",
    "note": "selamat malam = 저녁 인사",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_2.jpg"
   },
   {
    "num": 4,
@@ -62,7 +65,8 @@
    "rd": "로? 까무 디 깐또르 잠 슴빌란 말람?",
    "ko": "어? 밤 아홉 시에 회사에 있어요?",
    "note": "malam = 밤",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_2.jpg"
   },
   {
    "num": 5,
@@ -71,7 +75,8 @@
    "rd": "꼭 라빳냐 부깐 스까랑, 빡? 사야 시압 방읏!",
    "ko": "왜 회의가 지금이 아니에요 디마스 씨? 완전 준비됐는데!",
    "note": "",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_3.jpg"
   },
   {
    "num": 6,
@@ -80,7 +85,8 @@
    "rd": "잠 슴빌란 빠기! 뿔랑 띠두르!",
    "ko": "아침 아홉 시! 집에 가서 자!",
    "note": "pagi = 아침",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_3.jpg"
   },
   {
    "num": 7,
@@ -89,7 +95,8 @@
    "rd": "오께 따삐 사야 바와 꼬삐 두아.",
    "ko": "네 근데 커피 두 잔 사 왔어요.",
    "note": "bawa = 가져오다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_4.jpg"
   },
   {
    "num": 8,
@@ -98,7 +105,8 @@
    "rd": "응각 아빠-아빠. 사야 뜨마니 리마 므닛.",
    "ko": "괜찮아요. 오 분만 같이 있어 줄게요.",
    "note": "temani = 함께 있어 주다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_work_a1_4.jpg"
   }
  ],
  "review": {

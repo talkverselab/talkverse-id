@@ -38,7 +38,8 @@
    "rd": "꾸르시냐 꼬송 응각, 깍?",
    "ko": "이 자리 비었어요?",
    "note": "kosong = 비어 있다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_1.jpg"
   },
   {
    "num": 2,
@@ -47,7 +48,8 @@
    "rd": "이야, 꼬송. 실라깐 깍.",
    "ko": "네, 비었어요. 앉으세요.",
    "note": "silakan = 어서 ~하세요(권유)",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_love_a1_1.jpg"
   },
   {
    "num": 3,

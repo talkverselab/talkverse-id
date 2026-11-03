@@ -35,7 +35,8 @@
    "rd": "아두흐, 후잔 드라스 방읏!",
    "ko": "아, 비가 엄청 세게 오네!",
    "note": "waduh = 아이고",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_1.jpg"
   },
   {
    "num": 2,
@@ -44,7 +45,8 @@
    "rd": "빡, 사야 루빠 바와 빠융.",
    "ko": "아저씨, 저 우산 놓고 왔어요.",
    "note": "payung = 우산",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_1.jpg"
   },
   {
    "num": 3,
@@ -53,7 +55,8 @@
    "rd": "이니, 빠까이 자스 후잔 사야.",
    "ko": "자, 제 비옷 입어요.",
    "note": "jas hujan = 비옷",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_2.jpg"
   },
   {
    "num": 4,
@@ -62,7 +65,8 @@
    "rd": "뜨루스 빡 빠까이 아빠 동?",
    "ko": "그럼 아저씨는 뭐 입어요?",
    "note": "",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_2.jpg"
   },
   {
    "num": 5,
@@ -71,7 +75,8 @@
    "rd": "바빡 까약 베벡, 비아사 바사흐! 헤헤.",
    "ko": "아저씨는 오리 같아서 젖는 거 익숙해! 헤헤.",
    "note": "basah = 젖다",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_3.jpg"
   },
   {
    "num": 6,
@@ -80,7 +85,8 @@
    "rd": "빡… 마까시흐 바냑 방읏.",
    "ko": "아저씨… 정말 고마워요.",
    "note": "",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_3.jpg"
   },
   {
    "num": 7,
@@ -89,7 +95,8 @@
    "rd": "응각 우사흐. 바야르 두아 깔리, 야!",
    "ko": "됐어. 요금은 두 배야!",
    "note": "nggak usah = 괜찮아·안 해도 돼",
-   "tags": []
+   "tags": [],
+   "art": "assets/images/scenes/r1_travel_a2_4.jpg"
   }
  ],
  "review": {

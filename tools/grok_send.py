@@ -12,6 +12,7 @@ a = sys.argv[1:]
 src, dst = a[0], a[1]
 frag = a[a.index('--tab') + 1] if '--tab' in a else 'project/b1727d84'
 wait = int(a[a.index('--wait') + 1]) if '--wait' in a else 300
+model = a[a.index('--model') + 1] if '--model' in a else '전문가'  # 장면 그림은 「빠른」 — 「전문가」는 그림을 대화가 아니라 프로젝트 파일(imagine_images)에 넣어 컷을 캡처할 수 없다(2026-11-03)
 attach = [x for x in a[a.index('--attach') + 1].split(',') if x] if '--attach' in a else []  # 첨부 파일(쉼표 구분, 절대경로) — input[type=file] 에 DOM.setFileInputFiles
 LIMIT_RE = re.compile(r'(한도|limit|제한|rate|너무 많|사용량|초기화|다시 시도|try again|upgrade|SuperGrok)', re.I)
 TIME_RE = re.compile(r'(\d{1,2}):(\d{2})')
@@ -25,24 +26,26 @@ def answers(c):
 c = g.CDP(g.tab(frag)); c.call('Page.bringToFront')
 
 
-def ensure_expert(c):
-    """모델을 「전문가」로(사용자 지시 2026-11-03 — 「빠른」은 그림 한도가 금방 찬다). 새 대화마다 「빠른」으로 돌아갈 수 있다."""
+def ensure_model(c, name):
+    """모델을 name 으로(기본 「전문가」 — 사용자 지시 2026-11-03). 창이 뒤에 있으면 메뉴가 안 열려 포커스 에뮬레이션을 켠다."""
     import json as _j
     lab = c.ev("(document.getElementById('model-select-trigger')||{getAttribute:()=>''}).getAttribute('aria-label')") or ''
-    if '전문가' in lab or not lab:
+    if name in lab or not lab:
         return
+    c.call('Emulation.setFocusEmulationEnabled', enabled=True)
     def click(x, y):
+        c.call('Input.dispatchMouseEvent', type='mouseMoved', x=x, y=y)
         for t in ('mousePressed', 'mouseReleased'):
-            c.call('Input.dispatchMouseEvent', type=t, x=x, y=y, button='left', clickCount=1)
+            c.call('Input.dispatchMouseEvent', type=t, x=x, y=y, button='left', clickCount=1, buttons=1)
     r = _j.loads(c.ev("JSON.stringify(document.getElementById('model-select-trigger').getBoundingClientRect())"))
     click(r['x'] + r['width'] / 2, r['y'] + r['height'] / 2); time.sleep(2)
-    pos = c.ev("(()=>{const e=[...document.querySelectorAll('[role=menuitem],[role=menuitemradio],[role=option]')].find(e=>e.innerText.trim().startsWith('전문가'));if(!e)return null;const b=e.getBoundingClientRect();return JSON.stringify({x:b.x+b.width/2,y:b.y+b.height/2})})()")
+    pos = c.ev("(()=>{const e=[...document.querySelectorAll('[role=menuitem],[role=menuitemradio],[role=option]')].find(e=>e.innerText.trim().startsWith('"+name+"'));if(!e)return null;const b=e.getBoundingClientRect();return JSON.stringify({x:b.x+b.width/2,y:b.y+b.height/2})})()")
     if pos:
         p = _j.loads(pos); click(p['x'], p['y']); time.sleep(2)
     print('model:', c.ev("document.getElementById('model-select-trigger').getAttribute('aria-label')"))
 
 
-ensure_expert(c)
+ensure_model(c, model)
 _els0 = answers(c); last_answer = _els0[-1] if _els0 else ''
 text = open(src, encoding='utf-8').read().strip()
 if c.ev("document.querySelector('.ProseMirror')") is None:

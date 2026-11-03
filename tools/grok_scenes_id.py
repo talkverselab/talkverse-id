@@ -78,6 +78,27 @@ def _grok():
     return g
 
 
+def _wait(g, ep, want_n):
+    """그림 want_n 장이 다 나올 때까지 기다린다. 빈 답이면 같은 대화에서 한 번 재촉."""
+    nudged = False
+    for i in range(60):
+        c = g.CDP(g.tab('grok.com'))
+        busy = c.ev("document.body.innerText.includes('이미지 생성 중')||document.body.innerText.includes('작업 중')||!![...document.querySelectorAll('button')].find(e=>(e.getAttribute('aria-label')||'')==='응답 중지')")
+        n = c.ev("[...document.querySelectorAll('img')].filter(i=>i.src.includes('generated')).length")
+        if not busy and n >= want_n:
+            break
+        if not busy and n == 0 and i >= 4 and not nudged:
+            # 「빠른」이 그림 없이 빈 답을 낼 때가 있다(2026-11-03 두 번) — 같은 대화에서 한 번 재촉
+            chat = c.ev("new URLSearchParams(location.search).get('chat')") or ''
+            q = os.path.join(OUTDIR, ep['id'] + '_redo_nudge.md')
+            open(q, 'w', encoding='utf-8').write(f"답이 비어 있어요. 위 설명대로 그림 {want_n}장을 지금 그려 주세요.")
+            subprocess.run(['/usr/bin/python3', os.path.join(ROOT, 'tools/grok_send.py'), q, q + '.ans', '--tab', 'chat=' + chat[:8],
+                            '--wait', '30', '--model', '빠른'], capture_output=True, text=True)
+            nudged = True
+        time.sleep(15)
+    return c, n
+
+
 def cmd_send(path):
     ep, p = cmd_prompt(path)
     n_cuts = len(pairs(ep))
@@ -88,31 +109,75 @@ def cmd_send(path):
     c.call('Page.navigate', url=f'https://grok.com/project/{PROJECT}')
     time.sleep(7)
     subprocess.run(['/usr/bin/python3', os.path.join(ROOT, 'tools/grok_send.py'), p, os.path.join(OUTDIR, ep['id'] + '_answer.md'),
-                    '--tab', f'project/{PROJECT[:8]}', '--wait', '30', '--attach', f'{M4_ATT}/char_id_03_sheet.jpg'], capture_output=True, text=True)
-    # 그림이 다 나올 때까지 기다린다
-    for _ in range(60):
-        c = g.CDP(g.tab('grok.com'))
-        busy = c.ev("document.body.innerText.includes('이미지 생성 중')||document.body.innerText.includes('작업 중')||!![...document.querySelectorAll('button')].find(e=>(e.getAttribute('aria-label')||'')==='응답 중지')")
-        n = c.ev("[...document.querySelectorAll('img')].filter(i=>i.src.includes('generated')).length")
-        if not busy and n >= n_cuts:
-            break
-        time.sleep(15)
+                    '--tab', f'project/{PROJECT[:8]}', '--wait', '30', '--model', '빠른', '--attach', f'{M4_ATT}/char_id_03_sheet.jpg'], capture_output=True, text=True)
+    c, n = _wait(g, ep, n_cuts)
     c.call('Page.bringToFront')
+    saved = len(_capture(c, ep, list(range(1, min(n, n_cuts) + 1)), max(0, n - n_cuts)))
+    print(f"{ep['id']}: 컷 {saved}/{n_cuts} 저장")
+
+
+def _capture(c, ep, cut_nums, offset):
+    """화면의 generated 그림 중 offset 번째부터 차례로 cut_nums 번 컷 파일로 저장."""
     J = "(()=>{{const im=[...document.querySelectorAll('img')].filter(i=>i.src.includes('generated'))[{k}]; const b=im.getBoundingClientRect(); return JSON.stringify({{x:b.x,y:b.y,w:b.width,h:b.height,nw:im.naturalWidth,vh:innerHeight}})}})()"
-    saved = 0
-    for k in range(n):
-        c.ev(PLACE.format(k=k))
-        for _ in range(8):
+    c.call('Input.dispatchMouseEvent', type='mouseMoved', x=5, y=5)  # 그림 위 떠 있는 단추(동영상·내려받기)가 찍히지 않게
+    saved = []
+    for i, cut in enumerate(cut_nums):
+        k = offset + i
+        for _ in range(12):
+            if _ % 4 == 0:
+                c.ev(PLACE.format(k=k))
             time.sleep(2)
             a = json.loads(c.ev(J.format(k=k)))
             shot = c.call('Page.captureScreenshot', format='jpeg', quality=92,
                           clip={'x': a['x'], 'y': a['y'], 'width': a['w'], 'height': a['h'], 'scale': a['nw'] / a['w']})
             b = json.loads(c.ev(J.format(k=k)))
             if abs(a['y'] - b['y']) < 0.5 and a['y'] >= OK_TOP and a['y'] + a['h'] <= a['vh'] - OK_BOTTOM:
-                open(os.path.join(OUTDIR, f"{ep['id']}_{k + 1}.jpg"), 'wb').write(base64.b64decode(shot['data']))
-                saved += 1
+                open(os.path.join(OUTDIR, f"{ep['id']}_{cut}.jpg"), 'wb').write(base64.b64decode(shot['data']))
+                saved.append(cut)
                 break
-    print(f"{ep['id']}: 컷 {saved}/{n_cuts} 저장")
+    return saved
+
+
+def cmd_redo(path, cuts, extra):
+    """검수에서 걸린 컷만 새 대화에서 다시 그린다. 시트 + 같은 편의 통과 컷 1장을 장소·차림 기준으로 첨부.
+    python3 tools/grok_scenes_id.py redo <편.json> 3,4 "고칠 점"   (기준 컷 = 다시 그리지 않는 컷 중 첫 번째)"""
+    ep = json.load(open(path, encoding='utf-8'))
+    want = [int(x) for x in cuts.split(',')]
+    allc = list(range(1, len(pairs(ep)) + 1))
+    keep = [k for k in allc if k not in want and os.path.exists(os.path.join(OUTDIR, f"{ep['id']}_{k}.jpg"))]
+    adesc, bdesc = cast_of(ep)
+    lines = []
+    for k in want:
+        pr = pairs(ep)[k - 1]
+        lines.append(f"컷 {k}. " + ' / '.join(f"{x['speaker']}: {x['ko']}" for x in pr))
+    ref = f"두 번째 첨부 = 이 편의 {keep[0]}번 컷(이미 통과) — **장소·조명·인물 차림을 이 컷과 똑같이**." if keep else ''
+    text = f"""[ID-SCENE-REDO {ep['id']}] 첫 번째 첨부 = 캐릭터 시트(펠트·점토 인형). {ref}
+아래 컷 **{len(want)}장**만 다시 그려 주세요(컷마다 그림 1장, 가로 4:3, 글자·말풍선 없음).
+화풍: **시트와 같은 펠트·점토 인형**(실사·사진풍 금지), 파스텔·따뜻한 조명.
+장면: {ep['scene']}
+인물: A = {adesc}, B = {bdesc}. **얼굴(눈 모양·크기 포함)·머리·옷은 시트와 똑같이** — 옷을 바꾸거나 겉옷을 더하지 말 것.
+{'채팅 장면: 좌우 분할 화면, 각자 자기 방에서 휴대폰. 한 공간에 둘이 있으면 안 됨.' + chr(10) if ep.get('kind') == 'chat' else ''}고칠 점: {extra}
+
+""" + '\n'.join(lines) + f"\n\n그림 {len(want)}장만, 설명은 \"그림 {len(want)}장 완료\" 한 줄."
+    p = os.path.join(OUTDIR, ep['id'] + '_redo_prompt.md')
+    open(p, 'w', encoding='utf-8').write(text)
+    att = [SHEET] + ([os.path.join(OUTDIR, f"{ep['id']}_{keep[0]}.jpg")] if keep else [])
+    subprocess.run(['ssh', 'macmini4', f'mkdir -p {M4_ATT}'], check=True)
+    remote = []
+    for f in att:
+        subprocess.run(['scp', '-q', f, f'macmini4:{M4_ATT}/{os.path.basename(f)}'], check=True)
+        remote.append(f'{M4_ATT}/{os.path.basename(f)}')
+    g = _grok()
+    c = g.CDP(g.tab('grok.com'))
+    c.call('Page.navigate', url=f'https://grok.com/project/{PROJECT}')
+    time.sleep(7)
+    subprocess.run(['/usr/bin/python3', os.path.join(ROOT, 'tools/grok_send.py'), p, os.path.join(OUTDIR, ep['id'] + '_redo_answer.md'),
+                    '--tab', f'project/{PROJECT[:8]}', '--wait', '30', '--model', '빠른', '--attach', ','.join(remote)], capture_output=True, text=True)
+    c, n = _wait(g, ep, len(want))
+    c.call('Page.bringToFront')
+    # 재촉 뒤에는 빈 답 자리의 그림까지 겹쳐 나올 수 있어 마지막 len(want) 장을 쓴다 — 검수에서 확인
+    saved = _capture(c, ep, want, n - len(want))
+    print(f"{ep['id']}: 다시 그린 컷 {saved} 저장 (요청 {want}, 그림 {n})")
 
 
 def cmd_recapture(path, chat, which):
@@ -137,6 +202,9 @@ def cmd_recapture(path, chat, which):
 
 
 if __name__ == '__main__':
+    if sys.argv[1] == 'redo':
+        cmd_redo(*sys.argv[2:5])
+        sys.exit()
     if sys.argv[1] == 'recapture':
         cmd_recapture(*sys.argv[2:5])
         sys.exit()

@@ -23,6 +23,8 @@ for path in sys.argv[1:]:
         if not os.path.exists(src):
             continue
         im = Image.open(src).convert('RGB')
+        d = round(im.width * 0.025)  # Grok 화면 캡처의 둥근 모서리(흰 귀퉁이)를 잘라낸다
+        im = im.crop((d, d, im.width - d, im.height - d))
         im = im.resize((900, round(im.height * 900 / im.width)), Image.LANCZOS)
         rel = f"assets/images/scenes/{ep['id']}_{k}.jpg"
         im.save(os.path.join(ROOT, rel), quality=82, optimize=True)
