@@ -71,6 +71,7 @@ flutter:
     - assets/data/dialogues/R1/work/
     - assets/data/grammar/affixes.json
     - assets/data/roots/kata_dasar_core.json
+    - assets/data/roots/kata_conv.json
     - assets/data/freq/lang_id_top2500.csv
     - assets/data/variants/id_ms_diff.json
     - assets/audio/roots/

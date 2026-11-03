@@ -20,13 +20,13 @@ analyze = ns['analyze']
 FUNC = set('''yang dan atau tapi tetapi karena kalau jika sama dengan di ke dari pada untuk buat oleh dalam antara sampai hingga
 seperti bagai sebagai tentang bahwa agar supaya biar walau meski meskipun lalu terus kemudian juga pun saja aja hanya cuma
 itu ini sini situ sana begini begitu aku saya kamu kau engkau dia ia kita kami kalian mereka anda gue gua lo lu elo
-dong sih kok ya yah deh kan nih tuh loh lho wah wow hah eh oh ah aduh waduh hai halo nah ayo yuk lah kah pun tah ha haha wkwk
+dong sih kok ya yah deh kan nih tuh loh lho wah wow hah eh oh ah aduh waduh hai halo nah ayo yuk lah kah pun tah ha haha hahaha hehe ssst wkwk
 pak bu bapak ibu mas mbak kak dik om tante bang neng nya ku mu'''.split())
 NAMES = set('raka nadia dimas ayu sri budi sari mark mina rina andi joko putri dewi'.split())
 VAR = re.compile(r'\{[a-z_]+\}')
 WORD = re.compile(r"[A-Za-z]+(?:-[A-Za-z]+)*")
 
-roots = {r['root'] for r in json.load(open(ROOT / 'assets/data/roots/kata_dasar_core.json', encoding='utf-8'))['roots']}
+roots = {r['root'] for f in ('kata_dasar_core', 'kata_conv') for r in json.load(open(ROOT / f'assets/data/roots/{f}.json', encoding='utf-8'))['roots']}
 miss = Counter(); ex = {}; tot = hit = 0; changed = 0
 for f in sorted(glob.glob(str(ROOT / 'assets/data/dialogues/R*/*/*.json'))):
     d = json.load(open(f, encoding='utf-8')); ch = False

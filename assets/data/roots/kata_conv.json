@@ -1,0 +1,1163 @@
+{
+ "note": "회화 낱말(문장 레마 칩용, 2026-11-04 uk 세션 제작) — 어근 core 목록에는 나오지 않는다(phase 없음)",
+ "roots": [
+  {
+   "root": "banget",
+   "pos": "adv",
+   "ko": "매우·진짜",
+   "rd": "방엣"
+  },
+  {
+   "root": "nggak",
+   "pos": "adv",
+   "ko": "아니다 · ~않다 (=tidak)",
+   "rd": "응각"
+  },
+  {
+   "root": "bilang",
+   "pos": "v",
+   "ko": "말하다·~라고 하다",
+   "rd": "빌랑"
+  },
+  {
+   "root": "semua",
+   "pos": "pron",
+   "ko": "모두·전부",
+   "rd": "스무아"
+  },
+  {
+   "root": "udah",
+   "pos": "adv",
+   "ko": "이미 (=sudah)",
+   "rd": "우다"
+  },
+  {
+   "root": "iya",
+   "pos": "int",
+   "ko": "응·네",
+   "rd": "이야"
+  },
+  {
+   "root": "bagus",
+   "pos": "adj",
+   "ko": "좋다·훌륭하다",
+   "rd": "바구스"
+  },
+  {
+   "root": "sudah",
+   "pos": "adv",
+   "ko": "이미·~했다",
+   "rd": "수다"
+  },
+  {
+   "root": "dua",
+   "pos": "num",
+   "ko": "둘",
+   "rd": "두아"
+  },
+  {
+   "root": "kopi",
+   "pos": "n",
+   "ko": "커피",
+   "rd": "코피"
+  },
+  {
+   "root": "besok",
+   "pos": "adv",
+   "ko": "내일",
+   "rd": "베속"
+  },
+  {
+   "root": "orang",
+   "pos": "n",
+   "ko": "사람",
+   "rd": "오랑"
+  },
+  {
+   "root": "belum",
+   "pos": "adv",
+   "ko": "아직 ~않다",
+   "rd": "블룸"
+  },
+  {
+   "root": "bukan",
+   "pos": "adv",
+   "ko": "~이 아니다",
+   "rd": "부칸"
+  },
+  {
+   "root": "tidak",
+   "pos": "adv",
+   "ko": "아니다·~않다",
+   "rd": "티닥"
+  },
+  {
+   "root": "foto",
+   "pos": "n",
+   "ko": "사진",
+   "rd": "포토"
+  },
+  {
+   "root": "oke",
+   "pos": "int",
+   "ko": "좋아·오케이",
+   "rd": "오케"
+  },
+  {
+   "root": "kenapa",
+   "pos": "pron",
+   "ko": "왜",
+   "rd": "크나파"
+  },
+  {
+   "root": "mana",
+   "pos": "pron",
+   "ko": "어디·어느",
+   "rd": "마나"
+  },
+  {
+   "root": "punya",
+   "pos": "v",
+   "ko": "가지다·~의 것",
+   "rd": "푸냐"
+  },
+  {
+   "root": "sendiri",
+   "pos": "adv",
+   "ko": "혼자·스스로",
+   "rd": "슨디리"
+  },
+  {
+   "root": "kantor",
+   "pos": "n",
+   "ko": "사무실",
+   "rd": "칸토르"
+  },
+  {
+   "root": "lima",
+   "pos": "num",
+   "ko": "다섯",
+   "rd": "리마"
+  },
+  {
+   "root": "kasih",
+   "pos": "v",
+   "ko": "주다·사랑",
+   "rd": "카시"
+  },
+  {
+   "root": "siapa",
+   "pos": "pron",
+   "ko": "누구",
+   "rd": "시아파"
+  },
+  {
+   "root": "dulu",
+   "pos": "adv",
+   "ko": "먼저·예전에",
+   "rd": "둘루"
+  },
+  {
+   "root": "harus",
+   "pos": "v",
+   "ko": "~해야 한다",
+   "rd": "하루스"
+  },
+  {
+   "root": "lagi",
+   "pos": "adv",
+   "ko": "더·또·~하는 중",
+   "rd": "라기"
+  },
+  {
+   "root": "es",
+   "pos": "n",
+   "ko": "얼음·아이스",
+   "rd": "에스"
+  },
+  {
+   "root": "makasih",
+   "pos": "expr",
+   "ko": "고마워 (=terima kasih)",
+   "rd": "마카시"
+  },
+  {
+   "root": "menangis",
+   "pos": "v",
+   "ko": "울다",
+   "rd": "므낭이스"
+  },
+  {
+   "root": "sekarang",
+   "pos": "adv",
+   "ko": "지금",
+   "rd": "스카랑"
+  },
+  {
+   "root": "gitu",
+   "pos": "adv",
+   "ko": "그렇게 (=begitu)",
+   "rd": "기투"
+  },
+  {
+   "root": "kepala",
+   "pos": "n",
+   "ko": "머리",
+   "rd": "크팔라"
+  },
+  {
+   "root": "menit",
+   "pos": "n",
+   "ko": "분",
+   "rd": "므닛"
+  },
+  {
+   "root": "jam",
+   "pos": "n",
+   "ko": "시간·시계",
+   "rd": "잠"
+  },
+  {
+   "root": "nyanyi",
+   "pos": "v",
+   "ko": "노래하다 (=menyanyi)",
+   "rd": "냐니"
+  },
+  {
+   "root": "malam",
+   "pos": "n",
+   "ko": "밤",
+   "rd": "말람"
+  },
+  {
+   "root": "nasi",
+   "pos": "n",
+   "ko": "밥",
+   "rd": "나시"
+  },
+  {
+   "root": "rahasia",
+   "pos": "n",
+   "ko": "비밀",
+   "rd": "라하시아"
+  },
+  {
+   "root": "tak",
+   "pos": "adv",
+   "ko": "아니다 (=tidak)",
+   "rd": "딱"
+  },
+  {
+   "root": "rapat",
+   "pos": "n",
+   "ko": "회의·촘촘하다",
+   "rd": "라팟"
+  },
+  {
+   "root": "pesan",
+   "pos": "n",
+   "ko": "메시지·주문하다",
+   "rd": "프산"
+  },
+  {
+   "root": "enak",
+   "pos": "adj",
+   "ko": "맛있다·편하다",
+   "rd": "에낙"
+  },
+  {
+   "root": "bawang",
+   "pos": "n",
+   "ko": "양파·마늘",
+   "rd": "바왕"
+  },
+  {
+   "root": "maaf",
+   "pos": "expr",
+   "ko": "미안하다",
+   "rd": "마아프"
+  },
+  {
+   "root": "bagaimana",
+   "pos": "pron",
+   "ko": "어떻게",
+   "rd": "바가이마나"
+  },
+  {
+   "root": "kosong",
+   "pos": "adj",
+   "ko": "비어 있다",
+   "rd": "코종"
+  },
+  {
+   "root": "tiap",
+   "pos": "adv",
+   "ko": "매~·~마다",
+   "rd": "티압"
+  },
+  {
+   "root": "pacar",
+   "pos": "n",
+   "ko": "애인",
+   "rd": "파차르"
+  },
+  {
+   "root": "sekali",
+   "pos": "adv",
+   "ko": "매우·한 번",
+   "rd": "스칼리"
+  },
+  {
+   "root": "malu",
+   "pos": "adj",
+   "ko": "부끄럽다",
+   "rd": "말루"
+  },
+  {
+   "root": "akan",
+   "pos": "part",
+   "ko": "~할 것이다",
+   "rd": "아칸"
+  },
+  {
+   "root": "sedikit",
+   "pos": "adv",
+   "ko": "조금",
+   "rd": "스디킷"
+  },
+  {
+   "root": "stasiun",
+   "pos": "n",
+   "ko": "역",
+   "rd": "스타시운"
+  },
+  {
+   "root": "pintas",
+   "pos": "n",
+   "ko": "지름길",
+   "rd": "핀타스"
+  },
+  {
+   "root": "sayang",
+   "pos": "adj",
+   "ko": "사랑하는·아깝다",
+   "rd": "사양"
+  },
+  {
+   "root": "sembilan",
+   "pos": "num",
+   "ko": "아홉",
+   "rd": "슴빌란"
+  },
+  {
+   "root": "tiga",
+   "pos": "num",
+   "ko": "셋",
+   "rd": "티가"
+  },
+  {
+   "root": "tau",
+   "pos": "v",
+   "ko": "알다 (=tahu)",
+   "rd": "타우"
+  },
+  {
+   "root": "ratus",
+   "pos": "num",
+   "ko": "백",
+   "rd": "라투스"
+  },
+  {
+   "root": "malem",
+   "pos": "n",
+   "ko": "밤 (=malam)",
+   "rd": "말름"
+  },
+  {
+   "root": "traktir",
+   "pos": "v",
+   "ko": "한턱내다",
+   "rd": "트락티르"
+  },
+  {
+   "root": "teh",
+   "pos": "n",
+   "ko": "차",
+   "rd": "테"
+  },
+  {
+   "root": "jangan",
+   "pos": "part",
+   "ko": "~하지 마라",
+   "rd": "장안"
+  },
+  {
+   "root": "suara",
+   "pos": "n",
+   "ko": "목소리·소리",
+   "rd": "수아라"
+  },
+  {
+   "root": "grup",
+   "pos": "n",
+   "ko": "그룹",
+   "rd": "그룹"
+  },
+  {
+   "root": "balas",
+   "pos": "v",
+   "ko": "답하다",
+   "rd": "발라스"
+  },
+  {
+   "root": "total",
+   "pos": "n",
+   "ko": "합계·완전히",
+   "rd": "토탈"
+  },
+  {
+   "root": "doang",
+   "pos": "part",
+   "ko": "~뿐 (=saja)",
+   "rd": "도앙"
+  },
+  {
+   "root": "goreng",
+   "pos": "adj",
+   "ko": "튀기다·볶다",
+   "rd": "고렝"
+  },
+  {
+   "root": "pedas",
+   "pos": "adj",
+   "ko": "맵다",
+   "rd": "프다스"
+  },
+  {
+   "root": "usah",
+   "pos": "part",
+   "ko": "~할 필요 없다",
+   "rd": "우사"
+  },
+  {
+   "root": "anak",
+   "pos": "n",
+   "ko": "아이",
+   "rd": "아낙"
+  },
+  {
+   "root": "tadi",
+   "pos": "adv",
+   "ko": "아까",
+   "rd": "타디"
+  },
+  {
+   "root": "ledak",
+   "pos": "v",
+   "ko": "터지다",
+   "rd": "르닥"
+  },
+  {
+   "root": "keluarga",
+   "pos": "n",
+   "ko": "가족",
+   "rd": "클루아르가"
+  },
+  {
+   "root": "muda",
+   "pos": "adj",
+   "ko": "젊다·어리다",
+   "rd": "무다"
+  },
+  {
+   "root": "kelapa",
+   "pos": "n",
+   "ko": "코코넛",
+   "rd": "클라파"
+  },
+  {
+   "root": "gimana",
+   "pos": "pron",
+   "ko": "어떻게 (=bagaimana)",
+   "rd": "기마나"
+  },
+  {
+   "root": "selalu",
+   "pos": "adv",
+   "ko": "항상",
+   "rd": "슬랄루"
+  },
+  {
+   "root": "tenang",
+   "pos": "adj",
+   "ko": "조용하다·침착하다",
+   "rd": "트낭"
+  },
+  {
+   "root": "nanya",
+   "pos": "v",
+   "ko": "묻다 (=bertanya)",
+   "rd": "나냐"
+  },
+  {
+   "root": "bikin",
+   "pos": "v",
+   "ko": "만들다 (=membuat)",
+   "rd": "비킨"
+  },
+  {
+   "root": "paspor",
+   "pos": "n",
+   "ko": "여권",
+   "rd": "파스포르"
+  },
+  {
+   "root": "cek",
+   "pos": "v",
+   "ko": "확인하다",
+   "rd": "첵"
+  },
+  {
+   "root": "tangan",
+   "pos": "n",
+   "ko": "손",
+   "rd": "탕안"
+  },
+  {
+   "root": "kali",
+   "pos": "n",
+   "ko": "번·곱하기",
+   "rd": "칼리"
+  },
+  {
+   "root": "angkot",
+   "pos": "n",
+   "ko": "앙콧(소형 버스)",
+   "rd": "앙콧"
+  },
+  {
+   "root": "terminal",
+   "pos": "n",
+   "ko": "터미널",
+   "rd": "테르미날"
+  },
+  {
+   "root": "rumah",
+   "pos": "n",
+   "ko": "집",
+   "rd": "루마"
+  },
+  {
+   "root": "hujan",
+   "pos": "n",
+   "ko": "비",
+   "rd": "후잔"
+  },
+  {
+   "root": "masih",
+   "pos": "adv",
+   "ko": "아직·여전히",
+   "rd": "마시"
+  },
+  {
+   "root": "klien",
+   "pos": "n",
+   "ko": "고객",
+   "rd": "클리엔"
+  },
+  {
+   "root": "lebar",
+   "pos": "adj",
+   "ko": "넓다",
+   "rd": "르바르"
+  },
+  {
+   "root": "belakang",
+   "pos": "n",
+   "ko": "뒤",
+   "rd": "블라캉"
+  },
+  {
+   "root": "seleb",
+   "pos": "n",
+   "ko": "연예인 (=selebriti)",
+   "rd": "셀렙"
+  },
+  {
+   "root": "duet",
+   "pos": "n",
+   "ko": "듀엣",
+   "rd": "두엣"
+  },
+  {
+   "root": "telinga",
+   "pos": "n",
+   "ko": "귀",
+   "rd": "틀링아"
+  },
+  {
+   "root": "tetangga",
+   "pos": "n",
+   "ko": "이웃",
+   "rd": "트탕가"
+  },
+  {
+   "root": "ketok",
+   "pos": "v",
+   "ko": "똑똑 두드리다",
+   "rd": "크톡"
+  },
+  {
+   "root": "diam",
+   "pos": "adj",
+   "ko": "조용하다·가만히",
+   "rd": "디암"
+  },
+  {
+   "root": "kenceng",
+   "pos": "adj",
+   "ko": "세다 (=kencang)",
+   "rd": "켄첸"
+  },
+  {
+   "root": "pasar",
+   "pos": "n",
+   "ko": "시장",
+   "rd": "파사르"
+  },
+  {
+   "root": "gak",
+   "pos": "adv",
+   "ko": "아니다 (=tidak)",
+   "rd": "각"
+  },
+  {
+   "root": "duit",
+   "pos": "n",
+   "ko": "돈 (=uang)",
+   "rd": "두잇"
+  },
+  {
+   "root": "enggak",
+   "pos": "adv",
+   "ko": "아니다 (=tidak)",
+   "rd": "응각"
+  },
+  {
+   "root": "benar",
+   "pos": "adj",
+   "ko": "맞다·정말",
+   "rd": "브나르"
+  },
+  {
+   "root": "sate",
+   "pos": "n",
+   "ko": "사떼(꼬치구이)",
+   "rd": "사테"
+  },
+  {
+   "root": "boleh",
+   "pos": "v",
+   "ko": "~해도 된다",
+   "rd": "볼레"
+  },
+  {
+   "root": "mulut",
+   "pos": "n",
+   "ko": "입",
+   "rd": "물룻"
+  },
+  {
+   "root": "duluan",
+   "pos": "adv",
+   "ko": "먼저 (=dulu)",
+   "rd": "둘루안"
+  },
+  {
+   "root": "bro",
+   "pos": "n",
+   "ko": "형·친구 (=bro)",
+   "rd": "브로"
+  },
+  {
+   "root": "nanti",
+   "pos": "adv",
+   "ko": "나중에",
+   "rd": "난티"
+  },
+  {
+   "root": "gila",
+   "pos": "adj",
+   "ko": "미치다·대단하다",
+   "rd": "길라"
+  },
+  {
+   "root": "denger",
+   "pos": "v",
+   "ko": "듣다 (=dengar)",
+   "rd": "등에르"
+  },
+  {
+   "root": "bos",
+   "pos": "n",
+   "ko": "사장",
+   "rd": "보스"
+  },
+  {
+   "root": "pindah",
+   "pos": "v",
+   "ko": "이사하다·옮기다",
+   "rd": "핀다"
+  },
+  {
+   "root": "negara",
+   "pos": "n",
+   "ko": "나라",
+   "rd": "느가라"
+  },
+  {
+   "root": "kantong",
+   "pos": "n",
+   "ko": "봉지·주머니",
+   "rd": "칸통"
+  },
+  {
+   "root": "struknya",
+   "pos": "n",
+   "ko": "영수증",
+   "rd": "스트룩냐"
+  },
+  {
+   "root": "promo",
+   "pos": "n",
+   "ko": "프로모션",
+   "rd": "프로모"
+  },
+  {
+   "root": "gratis",
+   "pos": "adj",
+   "ko": "무료",
+   "rd": "그라티스"
+  },
+  {
+   "root": "mahal",
+   "pos": "adj",
+   "ko": "비싸다",
+   "rd": "마할"
+  },
+  {
+   "root": "ikan",
+   "pos": "n",
+   "ko": "물고기·생선",
+   "rd": "이칸"
+  },
+  {
+   "root": "tempe",
+   "pos": "n",
+   "ko": "뗌뻬",
+   "rd": "템페"
+  },
+  {
+   "root": "sayur",
+   "pos": "n",
+   "ko": "채소",
+   "rd": "사유르"
+  },
+  {
+   "root": "telur",
+   "pos": "n",
+   "ko": "계란",
+   "rd": "트루르"
+  },
+  {
+   "root": "kenyang",
+   "pos": "adj",
+   "ko": "배부르다",
+   "rd": "크냥"
+  },
+  {
+   "root": "liat",
+   "pos": "v",
+   "ko": "보다 (=lihat)",
+   "rd": "리앗"
+  },
+  {
+   "root": "nak",
+   "pos": "n",
+   "ko": "얘야 (=anak)",
+   "rd": "낙"
+  },
+  {
+   "root": "kemarin",
+   "pos": "adv",
+   "ko": "어제",
+   "rd": "크마린"
+  },
+  {
+   "root": "gampang",
+   "pos": "adj",
+   "ko": "쉽다",
+   "rd": "감팡"
+  },
+  {
+   "root": "mata",
+   "pos": "n",
+   "ko": "눈",
+   "rd": "마타"
+  },
+  {
+   "root": "habis",
+   "pos": "v",
+   "ko": "다 떨어지다·끝나다",
+   "rd": "하비스"
+  },
+  {
+   "root": "senyum",
+   "pos": "n",
+   "ko": "미소",
+   "rd": "스뉨"
+  },
+  {
+   "root": "kursi",
+   "pos": "n",
+   "ko": "의자",
+   "rd": "쿠르시"
+  },
+  {
+   "root": "lumayan",
+   "pos": "adj",
+   "ko": "꽤 괜찮다",
+   "rd": "루마얀"
+  },
+  {
+   "root": "nungguin",
+   "pos": "v",
+   "ko": "기다려 주다 (=menunggui)",
+   "rd": "눙구인"
+  },
+  {
+   "root": "drama",
+   "pos": "n",
+   "ko": "드라마",
+   "rd": "드라마"
+  },
+  {
+   "root": "jantung",
+   "pos": "n",
+   "ko": "심장",
+   "rd": "잔퉁"
+  },
+  {
+   "root": "dokter",
+   "pos": "n",
+   "ko": "의사",
+   "rd": "독테르"
+  },
+  {
+   "root": "bodoh",
+   "pos": "adj",
+   "ko": "멍청하다",
+   "rd": "보도"
+  },
+  {
+   "root": "bareng",
+   "pos": "adv",
+   "ko": "함께 (=bersama)",
+   "rd": "바렝"
+  },
+  {
+   "root": "betul",
+   "pos": "adj",
+   "ko": "맞다·정말",
+   "rd": "브툴"
+  },
+  {
+   "root": "bobok",
+   "pos": "v",
+   "ko": "자다 (아기말)",
+   "rd": "보복"
+  },
+  {
+   "root": "indah",
+   "pos": "adj",
+   "ko": "아름답다",
+   "rd": "인다"
+  },
+  {
+   "root": "sepi",
+   "pos": "adj",
+   "ko": "한산하다·조용하다",
+   "rd": "스피"
+  },
+  {
+   "root": "tanpa",
+   "pos": "prep",
+   "ko": "~없이",
+   "rd": "탄파"
+  },
+  {
+   "root": "diem",
+   "pos": "adj",
+   "ko": "조용하다 (=diam)",
+   "rd": "디엠"
+  },
+  {
+   "root": "tonton",
+   "pos": "v",
+   "ko": "보다·시청하다",
+   "rd": "톤톤"
+  },
+  {
+   "root": "kabur",
+   "pos": "v",
+   "ko": "도망치다",
+   "rd": "카부르"
+  },
+  {
+   "root": "lucu",
+   "pos": "adj",
+   "ko": "웃기다·귀엽다",
+   "rd": "루추"
+  },
+  {
+   "root": "uji",
+   "pos": "v",
+   "ko": "시험·시험하다",
+   "rd": "우지"
+  },
+  {
+   "root": "hancur",
+   "pos": "adj",
+   "ko": "부서지다·망하다",
+   "rd": "한쿠르"
+  },
+  {
+   "root": "pintar",
+   "pos": "adj",
+   "ko": "똑똑하다",
+   "rd": "핀타르"
+  },
+  {
+   "root": "guru",
+   "pos": "n",
+   "ko": "선생님",
+   "rd": "구루"
+  },
+  {
+   "root": "pribadi",
+   "pos": "adj",
+   "ko": "개인의",
+   "rd": "프리바디"
+  },
+  {
+   "root": "beneran",
+   "pos": "adv",
+   "ko": "진짜 (=benar)",
+   "rd": "브느란"
+  },
+  {
+   "root": "presentasi",
+   "pos": "n",
+   "ko": "발표",
+   "rd": "프레젠타시"
+  },
+  {
+   "root": "dosen",
+   "pos": "n",
+   "ko": "대학 교수",
+   "rd": "도센"
+  },
+  {
+   "root": "manis",
+   "pos": "adj",
+   "ko": "달다",
+   "rd": "마니스"
+  },
+  {
+   "root": "tas",
+   "pos": "n",
+   "ko": "가방",
+   "rd": "타스"
+  },
+  {
+   "root": "kampus",
+   "pos": "n",
+   "ko": "대학 캠퍼스",
+   "rd": "캄푸스"
+  },
+  {
+   "root": "henti",
+   "pos": "v",
+   "ko": "멈추다",
+   "rd": "헨티"
+  },
+  {
+   "root": "kiri",
+   "pos": "n",
+   "ko": "왼쪽",
+   "rd": "키리"
+  },
+  {
+   "root": "sebentar",
+   "pos": "adv",
+   "ko": "잠깐",
+   "rd": "스븐타르"
+  },
+  {
+   "root": "pisang",
+   "pos": "n",
+   "ko": "바나나",
+   "rd": "피상"
+  },
+  {
+   "root": "deras",
+   "pos": "adj",
+   "ko": "세차다",
+   "rd": "드라스"
+  },
+  {
+   "root": "payung",
+   "pos": "n",
+   "ko": "우산",
+   "rd": "파융"
+  },
+  {
+   "root": "jas",
+   "pos": "n",
+   "ko": "재킷·우비",
+   "rd": "자스"
+  },
+  {
+   "root": "kayak",
+   "pos": "prep",
+   "ko": "~처럼 (=seperti)",
+   "rd": "카약"
+  },
+  {
+   "root": "bebek",
+   "pos": "n",
+   "ko": "오리",
+   "rd": "베벡"
+  },
+  {
+   "root": "basah",
+   "pos": "adj",
+   "ko": "젖다",
+   "rd": "바사"
+  },
+  {
+   "root": "telat",
+   "pos": "adj",
+   "ko": "늦다",
+   "rd": "트랏"
+  },
+  {
+   "root": "kuat",
+   "pos": "adj",
+   "ko": "강하다",
+   "rd": "쿠앗"
+  },
+  {
+   "root": "gang",
+   "pos": "n",
+   "ko": "골목",
+   "rd": "강"
+  },
+  {
+   "root": "istri",
+   "pos": "n",
+   "ko": "아내",
+   "rd": "이스트리"
+  },
+  {
+   "root": "ember",
+   "pos": "n",
+   "ko": "양동이",
+   "rd": "엠브르"
+  },
+  {
+   "root": "kereta",
+   "pos": "n",
+   "ko": "기차",
+   "rd": "크레타"
+  },
+  {
+   "root": "helm",
+   "pos": "n",
+   "ko": "헬멧",
+   "rd": "헬름"
+  },
+  {
+   "root": "pagi",
+   "pos": "n",
+   "ko": "아침",
+   "rd": "파기"
+  },
+  {
+   "root": "teman",
+   "pos": "n",
+   "ko": "친구",
+   "rd": "트만"
+  },
+  {
+   "root": "nomor",
+   "pos": "n",
+   "ko": "번호",
+   "rd": "노모르"
+  },
+  {
+   "root": "ruang",
+   "pos": "n",
+   "ko": "방·공간",
+   "rd": "루앙"
+  },
+  {
+   "root": "terlalu",
+   "pos": "adv",
+   "ko": "너무",
+   "rd": "트를랄루"
+  },
+  {
+   "root": "latih",
+   "pos": "v",
+   "ko": "연습하다",
+   "rd": "라티"
+  },
+  {
+   "root": "salam",
+   "pos": "n",
+   "ko": "인사",
+   "rd": "살람"
+  },
+  {
+   "root": "lapor",
+   "pos": "v",
+   "ko": "보고하다",
+   "rd": "라포르"
+  },
+  {
+   "root": "tertawa",
+   "pos": "v",
+   "ko": "웃다",
+   "rd": "트르타와"
+  },
+  {
+   "root": "pegang",
+   "pos": "v",
+   "ko": "잡다",
+   "rd": "프강"
+  },
+  {
+   "root": "perut",
+   "pos": "n",
+   "ko": "배",
+   "rd": "프룻"
+  },
+  {
+   "root": "meja",
+   "pos": "n",
+   "ko": "책상·탁자",
+   "rd": "메자"
+  }
+ ]
+}

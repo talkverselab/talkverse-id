@@ -23,6 +23,7 @@ class SeedLoader {
     final bundled = await bundledVersion();
     if (prefs.getInt(_kDbVersion) == bundled) return;
     await _seedRoots();
+    await _seedConvWords();
     await _seedAffixes();
     await db.delete(db.words).go();
     await _seedWords();
@@ -37,6 +38,18 @@ class SeedLoader {
     } catch (_) {
       return 0;
     }
+  }
+
+  /// 회화 낱말(문장 레마 칩이 뜻을 보이게 — uk 세션 제작 2026-11-04). phase 가 없어 「어근 core」 목록엔 안 나온다.
+  Future<void> _seedConvWords() async {
+    try {
+      final data = json.decode(await rootBundle.loadString('assets/data/roots/kata_conv.json')) as Map<String, dynamic>;
+      final batch = <Insertable<RootRow>>[
+        for (final r in (data['roots'] as List? ?? const []))
+          RootsCompanion.insert(root: (r as Map)['root'] as String, pos: Value(r['pos'] as String?), meaningKo: Value(r['ko'] as String?)),
+      ];
+      if (batch.isNotEmpty) await db.batch((b) => b.insertAllOnConflictUpdate(db.roots, batch));
+    } catch (_) {}
   }
 
   Future<void> _seedRoots() async {

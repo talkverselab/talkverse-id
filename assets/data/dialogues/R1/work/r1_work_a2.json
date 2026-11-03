@@ -44,6 +44,11 @@
      ""
     ],
     [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
      "masih",
      "masih",
      ""
@@ -88,8 +93,8 @@
    "art": "assets/images/scenes/r1_work_a2_2.jpg",
    "lemmas": [
     [
-     "Ssst",
-     "ssst",
+     "Iya",
+     "iya",
      ""
     ],
     [
@@ -113,6 +118,11 @@
      "nomor",
      "nomor",
      ""
+    ],
+    [
+     "Bos",
+     "bos",
+     ""
     ]
    ]
   },
@@ -127,6 +137,11 @@
    "art": "assets/images/scenes/r1_work_a2_3.jpg",
    "lemmas": [
     [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
      "bilang",
      "bilang",
      ""
@@ -134,6 +149,11 @@
     [
      "sayang",
      "sayang",
+     ""
+    ],
+    [
+     "Bos",
+     "bos",
      ""
     ]
    ]
@@ -148,6 +168,11 @@
    "tags": [],
    "art": "assets/images/scenes/r1_work_a2_3.jpg",
    "lemmas": [
+    [
+     "Bos",
+     "bos",
+     ""
+    ],
     [
      "bilang",
      "bilang",

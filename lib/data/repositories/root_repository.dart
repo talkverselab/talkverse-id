@@ -25,6 +25,7 @@ class RootRepository {
   final AppDatabase db;
 
   Future<List<RootRow>> allRoots() => (db.select(db.roots)
+        ..where((r) => r.phase.isNotNull()) // 회화 낱말(kata_conv, phase 없음)은 어근 core 목록에서 뺀다
         ..orderBy([
           (r) => OrderingTerm(expression: r.rank, mode: OrderingMode.asc, nulls: NullsOrder.last)
         ]))

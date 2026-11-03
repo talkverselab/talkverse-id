@@ -1,0 +1,194 @@
+rank,word,freq,cum_pct,region,root,ko,en,pos,rd
+832,banget,0,0,Conv,banget,매우·진짜,"very, so",adv,방엣
+522,nggak,0,0,Conv,nggak,아니다 · ~않다 (=tidak),"no, not",adv,응각
+259,bilang,0,0,Conv,bilang,말하다·~라고 하다,"to say, tell",v,빌랑
+52,semua,0,0,Conv,semua,모두·전부,all,pron,스무아
+954,udah,0,0,Conv,udah,이미 (=sudah),already,adv,우다
+487,iya,0,0,Conv,iya,응·네,yes,int,이야
+222,bagus,0,0,Conv,bagus,좋다·훌륭하다,"good, nice",adj,바구스
+28,sudah,0,0,Conv,sudah,이미·~했다,already,adv,수다
+93,dua,0,0,Conv,dua,둘,two,num,두아
+791,kopi,0,0,Conv,kopi,커피,coffee,n,코피
+446,besok,0,0,Conv,besok,내일,tomorrow,adv,베속
+18,orang,0,0,Conv,orang,사람,person,n,오랑
+88,belum,0,0,Conv,belum,아직 ~않다,not yet,adv,블룸
+57,bukan,0,0,Conv,bukan,~이 아니다,is not,adv,부칸
+12,tidak,0,0,Conv,tidak,아니다·~않다,"no, not",adv,티닥
+347,foto,0,0,Conv,foto,사진,photo,n,포토
+554,oke,0,0,Conv,oke,좋아·오케이,okay,int,오케
+156,kenapa,0,0,Conv,kenapa,왜,why,pron,크나파
+131,mana,0,0,Conv,mana,어디·어느,"where, which",pron,마나
+83,punya,0,0,Conv,punya,가지다·~의 것,to have,v,푸냐
+74,sendiri,0,0,Conv,sendiri,혼자·스스로,"alone, oneself",adv,슨디리
+488,kantor,0,0,Conv,kantor,사무실,office,n,칸토르
+414,lima,0,0,Conv,lima,다섯,five,num,리마
+127,kasih,0,0,Conv,kasih,주다·사랑,to give; love,v,카시
+87,siapa,0,0,Conv,siapa,누구,who,pron,시아파
+178,dulu,0,0,Conv,dulu,먼저·예전에,"first, formerly",adv,둘루
+37,harus,0,0,Conv,harus,~해야 한다,must,v,하루스
+39,lagi,0,0,Conv,lagi,더·또·~하는 중,"again, more",adv,라기
+1116,es,0,0,Conv,es,얼음·아이스,ice,n,에스
+3001,makasih,0,0,Conv,makasih,고마워 (=terima kasih),thanks,expr,마카시
+858,menangis,0,0,Conv,menangis,울다,to cry,v,므낭이스
+65,sekarang,0,0,Conv,sekarang,지금,now,adv,스카랑
+1930,gitu,0,0,Conv,gitu,그렇게 (=begitu),like that,adv,기투
+235,kepala,0,0,Conv,kepala,머리,head,n,크팔라
+319,menit,0,0,Conv,menit,분,minute,n,므닛
+159,jam,0,0,Conv,jam,시간·시계,"hour, clock",n,잠
+3002,nyanyi,0,0,Conv,nyanyi,노래하다 (=menyanyi),to sing,v,냐니
+134,malam,0,0,Conv,malam,밤,night,n,말람
+1331,nasi,0,0,Conv,nasi,밥,rice,n,나시
+861,rahasia,0,0,Conv,rahasia,비밀,secret,n,라하시아
+34,tak,0,0,Conv,tak,아니다 (=tidak),not,adv,딱
+1358,rapat,0,0,Conv,rapat,회의·촘촘하다,meeting; tight,n,라팟
+496,pesan,0,0,Conv,pesan,메시지·주문하다,"message, order",n,프산
+615,enak,0,0,Conv,enak,맛있다·편하다,"delicious, pleasant",adj,에낙
+2184,bawang,0,0,Conv,bawang,양파·마늘,"onion, shallot",n,바왕
+257,maaf,0,0,Conv,maaf,미안하다,sorry,expr,마아프
+182,bagaimana,0,0,Conv,bagaimana,어떻게,how,pron,바가이마나
+1189,kosong,0,0,Conv,kosong,비어 있다,empty,adj,코종
+675,tiap,0,0,Conv,tiap,매~·~마다,every,adv,티압
+1248,pacar,0,0,Conv,pacar,애인,boyfriend/girlfriend,n,파차르
+141,sekali,0,0,Conv,sekali,매우·한 번,very; once,adv,스칼리
+999,malu,0,0,Conv,malu,부끄럽다,"shy, embarrassed",adj,말루
+13,akan,0,0,Conv,akan,~할 것이다,will,part,아칸
+258,sedikit,0,0,Conv,sedikit,조금,a little,adv,스디킷
+1081,stasiun,0,0,Conv,stasiun,역,station,n,스타시운
+3003,pintas,0,0,Conv,pintas,지름길,shortcut,n,핀타스
+211,sayang,0,0,Conv,sayang,사랑하는·아깝다,dear; what a pity,adj,사양
+1780,sembilan,0,0,Conv,sembilan,아홉,nine,num,슴빌란
+205,tiga,0,0,Conv,tiga,셋,three,num,티가
+453,tau,0,0,Conv,tau,알다 (=tahu),to know,v,타우
+3004,ratus,0,0,Conv,ratus,백,hundred,num,라투스
+3005,malem,0,0,Conv,malem,밤 (=malam),night,n,말름
+3006,traktir,0,0,Conv,traktir,한턱내다,to treat,v,트락티르
+1105,teh,0,0,Conv,teh,차,tea,n,테
+48,jangan,0,0,Conv,jangan,~하지 마라,don't,part,장안
+344,suara,0,0,Conv,suara,목소리·소리,"voice, sound",n,수아라
+846,grup,0,0,Conv,grup,그룹,group,n,그룹
+2020,balas,0,0,Conv,balas,답하다,to reply,v,발라스
+842,total,0,0,Conv,total,합계·완전히,total,n,토탈
+3007,doang,0,0,Conv,doang,~뿐 (=saja),"just, only",part,도앙
+2267,goreng,0,0,Conv,goreng,튀기다·볶다,fried,adj,고렝
+3008,pedas,0,0,Conv,pedas,맵다,spicy,adj,프다스
+1314,usah,0,0,Conv,usah,~할 필요 없다,need not,part,우사
+55,anak,0,0,Conv,anak,아이,child,n,아낙
+312,tadi,0,0,Conv,tadi,아까,earlier,adv,타디
+3009,ledak,0,0,Conv,ledak,터지다,to explode,v,르닥
+217,keluarga,0,0,Conv,keluarga,가족,family,n,클루아르가
+320,muda,0,0,Conv,muda,젊다·어리다,young,adj,무다
+1818,kelapa,0,0,Conv,kelapa,코코넛,coconut,n,클라파
+1791,gimana,0,0,Conv,gimana,어떻게 (=bagaimana),how,pron,기마나
+101,selalu,0,0,Conv,selalu,항상,always,adv,슬랄루
+662,tenang,0,0,Conv,tenang,조용하다·침착하다,calm,adj,트낭
+3010,nanya,0,0,Conv,nanya,묻다 (=bertanya),to ask,v,나냐
+1290,bikin,0,0,Conv,bikin,만들다 (=membuat),to make,v,비킨
+3011,paspor,0,0,Conv,paspor,여권,passport,n,파스포르
+1178,cek,0,0,Conv,cek,확인하다,to check,v,첵
+264,tangan,0,0,Conv,tangan,손,hand,n,탕안
+89,kali,0,0,Conv,kali,번·곱하기,times,n,칼리
+3012,angkot,0,0,Conv,angkot,앙콧(소형 버스),minibus,n,앙콧
+3013,terminal,0,0,Conv,terminal,터미널,terminal,n,테르미날
+100,rumah,0,0,Conv,rumah,집,house,n,루마
+807,hujan,0,0,Conv,hujan,비,rain,n,후잔
+60,masih,0,0,Conv,masih,아직·여전히,still,adv,마시
+2426,klien,0,0,Conv,klien,고객,client,n,클리엔
+1529,lebar,0,0,Conv,lebar,넓다,wide,adj,르바르
+361,belakang,0,0,Conv,belakang,뒤,"behind, back",n,블라캉
+3014,seleb,0,0,Conv,seleb,연예인 (=selebriti),celeb,n,셀렙
+3015,duet,0,0,Conv,duet,듀엣,duet,n,두엣
+2253,telinga,0,0,Conv,telinga,귀,ear,n,틀링아
+1913,tetangga,0,0,Conv,tetangga,이웃,neighbor,n,트탕가
+3016,ketok,0,0,Conv,ketok,똑똑 두드리다,to knock,v,크톡
+447,diam,0,0,Conv,diam,조용하다·가만히,"quiet, still",adj,디암
+3017,kenceng,0,0,Conv,kenceng,세다 (=kencang),"loud, fast",adj,켄첸
+546,pasar,0,0,Conv,pasar,시장,market,n,파사르
+460,gak,0,0,Conv,gak,아니다 (=tidak),"no, not",adv,각
+3018,duit,0,0,Conv,duit,돈 (=uang),money,n,두잇
+1817,enggak,0,0,Conv,enggak,아니다 (=tidak),"no, not",adv,응각
+103,benar,0,0,Conv,benar,맞다·정말,"true, right",adj,브나르
+3019,sate,0,0,Conv,sate,사떼(꼬치구이),satay,n,사테
+423,boleh,0,0,Conv,boleh,~해도 된다,may,v,볼레
+1077,mulut,0,0,Conv,mulut,입,mouth,n,물룻
+1927,duluan,0,0,Conv,duluan,먼저 (=dulu),"ahead, first",adv,둘루안
+1849,bro,0,0,Conv,bro,형·친구 (=bro),bro,n,브로
+271,nanti,0,0,Conv,nanti,나중에,later,adv,난티
+742,gila,0,0,Conv,gila,미치다·대단하다,crazy,adj,길라
+3020,denger,0,0,Conv,denger,듣다 (=dengar),to hear,v,등에르
+1475,bos,0,0,Conv,bos,사장,boss,n,보스
+780,pindah,0,0,Conv,pindah,이사하다·옮기다,to move,v,핀다
+163,negara,0,0,Conv,negara,나라,country,n,느가라
+3021,kantong,0,0,Conv,kantong,봉지·주머니,"bag, pocket",n,칸통
+3022,struknya,0,0,Conv,struknya,영수증,receipt,n,스트룩냐
+1279,promo,0,0,Conv,promo,프로모션,promo,n,프로모
+561,gratis,0,0,Conv,gratis,무료,free,adj,그라티스
+1048,mahal,0,0,Conv,mahal,비싸다,expensive,adj,마할
+636,ikan,0,0,Conv,ikan,물고기·생선,fish,n,이칸
+3023,tempe,0,0,Conv,tempe,뗌뻬,tempeh,n,템페
+3024,sayur,0,0,Conv,sayur,채소,vegetable,n,사유르
+1469,telur,0,0,Conv,telur,계란,egg,n,트루르
+3025,kenyang,0,0,Conv,kenyang,배부르다,full,adj,크냥
+3026,liat,0,0,Conv,liat,보다 (=lihat),to see,v,리앗
+1354,nak,0,0,Conv,nak,얘야 (=anak),child (address),n,낙
+725,kemarin,0,0,Conv,kemarin,어제,yesterday,adv,크마린
+1399,gampang,0,0,Conv,gampang,쉽다,easy,adj,감팡
+204,mata,0,0,Conv,mata,눈,eye,n,마타
+875,habis,0,0,Conv,habis,다 떨어지다·끝나다,"finished, run out",v,하비스
+2131,senyum,0,0,Conv,senyum,미소,smile,n,스뉨
+1025,kursi,0,0,Conv,kursi,의자,chair,n,쿠르시
+1458,lumayan,0,0,Conv,lumayan,꽤 괜찮다,not bad,adj,루마얀
+3027,nungguin,0,0,Conv,nungguin,기다려 주다 (=menunggui),to wait for,v,눙구인
+1182,drama,0,0,Conv,drama,드라마,drama,n,드라마
+1187,jantung,0,0,Conv,jantung,심장,heart,n,잔퉁
+518,dokter,0,0,Conv,dokter,의사,doctor,n,독테르
+872,bodoh,0,0,Conv,bodoh,멍청하다,stupid,adj,보도
+3028,bareng,0,0,Conv,bareng,함께 (=bersama),together,adv,바렝
+1063,betul,0,0,Conv,betul,맞다·정말,"right, true",adj,브툴
+3029,bobok,0,0,Conv,bobok,자다 (아기말),sleep (baby talk),v,보복
+354,indah,0,0,Conv,indah,아름답다,beautiful,adj,인다
+3030,sepi,0,0,Conv,sepi,한산하다·조용하다,"deserted, quiet",adj,스피
+114,tanpa,0,0,Conv,tanpa,~없이,without,prep,탄파
+3031,diem,0,0,Conv,diem,조용하다 (=diam),quiet,adj,디엠
+3032,tonton,0,0,Conv,tonton,보다·시청하다,to watch,v,톤톤
+2035,kabur,0,0,Conv,kabur,도망치다,to flee,v,카부르
+671,lucu,0,0,Conv,lucu,웃기다·귀엽다,"funny, cute",adj,루추
+1786,uji,0,0,Conv,uji,시험·시험하다,test,v,우지
+1931,hancur,0,0,Conv,hancur,부서지다·망하다,destroyed,adj,한쿠르
+1032,pintar,0,0,Conv,pintar,똑똑하다,smart,adj,핀타르
+399,guru,0,0,Conv,guru,선생님,teacher,n,구루
+497,pribadi,0,0,Conv,pribadi,개인의,personal,adj,프리바디
+3033,beneran,0,0,Conv,beneran,진짜 (=benar),really,adv,브느란
+3034,presentasi,0,0,Conv,presentasi,발표,presentation,n,프레젠타시
+1478,dosen,0,0,Conv,dosen,대학 교수,lecturer,n,도센
+730,manis,0,0,Conv,manis,달다,sweet,adj,마니스
+1257,tas,0,0,Conv,tas,가방,bag,n,타스
+1068,kampus,0,0,Conv,kampus,대학 캠퍼스,campus,n,캄푸스
+3035,henti,0,0,Conv,henti,멈추다,to stop,v,헨티
+899,kiri,0,0,Conv,kiri,왼쪽,left,n,키리
+1440,sebentar,0,0,Conv,sebentar,잠깐,a moment,adv,스븐타르
+2490,pisang,0,0,Conv,pisang,바나나,banana,n,피상
+3036,deras,0,0,Conv,deras,세차다,heavy (rain),adj,드라스
+3037,payung,0,0,Conv,payung,우산,umbrella,n,파융
+3038,jas,0,0,Conv,jas,재킷·우비,"coat, jacket",n,자스
+3039,kayak,0,0,Conv,kayak,~처럼 (=seperti),like,prep,카약
+3040,bebek,0,0,Conv,bebek,오리,duck,n,베벡
+2095,basah,0,0,Conv,basah,젖다,wet,adj,바사
+3041,telat,0,0,Conv,telat,늦다,late,adj,트랏
+280,kuat,0,0,Conv,kuat,강하다,strong,adj,쿠앗
+3042,gang,0,0,Conv,gang,골목,alley,n,강
+587,istri,0,0,Conv,istri,아내,wife,n,이스트리
+3043,ember,0,0,Conv,ember,양동이,bucket,n,엠브르
+590,kereta,0,0,Conv,kereta,기차,train,n,크레타
+3044,helm,0,0,Conv,helm,헬멧,helmet,n,헬름
+261,pagi,0,0,Conv,pagi,아침,morning,n,파기
+153,teman,0,0,Conv,teman,친구,friend,n,트만
+307,nomor,0,0,Conv,nomor,번호,number,n,노모르
+308,ruang,0,0,Conv,ruang,방·공간,"room, space",n,루앙
+161,terlalu,0,0,Conv,terlalu,너무,too,adv,트를랄루
+3045,latih,0,0,Conv,latih,연습하다,to practice,v,라티
+1495,salam,0,0,Conv,salam,인사,greeting,n,살람
+3046,lapor,0,0,Conv,lapor,보고하다,to report,v,라포르
+1169,tertawa,0,0,Conv,tertawa,웃다,to laugh,v,트르타와
+3047,pegang,0,0,Conv,pegang,잡다,to hold,v,프강
+1164,perut,0,0,Conv,perut,배,stomach,n,프룻
+1001,meja,0,0,Conv,meja,책상·탁자,table,n,메자
