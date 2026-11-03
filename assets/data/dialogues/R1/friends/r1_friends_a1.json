@@ -36,7 +36,19 @@
    "ko": "자, 사진 찍자! 크게 웃어 봐!",
    "note": "ayo = 자·하자(권유)",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_1.jpg",
+   "lemmas": [
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "lebar",
+     "lebar",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +58,29 @@
    "ko": "오케이, 하나 둘 셋.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_1.jpg",
+   "lemmas": [
+    [
+     "Oke",
+     "oke",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +90,19 @@
    "ko": "어, 뒤에 아저씨가 끼었어.",
    "note": "ikut = 따라·같이",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_2.jpg",
+   "lemmas": [
+    [
+     "belakang",
+     "belakang",
+     ""
+    ],
+    [
+     "ikutan",
+     "ikut",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +112,19 @@
    "ko": "그 사람 누구야?",
    "note": "siapa = 누구",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_2.jpg",
+   "lemmas": [
+    [
+     "Siapa",
+     "siapa",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +134,29 @@
    "ko": "몰라! 강아지에 백 명까지!",
    "note": "anjing = 개",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_3.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "tau",
+     "tau",
+     ""
+    ],
+    [
+     "seratus",
+     "ratus",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +166,24 @@
    "ko": "왜 다들 오는 거야?",
    "note": "kenapa = 왜",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_3.jpg",
+   "lemmas": [
+    [
+     "semua",
+     "semua",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ],
+    [
+     "datang",
+     "datang",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +193,19 @@
    "ko": "우리 갑자기 셀럽 됐어!",
    "note": "minta = 달라고 하다",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a1_4.jpg"
+   "art": "assets/images/scenes/r1_friends_a1_4.jpg",
+   "lemmas": [
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "seleb",
+     "seleb",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

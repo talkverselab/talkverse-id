@@ -40,7 +40,19 @@
    "ko": "쉿, 조용히. 도서관이잖아.",
    "note": "perpustakaan = 도서관",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_1.jpg"
+   "art": "assets/images/scenes/r1_study_a2_1.jpg",
+   "lemmas": [
+    [
+     "Ssst",
+     "ssst",
+     ""
+    ],
+    [
+     "diem",
+     "diem",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -50,7 +62,19 @@
    "ko": "응, 미안... 하... 에취!",
    "note": "maaf = 미안",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_1.jpg"
+   "art": "assets/images/scenes/r1_study_a2_1.jpg",
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "maaf",
+     "maaf",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -60,7 +84,19 @@
    "ko": "와, 우리가 구경거리가 됐어!",
    "note": "lihat = 보다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_2.jpg"
+   "art": "assets/images/scenes/r1_study_a2_2.jpg",
+   "lemmas": [
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "tontonan",
+     "tonton",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -70,7 +106,29 @@
    "ko": "아이고, 나 진짜 창피해서 도망가고 싶어!",
    "note": "malu = 창피하다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_2.jpg"
+   "art": "assets/images/scenes/r1_study_a2_2.jpg",
+   "lemmas": [
+    [
+     "malu",
+     "malu",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "pengen",
+     "ken",
+     ""
+    ],
+    [
+     "kabur",
+     "kabur",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -80,7 +138,24 @@
    "ko": "너 창피할 때 진짜 귀엽다.",
    "note": "lucu = 귀엽다·웃기다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_3.jpg"
+   "art": "assets/images/scenes/r1_study_a2_3.jpg",
+   "lemmas": [
+    [
+     "lucu",
+     "lucu",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "malu",
+     "malu",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -90,7 +165,19 @@
    "ko": "어? 뭐라고 한 거야?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_3.jpg"
+   "art": "assets/images/scenes/r1_study_a2_3.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -100,7 +187,19 @@
    "ko": "쉿. 도서관, 기억해.",
    "note": "(콜백 — 첫 줄을 되돌려준다)",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a2_4.jpg"
+   "art": "assets/images/scenes/r1_study_a2_4.jpg",
+   "lemmas": [
+    [
+     "Ssst",
+     "ssst",
+     ""
+    ],
+    [
+     "ingat",
+     "ingat",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -35,6 +35,14 @@ class RootRepository {
         ..orderBy([(r) => OrderingTerm.asc(r.rank)]))
       .get();
 
+  /// 여러 어근을 한 번에 — 문장 레마 칩용(2026-11-04). 반환: 어근 → 행(사전에 있는 것만).
+  Future<Map<String, RootRow>> findMany(Iterable<String> roots) async {
+    final keys = roots.where((r) => r.isNotEmpty).toSet().toList();
+    if (keys.isEmpty) return const {};
+    final rows = await (db.select(db.roots)..where((r) => r.root.isIn(keys))).get();
+    return {for (final r in rows) r.root: r};
+  }
+
   Future<RootRow?> find(String root) =>
       (db.select(db.roots)..where((r) => r.root.equals(root))).getSingleOrNull();
 

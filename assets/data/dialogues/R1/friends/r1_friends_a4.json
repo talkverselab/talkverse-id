@@ -46,7 +46,24 @@
    "ko": "이리 와. 비밀 하나 말할게.",
    "note": "rahasia = 비밀",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_1.jpg",
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "rahasia",
+     "rahasia",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -56,7 +73,29 @@
    "ko": "비밀? 내가 알면 안 되는 거면?",
    "note": "kalau = 만약",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_1.jpg",
+   "lemmas": [
+    [
+     "Rahasia",
+     "rahasia",
+     ""
+    ],
+    [
+     "tak",
+     "tak",
+     ""
+    ],
+    [
+     "boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "tahu",
+     "tahu",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -66,7 +105,24 @@
    "ko": "아무한테도 말하지 마.",
    "note": "siapa-siapa = 아무도(중첩)",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_2.jpg",
+   "lemmas": [
+    [
+     "Jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "siapa-siapa",
+     "siapa",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -76,7 +132,29 @@
    "ko": "알았어. 입 꽉 다물게.",
    "note": "baik = 알겠다 · tutup mulut = 입을 다물다",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_2.jpg",
+   "lemmas": [
+    [
+     "Baik",
+     "baik",
+     ""
+    ],
+    [
+     "tutup",
+     "tutup",
+     ""
+    ],
+    [
+     "mulut",
+     "mulut",
+     ""
+    ],
+    [
+     "rapat",
+     "rapat",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -86,7 +164,24 @@
    "ko": "Raka 랑 Dimas 는 벌써 먼저 알고 있었어!",
    "note": "dan = 그리고",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_3.jpg",
+   "lemmas": [
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "tahu",
+     "tahu",
+     ""
+    ],
+    [
+     "duluan",
+     "duluan",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -96,7 +191,14 @@
    "ko": "걔들이 알아? 진짜?",
    "note": "mereka = 그들",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_3.jpg",
+   "lemmas": [
+    [
+     "tahu",
+     "tahu",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -106,7 +208,24 @@
    "ko": "우리 다 알아. 너만 아직 몰라.",
    "note": "kami = 우리(듣는 사람 제외)",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_4.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_4.jpg",
+   "lemmas": [
+    [
+     "semua",
+     "semua",
+     ""
+    ],
+    [
+     "tahu",
+     "tahu",
+     ""
+    ],
+    [
+     "belum",
+     "belum",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -116,7 +235,19 @@
    "ko": "그럼 이 비밀이… 나 얘기야?!",
    "note": "tentang = ~에 대한",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a4_4.jpg"
+   "art": "assets/images/scenes/r1_friends_a4_4.jpg",
+   "lemmas": [
+    [
+     "Jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "rahasia",
+     "rahasia",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

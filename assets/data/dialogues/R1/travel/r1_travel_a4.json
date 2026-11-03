@@ -44,7 +44,24 @@
    "ko": "아저씨, 내일 귀국해요, 이게 마지막이에요.",
    "note": "ter-akhir = 마지막",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_1.jpg",
+   "lemmas": [
+    [
+     "besok",
+     "besok",
+     ""
+    ],
+    [
+     "pulang",
+     "pulang",
+     ""
+    ],
+    [
+     "terakhir",
+     "akhir",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -54,7 +71,24 @@
    "ko": "어, 내일 벌써 한국 가는 거야?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_1.jpg",
+   "lemmas": [
+    [
+     "besok",
+     "besok",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "pulang",
+     "pulang",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -64,7 +98,34 @@
    "ko": "네, 내일요. 그동안 다 고마웠어요.",
    "note": "untuk = ~에 대해",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_2.jpg",
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "besok",
+     "besok",
+     ""
+    ],
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "semuanya",
+     "semua",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -74,7 +135,19 @@
    "ko": "넌 이미 내 자식 같아.",
    "note": "seperti = ~같이",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_2.jpg",
+   "lemmas": [
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "anak",
+     "anak",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -84,7 +157,24 @@
    "ko": "아저씨, 울게 하지 마세요.",
    "note": "meN-tangis = 울다",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_3.jpg",
+   "lemmas": [
+    [
+     "jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "bikin",
+     "bikin",
+     ""
+    ],
+    [
+     "menangis",
+     "menangis",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -94,7 +184,24 @@
    "ko": "자, 이 아끼는 헬멧 가져가.",
    "note": "kenang-kenangan = 기념품(중첩)",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_3.jpg",
+   "lemmas": [
+    [
+     "Ambil",
+     "ambil",
+     ""
+    ],
+    [
+     "helm",
+     "helm",
+     ""
+    ],
+    [
+     "kesayangan",
+     "sayang",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -104,7 +211,19 @@
    "ko": "아저씨, 이거 하나뿐인데! 아저씨는 뭐 쓰게요?",
    "note": "satu-satunya = 유일한",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a4_4.jpg"
+   "art": "assets/images/scenes/r1_travel_a4_4.jpg",
+   "lemmas": [
+    [
+     "satu-satunya",
+     "satu",
+     ""
+    ],
+    [
+     "gimana",
+     "gimana",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

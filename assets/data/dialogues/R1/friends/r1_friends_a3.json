@@ -44,7 +44,24 @@
    "ko": "너희 오늘 밤 어디 가?",
    "note": "kalian = 너희",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_1.jpg",
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ],
+    [
+     "malem",
+     "malem",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -54,7 +71,29 @@
    "ko": "야시장. 같이 가자?",
    "note": "ikut = 따라가다",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_1.jpg",
+   "lemmas": [
+    [
+     "pasar",
+     "pasar",
+     ""
+    ],
+    [
+     "malam",
+     "malam",
+     ""
+    ],
+    [
+     "Mau",
+     "mau",
+     ""
+    ],
+    [
+     "ikut",
+     "ikut",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -64,7 +103,34 @@
    "ko": "완전 갈래! 근데 나 돈 없어.",
    "note": "gak = 안(구어)",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_2.jpg",
+   "lemmas": [
+    [
+     "Mau",
+     "mau",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "gak",
+     "gak",
+     ""
+    ],
+    [
+     "punya",
+     "punya",
+     ""
+    ],
+    [
+     "duit",
+     "duit",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -74,7 +140,24 @@
    "ko": "괜찮아. 내가 쏠게.",
    "note": "enggak = 안(구어)",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_2.jpg",
+   "lemmas": [
+    [
+     "Enggak",
+     "enggak",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "traktir",
+     "traktir",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -84,7 +167,44 @@
    "ko": "진짜? 나 사테 열 개에 아이스티 두 잔!",
    "note": "benar = 정말",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_3.jpg",
+   "lemmas": [
+    [
+     "Benar",
+     "benar",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "sate",
+     "sate",
+     ""
+    ],
+    [
+     "sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "es",
+     "es",
+     ""
+    ],
+    [
+     "teh",
+     "teh",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -94,7 +214,19 @@
    "ko": "열 개? 너 혼자?",
    "note": "untuk = ~을 위해",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_3.jpg",
+   "lemmas": [
+    [
+     "Sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "sendiri",
+     "sendiri",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -104,7 +236,24 @@
    "ko": "나 혼자. 넌 밥만 먹어.",
    "note": "saja = ~만",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a3_4.jpg"
+   "art": "assets/images/scenes/r1_friends_a3_4.jpg",
+   "lemmas": [
+    [
+     "sendiri",
+     "sendiri",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "nasi",
+     "nasi",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -36,7 +36,14 @@
    "ko": "아저씨, 역 가주세요.",
    "note": "Pak = 아저씨·선생님(Bapak 줄임)",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_1.jpg",
+   "lemmas": [
+    [
+     "stasiun",
+     "stasiun",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +53,29 @@
    "ko": "네! 저 지름길 알아요, 진짜.",
    "note": "jalan pintas = 지름길",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_1.jpg",
+   "lemmas": [
+    [
+     "Siap",
+     "siap",
+     ""
+    ],
+    [
+     "tau",
+     "tau",
+     ""
+    ],
+    [
+     "jalan",
+     "jalan",
+     ""
+    ],
+    [
+     "pintas",
+     "pintas",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +85,24 @@
    "ko": "와, 좋네요. 몇 분 걸려요?",
    "note": "berapa = 얼마·몇",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_2.jpg",
+   "lemmas": [
+    [
+     "bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "Berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "menit",
+     "menit",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +112,24 @@
    "ko": "10분. 어, 엄마 집이야! 들어가자!",
    "note": "eh = 어(갑자기 생각났을 때)",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_2.jpg",
+   "lemmas": [
+    [
+     "Sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "rumah",
+     "rumah",
+     ""
+    ],
+    [
+     "Masuk",
+     "masuk",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +139,19 @@
    "ko": "아저씨… 이게 지름길이에요?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_3.jpg",
+   "lemmas": [
+    [
+     "jalan",
+     "jalan",
+     ""
+    ],
+    [
+     "pintas",
+     "pintas",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +161,24 @@
    "ko": "잠깐만! 엄마가 바나나 주신대.",
    "note": "sebentar = 잠깐만",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_3.jpg",
+   "lemmas": [
+    [
+     "Sebentar",
+     "sebentar",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "pisang",
+     "pisang",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +188,19 @@
    "ko": "저 그냥 역에 가고 싶은데요…",
    "note": "cuma = 그냥·~만",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_4.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_4.jpg",
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "stasiun",
+     "stasiun",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -106,7 +210,19 @@
    "ko": "됐어! 이제 너 가족이야.",
    "note": "tenang = 진정해·걱정 마",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a1_4.jpg"
+   "art": "assets/images/scenes/r1_travel_a1_4.jpg",
+   "lemmas": [
+    [
+     "Udah",
+     "udah",
+     ""
+    ],
+    [
+     "keluarga",
+     "keluarga",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

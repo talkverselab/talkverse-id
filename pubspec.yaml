@@ -57,6 +57,7 @@ flutter:
 
   assets:
     - assets/data/audio_manifest.json
+    - assets/data/version.json
     - assets/data/dialogues/id/_meta.json
     - assets/data/dialogues/id/L1.json
     - assets/data/dialogues/ms/_meta.json

@@ -44,7 +44,19 @@
    "ko": "어, 저 사람 「넌 내 거야!」라고 해.",
    "note": "kau = 너(드라마·노랫말 말투) · -ku = 나의",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_1.jpg"
+   "art": "assets/images/scenes/r1_love_a3_1.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "milikku",
+     "milik",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -54,7 +66,14 @@
    "ko": "드라마에서나 하는 말이네, 그냥.",
    "note": "seperti = ~같이",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_1.jpg"
+   "art": "assets/images/scenes/r1_love_a3_1.jpg",
+   "lemmas": [
+    [
+     "drama",
+     "drama",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -64,7 +83,24 @@
    "ko": "너도 그렇게 말해 봐.",
    "note": "coba = 한번 ~해 봐",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_2.jpg"
+   "art": "assets/images/scenes/r1_love_a3_2.jpg",
+   "lemmas": [
+    [
+     "Coba",
+     "coba",
+     ""
+    ],
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "gitu",
+     "gitu",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -74,7 +110,19 @@
    "ko": "넌… 내 거야… 이렇게?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_2.jpg"
+   "art": "assets/images/scenes/r1_love_a3_2.jpg",
+   "lemmas": [
+    [
+     "milikku",
+     "milik",
+     ""
+    ],
+    [
+     "gitu",
+     "gitu",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -84,7 +132,24 @@
    "ko": "아이고, 내 심장 터질 것 같아!",
    "note": "jantung = 심장",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_3.jpg"
+   "art": "assets/images/scenes/r1_love_a3_3.jpg",
+   "lemmas": [
+    [
+     "jantungku",
+     "jantung",
+     ""
+    ],
+    [
+     "meledak",
+     "ledak",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -94,7 +159,24 @@
    "ko": "터져? 병원 갈까?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_3.jpg"
+   "art": "assets/images/scenes/r1_love_a3_3.jpg",
+   "lemmas": [
+    [
+     "Meledak",
+     "ledak",
+     ""
+    ],
+    [
+     "Mau",
+     "mau",
+     ""
+    ],
+    [
+     "dokter",
+     "dokter",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -104,7 +186,29 @@
    "ko": "아픈 거 아니야, 바보야. 조용히 보기나 해!",
    "note": "-lah = (권유·강조)",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a3_4.jpg"
+   "art": "assets/images/scenes/r1_love_a3_4.jpg",
+   "lemmas": [
+    [
+     "Bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "sakit",
+     "sakit",
+     ""
+    ],
+    [
+     "bodoh",
+     "bodoh",
+     ""
+    ],
+    [
+     "nonton",
+     "nonton",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

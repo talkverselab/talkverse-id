@@ -45,7 +45,24 @@
    "ko": "안녕하세요 손님, 뭘 도와드릴까요?",
    "note": "yang = ~하는 것 · bisa = 할 수 있다",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_1.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_1.jpg",
+   "lemmas": [
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "dibantu",
+     "bantu",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -55,7 +72,29 @@
    "ko": "제 여권이 없어요! 잃어버렸어요!",
    "note": "tidak ada = 없다",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_1.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_1.jpg",
+   "lemmas": [
+    [
+     "Paspor",
+     "paspor",
+     ""
+    ],
+    [
+     "tidak",
+     "tidak",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "Hilang",
+     "hilang",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -65,7 +104,29 @@
    "ko": "진정하세요, 손님. 가방은 찾아보고 확인하셨어요?",
    "note": "sudah = 이미 ~했다",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_2.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_2.jpg",
+   "lemmas": [
+    [
+     "Tenang",
+     "tenang",
+     ""
+    ],
+    [
+     "cari",
+     "cari",
+     ""
+    ],
+    [
+     "cek",
+     "cek",
+     ""
+    ],
+    [
+     "tas",
+     "tas",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -75,7 +136,24 @@
    "ko": "했어요. 제 가방이 완전 비었어요.",
    "note": "kosong = 비다",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_2.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_2.jpg",
+   "lemmas": [
+    [
+     "Sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "kosong",
+     "kosong",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -85,7 +163,14 @@
    "ko": "아이고, 손님! 여권 손에 들고 계시잖아요!",
    "note": "Anda = 당신(정중)",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_3.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_3.jpg",
+   "lemmas": [
+    [
+     "tangan",
+     "tangan",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -95,7 +180,29 @@
    "ko": "아 맞다, 이거 제 여권이네요. 고맙습니다!",
    "note": "terima kasih = 고맙습니다",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_3.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_3.jpg",
+   "lemmas": [
+    [
+     "iya",
+     "iya",
+     ""
+    ],
+    [
+     "paspor",
+     "paspor",
+     ""
+    ],
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -105,7 +212,34 @@
    "ko": "다음엔 손부터 확인해요.",
    "note": "dan = 그리고 · silakan = ~하세요",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s2_4.jpg"
+   "art": "assets/images/scenes/r1_survival_s2_4.jpg",
+   "lemmas": [
+    [
+     "Lain",
+     "lain",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ],
+    [
+     "cek",
+     "cek",
+     ""
+    ],
+    [
+     "tangan",
+     "tangan",
+     ""
+    ],
+    [
+     "dulu",
+     "dulu",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

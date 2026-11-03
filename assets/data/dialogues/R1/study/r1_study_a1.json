@@ -38,7 +38,19 @@
    "ko": "{country}에서 왔어? 인도네시아어 진짜 잘한다!",
    "note": "bagus = 좋다·잘한다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_1.jpg"
+   "art": "assets/images/scenes/r1_study_a1_1.jpg",
+   "lemmas": [
+    [
+     "bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -48,7 +60,29 @@
    "ko": "고마워! 나 매일 공부해.",
    "note": "tiap hari = 매일",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_1.jpg"
+   "art": "assets/images/scenes/r1_study_a1_1.jpg",
+   "lemmas": [
+    [
+     "Makasih",
+     "makasih",
+     ""
+    ],
+    [
+     "belajar",
+     "ajar",
+     ""
+    ],
+    [
+     "tiap",
+     "tiap",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -58,7 +92,29 @@
    "ko": "뭐 마실래? 내가 살게.",
    "note": "traktir = (밥·음료를) 사 주다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_2.jpg"
+   "art": "assets/images/scenes/r1_study_a1_2.jpg",
+   "lemmas": [
+    [
+     "Mau",
+     "mau",
+     ""
+    ],
+    [
+     "minum",
+     "minum",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "traktir",
+     "traktir",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -68,7 +124,29 @@
    "ko": "나 어린 머리 아이스 할래!",
    "note": "kepala = 머리 ↔ kelapa = 코코넛",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_2.jpg"
+   "art": "assets/images/scenes/r1_study_a1_2.jpg",
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "es",
+     "es",
+     ""
+    ],
+    [
+     "kepala",
+     "kepala",
+     ""
+    ],
+    [
+     "muda",
+     "muda",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -78,7 +156,14 @@
    "ko": "머리?! 하하하! 코코넛이지!",
    "note": "maksudnya = ~라는 뜻이지",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_3.jpg"
+   "art": "assets/images/scenes/r1_study_a1_3.jpg",
+   "lemmas": [
+    [
+     "Kepala",
+     "kepala",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -88,7 +173,24 @@
    "ko": "응, 코코넛! 머리 아니라니까!",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_3.jpg"
+   "art": "assets/images/scenes/r1_study_a1_3.jpg",
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "kelapa",
+     "kelapa",
+     ""
+    ],
+    [
+     "kepala",
+     "kepala",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -98,7 +200,39 @@
    "ko": "오케이, 너 줄 어린 코코넛 아이스... 머리는 빼고.",
    "note": "tanpa = ~ 없이",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a1_4.jpg"
+   "art": "assets/images/scenes/r1_study_a1_4.jpg",
+   "lemmas": [
+    [
+     "Oke",
+     "oke",
+     ""
+    ],
+    [
+     "es",
+     "es",
+     ""
+    ],
+    [
+     "kelapa",
+     "kelapa",
+     ""
+    ],
+    [
+     "muda",
+     "muda",
+     ""
+    ],
+    [
+     "tanpa",
+     "tanpa",
+     ""
+    ],
+    [
+     "kepala",
+     "kepala",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

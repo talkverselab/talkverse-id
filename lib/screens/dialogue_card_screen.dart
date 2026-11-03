@@ -8,6 +8,7 @@ import '../services/art_service.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
+import '../widgets/lemma_chips.dart';
 
 /// 편의 문장 플래시카드 — 일본어앱에서 옮김(2026-11-02). 앞면은 **그림만**(글자 없음), 탭하면 인도네시아어·단어 뜻·독음·한국어.
 /// 그림 = 턴 장면 그림(`art`) → 핵심 단어 그림 → 장면 카드. 틀림/맞음 2단계, 틀린 카드는 끝에 다시.
@@ -112,7 +113,7 @@ class _CardArt extends StatelessWidget {
   const _CardArt({super.key, required this.d, required this.t});
 
   Future<String?> _url() async {
-    if (t.art != null) return t.art;
+    if (t.art != null) return sceneVariant(t.art!);
     for (final w in t.pictureWords) {
       final u = await ArtService.instance.urlFor(w);
       if (u != null) return u;
@@ -173,6 +174,7 @@ class _CardText extends StatelessWidget {
                 const SizedBox(height: 10),
                 _section('번역'),
                 Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
+                if (t.lemmas.isNotEmpty) ...[const SizedBox(height: 12), _section('낱말 → 단어장'), LemmaChips(turn: t)],
                 if (t.note.isNotEmpty) ...[
                   const SizedBox(height: 12),
                   Container(
@@ -191,8 +193,11 @@ class _CardText extends StatelessWidget {
           : Center(
               child: Column(mainAxisSize: MainAxisSize.min, children: [
                 Text(name, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.sumi)),
-                const SizedBox(height: 8),
-                Text(tr('그림을 보고 인도네시아어로 말해 보세요'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+                const SizedBox(height: 10),
+                // 앞면에 한국어 뜻 — 무엇을 말할지 알고 인도네시아어로(사용자 지시 2026-11-04, 일본어앱과 같음)
+                Text(LearnerPrefs.fill(t.ko, ko: true), textAlign: TextAlign.center, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.4)),
+                const SizedBox(height: 12),
+                Text(tr('이 말을 인도네시아어로 해 보세요'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
                 const SizedBox(height: 4),
                 Text(tr('탭해서 확인'), style: const TextStyle(fontSize: 11, color: AppColors.muted, letterSpacing: 2)),
               ]),

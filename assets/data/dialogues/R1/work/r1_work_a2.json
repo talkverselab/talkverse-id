@@ -36,7 +36,24 @@
    "ko": "여보세요, 자기야? 응, 아직 회사야.",
    "note": "sayang = 자기야·사랑하는 · masih = 아직",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_1.jpg"
+   "art": "assets/images/scenes/r1_work_a2_1.jpg",
+   "lemmas": [
+    [
+     "sayang",
+     "sayang",
+     ""
+    ],
+    [
+     "masih",
+     "masih",
+     ""
+    ],
+    [
+     "kantor",
+     "kantor",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +63,19 @@
    "ko": "디마스 씨 애인 있어요?",
    "note": "Mas = (젊은 남자) ~씨",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_1.jpg"
+   "art": "assets/images/scenes/r1_work_a2_1.jpg",
+   "lemmas": [
+    [
+     "punya",
+     "punya",
+     ""
+    ],
+    [
+     "pacar",
+     "pacar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +85,19 @@
    "ko": "쉿! 응, 내 여자친구야.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_2.jpg"
+   "art": "assets/images/scenes/r1_work_a2_2.jpg",
+   "lemmas": [
+    [
+     "Ssst",
+     "ssst",
+     ""
+    ],
+    [
+     "pacar",
+     "pacar",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +107,14 @@
    "ko": "어, 그거 사장님 번호잖아요?",
    "note": "bukan = 아니다(명사 부정)",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_2.jpg"
+   "art": "assets/images/scenes/r1_work_a2_2.jpg",
+   "lemmas": [
+    [
+     "nomor",
+     "nomor",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +124,19 @@
    "ko": "아이고! 아니! 사장님한테 자기야라고 했어요!",
    "note": "salah sambung = 잘못 건 전화",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_3.jpg"
+   "art": "assets/images/scenes/r1_work_a2_3.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "sayang",
+     "sayang",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +146,19 @@
    "ko": "그래서 사장님이 뭐래요?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_3.jpg"
+   "art": "assets/images/scenes/r1_work_a2_3.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +168,29 @@
    "ko": "내일 그 방으로 오래요. 나 죽었어.",
    "note": "dia = 그·그녀",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a2_4.jpg"
+   "art": "assets/images/scenes/r1_work_a2_4.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "besok",
+     "besok",
+     ""
+    ],
+    [
+     "ruangannya",
+     "ruang",
+     ""
+    ],
+    [
+     "mati",
+     "mati",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

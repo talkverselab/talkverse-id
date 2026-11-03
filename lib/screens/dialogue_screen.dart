@@ -99,7 +99,7 @@ class TodayCutCard extends StatelessWidget {
     // 화면 폭이 아니라 이 카드가 놓인 칸의 폭으로 좌우/위아래를 고른다(아이패드 왼쪽 좁은 칸에서 말풍선이 잘리던 문제)
     return LayoutBuilder(builder: (context, c) {
       final side = wide && c.maxWidth >= 560;
-      final cut = SizedBox(height: side ? 180 : 170, child: SceneCut(dialogue: d, turn: t, bubble: true));
+      final cut = SizedBox(height: side ? 230 : 210, child: SceneCut(dialogue: d, turn: t, bubble: true)); // 그림 + 아래 대사 띠(2026-11-04)
       return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(color: AppColors.washi, border: Border.all(color: AppColors.line), borderRadius: BorderRadius.circular(16), boxShadow: kCardShadow),

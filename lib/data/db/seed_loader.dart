@@ -8,37 +8,35 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../core/constants.dart';
 import 'app_database.dart';
 
-/// 앱 최초 실행 시 assets/data → SQLite 시딩.
-/// 콘텐츠가 바뀌면 [_kSeededKey] 버전을 올려 재시딩한다.
+/// assets/data → SQLite 시딩.
+/// 번들 `assets/data/version.json` 의 `db`(업데이트 번호)와 저장된 번호가 다르면 어근·접사·빈도 단어를 다시 채운다
+/// (사용자 지시 2026-11-04, 일본어앱과 같은 규칙 — 데이터를 바꾸면 version.json 의 번호만 올린다. 옛 `db_seeded_v2`·`db_roots_words_v3` 키는 더 쓰지 않음).
+/// 옛 L1 턴(`Turns`)은 학습 기록(`UserProgress`)이 턴 번호에 걸려 있어 비어 있을 때만 채운다.
 class SeedLoader {
-  // v2: L1 ep1 40턴 + ep2 40턴, 어근 80, 변이 41, freq 120
-  static const _kSeededKey = 'db_seeded_v2';
+  static const _kDbVersion = 'db_version';
 
   final AppDatabase db;
   SeedLoader(this.db);
 
-  /// 어근·빈도 단어만 다시 넣는 버전(2026-11-02 어근 80→178, 빈도 단어 120→2,500).
-  /// [_kSeededKey] 를 올리면 회화 학습 기록까지 지워지므로, 어근·단어가 바뀔 때는 이 키만 올린다.
-  static const _kRootsWordsKey = 'db_roots_words_v3';
-
   Future<void> seedIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
-    if (prefs.getBool(_kSeededKey) == true) {
-      if (prefs.getBool(_kRootsWordsKey) != true) {
-        await _seedRoots();
-        await _seedWords();
-        await prefs.setBool(_kRootsWordsKey, true);
-      }
-      return;
-    }
-
+    final bundled = await bundledVersion();
+    if (prefs.getInt(_kDbVersion) == bundled) return;
     await _seedRoots();
     await _seedAffixes();
+    await db.delete(db.words).go();
     await _seedWords();
-    await _seedTurns();
+    if (await turnCount() == 0) await _seedTurns();
+    await prefs.setInt(_kDbVersion, bundled);
+  }
 
-    await prefs.setBool(_kSeededKey, true);
-    await prefs.setBool(_kRootsWordsKey, true);
+  static Future<int> bundledVersion() async {
+    try {
+      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      return (j['db'] as num).toInt();
+    } catch (_) {
+      return 0;
+    }
   }
 
   Future<void> _seedRoots() async {

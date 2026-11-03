@@ -40,7 +40,24 @@
    "ko": "어, 아까 시험 어땠어?",
    "note": "bagaimana = 어때·어떻게",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_1.jpg"
+   "art": "assets/images/scenes/r1_study_a3_1.jpg",
+   "lemmas": [
+    [
+     "ujianmu",
+     "uji",
+     ""
+    ],
+    [
+     "tadi",
+     "tadi",
+     ""
+    ],
+    [
+     "gimana",
+     "gimana",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -50,7 +67,29 @@
    "ko": "완전 망했어. 나 공부 안 했어.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_1.jpg"
+   "art": "assets/images/scenes/r1_study_a3_1.jpg",
+   "lemmas": [
+    [
+     "Hancur",
+     "hancur",
+     ""
+    ],
+    [
+     "total",
+     "total",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "belajar",
+     "ajar",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -60,7 +99,24 @@
    "ko": "왜 나한테 말 안 했어?",
    "note": "bilang = 말하다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_2.jpg"
+   "art": "assets/images/scenes/r1_study_a3_2.jpg",
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "bilang",
+     "bilang",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -70,7 +126,29 @@
    "ko": "창피해서. 넌 항상 너무 똑똑해.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_2.jpg"
+   "art": "assets/images/scenes/r1_study_a3_2.jpg",
+   "lemmas": [
+    [
+     "Malu",
+     "malu",
+     ""
+    ],
+    [
+     "selalu",
+     "selalu",
+     ""
+    ],
+    [
+     "pintar",
+     "pintar",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -80,7 +158,34 @@
    "ko": "내일부터 내가 개인 선생님 되어줄게.",
    "note": "meN-ajar-i = 가르치다 · akan = ~할 것이다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_3.jpg"
+   "art": "assets/images/scenes/r1_study_a3_3.jpg",
+   "lemmas": [
+    [
+     "Mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "besok",
+     "besok",
+     ""
+    ],
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "guru",
+     "guru",
+     ""
+    ],
+    [
+     "pribadimu",
+     "pribadi",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -90,7 +195,24 @@
    "ko": "진짜로? 매일 그렇게?",
    "note": "benar = 정말·맞다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_3.jpg"
+   "art": "assets/images/scenes/r1_study_a3_3.jpg",
+   "lemmas": [
+    [
+     "Beneran",
+     "beneran",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ],
+    [
+     "gitu",
+     "gitu",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -100,7 +222,29 @@
    "ko": "매일 그럼. 근데 커피는 네가 내.",
    "note": "traktir = 한턱내다",
    "tags": [],
-   "art": "assets/images/scenes/r1_study_a3_4.jpg"
+   "art": "assets/images/scenes/r1_study_a3_4.jpg",
+   "lemmas": [
+    [
+     "Tiap",
+     "tiap",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ],
+    [
+     "kopi",
+     "kopi",
+     ""
+    ],
+    [
+     "bayar",
+     "bayar",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -36,7 +36,29 @@
    "ko": "내일 아홉 시에 회의예요.",
    "note": "rapat = 회의",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_1.jpg"
+   "art": "assets/images/scenes/r1_work_a1_1.jpg",
+   "lemmas": [
+    [
+     "Besok",
+     "besok",
+     ""
+    ],
+    [
+     "rapat",
+     "rapat",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ],
+    [
+     "sembilan",
+     "sembilan",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +68,14 @@
    "ko": "네, 디마스 씨.",
    "note": "Mas = (젊은 남자) ~씨·형",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_1.jpg"
+   "art": "assets/images/scenes/r1_work_a1_1.jpg",
+   "lemmas": [
+    [
+     "Siap",
+     "siap",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +85,24 @@
    "ko": "저녁이에요 디마스 씨! 준비됐어요.",
    "note": "selamat malam = 저녁 인사",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_2.jpg"
+   "art": "assets/images/scenes/r1_work_a1_2.jpg",
+   "lemmas": [
+    [
+     "Malam",
+     "malam",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "siap",
+     "siap",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +112,29 @@
    "ko": "어? 밤 아홉 시에 회사에 있어요?",
    "note": "malam = 밤",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_2.jpg"
+   "art": "assets/images/scenes/r1_work_a1_2.jpg",
+   "lemmas": [
+    [
+     "kantor",
+     "kantor",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ],
+    [
+     "sembilan",
+     "sembilan",
+     ""
+    ],
+    [
+     "malam",
+     "malam",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +144,34 @@
    "ko": "왜 회의가 지금이 아니에요 디마스 씨? 완전 준비됐는데!",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_3.jpg"
+   "art": "assets/images/scenes/r1_work_a1_3.jpg",
+   "lemmas": [
+    [
+     "rapatnya",
+     "rapat",
+     ""
+    ],
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "sekarang",
+     "sekarang",
+     ""
+    ],
+    [
+     "siap",
+     "siap",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +181,34 @@
    "ko": "아침 아홉 시! 집에 가서 자!",
    "note": "pagi = 아침",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_3.jpg"
+   "art": "assets/images/scenes/r1_work_a1_3.jpg",
+   "lemmas": [
+    [
+     "Jam",
+     "jam",
+     ""
+    ],
+    [
+     "sembilan",
+     "sembilan",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ],
+    [
+     "Pulang",
+     "pulang",
+     ""
+    ],
+    [
+     "tidur",
+     "tidur",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +218,29 @@
    "ko": "네 근데 커피 두 잔 사 왔어요.",
    "note": "bawa = 가져오다",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_4.jpg"
+   "art": "assets/images/scenes/r1_work_a1_4.jpg",
+   "lemmas": [
+    [
+     "Oke",
+     "oke",
+     ""
+    ],
+    [
+     "bawa",
+     "bawa",
+     ""
+    ],
+    [
+     "kopi",
+     "kopi",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -106,7 +250,34 @@
    "ko": "괜찮아요. 오 분만 같이 있어 줄게요.",
    "note": "temani = 함께 있어 주다",
    "tags": [],
-   "art": "assets/images/scenes/r1_work_a1_4.jpg"
+   "art": "assets/images/scenes/r1_work_a1_4.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "temani",
+     "teman",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "menit",
+     "menit",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -37,7 +37,29 @@
    "ko": "오늘은 뭐 먹을래요?",
    "note": "hari ini = 오늘",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_1.jpg"
+   "art": "assets/images/scenes/r1_life_a2_1.jpg",
+   "lemmas": [
+    [
+     "Hari",
+     "hari",
+     ""
+    ],
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -47,7 +69,19 @@
    "ko": "아무거나요, 아주머니. 다 맛있어요.",
    "note": "apa saja = 아무거나",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_1.jpg"
+   "art": "assets/images/scenes/r1_life_a2_1.jpg",
+   "lemmas": [
+    [
+     "Apa",
+     "apa",
+     ""
+    ],
+    [
+     "enak",
+     "enak",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -57,7 +91,19 @@
    "ko": "알겠어요, 아무거나요.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_2.jpg"
+   "art": "assets/images/scenes/r1_life_a2_2.jpg",
+   "lemmas": [
+    [
+     "Oke",
+     "oke",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -67,7 +113,39 @@
    "ko": "여기요! 닭 생선 두부 템페 채소 달걀 다요!",
    "note": "(접시가 계속 나온다)",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_2.jpg"
+   "art": "assets/images/scenes/r1_life_a2_2.jpg",
+   "lemmas": [
+    [
+     "ikan",
+     "ikan",
+     ""
+    ],
+    [
+     "tahu",
+     "tahu",
+     ""
+    ],
+    [
+     "tempe",
+     "tempe",
+     ""
+    ],
+    [
+     "sayur",
+     "sayur",
+     ""
+    ],
+    [
+     "telur",
+     "telur",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -77,7 +155,19 @@
    "ko": "아주머니! 이거 열 명분이에요!",
    "note": "orang = 사람",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_3.jpg"
+   "art": "assets/images/scenes/r1_life_a2_3.jpg",
+   "lemmas": [
+    [
+     "sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -87,7 +177,19 @@
    "ko": "아무거나라며. 다 먹어요!",
    "note": "habiskan = 다 먹다",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_3.jpg"
+   "art": "assets/images/scenes/r1_life_a2_3.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -97,7 +199,29 @@
    "ko": "저 보기만 해도 배불러요.",
    "note": "kenyang = 배부르다",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a2_4.jpg"
+   "art": "assets/images/scenes/r1_life_a2_4.jpg",
+   "lemmas": [
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "kenyang",
+     "kenyang",
+     ""
+    ],
+    [
+     "liat",
+     "liat",
+     ""
+    ],
+    [
+     "doang",
+     "doang",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

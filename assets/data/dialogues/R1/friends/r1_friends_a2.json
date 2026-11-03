@@ -36,7 +36,19 @@
    "ko": "자, 나랑 듀엣 노래하자!",
    "note": "ayo = 자·하자 · dan = 그리고",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_1.jpg",
+   "lemmas": [
+    [
+     "nyanyi",
+     "nyanyi",
+     ""
+    ],
+    [
+     "duet",
+     "duet",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +58,24 @@
    "ko": "오케이. 너 목소리 좋긴 해?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_1.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_1.jpg",
+   "lemmas": [
+    [
+     "Oke",
+     "oke",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +85,29 @@
    "ko": "가수보다 낫지, 하하하!",
    "note": "lebih = 더",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_2.jpg",
+   "lemmas": [
+    [
+     "Lebih",
+     "lebih",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "penyanyi",
+     "nyanyi",
+     ""
+    ],
+    [
+     "hahaha",
+     "hahaha",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +117,19 @@
    "ko": "아이고 내 귀! 일단 멈춰!",
    "note": "dulu = 먼저·일단",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_2.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_2.jpg",
+   "lemmas": [
+    [
+     "telinga",
+     "telinga",
+     ""
+    ],
+    [
+     "dulu",
+     "dulu",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +139,24 @@
    "ko": "왜 이웃이 계속 두드려?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_3.jpg",
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "tetangga",
+     "tetangga",
+     ""
+    ],
+    [
+     "ketok",
+     "ketok",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +166,24 @@
    "ko": "우리 조용히 하래.",
    "note": "mereka = 그들 · kami = 우리(상대 제외) · harus = ~해야 한다",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_3.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_3.jpg",
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "harus",
+     "harus",
+     ""
+    ],
+    [
+     "diam",
+     "diam",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +193,34 @@
    "ko": "안 돼! 더 크게!",
    "note": "bisa = 할 수 있다 · untuk = ~위해",
    "tags": [],
-   "art": "assets/images/scenes/r1_friends_a2_4.jpg"
+   "art": "assets/images/scenes/r1_friends_a2_4.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "Lebih",
+     "lebih",
+     ""
+    ],
+    [
+     "kenceng",
+     "kenceng",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

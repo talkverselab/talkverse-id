@@ -38,7 +38,24 @@
    "ko": "너 애인 있어?",
    "note": "punya = 가지다",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_1.jpg"
+   "art": "assets/images/scenes/r1_love_a2_1.jpg",
+   "lemmas": [
+    [
+     "punya",
+     "punya",
+     ""
+    ],
+    [
+     "pacar",
+     "pacar",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -48,7 +65,19 @@
    "ko": "없어. 왜?",
    "note": "tidak = 아니다(동사·형용사 부정)",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_1.jpg"
+   "art": "assets/images/scenes/r1_love_a2_1.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "punya",
+     "punya",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -58,7 +87,24 @@
    "ko": "아니야. 그냥 물어본 거야.",
    "note": "saja = 그냥·~만",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_2.jpg"
+   "art": "assets/images/scenes/r1_love_a2_2.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "Tanya",
+     "tanya",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -68,7 +114,19 @@
    "ko": "너는 있어?",
    "note": "sendiri = 자신",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_2.jpg"
+   "art": "assets/images/scenes/r1_love_a2_2.jpg",
+   "lemmas": [
+    [
+     "sendiri",
+     "sendiri",
+     ""
+    ],
+    [
+     "punya",
+     "punya",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -78,7 +136,29 @@
    "ko": "아직. 너 엄청 기다리고 있어... 아, 내 커피!",
    "note": "-ku = 나의",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_3.jpg"
+   "art": "assets/images/scenes/r1_love_a2_3.jpg",
+   "lemmas": [
+    [
+     "Belum",
+     "belum",
+     ""
+    ],
+    [
+     "nungguin",
+     "nungguin",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "kopiku",
+     "kopi",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -88,7 +168,29 @@
    "ko": "네 커피 아까부터 와 있었어.",
    "note": "-mu = 너의 · tadi = 아까",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_3.jpg"
+   "art": "assets/images/scenes/r1_love_a2_3.jpg",
+   "lemmas": [
+    [
+     "Kopimu",
+     "kopi",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "datang",
+     "datang",
+     ""
+    ],
+    [
+     "tadi",
+     "tadi",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -98,7 +200,24 @@
    "ko": "됐어. 그렇게 쳐다보지 마!",
    "note": "jangan = ~하지 마",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_4.jpg"
+   "art": "assets/images/scenes/r1_love_a2_4.jpg",
+   "lemmas": [
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "lihat",
+     "lihat",
+     ""
+    ],
+    [
+     "gitu",
+     "gitu",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -108,7 +227,19 @@
    "ko": "나 네 커피만 보는 거야.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a2_4.jpg"
+   "art": "assets/images/scenes/r1_love_a2_4.jpg",
+   "lemmas": [
+    [
+     "lihat",
+     "lihat",
+     ""
+    ],
+    [
+     "kopimu",
+     "kopi",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -48,7 +48,19 @@
    "ko": "너 누구랑 보러 온 거야?",
    "note": "dengan siapa = 누구와",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_1.jpg"
+   "art": "assets/images/scenes/r1_love_a4_1.jpg",
+   "lemmas": [
+    [
+     "nonton",
+     "nonton",
+     ""
+    ],
+    [
+     "siapa",
+     "siapa",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -58,7 +70,14 @@
    "ko": "그냥 혼자. 너는?",
    "note": "sendiri = 혼자",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_1.jpg"
+   "art": "assets/images/scenes/r1_love_a4_1.jpg",
+   "lemmas": [
+    [
+     "Sendiri",
+     "sendiri",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -68,7 +87,19 @@
    "ko": "나도. 같이 보자.",
    "note": "ayo = ~하자 · bersama = 함께",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_2.jpg"
+   "art": "assets/images/scenes/r1_love_a4_2.jpg",
+   "lemmas": [
+    [
+     "nonton",
+     "nonton",
+     ""
+    ],
+    [
+     "bareng",
+     "bareng",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -78,7 +109,8 @@
    "ko": "어, 너희! Raka, Nadia, Dimas?",
    "note": "kalian = 너희",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_2.jpg"
+   "art": "assets/images/scenes/r1_love_a4_2.jpg",
+   "lemmas": []
   },
   {
    "num": 5,
@@ -88,7 +120,24 @@
    "ko": "왜 얘네가 다 여기 있는 거야? 완전 미쳤어!",
    "note": "mereka = 그들",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_3.jpg"
+   "art": "assets/images/scenes/r1_love_a4_3.jpg",
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -98,7 +147,19 @@
    "ko": "우연치고 엄청나네.",
    "note": "sekali = 아주·몹시",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_3.jpg"
+   "art": "assets/images/scenes/r1_love_a4_3.jpg",
+   "lemmas": [
+    [
+     "Kebetulan",
+     "betul",
+     ""
+    ],
+    [
+     "sekali",
+     "sekali",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -108,7 +169,34 @@
    "ko": "난 다섯 명이랑 보기 싫어.",
    "note": "tak = 안(tidak 줄임)",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_4.jpg"
+   "art": "assets/images/scenes/r1_love_a4_4.jpg",
+   "lemmas": [
+    [
+     "tak",
+     "tak",
+     ""
+    ],
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "nonton",
+     "nonton",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -118,7 +206,14 @@
    "ko": "그럼 나랑 너만?",
    "note": "ber-dua = 둘이서",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a4_4.jpg"
+   "art": "assets/images/scenes/r1_love_a4_4.jpg",
+   "lemmas": [
+    [
+     "Jadi",
+     "jadi",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -44,7 +44,19 @@
    "ko": "자, 아줌마 요리 좀 도와줘요!",
    "note": "ayo = 자·하자",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_1.jpg"
+   "art": "assets/images/scenes/r1_life_a4_1.jpg",
+   "lemmas": [
+    [
+     "bantu",
+     "bantu",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -54,7 +66,24 @@
    "ko": "저 요리 못 해요, 아주머니.",
    "note": "tak = 안·못(tidak 줄임)",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_1.jpg"
+   "art": "assets/images/scenes/r1_life_a4_1.jpg",
+   "lemmas": [
+    [
+     "tak",
+     "tak",
+     ""
+    ],
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -64,7 +93,19 @@
    "ko": "쉽잖아요? 양파만 썰어요.",
    "note": "kan = ~잖아",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_2.jpg"
+   "art": "assets/images/scenes/r1_life_a4_2.jpg",
+   "lemmas": [
+    [
+     "Gampang",
+     "gampang",
+     ""
+    ],
+    [
+     "bawang",
+     "bawang",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -74,7 +115,24 @@
    "ko": "아주머니… 눈이 너무 울어요!",
    "note": "meN-tangis = 울다",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_2.jpg"
+   "art": "assets/images/scenes/r1_life_a4_2.jpg",
+   "lemmas": [
+    [
+     "mata",
+     "mata",
+     ""
+    ],
+    [
+     "menangis",
+     "menangis",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -84,7 +142,24 @@
    "ko": "우는 거 아니에요. 양파 때문이지!",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_3.jpg"
+   "art": "assets/images/scenes/r1_life_a4_3.jpg",
+   "lemmas": [
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "menangis",
+     "menangis",
+     ""
+    ],
+    [
+     "bawang",
+     "bawang",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -94,7 +169,24 @@
    "ko": "아주머니, 양파 다 썰었어요.",
    "note": "habis = 다 떨어지다",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_3.jpg"
+   "art": "assets/images/scenes/r1_life_a4_3.jpg",
+   "lemmas": [
+    [
+     "bawangnya",
+     "bawang",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "habis",
+     "habis",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -104,7 +196,34 @@
    "ko": "좋아요! 눈이 울어요? 스무 개 더 썰어요!",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a4_4.jpg"
+   "art": "assets/images/scenes/r1_life_a4_4.jpg",
+   "lemmas": [
+    [
+     "Bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "menangis",
+     "menangis",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "puluh",
+     "puluh",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

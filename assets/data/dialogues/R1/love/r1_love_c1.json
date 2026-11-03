@@ -40,7 +40,24 @@
    "note": "udah = 벌써(sudah)",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_1.jpg"
+   "art": "assets/images/scenes/r1_love_c1_1.jpg",
+   "lemmas": [
+    [
+     "Udah",
+     "udah",
+     ""
+    ],
+    [
+     "bobok",
+     "bobok",
+     ""
+    ],
+    [
+     "belum",
+     "belum",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -51,7 +68,14 @@
    "note": "belum = 아직 아니다",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_1.jpg"
+   "art": "assets/images/scenes/r1_love_c1_1.jpg",
+   "lemmas": [
+    [
+     "Belum",
+     "belum",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -62,7 +86,19 @@
    "note": "mimpi indah = 좋은 꿈",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_2.jpg"
+   "art": "assets/images/scenes/r1_love_c1_2.jpg",
+   "lemmas": [
+    [
+     "Belum",
+     "belum",
+     ""
+    ],
+    [
+     "indah",
+     "indah",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -73,7 +109,8 @@
    "note": "",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_2.jpg"
+   "art": "assets/images/scenes/r1_love_c1_2.jpg",
+   "lemmas": []
   },
   {
    "num": 5,
@@ -84,7 +121,24 @@
    "note": "kok = 왜(의아함)",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_3.jpg"
+   "art": "assets/images/scenes/r1_love_c1_3.jpg",
+   "lemmas": [
+    [
+     "sepi",
+     "sepi",
+     ""
+    ],
+    [
+     "kirim",
+     "kirim",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -95,7 +149,29 @@
    "note": "keluarga = 가족",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_3.jpg"
+   "art": "assets/images/scenes/r1_love_c1_3.jpg",
+   "lemmas": [
+    [
+     "grup",
+     "grup",
+     ""
+    ],
+    [
+     "keluarga",
+     "keluarga",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "balas",
+     "balas",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -106,7 +182,14 @@
    "note": "mana = 어디(재촉)",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_4.jpg"
+   "art": "assets/images/scenes/r1_love_c1_4.jpg",
+   "lemmas": [
+    [
+     "mana",
+     "mana",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -117,7 +200,8 @@
    "note": "",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_love_c1_4.jpg"
+   "art": "assets/images/scenes/r1_love_c1_4.jpg",
+   "lemmas": []
   }
  ],
  "review": {

@@ -37,7 +37,29 @@
    "note": "jadi = (약속이) 그대로 하다",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_1.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_1.jpg",
+   "lemmas": [
+    [
+     "Bro",
+     "bro",
+     ""
+    ],
+    [
+     "nanti",
+     "nanti",
+     ""
+    ],
+    [
+     "malem",
+     "malem",
+     ""
+    ],
+    [
+     "jadi",
+     "jadi",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -48,7 +70,29 @@
    "note": "pesan suara = 음성 메시지",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_1.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_1.jpg",
+   "lemmas": [
+    [
+     "Jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "kirim",
+     "kirim",
+     ""
+    ],
+    [
+     "pesan",
+     "pesan",
+     ""
+    ],
+    [
+     "suara",
+     "suara",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -59,7 +103,19 @@
    "note": "",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_2.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_2.jpg",
+   "lemmas": [
+    [
+     "pesan",
+     "pesan",
+     ""
+    ],
+    [
+     "suara",
+     "suara",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -70,7 +126,34 @@
    "note": "grup = 단톡방",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_2.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_2.jpg",
+   "lemmas": [
+    [
+     "Gila",
+     "gila",
+     ""
+    ],
+    [
+     "masuk",
+     "masuk",
+     ""
+    ],
+    [
+     "grup",
+     "grup",
+     ""
+    ],
+    [
+     "kantor",
+     "kantor",
+     ""
+    ],
+    [
+     "denger",
+     "denger",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -81,7 +164,14 @@
    "note": "isinya = 그 내용",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_3.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_3.jpg",
+   "lemmas": [
+    [
+     "nyanyi",
+     "nyanyi",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -92,7 +182,29 @@
    "note": "udah = 벌써(sudah 구어)",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_3.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_3.jpg",
+   "lemmas": [
+    [
+     "Bos",
+     "bos",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "balas",
+     "balas",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -103,7 +215,24 @@
    "note": "pindah = 옮기다·이사하다",
    "tags": [],
    "ui": "bubble",
-   "art": "assets/images/scenes/r1_friends_c1_4.jpg"
+   "art": "assets/images/scenes/r1_friends_c1_4.jpg",
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "pindah",
+     "pindah",
+     ""
+    ],
+    [
+     "negara",
+     "negara",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

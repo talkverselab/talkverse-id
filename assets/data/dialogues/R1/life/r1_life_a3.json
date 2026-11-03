@@ -36,7 +36,34 @@
    "ko": "얘야, 오늘은 뭐 먹을래?",
    "note": "Nak = (아이·젊은이를 부를 때) 얘야",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_1.jpg"
+   "art": "assets/images/scenes/r1_life_a3_1.jpg",
+   "lemmas": [
+    [
+     "Nak",
+     "nak",
+     ""
+    ],
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +73,29 @@
    "ko": "나시고렝 매운 거 하나요, 아주머니.",
    "note": "yang = ~한 것",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_1.jpg"
+   "art": "assets/images/scenes/r1_life_a3_1.jpg",
+   "lemmas": [
+    [
+     "Nasi",
+     "nasi",
+     ""
+    ],
+    [
+     "goreng",
+     "goreng",
+     ""
+    ],
+    [
+     "pedas",
+     "pedas",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +105,19 @@
    "ko": "여기, 많이 먹어.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_2.jpg"
+   "art": "assets/images/scenes/r1_life_a3_2.jpg",
+   "lemmas": [
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "banyak-banyak",
+     "banyak",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +127,24 @@
    "ko": "고마워요, 아주머니. 얼마예요?",
    "note": "terima kasih = 고맙습니다",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_2.jpg"
+   "art": "assets/images/scenes/r1_life_a3_2.jpg",
+   "lemmas": [
+    [
+     "Makasih",
+     "makasih",
+     ""
+    ],
+    [
+     "Berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "harganya",
+     "harga",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +154,34 @@
    "ko": "돈 안 내도 돼. 내 자식 같아서.",
    "note": "seperti = ~같이 · anak = 아이·자식",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_3.jpg"
+   "art": "assets/images/scenes/r1_life_a3_3.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "usah",
+     "usah",
+     ""
+    ],
+    [
+     "bayar",
+     "bayar",
+     ""
+    ],
+    [
+     "anak",
+     "anak",
+     ""
+    ],
+    [
+     "sendiri",
+     "sendiri",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +191,19 @@
    "ko": "와, 아주머니 정말 좋으시네요!",
    "note": "baik = 좋다·착하다 · sekali = 매우",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_3.jpg"
+   "art": "assets/images/scenes/r1_life_a3_3.jpg",
+   "lemmas": [
+    [
+     "baik",
+     "baik",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +213,24 @@
    "ko": "어, 근데 어제 거는 아직 안 냈잖아!",
    "note": "di- = ~되다(수동)",
    "tags": [],
-   "art": "assets/images/scenes/r1_life_a3_4.jpg"
+   "art": "assets/images/scenes/r1_life_a3_4.jpg",
+   "lemmas": [
+    [
+     "kemarin",
+     "kemarin",
+     ""
+    ],
+    [
+     "belum",
+     "belum",
+     ""
+    ],
+    [
+     "bayar",
+     "bayar",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

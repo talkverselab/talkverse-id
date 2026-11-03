@@ -54,8 +54,15 @@ void main() {
     await wait(t, 1200);
     await shot(t, '03_topic_list');
 
-    await t.tap(find.text('매칭').first);
+    await t.tap(find.text('누구랑 왔어?').first);
     await wait(t, 1500);
+    // 이름이 비어 있으면 이름·성별 창(2026-11-04)
+    if (find.text('나중에').evaluate().isNotEmpty) {
+      await shot(t, '04a_name_dialog');
+      await t.enterText(find.byType(TextField).last, 'Mina');
+      await t.tap(find.text('저장'));
+      await wait(t, 1200);
+    }
     await shot(t, '04_reader');
 
     // 시안 02-2: 캡션의 단어를 누르면 단어 분석 시트

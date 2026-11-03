@@ -38,7 +38,24 @@
    "ko": "손님, 뭐 주문할래요?",
    "note": "Kak = 손님을 부르는 말(언니·오빠 둘 다)",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_1.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_1.jpg",
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "pesan",
+     "pesan",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -48,7 +65,24 @@
    "ko": "나시고렝 하나요, 아주머니.",
    "note": "Bu = 아주머니·여사님(Ibu 줄임)",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_1.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_1.jpg",
+   "lemmas": [
+    [
+     "Nasi",
+     "nasi",
+     ""
+    ],
+    [
+     "goreng",
+     "goreng",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -58,7 +92,19 @@
    "ko": "맵게 할래요, 안 맵게 할래요?",
    "note": "nggak = 아니(tidak 의 구어)",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_2.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_2.jpg",
+   "lemmas": [
+    [
+     "Pedas",
+     "pedas",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -68,7 +114,14 @@
    "ko": "조금만요, 아주머니.",
    "note": "sedikit aja = 조금만",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_2.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_2.jpg",
+   "lemmas": [
+    [
+     "Sedikit",
+     "sedikit",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -78,7 +131,24 @@
    "ko": "네! 아주 조금만… 어, 너무 많이 들어갔다!",
    "note": "(삼발을 계속 붓는다) siap = 알겠어요",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_3.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_3.jpg",
+   "lemmas": [
+    [
+     "Siap",
+     "siap",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "kebanyakan",
+     "banyak",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -88,7 +158,19 @@
    "ko": "아주머니! 그건 조금이 아니에요!",
    "note": "bukan = (명사 부정) ~이 아니다",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_3.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_3.jpg",
+   "lemmas": [
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "sedikit",
+     "sedikit",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -98,7 +180,19 @@
    "ko": "어머, 여기 사람한텐 이게 조금인데.",
    "note": "Lho = 어머·어라(의외)",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_4.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_4.jpg",
+   "lemmas": [
+    [
+     "sedikit",
+     "sedikit",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -108,7 +202,29 @@
    "ko": "달달한 아이스티 세 잔 주세요.",
    "note": "minta = 주세요(달라고 할 때)",
    "tags": [],
-   "art": "assets/images/scenes/r1_survival_s1_4.jpg"
+   "art": "assets/images/scenes/r1_survival_s1_4.jpg",
+   "lemmas": [
+    [
+     "Es",
+     "es",
+     ""
+    ],
+    [
+     "teh",
+     "teh",
+     ""
+    ],
+    [
+     "manis",
+     "manis",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

@@ -39,7 +39,24 @@
    "ko": "이 자리 비었어요?",
    "note": "kosong = 비어 있다",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_1.jpg"
+   "art": "assets/images/scenes/r1_love_a1_1.jpg",
+   "lemmas": [
+    [
+     "Kursinya",
+     "kursi",
+     ""
+    ],
+    [
+     "kosong",
+     "kosong",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -49,7 +66,19 @@
    "ko": "네, 비었어요. 앉으세요.",
    "note": "silakan = 어서 ~하세요(권유)",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_1.jpg"
+   "art": "assets/images/scenes/r1_love_a1_1.jpg",
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "kosong",
+     "kosong",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -59,7 +88,14 @@
    "ko": "고마워요. 여기 자주 와요?",
    "note": "makasih = 고마워(terima kasih 줄임)",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_2.jpg"
+   "art": "assets/images/scenes/r1_love_a1_2.jpg",
+   "lemmas": [
+    [
+     "Makasih",
+     "makasih",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -69,7 +105,24 @@
    "ko": "꽤요. 커피가 정말 맛있어요.",
    "note": "lumayan = 꽤·그럭저럭",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_2.jpg"
+   "art": "assets/images/scenes/r1_love_a1_2.jpg",
+   "lemmas": [
+    [
+     "Lumayan",
+     "lumayan",
+     ""
+    ],
+    [
+     "enak",
+     "enak",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -79,7 +132,24 @@
    "ko": "매주 토요일 저 여기 오는데... 커피 때문은 아니에요.",
    "note": "bukan karena = ~ 때문이 아니라",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_3.jpg"
+   "art": "assets/images/scenes/r1_love_a1_3.jpg",
+   "lemmas": [
+    [
+     "Tiap",
+     "tiap",
+     ""
+    ],
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "kopi",
+     "kopi",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -89,7 +159,14 @@
    "ko": "어, 그럼 뭐 때문에요?",
    "note": "terus = 그러면·그래서",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_3.jpg"
+   "art": "assets/images/scenes/r1_love_a1_3.jpg",
+   "lemmas": [
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -99,7 +176,24 @@
    "ko": "헤헤, 커피도 맛있긴 해요.",
    "note": "kok = (말끝) ~인걸·~거든",
    "tags": [],
-   "art": "assets/images/scenes/r1_love_a1_4.jpg"
+   "art": "assets/images/scenes/r1_love_a1_4.jpg",
+   "lemmas": [
+    [
+     "Hehe",
+     "hehe",
+     ""
+    ],
+    [
+     "kopinya",
+     "kopi",
+     ""
+    ],
+    [
+     "enak",
+     "enak",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

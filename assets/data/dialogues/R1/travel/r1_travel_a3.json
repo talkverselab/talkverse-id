@@ -36,7 +36,24 @@
    "ko": "아저씨, 역으로요. 저 엄청 늦었어요!",
    "note": "ter- = 저절로·이미 그렇게 된",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_1.jpg",
+   "lemmas": [
+    [
+     "stasiun",
+     "stasiun",
+     ""
+    ],
+    [
+     "telat",
+     "telat",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +63,19 @@
    "ko": "알았어! 꽉 잡아!",
    "note": "dengan = ~하게·~와",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_1.jpg",
+   "lemmas": [
+    [
+     "Siap",
+     "siap",
+     ""
+    ],
+    [
+     "kuat",
+     "kuat",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +85,19 @@
    "ko": "아저씨, 왜 골목으로 들어가요?",
    "note": "kenapa = 왜",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_2.jpg",
+   "lemmas": [
+    [
+     "masuk",
+     "masuk",
+     ""
+    ],
+    [
+     "gang",
+     "gang",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +107,29 @@
    "ko": "지름길이야. 아저씨는 다 알아!",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_2.jpg",
+   "lemmas": [
+    [
+     "Jalan",
+     "jalan",
+     ""
+    ],
+    [
+     "pintas",
+     "pintas",
+     ""
+    ],
+    [
+     "tahu",
+     "tahu",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +139,14 @@
    "ko": "아저씨, 여기 아저씨 집이에요?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_3.jpg",
+   "lemmas": [
+    [
+     "rumah",
+     "rumah",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +156,29 @@
    "ko": "응! 우리 집이야! 들렀다 가, 아내가 한 솥 했어!",
    "note": "mampir = 들르다",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_3.jpg",
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "istri",
+     "istri",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ],
+    [
+     "seember",
+     "ember",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +188,14 @@
    "ko": "아저씨! 제 기차는요?",
    "note": "bagaimana = 어떻게",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_4.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_4.jpg",
+   "lemmas": [
+    [
+     "bagaimana",
+     "bagaimana",
+     ""
+    ]
+   ]
   },
   {
    "num": 8,
@@ -106,7 +205,34 @@
    "ko": "밥부터 먹어, 기차는 아직 있어!",
    "note": "masih = 아직",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a3_4.jpg"
+   "art": "assets/images/scenes/r1_travel_a3_4.jpg",
+   "lemmas": [
+    [
+     "Makan",
+     "makan",
+     ""
+    ],
+    [
+     "dulu",
+     "dulu",
+     ""
+    ],
+    [
+     "kereta",
+     "kereta",
+     ""
+    ],
+    [
+     "masih",
+     "masih",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ]
+   ]
   }
  ],
  "review": {

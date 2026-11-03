@@ -12,6 +12,8 @@ import 'services/learner_prefs.dart';
 import 'data/repositories/dialogue_repository.dart';
 import 'data/repositories/root_repository.dart';
 import 'screens/main_screen.dart';
+import 'screens/sync_screen.dart';
+import 'services/content_sync.dart';
 
 late final AppDatabase appDb;
 late final DialogueRepository dialogueRepo;
@@ -29,11 +31,16 @@ void main() async {
   await AchievementService.instance.load();
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   Purchase.configure({Entitlement.lang: ('com.talkverse.indoUniverse.lifetime', 'lang_id')});
-  runApp(const IndoUniverseApp());
+  // 그림(단어 그림·장면 컷) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(사용자 지시 2026-11-04)
+  final view = WidgetsBinding.instance.platformDispatcher.views.first;
+  final large = view.physicalSize.shortestSide / view.devicePixelRatio >= 600;
+  final needSync = await ContentSync.instance.init(large: large);
+  runApp(IndoUniverseApp(syncFirst: needSync));
 }
 
 class IndoUniverseApp extends StatelessWidget {
-  const IndoUniverseApp({super.key});
+  final bool syncFirst;
+  const IndoUniverseApp({super.key, this.syncFirst = false});
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +50,7 @@ class IndoUniverseApp extends StatelessWidget {
       theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
       themeMode: ThemeMode.light,
-      home: const MainScreen(),
+      home: syncFirst ? const SyncScreen(next: MainScreen()) : const MainScreen(),
     );
   }
 }

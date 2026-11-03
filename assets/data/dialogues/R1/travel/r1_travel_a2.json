@@ -36,7 +36,24 @@
    "ko": "아, 비가 엄청 세게 오네!",
    "note": "waduh = 아이고",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_1.jpg",
+   "lemmas": [
+    [
+     "hujan",
+     "hujan",
+     ""
+    ],
+    [
+     "deras",
+     "deras",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 2,
@@ -46,7 +63,24 @@
    "ko": "아저씨, 저 우산 놓고 왔어요.",
    "note": "payung = 우산",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_1.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_1.jpg",
+   "lemmas": [
+    [
+     "lupa",
+     "lupa",
+     ""
+    ],
+    [
+     "bawa",
+     "bawa",
+     ""
+    ],
+    [
+     "payung",
+     "payung",
+     ""
+    ]
+   ]
   },
   {
    "num": 3,
@@ -56,7 +90,24 @@
    "ko": "자, 제 비옷 입어요.",
    "note": "jas hujan = 비옷",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_2.jpg",
+   "lemmas": [
+    [
+     "pakai",
+     "pakai",
+     ""
+    ],
+    [
+     "jas",
+     "jas",
+     ""
+    ],
+    [
+     "hujan",
+     "hujan",
+     ""
+    ]
+   ]
   },
   {
    "num": 4,
@@ -66,7 +117,19 @@
    "ko": "그럼 아저씨는 뭐 입어요?",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_2.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_2.jpg",
+   "lemmas": [
+    [
+     "pakai",
+     "pakai",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
   },
   {
    "num": 5,
@@ -76,7 +139,29 @@
    "ko": "아저씨는 오리 같아서 젖는 거 익숙해! 헤헤.",
    "note": "basah = 젖다",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_3.jpg",
+   "lemmas": [
+    [
+     "kayak",
+     "kayak",
+     ""
+    ],
+    [
+     "bebek",
+     "bebek",
+     ""
+    ],
+    [
+     "biasa",
+     "biasa",
+     ""
+    ],
+    [
+     "basah",
+     "basah",
+     ""
+    ]
+   ]
   },
   {
    "num": 6,
@@ -86,7 +171,24 @@
    "ko": "아저씨… 정말 고마워요.",
    "note": "",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_3.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_3.jpg",
+   "lemmas": [
+    [
+     "makasih",
+     "makasih",
+     ""
+    ],
+    [
+     "banyak",
+     "banyak",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
   },
   {
    "num": 7,
@@ -96,7 +198,34 @@
    "ko": "됐어. 요금은 두 배야!",
    "note": "nggak usah = 괜찮아·안 해도 돼",
    "tags": [],
-   "art": "assets/images/scenes/r1_travel_a2_4.jpg"
+   "art": "assets/images/scenes/r1_travel_a2_4.jpg",
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "usah",
+     "usah",
+     ""
+    ],
+    [
+     "Bayar",
+     "bayar",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ]
+   ]
   }
  ],
  "review": {
