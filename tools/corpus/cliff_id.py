@@ -14,6 +14,7 @@
 """
 import csv
 import json
+import multiprocessing
 import re
 import sys
 import time
@@ -154,16 +155,27 @@ with zipfile.ZipFile(src) as zf:
             print(f'{ndoc}편 {sum(surf.values())/1e6:.1f}M 낱말 {time.time()-t0:.0f}s', flush=True)
 print(f'읽기 끝 {ndoc}편, 낱말 종류 {len(surf)}', flush=True)
 
+def _work(chunk):
+    return [(w, analyze(w)) for w in chunk]
+
+
 cnt = Counter()
 whole = 0
-for i, (w, c) in enumerate(surf.items()):
-    toks = analyze(w)
-    if toks == [w] and '-' not in w:
-        whole += c
-    for t in toks:
-        cnt[t] += c
-    if i % 50000 == 0:
-        print(f'분석 {i}/{len(surf)} {time.time()-t0:.0f}s', flush=True)
+words = list(surf)
+CH = 2000
+chunks = [words[i:i + CH] for i in range(0, len(words), CH)]
+done = 0
+with multiprocessing.get_context("fork").Pool(max(1, multiprocessing.cpu_count() - 2)) as pool:  # macOS 기본 spawn 은 이 스크립트 전체를 자식에서 다시 실행함  # 종류 100만 넘는 혼합판은 1코어로 10시간 → 코어 나눠 돌림(2026-11-03)
+    for res in pool.imap(_work, chunks, chunksize=4):
+        for w, toks in res:
+            c = surf[w]
+            if toks == [w] and '-' not in w:
+                whole += c
+            for t in toks:
+                cnt[t] += c
+        done += len(res)
+        if done % 50000 < CH:
+            print(f'분석 {done}/{len(surf)} {time.time()-t0:.0f}s', flush=True)
 total = sum(cnt.values())
 
 
