@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(__file__))
 from rd_id import rd  # noqa: E402
 
-PROJECT = 'fe15a410-676a-4268-86cf-88620539e3f7'
+PROJECT = '21e10b10-7656-41b3-ae10-6218a40b53b0'  # 인도네시아어 회화 검수 (2026-11-03 계정 바뀌어 새로 만듦)
 OUTDIR = os.path.join(ROOT, 'data/review/rewrite')
 
 REGISTER = {

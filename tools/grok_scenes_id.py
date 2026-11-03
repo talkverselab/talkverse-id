@@ -15,7 +15,7 @@ import sys
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROJECT = '6e555047-e631-4661-bc3c-99d935b4ece0'  # talkverse UXUI id
+PROJECT = 'b1727d84-c387-4168-9355-77c6b7df2073'  # talkverse UXUI id (2026-11-03 M4 원본 프로필 계정이 바뀌어 새로 만듦)
 OUTDIR = os.path.join(ROOT, 'data/review/scenes')
 SHEET = os.path.join(ROOT, 'data/review/uxui/char_id_03_sheet.jpg')
 M4_ATT = '/tmp/grok_att/id'
@@ -57,7 +57,7 @@ def prompt_for(ep):
 장면: {ep['scene']}
 인물: A = {adesc}, B = {bdesc}. 시트의 얼굴·머리·옷을 그대로.
 화풍: 펠트·점토 인형, 파스텔·따뜻한 조명, 인도네시아(자카르타) 분위기가 나는 배경. **그림 안에 글자·말풍선·간판 글씨·상표 없음**(말풍선은 앱이 얹습니다). 가로 4:3.
-표정과 몸짓이 크게 — 이 앱은 카오스·재미·심쿵이 핵심이라 반전 컷({ep.get('twist', '')}번 턴이 든 컷)은 과장되게 웃기거나 설레게.
+{'**채팅 장면**: 두 사람은 같은 곳에 있지 않다 — 컷마다 화면을 좌우로 나눠(분할 화면) 각자 자기 방·자리에서 휴대폰을 보는 모습. 한 공간에 둘이 함께 있게 그리지 말 것.' + chr(10) if ep.get('kind') == 'chat' else ''}표정과 몸짓이 크게 — 이 앱은 카오스·재미·심쿵이 핵심이라 반전 컷({ep.get('twist', '')}번 턴이 든 컷)은 과장되게 웃기거나 설레게.
 
 컷마다 이 대화 한 쌍의 순간(대사는 그리지 말고 상황·표정만):
 """ + '\n'.join(cuts) + f"\n\n그림 {len(cuts)}장만, 설명은 \"그림 {len(cuts)}장 완료\" 한 줄."

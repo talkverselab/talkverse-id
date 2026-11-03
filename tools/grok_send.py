@@ -10,7 +10,7 @@ g.BASE = 'http://127.0.0.1:' + os.environ.get('GROK_CDP_PORT', '9228')  # 인도
 
 a = sys.argv[1:]
 src, dst = a[0], a[1]
-frag = a[a.index('--tab') + 1] if '--tab' in a else 'project/6e555047'
+frag = a[a.index('--tab') + 1] if '--tab' in a else 'project/b1727d84'
 wait = int(a[a.index('--wait') + 1]) if '--wait' in a else 300
 attach = [x for x in a[a.index('--attach') + 1].split(',') if x] if '--attach' in a else []  # 첨부 파일(쉼표 구분, 절대경로) — input[type=file] 에 DOM.setFileInputFiles
 LIMIT_RE = re.compile(r'(한도|limit|제한|rate|너무 많|사용량|초기화|다시 시도|try again|upgrade|SuperGrok)', re.I)
