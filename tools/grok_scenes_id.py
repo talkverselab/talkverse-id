@@ -206,6 +206,8 @@ def cmd_redo(path, cuts, extra):
     """검수에서 걸린 컷만 새 대화에서 다시 그린다. 시트 + 같은 편의 통과 컷 1장을 장소·차림 기준으로 첨부.
     python3 tools/grok_scenes_id.py redo <편.json> 3,4 "고칠 점"   (기준 컷 = 다시 그리지 않는 컷 중 첫 번째)"""
     ep = json.load(open(path, encoding='utf-8'))
+    if FEMALE:
+        ep['id'] += '_f'
     want = [int(x) for x in cuts.split(',')]
     allc = list(range(1, len(pairs(ep)) + 1))
     keep = [k for k in allc if k not in want and os.path.exists(os.path.join(OUTDIR, f"{ep['id']}_{k}.jpg"))]
@@ -267,7 +269,7 @@ def cmd_recapture(path, chat, which):
 
 if __name__ == '__main__':
     if sys.argv[1] == 'redo':
-        cmd_redo(*sys.argv[2:5])
+        cmd_redo(*[x for x in sys.argv[2:] if x != '--female'][:3])
         sys.exit()
     if sys.argv[1] == 'recapture':
         cmd_recapture(*sys.argv[2:5])
