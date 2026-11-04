@@ -69,7 +69,7 @@ FEMALE = '--female' in sys.argv  # 여자 학습자판(2026-11-04): A = 1번 여
 def cast_of(ep):
     b = ep['speakers'].get('B', '')
     bnum = CAST.get(b)
-    a = 1 if bnum == 2 else 2  # 학습자 A = 상대가 아닌 주인공(기본 남자 주인공)
+    a = 6 if bnum == 2 else 2  # 학습자 A = 남자 주인공, 상대가 남자 주인공이면 6번(2026-11-04 — 전엔 1번 여자 주인공이라 남자 학습자에게 여자가 보였음, 그 컷은 _f 로 옮김)
     if FEMALE:
         a = 1  # 상대가 1번이면(연애 편) 여자판을 만들지 않는다 — female_targets()
         return DESC[1] + ' — 이번엔 남자 주인공 대신 이 여자 주인공이 A(웨이브 흑발·꽃 머리핀·파란 꽃무늬 셔츠 그대로, 머리색·옷 바꾸지 말 것)', \
