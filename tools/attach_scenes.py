@@ -14,8 +14,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'data/review/scenes')
 DST = os.path.join(ROOT, 'assets/images/scenes')
 
-for path in sys.argv[1:]:
+FEMALE = '--female' in sys.argv  # 여자 학습자판: <편id>_f_<n>.jpg → 에셋만 넣고 art 는 그대로(앱 sceneVariant 가 고름)
+for path in [x for x in sys.argv[1:] if not x.startswith('--')]:
     ep = json.load(open(path, encoding='utf-8'))
+    if FEMALE:
+        for k in range(1, 5):
+            src = os.path.join(SRC, f"{ep['id']}_f_{k}.jpg")
+            if os.path.exists(src):
+                im = Image.open(src).convert('RGB')
+                d = round(im.width * 0.025)
+                im = im.crop((d, d, im.width - d, im.height - d)).resize((900, round((im.height - 2 * d) * 900 / (im.width - 2 * d))), Image.LANCZOS)
+                im.save(os.path.join(DST, f"{ep['id']}_f_{k}.jpg"), quality=82, optimize=True)
+                print(ep['id'], '여자판 컷', k)
+        continue
     os.makedirs(DST, exist_ok=True)
     n = 0
     for k in range(1, 5):

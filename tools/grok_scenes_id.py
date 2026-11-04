@@ -25,6 +25,36 @@ CAST = {'Ayu': 1, 'Raka': 2, 'Bu Sri': 3, 'Pak Darto': 4, 'Nadia': 5, 'Dimas': 6
 DESC = {1: '1번 여자 주인공(웨이브 흑발·꽃 머리핀·파란 꽃무늬 셔츠)', 2: '2번 남자 주인공(곱슬 흑발·바틱 셔츠)',
         3: '3번 와룽 아주머니(연갈색 히잡·바틱 앞치마)', 4: '4번 오토바이 기사 아저씨(콧수염·초록 재킷·헬멧)',
         5: '5번 대학 친구(분홍 히잡·안경)', 6: '6번 직장 동료(안경·흰 셔츠)'}
+# 조연 시트(2026-11-04, tools/grok_cast_id.py) — 그 조연이 나오는 편에만 첨부 2 로. 대사에만 나오는 조연(교수·사장)도 장면 설명에 이름이 있으면 붙인다
+CAST_SHEETS = {'campus': os.path.join(ROOT, 'data/review/uxui/cast_campus_v1.jpg'), 'street': os.path.join(ROOT, 'data/review/uxui/cast_street_v1.jpg')}
+SIDE = {'Pak Dosen': ('campus', '조연 시트(캠퍼스·직장) 1번 교수(희끗한 머리·둥근 안경·갈색 바틱 셔츠)'),
+        'Pak Bos': ('campus', '조연 시트(캠퍼스·직장) 2번 사장(통통·콧수염·남색 정장·흰 셔츠)'),
+        'Mbak Rina': ('campus', '조연 시트(캠퍼스·직장) 3번 선배(갈색 단발·겨자색 블라우스)'),
+        'Satpam': ('campus', '조연 시트(캠퍼스·직장) 4번 경비(남색 제복·모자·호루라기)'),
+        'Kasir': ('street', '조연 시트(거리·가게) 1번 점원(곱슬 흑발·빨간 폴로)'),
+        'Petugas': ('street', '조연 시트(거리·가게) 2번 안내 직원(남색 히잡·하늘색 제복)'),
+        'Sopir': ('street', '조연 시트(거리·가게) 3번 앙콧 기사(목에 흰 수건·체크 셔츠·샌들)'),
+        'Bu Kos': ('street', '조연 시트(거리·가게) 4번 하숙집 주인(흰 히잡·꽃무늬 원피스)')}
+SIDE_ALIAS = {'dosen': 'Pak Dosen', '교수': 'Pak Dosen', 'Bos': 'Pak Bos', '사장': 'Pak Bos', 'satpam': 'Satpam', '경비': 'Satpam'}
+
+
+def side_cast(ep):
+    """이 편에 나오는 조연 이름 목록(화자 + 대사·장면에 나오는 반복 조연)."""
+    found = [v for v in ep['speakers'].values() if v in SIDE]
+    text = ep.get('scene', '') + ' '.join(t.get('tl', '') + t.get('ko', '') for t in ep['turns'])
+    for k, v in SIDE_ALIAS.items():
+        if k in text and v not in found:
+            found.append(v)
+    return found
+
+
+def side_sheets(ep):
+    ks = []
+    for n in side_cast(ep):
+        k = SIDE[n][0]
+        if k not in ks:
+            ks.append(k)
+    return [CAST_SHEETS[k] for k in ks]
 
 # 그림을 화면 위에서 110px 아래(고정 머리띠 아래)에 맞춘다 — 실제로 스크롤되는 조상 틀을 찾아 움직인다
 PLACE = ("(()=>{{const im=[...document.querySelectorAll('img')].filter(i=>i.src.includes('generated'))[{k}];"
@@ -33,12 +63,29 @@ PLACE = ("(()=>{{const im=[...document.querySelectorAll('img')].filter(i=>i.src.
 OK_TOP, OK_BOTTOM = 90, 170  # 고정 머리띠 아래, 떠 있는 입력창 위
 
 
+FEMALE = '--female' in sys.argv  # 여자 학습자판(2026-11-04): A = 1번 여자 주인공, 결과 <편id>_f_<n>.jpg — 앱은 프로필 성별이 여자면 이쪽을 먼저
+
+
 def cast_of(ep):
     b = ep['speakers'].get('B', '')
     bnum = CAST.get(b)
     a = 1 if bnum == 2 else 2  # 학습자 A = 상대가 아닌 주인공(기본 남자 주인공)
-    bdesc = DESC[bnum] if bnum else f'{b}(점원 — 시트에 없는 단역, 같은 점토 화풍의 20대 점원, 유니폼·명찰 글자 없음)'
+    if FEMALE:
+        a = 1  # 상대가 1번이면(연애 편) 여자판을 만들지 않는다 — female_targets()
+        return DESC[1] + ' — 이번엔 남자 주인공 대신 이 여자 주인공이 A(웨이브 흑발·꽃 머리핀·파란 꽃무늬 셔츠 그대로, 머리색·옷 바꾸지 말 것)', \
+            (DESC[bnum] if bnum else (SIDE[b][1] if b in SIDE else f'{b}(시트에 없는 단역, 같은 점토 화풍, 유니폼·명찰 글자 없음)'))
+    bdesc = DESC[bnum] if bnum else (SIDE[b][1] if b in SIDE else f'{b}(시트에 없는 단역, 같은 점토 화풍, 유니폼·명찰 글자 없음)')
     return DESC[a], bdesc
+
+
+def side_note(ep):
+    xs = [n for n in side_cast(ep) if n not in ep['speakers'].values()]
+    if not side_cast(ep):
+        return ''
+    out = '두 번째 이후 첨부 = 조연 시트 — 조연의 얼굴·머리·옷을 그대로.'
+    if xs:
+        out += ' 이 회화에 나오는 조연: ' + ', '.join(SIDE[n][1] for n in xs) + '.'
+    return out + chr(10)
 
 
 def pairs(ep):
@@ -56,7 +103,7 @@ def prompt_for(ep):
 
 장면: {ep['scene']}
 인물: A = {adesc}, B = {bdesc}. 시트의 얼굴·머리·옷을 그대로.
-화풍: 펠트·점토 인형, 파스텔·따뜻한 조명, 인도네시아(자카르타) 분위기가 나는 배경. **그림 안에 글자·말풍선·간판 글씨·상표 없음**(말풍선은 앱이 얹습니다). 가로 4:3.
+{side_note(ep)}{'마지막 첨부 = 이 회화의 기존 1번 컷(남자 주인공판) — **장소·조명·B 의 차림은 이 컷과 같게**, A 만 여자 주인공으로.' + chr(10) if FEMALE else ''}화풍: 펠트·점토 인형, 파스텔·따뜻한 조명, 인도네시아(자카르타) 분위기가 나는 배경. **그림 안에 글자·말풍선·간판 글씨·상표 없음**(말풍선은 앱이 얹습니다). 가로 4:3.
 {'**채팅 장면**: 두 사람은 같은 곳에 있지 않다 — 컷마다 화면을 좌우로 나눠(분할 화면) 각자 자기 방·자리에서 휴대폰을 보는 모습. 한 공간에 둘이 함께 있게 그리지 말 것.' + chr(10) if ep.get('kind') == 'chat' else ''}표정과 몸짓이 크게 — 이 앱은 카오스·재미·심쿵이 핵심이라 반전 컷({ep.get('twist', '')}번 턴이 든 컷)은 과장되게 웃기거나 설레게.
 
 컷마다 이 대화 한 쌍의 순간(대사는 그리지 말고 상황·표정만):
@@ -65,6 +112,8 @@ def prompt_for(ep):
 
 def cmd_prompt(path):
     ep = json.load(open(path, encoding='utf-8'))
+    if FEMALE:
+        ep['id'] += '_f'
     os.makedirs(OUTDIR, exist_ok=True)
     p = os.path.join(OUTDIR, ep['id'] + '_prompt.md')
     open(p, 'w', encoding='utf-8').write(prompt_for(ep))
@@ -99,17 +148,32 @@ def _wait(g, ep, want_n):
     return c, n
 
 
+def female_targets(ep):
+    """여자판이 필요한 편 = 기본 컷의 A 가 남자 주인공(2번)이고 상대가 1번 여자 주인공이 아닌 편."""
+    b = CAST.get(ep['speakers'].get('B', ''))
+    return b not in (1, 2)
+
+
 def cmd_send(path):
+    if FEMALE:
+        ep0 = json.load(open(path, encoding='utf-8'))
+        if not female_targets(ep0):
+            print(ep0['id'], '여자판 대상 아님')
+            return
     ep, p = cmd_prompt(path)
     n_cuts = len(pairs(ep))
     subprocess.run(['ssh', 'macmini4', f'mkdir -p {M4_ATT}'], check=True)
-    subprocess.run(['scp', '-q', SHEET, f'macmini4:{M4_ATT}/char_id_03_sheet.jpg'], check=True)
+    remote = []
+    ref = [os.path.join(OUTDIR, ep['id'][:-2] + '_1.jpg')] if FEMALE and os.path.exists(os.path.join(OUTDIR, ep['id'][:-2] + '_1.jpg')) else []
+    for f in [SHEET] + side_sheets(ep) + ref:
+        subprocess.run(['scp', '-q', f, f'macmini4:{M4_ATT}/{os.path.basename(f)}'], check=True)
+        remote.append(f'{M4_ATT}/{os.path.basename(f)}')
     g = _grok()
     c = g.CDP(g.tab('grok.com'))
     c.call('Page.navigate', url=f'https://grok.com/project/{PROJECT}')
     time.sleep(7)
     subprocess.run(['/usr/bin/python3', os.path.join(ROOT, 'tools/grok_send.py'), p, os.path.join(OUTDIR, ep['id'] + '_answer.md'),
-                    '--tab', f'project/{PROJECT[:8]}', '--wait', '30', '--model', '빠른', '--attach', f'{M4_ATT}/char_id_03_sheet.jpg'], capture_output=True, text=True)
+                    '--tab', f'project/{PROJECT[:8]}', '--wait', '30', '--model', '빠른', '--attach', ','.join(remote)], capture_output=True, text=True)
     c, n = _wait(g, ep, n_cuts)
     c.call('Page.bringToFront')
     saved = len(_capture(c, ep, list(range(1, min(n, n_cuts) + 1)), max(0, n - n_cuts)))
@@ -161,7 +225,7 @@ def cmd_redo(path, cuts, extra):
 """ + '\n'.join(lines) + f"\n\n그림 {len(want)}장만, 설명은 \"그림 {len(want)}장 완료\" 한 줄."
     p = os.path.join(OUTDIR, ep['id'] + '_redo_prompt.md')
     open(p, 'w', encoding='utf-8').write(text)
-    att = [SHEET] + ([os.path.join(OUTDIR, f"{ep['id']}_{keep[0]}.jpg")] if keep else [])
+    att = [SHEET] + ([os.path.join(OUTDIR, f"{ep['id']}_{keep[0]}.jpg")] if keep else []) + side_sheets(ep)
     subprocess.run(['ssh', 'macmini4', f'mkdir -p {M4_ATT}'], check=True)
     remote = []
     for f in att:
@@ -208,5 +272,5 @@ if __name__ == '__main__':
     if sys.argv[1] == 'recapture':
         cmd_recapture(*sys.argv[2:5])
         sys.exit()
-    cmd, path = sys.argv[1], sys.argv[2]
+    cmd, path = sys.argv[1], [x for x in sys.argv[2:] if not x.startswith('--')][0]
     {'prompt': cmd_prompt, 'send': cmd_send}[cmd](path)
