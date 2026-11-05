@@ -8,6 +8,8 @@ import 'package:indo_universe/data/repositories/dialogue_repository.dart';
 import 'package:indo_universe/data/repositories/root_repository.dart';
 import 'package:indo_universe/main.dart';
 import 'package:indo_universe/services/achievement_service.dart';
+import 'package:indo_universe/services/art_service.dart';
+import 'package:indo_universe/services/content_sync.dart';
 import 'package:indo_universe/services/learner_prefs.dart';
 import 'package:integration_test/integration_test.dart';
 
@@ -40,6 +42,8 @@ void main() {
     await rootRepo.primeAffixUtil();
     await LearnerPrefs.load();
     await AchievementService.instance.load();
+    await ContentSync.instance.init(large: true); // 저장소 장면 컷 쓰는지 확인
+    print('SCENE_URL:${await sceneVariant('assets/images/scenes/r1_friends_a1_1.jpg')}');
     await t.pumpWidget(const IndoUniverseApp());
     await wait(t, 1500);
     await shot(t, '01_home_wide');
