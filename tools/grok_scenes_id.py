@@ -41,7 +41,7 @@ SIDE_ALIAS = {'dosen': 'Pak Dosen', '교수': 'Pak Dosen', 'Bos': 'Pak Bos', '�
 def side_cast(ep):
     """이 편에 나오는 조연 이름 목록(화자 + 대사·장면에 나오는 반복 조연)."""
     found = [v for v in ep['speakers'].values() if v in SIDE]
-    text = ep.get('scene', '') + ' '.join(t.get('tl', '') + t.get('ko', '') for t in ep['turns'])
+    text = ep.get('scene', '') + ' '.join(t.get('id', '') + t.get('ko', '') for t in ep['turns'])
     for k, v in SIDE_ALIAS.items():
         if k in text and v not in found:
             found.append(v)

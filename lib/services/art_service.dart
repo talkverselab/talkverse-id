@@ -16,18 +16,32 @@ import 'learner_prefs.dart';
 ///   → `{lang, level, count, base, items:[{id, rank, level, word, reading, ko, en, pos, key_1024, key_512}]}`
 /// - 그림 = `base + key` (512·1024 webp, 1년 캐시). 
 /// 매니페스트는 SharedPreferences 에 하루 캐시하고, 없으면 그림 없이 카드가 그대로 나온다(실패해도 화면은 멀쩡해야 한다).
-/// 그림 주소 → 위젯. `assets/` 로 시작하면 앱에 넣은 장면 컷(회화 그림 — 칸을 꽉 채움), 아니면 인터넷 단어 그림(잘리지 않게 [fit]).
+/// 그림 주소 → 위젯. 장면 컷(앱에 넣은 `assets/` 또는 저장소 `/scene/`)은 칸을 꽉 채우고, 단어 그림은 잘리지 않게 [fit].
 Widget artImage(String url, {BoxFit fit = BoxFit.contain, required Widget Function() fallback}) => url.startsWith('assets/')
     ? Image.asset(url, fit: BoxFit.cover, errorBuilder: (_, _, _) => fallback())
-    : Image(image: artProvider(url), fit: fit, errorBuilder: (_, _, _) => fallback()); // 기기에 받아 둔 그림 우선(ContentSync, 2026-11-04)
+    : Image(image: artProvider(url), fit: url.contains('/scene/') ? BoxFit.cover : fit, errorBuilder: (_, _, _) => fallback()); // 기기에 받아 둔 그림 우선(ContentSync, 2026-11-04)
 
-/// 여자 학습자 컷: 프로필 성별이 여자면 `<편id>_f_<컷>.jpg` 가 앱에 있을 때 그것을(없으면 기본 컷) — 2026-11-04, 일본어앱과 같은 규칙.
+/// 턴의 `art`(앱 에셋 경로) → 실제로 보여 줄 컷. 그림 저장소에 올라온 컷을 먼저 쓰고(2026-11-05), 없거나 오프라인 첫 실행이면 앱에 넣어 둔 컷.
+/// 프로필 성별이 여자면 여자판(`<편id>_f`)을 먼저, 없으면 기본 컷 — 일본어앱과 같은 규칙.
 Set<String>? _assetSet;
 Future<String> sceneVariant(String path) async {
-  if (!LearnerPrefs.isFemale || !path.startsWith('assets/images/scenes/')) return path;
-  _assetSet ??= (await AssetManifest.loadFromAssetBundle(rootBundle)).listAssets().toSet();
-  final f = path.replaceFirstMapped(RegExp(r'_(\d+)\.(jpg|webp|png)$'), (m) => '_f_${m[1]}.${m[2]}');
-  return _assetSet!.contains(f) ? f : path;
+  final m = RegExp(r'^assets/images/scenes/(.+)_(\d+)\.(jpg|webp|png)$').firstMatch(path);
+  if (m == null) return path;
+  final ep = m[1]!, n = int.parse(m[2]!);
+  final sync = ContentSync.instance;
+  String? server(String id) {
+    final k = sync.sceneIndex[id]?[n];
+    return k == null ? null : '${sync.base}/$k';
+  }
+
+  if (LearnerPrefs.isFemale) {
+    final f = server('${ep}_f');
+    if (f != null) return f;
+    _assetSet ??= (await AssetManifest.loadFromAssetBundle(rootBundle)).listAssets().toSet();
+    final local = 'assets/images/scenes/${ep}_f_$n.${m[3]}';
+    if (_assetSet!.contains(local)) return local;
+  }
+  return server(ep) ?? path;
 }
 
 class ArtService {

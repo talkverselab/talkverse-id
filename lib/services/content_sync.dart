@@ -16,7 +16,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 ///   「나중에」를 누르면 앱을 먼저 열고 뒤에서 계속 받는다 — 아직 없는 그림은 네트워크로 바로 보인다.
 /// - 파일은 앱 지원 폴더 `art/<키>` 에 두고, 색인 `art/index.json`(키 → v) 으로 관리한다.
 /// - 그림을 그리는 쪽은 `artProvider(url)` 로 — 기기에 있으면 파일, 없으면 네트워크.
-/// - 인도네시아어앱의 장면 컷은 지금 앱에 넣어 둔 것(`assets/images/scenes/`)이라 장면 매니페스트는 비어 있다 — 서버에 올라오면 그대로 받는다.
+/// - 장면 컷은 그림 저장소에 있고(2026-11-05) `sceneVariant` 가 [sceneIndex] 로 찾는다. 앱에 넣어 둔 `assets/images/scenes/` 는 오프라인 첫 실행용 예비.
 /// - 회화·단어 DB 버전은 번들 `assets/data/version.json` 의 `db` 번호(SeedLoader 가 비교).
 class SyncProgress {
   final String phase; // idle | manifest | download | done | offline
