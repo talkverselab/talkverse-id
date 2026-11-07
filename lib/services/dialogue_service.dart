@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'content_sync.dart';
 import 'learner_prefs.dart';
 
 /// 회화 리더(일본어앱 시안 02 「만화책 읽기형」)용 회화 모델 — 2026-11-02, 일본어앱 `dialogue_service.dart` 를 옮김.
@@ -53,6 +54,10 @@ class DialogueTurn {
         lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
       );
 
+  /// 음성이 읽는 본문으로 바꾼 턴(나머지 칸은 그대로).
+  DialogueTurn withText({required String tl, required String rd, required String ko}) => DialogueTurn(
+        num: num, speaker: speaker, tl: tl, gloss: gloss, rd: rd, ko: ko, note: note, tags: tags, art: art, lemmas: lemmas);
+
   /// 문장에서 단어장과 이어지는 낱말(소문자 표면형) — 밑줄 색으로 표시.
   Set<String> get lemmaSurfaces => {for (final l in lemmas) l.surface.toLowerCase()};
 
@@ -87,6 +92,13 @@ class Dialogue {
     required this.turns,
     this.art,
   });
+
+  /// 화면에 보일 턴: 생성 음성이 있으면 그 음성이 읽는 본문(학습자 성별판, 이름이 들어간 글) — 듣는 말과 글이 같아야 한다.
+  DialogueTurn view(DialogueTurn t) {
+    final l = ContentSync.instance.audioIndex[id]?[t.num]?[LearnerPrefs.isFemale ? 'f' : 'm'];
+    if (l == null || l.text.isEmpty) return t;
+    return t.withText(tl: l.text, rd: l.rd, ko: l.ko);
+  }
 
   /// 화자 표시 이름. `{name}` 자리는 학습자 이름(없으면 「나」).
   String speakerName(String sp) {

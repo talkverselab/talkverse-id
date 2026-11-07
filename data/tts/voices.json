@@ -1,0 +1,152 @@
+{
+ "_meta": "인도네시아어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 참고 음성은 VoxCPM2(설명 instruct 는 영어).",
+ "base_text": "Sore ini saya ada rapat, jadi semua bahan sudah saya siapkan dari tadi pagi. Nanti kalau sudah selesai, kita makan malam bersama, ya?",
+ "voices": {
+  "am": {
+   "desc": "A young Indonesian man in his twenties, clear and gentle voice"
+  },
+  "af": {
+   "desc": "A young Indonesian woman in her twenties, clear and soft voice"
+  },
+  "ayu": {
+   "desc": "An Indonesian woman in her early twenties, bright, sweet and playful voice"
+  },
+  "raka": {
+   "desc": "An Indonesian man in his mid twenties, relaxed, friendly and slightly deep voice"
+  },
+  "nadia": {
+   "desc": "An Indonesian woman in her twenties, quick, lively and clever voice"
+  },
+  "dimas": {
+   "desc": "An Indonesian man in his early thirties, steady, polite and slightly dry voice"
+  },
+  "busri": {
+   "desc": "An Indonesian woman in her forties, warm, brisk and motherly voice"
+  },
+  "darto": {
+   "desc": "An Indonesian man in his fifties, cheerful, slightly husky and talkative voice"
+  },
+  "man_y": {
+   "desc": "An Indonesian man around twenty, natural and clear voice"
+  },
+  "man_m": {
+   "desc": "An Indonesian man in his forties, steady and calm voice"
+  },
+  "man_o": {
+   "desc": "An Indonesian man in his seventies, aged and gentle voice"
+  },
+  "woman_y": {
+   "desc": "An Indonesian woman around twenty, natural and clear voice"
+  },
+  "woman_m": {
+   "desc": "An Indonesian woman in her forties, composed and kind voice"
+  },
+  "woman_o": {
+   "desc": "An Indonesian woman in her seventies, aged and warm voice"
+  },
+  "kid": {
+   "desc": "An Indonesian child around eight years old, small and bright voice"
+  },
+  "announce": {
+   "desc": "A clear, even female announcer voice, like a station or airport announcement"
+  },
+  "robot": {
+   "desc": "A flat synthetic machine voice, like a kiosk or payment terminal"
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone",
+   "ref": "Sore ini saya ada rapat, jadi bahan-bahannya saya siapkan dulu."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff",
+   "ref": "Selamat siang, Bu. Pesanan Ibu sudah siap. Silakan dinikmati."
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite",
+   "ref": "Terima kasih banyak atas waktunya. Saya akan berusaha sebaik mungkin. Mohon bimbingannya."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly",
+   "ref": "Eh, kamu sudah datang! Cuacanya bagus sekali, hari ini pasti menyenangkan."
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed",
+   "ref": "Haha, lucu sekali! Bagus, teruskan saja seperti itu."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous",
+   "ref": "Kenapa mukamu begitu? Ayo, jujur saja. Saya tidak akan bilang siapa-siapa."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud",
+   "ref": "Berhasil, saya berhasil! Saya sendiri sampai kaget. Terima kasih banyak!"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps",
+   "ref": "Hah? Serius? Tunggu sebentar, apa maksudnya?"
+  },
+  "shout": {
+   "instruct": "surprised and loud, an exaggerated comic retort",
+   "ref": "Apa? Sekarang? Kalau mendadak begini, saya harus bagaimana!"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "ref": "Bukan begitu! Kenapa malah di situ, sih? Aduh, kamu ini."
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing",
+   "ref": "Aduh, itu lagi? Sudah cukup, jangan dibahas terus."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling",
+   "ref": "Saya cuma agak capek. Tidak apa-apa. Jangan dipikirkan."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant",
+   "ref": "Kamu tidak apa-apa? Sakit, ya? Apa tidak sebaiknya ke dokter?"
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure",
+   "ref": "Eh, anu, itu, sebentar... saya tidak tahu harus bilang apa..."
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off",
+   "ref": "Ah... itu... saya juga suka. Jadi... ayo pergi bersama."
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet",
+   "ref": "Tidak apa-apa. Pelan-pelan saja. Saya ada di sini."
+  }
+ },
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "에마",
+    "ko": "에마"
+   }
+  },
+  "{country}": {
+   "text": "Kanada",
+   "rd": "까나다",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "rd": "또론또",
+   "ko": "토론토"
+  },
+  "{lang}": {
+   "text": "bahasa Inggris",
+   "rd": "바하사 잉그리스",
+   "ko": "영어"
+  }
+ }
+}

@@ -34,7 +34,7 @@ void main() async {
   // 그림(단어 그림·장면 컷) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(사용자 지시 2026-11-04)
   final view = WidgetsBinding.instance.platformDispatcher.views.first;
   final large = view.physicalSize.shortestSide / view.devicePixelRatio >= 600;
-  final needSync = await ContentSync.instance.init(large: large);
+  final needSync = await ContentSync.instance.init(large: large, female: LearnerPrefs.isFemale);
   runApp(IndoUniverseApp(syncFirst: needSync));
 }
 

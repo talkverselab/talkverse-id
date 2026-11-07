@@ -4,9 +4,9 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../services/dialogue_audio.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
-import '../services/tts_service.dart';
 import '../widgets/affix_text.dart';
 import '../widgets/episode_play_pane.dart';
 import '../widgets/reading_toggle.dart';
@@ -212,7 +212,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
 
   @override
   void dispose() {
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     super.dispose();
   }
 
@@ -264,7 +264,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
                 child: ListView.builder(
                   padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + bottomInset(context)),
                   itemCount: d.turns.length,
-                  itemBuilder: (context, i) => _Bubble(d: d, t: d.turns[i], onPlayFrom: () => _openPlay(at: i)),
+                  itemBuilder: (context, i) => _Bubble(d: d, t: d.view(d.turns[i]), onPlayFrom: () => _openPlay(at: i)),
                 ),
               ),
             ]),
@@ -319,7 +319,7 @@ class _Bubble extends StatelessWidget {
                   Text(name, style: const TextStyle(fontSize: 10, color: AppColors.muted)),
                   const SizedBox(width: 6),
                   InkWell(
-                    onTap: () => TtsService.instance.speakAs(t.tl.replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), ''), gender: d.voiceGender(t.speaker)),
+                    onTap: () => speakTurn(d, t),
                     child: const Icon(Icons.volume_up, size: 16, color: AppColors.beni),
                   ),
                   const SizedBox(width: 4),

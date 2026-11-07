@@ -1,0 +1,130 @@
+{
+ "ep": "r3_work_b1",
+ "cast": {
+  "B": "dimas",
+  "C": "woman_y",
+  "D": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Semua sudah siap, {name}? Bu Ratna diperkirakan tiba sepuluh menit lagi."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Sudah, Pak. Kuenya sudah datang, lilinnya juga sudah saya pasang di ruang rapat."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Tunggu. Ruang rapat yang mana?"
+    ],
+    [
+     "worried",
+     "Jangan bilang ruang rapat lantai lima."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Memangnya kenapa? Tadi pagi ruangan itu kosong, jadi saya pakai saja."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Ruangan itu sudah dipesan untuk tamu penting dari kantor pusat!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Permisi, Pak Dimas. Tamunya sudah datang dan sedang naik ke lantai lima."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Aduh, gawat! Bagaimana ini? Lilinnya sudah telanjur saya nyalakan!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Kenapa dinyalakan sekarang? Cepat tiup sebelum alarm kebakarannya berbunyi!"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Pak, itu bunyi apa? Kenapa ada air turun dari langit-langit?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Selamat pagi."
+    ],
+    [
+     "surprised",
+     "Wah, ada apa ini? Kenapa semua orang basah kuyup?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "stiff",
+     "Selamat... selamat ulang tahun, Pak! Ini kejutan dari kami semua."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "sad",
+     "Bagaimana kalian bisa tahu? Istri saya saja lupa ulang tahun saya hari ini."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Hebat, {name}. Kamu beruntung sekali, tapi di kuenya tertulis nama Bu Ratna."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Tenang saja, Pak. Tulisannya sudah luntur kena air."
+    ]
+   ]
+  }
+ }
+}

@@ -45,3 +45,10 @@ PC D: 는 2026-11-07 돌아왔고 CI 21 APK 를 백업했다.
 3. Sign in with Apple(출시 때).
 4. 앱에 넣어 둔 장면 컷 19MB 를 뺄지.
 5. 연애 5편 여자판을 만들지(상대역 인물이 새로 필요).
+
+## 회화 음성(2026-11-07)
+
+- 앱: `content_sync`·`dialogue_audio`·`Dialogue.view()` 이식 완료. `/art/id/audio/manifest` 에 줄이 올라오면 앱은 재빌드 없이 다음 시작 때 받아 쓴다.
+- 도구: `tools/tts/`, 목소리 `data/tts/voices.json`, 계획 `data/tts/plan/`, 작성법 `data/tts/PLAN_GUIDE.md`. PC 출력 `out/ref_id/`·`out/id/<편>/`.
+- 시험: 앱에 없는 14턴 편 `data/tts/episodes/r3_work_b1.json` 을 MOSS(language Malay)·VoxCPM2 두 모델로 비교(`tools/tts/trial.py`). 비교판은 R2 에만, D1 은 사용자가 고른 판만. 판단 전 전편 금지.
+- 리뷰 페이지: `tools/review_id.sh` → `data/review/REVIEW_id.html`, uk 세션이 게시.
