@@ -5,6 +5,7 @@
 - 빌드 번호: **Zealot 에는 CI 가 만든 APK 를 올린다**(사용자 결정). `tools/zealot_push.sh` 가 `latest` 릴리스를 내려받아 올린다. 상세 CLAUDE.md §2.
 - Zealot 앱이름 「인도네시아어유니버스」로 확정, 빌드 2·3·4 업로드됨. PC 백업 `D:\OneDrive\app project\talkverse-id\`.
 - 2026-10-25: 화면 톤(`a74e7d9`)·런처 아이콘(`d695902`)을 talkverse.uk 에 맞춤 — CI 빌드 3·4.
+- 2026-11-07 사용자 지시(모든 세션 공통): 앱을 고치면 Zealot(안드로이드)과 TestFlight(iOS)를 항상 함께 빌드·업로드한다. 보고에는 Zealot 주소와 TestFlight 빌드 번호를 같이 적는다.
 
 ## 다음에 할 내용 (2026-10-11)
 
