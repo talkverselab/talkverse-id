@@ -18,9 +18,15 @@ def aurl(r):
     return f"https://auth.talkverse.uk/art/{r['key']}?v={r['sha1'][:8]}"
 
 
+def vers(eid):
+    """그 편의 음성 판 [(편 id 꼬리, 버튼 묶음, 이름표)]. 판이 하나면 이름표 없음."""
+    v = [(s, p, t) for s, p, t in (('', 'v', 'MOSS 원본 · '), ('_pp', 'pv', 'MOSS 후처리 · '), ('_vox', 'x', 'VoxCPM2 원본 · '), ('_vox_pp', 'px', 'VoxCPM2 후처리 · ')) if eid + s in AUD]
+    return v if len(v) > 1 else [(s, p, '') for s, p, t in v]
+
+
 def play(eid, n):
     """턴의 재생 버튼. `<편>_vox` 판이 있으면 두 모델을 나란히."""
-    return play1(eid, n, 'v', 'MOSS · ' if eid + '_vox' in AUD else '') + play1(eid + '_vox', n, 'x', 'VoxCPM2 · ')
+    return ''.join(play1(eid + s, n, p, t) for s, p, t in vers(eid))
 
 
 def play1(eid, n, p, tag):
@@ -38,8 +44,7 @@ def play1(eid, n, p, tag):
 
 
 def audio_head(e):
-    two = e['id'] + '_vox' in AUD
-    return (head1(e['id'], 'v', 'MOSS(말레이어로 읽음)' if two else '') if e['id'] in AUD else '') + (head1(e['id'] + '_vox', 'x', 'VoxCPM2') if two else '')
+    return ''.join(head1(e['id'] + s, p, t.rstrip(' ·')) for s, p, t in vers(e['id']))
 
 
 def head1(eid, p, tag):
