@@ -7,7 +7,6 @@
   data/roots/reject.txt          우연 일치로 빼는 「단어 어근」 쌍(한 줄에 `단어 어근`, # 주석)
 출력
   assets/data/roots/kata_dasar_core.json   기존 어근 + 새 어근(phase 2·3), 가족은 목록 안 단어만
-  assets/data/freq/lang_id_top2500.csv     rank,word,freq,cum_pct,region,root (앱 빈도 단어 화면)
   data/roots/candidates.tsv      새 어근 후보와 가족(사람 검토용)
 
 판정(태국어앱 ROOT_WORDS.md 의 「포함 + 경계」 대신 인도네시아어 형태론):
@@ -27,7 +26,6 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORDS = os.path.join(ROOT, 'data/freq/id_words_2500.csv')
 ROOTS = os.path.join(ROOT, 'assets/data/roots/kata_dasar_core.json')
 REJECT = os.path.join(ROOT, 'data/roots/reject.txt')
-FREQ_OUT = os.path.join(ROOT, 'assets/data/freq/lang_id_top2500.csv')
 CAND_OUT = os.path.join(ROOT, 'data/roots/candidates.tsv')
 
 VOWELS = set('aeiou')
@@ -177,15 +175,7 @@ def main():
     data['roots'] = list(old.values()) + new_roots
     json.dump(data, open(ROOTS, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
-    # 앱 빈도 단어 CSV(빈도·누적%는 아직 실측 전이라 0 — 화면은 순위·구간·어근만 쓴다)
-    roots_all = {r['root'] for r in data['roots']}
-    with open(FREQ_OUT, 'w', encoding='utf-8', newline='') as f:
-        wr = csv.writer(f)
-        wr.writerow(['rank', 'word', 'freq', 'cum_pct', 'region', 'root'])
-        for r in rows:
-            w = r['word']
-            rt = word_root.get(w) or (w if w in roots_all else '')
-            wr.writerow([r['rank'], w, 0, 0, r['level'], rt])
+    # 앱 빈도 단어 CSV 는 2026-11-07 부터 tools/freq/build_freq_id.py 가 만든다(절벽 v2)
 
     os.makedirs(os.path.dirname(CAND_OUT), exist_ok=True)
     with open(CAND_OUT, 'w', encoding='utf-8') as f:

@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
+import 'about_screen.dart';
 import 'login_screen.dart';
-import 'update_screen.dart';
 
 import '../core/constants.dart';
+import '../core/pane.dart';
 import '../core/theme.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
 import '../services/learner_prefs.dart';
-import '../services/tts_service.dart';
 import '../widgets/indo_decor.dart';
+import '../widgets/reading_toggle.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -20,17 +21,14 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  LangVariant _variant = TtsService.instance.variant;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.gading,
-      appBar: AppBar(title: const Text('프로필 · 설정')),
+      appBar: AppBar(title: const Text('프로필')),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          const UpdateEntryTile(),
           Container(
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
@@ -140,38 +138,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
           const SizedBox(height: 18),
           const _SectionTitle('설정'),
           const SizedBox(height: 8),
-          Container(
-            decoration: _boxDeco(),
-            child: Column(
-              children: [
-                ListTile(
-                  leading: _leadIcon(Icons.record_voice_over),
-                  title: const Text('TTS 언어', style: TextStyle(fontWeight: FontWeight.w700)),
-                  subtitle: Text('${_variant.labelKo} · ${_variant.ttsLocale}',
-                      style: const TextStyle(fontSize: 11, color: AppColors.kayuLight)),
-                  trailing: SegmentedButton<LangVariant>(
-                    segments: const [
-                      ButtonSegment(value: LangVariant.id, label: Text('ID')),
-                      ButtonSegment(value: LangVariant.ms, label: Text('MS')),
-                    ],
-                    selected: {_variant},
-                    showSelectedIcon: false,
-                    style: const ButtonStyle(visualDensity: VisualDensity.compact),
-                    onSelectionChanged: (s) async {
-                      await TtsService.instance.setVariant(s.first);
-                      setState(() => _variant = s.first);
-                    },
-                  ),
-                ),
-                Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
-                ListTile(
-                  leading: _leadIcon(Icons.palette),
-                  title: const Text('테마', style: TextStyle(fontWeight: FontWeight.w700)),
-                  subtitle: const Text('talkverse.uk 톤 · 흰 바탕 + 인디고',
-                      style: TextStyle(fontSize: 11, color: AppColors.kayuLight)),
-                  trailing: const Icon(Icons.chevron_right, color: AppColors.merah, size: 18),
-                ),
-              ],
+          ValueListenableBuilder<bool>(
+            valueListenable: LearnerPrefs.reading,
+            builder: (context, on, _) => Container(
+              decoration: _boxDeco(),
+              child: SwitchListTile(
+                secondary: _leadIcon(Icons.translate),
+                title: const Text('독음 표시', style: TextStyle(fontWeight: FontWeight.w700)),
+                subtitle: const Text('회화 문장 아래 한글 읽기', style: TextStyle(fontSize: 11, color: AppColors.kayuLight)),
+                value: on,
+                onChanged: (_) => ReadingToggle.toggle(context),
+              ),
             ),
           ),
           const SizedBox(height: 16),
@@ -181,9 +158,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
             decoration: _boxDeco(),
             child: Column(
               children: [
-                _infoTile(Icons.info_outline, '앱 버전', '0.1.0 · scaffold'),
+                ListTile(
+                  leading: _leadIcon(Icons.menu_book_outlined),
+                  title: const Text('앱 소개', style: TextStyle(fontWeight: FontWeight.w700, color: AppColors.kayu)),
+                  subtitle: const Text('절벽구간 — 단어를 나누는 기준', style: TextStyle(color: AppColors.kayuLight, fontSize: 11)),
+                  trailing: const Icon(Icons.chevron_right, color: AppColors.merah, size: 18),
+                  onTap: () => openPane(context, (_) => const AboutScreen()),
+                ),
                 Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
-                _infoTile(Icons.code, 'Stack', 'Flutter 3.41 · Material 3 · Drift SQLite'),
+                _infoTile(Icons.info_outline, '앱 버전', '0.1.0 · scaffold'),
                 Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
                 _infoTile(Icons.copyright, '저작권', '${AppInfo.appName} · ${AppInfo.year}'),
               ],

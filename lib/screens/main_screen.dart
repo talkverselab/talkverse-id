@@ -6,8 +6,8 @@ import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/dialogue_service.dart';
 import '../widgets/indo_decor.dart';
+import 'about_screen.dart';
 import 'affix_screen.dart';
-import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
 import 'flashcard_screen.dart';
 import 'profile_screen.dart';
@@ -83,6 +83,30 @@ class _MainScreenState extends State<MainScreen> {
                     for (final t in _tabs)
                       NavigationRailDestination(icon: t.icon, selectedIcon: t.selectedIcon, label: Text(t.label)),
                   ],
+                  // 맨 아래 「앱 소개」 — 절벽구간 설명(사용자 지시 2026-11-07, 일본어앱과 같은 자리)
+                  trailing: Expanded(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: InkWell(
+                          onTap: () => openPane(context, (_) => const AboutScreen()),
+                          borderRadius: BorderRadius.circular(8),
+                          child: const Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Icon(Icons.info_outline, color: AppColors.muted, size: 22),
+                                SizedBox(height: 4),
+                                Text('앱 소개', style: TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600)),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
                 const VerticalDivider(width: 1, thickness: 1, color: AppColors.line),
                 SizedBox(width: left, child: stack),
@@ -328,71 +352,40 @@ class _MenuTile extends StatelessWidget {
 
 // ────────── Learn 탭 ──────────
 
-class LearnScreen extends StatefulWidget {
+/// 학습 — 기초 → 문법 → 회화 → 단어 → 복습 → 참고(맨 아래). 일본어앱 메뉴 정리(사용자 지시 2026-11-07)와 같은 순서.
+class LearnScreen extends StatelessWidget {
   const LearnScreen({super.key});
 
-  @override
-  State<LearnScreen> createState() => _LearnScreenState();
-}
-
-class _LearnScreenState extends State<LearnScreen> {
-  String _filter = '전체';
-  static const _filters = ['전체', '회화', '접사', '어근', '단어', '변이'];
-
-  List<_LessonItem> get _lessons => [
-        _LessonItem('회화', '만화책 읽기 회화', '장면 컷 + 대화 스크립트 · 모든 문장 듣기 · 그림 카드', Icons.auto_stories_outlined,
-            AppColors.beni, (_) => const DialogueHomeScreen()),
-        _LessonItem('회화', '회화 노트', 'Mark × Sari · 접사 색 · MS 토글 · 메모', Icons.chat_bubble_outline,
-            AppColors.merah, (_) => const ConversationScreen()),
-        _LessonItem('접사', '접사 체계', 'meN- / ber- / di- / ter- / -kan / -i / -an / ke-an', Icons.account_tree_outlined,
-            AppColors.affixMe, (_) => const AffixScreen()),
-        _LessonItem('어근', '어근 core', 'kata dasar → 파생어 가족', Icons.spa_outlined,
-            AppColors.sogan, (_) => const RootsScreen()),
-        _LessonItem('단어', '빈도 단어', 'Top 2500 · R1~R4 구간', Icons.format_list_numbered,
-            AppColors.laut, (_) => const WordFreqScreen()),
-        _LessonItem('변이', '인니어 ↔ 말레이어', '어휘·철자·대명사 차이', Icons.compare_arrows,
-            AppColors.biruMs, (_) => const VariantsScreen()),
-        _LessonItem('회화', '복습 플래시카드', '학습한 문장 랜덤 복습', Icons.style_outlined,
-            AppColors.emasDeep, (_) => const FlashcardScreen()),
-      ];
+  static final List<_LessonItem> _lessons = [
+    _LessonItem('기초', '어근 core', 'kata dasar → 파생어 가족', Icons.spa_outlined,
+        AppColors.sogan, (_) => const RootsScreen()),
+    _LessonItem('문법', '접사 체계', 'meN- / ber- / di- / ter- / -kan / -i / -an / ke-an', Icons.account_tree_outlined,
+        AppColors.affixMe, (_) => const AffixScreen()),
+    _LessonItem('회화', '만화책 읽기 회화', '장면 컷 + 대화 스크립트 · 모든 문장 듣기 · 그림 카드', Icons.auto_stories_outlined,
+        AppColors.beni, (_) => const DialogueHomeScreen()),
+    _LessonItem('단어', '절벽 단어 R1~R5', '빈도 2,000 · 20어 단원 · 회화 단어 포함', Icons.format_list_numbered,
+        AppColors.laut, (_) => const WordFreqScreen()),
+    _LessonItem('복습', '복습 플래시카드', '학습한 문장 랜덤 복습', Icons.style_outlined,
+        AppColors.emasDeep, (_) => const FlashcardScreen()),
+    _LessonItem('참고', '인니어 ↔ 말레이어', '어휘·철자·대명사 차이', Icons.compare_arrows,
+        AppColors.biruMs, (_) => const VariantsScreen()),
+  ];
 
   @override
   Widget build(BuildContext context) {
-    final list = _filter == '전체'
-        ? _lessons
-        : _lessons.where((l) => l.category == _filter).toList();
     return Scaffold(
       backgroundColor: AppColors.gading,
       appBar: AppBar(title: const Text('학습')),
-      body: Column(
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(12, 4, 12, 16),
         children: [
-          SizedBox(
-            height: 52,
-            child: ListView.separated(
-              scrollDirection: Axis.horizontal,
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-              itemCount: _filters.length,
-              separatorBuilder: (_, _) => const SizedBox(width: 6),
-              itemBuilder: (_, i) {
-                final f = _filters[i];
-                final sel = f == _filter;
-                return ChoiceChip(
-                  label: Text(f),
-                  selected: sel,
-                  onSelected: (_) => setState(() => _filter = f),
-                );
-              },
+          for (final l in _lessons) ...[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(4, 14, 4, 6),
+              child: Text(l.category, style: const TextStyle(color: AppColors.kayu, fontSize: 14, fontWeight: FontWeight.w800)),
             ),
-          ),
-          const ParangDivider(height: 8),
-          Expanded(
-            child: ListView.separated(
-              padding: const EdgeInsets.all(12),
-              itemCount: list.length,
-              separatorBuilder: (_, _) => const SizedBox(height: 8),
-              itemBuilder: (_, i) => _LessonRow(item: list[i]),
-            ),
-          ),
+            _LessonRow(item: l),
+          ],
         ],
       ),
     );

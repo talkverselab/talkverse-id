@@ -11,6 +11,7 @@ class AffixText extends StatelessWidget {
   final FontWeight fontWeight;
   final bool colorize;
   final void Function(AffixParse parse)? onWordTap;
+  final Set<String> highlight; // 단어장과 이어지는 낱말(소문자) — 밑줄
 
   const AffixText(
     this.text, {
@@ -19,6 +20,7 @@ class AffixText extends StatelessWidget {
     this.fontWeight = FontWeight.w600,
     this.colorize = true,
     this.onWordTap,
+    this.highlight = const {},
   });
 
   @override
@@ -35,6 +37,7 @@ class AffixText extends StatelessWidget {
             fontSize: fontSize,
             fontWeight: fontWeight,
             colorize: colorize,
+            underline: highlight.contains(parses[i].word.toLowerCase()),
             onTap: onWordTap,
           ),
           if (i < parses.length - 1 && _needsSpace(parses, i))
@@ -57,6 +60,7 @@ class _WordSpan extends StatelessWidget {
   final double fontSize;
   final FontWeight fontWeight;
   final bool colorize;
+  final bool underline;
   final void Function(AffixParse parse)? onTap;
 
   const _WordSpan({
@@ -64,6 +68,7 @@ class _WordSpan extends StatelessWidget {
     required this.fontSize,
     required this.fontWeight,
     required this.colorize,
+    this.underline = false,
     this.onTap,
   });
 
@@ -86,8 +91,8 @@ class _WordSpan extends StatelessWidget {
           color: color,
           fontSize: fontSize,
           fontWeight: isRoot ? fontWeight : FontWeight.w800,
-          decoration: (!isRoot && colorize) ? TextDecoration.underline : null,
-          decorationColor: color,
+          decoration: (underline || (!isRoot && colorize)) ? TextDecoration.underline : null,
+          decorationColor: underline ? AppColors.ai : color,
           decorationThickness: 1.5,
           height: 1.35,
         ),

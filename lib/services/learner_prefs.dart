@@ -7,14 +7,22 @@ class LearnerPrefs {
   LearnerPrefs._();
   static const _kName = 'learner_name';
   static const _kGender = 'learner_gender'; // male | female
+  static const _kReading = 'reading_aid';
 
   static final ValueNotifier<String> name = ValueNotifier('');
   static final ValueNotifier<String> gender = ValueNotifier('male');
+  static final ValueNotifier<bool> reading = ValueNotifier(false); // 독음 표시 — 기본 미표시(사용자 지시 2026-11-07)
 
   static Future<void> load() async {
     final p = await SharedPreferences.getInstance();
     name.value = p.getString(_kName) ?? '';
     gender.value = p.getString(_kGender) ?? 'male';
+    reading.value = p.getBool(_kReading) ?? false;
+  }
+
+  static Future<void> setReading(bool v) async {
+    reading.value = v;
+    (await SharedPreferences.getInstance()).setBool(_kReading, v);
   }
 
   static Future<void> setName(String v) async {

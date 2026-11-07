@@ -8,7 +8,10 @@ import '../services/art_service.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
+import '../widgets/affix_text.dart';
 import '../widgets/lemma_chips.dart';
+import '../widgets/reading_toggle.dart';
+import '../widgets/word_analysis_sheet.dart';
 
 /// 편의 문장 플래시카드 — 일본어앱에서 옮김(2026-11-02). 앞면은 **그림만**(글자 없음), 탭하면 인도네시아어·단어 뜻·독음·한국어.
 /// 그림 = 턴 장면 그림(`art`) → 핵심 단어 그림 → 장면 카드. 틀림/맞음 2단계, 틀린 카드는 끝에 다시.
@@ -73,6 +76,7 @@ class _DialogueCardScreenState extends State<DialogueCardScreen> {
           const SizedBox(height: 2),
           Text('${_pos + 1} / ${_order.length}', style: const TextStyle(color: AppColors.muted, fontSize: 10, letterSpacing: 2)),
         ]),
+        actions: const [ReadingToggle()],
       ),
       body: Column(children: [
         Expanded(
@@ -154,8 +158,11 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.sumi, height: 1.3)),
-                if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+                AffixText(LearnerPrefs.fill(t.tl), fontSize: 24, fontWeight: FontWeight.w900, colorize: false, highlight: t.lemmaSurfaces, onWordTap: (p) => WordAnalysisSheet.show(context, p)),
+                ValueListenableBuilder<bool>(
+                  valueListenable: LearnerPrefs.reading,
+                  builder: (_, on, _) => on && t.rd.isNotEmpty ? Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)) : const SizedBox.shrink(),
+                ),
                 // 시안 02-3: 단어 뜻(gloss `kata=뜻`) 줄 목록 → 번역 → 메모 상자
                 if (_glossRows(t.gloss).isNotEmpty) ...[
                   const SizedBox(height: 12),

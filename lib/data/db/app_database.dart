@@ -57,7 +57,7 @@ class Words extends Table {
   TextColumn get word => text()();
   RealColumn get freq => real().nullable()();
   RealColumn get cumPct => real().nullable()();
-  TextColumn get region => text().nullable()(); // R1, R2, R3, R4
+  TextColumn get region => text().nullable()(); // R1~R5
   TextColumn get root => text().nullable()();
 
   @override

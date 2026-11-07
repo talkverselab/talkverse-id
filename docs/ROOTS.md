@@ -8,7 +8,7 @@
 |---|---|
 | `data/freq/id_words_2500.csv` | 빈도 단어 2,500 — `rank,word,reading,ko,en,pos,level,picturable`(level = 절벽 R1 ≤341 · R2 ≤505 · R3 ≤1087 · R4 ≤2500). 그림 저장소 `talkversehanja` 의 `talkverse_art/words/id.csv` 와 같은 파일 |
 | `assets/data/roots/kata_dasar_core.json` | 어근 목록. 항목 = `root, rank, pos, phase, ko, family[{word, affix, ko}]`. **phase 1** = 손으로 검토한 핵심 80개(그대로 유지, 목록에서 새로 찾은 가족만 뒤에 덧붙임), **phase 2** = 도구로 뽑은 어근 중 어근이 R1·R2, **phase 3** = R3·R4 |
-| `assets/data/freq/lang_id_top2500.csv` | 앱 빈도 단어 화면 — `rank,word,freq,cum_pct,region,root`(root = 그 단어의 어근. 빈도·누적%는 실측 전이라 0) |
+| `assets/data/freq/lang_id_cliff2000.csv` | 앱 절벽 단어 화면 — 절벽 v2 1~2,000위, `tools/freq/build_freq_id.py` 가 만든다 |
 | `data/roots/reject.txt` | 우연 일치로 빼는 `단어 어근` 쌍(kalian≠kali, tetapi≠tetap, 띄어 써야 하는 di atas 등) |
 | `data/roots/candidates.tsv` | 도구가 뽑은 새 어근과 가족(사람 검토용) |
 

@@ -1,0 +1,140 @@
+{
+"_meta": "회화 레마 중 절벽 단어표(2,000위) 밖이면서 단어 DB 에 있는 것 · tools/freq/build_freq_id.py",
+"words": [
+{
+"word": "kelapa",
+"ko": "코코넛",
+"n": 3
+},
+{
+"word": "bawang",
+"ko": "양파·마늘",
+"n": 3
+},
+{
+"word": "stasiun",
+"ko": "역",
+"n": 3
+},
+{
+"word": "pintas",
+"ko": "지름길",
+"n": 3
+},
+{
+"word": "total",
+"ko": "합계·완전히",
+"n": 2
+},
+{
+"word": "pedas",
+"ko": "맵다",
+"n": 2
+},
+{
+"word": "paspor",
+"ko": "여권",
+"n": 2
+},
+{
+"word": "angkot",
+"ko": "앙콧(소형 버스)",
+"n": 2
+},
+{
+"word": "terminal",
+"ko": "터미널",
+"n": 2
+},
+{
+"word": "dosen",
+"ko": "대학 교수",
+"n": 1
+},
+{
+"word": "bobok",
+"ko": "자다 (아기말)",
+"n": 1
+},
+{
+"word": "nungguin",
+"ko": "기다려 주다 (=menunggui)",
+"n": 1
+},
+{
+"word": "tempe",
+"ko": "뗌뻬",
+"n": 1
+},
+{
+"word": "kantong",
+"ko": "봉지·주머니",
+"n": 1
+},
+{
+"word": "promo",
+"ko": "프로모션",
+"n": 1
+},
+{
+"word": "duet",
+"ko": "듀엣",
+"n": 1
+},
+{
+"word": "telinga",
+"ko": "귀",
+"n": 1
+},
+{
+"word": "ketok",
+"ko": "똑똑 두드리다",
+"n": 1
+},
+{
+"word": "kenceng",
+"ko": "세다 (=kencang)",
+"n": 1
+},
+{
+"word": "sate",
+"ko": "사떼(꼬치구이)",
+"n": 1
+},
+{
+"word": "lebar",
+"ko": "넓다",
+"n": 1
+},
+{
+"word": "seleb",
+"ko": "연예인 (=selebriti)",
+"n": 1
+},
+{
+"word": "helm",
+"ko": "헬멧",
+"n": 1
+},
+{
+"word": "deras",
+"ko": "세차다",
+"n": 1
+},
+{
+"word": "payung",
+"ko": "우산",
+"n": 1
+},
+{
+"word": "jas",
+"ko": "재킷·우비",
+"n": 1
+},
+{
+"word": "ember",
+"ko": "양동이",
+"n": 1
+}
+]
+}

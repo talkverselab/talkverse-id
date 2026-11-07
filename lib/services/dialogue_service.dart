@@ -53,6 +53,9 @@ class DialogueTurn {
         lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
       );
 
+  /// 문장에서 단어장과 이어지는 낱말(소문자 표면형) — 밑줄 색으로 표시.
+  Set<String> get lemmaSurfaces => {for (final l in lemmas) l.surface.toLowerCase()};
+
   /// 그림 조회용 핵심 단어 후보: gloss 의 표제어(`kata=뜻`).
   List<String> get pictureWords => [
         for (final m in RegExp(r"([A-Za-z][A-Za-z'-]*)=").allMatches(gloss)) m.group(1)!,

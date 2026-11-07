@@ -22,7 +22,7 @@ CI 20 APK 의 PC 백업은 못 함 — 2026-11-05 22:34 PC 재부팅 뒤 D: 디�
 - 조연 시트 2장(`data/review/uxui/cast_campus_v1.jpg`·`cast_street_v1.jpg`). 다음 컷 요청부터 첨부되고, 이미 그린 기본 컷에는 반영 안 됨.
 - 조연 시트로 다시 그릴 기본 컷 6편 24장(life_a1·study_a4·survival_s2·s3·work_a2·a4): 2026-11-07 Grok 주간 한도로 못 그림, 11-10 초기화 뒤 `grok_scenes_id.py send`.
 - 사전: 회화 낱말 193어 추가, 레마 칩 내용어 683개 중 사전에 없는 것 2개(`data/review/write/missing_lemmas.csv`, 분석기가 pengen·deg-degan 을 잘못 쪼갠 것).
-- 절벽: 최종 R1~R4 = 104/139/249/523(`data/corpus/cliff_v2/`). 앱의 `assets/data/freq/lang_id_top2500.csv` 는 아직 옛 목록.
+- 절벽: 최종 R1~R4 = 104/139/249/523(`data/corpus/cliff_v2/`). 앱은 2026-11-07 부터 `assets/data/freq/lang_id_cliff2000.csv`(절벽 v2 1~2,000위, 어근+접사 토큰, `tools/freq/build_freq_id.py`). 뜻은 2,000개 중 952개(R1~R4 는 전부, R5 는 뜻 없는 말이 1,048개 — 인명·외래어 포함, 앱은 단어만 보임).
 
 ## 그림 저장소
 
