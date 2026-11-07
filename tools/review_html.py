@@ -82,6 +82,8 @@ parts = [f"<!doctype html><html lang=ko><head><meta charset=utf-8><meta name=vie
 parts += [f"<a href='#{e['id']}'>{html.escape(e['title'])}</a>" for e in eps] + ['</div>']
 for e in eps:
     tag = f"<span class=ok>통과 {html.escape(e['approved'])}</span>" if e.get('approved') else "<span class=dr>리뷰 대기</span>"
+    if e.get('trial'):
+        tag += " <span class=dr>음성 시험용 임시 대사 — 앱에 넣지 않음</span>"
     sp = ' · '.join(f'{k}={v}' for k, v in e['speakers'].items())
     parts.append(f"<h2 id='{e['id']}'>{html.escape(e.get('emoji',''))} {html.escape(e['title'])} <small>{e['id']}</small></h2>"
                  f"<div class='rv ep'><textarea data-k='{e['id']}:all' placeholder='이 편 전체 리뷰 — 통과 / 다시 / 턴이 너무 짧다 등…'></textarea><button onclick=\"sv(this)\">저장</button></div><div class=rs data-s='{e['id']}:all'></div>"
