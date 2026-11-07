@@ -25,7 +25,8 @@
    "id": "Semua sudah siap, {name}? Bu Ratna diperkirakan tiba sepuluh menit lagi.",
    "rd": "스무아 수다흐 시압, {name}? 부 랏나 디쁘르끼라깐 띠바 스뿔루흐 므닛 라기.",
    "ko": "다 준비됐어요, {name}? 라트나 부장님이 10분 뒤쯤 도착하실 거예요.",
-   "note": ""
+   "note": "",
+   "emotion": "worried"
   },
   {
    "num": 2,
@@ -33,7 +34,8 @@
    "id": "Sudah, Pak. Kuenya sudah datang, lilinnya juga sudah saya pasang di ruang rapat.",
    "rd": "수다흐, 빡. 꾸에냐 수다흐 다땅, 릴린냐 주가 수다흐 사야 빠상 디 루앙 라빳.",
    "ko": "네. 케이크도 왔고, 초도 회의실에 다 꽂아 뒀어요.",
-   "note": ""
+   "note": "",
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -41,7 +43,17 @@
    "id": "Tunggu. Ruang rapat yang mana? Jangan bilang ruang rapat lantai lima.",
    "rd": "뚱구. 루앙 라빳 양 마나? 장안 빌랑 루앙 라빳 란따이 리마.",
    "ko": "잠깐만요. 어느 회의실이요? 설마 5층 회의실은 아니죠?",
-   "note": ""
+   "note": "",
+   "segs": [
+    [
+     "surprised",
+     "Tunggu. Ruang rapat yang mana?"
+    ],
+    [
+     "worried",
+     "Jangan bilang ruang rapat lantai lima."
+    ]
+   ]
   },
   {
    "num": 4,
@@ -49,7 +61,8 @@
    "id": "Memangnya kenapa? Tadi pagi ruangan itu kosong, jadi saya pakai saja.",
    "rd": "므망냐 끄나빠? 따디 빠기 루앙안 이뚜 꼬송, 자디 사야 빠까이 사자.",
    "ko": "왜요? 아침에 비어 있길래 그냥 썼는데요.",
-   "note": ""
+   "note": "",
+   "emotion": "flustered"
   },
   {
    "num": 5,
@@ -57,7 +70,8 @@
    "id": "Ruangan itu sudah dipesan untuk tamu penting dari kantor pusat!",
    "rd": "루앙안 이뚜 수다흐 디쁘산 운뚝 따무 쁜띵 다리 깐또르 뿌삿!",
    "ko": "거긴 본사에서 오는 중요한 손님용으로 예약된 방이에요!",
-   "note": ""
+   "note": "",
+   "emotion": "shout"
   },
   {
    "num": 6,
@@ -65,7 +79,8 @@
    "id": "Permisi, Pak Dimas. Tamunya sudah datang dan sedang naik ke lantai lima.",
    "rd": "쁘르미시, 빡 디마스. 따무냐 수다흐 다땅 단 스당 나익 끄 란따이 리마.",
    "ko": "실례합니다, 디마스 씨. 손님이 오셔서 지금 5층으로 올라가고 계세요.",
-   "note": ""
+   "note": "",
+   "emotion": "polite"
   },
   {
    "num": 7,
@@ -73,7 +88,8 @@
    "id": "Aduh, gawat! Bagaimana ini? Lilinnya sudah telanjur saya nyalakan!",
    "rd": "아두흐, 가왓! 바가이마나 이니? 릴린냐 수다흐 뜰란주르 사야 냘라깐!",
    "ko": "아이고, 큰일 났다! 어떡해요? 초에 벌써 불을 붙여 버렸어요!",
-   "note": ""
+   "note": "",
+   "emotion": "flustered"
   },
   {
    "num": 8,
@@ -81,7 +97,8 @@
    "id": "Kenapa dinyalakan sekarang? Cepat tiup sebelum alarm kebakarannya berbunyi!",
    "rd": "끄나빠 디냘라깐 스까랑? 쯔빳 띠웁 스블룸 알라름 끄바까란냐 브르부니!",
    "ko": "왜 벌써 켰어요? 화재경보기 울리기 전에 빨리 불어요!",
-   "note": ""
+   "note": "",
+   "emotion": "tsukkomi"
   },
   {
    "num": 9,
@@ -89,7 +106,8 @@
    "id": "Pak, itu bunyi apa? Kenapa ada air turun dari langit-langit?",
    "rd": "빡, 이뚜 부니 아빠? 끄나빠 아다 아이르 뚜룬 다리 랑잇-랑잇?",
    "ko": "저기요, 저거 무슨 소리예요? 왜 천장에서 물이 떨어져요?",
-   "note": ""
+   "note": "",
+   "emotion": "worried"
   },
   {
    "num": 10,
@@ -97,7 +115,17 @@
    "id": "Selamat pagi. Wah, ada apa ini? Kenapa semua orang basah kuyup?",
    "rd": "슬라맛 빠기. 와, 아다 아빠 이니? 끄나빠 스무아 오랑 바사흐 꾸윱?",
    "ko": "안녕하세요. 어, 무슨 일이죠? 왜 다들 흠뻑 젖어 있어요?",
-   "note": ""
+   "note": "",
+   "segs": [
+    [
+     "polite",
+     "Selamat pagi."
+    ],
+    [
+     "surprised",
+     "Wah, ada apa ini? Kenapa semua orang basah kuyup?"
+    ]
+   ]
   },
   {
    "num": 11,
@@ -105,7 +133,8 @@
    "id": "Selamat... selamat ulang tahun, Pak! Ini kejutan dari kami semua.",
    "rd": "슬라맛... 슬라맛 울랑 따훈, 빡! 이니 끄주딴 다리 까미 스무아.",
    "ko": "새, 생신 축하드립니다! 저희 모두가 준비한 깜짝 파티예요.",
-   "note": ""
+   "note": "",
+   "emotion": "stiff"
   },
   {
    "num": 12,
@@ -113,7 +142,8 @@
    "id": "Bagaimana kalian bisa tahu? Istri saya saja lupa ulang tahun saya hari ini.",
    "rd": "바가이마나 깔리안 비사 따후? 이스뜨리 사야 사자 루빠 울랑 따훈 사야 하리 이니.",
    "ko": "어떻게 알았어요? 아내도 오늘 내 생일을 잊어버렸는데.",
-   "note": ""
+   "note": "",
+   "emotion": "sad"
   },
   {
    "num": 13,
@@ -121,7 +151,8 @@
    "id": "Hebat, {name}. Kamu beruntung sekali, tapi di kuenya tertulis nama Bu Ratna.",
    "rd": "헤밧, {name}. 까무 브룬뚱 스깔리, 따삐 디 꾸에냐 뜨르뚤리스 나마 부 랏나.",
    "ko": "대단해요, {name}. 운이 정말 좋네요. 근데 케이크에 라트나 부장님 이름이 쓰여 있어요.",
-   "note": ""
+   "note": "",
+   "emotion": "teasing"
   },
   {
    "num": 14,
@@ -129,7 +160,12 @@
    "id": "Tenang saja, Pak. Tulisannya sudah luntur kena air.",
    "rd": "뜨낭 사자, 빡. 뚤리산냐 수다흐 룬뚜르 끄나 아이르.",
    "ko": "걱정 마세요. 글씨가 물에 다 번졌어요.",
-   "note": ""
+   "note": "",
+   "emotion": "amused"
   }
- ]
+ ],
+ "cast": {
+  "C": "woman_y",
+  "D": "man_m"
+ }
 }
