@@ -87,3 +87,10 @@
 - 5차(2026-11-04 새벽, `tools/write_r1_batch5.py`): 1~2회만 나온 R1 토큰(dan·kalau·harus·dengan·maaf·siapa·bagaimana·mereka·kami·kalian·tak·ayo·sekali) 위주로 6편, 반전 유형 reveal·ignore 추가.
   → R1 30편, 카오스 57%(chaos 17·emotion 6·slip 4·ignore 2·reveal 1), 회화 토큰의 R1 비율 53%. 컷 120장.
   장면 컷 검수에서 자주 걸린 것: 시트에 없는 조연(교수·기사)이 컷마다 바뀜 → redo 문구에 생김새를 글로 고정, 「라벨·말풍선 넣지 말 것」이라고 쓰면 오히려 그려 넣음 → "인물과 배경만 있는 순수한 그림"으로.
+
+## 8. 감정 열 (사용자 지시 2026-11-07, 모든 언어앱 공통)
+
+- 앞으로 쓰는 회화는 턴마다 음성을 고려한 `emotion` 을 함께 쓴다. 값은 16개: neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle.
+- 한 턴에서 감정이 바뀌면 `emotion` 대신 `segs`(`[감정, 본문]` 목록)로 나눈다. 이어 붙이면 그 턴의 `id` 와 같아야 한다.
+- neutral 만 쓰지 않는다 — 대사 맥락으로 정한다. 작성 기준은 `data/tts/PLAN_GUIDE.md`.
+- 이미 쓴 편은 고치지 않고, 음성 작업 때 `data/tts/plan/<편id>.json` 으로 정한다.
