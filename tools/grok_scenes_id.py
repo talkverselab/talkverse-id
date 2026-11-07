@@ -136,6 +136,9 @@ def _wait(g, ep, want_n):
         n = c.ev("[...document.querySelectorAll('img')].filter(i=>i.src.includes('generated')).length")
         if not busy and n >= want_n:
             break
+        if c.ev("document.body.innerText.includes('한도에 도달')"):  # 주간 한도(2026-11-07) — 재촉·대기해도 그림이 안 나온다
+            print('LIMIT', c.ev("(document.body.innerText.match(/\\d+월 \\d+일에 초기화/)||[''])[0]"))
+            sys.exit(3)
         if not busy and n == 0 and i >= 4 and not nudged:
             # 「빠른」이 그림 없이 빈 답을 낼 때가 있다(2026-11-03 두 번) — 같은 대화에서 한 번 재촉
             chat = c.ev("new URLSearchParams(location.search).get('chat')") or ''

@@ -20,6 +20,7 @@ CI 20 APK 의 PC 백업은 못 함 — 2026-11-05 22:34 PC 재부팅 뒤 D: 디�
 - 장면 컷: 기본 120장 + 여자판 100장(22편 88장 + 친구 3편 12장). 연애 5편은 상대가 1번 여자 주인공이라 여자판 없음(기본 컷).
 - 학습자 그림: 기본 = 2번 남자 주인공, 상대가 2번인 친구 3편만 6번. 여자판 = 1번 여자 주인공.
 - 조연 시트 2장(`data/review/uxui/cast_campus_v1.jpg`·`cast_street_v1.jpg`). 다음 컷 요청부터 첨부되고, 이미 그린 기본 컷에는 반영 안 됨.
+- 조연 시트로 다시 그릴 기본 컷 6편 24장(life_a1·study_a4·survival_s2·s3·work_a2·a4): 2026-11-07 Grok 주간 한도로 못 그림, 11-10 초기화 뒤 `grok_scenes_id.py send`.
 - 사전: 회화 낱말 193어 추가, 레마 칩 내용어 683개 중 사전에 없는 것 2개(`data/review/write/missing_lemmas.csv`, 분석기가 pengen·deg-degan 을 잘못 쪼갠 것).
 - 절벽: 최종 R1~R4 = 104/139/249/523(`data/corpus/cliff_v2/`). 앱의 `assets/data/freq/lang_id_top2500.csv` 는 아직 옛 목록.
 
