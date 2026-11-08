@@ -8,6 +8,7 @@ import '../services/dialogue_service.dart';
 import '../widgets/indo_decor.dart';
 import 'about_screen.dart';
 import 'affix_screen.dart';
+import 'alphabet_screen.dart';
 import 'dialogue_screen.dart';
 import 'flashcard_screen.dart';
 import 'profile_screen.dart';
@@ -26,12 +27,7 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _index = 0;
 
-  static const List<Widget> _screens = [
-    HomeScreen(),
-    LearnScreen(),
-    ProgressScreen(),
-    ProfileScreen(),
-  ];
+  static const List<Widget> _screens = [HomeScreen(), LearnScreen(), ProgressScreen(), ProfileScreen()];
 
   static const List<NavigationDestination> _tabs = [
     NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: '홈'),
@@ -49,11 +45,7 @@ class _MainScreenState extends State<MainScreen> {
     if (!isWide(context)) {
       return Scaffold(
         body: stack,
-        bottomNavigationBar: NavigationBar(
-          selectedIndex: _index,
-          onDestinationSelected: (i) => setState(() => _index = i),
-          destinations: _tabs,
-        ),
+        bottomNavigationBar: NavigationBar(selectedIndex: _index, onDestinationSelected: (i) => setState(() => _index = i), destinations: _tabs),
       );
     }
     // 넓은 화면(아이패드·태블릿·폴드 펼침): 레일 + 왼쪽 칸(탭 화면) | 오른쪽 칸(연 화면) — 일본어앱 main_screen 과 같은 구조(2026-11-02).
@@ -79,10 +71,7 @@ class _MainScreenState extends State<MainScreen> {
                   unselectedIconTheme: const IconThemeData(color: AppColors.muted),
                   selectedLabelTextStyle: const TextStyle(color: AppColors.beni, fontSize: 11, fontWeight: FontWeight.w600),
                   unselectedLabelTextStyle: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600),
-                  destinations: [
-                    for (final t in _tabs)
-                      NavigationRailDestination(icon: t.icon, selectedIcon: t.selectedIcon, label: Text(t.label)),
-                  ],
+                  destinations: [for (final t in _tabs) NavigationRailDestination(icon: t.icon, selectedIcon: t.selectedIcon, label: Text(t.label))],
                   // 맨 아래 「앱 소개」 — 절벽구간 설명(사용자 지시 2026-11-07, 일본어앱과 같은 자리)
                   trailing: Expanded(
                     child: Align(
@@ -99,7 +88,10 @@ class _MainScreenState extends State<MainScreen> {
                               children: [
                                 Icon(Icons.info_outline, color: AppColors.muted, size: 22),
                                 SizedBox(height: 4),
-                                Text('앱 소개', style: TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600)),
+                                Text(
+                                  '앱 소개',
+                                  style: TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600),
+                                ),
                               ],
                             ),
                           ),
@@ -155,12 +147,7 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               Text(
                                 'Halo!',
-                                style: TextStyle(
-                                  fontSize: 28,
-                                  fontWeight: FontWeight.w700,
-                                  color: AppColors.kayu,
-                                  letterSpacing: -1,
-                                ),
+                                style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700, color: AppColors.kayu, letterSpacing: -1),
                               ),
                               SizedBox(width: 6),
                               Text('👋', style: TextStyle(fontSize: 22)),
@@ -169,11 +156,7 @@ class HomeScreen extends StatelessWidget {
                           const SizedBox(height: 2),
                           const Text(
                             '한국 학습자, 오늘도 시작해요',
-                            style: TextStyle(
-                              fontSize: 13,
-                              color: AppColors.kayuLight,
-                              fontWeight: FontWeight.w500,
-                            ),
+                            style: TextStyle(fontSize: 13, color: AppColors.kayuLight, fontWeight: FontWeight.w500),
                           ),
                         ],
                       ),
@@ -195,12 +178,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 18),
                 const Text(
                   '오늘의 학습',
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w600,
-                    color: AppColors.merah,
-                    letterSpacing: -0.1,
-                  ),
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.merah, letterSpacing: -0.1),
                 ),
                 const SizedBox(height: 8),
                 const _HomeTodayCut(),
@@ -211,12 +189,7 @@ class HomeScreen extends StatelessWidget {
                     SizedBox(width: 8),
                     Text(
                       '메인 메뉴',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w800,
-                        color: AppColors.kayu,
-                        letterSpacing: 2,
-                      ),
+                      style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.kayu, letterSpacing: 2),
                     ),
                   ],
                 ),
@@ -226,14 +199,7 @@ class HomeScreen extends StatelessWidget {
                 const SoftDivider(),
                 const SizedBox(height: 12),
                 const Center(
-                  child: Text(
-                    '${AppInfo.appName} · ${AppInfo.year}',
-                    style: TextStyle(
-                      color: AppColors.kayuLight,
-                      fontSize: 11,
-                      letterSpacing: 4,
-                    ),
-                  ),
+                  child: Text('${AppInfo.appName} · ${AppInfo.year}', style: TextStyle(color: AppColors.kayuLight, fontSize: 11, letterSpacing: 4)),
                 ),
                 const SizedBox(height: 120),
               ],
@@ -251,18 +217,12 @@ class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final items = <_MenuItem>[
-      _MenuItem(icon: Icons.chat_bubble_rounded, label: '회화', sub: 'Percakapan', seal: 'L1', color: AppColors.merah,
-          builder: (_) => const DialogueHomeScreen()),
-      _MenuItem(icon: Icons.extension_rounded, label: '접사', sub: 'Afiks meN-/ber-/-kan', seal: 'AFX', color: AppColors.affixMe,
-          builder: (_) => const AffixScreen()),
-      _MenuItem(icon: Icons.account_tree_rounded, label: '어근', sub: 'Kata dasar', seal: '√', color: AppColors.sogan,
-          builder: (_) => const RootsScreen()),
-      _MenuItem(icon: Icons.layers_rounded, label: '단어', sub: 'Frekuensi', seal: 'TOP', color: AppColors.laut,
-          builder: (_) => const WordFreqScreen()),
-      _MenuItem(icon: Icons.compare_arrows_rounded, label: 'ID ↔ MS', sub: '인니어·말레이어 차이', seal: 'MS', color: AppColors.biruMs,
-          builder: (_) => const VariantsScreen()),
-      _MenuItem(icon: Icons.style_rounded, label: '복습', sub: 'Flashcard', seal: 'ULG', color: AppColors.emasDeep,
-          builder: (_) => const FlashcardScreen()),
+      _MenuItem(icon: Icons.chat_bubble_rounded, label: '회화', sub: 'Percakapan', seal: 'L1', color: AppColors.merah, builder: (_) => const DialogueHomeScreen()),
+      _MenuItem(icon: Icons.extension_rounded, label: '접사', sub: 'Afiks meN-/ber-/-kan', seal: 'AFX', color: AppColors.affixMe, builder: (_) => const AffixScreen()),
+      _MenuItem(icon: Icons.account_tree_rounded, label: '어근', sub: 'Kata dasar', seal: '√', color: AppColors.sogan, builder: (_) => const RootsScreen()),
+      _MenuItem(icon: Icons.layers_rounded, label: '단어', sub: 'Frekuensi', seal: 'TOP', color: AppColors.laut, builder: (_) => const WordFreqScreen()),
+      _MenuItem(icon: Icons.compare_arrows_rounded, label: 'ID ↔ MS', sub: '인니어·말레이어 차이', seal: 'MS', color: AppColors.biruMs, builder: (_) => const VariantsScreen()),
+      _MenuItem(icon: Icons.style_rounded, label: '복습', sub: 'Flashcard', seal: 'ULG', color: AppColors.emasDeep, builder: (_) => const FlashcardScreen()),
     ];
 
     return GridView.builder(
@@ -287,14 +247,7 @@ class _MenuItem {
   final String seal;
   final Color color;
   final WidgetBuilder builder;
-  _MenuItem({
-    required this.icon,
-    required this.label,
-    required this.sub,
-    required this.seal,
-    required this.color,
-    required this.builder,
-  });
+  _MenuItem({required this.icon, required this.label, required this.sub, required this.seal, required this.color, required this.builder});
 }
 
 class _MenuTile extends StatelessWidget {
@@ -324,11 +277,7 @@ class _MenuTile extends StatelessWidget {
               const SizedBox(height: 8),
               Text(
                 item.label,
-                style: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.kayu,
-                ),
+                style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.kayu),
               ),
               const SizedBox(height: 2),
               Text(
@@ -336,11 +285,7 @@ class _MenuTile extends StatelessWidget {
                 textAlign: TextAlign.center,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  fontSize: 9,
-                  color: AppColors.kayuLight,
-                  letterSpacing: 0.3,
-                ),
+                style: const TextStyle(fontSize: 9, color: AppColors.kayuLight, letterSpacing: 0.3),
               ),
             ],
           ),
@@ -357,18 +302,13 @@ class LearnScreen extends StatelessWidget {
   const LearnScreen({super.key});
 
   static final List<_LessonItem> _lessons = [
-    _LessonItem('기초', '어근 core', 'kata dasar → 파생어 가족', Icons.spa_outlined,
-        AppColors.sogan, (_) => const RootsScreen()),
-    _LessonItem('문법', '접사 체계', 'meN- / ber- / di- / ter- / -kan / -i / -an / ke-an', Icons.account_tree_outlined,
-        AppColors.affixMe, (_) => const AffixScreen()),
-    _LessonItem('회화', '만화책 읽기 회화', '장면 컷 + 대화 스크립트 · 모든 문장 듣기 · 그림 카드', Icons.auto_stories_outlined,
-        AppColors.beni, (_) => const DialogueHomeScreen()),
-    _LessonItem('단어', '절벽 단어 R1~R5', '빈도 2,000 · 20어 단원 · 회화 단어 포함', Icons.format_list_numbered,
-        AppColors.laut, (_) => const WordFreqScreen()),
-    _LessonItem('복습', '복습 플래시카드', '학습한 문장 랜덤 복습', Icons.style_outlined,
-        AppColors.emasDeep, (_) => const FlashcardScreen()),
-    _LessonItem('참고', '인니어 ↔ 말레이어', '어휘·철자·대명사 차이', Icons.compare_arrows,
-        AppColors.biruMs, (_) => const VariantsScreen()),
+    _LessonItem('기초', '알파벳과 발음', '모음·자음·겹글자·끝소리 · 탭하면 IPA·입모양·한국어 비교', Icons.abc, AppColors.beni, (_) => const AlphabetScreen()),
+    _LessonItem('기초', '어근 core', 'kata dasar → 파생어 가족', Icons.spa_outlined, AppColors.sogan, (_) => const RootsScreen()),
+    _LessonItem('문법', '접사 체계', 'meN- / ber- / di- / ter- / -kan / -i / -an / ke-an', Icons.account_tree_outlined, AppColors.affixMe, (_) => const AffixScreen()),
+    _LessonItem('회화', '만화책 읽기 회화', '장면 컷 + 대화 스크립트 · 모든 문장 듣기 · 그림 카드', Icons.auto_stories_outlined, AppColors.beni, (_) => const DialogueHomeScreen()),
+    _LessonItem('단어', '절벽 단어 R1~R5', '빈도 2,000 · 20어 단원 · 회화 단어 포함', Icons.format_list_numbered, AppColors.laut, (_) => const WordFreqScreen()),
+    _LessonItem('복습', '복습 플래시카드', '학습한 문장 랜덤 복습', Icons.style_outlined, AppColors.emasDeep, (_) => const FlashcardScreen()),
+    _LessonItem('참고', '인니어 ↔ 말레이어', '어휘·철자·대명사 차이', Icons.compare_arrows, AppColors.biruMs, (_) => const VariantsScreen()),
   ];
 
   @override
@@ -379,11 +319,15 @@ class LearnScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(12, 4, 12, 16),
         children: [
-          for (final l in _lessons) ...[
-            Padding(
-              padding: const EdgeInsets.fromLTRB(4, 14, 4, 6),
-              child: Text(l.category, style: const TextStyle(color: AppColors.kayu, fontSize: 14, fontWeight: FontWeight.w800)),
-            ),
+          for (final (i, l) in _lessons.indexed) ...[
+            if (i == 0 || _lessons[i - 1].category != l.category)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(4, 14, 4, 6),
+                child: Text(
+                  l.category,
+                  style: const TextStyle(color: AppColors.kayu, fontSize: 14, fontWeight: FontWeight.w800),
+                ),
+              ),
             _LessonRow(item: l),
           ],
         ],
@@ -413,10 +357,7 @@ class _LessonRow extends StatelessWidget {
         leading: Container(
           width: 40,
           height: 40,
-          decoration: BoxDecoration(
-            color: item.color.withValues(alpha: 0.12),
-            borderRadius: BorderRadius.circular(8),
-          ),
+          decoration: BoxDecoration(color: item.color.withValues(alpha: 0.12), borderRadius: BorderRadius.circular(8)),
           child: Icon(item.icon, color: item.color),
         ),
         title: Text(item.title, style: const TextStyle(fontWeight: FontWeight.w800)),
