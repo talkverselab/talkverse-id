@@ -53,3 +53,4 @@ PC D: 는 2026-11-07 돌아왔고 CI 21 APK 를 백업했다.
 - 시험: 앱에 없는 14턴 편 `data/tts/episodes/r3_work_b1.json` 을 MOSS(language Malay)·VoxCPM2 두 모델로 비교(`tools/tts/trial.py`). 비교판은 R2 에만, D1 은 사용자가 고른 판만. 판단 전 전편 금지.
 - 리뷰 페이지: `tools/review_id.sh` → `data/review/REVIEW_id.html`, uk 세션이 게시.
 - 음질 후처리: `pack.py --post`(저역 제거·약한 잡음 제거·치찰음 완화·4~8kHz 감쇠·압축 → `<편>_pp`). VoxCPM2 는 48kHz 로 나오는데 원본 판은 24kHz 로 내려 포장했다 — 후처리판은 48kHz 유지.
+- 배포(2026-11-08): 안드로이드 CI 22(Zealot https://apps.talkverse.uk/0wFAp/312) + TestFlight 2611081617. 음성 시험은 MOSS 선택, 후처리 1·2·3단계 중 사용자 선택 대기.
