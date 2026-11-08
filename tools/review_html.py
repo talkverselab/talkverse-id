@@ -20,7 +20,8 @@ def aurl(r):
 
 def vers(eid):
     """그 편의 음성 판 [(편 id 꼬리, 버튼 묶음, 이름표)]. 판이 하나면 이름표 없음."""
-    v = [(s, p, t) for s, p, t in (('', 'v', 'MOSS 원본 · '), ('_pp', 'pv', 'MOSS 후처리 · '), ('_vox', 'x', 'VoxCPM2 원본 · '), ('_vox_pp', 'px', 'VoxCPM2 후처리 · ')) if eid + s in AUD]
+    # 2026-11-08 사용자 선택 = MOSS → VoxCPM2 판은 목록(R2)에만 두고 페이지에서는 뺀다. 후처리 단계를 나란히.
+    v = [(s, p, t) for s, p, t in (('', 'v', '원본 · '), ('_pp', 'pv', '후처리1 · '), ('_pp2', 'pw', '후처리2 · '), ('_pp3', 'py', '후처리3 · ')) if eid + s in AUD]
     return v if len(v) > 1 else [(s, p, '') for s, p, t in v]
 
 
