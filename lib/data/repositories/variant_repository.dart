@@ -1,4 +1,5 @@
 import 'dart:convert';
+import '../../core/embed_env.dart';
 
 import 'package:flutter/services.dart' show rootBundle;
 
@@ -40,7 +41,7 @@ class VariantRepository {
     if (_loaded) return;
     try {
       final raw =
-          await rootBundle.loadString('assets/data/variants/id_ms_diff.json');
+          await rootBundle.loadString(assetPath('assets/data/variants/id_ms_diff.json'));
       final data = json.decode(raw) as Map<String, dynamic>;
       _pairs = ((data['pairs'] as List?) ?? [])
           .map((e) => VariantPair.fromJson(e as Map<String, dynamic>))

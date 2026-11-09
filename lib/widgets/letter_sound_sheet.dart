@@ -1,4 +1,5 @@
 import 'dart:async';
+import '../core/embed_env.dart';
 
 import 'package:flutter/material.dart';
 
@@ -116,7 +117,7 @@ class _LetterSoundSheetState extends State<_LetterSoundSheet> {
                     color: Colors.white,
                     padding: const EdgeInsets.all(8),
                     constraints: const BoxConstraints(maxHeight: 420),
-                    child: Image.asset('assets/images/ipa/places_of_articulation.png', fit: BoxFit.contain),
+                    child: Image.asset(assetPath('assets/images/ipa/places_of_articulation.png'), fit: BoxFit.contain),
                   ),
                 ),
                 const SizedBox(height: 6),

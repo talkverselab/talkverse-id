@@ -2,12 +2,7 @@
 // 실행: python3 tools/pane_shots.py <아이패드 UDID> <출력폴더> integration_test/dialogue_pane_test.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:indo_universe/data/db/app_database.dart';
-import 'package:indo_universe/data/db/seed_loader.dart';
-import 'package:indo_universe/data/repositories/dialogue_repository.dart';
-import 'package:indo_universe/data/repositories/root_repository.dart';
 import 'package:indo_universe/main.dart';
-import 'package:indo_universe/services/achievement_service.dart';
 import 'package:indo_universe/services/art_service.dart';
 import 'package:indo_universe/services/content_sync.dart';
 import 'package:indo_universe/services/learner_prefs.dart';
@@ -35,16 +30,10 @@ void main() {
   Finder rail(String label) => find.descendant(of: find.byType(NavigationRail), matching: find.text(label));
 
   testWidgets('dialogue pane', timeout: const Timeout(Duration(minutes: 10)), (t) async {
-    appDb = AppDatabase();
-    await SeedLoader(appDb).seedIfNeeded();
-    dialogueRepo = DialogueRepository(appDb);
-    rootRepo = RootRepository(appDb);
-    await rootRepo.primeAffixUtil();
-    await LearnerPrefs.load();
-    await AchievementService.instance.load();
+    await embedInit(standalone: true); // 단독 앱과 같은 초기화(lib/embed.dart)
     await ContentSync.instance.init(large: true); // 저장소 장면 컷 쓰는지 확인
     print('SCENE_URL:${await sceneVariant('assets/images/scenes/r1_friends_a1_1.jpg')}');
-    await t.pumpWidget(const IndoUniverseApp());
+    await t.pumpWidget(embedApp());
     await wait(t, 1500);
     await shot(t, '01_home_wide');
 

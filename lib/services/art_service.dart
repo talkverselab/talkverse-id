@@ -1,10 +1,11 @@
 import 'dart:async';
+import '../core/embed_env.dart';
 import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:flutter/widgets.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'content_sync.dart';
 import 'learner_prefs.dart';
@@ -15,10 +16,10 @@ import 'learner_prefs.dart';
 /// - 목록 `GET https://auth.talkverse.uk/art/id/manifest?level=R1` (level 생략 = 전체)
 ///   → `{lang, level, count, base, items:[{id, rank, level, word, reading, ko, en, pos, key_1024, key_512}]}`
 /// - 그림 = `base + key` (512·1024 webp, 1년 캐시). 
-/// 매니페스트는 SharedPreferences 에 하루 캐시하고, 없으면 그림 없이 카드가 그대로 나온다(실패해도 화면은 멀쩡해야 한다).
+/// 매니페스트는 Prefs 에 하루 캐시하고, 없으면 그림 없이 카드가 그대로 나온다(실패해도 화면은 멀쩡해야 한다).
 /// 그림 주소 → 위젯. 장면 컷(앱에 넣은 `assets/` 또는 저장소 `/scene/`)은 칸을 꽉 채우고, 단어 그림은 잘리지 않게 [fit].
 Widget artImage(String url, {BoxFit fit = BoxFit.contain, required Widget Function() fallback}) => url.startsWith('assets/')
-    ? Image.asset(url, fit: BoxFit.cover, errorBuilder: (_, _, _) => fallback())
+    ? Image.asset(assetPath(url), fit: BoxFit.cover, errorBuilder: (_, _, _) => fallback())
     : Image(image: artProvider(url), fit: url.contains('/scene/') ? BoxFit.cover : fit, errorBuilder: (_, _, _) => fallback()); // 기기에 받아 둔 그림 우선(ContentSync, 2026-11-04)
 
 /// 턴의 `art`(앱 에셋 경로) → 실제로 보여 줄 컷. 그림 저장소에 올라온 컷을 먼저 쓰고(2026-11-05), 없거나 오프라인 첫 실행이면 앱에 넣어 둔 컷.
@@ -37,7 +38,7 @@ Future<String> sceneVariant(String path) async {
   if (LearnerPrefs.isFemale) {
     final f = server('${ep}_f');
     if (f != null) return f;
-    _assetSet ??= (await AssetManifest.loadFromAssetBundle(rootBundle)).listAssets().toSet();
+    _assetSet ??= (await AssetManifest.loadFromAssetBundle(rootBundle)).listAssets().map(stripAssetPrefix).toSet();
     final local = 'assets/images/scenes/${ep}_f_$n.${m[3]}';
     if (_assetSet!.contains(local)) return local;
   }
@@ -93,7 +94,7 @@ class ArtService {
   Future<void> _ensure() => _loading ??= _load();
 
   Future<void> _load() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     final at = prefs.getInt(_prefAt) ?? 0;
     final cached = prefs.getString(_prefKey);
     final fresh = DateTime.now().millisecondsSinceEpoch - at < _ttl.inMilliseconds;

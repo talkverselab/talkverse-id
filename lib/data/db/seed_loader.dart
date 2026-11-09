@@ -1,9 +1,10 @@
 import 'dart:convert';
+import '../../core/embed_env.dart';
 
 import 'package:csv/csv.dart';
 import 'package:drift/drift.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../../core/prefs.dart';
 
 import '../../core/constants.dart';
 import 'app_database.dart';
@@ -19,7 +20,7 @@ class SeedLoader {
   SeedLoader(this.db);
 
   Future<void> seedIfNeeded() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     final bundled = await bundledVersion();
     if (prefs.getInt(_kDbVersion) == bundled) return;
     await _seedRoots();
@@ -33,7 +34,7 @@ class SeedLoader {
 
   static Future<int> bundledVersion() async {
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/version.json'))) as Map<String, dynamic>;
       return (j['db'] as num).toInt();
     } catch (_) {
       return 0;
@@ -43,7 +44,7 @@ class SeedLoader {
   /// 회화 낱말(문장 레마 칩이 뜻을 보이게 — uk 세션 제작 2026-11-04). phase 가 없어 「어근 core」 목록엔 안 나온다.
   Future<void> _seedConvWords() async {
     try {
-      final data = json.decode(await rootBundle.loadString('assets/data/roots/kata_conv.json')) as Map<String, dynamic>;
+      final data = json.decode(await rootBundle.loadString(assetPath('assets/data/roots/kata_conv.json'))) as Map<String, dynamic>;
       final batch = <Insertable<RootRow>>[
         for (final r in (data['roots'] as List? ?? const []))
           RootsCompanion.insert(root: (r as Map)['root'] as String, pos: Value(r['pos'] as String?), meaningKo: Value(r['ko'] as String?)),
@@ -56,7 +57,7 @@ class SeedLoader {
     final Map<String, dynamic> data;
     try {
       final raw =
-          await rootBundle.loadString('assets/data/roots/kata_dasar_core.json');
+          await rootBundle.loadString(assetPath('assets/data/roots/kata_dasar_core.json'));
       data = json.decode(raw) as Map<String, dynamic>;
     } catch (_) {
       return;
@@ -86,7 +87,7 @@ class SeedLoader {
     final Map<String, dynamic> data;
     try {
       final raw =
-          await rootBundle.loadString('assets/data/grammar/affixes.json');
+          await rootBundle.loadString(assetPath('assets/data/grammar/affixes.json'));
       data = json.decode(raw) as Map<String, dynamic>;
     } catch (_) {
       return;
@@ -114,7 +115,7 @@ class SeedLoader {
   Future<void> _seedWords() async {
     final String raw;
     try {
-      raw = await rootBundle.loadString('assets/data/freq/lang_id_cliff2000.csv');
+      raw = await rootBundle.loadString(assetPath('assets/data/freq/lang_id_cliff2000.csv'));
     } catch (_) {
       return;
     }
@@ -145,7 +146,7 @@ class SeedLoader {
       final Map<String, dynamic> data;
       try {
         final raw =
-            await rootBundle.loadString('assets/data/dialogues/id/$level.json');
+            await rootBundle.loadString(assetPath('assets/data/dialogues/id/$level.json'));
         data = json.decode(raw) as Map<String, dynamic>;
       } catch (_) {
         continue;

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../embed.dart' show switchLanguage;
 import '../widgets/legal_links.dart';
 
 import 'about_screen.dart';
@@ -76,8 +77,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             valueListenable: LearnerPrefs.name,
             builder: (context, name, _) => ValueListenableBuilder<String>(
               valueListenable: LearnerPrefs.gender,
-              builder: (context, gender, _) => Container(
-                decoration: _boxDeco(),
+              builder: (context, gender, _) => _Box(
                 child: Column(children: [
                   ListTile(
                     leading: _leadIcon(Icons.badge_outlined),
@@ -104,8 +104,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           const SizedBox(height: 8),
           _account(),
           const SizedBox(height: 8),
-          Container(
-            decoration: _boxDeco(),
+          _Box(
             child: Column(
               children: [
                 ListTile(
@@ -139,10 +138,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
           const SizedBox(height: 18),
           const _SectionTitle('설정'),
           const SizedBox(height: 8),
+          // 통합 앱(Talkverse)에서만: 다른 언어로(2026-11-09 EMBED_GUIDE §6)
+          if (switchLanguage != null) ...[
+            _Box(
+              child: ListTile(
+                leading: _leadIcon(Icons.swap_horiz),
+                title: const Text('다른 언어 배우기', style: TextStyle(fontWeight: FontWeight.w700)),
+                subtitle: const Text('Talkverse 의 다른 언어로 이동', style: TextStyle(fontSize: 11, color: AppColors.kayuLight)),
+                trailing: const Icon(Icons.chevron_right, color: AppColors.merah, size: 18),
+                onTap: switchLanguage,
+              ),
+            ),
+            const SizedBox(height: 8),
+          ],
           ValueListenableBuilder<bool>(
             valueListenable: LearnerPrefs.reading,
-            builder: (context, on, _) => Container(
-              decoration: _boxDeco(),
+            builder: (context, on, _) => _Box(
               child: SwitchListTile(
                 secondary: _leadIcon(Icons.translate),
                 title: const Text('독음 표시', style: TextStyle(fontWeight: FontWeight.w700)),
@@ -155,8 +166,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           const SizedBox(height: 16),
           const _SectionTitle('정보'),
           const SizedBox(height: 8),
-          Container(
-            decoration: _boxDeco(),
+          _Box(
             child: Column(
               children: [
                 ListTile(
@@ -237,8 +247,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   /// Talkverse 계정 — 로그인 전: 로그인 칸 / 로그인 후: 이름·이메일, 로그아웃, 계정 삭제(스토어 심사 요구). 로그인은 선택.
   Widget _account() => ValueListenableBuilder<Map<String, dynamic>?>(
         valueListenable: Account.user,
-        builder: (context, u, _) => Container(
-          decoration: _boxDeco(),
+        builder: (context, u, _) => _Box(
           child: u == null
               ? ListTile(
                   leading: _leadIcon(Icons.account_circle_outlined),
@@ -295,11 +304,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
   }
 
-  BoxDecoration _boxDeco() => BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: AppColors.emas.withValues(alpha: 0.5)),
-      );
 
   Widget _leadIcon(IconData icon) => Container(
         width: 32,
@@ -331,4 +335,17 @@ class _SectionTitle extends StatelessWidget {
         color: AppColors.kayu,
         letterSpacing: 2,
       ));
+}
+
+/// 흰 상자(테두리·둥근 모서리). ListTile 의 눌림 효과가 보이도록 Material 로 그린다(DecoratedBox 위 ListTile 은 효과가 가려진다는 Flutter 경고).
+class _Box extends StatelessWidget {
+  final Widget child;
+  const _Box({required this.child});
+  @override
+  Widget build(BuildContext context) => Material(
+        color: Colors.white,
+        clipBehavior: Clip.antiAlias,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8), side: BorderSide(color: AppColors.emas.withValues(alpha: 0.5))),
+        child: child,
+      );
 }

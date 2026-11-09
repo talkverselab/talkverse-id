@@ -1,4 +1,5 @@
 import 'dart:convert';
+import '../../core/embed_env.dart';
 
 import 'package:drift/drift.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -27,7 +28,7 @@ class DialogueRepository {
     for (final level in Levels.all) {
       try {
         final raw =
-            await rootBundle.loadString('assets/data/dialogues/id/$level.json');
+            await rootBundle.loadString(assetPath('assets/data/dialogues/id/$level.json'));
         final data = json.decode(raw) as Map<String, dynamic>;
         final units =
             (data['episodes'] as List?) ?? (data['dialogues'] as List?) ?? [];
