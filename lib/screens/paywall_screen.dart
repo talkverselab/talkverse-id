@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 
+import '../core/l10n.dart';
+import '../core/platform.dart';
 import '../core/theme.dart';
 import '../data/account.dart';
-import '../data/entitlement.dart';
 import '../data/purchase.dart';
+import '../widgets/legal_links.dart';
 import 'login_screen.dart';
 
-/// 유료 잠금 표시 화면 — 평생 이용권 가격 + 인앱 결제 버튼(사용자 지시 2026-11-02 "유료 잠금 표시 화면, 가격 표시 및 인앱결제 버튼").
-/// 아래에서 올라오는 시트. 사거나 복원되면 닫힌다. 로그인은 선택(기기 간 공유용).
-class PaywallScreen extends StatelessWidget {
+/// 이용권 시트 — 상품 고르기 + 인앱 결제(일본어앱 출시 점검판을 옮김, 가격 = ~/talkverse/PRICING.md 2026-11-09).
+/// 스토어 규정: 가격·기간·자동 갱신·해지 방법을 구매 버튼 가까이, 평생은 「서비스 운영 기간 동안」, 구매 복원, 미리 선택된 상품 없음,
+/// 약관·개인정보처리방침 링크. 앱 안에서 사이트 가격을 안내·유도하지 않는다.
+class PaywallScreen extends StatefulWidget {
   const PaywallScreen({super.key});
 
   static Future<void> show(BuildContext context) {
@@ -18,9 +21,32 @@ class PaywallScreen extends StatelessWidget {
       isScrollControlled: true,
       showDragHandle: true,
       backgroundColor: AppColors.gading,
+      constraints: const BoxConstraints(maxWidth: 640),
       builder: (_) => const PaywallScreen(),
     );
   }
+
+  @override
+  State<PaywallScreen> createState() => _PaywallScreenState();
+}
+
+class _PaywallScreenState extends State<PaywallScreen> {
+  String? _sel; // 미리 고르지 않는다
+
+  static String _won(int v) => '₩${v.toString().replaceAllMapped(RegExp(r'(\d)(?=(\d{3})+$)'), (m) => '${m[1]},')}';
+
+  String _title(Plan p) => switch ((p.bundle, p.months)) {
+        (false, 1) => tr('1개월'),
+        (false, 3) => tr('3개월'),
+        (false, 12) => tr('1년'),
+        (false, _) => tr('평생 이용권(서비스 운영 기간 동안)'),
+        (true, 12) => tr('종합 패키지 1년 — 모든 언어'),
+        (true, _) => tr('종합 패키지 평생 — 모든 언어(서비스 운영 기간 동안)'),
+      };
+
+  String _terms(Plan p) => p.lifetime
+      ? tr('한 번 결제 · 자동 갱신 없음')
+      : trf('{0}마다 자동 갱신 · 언제든 해지', [p.months == 12 ? tr('1년') : trf('{0}개월', [p.months])]);
 
   @override
   Widget build(BuildContext context) {
@@ -28,73 +54,90 @@ class PaywallScreen extends StatelessWidget {
       valueListenable: Purchase.status,
       builder: (c, st, _) {
         if (st == 'done' || st == 'restored') {
-          WidgetsBinding.instance.addPostFrameCallback((_) { if (Navigator.canPop(c)) Navigator.pop(c); });
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            if (Navigator.canPop(c)) Navigator.pop(c);
+          });
         }
         final busy = st == 'pending';
-        return ValueListenableBuilder<Map<String, dynamic>>(
+        return ValueListenableBuilder(
           valueListenable: Purchase.products,
-          builder: (c, _, __) {
-            final storePrice = Purchase.price(Entitlement.lang);
-            final price = storePrice ?? '스토어 가격';
+          builder: (c, _, _) {
+            final sel = _sel == null ? null : Purchase.plan(_sel!);
+            final selPrice = sel == null ? null : Purchase.price(sel.id);
             return SafeArea(
               top: false,
               child: SingleChildScrollView(
-                padding: EdgeInsets.fromLTRB(24, 4, 24, 20),
+                padding: EdgeInsets.fromLTRB(20, 0, 20, 16 + bottomInset(context)),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                  Row(children: [
-                    Container(width: 44, height: 44, alignment: Alignment.center, decoration: BoxDecoration(color: AppColors.merah.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(14)), child: const Icon(Icons.lock_outline, color: AppColors.merah)),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text('인도네시아어유니버스', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.merah)),
-                        Text('평생 이용권', style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.kayu)),
-                      ]),
+                  Text(tr('인도네시아어유니버스'), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.beni)),
+                  Text(tr('이용권 선택'), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.sumi)),
+                  const SizedBox(height: 10),
+                  _row(Icons.check_circle, tr('앞으로 추가되는 유료 과정(회화 레벨·장면 그림·음성)을 이용권 기간 동안')),
+                  _row(Icons.check_circle, tr('로그인하면 아이폰·아이패드·안드로이드 어디서나')),
+                  _row(Icons.check_circle_outline, tr('지금 있는 알파벳·어근·접사·회화·단어·복습 메뉴는 모두 무료'), muted: true),
+                  const SizedBox(height: 10),
+                  Text(tr('인도네시아어'), style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.sumiLight)),
+                  const SizedBox(height: 6),
+                  for (final p in Purchase.plans.where((x) => !x.bundle)) _planTile(p, busy),
+                  const SizedBox(height: 8),
+                  Text(tr('종합 패키지 — Talkverse 모든 언어 앱'), style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.sumiLight)),
+                  const SizedBox(height: 6),
+                  for (final p in Purchase.plans.where((x) => x.bundle)) _planTile(p, busy),
+                  const SizedBox(height: 10),
+                  if (st == 'error') Padding(padding: const EdgeInsets.only(bottom: 8), child: Text(tr('결제를 마치지 못했습니다. 다시 시도해 주세요.'), style: const TextStyle(color: Colors.redAccent, fontWeight: FontWeight.w700))),
+                  if (st == 'nothing') Padding(padding: const EdgeInsets.only(bottom: 8), child: Text(tr('복원할 구매가 없습니다.'), style: const TextStyle(color: AppColors.muted, fontWeight: FontWeight.w700))),
+                  // 구매 버튼 바로 위: 고른 상품의 가격·기간·갱신·해지
+                  if (sel != null)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 8),
+                      child: Text(
+                        sel.lifetime
+                            ? trf('{0} · {1} · 한 번 결제, 자동 갱신 없음', [_title(sel), selPrice ?? _won(sel.krw)])
+                            : trf('{0} · {1} · 기간이 끝나면 같은 가격으로 자동 갱신됩니다. 갱신 24시간 전까지 해지하면 다음 결제가 되지 않습니다.', [_title(sel), selPrice ?? _won(sel.krw)]),
+                        style: const TextStyle(fontSize: 12, color: AppColors.sumi, height: 1.45, fontWeight: FontWeight.w600),
+                      ),
                     ),
-                  ]),
-                  const SizedBox(height: 16),
-                  // 가격
-                  Container(
-                    padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
-                    decoration: BoxDecoration(color: AppColors.kayu, borderRadius: BorderRadius.circular(18)),
-                    child: Row(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                      Text(price, style: const TextStyle(fontSize: 34, fontWeight: FontWeight.w900, color: Colors.white, height: 1)),
-                      const SizedBox(width: 10),
-                      Expanded(child: Text('한 번 결제 · 구독 아님 · 평생', style: const TextStyle(fontSize: 12.5, color: Colors.white70, fontWeight: FontWeight.w700))),
-                    ]),
-                  ),
-                  const SizedBox(height: 16),
-                  // 무료/유료 범위는 사용자 결정 대기(lib/data/entitlement.dart) — 그 전까지 혜택 문구는 일반 안내만.
-                  _row(Icons.check_circle, '한 번 사면 이 앱의 유료 과정을 평생 이용'),
-                  _row(Icons.check_circle, '앞으로 추가되는 과정도 추가 결제 없이'),
-                  _row(Icons.check_circle_outline, '지금 있는 회화·접사·어근·단어·변이 메뉴는 계속 무료', muted: true),
-                  const SizedBox(height: 14),
-                  if (st == 'error') Padding(padding: const EdgeInsets.only(bottom: 10), child: Text('결제를 마치지 못했습니다. 다시 시도해 주세요.', style: const TextStyle(color: Colors.redAccent, fontWeight: FontWeight.w700))),
-                  if (st == 'nothing') Padding(padding: const EdgeInsets.only(bottom: 10), child: Text('복원할 구매가 없습니다.', style: const TextStyle(color: AppColors.kayuLight, fontWeight: FontWeight.w700))),
-                  // 인앱 결제 버튼
                   FilledButton(
-                    style: FilledButton.styleFrom(backgroundColor: AppColors.merah, minimumSize: const Size.fromHeight(54), textStyle: const TextStyle(fontSize: 17, fontWeight: FontWeight.w900)),
-                    onPressed: busy || storePrice == null ? null : () => Purchase.buy(Entitlement.lang),
+                    style: FilledButton.styleFrom(backgroundColor: AppColors.beni, foregroundColor: Colors.white, minimumSize: const Size.fromHeight(54), textStyle: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w900), shape: const StadiumBorder()),
+                    onPressed: busy || sel == null || selPrice == null ? null : () => Purchase.buy(sel.id),
                     child: busy
                         ? const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2.5, color: Colors.white))
-                        : Text(storePrice == null ? '스토어에 연결하는 중…' : '평생 이용권 구매 · $price'),
+                        : Text(sel == null
+                            ? tr('이용권을 골라 주세요')
+                            : selPrice == null
+                                ? tr('스토어에 연결하는 중…')
+                                : '${tr('구매')} · $selPrice'),
                   ),
                   const SizedBox(height: 8),
-                  OutlinedButton(onPressed: busy ? null : () => Purchase.restore(), child: Text('이전 구매 복원')),
-                  const SizedBox(height: 12),
+                  Text(
+                    isIOS
+                        ? tr('구독 해지: 아이폰 설정 → 내 이름(Apple ID) → 구독 → 인도네시아어유니버스 → 구독 취소')
+                        : tr('구독 해지: Google Play → 프로필 → 결제 및 정기 결제 → 정기 결제 → 인도네시아어유니버스 → 해지'),
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 11.5, color: AppColors.sumiLight, height: 1.4),
+                  ),
+                  const SizedBox(height: 6),
+                  OutlinedButton(
+                    style: OutlinedButton.styleFrom(shape: const StadiumBorder(), side: const BorderSide(color: AppColors.line)),
+                    onPressed: busy ? null : () => Purchase.restore(),
+                    child: Text(tr('이전 구매 복원'), style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w700)),
+                  ),
+                  const SizedBox(height: 6),
                   ValueListenableBuilder(
                     valueListenable: Account.user,
                     builder: (c, u, _) => u == null
                         ? TextButton(
-                            onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const LoginScreen())),
-                            child: Text('로그인하면 다른 기기에서도 이용권이 열립니다 (선택)', style: const TextStyle(fontSize: 12.5)),
+                            onPressed: () => LoginScreen.open(context),
+                            child: Text(tr('로그인하면 다른 기기에서도 이용권이 열립니다 (선택)'), style: const TextStyle(fontSize: 12.5, color: AppColors.ai)),
                           )
-                        : Text('로그인됨 — 구매는 Talkverse 계정에 기록되어 다른 기기에서도 열립니다.', textAlign: TextAlign.center, style: const TextStyle(fontSize: 12.5, color: AppColors.kayuLight)),
+                        : Text(tr('로그인됨 — 구매는 Talkverse 계정에 기록되어 다른 기기에서도 열립니다.'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
                   ),
-                  const Text(
-                    '결제는 App Store / Google Play에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다.',
+                  Text(
+                    tr('결제는 App Store / Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.'),
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 11, color: AppColors.kayuLight, height: 1.4),
+                    style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.4),
                   ),
+                  const LegalLinks(),
                 ]),
               ),
             );
@@ -104,12 +147,52 @@ class PaywallScreen extends StatelessWidget {
     );
   }
 
+  Widget _planTile(Plan p, bool busy) {
+    final on = _sel == p.id;
+    final price = Purchase.price(p.id) ?? _won(p.krw);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Semantics(
+        selected: on,
+        button: true,
+        label: '${_title(p)} $price ${p.listKrw > 0 ? '(정가 ${_won(p.listKrw)})' : ''} ${_terms(p)}',
+        child: InkWell(
+          borderRadius: BorderRadius.circular(12),
+          onTap: busy ? null : () => setState(() => _sel = p.id),
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+            decoration: BoxDecoration(
+              color: on ? AppColors.beni.withValues(alpha: 0.08) : Colors.white,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: on ? AppColors.beni : AppColors.line, width: on ? 2 : 1),
+            ),
+            child: Row(children: [
+              Icon(on ? Icons.radio_button_checked : Icons.radio_button_off, size: 20, color: on ? AppColors.beni : AppColors.muted),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(_title(p), style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+                  Text(_terms(p), style: const TextStyle(fontSize: 11.5, color: AppColors.sumiLight)),
+                ]),
+              ),
+              Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+                if (p.listKrw > 0)
+                  Text('${_won(p.listKrw)} · ${tr('출시 기념 30%')}', style: const TextStyle(fontSize: 10.5, color: AppColors.muted, decoration: TextDecoration.lineThrough, decorationColor: AppColors.muted)),
+                Text(price, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: AppColors.sumi)),
+              ]),
+            ]),
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _row(IconData icon, String text, {bool muted = false}) => Padding(
-        padding: const EdgeInsets.only(bottom: 8),
+        padding: const EdgeInsets.only(bottom: 6),
         child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Icon(icon, size: 18, color: muted ? AppColors.kayuLight : AppColors.laut),
+          Icon(icon, size: 18, color: muted ? AppColors.muted : AppColors.matcha),
           const SizedBox(width: 8),
-          Expanded(child: Text(text, style: TextStyle(fontSize: 14, height: 1.35, color: muted ? AppColors.kayuLight : AppColors.kayu, fontWeight: FontWeight.w600))),
+          Expanded(child: Text(text, style: TextStyle(fontSize: 13.5, height: 1.35, color: muted ? AppColors.muted : AppColors.sumi, fontWeight: FontWeight.w600))),
         ]),
       );
 }

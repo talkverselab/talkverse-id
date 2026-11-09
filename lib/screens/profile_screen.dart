@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/legal_links.dart';
 
 import 'about_screen.dart';
 import 'login_screen.dart';
@@ -109,8 +110,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               children: [
                 ListTile(
                   leading: _leadIcon(Icons.workspace_premium_outlined),
-                  title: const Text('평생 이용권', style: TextStyle(fontWeight: FontWeight.w700)),
-                  subtitle: Text(Entitlement.premium ? '사용 중' : '한 번 결제 · 구독 아님',
+                  title: const Text('이용권', style: TextStyle(fontWeight: FontWeight.w700)),
+                  subtitle: Text(Entitlement.premium ? '보유 중' : '1개월·3개월·1년·평생 · 구매 또는 이전 구매 복원',
                       style: const TextStyle(fontSize: 11, color: AppColors.kayuLight)),
                   trailing: const Icon(Icons.chevron_right, color: AppColors.merah, size: 18),
                   onTap: () => Entitlement.showPaywall(context),
@@ -126,7 +127,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           'pending' => '확인 중…',
                           'restored' => '복원했습니다',
                           'nothing' => '복원할 구매가 없습니다',
-                          _ => '이전에 산 평생 이용권을 이 기기에서 다시 엽니다',
+                          _ => '이전에 산 이용권을 이 기기에서 다시 엽니다',
                         },
                         style: const TextStyle(fontSize: 11, color: AppColors.kayuLight)),
                   ),
@@ -164,6 +165,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   subtitle: const Text('절벽구간 — 단어를 나누는 기준', style: TextStyle(color: AppColors.kayuLight, fontSize: 11)),
                   trailing: const Icon(Icons.chevron_right, color: AppColors.merah, size: 18),
                   onTap: () => openPane(context, (_) => const AboutScreen()),
+                ),
+                Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
+                ListTile(
+                  leading: _leadIcon(Icons.gavel_outlined),
+                  title: const Text('이용약관', style: TextStyle(fontWeight: FontWeight.w700, color: AppColors.kayu)),
+                  subtitle: const Text('talkverse.uk/terms', style: TextStyle(color: AppColors.kayuLight, fontSize: 11)),
+                  trailing: const Icon(Icons.open_in_new, color: AppColors.merah, size: 16),
+                  onTap: () => Legal.open(Legal.terms),
+                ),
+                Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
+                ListTile(
+                  leading: _leadIcon(Icons.privacy_tip_outlined),
+                  title: const Text('개인정보처리방침', style: TextStyle(fontWeight: FontWeight.w700, color: AppColors.kayu)),
+                  subtitle: const Text('talkverse.uk/talkverse/id/privacy', style: TextStyle(color: AppColors.kayuLight, fontSize: 11)),
+                  trailing: const Icon(Icons.open_in_new, color: AppColors.merah, size: 16),
+                  onTap: () => Legal.open(Legal.privacy),
                 ),
                 Container(height: 0.5, color: AppColors.emas.withValues(alpha: 0.3)),
                 ListTile(

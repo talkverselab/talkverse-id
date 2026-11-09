@@ -5,9 +5,9 @@ import 'account.dart';
 import 'purchase.dart';
 import '../screens/paywall_screen.dart';
 
-/// 평생 이용권(lang 'id') — 한자 앱과 같은 구성(2026-11-02).
+/// 이용권(lang 'id') — 1개월·3개월·1년(자동 갱신)·평생, 종합 1년·평생(2026-11-09 가격 확정).
 /// `premium` = 기기 제작용 스위치 OR Talkverse 계정 이용권(auth.talkverse.uk) OR 이 기기에서 산·복원한 이용권(스토어).
-/// 무료/유료 범위는 아직 정하지 않았다(사용자 결정 대기) — 지금은 어떤 기능도 잠그지 않는다.
+/// 출시 때는 잠금 없이 전부 무료(PRICING.md, 사용자 2026-11-09) — 지금은 어떤 기능도 잠그지 않는다. 결제 시트는 프로필 → 이용권.
 class Entitlement {
   Entitlement._();
   static const lang = 'id';
