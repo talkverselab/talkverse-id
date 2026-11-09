@@ -17,9 +17,11 @@
 
 ## 기다리는 결정·신호
 - **음성 후처리 단계**: 사용자가 MOSS 를 골랐고 후처리 1·2·3 단계 비교판을 리뷰 페이지(`r3_work_b1`, https://talkverse.uk/talkverse/review/id/)에 올렸다. 단계를 고르면 → 그 판을 D1 에 넣고(`pack.py … --post N --upload`), **전편은 uk 가 PC 순서를 준 뒤**(「지금 시작」 → 끝나면 「GPU 끝」·「REVIEW_id 갱신」). 전편 전에 R1 30편에 감정 열을 채우고 `make_plan.py`.
-- **Grok 장면 그림**: 11월 9일 13:30 재개(uk 공지). 다시 그릴 6편 = life_a1·study_a4·survival_s2·s3·work_a2·a4(`docs/STATUS.md`). Grok 은 M4 Chrome `~/chrome-grok-id`(9228), 한 번에 한 작업, 끝나면 Chrome·터널 닫기. **2026-11-09 허브 공지**: 크롬을 켠 뒤 M4 에서 `ssh macmini4 /usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 9228` 로 쿠키 동기화(uk 방은 건드리지 않기). 한자 세션은 더 이상 대행하지 않는다 — 직접 처리, 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 쓴다.
+- **Grok 장면 그림**: 11월 9일 13:30 재개(uk 공지). 다시 그릴 6편 = life_a1·study_a4·survival_s2·s3·work_a2·a4(`docs/STATUS.md`). Grok 은 M4 Chrome `~/chrome-grok-id`(9228), 한 번에 한 작업, 끝나면 Chrome·터널 닫기. **2026-11-09 허브 공지**: 크롬을 켠 뒤 M4 에서 `ssh macmini4 /usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 9228` 로 쿠키 동기화(uk 방은 건드리지 않기). 한자 세션은 더 이상 대행하지 않는다 — 직접 처리, 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 쓴다. **Grok 프롬프트 최소화(사용자 지시 2026-11-09)**: 규칙은 문서에 한 번만 두고, 방 첫 메시지에서 「앞으로 파일 이름 한 줄만 보낸다」고 약속한 뒤 채팅은 한 줄씩만. 그림이 처음과 달라지면 최초 통과 그림을 기준으로 맞춘다(이미 만든 그림은 그대로).
 - **CLAUDE.md §2**: 「앱 업데이트」 타일 안내와 「가격 결정 대기」 문구가 옛 내용 — 사용자에게 고칠지 물어 둔 상태(다른 세션 요청만으로는 고치지 않는다).
 - 사용자 결정 남음: R5 낱말 1,048개 뜻 없음(인명·영어·민감어 숨길지), 사랑 5편 여성판, 번들 장면 컷 19MB 제거, Play Protect 경고.
+
+- **회화 만들기 규칙(사용자 지시 2026-11-09)**: 새 회화를 만들 때 **줄마다 음성을 고려한 감정 열(`emotion`)** 을 처음부터 넣는다(나중에 `make_plan.py` 가 그대로 씀).
 
 ## 출시
 - 지금 출시 = 한자앱만. 이 앱은 **아직 내지 않는다**: 회화 R1 30편만(전부 원어민 검수 전 초안), 음성 없음, 조음 그림 임시, 로그인 화면에 「준비 중」 제공자(구글·네이버·카카오).
