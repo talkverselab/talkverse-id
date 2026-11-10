@@ -3,6 +3,7 @@
   ~/.venvs/img/bin/python tools/scene_upload.py [편id ...]    (없으면 data/review/scenes 의 컷 전부. 여자판은 편id = <편>_f)
 - 원본 = data/review/scenes/<편id>_<n>.jpg. Grok 화면 캡처의 둥근 모서리를 2.5% 잘라내고 가로 1168 로 맞춘 뒤 webp q86,
   scene/id/<편id>/cut<n>.webp 와 가로 584 판 cut<n>_584.webp. 3:2(±5%) 밖이면 올리지 않는다.
+- 환경변수 SKIP="편id:n,…" = 그 컷은 올리지 않는다(검수에서 떨어진 새 컷 — 서버의 기존 컷 유지).
 - D1 은 lang='id' 행만 INSERT OR REPLACE. sha1(원본)이 같으면 건너뜀. 키에 ?v= 를 붙이지 않는다(매니페스트가 sha1 앞 8자리를 붙임).
 """
 import datetime
@@ -39,6 +40,8 @@ def cuts(only):
         if not m or m[1] not in KNOWN:
             continue
         ep = m[1] + (m[2] or '')
+        if f'{ep}:{m[3]}' in os.environ.get('SKIP', '').split(','):
+            continue
         if not only or ep in only:
             yield ep, int(m[3]), f
 
