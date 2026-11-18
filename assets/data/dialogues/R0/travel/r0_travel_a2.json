@@ -121,7 +121,7 @@
    "id": "Atas nama {name}",
    "rd": "아따스 나마 {name}",
    "ko": "{name} 이름이에요",
-   "note": "emotion=neutral",
+   "note": "",
    "emotion": "neutral",
    "tags": [
     "expr:Atas nama …"

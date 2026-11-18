@@ -13,7 +13,7 @@
 "dialogues/R0/love/r0_love_a2.json": "6405fc486268",
 "dialogues/R0/love/r0_love_a3.json": "22f23968d490",
 "dialogues/R0/travel/r0_travel_a1.json": "22c5ff697273",
-"dialogues/R0/travel/r0_travel_a2.json": "b66da61e1d01",
+"dialogues/R0/travel/r0_travel_a2.json": "0da47e08cb34",
 "dialogues/R1/friends/r1_friends_a1.json": "4f8f0dda9b46",
 "dialogues/R1/friends/r1_friends_a2.json": "b1de83f80c0f",
 "dialogues/R1/friends/r1_friends_a3.json": "6271a6b40778",
@@ -78,5 +78,5 @@
 "dialogues/id/L1.json": "f4888e385e2c",
 "grammar/sense_course.json": "d145b80c270a"
 },
-"rev": 3
+"rev": 4
 }

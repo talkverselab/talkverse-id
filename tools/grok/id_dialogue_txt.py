@@ -67,6 +67,8 @@ def parse(text):
             continue
         if re.match(r'^[A-D]\s*\|', line):
             c = [x.strip() for x in re.split(r'(?<=\s)\|(?=\s)', line)]
+            if len(c) >= 4 and re.match(r'^(emotion|tags)=', c[3]):  # note 칸을 빼먹은 줄
+                c.insert(3, '')
             if len(c) < 5:
                 raise ValueError('칸 부족: ' + line)
             kv = {}
