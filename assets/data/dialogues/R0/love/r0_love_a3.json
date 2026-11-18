@@ -1,0 +1,230 @@
+{
+ "id": "r0_love_a3",
+ "island": "love",
+ "kind": "short",
+ "title": "새벽 다섯 시",
+ "emoji": "📅",
+ "scene": "퇴근길 정류장. Dimas가 휴대폰 달력을 보며 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Besok ada waktu?",
+  "Jam berapa?",
+  "Boleh"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Besok kamu ada waktu?",
+    "ko": "내일 시간 있어?"
+   },
+   {
+    "num": 2,
+    "id": "Ada. Kenapa?",
+    "ko": "있어. 왜?"
+   },
+   {
+    "num": 3,
+    "id": "Mau nonton film?",
+    "ko": "영화 볼래?"
+   },
+   {
+    "num": 4,
+    "id": "Boleh! Jam berapa?",
+    "ko": "좋아! 몇 시?"
+   },
+   {
+    "num": 5,
+    "id": "Jam lima pagi.",
+    "ko": "아침 다섯 시."
+   },
+   {
+    "num": 6,
+    "id": "Pagi?! Film apa itu?",
+    "ko": "아침?! 그게 무슨 영화야?"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_love_a3.md",
+  "grok_mode": "빠른",
+  "kick": "영화 보자더니 시간이 새벽 다섯 시"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Besok ada waktu?",
+   "rd": "베속 아다 왁뚜?",
+   "ko": "내일 시간 있어?",
+   "note": "besok = 내일",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Besok",
+     "besok",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "waktu",
+     "waktu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kenapa sih?",
+   "rd": "끄나빠 시흐?",
+   "ko": "왜 물어?",
+   "note": "kenapa = 왜",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Nonton film bareng",
+   "rd": "논똔 필므 바릉",
+   "ko": "같이 영화 보자",
+   "note": "nonton = 보다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nonton",
+     "nonton",
+     ""
+    ],
+    [
+     "film",
+     "film",
+     ""
+    ],
+    [
+     "bareng",
+     "bareng",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Jam berapa? Boleh",
+   "rd": "잠 브라빠? 볼레흐",
+   "ko": "몇 시야? 좋아",
+   "note": "jam = 시간",
+   "emotion": "happy",
+   "tags": [
+    "expr:Jam berapa?",
+    "expr:Boleh"
+   ],
+   "lemmas": [
+    [
+     "Jam",
+     "jam",
+     ""
+    ],
+    [
+     "berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "Boleh",
+     "boleh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Jam lima pagi",
+   "rd": "잠 리마 빠기",
+   "ko": "새벽 다섯 시",
+   "note": "lima = 다섯",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jam",
+     "jam",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Film jam lima pagi?",
+   "rd": "필므 잠 리마 빠기?",
+   "ko": "새벽 다섯 시 영화?",
+   "note": "film = 영화",
+   "emotion": "surprised",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Film",
+     "film",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+=== r2_work_a2
+level: R2
+title: 회의 마이크
+emoji: 🎙️
+scene: 온라인 회의. 내 마이크가 켜진 줄 모르고 혼잣말을 했다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 6 chaos
+expressions: Mikrofonnya; Bisa didengar?; Maaf, Pak
+flow: 1~2줄: 온라인 회의 중 동료가 학습자 마이크가 아직 켜져 있다고 알려 주고, 학습자가 언제부터냐고 묻는다. 3~4줄: 동료가 회의 지루하다고 혼잣말한 때부터라고 하자 학습자가 다들 들었냐고 묻는다. 5줄: 사장님까지 듣고 웃으셨다고 한다. 6줄(반전): 학습자가 당장 사과해야겠다며 안절부절못한다. 7~9줄: 동료가 사장님이 방금 그 말에 동의하셨다며, 다음 주부터 회의를 15분만 하기로 했다고 전한다.
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=twist
+B | ___ | ___ | ___ | emotion=surprised | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=

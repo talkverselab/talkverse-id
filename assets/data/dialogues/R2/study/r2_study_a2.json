@@ -1,0 +1,373 @@
+{
+ "id": "r2_study_a2",
+ "island": "study",
+ "kind": "short",
+ "title": "조별 과제 단톡",
+ "emoji": "💻",
+ "scene": "밤 11시. 조장 Dimas가 영상 통화를 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Bagian kamu",
+  "Sudah dikerjakan?",
+  "Tenang saja"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Bagian kamu sudah dikerjakan?",
+    "ko": "네 부분 다 했어?"
+   },
+   {
+    "num": 2,
+    "id": "Hampir. Tinggal kesimpulannya saja.",
+    "ko": "거의. 결론만 남았어."
+   },
+   {
+    "num": 3,
+    "id": "Syukurlah. Yang lain belum mulai sama sekali.",
+    "ko": "다행이다. 다른 사람들은 아예 시작도 안 했어."
+   },
+   {
+    "num": 4,
+    "id": "Lho, besok pagi harus dikumpulkan, kan?",
+    "ko": "어, 내일 아침에 내야 하잖아?"
+   },
+   {
+    "num": 5,
+    "id": "Iya. Makanya aku telepon kamu.",
+    "ko": "응. 그래서 너한테 전화한 거야."
+   },
+   {
+    "num": 6,
+    "id": "Jangan bilang aku harus mengerjakan semuanya.",
+    "ko": "설마 나더러 다 하라는 거 아니지."
+   },
+   {
+    "num": 7,
+    "id": "Bukan. Aku sudah selesaikan bagian mereka.",
+    "ko": "아니. 그 사람들 부분은 내가 벌써 끝냈어."
+   },
+   {
+    "num": 8,
+    "id": "Hah? Kapan kamu sempat?",
+    "ko": "뭐? 언제 그럴 시간이 있었어?"
+   },
+   {
+    "num": 9,
+    "id": "Aku tidak tidur dua hari.",
+    "ko": "나 이틀 못 잤어."
+   },
+   {
+    "num": 10,
+    "id": "Dimas, tidur sekarang. Kesimpulannya biar aku.",
+    "ko": "디마스, 지금 자. 결론은 내가 할게."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_study_a2.md",
+  "grok_mode": "빠른",
+  "kick": "다른 애 몫 다 했다더니 이틀 밤샘"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Bagian kamu sudah dikerjakan?",
+   "rd": "바기안 까무 수다흐 디끄르자깐?",
+   "ko": "네 몫 다 했어?",
+   "note": "bagian = 몫",
+   "emotion": "worried",
+   "tags": [
+    "expr:Bagian kamu",
+    "expr:Sudah dikerjakan?"
+   ],
+   "lemmas": [
+    [
+     "Bagian",
+     "bagi",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "dikerjakan",
+     "kerja",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kesimpulan aja yang belum",
+   "rd": "끄심뿔란 아자 양 블룸",
+   "ko": "결론만 남았어",
+   "note": "kesimpulan = 결론",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kesimpulan",
+     "simpul",
+     ""
+    ],
+    [
+     "belum",
+     "belum",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Yang lain belum mulai sama sekali",
+   "rd": "양 라인 블룸 물라이 사마 스깔리",
+   "ko": "다른 애들은 시작도 안 했어",
+   "note": "mulai = 시작하다",
+   "emotion": "relieved",
+   "tags": [],
+   "lemmas": [
+    [
+     "lain",
+     "lain",
+     ""
+    ],
+    [
+     "belum",
+     "belum",
+     ""
+    ],
+    [
+     "mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "sekali",
+     "sekali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Besok pagi kumpul, kan?",
+   "rd": "베속 빠기 꿈뿔, 깐?",
+   "ko": "내일 아침 제출이잖아?",
+   "note": "kumpul = 제출",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Besok",
+     "besok",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ],
+    [
+     "kumpul",
+     "kumpul",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Makanya aku telepon. Tenang saja",
+   "rd": "마까냐 아꾸 뗄레뽄. 뜨낭 사자",
+   "ko": "그래서 전화한 거야. 진정해",
+   "note": "telepon = 전화",
+   "emotion": "worried",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Makanya",
+     "makanya",
+     ""
+    ],
+    [
+     "telepon",
+     "telepon",
+     ""
+    ],
+    [
+     "Tenang",
+     "tenang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Jangan-jangan mau lempar semua ke aku",
+   "rd": "장안-장안 마우 름빠르 스무아 끄 아꾸",
+   "ko": "설마 나한테 다 떠넘기려는 거야?",
+   "note": "lempar = 떠넘기다",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jangan-jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "lempar",
+     "lempar",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Nggak, bagian mereka sudah aku selesaiin",
+   "rd": "응각, 바기안 므르까 수다흐 아꾸 슬르사이인",
+   "ko": "아니, 그 사람들 몫은 내가 다 끝냈어",
+   "note": "selesaiin = 끝내다",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "bagian",
+     "bagi",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "selesaiin",
+     "selesaiin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Kamu yang kerjain semuanya?",
+   "rd": "까무 양 끄르자인 스무아냐?",
+   "ko": "네가 다 한 거야?",
+   "note": "semuanya = 전부",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "kerjain",
+     "kerjain",
+     ""
+    ],
+    [
+     "semuanya",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Dua hari nggak tidur",
+   "rd": "두아 하리 응각 띠두르",
+   "ko": "이틀 동안 못 잤어",
+   "note": "tidur = 자다",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dua",
+     "dua",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "tidur",
+     "tidur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Sekarang tidur, kesimpulan aku yang buat",
+   "rd": "스까랑 띠두르, 끄심뿔란 아꾸 양 부앗",
+   "ko": "지금 당장 자, 결론은 내가 할게",
+   "note": "buat = 만들다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sekarang",
+     "sekarang",
+     ""
+    ],
+    [
+     "tidur",
+     "tidur",
+     ""
+    ],
+    [
+     "kesimpulan",
+     "simpul",
+     ""
+    ]
+   ]
+  }
+ ]
+}

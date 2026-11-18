@@ -1,0 +1,19 @@
+=== r2_friends_a2
+level: R2
+title: 빌려 간 돈
+emoji: 💸
+scene: 점심시간. Raka 가 지난달 빌린 돈 이야기를 꺼낸다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 5 reveal
+expressions: Utang; Kapan dibayar?; Lupa
+flow: 1~2줄: 점심시간에 친구가 지난달 빌린 돈을 아직 안 갚았다며 먼저 꺼내고, 학습자는 무슨 돈인지 잊었다고 한다. 3~4줄: 친구가 콘서트 날 빌린 금액을 말하고 학습자는 신경 쓰지 말라고 한다. 5~6줄(반전): 친구가 지금 꼭 갚겠다고 고집하자 학습자가 왜 갑자기 이렇게 꼼꼼하냐고 묻는다. 7~9줄: 친구가 사실 또 두 배를 빌리려고 그런다고 하고, 학습자가 계산을 정리해 주자 친구가 계산 잘했다며 뻔뻔하게 웃는다.
+B | ___ | ___ | ___ | emotion=embarrassed | tags=expr:Utang
+A | ___ | ___ | ___ | emotion=confused | tags=expr:Utang,expr:Lupa
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=warm | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=twist
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=laughing | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=

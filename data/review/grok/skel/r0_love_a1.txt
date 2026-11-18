@@ -1,0 +1,16 @@
+=== r0_love_a1
+level: R0
+title: 이름이 뭐예요?
+emoji: 💌
+scene: 동네 카페. 옆자리 Raka 가 자꾸 쳐다보다 말을 건다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 6 reveal
+expressions: Siapa nama kamu?; Nama saya …; Senang kenalan
+flow: 1~2줄: 동네 카페에서 옆자리 청년이 이름을 묻고 학습자가 이름을 말한다. 3~4줄: 청년이 이름이 예쁘다고 하고, 학습자가 고맙다며 청년의 이름을 묻는다. 5줄: 청년이 이름을 말하며 학습자네 바로 옆집에 산다고 한다. 6줄(반전): 학습자가 밤마다 노래 부르는 그 사람이냐고 알아챈다.
+B | ___ | ___ | ___ | emotion=shy | tags=expr:Siapa nama kamu?
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Nama saya …
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=shy | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=twist

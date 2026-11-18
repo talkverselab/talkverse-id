@@ -1,0 +1,20 @@
+=== r2_love_a2
+level: R2
+title: 잘못 보낸 메시지
+emoji: 📱
+scene: 저녁. Ayu 에게서 하트 이모티콘과 메시지가 온다
+cast: A: {name}(학습자), B: Ayu
+register: casual
+twist: 7 slip
+expressions: Salah kirim; Untuk siapa?; Sudah terlanjur
+flow: 1~2줄: 저녁에 친구에게서 하트와 함께 보고 싶다는 메시지가 왔고, 학습자가 누구한테 보낸 거냐고 묻자 친구는 아무것도 안 보냈다고 한다. 3~4줄: 학습자가 메시지 내용을 말하자 친구가 잘못 보낸 거라며 지워 달라고 한다. 5~6줄: 이미 읽었다며 원래 누구한테 보내려던 거냐고 묻자 친구는 할머니 댁 고양이한테라고 둘러댄다. 7줄(반전): 학습자가 고양이가 휴대폰이 있냐고 놀린다. 8~10줄: 친구가 고양이가 아니라고 인정하고, 누구냐는 물음에 받는 사람 이름을 다시 읽어 보라고 한다.
+A | ___ | ___ | ___ | emotion=curious | tags=expr:Untuk siapa?
+B | ___ | ___ | ___ | emotion=confused | tags=
+A | ___ | ___ | ___ | emotion=teasing | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=expr:Salah kirim
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:Untuk siapa?,expr:Sudah terlanjur
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=laughing | tags=twist
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=expr:Untuk siapa?
+B | ___ | ___ | ___ | emotion=shy | tags=

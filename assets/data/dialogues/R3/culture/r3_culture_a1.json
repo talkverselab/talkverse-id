@@ -1,0 +1,552 @@
+{
+ "id": "r3_culture_a1",
+ "island": "culture",
+ "kind": "short",
+ "title": "라마단 저녁",
+ "emoji": "🌙",
+ "scene": "라마단 기간 회사. 동료 Nadia가 금식을 마치는 부카 푸아사에 초대한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Buka puasa",
+  "Menahan",
+  "Bareng-bareng"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Nanti sore ikut buka puasa bareng kami, ya.",
+    "ko": "이따 저녁에 우리랑 같이 부카 푸아사 해."
+   },
+   {
+    "num": 2,
+    "id": "Boleh? Aku kan tidak puasa.",
+    "ko": "그래도 돼? 나는 금식 안 하잖아."
+   },
+   {
+    "num": 3,
+    "id": "Justru itu. Buka puasa itu untuk berbagi.",
+    "ko": "그러니까 더. 부카 푸아사는 나누는 거야."
+   },
+   {
+    "num": 4,
+    "id": "Kamu tidak makan dan minum dari subuh?",
+    "ko": "너 새벽부터 아무것도 안 먹고 안 마셨어?"
+   },
+   {
+    "num": 5,
+    "id": "Iya. Yang paling berat bukan lapar, tapi haus.",
+    "ko": "응. 제일 힘든 건 배고픔이 아니라 목마름이야."
+   },
+   {
+    "num": 6,
+    "id": "Maaf, tadi siang aku minum kopi di depanmu.",
+    "ko": "미안, 아까 낮에 네 앞에서 커피 마셨어."
+   },
+   {
+    "num": 7,
+    "id": "Tidak apa-apa. Menahan godaan juga bagian dari puasa.",
+    "ko": "괜찮아. 유혹 참는 것도 금식의 일부야."
+   },
+   {
+    "num": 8,
+    "id": "Aku harus bawa apa nanti?",
+    "ko": "이따 뭐 가져가야 해?"
+   },
+   {
+    "num": 9,
+    "id": "Bawa kolak kalau mau. Yang manis-manis.",
+    "ko": "원하면 콜락 가져와. 단 거."
+   },
+   {
+    "num": 10,
+    "id": "Kenapa harus yang manis?",
+    "ko": "왜 단 거여야 해?"
+   },
+   {
+    "num": 11,
+    "id": "Kata orang tua, berbuka dengan yang manis.",
+    "ko": "어른들이 단 걸로 금식을 깨라고 하셔."
+   },
+   {
+    "num": 12,
+    "id": "Oke. Aku buat kolak sendiri.",
+    "ko": "알았어. 콜락 내가 직접 만들게."
+   },
+   {
+    "num": 13,
+    "id": "Kamu bisa? Itu resep nenekku, nanti kuajari.",
+    "ko": "할 수 있어? 우리 할머니 레시피야, 내가 알려 줄게."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_culture_a1.md",
+  "grok_mode": "빠른",
+  "kick": "금식 안 하는 사람도 환영한다는 말과, 제일 힘든 건 배고픔이 아니라 목마름이라는 말에 마음이 따뜻해짐."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Nanti sore buka puasa bareng-bareng yuk.",
+   "rd": "난띠 소레 부까 뿌아사 바릉-바릉 육.",
+   "ko": "이따 저녁에 같이 부카 푸아사 하자.",
+   "note": "Buka puasa = 금식 깨기",
+   "emotion": "warm",
+   "tags": [
+    "expr:Buka puasa"
+   ],
+   "lemmas": [
+    [
+     "Nanti",
+     "nanti",
+     ""
+    ],
+    [
+     "sore",
+     "sore",
+     ""
+    ],
+    [
+     "buka",
+     "buka",
+     ""
+    ],
+    [
+     "puasa",
+     "puasa",
+     ""
+    ],
+    [
+     "bareng-bareng",
+     "bareng",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Aku kan nggak puasa, boleh ikut?",
+   "rd": "아꾸 깐 응각 뿌아사, 볼레흐 이꿋?",
+   "ko": "나는 금식 안 하는데 가도 돼?",
+   "note": "nggak puasa = 금식 안 하다",
+   "emotion": "nervous",
+   "tags": [],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "puasa",
+     "puasa",
+     ""
+    ],
+    [
+     "boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "ikut",
+     "ikut",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Justru karena itu, buka puasa itu untuk berbagi.",
+   "rd": "주스뜨루 까르나 이뚜, 부까 뿌아사 이뚜 운뚝 브르바기.",
+   "ko": "그래서 더 와. 부카 푸아사는 나누는 자리야.",
+   "note": "berbagi = 나누다",
+   "emotion": "warm",
+   "tags": [
+    "expr:Buka puasa"
+   ],
+   "lemmas": [
+    [
+     "Justru",
+     "justru",
+     ""
+    ],
+    [
+     "buka",
+     "buka",
+     ""
+    ],
+    [
+     "puasa",
+     "puasa",
+     ""
+    ],
+    [
+     "berbagi",
+     "bagi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Dari subuh nggak makan sama sekali?",
+   "rd": "다리 수부흐 응각 마깐 사마 스깔리?",
+   "ko": "새벽부터 아무것도 안 먹었어?",
+   "note": "dari subuh = 새벽부터",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "subuh",
+     "subuh",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "sekali",
+     "sekali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Yang paling berat bukan lapar, tapi haus.",
+   "rd": "양 빨링 브랏 부깐 라빠르, 따삐 하우스.",
+   "ko": "제일 힘든 건 배고픔이 아니라 목마름이야.",
+   "note": "haus = 목마르다",
+   "emotion": "tired",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "paling",
+     "paling",
+     ""
+    ],
+    [
+     "berat",
+     "berat",
+     ""
+    ],
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "lapar",
+     "lapar",
+     ""
+    ],
+    [
+     "haus",
+     "haus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Maaf ya, tadi siang aku minum kopi di depanmu.",
+   "rd": "마아프 야, 따디 시앙 아꾸 미눔 꼬삐 디 드빤무.",
+   "ko": "미안, 낮에 너 앞에서 커피 마셨어.",
+   "note": "maaf ya = 미안해",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "tadi",
+     "tadi",
+     ""
+    ],
+    [
+     "siang",
+     "siang",
+     ""
+    ],
+    [
+     "minum",
+     "minum",
+     ""
+    ],
+    [
+     "kopi",
+     "kopi",
+     ""
+    ],
+    [
+     "depanmu",
+     "depan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Nggak apa-apa, menahan godaan juga bagian puasa.",
+   "rd": "응각 아빠-아빠, 므나한 고다안 주가 바기안 뿌아사.",
+   "ko": "괜찮아, 유혹을 참는 것도 금식의 일부야.",
+   "note": "Menahan = 참다",
+   "emotion": "gentle",
+   "tags": [
+    "expr:Menahan"
+   ],
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "menahan",
+     "tahan",
+     ""
+    ],
+    [
+     "godaan",
+     "goda",
+     ""
+    ],
+    [
+     "bagian",
+     "bagi",
+     ""
+    ],
+    [
+     "puasa",
+     "puasa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Aku bawa apa nanti?",
+   "rd": "아꾸 바와 아빠 난띠?",
+   "ko": "뭐 가져가면 돼?",
+   "note": "bawa apa = 뭘 가져가다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "bawa",
+     "bawa",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "nanti",
+     "nanti",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Bawa yang manis-manis aja.",
+   "rd": "바와 양 마니스-마니스 아자.",
+   "ko": "단 거 아무거나 가져와.",
+   "note": "manis-manis = 단 것들",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bawa",
+     "bawa",
+     ""
+    ],
+    [
+     "manis-manis",
+     "manis",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Kenapa harus yang manis?",
+   "rd": "끄나빠 하루스 양 마니스?",
+   "ko": "왜 단 거여야 해?",
+   "note": "harus = 해야 하다",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "harus",
+     "harus",
+     ""
+    ],
+    [
+     "manis",
+     "manis",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Orang tua bilang, buka dengan yang manis lebih baik.",
+   "rd": "오랑 뚜아 빌랑, 부까 등안 양 마니스 르비흐 바익.",
+   "ko": "어른들이 단 걸로 깨는 게 더 좋다고 하셔.",
+   "note": "orang tua = 어른들",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Orang",
+     "orang",
+     ""
+    ],
+    [
+     "tua",
+     "tua",
+     ""
+    ],
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "buka",
+     "buka",
+     ""
+    ],
+    [
+     "manis",
+     "manis",
+     ""
+    ],
+    [
+     "lebih",
+     "lebih",
+     ""
+    ],
+    [
+     "baik",
+     "baik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Aku coba bikin sendiri boleh?",
+   "rd": "아꾸 쪼바 비낀 슨디리 볼레흐?",
+   "ko": "내가 직접 만들어 볼게.",
+   "note": "bikin sendiri = 직접 만들다",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "coba",
+     "coba",
+     ""
+    ],
+    [
+     "bikin",
+     "bikin",
+     ""
+    ],
+    [
+     "sendiri",
+     "sendiri",
+     ""
+    ],
+    [
+     "boleh",
+     "boleh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Ini resep nenek, nanti aku ajarin deh.",
+   "rd": "이니 르습 네넥, 난띠 아꾸 아자린 데흐.",
+   "ko": "할머니 레시피야, 내가 가르쳐 줄게.",
+   "note": "ajarin = 가르쳐 주다",
+   "emotion": "moved",
+   "tags": [],
+   "lemmas": [
+    [
+     "resep",
+     "resep",
+     ""
+    ],
+    [
+     "nenek",
+     "nenek",
+     ""
+    ],
+    [
+     "nanti",
+     "nanti",
+     ""
+    ],
+    [
+     "ajarin",
+     "ajarin",
+     ""
+    ]
+   ]
+  }
+ ]
+}

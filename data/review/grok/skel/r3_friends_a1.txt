@@ -1,0 +1,23 @@
+=== r3_friends_a1
+level: R3
+title: 단톡방 오해
+emoji: 💬
+scene: 친구 단톡방에 내 험담 같은 메시지가 올라왔다. Nadia 를 카페에서 만난다
+cast: A: {name}(학습자), B: Nadia
+register: casual
+twist: 6 reveal
+expressions: Salah paham; Bukan begitu maksudnya; Jujur saja
+flow: 1~4줄: 카페에서 학습자가 어제 단톡방 메시지가 자기 얘기냐고 따지고, 친구가 어떤 거냐고 묻자 학습자가 맨날 늦고 바쁜 척한다는 내용을 읊는다. 친구는 오해라고 한다. 5~6줄(반전): 학습자가 이름만 없지 뻔하다고 하자 친구는 새로 데려온 고양이 얘기였다고 한다. 7~10줄: 고양이가 어떻게 바쁜 척을 하냐고 묻자, 일할 때마다 노트북 위에 앉고 새벽까지 밖을 돌아다닌다고 한다. 11~12줄: 학습자가 단톡방을 나갈 뻔했다고 하자 친구가 다음엔 바로 물어보라고 한다. 13줄: 학습자가 근데 고양이 이름이 왜 '큰 사장'이냐고 묻는다.
+A | ___ | ___ | ___ | emotion=sad | tags=expr:Jujur saja
+B | ___ | ___ | ___ | emotion=confused | tags=
+A | ___ | ___ | ___ | emotion=sad | tags=
+B | ___ | ___ | ___ | emotion=surprised | tags=expr:Salah paham
+A | ___ | ___ | ___ | emotion=angry | tags=expr:Salah paham
+B | ___ | ___ | ___ | emotion=embarrassed | tags=expr:Bukan begitu maksudnya,twist
+A | ___ | ___ | ___ | emotion=confused | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=
+A | ___ | ___ | ___ | emotion=relieved | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=

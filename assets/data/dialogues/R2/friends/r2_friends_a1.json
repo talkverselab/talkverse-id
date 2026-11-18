@@ -1,0 +1,332 @@
+{
+ "id": "r2_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "노래방",
+ "emoji": "🎤",
+ "scene": "친구 생일 노래방. Nadia가 마이크를 놓지 않는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Giliran aku",
+  "Satu lagu lagi",
+  "Suaramu"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Nadia, sekarang giliran aku, ya.",
+    "ko": "나디아, 이제 내 차례야."
+   },
+   {
+    "num": 2,
+    "id": "Satu lagu lagi! Ini lagu favoritku.",
+    "ko": "한 곡만 더! 이거 내 최애곡이야."
+   },
+   {
+    "num": 3,
+    "id": "Kamu bilang begitu sudah lima kali.",
+    "ko": "그 말 벌써 다섯 번째야."
+   },
+   {
+    "num": 4,
+    "id": "Oke, kita nyanyi berdua saja.",
+    "ko": "알았어, 그냥 둘이 같이 부르자."
+   },
+   {
+    "num": 5,
+    "id": "Lagu apa? Aku tidak tahu lagu ini.",
+    "ko": "무슨 노래? 나 이 노래 몰라."
+   },
+   {
+    "num": 6,
+    "id": "Tidak apa-apa. Ikuti saja liriknya.",
+    "ko": "괜찮아. 가사만 따라 해."
+   },
+   {
+    "num": 7,
+    "id": "Liriknya bahasa Jawa semua!",
+    "ko": "가사가 전부 자바어잖아!"
+   },
+   {
+    "num": 8,
+    "id": "Makanya aku yang nyanyi terus dari tadi.",
+    "ko": "그러니까 내가 아까부터 계속 부른 거지."
+   },
+   {
+    "num": 9,
+    "id": "Ya sudah, mikrofonnya untukmu. Aku makan saja.",
+    "ko": "그래, 마이크는 너 해. 난 먹기나 할래."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_friends_a1.md",
+  "grok_mode": "빠른",
+  "kick": "같이 부르자더니 가사가 전부 자바어"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Giliran aku dong, udah lama",
+   "rd": "길리란 아꾸 동, 우다흐 라마",
+   "ko": "이제 내 차례야, 오래 됐어",
+   "note": "giliran = 차례",
+   "emotion": "annoyed",
+   "tags": [
+    "expr:Giliran aku"
+   ],
+   "lemmas": [
+    [
+     "Giliran",
+     "gilir",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "lama",
+     "lama",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Satu lagu lagi, ini favorit",
+   "rd": "사뚜 라구 라기, 이니 파포릿",
+   "ko": "한 곡만 더, 이거 최애곡이야",
+   "note": "favorit = 최애",
+   "emotion": "excited",
+   "tags": [
+    "expr:Satu lagu lagi"
+   ],
+   "lemmas": [
+    [
+     "Satu",
+     "satu",
+     ""
+    ],
+    [
+     "lagu",
+     "lagu",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "favorit",
+     "favorit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Itu udah kelima kalinya",
+   "rd": "이뚜 우다흐 끌리마 깔리냐",
+   "ko": "그 말 벌써 다섯 번째야",
+   "note": "kelima = 다섯 번째",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "kelima",
+     "lima",
+     ""
+    ],
+    [
+     "kalinya",
+     "kali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Yuk nyanyi bareng aja",
+   "rd": "육 냐니 바릉 아자",
+   "ko": "같이 부르자",
+   "note": "bareng = 같이",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "nyanyi",
+     "nyanyi",
+     ""
+    ],
+    [
+     "bareng",
+     "bareng",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Aku nggak tahu lagu ini",
+   "rd": "아꾸 응각 따후 라구 이니",
+   "ko": "나 이 노래 모르는데",
+   "note": "tahu = 알다",
+   "emotion": "confused",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "tahu",
+     "tahu",
+     ""
+    ],
+    [
+     "lagu",
+     "lagu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Ikutin liriknya aja, suaramu bagus",
+   "rd": "이꾸띤 리릭냐 아자, 수아라무 바구스",
+   "ko": "가사만 따라 해, 네 목소리 좋아",
+   "note": "lirik = 가사",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ikutin",
+     "ikutin",
+     ""
+    ],
+    [
+     "liriknya",
+     "lirik",
+     ""
+    ],
+    [
+     "suaramu",
+     "suara",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Liriknya semua bahasa Jawa",
+   "rd": "리릭냐 스무아 바하사 자와",
+   "ko": "가사가 전부 자바어야",
+   "note": "Jawa = 자바",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Liriknya",
+     "lirik",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ],
+    [
+     "bahasa",
+     "bahasa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Makanya aku yang nyanyi terus",
+   "rd": "마까냐 아꾸 양 냐니 뜨루스",
+   "ko": "그래서 내가 계속 불렀던 거야",
+   "note": "makanya = 그래서",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Makanya",
+     "makanya",
+     ""
+    ],
+    [
+     "nyanyi",
+     "nyanyi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Ambil mic-nya, aku makan aja",
+   "rd": "암빌 미츠-냐, 아꾸 마깐 아자",
+   "ko": "마이크 가져가, 나 먹기나 할게",
+   "note": "mic = 마이크",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ambil",
+     "ambil",
+     ""
+    ],
+    [
+     "mic-nya",
+     "mic",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "r2_study_a1",
+ "island": "study",
+ "kind": "short",
+ "title": "자리 맡기기 대실패",
+ "emoji": "📚",
+ "scene": "시험 기간 도서관. 자리 맡기고 화장실 다녀왔더니 친구가 앉아 있고 가방이 울린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Maaf, ini tempat saya",
+  "Dari tadi",
+  "Kalau begitu"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Maaf, ini tempat saya. Tasku ada di situ.",
+    "ko": "미안한데, 여기 내 자리야. 내 가방 거기 있잖아."
+   },
+   {
+    "num": 2,
+    "id": "Tas itu? Kukira tas yang ditinggal orang.",
+    "ko": "그 가방? 누가 두고 간 줄 알았어."
+   },
+   {
+    "num": 3,
+    "id": "Aku cuma ke toilet lima menit.",
+    "ko": "나 화장실 5분 다녀왔을 뿐이야."
+   },
+   {
+    "num": 4,
+    "id": "Lima menit? Aku sudah di sini dari tadi.",
+    "ko": "5분? 나 아까부터 여기 있었는데."
+   },
+   {
+    "num": 5,
+    "id": "Berarti kamu duduk di samping tasku sejam?",
+    "ko": "그럼 너 내 가방 옆에 한 시간 앉아 있었던 거야?"
+   },
+   {
+    "num": 6,
+    "id": "Iya, dan tasmu terus bergetar.",
+    "ko": "응, 그리고 네 가방 계속 진동하던데."
+   },
+   {
+    "num": 7,
+    "id": "Astaga, itu alarm ujianku!",
+    "ko": "세상에, 그거 내 시험 알람이야!"
+   },
+   {
+    "num": 8,
+    "id": "Ujian jam berapa?",
+    "ko": "시험 몇 시인데?"
+   },
+   {
+    "num": 9,
+    "id": "Jam sepuluh. Sekarang jam berapa?",
+    "ko": "열 시. 지금 몇 시야?"
+   },
+   {
+    "num": 10,
+    "id": "Sepuluh lewat lima. Lari!",
+    "ko": "열 시 5분. 뛰어!"
+   }
+  ],
+  "grok": "data/review/grok/out/r2_study_a1.md",
+  "grok_mode": "빠른",
+  "kick": "화장실 5분이 한 시간이 되고, 가방 진동이 시험 알람이었다는 반전에 이미 늦어서 패닉"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Maaf, ini tempat saya. Aku cuma ke toilet sebentar.",
+   "rd": "마아프, 이니 뜸빳 사야. 아꾸 쭈마 끄 또일릇 스븐따르.",
+   "ko": "미안, 여기 내 자리야. 화장실에 잠깐만 다녀왔는데.",
+   "note": "Maaf = 미안",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Maaf",
+    "ini tempat saya"
+   ],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "tempat",
+     "tempat",
+     ""
+    ],
+    [
+     "toilet",
+     "toilet",
+     ""
+    ],
+    [
+     "sebentar",
+     "sebentar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Hah? Aku kira tasnya ditinggal orang, sih.",
+   "rd": "하? 아꾸 끼라 따스냐 디띵갈 오랑, 시흐.",
+   "ko": "어? 가방 두고 간 줄 알았는데.",
+   "note": "kira = ~라고 생각하다",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "kira",
+     "kira",
+     ""
+    ],
+    [
+     "tasnya",
+     "tas",
+     ""
+    ],
+    [
+     "ditinggal",
+     "tinggal",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Lima menit doang, kok. Kenapa kamu duduk di situ?",
+   "rd": "리마 므닛 도앙, 꼭. 끄나빠 까무 두둑 디 시뚜?",
+   "ko": "5분밖에 안 걸렸는데. 왜 거기 앉아 있어?",
+   "note": "doang = 뿐이야",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lima",
+     "lima",
+     ""
+    ],
+    [
+     "menit",
+     "menit",
+     ""
+    ],
+    [
+     "doang",
+     "doang",
+     ""
+    ],
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "duduk",
+     "duduk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Dari tadi aku di sini, udah hampir sejam.",
+   "rd": "다리 따디 아꾸 디 시니, 우다흐 함삐르 스잠.",
+   "ko": "아까부터 여기 있었는데, 거의 한 시간 됐어.",
+   "note": "Dari tadi = 아까부터",
+   "emotion": "confused",
+   "tags": [
+    "expr:Dari tadi"
+   ],
+   "lemmas": [
+    [
+     "tadi",
+     "tadi",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "hampir",
+     "hampir",
+     ""
+    ],
+    [
+     "sejam",
+     "jam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Sejam? Nggak mungkin, aku lima menit aja.",
+   "rd": "스잠? 응각 뭉낀, 아꾸 리마 므닛 아자.",
+   "ko": "한 시간? 말도 안 돼, 나 5분밖에 안 걸렸는데.",
+   "note": "nggak mungkin = 말도 안 돼",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sejam",
+     "jam",
+     ""
+    ],
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "mungkin",
+     "mungkin",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "menit",
+     "menit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Tas kamu getar-getar mulu, alarm ujian kali?",
+   "rd": "따스 까무 그따르-그따르 물루, 알라르므 우지안 깔리?",
+   "ko": "네 가방 계속 진동하더라, 시험 알람인가?",
+   "note": "getar = 진동하다",
+   "emotion": "teasing",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Tas",
+     "tas",
+     ""
+    ],
+    [
+     "getar-getar",
+     "getar",
+     ""
+    ],
+    [
+     "mulu",
+     "mulu",
+     ""
+    ],
+    [
+     "alarm",
+     "alarm",
+     ""
+    ],
+    [
+     "ujian",
+     "uji",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Alarm? Kalau begitu ujian jam sepuluh!",
+   "rd": "알라르므? 깔라우 브기뚜 우지안 잠 스뿔루흐!",
+   "ko": "알람? 그럼 시험이 열 시인데!",
+   "note": "Kalau begitu = 그렇다면",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "Alarm",
+     "alarm",
+     ""
+    ],
+    [
+     "ujian",
+     "uji",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ],
+    [
+     "sepuluh",
+     "puluh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Sekarang udah lewat sepuluh, loh.",
+   "rd": "스까랑 우다흐 르왓 스뿔루흐, 로.",
+   "ko": "지금 이미 열 시 넘었어.",
+   "note": "lewat = 넘다",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sekarang",
+     "sekarang",
+     ""
+    ],
+    [
+     "udah",
+     "udah",
+     ""
+    ],
+    [
+     "lewat",
+     "lewat",
+     ""
+    ],
+    [
+     "sepuluh",
+     "puluh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Hah? Aku telat banget!",
+   "rd": "하? 아꾸 뜰랏 방읏!",
+   "ko": "뭐? 나 완전 늦었어!",
+   "note": "telat = 늦다",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "telat",
+     "telat",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Lari sekarang juga! Cepetan!",
+   "rd": "라리 스까랑 주가! 쯔쁘딴!",
+   "ko": "지금 당장 뛰어! 빨리!",
+   "note": "cepetan = 빨리",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lari",
+     "lari",
+     ""
+    ],
+    [
+     "sekarang",
+     "sekarang",
+     ""
+    ]
+   ]
+  }
+ ]
+}

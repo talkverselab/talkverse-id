@@ -1,0 +1,23 @@
+=== r3_study_a1
+level: R3
+title: 논문 지도
+emoji: 🎓
+scene: 지도교수 면담. Bu Sri 교수가 초고를 빨간 펜으로 가득 채워 돌려준다
+cast: A: {name}(학습자), B: Bu Sri
+register: polite
+twist: 6 reveal
+expressions: Menurut Ibu; Perlu diperbaiki; Kalau boleh saya jelaskan
+flow: 1~3줄: 지도교수가 졸업 논문 초고를 끝까지 읽었다고 하고, 학습자가 많이 고쳐야 하냐고 묻자 거의 모든 문단에 빨간 메모를 달았다고 한다. 4~5줄: 학습자가 데이터가 아직 다 안 모였다고 변명하려 하자 교수는 데이터 문제가 아니라고 한다. 6줄(반전): 학술 글치고 문장이 너무 아름다운 게 문제라고 한다. 7~9줄: 읽는 사람이 연구 보고서라는 걸 잊는다고 하고, 학습자는 예전에 소설가가 꿈이었다고 털어놓는다. 교수는 2장이 창가의 비로 시작해서 티가 난다고 한다. 10~13줄: 학습자가 문장을 건조하게 고치겠다고 하자, 교수는 논문은 고치되 이 초고는 버리지 말라며 이야기 끝이 진심으로 궁금하다고 한다.
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=nervous | tags=expr:Menurut Ibu
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=expr:Kalau boleh saya jelaskan
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=confused | tags=twist
+B | ___ | ___ | ___ | emotion=amused | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=serious | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=

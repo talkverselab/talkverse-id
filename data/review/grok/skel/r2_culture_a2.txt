@@ -1,0 +1,19 @@
+=== r2_culture_a2
+level: R2
+title: 결혼식 초대
+emoji: 💐
+scene: 사무실. Nadia 가 화려한 청첩장을 나눠 준다
+cast: A: {name}(학습자), B: Nadia
+register: casual
+twist: 4 ignore
+expressions: Undangan; Datang, ya; Pakai baju apa?
+flow: 1~2줄: 사무실에서 동료가 언니 결혼식 청첩장을 주며 꼭 오라 하고, 학습자가 하객이 몇 명이냐고 묻는다. 3~5줄(반전): 하객이 천오백 명쯤인데 언니가 아는 사람은 거의 없고 대부분 부모님 지인이라고 한다. 6~7줄: 학습자가 뭘 입어야 하냐고 묻자 흰색만 빼고 자유라고 한다. 8~9줄: 선물은 뭐가 좋냐는 질문에 동료가 와서 많이 먹는 게 선물이라며, 음식은 삼천 명분이라고 한다.
+B | ___ | ___ | ___ | emotion=happy | tags=expr:Undangan,expr:Datang, ya
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=twist
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=expr:Pakai baju apa?
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=

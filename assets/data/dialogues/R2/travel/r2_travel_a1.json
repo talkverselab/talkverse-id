@@ -1,0 +1,366 @@
+{
+ "id": "r2_travel_a1",
+ "island": "travel",
+ "kind": "short",
+ "title": "렌터카 대신",
+ "emoji": "🏍️",
+ "scene": "발리 공항. 예약한 차가 없어서 Pak Darto가 오토바이를 권한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Mobilnya tidak ada",
+  "Bisa diganti?",
+  "Lebih murah"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Pak, mobil yang saya pesan di mana?",
+    "ko": "기사님, 제가 예약한 차 어디 있어요?"
+   },
+   {
+    "num": 2,
+    "id": "Maaf, Mbak, mobilnya dipakai orang lain.",
+    "ko": "죄송해요, 차를 다른 사람이 쓰고 있어요."
+   },
+   {
+    "num": 3,
+    "id": "Lho, saya sudah bayar seminggu lalu!",
+    "ko": "어, 저 일주일 전에 돈 냈어요!"
+   },
+   {
+    "num": 4,
+    "id": "Bisa diganti motor. Lebih murah dan cepat.",
+    "ko": "오토바이로 바꿔 드릴 수 있어요. 더 싸고 빨라요."
+   },
+   {
+    "num": 5,
+    "id": "Koper saya dua dan besar sekali.",
+    "ko": "제 캐리어 두 개고 엄청 커요."
+   },
+   {
+    "num": 6,
+    "id": "Tenang. Saya sudah biasa bawa kulkas.",
+    "ko": "걱정 마요. 냉장고도 실어 봤어요."
+   },
+   {
+    "num": 7,
+    "id": "Di atas motor? Bagaimana caranya?",
+    "ko": "오토바이 위에요? 어떻게요?"
+   },
+   {
+    "num": 8,
+    "id": "Satu di depan, satu di belakang, Mbak di tengah.",
+    "ko": "하나는 앞에, 하나는 뒤에, 손님은 가운데."
+   },
+   {
+    "num": 9,
+    "id": "Kalau begitu, pelan-pelan, ya, Pak!",
+    "ko": "그럼 천천히 가 주세요!"
+   }
+  ],
+  "grok": "data/review/grok/out/r2_travel_a1.md",
+  "grok_mode": "빠른",
+  "kick": "캐리어 두 개 어떻게 실리냐니 앞뒤 가운데"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Mobilnya di mana? Sudah booking",
+   "rd": "모빌냐 디 마나? 수다흐 보오낑",
+   "ko": "차는 어디예요? 예약했어요",
+   "note": "booking = 예약",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mobilnya",
+     "mobil",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ],
+    [
+     "Sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "booking",
+     "booking",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Maaf, mobilnya tidak ada, dipakai orang",
+   "rd": "마아프, 모빌냐 띠닥 아다, 디빠까이 오랑",
+   "ko": "죄송해요, 차가 없어서 다른 사람이 쓰고 있어요",
+   "note": "dipakai = 쓰이다",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "mobilnya",
+     "mobil",
+     ""
+    ],
+    [
+     "tidak",
+     "tidak",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "dipakai",
+     "pakai",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Saya bayar seminggu lalu",
+   "rd": "사야 바야르 스밍구 랄루",
+   "ko": "일주일 전에 돈 냈어요",
+   "note": "bayar = 지불하다",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "bayar",
+     "bayar",
+     ""
+    ],
+    [
+     "seminggu",
+     "minggu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Bisa diganti motor, lebih murah dan cepat",
+   "rd": "비사 디간띠 모또르, 르비흐 무라흐 단 쯔빳",
+   "ko": "오토바이로 바꿔 드릴게요, 더 싸고 빨라요",
+   "note": "motor = 오토바이",
+   "emotion": "warm",
+   "tags": [
+    "expr:Bisa diganti?",
+    "expr:Lebih murah"
+   ],
+   "lemmas": [
+    [
+     "Bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "diganti",
+     "ganti",
+     ""
+    ],
+    [
+     "motor",
+     "motor",
+     ""
+    ],
+    [
+     "lebih",
+     "lebih",
+     ""
+    ],
+    [
+     "murah",
+     "murah",
+     ""
+    ],
+    [
+     "cepat",
+     "cepat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Koper saya besar dua buah",
+   "rd": "꼬쁘르 사야 브사르 두아 부아흐",
+   "ko": "캐리어가 큰 거 두 개예요",
+   "note": "koper = 캐리어",
+   "emotion": "worried",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Koper",
+     "koper",
+     ""
+    ],
+    [
+     "besar",
+     "besar",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "buah",
+     "buah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Tenang, kulkas pun pernah saya angkut",
+   "rd": "뜨낭, 꿀까스 뿐 쁘르나흐 사야 앙꿋",
+   "ko": "걱정 마세요, 냉장고도 실어 봤어요",
+   "note": "kulkas = 냉장고",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tenang",
+     "tenang",
+     ""
+    ],
+    [
+     "kulkas",
+     "kulkas",
+     ""
+    ],
+    [
+     "pernah",
+     "pernah",
+     ""
+    ],
+    [
+     "angkut",
+     "angkut",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Bagaimana caranya?",
+   "rd": "바가이마나 짜라냐?",
+   "ko": "어떻게 실어요?",
+   "note": "bagaimana = 어떻게",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bagaimana",
+     "bagaimana",
+     ""
+    ],
+    [
+     "caranya",
+     "cara",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Satu depan, satu belakang, Anda di tengah",
+   "rd": "사뚜 드빤, 사뚜 블라깡, 안다 디 뜽아흐",
+   "ko": "하나는 앞, 하나는 뒤, 손님은 가운데",
+   "note": "tengah = 가운데",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Satu",
+     "satu",
+     ""
+    ],
+    [
+     "depan",
+     "depan",
+     ""
+    ],
+    [
+     "belakang",
+     "belakang",
+     ""
+    ],
+    [
+     "tengah",
+     "tengah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Tolong pelan-pelan ya",
+   "rd": "똘롱 쁠란-쁠란 야",
+   "ko": "제발 천천히 가 주세요",
+   "note": "pelan = 천천히",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tolong",
+     "tolong",
+     ""
+    ],
+    [
+     "pelan-pelan",
+     "pelan",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+=== r3_study_a2
+level: R3
+title: 교환학생 면접
+emoji: 🌏
+scene: 교환학생 선발 면접. 면접관 Dimas 가 한국어로 질문을 던진다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 6 chaos
+expressions: Ceritakan tentang diri Anda; Alasannya; Pengalaman
+flow: 1~4줄: 교환학생 면접에서 면접관이 자기소개와 한국 대학을 고른 이유를 묻고, 학습자가 차분히 답한다. 5~6줄: 면접관이 다음 질문은 한국어로 답해 보라고 하자 학습자가 전혀 준비가 안 됐다고 당황한다. 7~9줄(반전): 쉬운 질문이라며 좋아하는 음식을 묻는데, 학습자가 긴장해서 엉뚱한 말을 하고 면접관이 방금 사무실을 좋아한다고 하셨다고 알려 준다. 10~11줄: 학습자가 오히려 사무직에 딱 맞는다는 신호라고 받아치자 면접관이 창의적인 답이라며 적어 둔다. 12~13줄: 가산점이냐 감점이냐고 묻자 면접관은 결과는 다음 주라며 계속 공부하라고 한다.
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=nervous | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=twist
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=
+A | ___ | ___ | ___ | emotion=teasing | tags=
+B | ___ | ___ | ___ | emotion=amused | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=

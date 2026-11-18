@@ -1,0 +1,20 @@
+=== r2_study_a2
+level: R2
+title: 조별 과제 단톡
+emoji: 💻
+scene: 밤 11시. 조장 Dimas 가 영상 통화를 건다
+cast: A: {name}(학습자), B: Dimas
+register: casual
+twist: 5 reveal
+expressions: Bagian kamu; Sudah dikerjakan?; Tenang saja
+flow: 1~2줄: 밤 11시 조장이 영상 통화로 학습자 몫을 다 했냐고 묻고, 학습자는 결론만 남았다고 한다. 3~4줄: 조장이 다른 팀원들은 시작도 안 했다고 하고, 학습자는 내일 아침 제출이라며 놀란다. 5~6줄(반전): 조장이 그래서 전화했다고 하자 학습자는 설마 자기에게 다 떠넘기려는 거냐고 의심한다. 7~9줄: 조장은 그 사람들 몫을 자기가 이미 다 끝냈고 이틀 동안 못 잤다고 한다. 10줄: 학습자가 지금 당장 자라며 결론은 자기가 하겠다고 한다.
+B | ___ | ___ | ___ | emotion=worried | tags=expr:Bagian kamu,expr:Sudah dikerjakan?
+A | ___ | ___ | ___ | emotion=tired | tags=
+B | ___ | ___ | ___ | emotion=relieved | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=twist
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=proud | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=tired | tags=
+A | ___ | ___ | ___ | emotion=warm | tags=

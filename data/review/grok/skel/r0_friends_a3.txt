@@ -1,0 +1,16 @@
+=== r0_friends_a3
+level: R0
+title: 사진 찍어 줄래?
+emoji: 📸
+scene: 공원. Nadia 가 휴대폰을 내밀며 포즈를 잡는다
+cast: A: {name}(학습자), B: Nadia
+register: casual
+twist: 5 chaos
+expressions: Tolong fotokan; Satu, dua, tiga; Lagi
+flow: 1~2줄: 공원에서 친구가 사진을 찍어 달라 하고 학습자가 셋을 세며 찍는다. 3~4줄: 친구가 표정이 마음에 안 든다며 다시 찍어 달라고 한다. 5줄(반전): 친구가 한 번 더를 외치며 스무 장은 더 찍자고 한다. 6줄: 학습자가 팔이 아프다고 항복한다.
+B | ___ | ___ | ___ | emotion=happy | tags=expr:Tolong fotokan
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Satu, dua, tiga
+B | ___ | ___ | ___ | emotion=excited | tags=expr:Lagi
+A | ___ | ___ | ___ | emotion=tired | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:Lagi,twist
+A | ___ | ___ | ___ | emotion=annoyed | tags=

@@ -1,0 +1,23 @@
+=== r3_travel_a1
+level: R3
+title: 잃어버린 여권
+emoji: 🛂
+scene: 공항 출국 심사 직전. 여권이 없다는 걸 알았다. 직원 Ayu 가 돕는다
+cast: A: {name}(학습자), B: Ayu
+register: polite
+twist: 6 chaos
+expressions: Kehilangan paspor; Terakhir kali; Laporan
+flow: 1~3줄: 출국 심사 직전, 학습자가 비행기가 두 시간 남았는데 여권이 없어졌다고 하고, 직원이 진정하라며 마지막으로 본 곳을 묻는다. 학습자는 체크인 카운터에서 캐리어 위에 올려 뒀다고 한다. 4~6줄: 캐리어를 이미 부쳤다는 말에 둘 다 여권이 캐리어에 같이 들어갔을 수 있다고 생각하고, 직원이 수하물 쪽에 연락한다. 7~9줄: 못 찾으면 경찰 신고와 대사관 긴급 서류가 필요해 며칠 걸린다고 한다. 10~11줄: 수하물 쪽에서 다시 전화가 오고 학습자가 찾았냐고 묻는다. 12줄(반전): 찾긴 했는데 캐리어가 다른 섬으로 가는 비행기에 실렸다고 한다. 13줄: 학습자가 자기는 서울로 간다고 외친다.
+A | ___ | ___ | ___ | emotion=panicked | tags=expr:Kehilangan paspor
+B | ___ | ___ | ___ | emotion=gentle | tags=expr:Terakhir kali
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=gentle | tags=twist
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=expr:Laporan
+A | ___ | ___ | ___ | emotion=sad | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=warm | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=shocked | tags=

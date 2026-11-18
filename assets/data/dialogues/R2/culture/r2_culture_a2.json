@@ -1,0 +1,364 @@
+{
+ "id": "r2_culture_a2",
+ "island": "culture",
+ "kind": "short",
+ "title": "결혼식 초대",
+ "emoji": "💐",
+ "scene": "사무실. Nadia가 화려한 청첩장을 나눠 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Undangan",
+  "Datang, ya",
+  "Pakai baju apa?"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Ini undangan pernikahan kakakku. Datang, ya.",
+    "ko": "우리 언니 결혼식 청첩장이야. 꼭 와."
+   },
+   {
+    "num": 2,
+    "id": "Wah, terima kasih. Tamunya berapa orang?",
+    "ko": "와, 고마워. 하객이 몇 명이야?"
+   },
+   {
+    "num": 3,
+    "id": "Sekitar seribu lima ratus.",
+    "ko": "천오백 명쯤."
+   },
+   {
+    "num": 4,
+    "id": "Seribu lima ratus? Kakakmu kenal semua?",
+    "ko": "천오백? 언니가 다 아는 사람이야?"
+   },
+   {
+    "num": 5,
+    "id": "Tidak. Kebanyakan teman orang tuaku.",
+    "ko": "아니. 대부분 부모님 친구분들."
+   },
+   {
+    "num": 6,
+    "id": "Aku harus pakai baju apa?",
+    "ko": "나 뭐 입어야 해?"
+   },
+   {
+    "num": 7,
+    "id": "Bebas. Yang penting jangan putih.",
+    "ko": "자유야. 하얀색만 빼고."
+   },
+   {
+    "num": 8,
+    "id": "Hadiahnya apa yang bagus?",
+    "ko": "선물은 뭐가 좋을까?"
+   },
+   {
+    "num": 9,
+    "id": "Datang dan makan banyak. Makanannya untuk tiga ribu.",
+    "ko": "와서 많이 먹기. 음식이 삼천 명분이야."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_culture_a2.md",
+  "grok_mode": "빠른",
+  "kick": "하객 천오백인데 아는 사람 거의 없고 음식은 삼천 명분"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Ini undangan kakak, datang ya",
+   "rd": "이니 운당안 까깍, 다땅 야",
+   "ko": "이거 언니 청첩장이야, 꼭 와",
+   "note": "undangan = 청첩장",
+   "emotion": "happy",
+   "tags": [
+    "expr:Undangan",
+    "expr:Datang",
+    "ya"
+   ],
+   "lemmas": [
+    [
+     "undangan",
+     "undang",
+     ""
+    ],
+    [
+     "kakak",
+     "kakak",
+     ""
+    ],
+    [
+     "datang",
+     "datang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Tamunya berapa orang?",
+   "rd": "따무냐 브라빠 오랑?",
+   "ko": "하객이 몇 명이야?",
+   "note": "tamu = 하객",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tamunya",
+     "tamu",
+     ""
+    ],
+    [
+     "berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Sekitar seribu lima ratus",
+   "rd": "스끼따르 스리부 리마 라뚜스",
+   "ko": "천오백 명쯤",
+   "note": "sekitar = 대략",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sekitar",
+     "sekitar",
+     ""
+    ],
+    [
+     "seribu",
+     "ribu",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "ratus",
+     "ratus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kakak kenal semuanya?",
+   "rd": "까깍 끄날 스무아냐?",
+   "ko": "언니가 다 아는 사람이야?",
+   "note": "kenal = 알다",
+   "emotion": "surprised",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Kakak",
+     "kakak",
+     ""
+    ],
+    [
+     "kenal",
+     "kenal",
+     ""
+    ],
+    [
+     "semuanya",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Nggak, kebanyakan teman orang tua",
+   "rd": "응각, 끄바냐깐 뜨만 오랑 뚜아",
+   "ko": "아니, 대부분 부모님 지인이야",
+   "note": "kebanyakan = 대부분",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "kebanyakan",
+     "banyak",
+     ""
+    ],
+    [
+     "teman",
+     "teman",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ],
+    [
+     "tua",
+     "tua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Pakai baju apa?",
+   "rd": "빠까이 바주 아빠?",
+   "ko": "뭘 입어야 해?",
+   "note": "pakai = 입다",
+   "emotion": "worried",
+   "tags": [
+    "expr:Pakai baju apa?"
+   ],
+   "lemmas": [
+    [
+     "Pakai",
+     "pakai",
+     ""
+    ],
+    [
+     "baju",
+     "baju",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Bebas, asal jangan putih",
+   "rd": "베바스, 아살 장안 뿌띠흐",
+   "ko": "자유야, 흰색만 빼",
+   "note": "bebas = 자유",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bebas",
+     "bebas",
+     ""
+    ],
+    [
+     "asal",
+     "asal",
+     ""
+    ],
+    [
+     "jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "putih",
+     "putih",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Kado apa yang bagus?",
+   "rd": "까도 아빠 양 바구스?",
+   "ko": "선물은 뭐가 좋아?",
+   "note": "kado = 선물",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kado",
+     "kado",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Datang dan makan banyak, makanan tiga ribu",
+   "rd": "다땅 단 마깐 바냑, 마까난 띠가 리부",
+   "ko": "와서 많이 먹어, 음식은 삼천 명분이야",
+   "note": "makan = 먹다",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Datang",
+     "datang",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "banyak",
+     "banyak",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "ribu",
+     "ribu",
+     ""
+    ]
+   ]
+  }
+ ]
+}

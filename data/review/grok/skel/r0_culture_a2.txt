@@ -1,0 +1,16 @@
+=== r0_culture_a2
+level: R0
+title: 바틱 셔츠
+emoji: 👕
+scene: 금요일 사무실 입구. Dimas 가 바틱 셔츠를 입고 있다
+cast: A: {name}(학습자), B: Dimas
+register: casual
+twist: 4 reveal
+expressions: Bagus; Beli di mana?; Hari Jumat
+flow: 1~2줄: 금요일 아침, 학습자가 동료의 옷을 칭찬하고 동료는 그게 바틱이라고 알려 준다. 3~4줄(반전): 학습자가 왜 하필 금요일이냐고 묻자, 회사에서 금요일엔 다 바틱을 입는다는 사실이 드러난다. 5~6줄: 학습자가 바틱이 없다고 걱정하자 동료가 준비해 둔 바틱을 선물로 내민다.
+A | ___ | ___ | ___ | emotion=happy | tags=expr:Bagus
+B | ___ | ___ | ___ | emotion=proud | tags=expr:Hari Jumat
+A | ___ | ___ | ___ | emotion=curious | tags=expr:Hari Jumat
+B | ___ | ___ | ___ | emotion=neutral | tags=twist
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=

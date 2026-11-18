@@ -1,0 +1,19 @@
+=== r2_love_a3
+level: R2
+title: 첫 데이트 식당
+emoji: 🍲
+scene: 첫 데이트. Dimas 가 고른 식당은 그의 어머니 가게였다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 6 reveal
+expressions: Pesan apa?; Rekomendasi; Kok tahu?
+flow: 1~4줄: 첫 데이트에서 상대가 데려온 소토 집이 자카르타에서 제일 맛있다고 하고, 학습자는 자주 오나 보다고 하며 메뉴를 상대에게 맡긴다. 5~6줄(반전): 상대가 주문하며 학습자 것은 셀러리를 빼 달라고 하자, 학습자는 자기가 셀러리 싫어하는 걸 어떻게 알았냐고 놀란다. 7줄: 상대는 구내식당에서 늘 골라내는 걸 봤다고 한다. 8~9줄: 학습자가 주인아주머니가 계속 둘을 보며 웃는다고 하자, 상대가 사실 저분이 자기 엄마이고 여기가 자기 집 식당이라고 고백한다.
+B | ___ | ___ | ___ | emotion=proud | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=nervous | tags=expr:Pesan apa?
+A | ___ | ___ | ___ | emotion=shy | tags=expr:Rekomendasi
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=expr:Kok tahu?,twist
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=

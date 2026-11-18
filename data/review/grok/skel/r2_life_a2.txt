@@ -1,0 +1,18 @@
+=== r2_life_a2
+level: R2
+title: 에어컨 수리
+emoji: ❄️
+scene: 한낮 36도. 수리기사 Pak Darto 가 에어컨을 보고 고개를 젓는다
+cast: A: {name}(학습자), B: Pak Darto
+register: polite
+twist: 5 chaos
+expressions: Kenapa?; Harus diganti; Berapa lama?
+flow: 1~2줄: 한낮 무더위에 학습자가 에어컨이 왜 안 되냐고 묻고, 수리기사는 리모컨 배터리가 다 됐다고 한다. 3~4줄: 학습자가 고작 배터리 때문에 멀리서 오시게 했다며 민망해하자, 기사는 필터도 엄청 더러워서 씻어야 한다고 한다. 5~6줄(반전): 한 시간 걸린다더니 기사가 기다리는 동안 아이스티 있냐고 묻는다. 7~8줄: 학습자가 설탕 넣냐고 묻자 기사가 많이 넣어 달라며 자기도 더워 죽겠다고 한다.
+A | ___ | ___ | ___ | emotion=annoyed | tags=expr:Kenapa?
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=expr:Berapa lama?,twist
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=warm | tags=
+B | ___ | ___ | ___ | emotion=tired | tags=

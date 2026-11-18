@@ -1,0 +1,23 @@
+=== r3_work_a2
+level: R3
+title: 거래처 실수
+emoji: 📧
+scene: 월요일 아침. 거래처에 보낸 견적서 금액에 0 이 하나 더 붙었다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 6 chaos
+expressions: Ada kesalahan; Segera diperbaiki; Bertanggung jawab
+flow: 1~4줄: 월요일 아침, 동료가 고객사 메일을 봤냐고 묻고 견적서 가격이 원래의 열 배로 적혀 있다고 한다. 학습자는 자기 오타라며 바로 고치겠다고 한다. 5~7줄(반전): 동료가 답장을 끝까지 읽어 보라고 하고, 고객사가 그 열 배 가격에 동의했다는 게 드러난다. 8~10줄: 학습자는 그래도 솔직하게 알려야 한다고 하고, 동료도 동의하며 전화는 학습자가 하라고 한다. 11~13줄: 전화 뒤 동료가 화났냐고 묻자, 학습자는 오히려 두 배를 더 주문했다고 하고, 동료가 솔직해서 그렇다며 오늘 커피는 자기가 사겠다고 한다.
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=gentle | tags=
+A | ___ | ___ | ___ | emotion=shocked | tags=twist
+B | ___ | ___ | ___ | emotion=shocked | tags=
+A | ___ | ___ | ___ | emotion=serious | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=expr:Bertanggung jawab
+A | ___ | ___ | ___ | emotion=serious | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=

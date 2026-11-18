@@ -1,0 +1,228 @@
+{
+ "id": "r0_culture_a2",
+ "island": "culture",
+ "kind": "short",
+ "title": "금요일 바틱 데이",
+ "emoji": "👕",
+ "scene": "금요일 아침 사무실 입구. Dimas가 바틱 셔츠를 입고 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Bagus",
+  "Beli di mana?",
+  "Hari Jumat"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Bajumu bagus sekali.",
+    "ko": "네 옷 정말 멋지다."
+   },
+   {
+    "num": 2,
+    "id": "Ini batik. Hari Jumat.",
+    "ko": "이거 바틱이야. 금요일이거든."
+   },
+   {
+    "num": 3,
+    "id": "Kenapa hari Jumat?",
+    "ko": "왜 금요일이야?"
+   },
+   {
+    "num": 4,
+    "id": "Kantor kami pakai batik.",
+    "ko": "우리 회사는 바틱 입어."
+   },
+   {
+    "num": 5,
+    "id": "Aku tidak punya batik.",
+    "ko": "나 바틱이 없는데."
+   },
+   {
+    "num": 6,
+    "id": "Ini, untukmu. Hadiah.",
+    "ko": "여기, 너 거야. 선물."
+   }
+  ],
+  "grok": "data/review/grok/out/r0_culture_a2.md",
+  "grok_mode": "빠른",
+  "kick": "바틱 없다고 걱정했는데 준비해 둔 걸 내미는 순간"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Bagus banget! Beli di mana?",
+   "rd": "바구스 방읏! 블리 디 마나?",
+   "ko": "완전 예쁘다! 어디서 샀어?",
+   "note": "bagus = 좋다",
+   "emotion": "happy",
+   "tags": [
+    "expr:Bagus"
+   ],
+   "lemmas": [
+    [
+     "Bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "Beli",
+     "beli",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Ini batik, Hari Jumat",
+   "rd": "이니 바띡, 하리 주맛",
+   "ko": "이거 바틱이야, 금요일에",
+   "note": "batik = 바틱",
+   "emotion": "proud",
+   "tags": [
+    "expr:Hari Jumat"
+   ],
+   "lemmas": [
+    [
+     "batik",
+     "batik",
+     ""
+    ],
+    [
+     "Hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Kenapa Hari Jumat?",
+   "rd": "끄나빠 하리 주맛?",
+   "ko": "왜 하필 금요일?",
+   "note": "kenapa = 왜",
+   "emotion": "curious",
+   "tags": [
+    "expr:Hari Jumat"
+   ],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "Hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Semua pakai batik hari Jumat",
+   "rd": "스무아 빠까이 바띡 하리 주맛",
+   "ko": "금요일엔 다 바틱 입어",
+   "note": "semua = 모두",
+   "emotion": "neutral",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Semua",
+     "semua",
+     ""
+    ],
+    [
+     "pakai",
+     "pakai",
+     ""
+    ],
+    [
+     "batik",
+     "batik",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Aku nggak punya batik",
+   "rd": "아꾸 응각 뿌냐 바띡",
+   "ko": "나 바틱 없는데",
+   "note": "nggak = 없다",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "punya",
+     "punya",
+     ""
+    ],
+    [
+     "batik",
+     "batik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Ini buat kamu, ambil deh",
+   "rd": "이니 부앗 까무, 암빌 데흐",
+   "ko": "이거 너 거, 그냥 가져",
+   "note": "buat = 위한",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "ambil",
+     "ambil",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+=== r3_love_a2
+level: R3
+title: 부모님께 인사
+emoji: 👪
+scene: 처음 Ayu 의 집에 인사 가는 날. 문 앞에서 Ayu 가 마지막 주의를 준다
+cast: A: {name}(학습자), B: Ayu
+register: casual
+twist: 6 chaos
+expressions: Jangan lupa; Kalau ditanya; Pokoknya
+flow: 1~2줄: 처음 연인의 집에 인사 가는 날, 문 앞에서 연인이 아빠를 부르는 호칭을 일러 주고 학습자가 또 조심할 게 있냐고 묻는다. 3~5줄: 직업을 물으시면 차분하고 분명하게, 월급을 물으시면 웃으며 엄마 요리를 칭찬하라고 한다. 6~7줄(반전): 요리가 엄청 매우면 어떡하냐고 묻자, 무조건 다 먹으라며 그게 첫 번째 시험이라고 한다. 8~9줄: 시험이 몇 개냐고 묻자 밥, 아빠와 체스, 할머니와 노래방 세 개라고 한다. 10~13줄: 체스를 못 둔다고 하자 아빠도 맨날 진다고 하고, 그럼 누가 이기냐는 말에 할머니라며 노래도 잘하신다고 한다.
+B | ___ | ___ | ___ | emotion=nervous | tags=
+A | ___ | ___ | ___ | emotion=nervous | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=expr:Kalau ditanya
+A | ___ | ___ | ___ | emotion=worried | tags=expr:Kalau ditanya
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=twist
+B | ___ | ___ | ___ | emotion=serious | tags=expr:Pokoknya
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=

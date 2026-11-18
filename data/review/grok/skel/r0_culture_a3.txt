@@ -1,0 +1,16 @@
+=== r0_culture_a3
+level: R0
+title: 오른손으로
+emoji: 🤝
+scene: 이웃집 방문. Pak Darto 가 차를 내준다
+cast: A: {name}(학습자), B: Pak Darto
+register: polite
+twist: 4 slip
+expressions: Silakan; Tangan kanan; Maaf
+flow: 1~2줄: 이웃 아저씨가 차를 내주고 학습자가 고맙다며 받는다. 3줄: 아저씨가 오른손으로 받으라고 살짝 알려 준다. 4줄(반전): 학습자가 사과하며 고쳐 잡는데 또 틀린 손이다. 5~6줄: 아저씨가 또 지적하자 학습자가 사실 왼손잡이라고 털어놓는다.
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Silakan
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Tangan kanan
+A | ___ | ___ | ___ | emotion=embarrassed | tags=expr:Maaf,twist
+B | ___ | ___ | ___ | emotion=laughing | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=

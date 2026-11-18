@@ -1,0 +1,527 @@
+{
+ "id": "r3_travel_a1",
+ "island": "travel",
+ "kind": "short",
+ "title": "잃어버린 여권",
+ "emoji": "🛂",
+ "scene": "공항 출국 심사 직전. 여권이 없다는 걸 알았다. 직원 Ayu가 돕는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Kehilangan paspor",
+  "Terakhir kali",
+  "Laporan"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Permisi, saya kehilangan paspor. Pesawat saya dua jam lagi.",
+    "ko": "실례합니다, 여권을 잃어버렸어요. 비행기가 두 시간 뒤예요."
+   },
+   {
+    "num": 2,
+    "id": "Tenang dulu. Di mana terakhir kali Anda melihatnya?",
+    "ko": "먼저 진정하세요. 마지막으로 어디서 보셨어요?"
+   },
+   {
+    "num": 3,
+    "id": "Di konter check-in. Saya taruh di atas koper.",
+    "ko": "체크인 카운터에서요. 캐리어 위에 올려 뒀어요."
+   },
+   {
+    "num": 4,
+    "id": "Kopernya sudah masuk bagasi?",
+    "ko": "캐리어는 벌써 부쳤어요?"
+   },
+   {
+    "num": 5,
+    "id": "Sudah. Jangan-jangan paspornya ikut masuk.",
+    "ko": "네. 설마 여권도 같이 들어간 거 아니겠죠."
+   },
+   {
+    "num": 6,
+    "id": "Kemungkinan itu ada. Saya hubungi bagian bagasi.",
+    "ko": "그럴 수도 있어요. 수하물 담당에 연락해 볼게요."
+   },
+   {
+    "num": 7,
+    "id": "Kalau tidak ketemu, apa yang harus saya lakukan?",
+    "ko": "못 찾으면 어떻게 해야 해요?"
+   },
+   {
+    "num": 8,
+    "id": "Buat laporan polisi, lalu ke kedutaan untuk dokumen darurat.",
+    "ko": "경찰 신고하고 대사관에서 긴급 서류를 받아야 해요."
+   },
+   {
+    "num": 9,
+    "id": "Itu pasti makan waktu berhari-hari.",
+    "ko": "그럼 며칠은 걸리겠네요."
+   },
+   {
+    "num": 10,
+    "id": "Tunggu, bagian bagasi menelepon balik.",
+    "ko": "잠깐만요, 수하물 쪽에서 다시 전화 왔어요."
+   },
+   {
+    "num": 11,
+    "id": "Bagaimana? Ketemu?",
+    "ko": "어때요? 찾았대요?"
+   },
+   {
+    "num": 12,
+    "id": "Ketemu, tapi koper Anda sudah dimuat ke pesawat Bali.",
+    "ko": "찾았는데, 캐리어가 발리행 비행기에 실렸대요."
+   },
+   {
+    "num": 13,
+    "id": "Saya mau ke Seoul, bukan Bali!",
+    "ko": "저 서울 가요, 발리가 아니라!"
+   }
+  ],
+  "grok": "data/review/grok/out/r3_travel_a1.md",
+  "grok_mode": "빠른",
+  "kick": "여권이 캐리어에 들어간 줄 알고 안심했는데, 그 캐리어가 다른 섬으로 가는 비행기에 실려 버렸음."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Saya kehilangan paspor, pesawat tinggal dua jam.",
+   "rd": "사야 끄힐랑안 빠스뽀르, 쁘사왓 띵갈 두아 잠.",
+   "ko": "여권을 잃어버렸어요, 비행기 두 시간 남았어요.",
+   "note": "Kehilangan paspor = 여권을 잃다",
+   "emotion": "panicked",
+   "tags": [
+    "expr:Kehilangan paspor"
+   ],
+   "lemmas": [
+    [
+     "kehilangan",
+     "hilang",
+     ""
+    ],
+    [
+     "paspor",
+     "paspor",
+     ""
+    ],
+    [
+     "pesawat",
+     "pesawat",
+     ""
+    ],
+    [
+     "tinggal",
+     "tinggal",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Tenang, Kak. Terakhir kali lihat di mana?",
+   "rd": "뜨낭, 깍. 뜨르악히르 깔리 리핫 디 마나?",
+   "ko": "진정하세요. 마지막으로 본 곳이 어디예요?",
+   "note": "Terakhir kali = 마지막으로",
+   "emotion": "gentle",
+   "tags": [
+    "expr:Terakhir kali"
+   ],
+   "lemmas": [
+    [
+     "Tenang",
+     "tenang",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ],
+    [
+     "lihat",
+     "lihat",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Di atas koper, di konter check-in.",
+   "rd": "디 아따스 꼬쁘르, 디 꼰뜨르 쯔흐츠끄-인.",
+   "ko": "체크인 카운터에서 캐리어 위에 올려뒀어요.",
+   "note": "konter check-in = 체크인 카운터",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "atas",
+     "atas",
+     ""
+    ],
+    [
+     "koper",
+     "koper",
+     ""
+    ],
+    [
+     "konter",
+     "konter",
+     ""
+    ],
+    [
+     "check-in",
+     "check",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Kopernya sudah dititipkan?",
+   "rd": "꼬쁘르냐 수다흐 디띠띱깐?",
+   "ko": "캐리어는 이미 부치셨어요?",
+   "note": "dititipkan = 맡기다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kopernya",
+     "koper",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "dititipkan",
+     "titip",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Sudah, Kak. Mungkin paspor ikut masuk.",
+   "rd": "수다흐, 깍. 뭉낀 빠스뽀르 이꿋 마숙.",
+   "ko": "네. 여권이 같이 들어갔을 수도 있어요.",
+   "note": "ikut masuk = 같이 들어가다",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "Mungkin",
+     "mungkin",
+     ""
+    ],
+    [
+     "paspor",
+     "paspor",
+     ""
+    ],
+    [
+     "ikut",
+     "ikut",
+     ""
+    ],
+    [
+     "masuk",
+     "masuk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Saya hubungi bagian bagasi sekarang.",
+   "rd": "사야 후붕이 바기안 바가시 스까랑.",
+   "ko": "지금 수하물 쪽에 연락할게요.",
+   "note": "bagian bagasi = 수하물 부서",
+   "emotion": "gentle",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "hubungi",
+     "hubung",
+     ""
+    ],
+    [
+     "bagian",
+     "bagi",
+     ""
+    ],
+    [
+     "bagasi",
+     "bagasi",
+     ""
+    ],
+    [
+     "sekarang",
+     "sekarang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kalau nggak ketemu gimana, Kak?",
+   "rd": "깔라우 응각 끄뜨무 기마나, 깍?",
+   "ko": "못 찾으면 어떡하죠?",
+   "note": "nggak ketemu = 못 찾다",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "ketemu",
+     "ketemu",
+     ""
+    ],
+    [
+     "gimana",
+     "gimana",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Perlu laporan polisi dan surat darurat kedutaan.",
+   "rd": "쁘르루 라뽀란 뽈리시 단 수랏 다루랏 끄두따안.",
+   "ko": "경찰 신고랑 대사관 긴급 서류가 필요해요.",
+   "note": "Laporan = 신고/보고서",
+   "emotion": "serious",
+   "tags": [
+    "expr:Laporan"
+   ],
+   "lemmas": [
+    [
+     "Perlu",
+     "perlu",
+     ""
+    ],
+    [
+     "laporan",
+     "lapor",
+     ""
+    ],
+    [
+     "polisi",
+     "polisi",
+     ""
+    ],
+    [
+     "surat",
+     "surat",
+     ""
+    ],
+    [
+     "darurat",
+     "darurat",
+     ""
+    ],
+    [
+     "kedutaan",
+     "duta",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Itu bisa makan waktu berapa hari?",
+   "rd": "이뚜 비사 마깐 왁뚜 브라빠 하리?",
+   "ko": "며칠이나 걸리나요?",
+   "note": "makan waktu = 시간이 걸리다",
+   "emotion": "sad",
+   "tags": [],
+   "lemmas": [
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "waktu",
+     "waktu",
+     ""
+    ],
+    [
+     "berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Ada telepon dari bagasi.",
+   "rd": "아다 뗄레뽄 다리 바가시.",
+   "ko": "수하물 쪽에서 전화 왔어요.",
+   "note": "telepon = 전화",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ada",
+     "ada",
+     ""
+    ],
+    [
+     "telepon",
+     "telepon",
+     ""
+    ],
+    [
+     "bagasi",
+     "bagasi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "id": "Ketemu paspornya, Kak?",
+   "rd": "끄뜨무 빠스뽀르냐, 깍?",
+   "ko": "여권 찾았어요?",
+   "note": "ketemu = 찾다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ketemu",
+     "ketemu",
+     ""
+    ],
+    [
+     "paspornya",
+     "paspor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "id": "Ketemu, tapi koper naik pesawat ke pulau lain.",
+   "rd": "끄뜨무, 따삐 꼬쁘르 나익 쁘사왓 끄 뿔라우 라인.",
+   "ko": "찾긴 했는데 캐리어가 다른 섬 가는 비행기에 실렸어요.",
+   "note": "pulau lain = 다른 섬",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ketemu",
+     "ketemu",
+     ""
+    ],
+    [
+     "koper",
+     "koper",
+     ""
+    ],
+    [
+     "naik",
+     "naik",
+     ""
+    ],
+    [
+     "pesawat",
+     "pesawat",
+     ""
+    ],
+    [
+     "pulau",
+     "pulau",
+     ""
+    ],
+    [
+     "lain",
+     "lain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "id": "Saya mau ke Seoul!",
+   "rd": "사야 마우 끄 스오울!",
+   "ko": "저는 서울로 가요!",
+   "note": "mau ke = ~로 가다",
+   "emotion": "shocked",
+   "tags": [],
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ]
+   ]
+  }
+ ]
+}

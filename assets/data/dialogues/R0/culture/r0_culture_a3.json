@@ -1,0 +1,222 @@
+{
+ "id": "r0_culture_a3",
+ "island": "culture",
+ "kind": "short",
+ "title": "오른손 주의",
+ "emoji": "🤝",
+ "scene": "이웃집 방문. Pak Darto가 차를 내준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Silakan",
+  "Tangan kanan",
+  "Maaf"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Silakan minum tehnya.",
+    "ko": "차 드세요."
+   },
+   {
+    "num": 2,
+    "id": "Terima kasih, Pak.",
+    "ko": "감사합니다."
+   },
+   {
+    "num": 3,
+    "id": "Pakai tangan kanan, ya.",
+    "ko": "오른손으로 받아요."
+   },
+   {
+    "num": 4,
+    "id": "Oh, maaf! Begini?",
+    "ko": "아, 죄송해요! 이렇게요?"
+   },
+   {
+    "num": 5,
+    "id": "Itu tangan kiri lagi.",
+    "ko": "그것도 또 왼손이에요."
+   },
+   {
+    "num": 6,
+    "id": "Aku kidal, Pak!",
+    "ko": "저 왼손잡이예요!"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_culture_a3.md",
+  "grok_mode": "빠른",
+  "kick": "사과하며 고치려다 또 왼손으로 잡히고 왼손잡이 고백"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Silakan minum teh",
+   "rd": "실라깐 미눔 떼흐",
+   "ko": "차 드세요",
+   "note": "silakan = 하세요",
+   "emotion": "warm",
+   "tags": [
+    "expr:Silakan"
+   ],
+   "lemmas": [
+    [
+     "Silakan",
+     "sila",
+     ""
+    ],
+    [
+     "minum",
+     "minum",
+     ""
+    ],
+    [
+     "teh",
+     "teh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Terima kasih, Pak",
+   "rd": "뜨리마 까시흐, 빡",
+   "ko": "감사합니다, 아저씨",
+   "note": "terima kasih = 감사합니다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Pakai tangan kanan ya",
+   "rd": "빠까이 땅안 까난 야",
+   "ko": "오른손으로요",
+   "note": "tangan kanan = 오른손",
+   "emotion": "warm",
+   "tags": [
+    "expr:Tangan kanan"
+   ],
+   "lemmas": [
+    [
+     "Pakai",
+     "pakai",
+     ""
+    ],
+    [
+     "tangan",
+     "tangan",
+     ""
+    ],
+    [
+     "kanan",
+     "kanan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Maaf, tangan kiri lagi",
+   "rd": "마아프, 땅안 끼리 라기",
+   "ko": "죄송, 또 왼손이에요",
+   "note": "maaf = 미안합니다",
+   "emotion": "embarrassed",
+   "tags": [
+    "expr:Maaf",
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "tangan",
+     "tangan",
+     ""
+    ],
+    [
+     "kiri",
+     "kiri",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Masih salah ya, hehe",
+   "rd": "마시흐 살라흐 야, 헤헤",
+   "ko": "또 틀리셨네요, 헤헤",
+   "note": "masih = 아직",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Masih",
+     "masih",
+     ""
+    ],
+    [
+     "salah",
+     "salah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Saya kidal, Pak",
+   "rd": "사야 끼달, 빡",
+   "ko": "저 왼손잡이에요, 아저씨",
+   "note": "kidal = 왼손잡이",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "kidal",
+     "kidal",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,543 @@
+{
+ "id": "r3_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "단톡방 오해",
+ "emoji": "💬",
+ "scene": "친구 단톡방에 내 험담 같은 메시지가 올라왔다. Nadia를 카페에서 만난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Salah paham",
+  "Bukan begitu maksudnya",
+  "Jujur saja"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Jujur saja, pesan di grup kemarin itu tentang aku?",
+    "ko": "솔직히 말해, 어제 단톡방 그 메시지 나 얘기야?"
+   },
+   {
+    "num": 2,
+    "id": "Pesan yang mana? Banyak sekali yang masuk.",
+    "ko": "어떤 거? 엄청 많이 왔잖아."
+   },
+   {
+    "num": 3,
+    "id": "\"Dia selalu terlambat dan suka pura-pura sibuk.\"",
+    "ko": "「걔는 맨날 늦고 바쁜 척해.」"
+   },
+   {
+    "num": 4,
+    "id": "Oh, itu. Kamu salah paham, sungguh.",
+    "ko": "아, 그거. 오해야, 진짜로."
+   },
+   {
+    "num": 5,
+    "id": "Salah paham bagaimana? Namaku tidak disebut, tapi jelas sekali.",
+    "ko": "어떻게 오해야? 이름은 없지만 너무 뻔하잖아."
+   },
+   {
+    "num": 6,
+    "id": "Bukan begitu maksudnya. Itu tentang kucing baruku.",
+    "ko": "그런 뜻 아니야. 우리 새 고양이 얘기야."
+   },
+   {
+    "num": 7,
+    "id": "Kucing? Kucing bisa pura-pura sibuk?",
+    "ko": "고양이? 고양이가 바쁜 척을 해?"
+   },
+   {
+    "num": 8,
+    "id": "Dia selalu duduk di atas laptopku waktu aku kerja.",
+    "ko": "내가 일할 때마다 노트북 위에 앉아 있거든."
+   },
+   {
+    "num": 9,
+    "id": "Lalu \"selalu terlambat\"?",
+    "ko": "그럼 「맨날 늦어」는?"
+   },
+   {
+    "num": 10,
+    "id": "Terlambat pulang. Dia keluyuran sampai subuh.",
+    "ko": "집에 늦게 온다고. 새벽까지 돌아다녀."
+   },
+   {
+    "num": 11,
+    "id": "Ya ampun, aku hampir keluar dari grup.",
+    "ko": "세상에, 나 단톡방 나갈 뻔했어."
+   },
+   {
+    "num": 12,
+    "id": "Lain kali tanya langsung saja, ya.",
+    "ko": "다음엔 그냥 바로 물어봐."
+   },
+   {
+    "num": 13,
+    "id": "Oke. Tapi kenapa namanya \"Bos Besar\"?",
+    "ko": "알았어. 근데 고양이 이름이 왜 「큰 사장」이야?"
+   }
+  ],
+  "grok": "data/review/grok/out/r3_friends_a1.md",
+  "grok_mode": "빠른",
+  "kick": "내 험담인 줄 알고 화났는데, 알고 보니 노트북 위에 앉아 바쁜 척하는 고양이 얘기였음."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Jujur saja, kemarin di grup itu soal aku kan?",
+   "rd": "주주르 사자, 끄마린 디 그룹 이뚜 소알 아꾸 깐?",
+   "ko": "솔직히 말할게, 어제 단톡 그거 나 얘기지?",
+   "note": "Jujur saja = 솔직히",
+   "emotion": "sad",
+   "tags": [
+    "expr:Jujur saja"
+   ],
+   "lemmas": [
+    [
+     "Jujur",
+     "jujur",
+     ""
+    ],
+    [
+     "kemarin",
+     "kemarin",
+     ""
+    ],
+    [
+     "grup",
+     "grup",
+     ""
+    ],
+    [
+     "soal",
+     "soal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Yang mana sih? Aku nggak ngeh.",
+   "rd": "양 마나 시흐? 아꾸 응각 은그흐.",
+   "ko": "어떤 거? 난 못 봤는데.",
+   "note": "nggak ngeh = 알아채지 못하다",
+   "emotion": "confused",
+   "tags": [],
+   "lemmas": [
+    [
+     "mana",
+     "mana",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "ngeh",
+     "ngeh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Yang bilang selalu telat dan pura-pura sibuk.",
+   "rd": "양 빌랑 슬랄루 뜰랏 단 뿌라-뿌라 시북.",
+   "ko": "맨날 늦고 바쁜 척한다는 그거.",
+   "note": "pura-pura sibuk = 바쁜 척하다",
+   "emotion": "sad",
+   "tags": [],
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "selalu",
+     "selalu",
+     ""
+    ],
+    [
+     "telat",
+     "telat",
+     ""
+    ],
+    [
+     "pura-pura",
+     "pura",
+     ""
+    ],
+    [
+     "sibuk",
+     "sibuk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Salah paham banget. Bukan soal kamu.",
+   "rd": "살라흐 빠함 방읏. 부깐 소알 까무.",
+   "ko": "완전 오해야. 너 얘기 아니야.",
+   "note": "Salah paham = 오해",
+   "emotion": "surprised",
+   "tags": [
+    "expr:Salah paham"
+   ],
+   "lemmas": [
+    [
+     "Salah",
+     "salah",
+     ""
+    ],
+    [
+     "paham",
+     "paham",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "Bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "soal",
+     "soal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Salah paham? Namanya aja nggak disebut, tapi jelas.",
+   "rd": "살라흐 빠함? 나마냐 아자 응각 디스붓, 따삐 즐라스.",
+   "ko": "오해? 이름만 안 나왔을 뿐이지 뻔하잖아.",
+   "note": "jelas = 분명하다",
+   "emotion": "angry",
+   "tags": [
+    "expr:Salah paham"
+   ],
+   "lemmas": [
+    [
+     "Salah",
+     "salah",
+     ""
+    ],
+    [
+     "paham",
+     "paham",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "disebut",
+     "sebut",
+     ""
+    ],
+    [
+     "jelas",
+     "jelas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Bukan begitu maksudnya. Itu soal kucing baru.",
+   "rd": "부깐 브기뚜 막숫냐. 이뚜 소알 꾸찡 바루.",
+   "ko": "그런 뜻이 아니야. 새로 데려온 고양이 얘기였어.",
+   "note": "Bukan begitu maksudnya = 그런 뜻이 아니다",
+   "emotion": "embarrassed",
+   "tags": [
+    "expr:Bukan begitu maksudnya",
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "maksudnya",
+     "maksud",
+     ""
+    ],
+    [
+     "soal",
+     "soal",
+     ""
+    ],
+    [
+     "kucing",
+     "kucing",
+     ""
+    ],
+    [
+     "baru",
+     "baru",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kucing bisa pura-pura sibuk?",
+   "rd": "꾸찡 비사 뿌라-뿌라 시북?",
+   "ko": "고양이가 어떻게 바쁜 척을 해?",
+   "note": "kucing = 고양이",
+   "emotion": "confused",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kucing",
+     "kucing",
+     ""
+    ],
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "pura-pura",
+     "pura",
+     ""
+    ],
+    [
+     "sibuk",
+     "sibuk",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Tiap aku kerja, dia duduk di laptop.",
+   "rd": "띠압 아꾸 끄르자, 디아 두둑 디 랍똡.",
+   "ko": "일할 때마다 노트북 위에 앉아.",
+   "note": "duduk di laptop = 노트북에 앉다",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tiap",
+     "tiap",
+     ""
+    ],
+    [
+     "kerja",
+     "kerja",
+     ""
+    ],
+    [
+     "duduk",
+     "duduk",
+     ""
+    ],
+    [
+     "laptop",
+     "laptop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Terus yang keliling sampai subuh?",
+   "rd": "뜨루스 양 끌릴링 삼빠이 수부흐?",
+   "ko": "그럼 새벽까지 돌아다니는 건?",
+   "note": "keliling = 돌아다니다",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "keliling",
+     "keliling",
+     ""
+    ],
+    [
+     "subuh",
+     "subuh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Iya, dia keluyuran di luar sampai pagi.",
+   "rd": "이야, 디아 끌루유란 디 루아르 삼빠이 빠기.",
+   "ko": "응, 밖을 밤새 돌아다녀.",
+   "note": "keluyuran = 어슬렁거리다",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "keluyuran",
+     "keluyur",
+     ""
+    ],
+    [
+     "luar",
+     "luar",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "id": "Aku hampir keluar dari grup tadi.",
+   "rd": "아꾸 함삐르 끌루아르 다리 그룹 따디.",
+   "ko": "나 단톡방 나갈 뻔했어.",
+   "note": "hampir keluar = 나갈 뻔하다",
+   "emotion": "relieved",
+   "tags": [],
+   "lemmas": [
+    [
+     "hampir",
+     "hampir",
+     ""
+    ],
+    [
+     "keluar",
+     "keluar",
+     ""
+    ],
+    [
+     "grup",
+     "grup",
+     ""
+    ],
+    [
+     "tadi",
+     "tadi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "id": "Besok kalau ada apa-apa, tanya aku dulu ya.",
+   "rd": "베속 깔라우 아다 아빠-아빠, 따냐 아꾸 둘루 야.",
+   "ko": "다음엔 뭐 있으면 바로 나한테 물어.",
+   "note": "tanya dulu = 먼저 묻다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Besok",
+     "besok",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "tanya",
+     "tanya",
+     ""
+    ],
+    [
+     "dulu",
+     "dulu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "id": "Tapi kenapa nama kucingnya Bos Besar?",
+   "rd": "따삐 끄나빠 나마 꾸찡냐 보스 브사르?",
+   "ko": "근데 고양이 이름이 왜 '큰 사장'이야?",
+   "note": "Bos Besar = 큰 사장",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "nama",
+     "nama",
+     ""
+    ],
+    [
+     "kucingnya",
+     "kucing",
+     ""
+    ],
+    [
+     "Bos",
+     "bos",
+     ""
+    ],
+    [
+     "Besar",
+     "besar",
+     ""
+    ]
+   ]
+  }
+ ]
+}

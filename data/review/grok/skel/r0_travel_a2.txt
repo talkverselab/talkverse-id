@@ -1,0 +1,16 @@
+=== r0_travel_a2
+level: R0
+title: 체크인
+emoji: 🏨
+scene: 작은 호텔 접수대. 직원 Ayu 가 이름을 찾는다
+cast: A: {name}(학습자), B: Ayu
+register: polite
+twist: 5 chaos
+expressions: Saya mau check-in; Atas nama …; Kamar nomor …
+flow: 1~2줄: 작은 호텔 접수대에서 학습자가 체크인하려 하고 직원이 예약 이름을 묻는다. 3~4줄: 학습자가 이름을 말하지만 직원은 그 이름이 없다고 한다. 5줄(반전): 학습자가 여기 그 호텔 맞냐고 호텔 이름을 대며 확인한다. 6줄: 직원이 그 호텔은 바로 옆집이라고 알려 준다.
+A | ___ | ___ | ___ | emotion=tired | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=expr:Atas nama …
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Atas nama …
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=twist
+B | ___ | ___ | ___ | emotion=embarrassed | tags=

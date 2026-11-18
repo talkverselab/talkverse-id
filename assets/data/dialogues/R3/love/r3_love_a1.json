@@ -1,0 +1,493 @@
+{
+ "id": "r3_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "헤어진 날의 비밀",
+ "emoji": "💔",
+ "scene": "1년 만에 우연히 만난 옛 연인 Raka. 카페에서 그날 이야기를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Sudah lama",
+  "Sebenarnya waktu itu",
+  "Seandainya"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Sudah setahun, ya. Kamu kelihatan bahagia sekarang.",
+    "ko": "벌써 1년이네. 너 지금 행복해 보인다."
+   },
+   {
+    "num": 2,
+    "id": "Lumayan. Kamu sendiri bagaimana kabarnya?",
+    "ko": "그럭저럭. 너는 어떻게 지내?"
+   },
+   {
+    "num": 3,
+    "id": "Aku pindah kerja ke Surabaya bulan depan.",
+    "ko": "나 다음 달에 수라바야로 직장 옮겨."
+   },
+   {
+    "num": 4,
+    "id": "Jauh juga. Kenapa tiba-tiba?",
+    "ko": "꽤 멀다. 왜 갑자기?"
+   },
+   {
+    "num": 5,
+    "id": "Sebelum pergi, ada yang harus kujelaskan tentang hari itu.",
+    "ko": "떠나기 전에 그날 일을 설명해야 할 게 있어."
+   },
+   {
+    "num": 6,
+    "id": "Hari kamu tidak datang ke stasiun?",
+    "ko": "네가 역에 안 나온 그날?"
+   },
+   {
+    "num": 7,
+    "id": "Aku datang. Aku melihatmu dari seberang peron.",
+    "ko": "나 갔었어. 승강장 건너편에서 너를 봤어."
+   },
+   {
+    "num": 8,
+    "id": "Lalu kenapa kamu tidak menghampiriku?",
+    "ko": "그럼 왜 나한테 안 왔어?"
+   },
+   {
+    "num": 9,
+    "id": "Kamu sedang tertawa ditelepon dengan beasiswamu yang diterima.",
+    "ko": "너는 장학금 붙었다고 전화로 웃고 있었어."
+   },
+   {
+    "num": 10,
+    "id": "Kamu tidak mau menghalangiku berangkat?",
+    "ko": "내가 떠나는 걸 막고 싶지 않았던 거야?"
+   },
+   {
+    "num": 11,
+    "id": "Seandainya aku memanggilmu, kamu pasti tidak jadi pergi.",
+    "ko": "내가 불렀으면 너는 분명 안 갔을 거야."
+   },
+   {
+    "num": 12,
+    "id": "Mungkin. Tapi aku berhak memilih sendiri, Raka.",
+    "ko": "그랬겠지. 근데 그건 내가 고를 일이었어, 라카."
+   },
+   {
+    "num": 13,
+    "id": "Kamu benar. Maaf, terlambat setahun.",
+    "ko": "네 말이 맞아. 미안, 1년이나 늦었네."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_love_a1.md",
+  "grok_mode": "빠른",
+  "kick": "역에 안 온 줄 알았는데 사실은 건너편에서 나를 보고 있었고, 내가 웃는 걸 보고 떠나게 놔둔 거였다."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Sudah lama nggak ketemu. Kamu kelihatan bahagia.",
+   "rd": "수다흐 라마 응각 끄뜨무. 까무 끌리하딴 바하기아.",
+   "ko": "오랜만이다. 너 행복해 보인다.",
+   "note": "Sudah lama = 오랜만",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "lama",
+     "lama",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "ketemu",
+     "ketemu",
+     ""
+    ],
+    [
+     "kelihatan",
+     "lihat",
+     ""
+    ],
+    [
+     "bahagia",
+     "bahagia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kamu juga. Apa kabar?",
+   "rd": "까무 주가. 아빠 까바르?",
+   "ko": "너도. 어떻게 지내?",
+   "note": "apa kabar = 어떻게 지내",
+   "emotion": "gentle",
+   "tags": [],
+   "lemmas": [
+    [
+     "Apa",
+     "apa",
+     ""
+    ],
+    [
+     "kabar",
+     "kabar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Bulan depan aku pindah kerja ke Surabaya.",
+   "rd": "불란 드빤 아꾸 삔다흐 끄르자 끄 수라바야.",
+   "ko": "다음 달 수라바야로 직장 옮겨.",
+   "note": "pindah kerja = 직장 옮기다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bulan",
+     "bulan",
+     ""
+    ],
+    [
+     "depan",
+     "depan",
+     ""
+    ],
+    [
+     "pindah",
+     "pindah",
+     ""
+    ],
+    [
+     "kerja",
+     "kerja",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kenapa tiba-tiba?",
+   "rd": "끄나빠 띠바-띠바?",
+   "ko": "왜 갑자기?",
+   "note": "tiba-tiba = 갑자기",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "tiba-tiba",
+     "tiba",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Sebelum pergi, aku mau jelasin soal hari itu.",
+   "rd": "스블룸 쁘르기, 아꾸 마우 즐라신 소알 하리 이뚜.",
+   "ko": "떠나기 전에 그날 일 설명하고 싶어.",
+   "note": "jelasin = 설명하다",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sebelum",
+     "belum",
+     ""
+    ],
+    [
+     "pergi",
+     "pergi",
+     ""
+    ],
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "jelasin",
+     "jelasin",
+     ""
+    ],
+    [
+     "soal",
+     "soal",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Hari di stasiun yang kamu nggak datang?",
+   "rd": "하리 디 스따시운 양 까무 응각 다땅?",
+   "ko": "역에 안 나온 그날?",
+   "note": "stasiun = 역",
+   "emotion": "sad",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hari",
+     "hari",
+     ""
+    ],
+    [
+     "stasiun",
+     "stasiun",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "datang",
+     "datang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Sebenarnya waktu itu aku ada di sana.",
+   "rd": "스브나르냐 왁뚜 이뚜 아꾸 아다 디 사나.",
+   "ko": "사실 그때 나도 거기 있었어.",
+   "note": "Sebenarnya waktu itu = 사실 그때",
+   "emotion": "sad",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Sebenarnya",
+     "benar",
+     ""
+    ],
+    [
+     "waktu",
+     "waktu",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Di mana? Kenapa nggak nyamperin?",
+   "rd": "디 마나? 끄나빠 응각 냠쁘린?",
+   "ko": "어디? 왜 안 왔어?",
+   "note": "nyamperin = 찾아오다",
+   "emotion": "angry",
+   "tags": [],
+   "lemmas": [
+    [
+     "mana",
+     "mana",
+     ""
+    ],
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "nyamperin",
+     "nyamperin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Aku lihat kamu dari seberang peron.",
+   "rd": "아꾸 리핫 까무 다리 스브랑 쁘론.",
+   "ko": "승강장 건너편에서 너를 봤어.",
+   "note": "seberang peron = 승강장 건너편",
+   "emotion": "sad",
+   "tags": [],
+   "lemmas": [
+    [
+     "lihat",
+     "lihat",
+     ""
+    ],
+    [
+     "seberang",
+     "seberang",
+     ""
+    ],
+    [
+     "peron",
+     "peron",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Terus kenapa diam aja?",
+   "rd": "뜨루스 끄나빠 디암 아자?",
+   "ko": "그래서 왜 가만히 있었어?",
+   "note": "diam aja = 가만히 있다",
+   "emotion": "moved",
+   "tags": [],
+   "lemmas": [
+    [
+     "kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "diam",
+     "diam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Seandainya aku datang, kamu nggak jadi pergi.",
+   "rd": "스안다이냐 아꾸 다땅, 까무 응각 자디 쁘르기.",
+   "ko": "내가 갔으면 네가 안 떠났을 거야.",
+   "note": "Seandainya = 만약 ~라면",
+   "emotion": "sad",
+   "tags": [
+    "expr:Seandainya"
+   ],
+   "lemmas": [
+    [
+     "datang",
+     "datang",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "pergi",
+     "pergi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Itu harusnya aku yang putusin.",
+   "rd": "이뚜 하루스냐 아꾸 양 뿌뚜신.",
+   "ko": "그건 내가 정할 일이었어.",
+   "note": "putusin = 결정하다",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "harusnya",
+     "harus",
+     ""
+    ],
+    [
+     "putusin",
+     "putusin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Kamu benar. Maaf, terlambat setahun.",
+   "rd": "까무 브나르. 마아프, 뜨르람밧 스따훈.",
+   "ko": "네 말이 맞아. 미안, 1년이나 늦었어.",
+   "note": "terlambat = 늦다",
+   "emotion": "sad",
+   "tags": [],
+   "lemmas": [
+    [
+     "benar",
+     "benar",
+     ""
+    ],
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "terlambat",
+     "lambat",
+     ""
+    ],
+    [
+     "setahun",
+     "tahun",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,540 @@
+{
+ "id": "r3_study_a1",
+ "island": "study",
+ "kind": "short",
+ "title": "논문 지도",
+ "emoji": "🎓",
+ "scene": "지도교수 면담. Bu Sri 교수가 초고를 빨간 펜으로 가득 채워 돌려준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Menurut Ibu",
+  "Perlu diperbaiki",
+  "Kalau boleh saya jelaskan"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Saya sudah membaca draf skripsimu sampai halaman terakhir.",
+    "ko": "네 졸업 논문 초고 마지막 쪽까지 읽었어."
+   },
+   {
+    "num": 2,
+    "id": "Bagaimana menurut Ibu? Apakah perlu banyak diperbaiki?",
+    "ko": "어떻게 보셨어요? 많이 고쳐야 할까요?"
+   },
+   {
+    "num": 3,
+    "id": "Hampir setiap paragraf saya beri catatan merah.",
+    "ko": "거의 모든 문단에 빨간 메모를 달았어."
+   },
+   {
+    "num": 4,
+    "id": "Kalau boleh saya jelaskan, datanya memang belum lengkap.",
+    "ko": "설명드려도 된다면, 데이터가 아직 다 안 모였어요."
+   },
+   {
+    "num": 5,
+    "id": "Bukan datanya. Bahasamu terlalu indah untuk tulisan ilmiah.",
+    "ko": "데이터가 아니야. 학술 글치고 문장이 너무 아름다워."
+   },
+   {
+    "num": 6,
+    "id": "Terlalu indah? Itu masalah, Bu?",
+    "ko": "너무 아름답다고요? 그게 문제예요?"
+   },
+   {
+    "num": 7,
+    "id": "Pembaca jadi lupa sedang membaca laporan penelitian.",
+    "ko": "읽는 사람이 연구 보고서라는 걸 잊어버려."
+   },
+   {
+    "num": 8,
+    "id": "Sebenarnya saya dulu ingin jadi penulis novel.",
+    "ko": "사실 예전에 소설가가 되고 싶었어요."
+   },
+   {
+    "num": 9,
+    "id": "Kelihatan. Bab dua dibuka dengan hujan di jendela.",
+    "ko": "보여. 2장이 창가의 비로 시작하잖아."
+   },
+   {
+    "num": 10,
+    "id": "Akan saya ubah jadi kalimat yang lebih kering.",
+    "ko": "좀 더 건조한 문장으로 바꿀게요."
+   },
+   {
+    "num": 11,
+    "id": "Ubah skripsinya, tapi jangan buang draf ini.",
+    "ko": "논문은 바꾸되, 이 초고는 버리지 마."
+   },
+   {
+    "num": 12,
+    "id": "Kenapa, Bu?",
+    "ko": "왜요, 교수님?"
+   },
+   {
+    "num": 13,
+    "id": "Saya ingin tahu akhir ceritanya. Sungguh.",
+    "ko": "이야기 끝이 궁금하거든. 진심으로."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_study_a1.md",
+  "grok_mode": "빠른",
+  "kick": "빨간 펜으로 가득 채운 초고의 문제가 데이터가 아니라 문장이 너무 아름다워서 연구 보고서인 걸 잊게 만든다는 반전."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Saya sudah baca draf skripsi sampai selesai.",
+   "rd": "사야 수다흐 바짜 드라프 스끄립시 삼빠이 슬르사이.",
+   "ko": "졸업 논문 초고를 끝까지 다 읽었어요.",
+   "note": "draf skripsi = 논문 초고",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "baca",
+     "baca",
+     ""
+    ],
+    [
+     "draf",
+     "draf",
+     ""
+    ],
+    [
+     "skripsi",
+     "skripsi",
+     ""
+    ],
+    [
+     "selesai",
+     "selesai",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Menurut Ibu, perlu diperbaiki banyak?",
+   "rd": "므누룻 이부, 쁘르루 디쁘르바이끼 바냑?",
+   "ko": "교수님 보시기에 많이 고쳐야 하나요?",
+   "note": "Menurut Ibu = 교수님 생각에",
+   "emotion": "nervous",
+   "tags": [
+    "expr:Menurut Ibu"
+   ],
+   "lemmas": [
+    [
+     "Menurut",
+     "turut",
+     ""
+    ],
+    [
+     "perlu",
+     "perlu",
+     ""
+    ],
+    [
+     "diperbaiki",
+     "baik",
+     ""
+    ],
+    [
+     "banyak",
+     "banyak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Hampir setiap paragraf ada catatan merah.",
+   "rd": "함삐르 스띠압 빠락라프 아다 짜따딴 메라흐.",
+   "ko": "거의 모든 문단에 빨간 메모를 달았어요.",
+   "note": "paragraf = 문단",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hampir",
+     "hampir",
+     ""
+    ],
+    [
+     "setiap",
+     "tiap",
+     ""
+    ],
+    [
+     "paragraf",
+     "paragraf",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "catatan",
+     "catat",
+     ""
+    ],
+    [
+     "merah",
+     "merah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kalau boleh saya jelaskan, data masih kurang.",
+   "rd": "깔라우 볼레흐 사야 즐라스깐, 다따 마시흐 꾸랑.",
+   "ko": "설명드려도 될까요, 데이터가 아직 부족해요.",
+   "note": "Kalau boleh saya jelaskan = 설명드려도 될까요",
+   "emotion": "worried",
+   "tags": [
+    "expr:Kalau boleh saya jelaskan"
+   ],
+   "lemmas": [
+    [
+     "boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "jelaskan",
+     "jelas",
+     ""
+    ],
+    [
+     "data",
+     "data",
+     ""
+    ],
+    [
+     "masih",
+     "masih",
+     ""
+    ],
+    [
+     "kurang",
+     "kurang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Bukan masalah data, Nak.",
+   "rd": "부깐 마살라흐 다따, 낙.",
+   "ko": "데이터 문제가 아니에요.",
+   "note": "bukan masalah = 문제가 아니다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "masalah",
+     "masalah",
+     ""
+    ],
+    [
+     "data",
+     "data",
+     ""
+    ],
+    [
+     "Nak",
+     "nak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Lalu apa yang perlu diperbaiki?",
+   "rd": "랄루 아빠 양 쁘르루 디쁘르바이끼?",
+   "ko": "그럼 뭘 고쳐야 하나요?",
+   "note": "perlu diperbaiki = 고쳐야 하다",
+   "emotion": "confused",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "perlu",
+     "perlu",
+     ""
+    ],
+    [
+     "diperbaiki",
+     "baik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Kalimatnya terlalu indah untuk tulisan akademik.",
+   "rd": "깔리맛냐 뜨르랄루 인다흐 운뚝 뚤리산 아까드믹.",
+   "ko": "학술 글치고 문장이 너무 아름다워요.",
+   "note": "terlalu indah = 너무 아름답다",
+   "emotion": "amused",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kalimatnya",
+     "kalimat",
+     ""
+    ],
+    [
+     "terlalu",
+     "terlalu",
+     ""
+    ],
+    [
+     "indah",
+     "indah",
+     ""
+    ],
+    [
+     "tulisan",
+     "tulis",
+     ""
+    ],
+    [
+     "akademik",
+     "akademik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Dulu saya bermimpi jadi novelis.",
+   "rd": "둘루 사야 브르밈삐 자디 노플리스.",
+   "ko": "예전에 소설가가 꿈이었어요.",
+   "note": "novelis = 소설가",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dulu",
+     "dulu",
+     ""
+    ],
+    [
+     "bermimpi",
+     "mimpi",
+     ""
+    ],
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "novelis",
+     "novelis",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Bab dua mulai dengan hujan di jendela, kelihatan.",
+   "rd": "밥 두아 물라이 등안 후잔 디 즌들라, 끌리하딴.",
+   "ko": "2장이 창가의 비로 시작해서 티가 나요.",
+   "note": "bab dua = 2장",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bab",
+     "bab",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "hujan",
+     "hujan",
+     ""
+    ],
+    [
+     "jendela",
+     "jendela",
+     ""
+    ],
+    [
+     "kelihatan",
+     "lihat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Saya akan buat kalimatnya lebih kering.",
+   "rd": "사야 아깐 부앗 깔리맛냐 르비흐 끄링.",
+   "ko": "문장을 더 건조하게 고치겠습니다.",
+   "note": "kering = 건조한",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "akan",
+     "akan",
+     ""
+    ],
+    [
+     "kalimatnya",
+     "kalimat",
+     ""
+    ],
+    [
+     "lebih",
+     "lebih",
+     ""
+    ],
+    [
+     "kering",
+     "kering",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Skripsi perbaiki, tapi draf ini jangan dibuang.",
+   "rd": "스끄립시 쁘르바이끼, 따삐 드라프 이니 장안 디부앙.",
+   "ko": "논문은 고치되 이 초고는 버리지 마세요.",
+   "note": "jangan dibuang = 버리지 마세요",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Skripsi",
+     "skripsi",
+     ""
+    ],
+    [
+     "perbaiki",
+     "baik",
+     ""
+    ],
+    [
+     "draf",
+     "draf",
+     ""
+    ],
+    [
+     "jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "dibuang",
+     "buang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Kenapa, Bu?",
+   "rd": "끄나빠, 부?",
+   "ko": "왜요, 교수님?",
+   "note": "kenapa = 왜",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Saya penasaran sama akhir ceritanya.",
+   "rd": "사야 쁘나사란 사마 악히르 쯔리따냐.",
+   "ko": "이야기 끝이 진심으로 궁금해요.",
+   "note": "penasaran = 궁금하다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "penasaran",
+     "penasaran",
+     ""
+    ],
+    [
+     "akhir",
+     "akhir",
+     ""
+    ],
+    [
+     "ceritanya",
+     "cerita",
+     ""
+    ]
+   ]
+  }
+ ]
+}

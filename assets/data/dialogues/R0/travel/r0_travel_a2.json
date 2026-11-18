@@ -1,0 +1,211 @@
+{
+ "id": "r0_travel_a2",
+ "island": "travel",
+ "kind": "short",
+ "title": "옆집 호텔",
+ "emoji": "🏨",
+ "scene": "작은 호텔 접수대. 직원 Ayu가 이름을 찾는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Saya mau check-in",
+  "Atas nama …",
+  "Kamar nomor …"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Selamat malam. Mau check-in.",
+    "ko": "안녕하세요. 체크인하려고요."
+   },
+   {
+    "num": 2,
+    "id": "Atas nama siapa?",
+    "ko": "누구 이름으로 하셨어요?"
+   },
+   {
+    "num": 3,
+    "id": "Atas nama {name}.",
+    "ko": "{name} 이름으로요."
+   },
+   {
+    "num": 4,
+    "id": "Maaf, nama itu tidak ada.",
+    "ko": "죄송한데, 그 이름이 없어요."
+   },
+   {
+    "num": 5,
+    "id": "Ini hotel Melati, kan?",
+    "ko": "여기 멜라티 호텔 맞죠?"
+   },
+   {
+    "num": 6,
+    "id": "Bukan. Melati di sebelah.",
+    "ko": "아니요. 멜라티는 옆집이에요."
+   }
+  ],
+  "grok": "data/review/grok/out/r0_travel_a2.md",
+  "grok_mode": "빠른",
+  "kick": "이름 없다더니 그 호텔이 바로 옆집"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Saya mau check-in",
+   "rd": "사야 마우 쯔흐츠끄-인",
+   "ko": "체크인하고 싶어요",
+   "note": "check-in = 체크인",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "check-in",
+     "check",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Atas nama siapa?",
+   "rd": "아따스 나마 시아빠?",
+   "ko": "예약 이름이 뭐예요?",
+   "note": "atas nama = 이름으로",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Atas nama …"
+   ],
+   "lemmas": [
+    [
+     "Atas",
+     "atas",
+     ""
+    ],
+    [
+     "nama",
+     "nama",
+     ""
+    ],
+    [
+     "siapa",
+     "siapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Atas nama {name}",
+   "rd": "아따스 나마 {name}",
+   "ko": "{name} 이름이에요",
+   "note": "emotion=neutral",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Atas nama …"
+   ],
+   "lemmas": [
+    [
+     "Atas",
+     "atas",
+     ""
+    ],
+    [
+     "nama",
+     "nama",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Tidak ada. Kamar nomor?",
+   "rd": "띠닥 아다. 까마르 노모르?",
+   "ko": "없어요. 방 번호는?",
+   "note": "kamar = 방",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tidak",
+     "tidak",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "nomor",
+     "nomor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Ini hotel Mawar?",
+   "rd": "이니 호뜰 마와르?",
+   "ko": "여기 마와르 호텔 맞아요?",
+   "note": "hotel = 호텔",
+   "emotion": "worried",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "hotel",
+     "hotel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Hotel Mawar di sebelah",
+   "rd": "호뜰 마와르 디 스블라흐",
+   "ko": "마와르 호텔은 옆집이에요",
+   "note": "sebelah = 옆",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hotel",
+     "hotel",
+     ""
+    ],
+    [
+     "sebelah",
+     "belah",
+     ""
+    ]
+   ]
+  }
+ ]
+}

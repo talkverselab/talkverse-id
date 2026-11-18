@@ -1,0 +1,19 @@
+=== r2_travel_a2
+level: R2
+title: 일출 투어
+emoji: 🌄
+scene: 새벽 3시 화산 투어. 가이드 Raka 가 정상 직전에 멈춘다
+cast: A: {name}(학습자), B: Raka
+register: polite
+twist: 6 emotion
+expressions: Sebentar lagi; Hati-hati; Indah sekali
+flow: 1~2줄: 새벽 화산 등반 중 가이드가 정상이 거의 다 왔다며 미끄러우니 조심하라고 하고, 학습자는 다리에 감각이 없다고 한다. 3~4줄: 가이드가 손을 잡으라며 5분만 더 가자고 하자, 학습자는 30분 전에도 5분이라고 했다고 따진다. 5~6줄(반전): 가이드가 이번엔 진짜라며 붉어지는 하늘을 가리키고, 학습자가 그 풍경에 할 말을 잃는다. 7~9줄: 가이드가 여기를 거의 매일 오른다고 하자 학습자가 안 질리냐고 묻고, 가이드는 아침마다 손님 표정이 달라서 한 번도 안 질렸다고 한다.
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Sebentar lagi,expr:Hati-hati
+A | ___ | ___ | ___ | emotion=tired | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=annoyed | tags=
+B | ___ | ___ | ___ | emotion=excited | tags=
+A | ___ | ___ | ___ | emotion=moved | tags=expr:Indah sekali,twist
+B | ___ | ___ | ___ | emotion=gentle | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=

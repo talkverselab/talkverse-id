@@ -1,0 +1,385 @@
+{
+ "id": "r2_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "택배가 이웃집에",
+ "emoji": "📦",
+ "scene": "아파트 복도. 내 택배를 든 Bu Sri가 문을 두드린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Paket",
+  "Salah alamat",
+  "Sudah dibuka"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Nak, ini paketmu? Diantar ke rumah saya.",
+    "ko": "이거 네 택배니? 우리 집으로 왔더라."
+   },
+   {
+    "num": 2,
+    "id": "Iya, Bu! Sudah tiga hari saya tunggu.",
+    "ko": "네! 사흘이나 기다렸어요."
+   },
+   {
+    "num": 3,
+    "id": "Maaf, sudah saya buka. Saya kira punya saya.",
+    "ko": "미안, 내가 뜯어 버렸어. 내 건 줄 알았지."
+   },
+   {
+    "num": 4,
+    "id": "Tidak apa-apa, Bu. Isinya cuma buku.",
+    "ko": "괜찮아요. 안에 책밖에 없어요."
+   },
+   {
+    "num": 5,
+    "id": "Buku masak, kan? Resepnya bagus-bagus.",
+    "ko": "요리책이지? 레시피 좋더라."
+   },
+   {
+    "num": 6,
+    "id": "Ibu sudah baca?",
+    "ko": "벌써 읽으셨어요?"
+   },
+   {
+    "num": 7,
+    "id": "Sudah saya coba juga. Halaman dua puluh.",
+    "ko": "해 보기도 했어. 20쪽."
+   },
+   {
+    "num": 8,
+    "id": "Wah, Ibu cepat sekali.",
+    "ko": "와, 정말 빠르시네요."
+   },
+   {
+    "num": 9,
+    "id": "Ini, rendangnya. Sebagai ganti bukunya kotor.",
+    "ko": "여기 른당. 책 더럽힌 값이야."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_life_a1.md",
+  "grok_mode": "빠른",
+  "kick": "뜯어 본 요리책을 다 읽고 요리까지 해 와서 건넴"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Paket Anda salah alamat, ini saya bawa",
+   "rd": "빠끗 안다 살라흐 알라맛, 이니 사야 바와",
+   "ko": "택배가 잘못 배달됐어요, 가져왔어요",
+   "note": "paket = 택배",
+   "emotion": "warm",
+   "tags": [
+    "expr:Paket"
+   ],
+   "lemmas": [
+    [
+     "Paket",
+     "paket",
+     ""
+    ],
+    [
+     "salah",
+     "salah",
+     ""
+    ],
+    [
+     "alamat",
+     "alamat",
+     ""
+    ],
+    [
+     "bawa",
+     "bawa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Terima kasih, sudah tiga hari nunggu",
+   "rd": "뜨리마 까시흐, 수다흐 띠가 하리 눙구",
+   "ko": "감사합니다, 사흘이나 기다렸어요",
+   "note": "nunggu = 기다리다",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ],
+    [
+     "nunggu",
+     "nunggu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Maaf, saya kira punya saya, sudah dibuka",
+   "rd": "마아프, 사야 끼라 뿌냐 사야, 수다흐 디부까",
+   "ko": "죄송해요, 제 건 줄 알고 뜯어 버렸어요",
+   "note": "kira = 생각하다",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "kira",
+     "kira",
+     ""
+    ],
+    [
+     "punya",
+     "punya",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "dibuka",
+     "buka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Nggak apa-apa, cuma buku",
+   "rd": "응각 아빠-아빠, 쭈마 부꾸",
+   "ko": "괜찮아요, 책뿐이에요",
+   "note": "cuma = 단지",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "buku",
+     "buku",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Buku masak bagus, sudah saya baca semua",
+   "rd": "부꾸 마삭 바구스, 수다흐 사야 바짜 스무아",
+   "ko": "요리책 좋더라고요, 벌써 다 읽었어요",
+   "note": "masak = 요리",
+   "emotion": "happy",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Buku",
+     "buku",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "baca",
+     "baca",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Sudah dibaca semuanya?",
+   "rd": "수다흐 디바짜 스무아냐?",
+   "ko": "다 읽으셨어요?",
+   "note": "semuanya = 전부",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "dibaca",
+     "baca",
+     ""
+    ],
+    [
+     "semuanya",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Bahkan sudah coba satu resep",
+   "rd": "바흐깐 수다흐 쪼바 사뚜 르습",
+   "ko": "심지어 한 요리 해 보기까지 했어요",
+   "note": "resep = 레시피",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bahkan",
+     "bahkan",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "coba",
+     "coba",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ],
+    [
+     "resep",
+     "resep",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Cepat sekali, Bu",
+   "rd": "쯔빳 스깔리, 부",
+   "ko": "정말 빠르시네요, 아줌마",
+   "note": "cepat = 빠르다",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Cepat",
+     "cepat",
+     ""
+    ],
+    [
+     "sekali",
+     "sekali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Ini hasilnya, ganti buku yang kotor",
+   "rd": "이니 하실냐, 간띠 부꾸 양 꼬또르",
+   "ko": "이거 결과물이에요, 책 더럽힌 값으로",
+   "note": "kotor = 더럽다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "hasilnya",
+     "hasil",
+     ""
+    ],
+    [
+     "ganti",
+     "ganti",
+     ""
+    ],
+    [
+     "buku",
+     "buku",
+     ""
+    ],
+    [
+     "kotor",
+     "kotor",
+     ""
+    ]
+   ]
+  }
+ ]
+}

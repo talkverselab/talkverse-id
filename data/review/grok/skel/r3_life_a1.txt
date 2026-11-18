@@ -1,0 +1,23 @@
+=== r3_life_a1
+level: R3
+title: 집주인과 계약
+emoji: 📝
+scene: 월세 재계약. 집주인 Pak Darto 가 갑자기 월세를 올리겠다고 한다
+cast: A: {name}(학습자), B: Pak Darto
+register: polite
+twist: 5 reveal
+expressions: Kontraknya habis; Naik berapa?; Bisa dinegosiasikan?
+flow: 1~4줄: 집주인 아저씨가 임대 계약이 이달 말에 끝난다고 하고, 학습자가 1년 연장을 원하자 월세를 20% 올리겠다고 한다. 학습자는 너무 높다고 한다. 5~6줄: 아저씨가 공과금이 다 올랐다고 하고, 학습자가 조정할 여지가 있냐고 묻는다. 7~9줄(반전): 아저씨가 뜬금없이 요리를 할 줄 아냐고 묻고, 아내가 석 달 동안 고향에 간다고 한다. 10~13줄: 학습자가 저녁밥이 필요하신 거냐고 하자 일주일에 세 번 해 주면 월세를 안 올리겠다고 하고, 학습자가 메뉴는 자기가 정하겠다고 하자 아저씨는 매일 라면만 아니면 된다고 한다.
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=shocked | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=twist
+A | ___ | ___ | ___ | emotion=warm | tags=expr:Bisa dinegosiasikan?
+B | ___ | ___ | ___ | emotion=curious | tags=
+A | ___ | ___ | ___ | emotion=confused | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=amused | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=proud | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=

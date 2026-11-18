@@ -1,0 +1,206 @@
+{
+ "id": "r0_love_a2",
+ "island": "love",
+ "kind": "short",
+ "title": "너 좋아해?",
+ "emoji": "☕",
+ "scene": "대학 앞 노점. Ayu가 먼저 음료를 고르고 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Kamu suka …?",
+  "Aku suka …",
+  "Mau?"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kamu suka kopi?",
+    "ko": "너 커피 좋아해?"
+   },
+   {
+    "num": 2,
+    "id": "Suka sekali. Kamu?",
+    "ko": "엄청 좋아해. 너는?"
+   },
+   {
+    "num": 3,
+    "id": "Aku suka teh manis.",
+    "ko": "난 단 차가 좋아."
+   },
+   {
+    "num": 4,
+    "id": "Aku juga suka kamu.",
+    "ko": "나도 너 좋아해."
+   },
+   {
+    "num": 5,
+    "id": "Apa? Suka aku?",
+    "ko": "뭐? 나를 좋아한다고?"
+   },
+   {
+    "num": 6,
+    "id": "Maksudku... teh! Teh manis!",
+    "ko": "내 말은… 차! 단 차!"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_love_a2.md",
+  "grok_mode": "빠른",
+  "kick": "맞장구치려다 ‘너 좋아해’로 미끄러지고 당황 수습"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kamu suka kopi?",
+   "rd": "까무 수까 꼬삐?",
+   "ko": "커피 좋아해?",
+   "note": "suka = 좋아하다",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Kamu suka …?"
+   ],
+   "lemmas": [
+    [
+     "suka",
+     "suka",
+     ""
+    ],
+    [
+     "kopi",
+     "kopi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Aku suka banget",
+   "rd": "아꾸 수까 방읏",
+   "ko": "나 완전 좋아해",
+   "note": "aku = 나",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "suka",
+     "suka",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Aku suka teh manis",
+   "rd": "아꾸 수까 떼흐 마니스",
+   "ko": "나 단 차 좋아해",
+   "note": "teh = 차",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Aku suka …"
+   ],
+   "lemmas": [
+    [
+     "suka",
+     "suka",
+     ""
+    ],
+    [
+     "teh",
+     "teh",
+     ""
+    ],
+    [
+     "manis",
+     "manis",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Aku juga suka kamu",
+   "rd": "아꾸 주가 수까 까무",
+   "ko": "나도 너 좋아해",
+   "note": "juga = 도",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "suka",
+     "suka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Suka aku?",
+   "rd": "수까 아꾸?",
+   "ko": "나 좋아해?",
+   "note": "suka = 좋아하다",
+   "emotion": "surprised",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Suka",
+     "suka",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Maksudnya teh! Mau?",
+   "rd": "막숫냐 떼흐! 마우?",
+   "ko": "차 말한 거야! 마실래?",
+   "note": "maksudnya = 라는 뜻",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Maksudnya",
+     "maksud",
+     ""
+    ],
+    [
+     "teh",
+     "teh",
+     ""
+    ],
+    [
+     "Mau",
+     "mau",
+     ""
+    ]
+   ]
+  }
+ ]
+}

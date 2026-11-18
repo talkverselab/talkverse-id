@@ -1,0 +1,413 @@
+{
+ "id": "r2_work_a1",
+ "island": "work",
+ "kind": "short",
+ "title": "첫 출근",
+ "emoji": "💼",
+ "scene": "첫 출근 날. 동료 Dimas가 자리와 사람들을 소개한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Perkenalkan",
+  "Kalau ada apa-apa",
+  "Jangan sungkan"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Selamat pagi. Perkenalkan, saya Dimas, tim pemasaran.",
+    "ko": "안녕하세요. 소개할게요, 마케팅팀 디마스예요."
+   },
+   {
+    "num": 2,
+    "id": "Senang bertemu, Mas. Saya {name}, karyawan baru.",
+    "ko": "반가워요. 신입 {name}이에요."
+   },
+   {
+    "num": 3,
+    "id": "Ini meja kamu. Komputernya sudah disiapkan.",
+    "ko": "여기가 자리예요. 컴퓨터는 준비해 뒀어요."
+   },
+   {
+    "num": 4,
+    "id": "Terima kasih. Bos kita yang mana, Mas?",
+    "ko": "감사해요. 우리 팀장님은 어느 분이세요?"
+   },
+   {
+    "num": 5,
+    "id": "Yang pakai kemeja kuning di sana.",
+    "ko": "저기 노란 셔츠 입은 분요."
+   },
+   {
+    "num": 6,
+    "id": "Oh, tadi saya kira beliau tukang parkir.",
+    "ko": "아, 아까 주차 요원인 줄 알았어요."
+   },
+   {
+    "num": 7,
+    "id": "Kamu bilang apa ke beliau?",
+    "ko": "그분한테 뭐라고 했어요?"
+   },
+   {
+    "num": 8,
+    "id": "Saya kasih dua ribu untuk parkir motor.",
+    "ko": "오토바이 주차비로 이천 드렸어요."
+   },
+   {
+    "num": 9,
+    "id": "Kalau ada apa-apa, jangan sungkan tanya saya dulu.",
+    "ko": "무슨 일 있으면 망설이지 말고 나한테 먼저 물어요."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_work_a1.md",
+  "grok_mode": "빠른",
+  "kick": "노란 셔츠를 팀장이 아니라 주차 요원으로 착각하고 오토바이 주차비까지 건넨 첫 출근의 흑역사."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Perkenalkan, saya Dimas. Selamat datang di kantor, Kak.",
+   "rd": "쁘르끄날깐, 사야 디마스. 슬라맛 다땅 디 깐또르, 깍.",
+   "ko": "소개할게요, 저 디마스예요. 회사에 오신 걸 환영합니다.",
+   "note": "Perkenalkan = 소개합니다",
+   "emotion": "warm",
+   "tags": [
+    "expr:Perkenalkan"
+   ],
+   "lemmas": [
+    [
+     "Perkenalkan",
+     "kenal",
+     ""
+    ],
+    [
+     "Selamat",
+     "selamat",
+     ""
+    ],
+    [
+     "datang",
+     "datang",
+     ""
+    ],
+    [
+     "kantor",
+     "kantor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Terima kasih. Saya baru mulai kerja hari ini.",
+   "rd": "뜨리마 까시흐. 사야 바루 물라이 끄르자 하리 이니.",
+   "ko": "감사합니다. 저 오늘 처음 출근했어요.",
+   "note": "baru mulai = 처음 시작하다",
+   "emotion": "nervous",
+   "tags": [],
+   "lemmas": [
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "baru",
+     "baru",
+     ""
+    ],
+    [
+     "mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "kerja",
+     "kerja",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Ini meja Kak, komputernya sudah siap dipakai.",
+   "rd": "이니 메자 깍, 꼼뿌뜨르냐 수다흐 시압 디빠까이.",
+   "ko": "여기 자리예요, 컴퓨터도 바로 쓸 수 있게 준비돼 있어요.",
+   "note": "meja = 책상/자리",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "meja",
+     "meja",
+     ""
+    ],
+    [
+     "komputernya",
+     "komputer",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "siap",
+     "siap",
+     ""
+    ],
+    [
+     "dipakai",
+     "pakai",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kak, siapa yang jadi kepala tim di sini?",
+   "rd": "깍, 시아빠 양 자디 끄빨라 띰 디 시니?",
+   "ko": "카카, 여기 팀장님이 누구세요?",
+   "note": "kepala tim = 팀장",
+   "emotion": "curious",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "siapa",
+     "siapa",
+     ""
+    ],
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "kepala",
+     "kepala",
+     ""
+    ],
+    [
+     "tim",
+     "tim",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Yang pakai baju kuning di sana, Kak.",
+   "rd": "양 빠까이 바주 꾸닝 디 사나, 깍.",
+   "ko": "저기 노란 셔츠 입은 그분이요.",
+   "note": "baju kuning = 노란 옷",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "pakai",
+     "pakai",
+     ""
+    ],
+    [
+     "baju",
+     "baju",
+     ""
+    ],
+    [
+     "kuning",
+     "kuning",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Tadi pagi saya kira beliau petugas parkir.",
+   "rd": "따디 빠기 사야 끼라 블리아우 쁘뚜가스 빠르끼르.",
+   "ko": "아침에 그분을 주차 요원으로 착각했어요.",
+   "note": "petugas parkir = 주차 요원",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tadi",
+     "tadi",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ],
+    [
+     "kira",
+     "kira",
+     ""
+    ],
+    [
+     "beliau",
+     "beliau",
+     ""
+    ],
+    [
+     "petugas",
+     "tugas",
+     ""
+    ],
+    [
+     "parkir",
+     "parkir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Kak sempat kasih uang parkir ke beliau?",
+   "rd": "깍 슴빳 까시흐 우앙 빠르끼르 끄 블리아우?",
+   "ko": "그분께 주차비 드린 거예요?",
+   "note": "uang parkir = 주차비",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "sempat",
+     "sempat",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "uang",
+     "uang",
+     ""
+    ],
+    [
+     "parkir",
+     "parkir",
+     ""
+    ],
+    [
+     "beliau",
+     "beliau",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Iya Kak, saya kasih untuk parkir motor.",
+   "rd": "이야 깍, 사야 까시흐 운뚝 빠르끼르 모또르.",
+   "ko": "네, 오토바이 주차비로 드렸어요.",
+   "note": "parkir motor = 오토바이 주차",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "parkir",
+     "parkir",
+     ""
+    ],
+    [
+     "motor",
+     "motor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Kalau ada apa-apa, tanya saya dulu. Jangan sungkan, Kak.",
+   "rd": "깔라우 아다 아빠-아빠, 따냐 사야 둘루. 장안 숭깐, 깍.",
+   "ko": "뭐든 저한테 먼저 물어보세요. 부담 갖지 마시고요.",
+   "note": "Jangan sungkan = 부담 갖지 마세요",
+   "emotion": "laughing",
+   "tags": [
+    "expr:Kalau ada apa-apa",
+    "expr:Jangan sungkan"
+   ],
+   "lemmas": [
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ],
+    [
+     "tanya",
+     "tanya",
+     ""
+    ],
+    [
+     "dulu",
+     "dulu",
+     ""
+    ],
+    [
+     "Jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "sungkan",
+     "sungkan",
+     ""
+    ]
+   ]
+  }
+ ]
+}

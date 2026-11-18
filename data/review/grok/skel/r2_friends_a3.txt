@@ -1,0 +1,19 @@
+=== r2_friends_a3
+level: R2
+title: 다이어트 첫날
+emoji: 🥗
+scene: 아침 운동장. Ayu 가 다이어트를 시작한다며 뛰자고 한다
+cast: A: {name}(학습자), B: Ayu
+register: casual
+twist: 5 chaos
+expressions: Mulai hari ini; Capek; Habis ini
+flow: 1~3줄: 아침 운동장에서 친구가 오늘부터 다이어트라며 같이 뛰자고 하고, 학습자가 새벽 여섯 시에 진심이냐고 묻자 세 바퀴만 뛰자고 한다. 4~5줄(반전): 한 바퀴 만에 친구가 주저앉아 다리가 더는 못 버틴다고 한다. 6~7줄: 학습자가 집에 가자고 하자 친구가 저 앞에 닭죽 파는 데가 있다고 한다. 8~9줄: 다이어트한다면서 왜 먹냐는 말에 친구는 뛰기는 했으니 상을 받아야 한다고 한다.
+B | ___ | ___ | ___ | emotion=excited | tags=expr:Mulai hari ini
+A | ___ | ___ | ___ | emotion=tired | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=teasing | tags=
+B | ___ | ___ | ___ | emotion=tired | tags=expr:Capek,twist
+A | ___ | ___ | ___ | emotion=warm | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=expr:Habis ini
+A | ___ | ___ | ___ | emotion=teasing | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=

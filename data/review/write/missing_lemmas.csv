@@ -1,3 +1,302 @@
 lemma,surface,count,example
+nama,nama,8,Siapa nama kamu?
+depan,depan,6,Habis ini makan bubur ayam di depan
+minggu,seminggu,6,"Anak kamar tiga, baunya seminggu"
+kucing,kucing,6,Untuk kucing nenek
+waktu,waktu,5,Besok ada waktu?
+bulan,bulan,5,Utang bulan lalu belum dibayar
+hampir,hampir,5,"Dari tadi aku di sini, udah hampir sejam."
+tuju,setuju,5,Tapi Pak bos setuju dengan kata Kak.
+soal,soal,5,"Jujur saja, kemarin di grup itu soal aku kan?"
+ketemu,ketemu,5,Sudah lama nggak ketemu. Kamu kelihatan bahagia.
+kanan,kanan,4,Pakai tangan kanan ya
+belas,belas,4,Lima belas ribu ya
+maksud,Maksudnya,4,Maksudnya teh! Mau?
+nunggu,nunggu,4,"Terima kasih, sudah tiga hari nunggu"
+telepon,Telepon,4,Telepon saja. Tidak boleh masak durian
+nenek,nenek,4,Untuk kucing nenek
+koper,Koper,4,Koper saya besar dua buah
+puasa,puasa,4,Nanti sore buka puasa bareng-bareng yuk.
+air,Air,3,"Air, Bu!"
+batik,batik,3,"Ini batik, Hari Jumat"
+bus,Bus,3,Bus ini ke mana?
+tamu,tamu,3,Gratis untuk tamu
+atas,Atas,3,Atas nama siapa?
+mobil,mobil,3,"Aku juga ke Solo, pakai mobil pinjam"
+tua,tua,3,"Nggak, kebanyakan teman orang tua"
+bahasa,bahasa,3,Liriknya semua bahasa Jawa
+tiba,tiba-tiba,3,Kenapa tiba-tiba begitu?
+lipat,lipat,3,Sebenarnya mau pinjam dua kali lipat
+enam,enam,3,Jadi total enam ratus ribu ya
+kira,kira,3,"Maaf, saya kira punya saya, sudah dibuka"
+buku,buku,3,"Nggak apa-apa, cuma buku"
+plus,plus,3,"""Kangen"" plus hati, lho"
+pernah,pernah,3,"Tenang, kulkas pun pernah saya angkut"
+parkir,parkir,3,Tadi pagi saya kira beliau petugas parkir.
+kapan,kapan,3,"Dari kapan, Kak? Bisa didengar semua?"
+subuh,subuh,3,Dari subuh nggak makan sama sekali?
+jujur,Jujur,3,"Jujur saja, kemarin di grup itu soal aku kan?"
+modal,Modal,3,Modal awalnya berapa?
+sewa,sewa,3,"Modalnya nggak banyak, sewa juga gratis."
+persen,persen,3,Sewanya naik dua puluh persen ya.
+ayah,ayah,3,"Jangan lupa, ayah dipanggil Pak."
+lapar,lapar,2,Aku lapar banget
+mie,Mie,2,Mie instan cuma satu
+instan,instan,2,Mie instan cuma satu
+capek,capek,2,Udah capek nih
+toilet,toilet,2,"Di mana toilet, Pak?"
+lilin,Lilinnya,2,Lilinnya banyak sekali
+belah,sebelah,2,"Raka, tetangga sebelah"
+film,film,2,Nonton film bareng
+ojek,ojek,2,Naik ojek saja
+check,check-in,2,Saya mau check-in
+hotel,hotel,2,Ini hotel Mawar?
+mama,mama,2,"Di Solo, mama udah masak opor"
+pinjam,pinjam,2,"Aku juga ke Solo, pakai mobil pinjam"
+kakak,kakak,2,"Ini undangan kakak, datang ya"
+baju,baju,2,Pakai baju apa?
+asal,asal,2,"Bebas, asal jangan putih"
+putih,putih,2,"Bebas, asal jangan putih"
+lagu,lagu,2,"Satu lagu lagi, ini favorit"
+favorit,favorit,2,"Satu lagu lagi, ini favorit"
+lirik,liriknya,2,"Ikutin liriknya aja, suaramu bagus"
+makanya,Makanya,2,Makanya aku yang nyanyi terus
+utang,Utang,2,Utang bulan lalu belum dibayar
+diet,diet,2,"Mulai hari ini diet, ayo lari"
+serius,serius,2,"Jam enam pagi, serius?"
+kaki,kaki,2,"Capek, kaki nggak kuat lagi"
+bahkan,Bahkan,2,Bahkan sudah coba satu resep
+resep,resep,2,Bahkan sudah coba satu resep
+kotor,kotor,2,"Ini hasilnya, ganti buku yang kotor"
+nyala,nyala,2,Kenapa AC-nya nggak nyala?
+baterai,Baterai,2,"Baterai remot habis, harus diganti"
+durian,durian,2,Telepon saja. Tidak boleh masak durian
+paling,paling,2,Soto di sini paling enak di Jakarta
+sering,Sering,2,Sering ke sini ya?
+seledri,seledri,2,Yang ini tanpa seledri ya
+warung,warungnya,2,"Itu mama saya, ini warungnya"
+alarm,alarm,2,"Tas kamu getar-getar mulu, alarm ujian kali?"
+lewat,lewat,2,"Sekarang udah lewat sepuluh, loh."
+simpul,Kesimpulan,2,Kesimpulan aja yang belum
+motor,motor,2,"Bisa diganti motor, lebih murah dan cepat"
+cara,caranya,2,Bagaimana caranya?
+asa,terasa,2,"Kak, kaki saya udah nggak terasa sama sekali."
+merah,memerah,2,"Kali ini benar, Kak. Lihat langitnya yang memerah."
+bosan,bosan,2,"Kak, nggak bosan naik setiap hari begini?"
+beliau,beliau,2,Tadi pagi saya kira beliau petugas parkir.
+sore,sore,2,Nanti sore buka puasa bareng-bareng yuk.
+justru,Justru,2,"Justru karena itu, buka puasa itu untuk berbagi."
+pura,pura-pura,2,Yang bilang selalu telat dan pura-pura sibuk.
+sibuk,sibuk,2,Yang bilang selalu telat dan pura-pura sibuk.
+paham,paham,2,Salah paham banget. Bukan soal kamu.
+sejak,Sejak,2,Sejak kapan mulai terasa?
+cukup,cukup,2,"Boleh, tapi es kelapa sudah cukup ya."
+gaji,gaji,2,Kalau ditanya gaji?
+masakan,masakan,2,"Senyum aja, terus puji masakan ibu."
+tes,tes,2,"Pokoknya habiskan semua, itu tes pertama."
+pertama,pertama,2,"Pokoknya habiskan semua, itu tes pertama."
+catur,catur,2,"Tiga. Makan, catur sama ayah, karaoke sama nenek."
+draf,draf,2,Saya sudah baca draf skripsi sampai selesai.
+skripsi,skripsi,2,Saya sudah baca draf skripsi sampai selesai.
+catat,catatan,2,Hampir setiap paragraf ada catatan merah.
+data,data,2,"Kalau boleh saya jelaskan, data masih kurang."
+masalah,masalah,2,"Bukan masalah data, Nak."
+kalimat,Kalimatnya,2,Kalimatnya terlalu indah untuk tulisan akademik.
+cerita,ceritanya,2,Saya penasaran sama akhir ceritanya.
+alas,Alasannya,2,Alasannya memilih universitas di Korea?
+pesawat,pesawat,2,"Saya kehilangan paspor, pesawat tinggal dua jam."
+hubung,hubungi,2,Saya hubungi bagian bagasi sekarang.
+bagasi,bagasi,2,Saya hubungi bagian bagasi sekarang.
+surat,surat,2,Perlu laporan polisi dan surat darurat kedutaan.
+langgan,langganan,2,Bawa saya ke langganan Bapak dong.
+lembur,Lembur,2,Lembur juga sering ya?
+tawar,penawaran,2,Harga di penawaran tertulis sepuluh kali lipat.
+halte,halte,2,Hari itu cuma ngobrol lima menit di halte.
+sambal,Sambal,1,Sambal? Pedas?
+sila,Silakan,1,Silakan minum teh
+kidal,kidal,1,"Saya kidal, Pak"
+ekspresi,ekspresi,1,"Lagi, ekspresi jelek"
+jelek,jelek,1,"Lagi, ekspresi jelek"
+mangga,mangga,1,Setengah mangga aja
+belok,Belok,1,"Belok kiri, lalu kanan"
+ulang,ulang,1,"Selamat ulang tahun, Bu"
+umur,Umur,1,"Umur berapa, Bu?"
+cucu,cucu-cucu,1,Itu lilin cucu-cucu
+cantik,cantik,1,Nama kamu cantik banget
 ken,pengen,1,"Aduh, aku malu banget, pengen kabur!"
 deg,deg-degan,1,Terima kasih. Saya terlalu deg-degan.
+mudik,mudik,1,"Aku mau mudik, tapi tiketnya habis"
+tiket,tiketnya,1,"Aku mau mudik, tapi tiketnya habis"
+kasihan,Kasihan,1,"Kasihan deh, rumahmu di mana?"
+opor,opor,1,"Di Solo, mama udah masak opor"
+please,please,1,"Ikut aku dong, please"
+camil,camilan,1,"Nggak apa-apa, aku bawa camilan banyak"
+nyetir,nyetir,1,Sebenarnya aku nggak bisa nyetir
+supir,supir,1,Jadi kamu cari supir ya? wkwk
+undang,undangan,1,"Ini undangan kakak, datang ya"
+sekitar,Sekitar,1,Sekitar seribu lima ratus
+bebas,Bebas,1,"Bebas, asal jangan putih"
+kado,Kado,1,Kado apa yang bagus?
+gilir,Giliran,1,"Giliran aku dong, udah lama"
+ikutin,Ikutin,1,"Ikutin liriknya aja, suaramu bagus"
+mic,mic-nya,1,"Ambil mic-nya, aku makan aja"
+konser,konser,1,"Waktu konser, dua ratus ribu"
+santai,Santai,1,"Santai aja, nggak usah dibayar"
+hitung,Hitungannya,1,"Hitungannya tepat, makasih wkwk"
+tepat,tepat,1,"Hitungannya tepat, makasih wkwk"
+putar,putaran,1,"Tiga putaran aja, yuk"
+yakin,Yakin,1,Yakin kamu kuat?
+bubur,bubur,1,Habis ini makan bubur ayam di depan
+ayam,ayam,1,Habis ini makan bubur ayam di depan
+hadiah,hadiah,1,"Udah lari, harus dapat hadiah"
+paket,Paket,1,"Paket Anda salah alamat, ini saya bawa"
+alamat,alamat,1,"Paket Anda salah alamat, ini saya bawa"
+remot,remot,1,"Baterai remot habis, harus diganti"
+filter,Filternya,1,"Filternya juga kotor sekali, harus dicuci"
+cuci,dicuci,1,"Filternya juga kotor sekali, harus dicuci"
+sambil,Sambil,1,"Sambil nunggu, ada es teh?"
+gula,gula,1,Mau gula?
+atur,Aturannya,1,"Aturannya ada beberapa, dengarkan"
+beberapa,beberapa,1,"Aturannya ada beberapa, dengarkan"
+pintu,Pintu,1,Pintu dikunci jam sepuluh malam
+kunci,dikunci,1,Pintu dikunci jam sepuluh malam
+kamar,kamar,1,"Anak kamar tiga, baunya seminggu"
+bau,baunya,1,"Anak kamar tiga, baunya seminggu"
+bahu,Bahumu,1,Bahumu udah basah semua.
+emang,Emang,1,"Emang, nggak apa-apa sih."
+sengaja,sengaja,1,Aku sengaja nggak bawa yang besar.
+deket,deket,1,Mau jalan deket sama kamu.
+kangen,Kangen,1,"""Kangen"" plus hati, lho"
+hapus,hapus,1,"Salah kirim, hapus dong"
+lanjur,terlanjur,1,Sudah terlanjur dibaca. Untuk siapa?
+soto,Soto,1,Soto di sini paling enak di Jakarta
+rekomendasi,Rekomendasi,1,Rekomendasi kamu aja
+kantin,kantin,1,"Lihat di kantin, selalu dipisah"
+pisah,dipisah,1,"Lihat di kantin, selalu dipisah"
+getar,getar-getar,1,"Tas kamu getar-getar mulu, alarm ujian kali?"
+mulu,mulu,1,"Tas kamu getar-getar mulu, alarm ujian kali?"
+kumpul,kumpul,1,"Besok pagi kumpul, kan?"
+lempar,lempar,1,Jangan-jangan mau lempar semua ke aku
+selesaiin,selesaiin,1,"Nggak, bagian mereka sudah aku selesaiin"
+kerjain,kerjain,1,Kamu yang kerjain semuanya?
+booking,booking,1,Mobilnya di mana? Sudah booking
+murah,murah,1,"Bisa diganti motor, lebih murah dan cepat"
+buah,buah,1,Koper saya besar dua buah
+kulkas,kulkas,1,"Tenang, kulkas pun pernah saya angkut"
+angkut,angkut,1,"Tenang, kulkas pun pernah saya angkut"
+pelan,pelan-pelan,1,Tolong pelan-pelan ya
+licin,licin,1,"Sebentar lagi sampai, Kak. Hati-hati, di sini licin."
+langit,langitnya,1,"Kali ini benar, Kak. Lihat langitnya yang memerah."
+komputer,komputernya,1,"Ini meja Kak, komputernya sudah siap dipakai."
+tim,tim,1,"Kak, siapa yang jadi kepala tim di sini?"
+kuning,kuning,1,"Yang pakai baju kuning di sana, Kak."
+tugas,petugas,1,Tadi pagi saya kira beliau petugas parkir.
+sempat,sempat,1,Kak sempat kasih uang parkir ke beliau?
+uang,uang,1,Kak sempat kasih uang parkir ke beliau?
+sungkan,sungkan,1,"Kalau ada apa-apa, tanya saya dulu. Jangan sungkan, Kak."
+mikrofon,mikrofonnya,1,"Kak, mikrofonnya masih nyala dari tadi."
+ketawa,ketawa,1,"Pak bos juga dengar, lalu ketawa."
+berat,berat,1,"Yang paling berat bukan lapar, tapi haus."
+haus,haus,1,"Yang paling berat bukan lapar, tapi haus."
+siang,siang,1,"Maaf ya, tadi siang aku minum kopi di depanmu."
+goda,godaan,1,"Nggak apa-apa, menahan godaan juga bagian puasa."
+ajarin,ajarin,1,"Ini resep nenek, nanti aku ajarin deh."
+ngeh,ngeh,1,Yang mana sih? Aku nggak ngeh.
+laptop,laptop,1,"Tiap aku kerja, dia duduk di laptop."
+keliling,keliling,1,Terus yang keliling sampai subuh?
+keluyur,keluyuran,1,"Iya, dia keluyuran di luar sampai pagi."
+luar,luar,1,"Iya, dia keluyuran di luar sampai pagi."
+kafe,kafe,1,"Kali ini serius, ayo kita buka kafe bareng."
+proposal,proposal,1,"Kali ini beda, aku bawa proposal bisnis."
+bisnis,bisnis,1,"Kali ini beda, aku bawa proposal bisnis."
+awal,awalnya,1,Modal awalnya berapa?
+balik,balik,1,"Kita bagi dua, tiga bulan udah balik modal."
+optimis,optimis,1,Untungnya kapan sih? Terlalu optimis.
+garasi,garasi,1,Di garasi rumah kamu.
+barista,barista,1,"Ibu kamu udah setuju, bahkan mau jadi barista."
+kontrak,Kontraknya,1,"Kontraknya habis akhir bulan ini, Nak."
+panjang,perpanjang,1,"Saya mau perpanjang satu tahun, Pak."
+biaya,Biaya,1,Biaya listrik dan air juga naik semua.
+listrik,listrik,1,Biaya listrik dan air juga naik semua.
+negosiasi,dinegosiasikan,1,"Bisa dinegosiasikan, Pak?"
+kampung,kampung,1,Istri saya pulang kampung tiga bulan.
+menu,Menu,1,"Menu saya yang tentukan ya, Pak."
+mi,mi,1,Asal bukan mi instan setiap hari.
+keluh,Keluhannya,1,"Keluhannya apa, Kak? Di mana yang sakit?"
+demam,demam,1,"Perut sakit dan demam, Kak."
+jajan,jajanan,1,Sejak makan jajanan pinggir jalan sore tadi.
+pinggir,pinggir,1,Sejak makan jajanan pinggir jalan sore tadi.
+bakso,bakso,1,"Sate, bakso, martabak, es kelapa, dan siomay."
+martabak,martabak,1,"Sate, bakso, martabak, es kelapa, dan siomay."
+siomay,siomay,1,"Sate, bakso, martabak, es kelapa, dan siomay."
+tur,tur,1,"Iya Kak, lagi tur makan, waktunya mepet."
+mepet,mepet,1,"Iya Kak, lagi tur makan, waktunya mepet."
+alergi,alergi,1,Ada alergi obat atau makanan?
+obat,obat,1,Ada alergi obat atau makanan?
+rawat,rawat,1,"Nggak ada, Kak. Perlu rawat inap?"
+inap,inap,1,"Nggak ada, Kak. Perlu rawat inap?"
+segera,segera,1,"Mungkin tidak, dokter segera datang."
+bahagia,bahagia,1,Sudah lama nggak ketemu. Kamu kelihatan bahagia.
+kabar,kabar,1,Kamu juga. Apa kabar?
+jelasin,jelasin,1,"Sebelum pergi, aku mau jelasin soal hari itu."
+nyamperin,nyamperin,1,Di mana? Kenapa nggak nyamperin?
+seberang,seberang,1,Aku lihat kamu dari seberang peron.
+peron,peron,1,Aku lihat kamu dari seberang peron.
+putusin,putusin,1,Itu harusnya aku yang putusin.
+puji,puji,1,"Senyum aja, terus puji masakan ibu."
+pokok,Pokoknya,1,"Pokoknya habiskan semua, itu tes pertama."
+karaoke,karaoke,1,"Tiga. Makan, catur sama ayah, karaoke sama nenek."
+turut,Menurut,1,"Menurut Ibu, perlu diperbaiki banyak?"
+paragraf,paragraf,1,Hampir setiap paragraf ada catatan merah.
+akademik,akademik,1,Kalimatnya terlalu indah untuk tulisan akademik.
+mimpi,bermimpi,1,Dulu saya bermimpi jadi novelis.
+novelis,novelis,1,Dulu saya bermimpi jadi novelis.
+bab,Bab,1,"Bab dua mulai dengan hujan di jendela, kelihatan."
+jendela,jendela,1,"Bab dua mulai dengan hujan di jendela, kelihatan."
+kering,kering,1,Saya akan buat kalimatnya lebih kering.
+buang,dibuang,1,"Skripsi perbaiki, tapi draf ini jangan dibuang."
+penasaran,penasaran,1,Saya penasaran sama akhir ceritanya.
+mahasiswa,mahasiswa,1,"Nama saya {name}, mahasiswa tahun ketiga."
+universitas,universitas,1,Alasannya memilih universitas di Korea?
+budaya,budaya,1,Saya ingin belajar budaya dan bahasa secara langsung.
+langsung,langsung,1,Saya ingin belajar budaya dan bahasa secara langsung.
+tanda,tanda,1,Mungkin itu tanda cocok kerja di kantor.
+cocok,cocok,1,Mungkin itu tanda cocok kerja di kantor.
+kreatif,kreatif,1,"Jawaban kreatif, saya catat."
+minus,minus,1,"Itu nilai plus atau minus, Pak?"
+konter,konter,1,"Di atas koper, di konter check-in."
+titip,dititipkan,1,Kopernya sudah dititipkan?
+polisi,polisi,1,Perlu laporan polisi dan surat darurat kedutaan.
+darurat,darurat,1,Perlu laporan polisi dan surat darurat kedutaan.
+duta,kedutaan,1,Perlu laporan polisi dan surat darurat kedutaan.
+pulau,pulau,1,"Ketemu, tapi koper naik pesawat ke pulau lain."
+gudeg,gudeg,1,"Kalau mau gudeg yang asli, jangan ke toko besar."
+asli,asli,1,"Kalau mau gudeg yang asli, jangan ke toko besar."
+toko,toko,1,"Kalau mau gudeg yang asli, jangan ke toko besar."
+turis,turis,1,"Itu rasa untuk turis, kurang enak."
+masjid,masjid,1,"Sedikit lagi, kita lewat masjid ini lagi."
+tarif,Tarifnya,1,Tarifnya sudah lumayan tinggi.
+penuh,penuh,1,"Kalau enak, saya bayar penuh."
+kinerja,kinerja,1,Penilaian kinerja tahun ini sangat baik.
+sangat,sangat,1,Penilaian kinerja tahun ini sangat baik.
+spesifik,spesifiknya,1,Alasan spesifiknya apa?
+proyek,Proyek,1,Proyek ekspor yang saya pegang jadi dua kali lipat.
+ekspor,ekspor,1,Proyek ekspor yang saya pegang jadi dua kali lipat.
+tolak,ditolak,1,Maksudnya permintaan saya ditolak?
+rekrut,rekrut,1,"Saya naikkan lima belas persen, plus rekrut satu orang."
+email,email,1,Sudah lihat email dari klien?
+beritahu,beritahu,1,Tetap harus kita beritahu yang benar.
+tanggung,bertanggung,1,Setuju. Kak yang bertanggung jawab telepon.
+malah,malah,1,"Tidak, malah pesan dua kali lebih banyak."
+resmi,resmi,1,"Besok kita resmi jadi suami istri, masih nggak percaya."
+suami,suami,1,"Besok kita resmi jadi suami istri, masih nggak percaya."
+amplop,Amplop,1,Amplop tua itu apa?
+ngobrol,ngobrol,1,Hari itu cuma ngobrol lima menit di halte.
+nulis,nulis,1,Lima menit cukup buat nulis tiga lembar.
+lembar,lembar,1,Lima menit cukup buat nulis tiga lembar.
+bacain,bacain,1,Malam ini aku bacain yang terakhir.
+dengerin,dengerin,1,Aku dengerin.
+nikah,nikah,1,"Seandainya besok naik bus yang sama, aku nikah."
+kusangka,kusangka,1,Tak pernah kusangka aku benar-benar naik lagi.
+ujung,ujung,1,Besok aku nunggu lagi di ujung lorong.
+lorong,lorong,1,Besok aku nunggu lagi di ujung lorong.

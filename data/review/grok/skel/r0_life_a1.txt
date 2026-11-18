@@ -1,0 +1,16 @@
+=== r0_life_a1
+level: R0
+title: 얼마예요?
+emoji: 🥭
+scene: 시장 과일 가게. Bu Sri 가 망고를 권한다
+cast: A: {name}(학습자), B: Bu Sri
+register: polite
+twist: 5 chaos
+expressions: Berapa harganya?; Mahal; Boleh kurang?
+flow: 1~2줄: 시장 과일 가게에서 학습자가 망고 값을 묻고 아주머니가 값을 말한다. 3~4줄: 학습자가 비싸다며 깎아 달라 하고 아주머니가 조금 내려 준다. 5줄(반전): 학습자가 반값 가까이 부르자, 6줄: 아주머니가 그 돈이면 망고 반 개만 주겠다고 받아친다.
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=expr:Mahal,expr:Boleh kurang?
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=warm | tags=twist
+B | ___ | ___ | ___ | emotion=teasing | tags=

@@ -1,0 +1,358 @@
+{
+ "id": "r2_work_a2",
+ "island": "work",
+ "kind": "short",
+ "title": "회의 마이크",
+ "emoji": "🎙️",
+ "scene": "온라인 회의. 내 마이크가 켜진 줄 모르고 혼잣말을 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Mikrofonnya",
+  "Bisa didengar?",
+  "Maaf, Pak"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Maaf, mikrofon kamu masih menyala.",
+    "ko": "저기, 마이크 아직 켜져 있어요."
+   },
+   {
+    "num": 2,
+    "id": "Hah? Dari kapan, Mas?",
+    "ko": "네? 언제부터요?"
+   },
+   {
+    "num": 3,
+    "id": "Dari waktu kamu bilang rapatnya membosankan.",
+    "ko": "회의 지루하다고 한 때부터요."
+   },
+   {
+    "num": 4,
+    "id": "Semua orang bisa dengar?",
+    "ko": "다들 들렸어요?"
+   },
+   {
+    "num": 5,
+    "id": "Termasuk Pak Direktur. Dia tertawa.",
+    "ko": "사장님까지요. 웃으시던데요."
+   },
+   {
+    "num": 6,
+    "id": "Aduh. Saya harus minta maaf sekarang.",
+    "ko": "아이고. 지금 사과해야겠어요."
+   },
+   {
+    "num": 7,
+    "id": "Tunggu. Dia barusan bilang setuju denganmu.",
+    "ko": "잠깐만요. 사장님이 방금 당신 말에 동의한대요."
+   },
+   {
+    "num": 8,
+    "id": "Setuju rapatnya membosankan?",
+    "ko": "회의가 지루하다는 데 동의하신다고요?"
+   },
+   {
+    "num": 9,
+    "id": "Iya. Mulai minggu depan rapatnya cuma lima belas menit.",
+    "ko": "네. 다음 주부터 회의 15분만 한대요."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_work_a2.md",
+  "grok_mode": "빠른",
+  "kick": "마이크 켜진 줄 모르고 “회의 지루해” 혼잣말 했는데, 사장님이 동의하고 회의를 15분으로 줄여버림."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kak, mikrofonnya masih nyala dari tadi.",
+   "rd": "깍, 믹로폰냐 마시흐 냘라 다리 따디.",
+   "ko": "카카, 마이크가 계속 켜져 있어요.",
+   "note": "mikrofonnya = 마이크가",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "mikrofonnya",
+     "mikrofon",
+     ""
+    ],
+    [
+     "masih",
+     "masih",
+     ""
+    ],
+    [
+     "nyala",
+     "nyala",
+     ""
+    ],
+    [
+     "tadi",
+     "tadi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Dari kapan, Kak? Bisa didengar semua?",
+   "rd": "다리 까빤, 깍? 비사 디등아르 스무아?",
+   "ko": "언제부터요? 다들 들었어요?",
+   "note": "Bisa didengar = 들릴 수 있다",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "kapan",
+     "kapan",
+     ""
+    ],
+    [
+     "Bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "didengar",
+     "dengar",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Dari Kak bilang rapatnya membosankan.",
+   "rd": "다리 깍 빌랑 라빳냐 믐보산깐.",
+   "ko": "회의가 지루하다고 혼잣말하신 때부터요.",
+   "note": "membosankan = 지루한",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "rapatnya",
+     "rapat",
+     ""
+    ],
+    [
+     "membosankan",
+     "bosan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Semua orang dengar ya, Kak?",
+   "rd": "스무아 오랑 등아르 야, 깍?",
+   "ko": "다들 들으신 거예요?",
+   "note": "semua orang = 모든 사람",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "Semua",
+     "semua",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ],
+    [
+     "dengar",
+     "dengar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Pak bos juga dengar, lalu ketawa.",
+   "rd": "빡 보스 주가 등아르, 랄루 끄따와.",
+   "ko": "사장님도 들으시고 웃으셨어요.",
+   "note": "Pak bos = 사장님",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "bos",
+     "bos",
+     ""
+    ],
+    [
+     "dengar",
+     "dengar",
+     ""
+    ],
+    [
+     "ketawa",
+     "ketawa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Maaf, Pak! Saya harus minta maaf sekarang.",
+   "rd": "마아프, 빡! 사야 하루스 민따 마아프 스까랑.",
+   "ko": "죄송합니다, 사장님! 지금 바로 사과해야겠어요.",
+   "note": "Maaf, Pak = 죄송합니다, 사장님",
+   "emotion": "embarrassed",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "harus",
+     "harus",
+     ""
+    ],
+    [
+     "minta",
+     "minta",
+     ""
+    ],
+    [
+     "sekarang",
+     "sekarang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tapi Pak bos setuju dengan kata Kak.",
+   "rd": "따삐 빡 보스 스뚜주 등안 까따 깍.",
+   "ko": "그런데 사장님이 그 말에 동의하셨어요.",
+   "note": "setuju = 동의하다",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "bos",
+     "bos",
+     ""
+    ],
+    [
+     "setuju",
+     "tuju",
+     ""
+    ],
+    [
+     "kata",
+     "kata",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Setuju? Benarkah, Kak?",
+   "rd": "스뚜주? 브나르까흐, 깍?",
+   "ko": "동의하셨어요? 진짜요?",
+   "note": "benarkah = 진짜냐",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Setuju",
+     "tuju",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Iya, mulai minggu depan rapat cuma lima belas menit.",
+   "rd": "이야, 물라이 밍구 드빤 라빳 쭈마 리마 블라스 므닛.",
+   "ko": "네, 다음 주부터 회의는 15분만 하기로 하셨어요.",
+   "note": "minggu depan = 다음 주",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "minggu",
+     "minggu",
+     ""
+    ],
+    [
+     "depan",
+     "depan",
+     ""
+    ],
+    [
+     "rapat",
+     "rapat",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "belas",
+     "belas",
+     ""
+    ],
+    [
+     "menit",
+     "menit",
+     ""
+    ]
+   ]
+  }
+ ]
+}

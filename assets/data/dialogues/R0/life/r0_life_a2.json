@@ -1,0 +1,214 @@
+{
+ "id": "r0_life_a2",
+ "island": "life",
+ "kind": "short",
+ "title": "따라오세요",
+ "emoji": "🚻",
+ "scene": "쇼핑몰. 급한데 직원 Dimas가 너무 천천히 설명한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Di mana …?",
+  "Kiri / kanan",
+  "Terima kasih"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Permisi, toilet di mana?",
+    "ko": "실례합니다, 화장실 어디예요?"
+   },
+   {
+    "num": 2,
+    "id": "Lurus, lalu belok kiri.",
+    "ko": "쭉 가서 왼쪽으로 도세요."
+   },
+   {
+    "num": 3,
+    "id": "Kiri? Terima kasih!",
+    "ko": "왼쪽이요? 고맙습니다!"
+   },
+   {
+    "num": 4,
+    "id": "Eh, maaf, kanan!",
+    "ko": "어, 죄송해요, 오른쪽!"
+   },
+   {
+    "num": 5,
+    "id": "Kanan atau kiri?!",
+    "ko": "오른쪽이에요 왼쪽이에요?!"
+   },
+   {
+    "num": 6,
+    "id": "Ikut saya saja!",
+    "ko": "그냥 저 따라오세요!"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_life_a2.md",
+  "grok_mode": "빠른",
+  "kick": "방향 헷갈리자 그냥 따라오라고 함"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Di mana toilet, Pak?",
+   "rd": "디 마나 또일릇, 빡?",
+   "ko": "화장실 어디예요?",
+   "note": "di mana = 어디",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "mana",
+     "mana",
+     ""
+    ],
+    [
+     "toilet",
+     "toilet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Belok kiri, lalu kanan",
+   "rd": "블록 끼리, 랄루 까난",
+   "ko": "왼쪽으로 돌고 오른쪽",
+   "note": "kiri = 왼쪽",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Belok",
+     "belok",
+     ""
+    ],
+    [
+     "kiri",
+     "kiri",
+     ""
+    ],
+    [
+     "kanan",
+     "kanan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Terima kasih",
+   "rd": "뜨리마 까시흐",
+   "ko": "감사합니다",
+   "note": "terima kasih = 감사합니다",
+   "emotion": "relieved",
+   "tags": [
+    "expr:Terima kasih"
+   ],
+   "lemmas": [
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Maaf, kanan bukan kiri",
+   "rd": "마아프, 까난 부깐 끼리",
+   "ko": "죄송, 왼쪽이 아니라 오른쪽",
+   "note": "maaf = 미안",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Maaf",
+     "maaf",
+     ""
+    ],
+    [
+     "kanan",
+     "kanan",
+     ""
+    ],
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "kiri",
+     "kiri",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Kiri atau kanan?",
+   "rd": "끼리 아따우 까난?",
+   "ko": "왼쪽이냐 오른쪽이냐?",
+   "note": "atau = 또는",
+   "emotion": "annoyed",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Kiri",
+     "kiri",
+     ""
+    ],
+    [
+     "kanan",
+     "kanan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Ikut saya aja",
+   "rd": "이꿋 사야 아자",
+   "ko": "그냥 저 따라오세요",
+   "note": "ikut = 따라오다",
+   "emotion": "excited",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ikut",
+     "ikut",
+     ""
+    ]
+   ]
+  }
+ ]
+}

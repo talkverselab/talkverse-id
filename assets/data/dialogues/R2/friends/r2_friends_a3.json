@@ -1,0 +1,348 @@
+{
+ "id": "r2_friends_a3",
+ "island": "friends",
+ "kind": "short",
+ "title": "다이어트 첫날",
+ "emoji": "🥗",
+ "scene": "아침 운동장. Ayu가 다이어트를 시작한다며 뛰자고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Mulai hari ini",
+  "Capek",
+  "Habis ini"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Mulai hari ini aku diet. Ayo lari bareng!",
+    "ko": "오늘부터 나 다이어트야. 같이 뛰자!"
+   },
+   {
+    "num": 2,
+    "id": "Jam enam pagi? Kamu serius?",
+    "ko": "아침 여섯 시에? 진심이야?"
+   },
+   {
+    "num": 3,
+    "id": "Serius. Tiga putaran saja.",
+    "ko": "진심. 세 바퀴만."
+   },
+   {
+    "num": 4,
+    "id": "Baru satu putaran, kamu sudah duduk.",
+    "ko": "한 바퀴 돌았는데 벌써 앉았네."
+   },
+   {
+    "num": 5,
+    "id": "Aku capek. Kakiku tidak kuat lagi.",
+    "ko": "힘들어. 다리가 더는 못 버텨."
+   },
+   {
+    "num": 6,
+    "id": "Ya sudah, kita pulang?",
+    "ko": "그럼 집에 갈까?"
+   },
+   {
+    "num": 7,
+    "id": "Tunggu, habis ini ada bubur ayam di depan.",
+    "ko": "잠깐, 이따 앞에 닭죽 있어."
+   },
+   {
+    "num": 8,
+    "id": "Katanya diet?",
+    "ko": "다이어트 한다며?"
+   },
+   {
+    "num": 9,
+    "id": "Lari sudah. Sekarang hadiahnya.",
+    "ko": "뛰기는 했잖아. 이제 상 받아야지."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_friends_a3.md",
+  "grok_mode": "빠른",
+  "kick": "한 바퀴 만에 포기하고 닭죽 먹으러 감"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Mulai hari ini diet, ayo lari",
+   "rd": "물라이 하리 이니 디읏, 아요 라리",
+   "ko": "오늘부터 다이어트, 같이 뛰자",
+   "note": "diet = 다이어트",
+   "emotion": "excited",
+   "tags": [
+    "expr:Mulai hari ini"
+   ],
+   "lemmas": [
+    [
+     "Mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ],
+    [
+     "diet",
+     "diet",
+     ""
+    ],
+    [
+     "lari",
+     "lari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Jam enam pagi, serius?",
+   "rd": "잠 에남 빠기, 스리우스?",
+   "ko": "새벽 여섯 시에 진심이야?",
+   "note": "serius = 진심",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jam",
+     "jam",
+     ""
+    ],
+    [
+     "enam",
+     "enam",
+     ""
+    ],
+    [
+     "pagi",
+     "pagi",
+     ""
+    ],
+    [
+     "serius",
+     "serius",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Tiga putaran aja, yuk",
+   "rd": "띠가 뿌따란 아자, 육",
+   "ko": "세 바퀴만, 가자",
+   "note": "putaran = 바퀴",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "putaran",
+     "putar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Yakin kamu kuat?",
+   "rd": "야낀 까무 꾸앗?",
+   "ko": "네가 버틸 수 있어?",
+   "note": "yakin = 확신하다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Yakin",
+     "yakin",
+     ""
+    ],
+    [
+     "kuat",
+     "kuat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Capek, kaki nggak kuat lagi",
+   "rd": "짜쁙, 까끼 응각 꾸앗 라기",
+   "ko": "힘들다, 다리가 더는 못 버텨",
+   "note": "capek = 힘들다",
+   "emotion": "tired",
+   "tags": [
+    "expr:Capek",
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Capek",
+     "capek",
+     ""
+    ],
+    [
+     "kaki",
+     "kaki",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "kuat",
+     "kuat",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Yuk pulang aja",
+   "rd": "육 뿔랑 아자",
+   "ko": "집에 가자",
+   "note": "pulang = 돌아가다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "pulang",
+     "pulang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Habis ini makan bubur ayam di depan",
+   "rd": "하비스 이니 마깐 부부르 아얌 디 드빤",
+   "ko": "이거 끝나고 앞에 닭죽 먹자",
+   "note": "bubur = 죽",
+   "emotion": "happy",
+   "tags": [
+    "expr:Habis ini"
+   ],
+   "lemmas": [
+    [
+     "Habis",
+     "habis",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "bubur",
+     "bubur",
+     ""
+    ],
+    [
+     "ayam",
+     "ayam",
+     ""
+    ],
+    [
+     "depan",
+     "depan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Diet kok makan?",
+   "rd": "디읏 꼭 마깐?",
+   "ko": "다이어트하면서 왜 먹어?",
+   "note": "kok = 왜",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Diet",
+     "diet",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Udah lari, harus dapat hadiah",
+   "rd": "우다흐 라리, 하루스 다빳 하디아흐",
+   "ko": "뛰었으니 상을 받아야지",
+   "note": "hadiah = 상",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Udah",
+     "udah",
+     ""
+    ],
+    [
+     "lari",
+     "lari",
+     ""
+    ],
+    [
+     "harus",
+     "harus",
+     ""
+    ],
+    [
+     "dapat",
+     "dapat",
+     ""
+    ],
+    [
+     "hadiah",
+     "hadiah",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+=== r0_life_a2
+level: R0
+title: 화장실 어디예요?
+emoji: 🚻
+scene: 쇼핑몰. 급한데 직원 Dimas 가 너무 천천히 설명한다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 5 chaos
+expressions: Di mana …?; Kiri / kanan; Terima kasih
+flow: 1~2줄: 급한 학습자가 쇼핑몰 직원에게 화장실을 묻고, 직원이 천천히 방향을 알려 준다. 3줄: 학습자가 고맙다며 뛰어가려 한다. 4줄(반전): 직원이 방향을 잘못 말했다며 반대쪽이라고 고친다. 5~6줄: 학습자가 어느 쪽이냐고 다그치자 직원이 그냥 자기를 따라오라고 한다.
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=relieved | tags=expr:Terima kasih
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=annoyed | tags=twist
+B | ___ | ___ | ___ | emotion=excited | tags=

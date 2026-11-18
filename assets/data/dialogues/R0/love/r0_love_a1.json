@@ -1,0 +1,216 @@
+{
+ "id": "r0_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "매일 밤 노래",
+ "emoji": "💌",
+ "scene": "동네 카페. 옆자리 Raka가 자꾸 쳐다보다 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Siapa nama kamu?",
+  "Nama saya …",
+  "Senang kenalan"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Halo, siapa nama kamu?",
+    "ko": "안녕, 이름이 뭐야?"
+   },
+   {
+    "num": 2,
+    "id": "Nama saya {name}.",
+    "ko": "내 이름은 {name}이야."
+   },
+   {
+    "num": 3,
+    "id": "Nama yang bagus sekali.",
+    "ko": "이름 정말 예쁘다."
+   },
+   {
+    "num": 4,
+    "id": "Terima kasih. Kamu siapa?",
+    "ko": "고마워. 너는?"
+   },
+   {
+    "num": 5,
+    "id": "Aku Raka. Aku tetanggamu.",
+    "ko": "나 라카야. 너희 옆집 살아."
+   },
+   {
+    "num": 6,
+    "id": "Oh! Yang suka bernyanyi malam-malam?",
+    "ko": "아! 밤마다 노래 부르는 그 사람?"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_love_a1.md",
+  "grok_mode": "빠른",
+  "kick": "옆집이라더니 매일 밤 노래 부르는 그 사람 맞음"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Siapa nama kamu?",
+   "rd": "시아빠 나마 까무?",
+   "ko": "이름이 뭐야?",
+   "note": "siapa = 누구",
+   "emotion": "shy",
+   "tags": [
+    "expr:Siapa nama kamu?"
+   ],
+   "lemmas": [
+    [
+     "Siapa",
+     "siapa",
+     ""
+    ],
+    [
+     "nama",
+     "nama",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Nama saya {name}",
+   "rd": "나마 사야 {name}",
+   "ko": "내 이름은 {name}야",
+   "note": "nama = 이름",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Nama saya …"
+   ],
+   "lemmas": [
+    [
+     "Nama",
+     "nama",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Nama kamu cantik banget",
+   "rd": "나마 까무 짠띡 방읏",
+   "ko": "이름 완전 예쁘다",
+   "note": "cantik = 예쁘다",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nama",
+     "nama",
+     ""
+    ],
+    [
+     "cantik",
+     "cantik",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Senang kenalan. Kamu siapa?",
+   "rd": "스낭 끄날란. 까무 시아빠?",
+   "ko": "반가워. 너는 누구야?",
+   "note": "senang = 기쁘다",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Senang",
+     "senang",
+     ""
+    ],
+    [
+     "kenalan",
+     "kenal",
+     ""
+    ],
+    [
+     "siapa",
+     "siapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Raka, tetangga sebelah",
+   "rd": "라까, 뜨땅가 스블라흐",
+   "ko": "라카, 바로 옆집이야",
+   "note": "tetangga = 이웃",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "tetangga",
+     "tetangga",
+     ""
+    ],
+    [
+     "sebelah",
+     "belah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Yang nyanyi tiap malam?",
+   "rd": "양 냐니 띠압 말람?",
+   "ko": "매일 밤 노래하는 그 사람?",
+   "note": "nyanyi = 노래하다",
+   "emotion": "surprised",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "nyanyi",
+     "nyanyi",
+     ""
+    ],
+    [
+     "tiap",
+     "tiap",
+     ""
+    ],
+    [
+     "malam",
+     "malam",
+     ""
+    ]
+   ]
+  }
+ ]
+}

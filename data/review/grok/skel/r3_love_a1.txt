@@ -1,0 +1,23 @@
+=== r3_love_a1
+level: R3
+title: 헤어진 날의 비밀
+emoji: 💔
+scene: 1년 만에 우연히 만난 옛 연인 Raka. 카페에서 그날 이야기를 꺼낸다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 7 reveal
+expressions: Sudah lama; Sebenarnya waktu itu; Seandainya
+flow: 1~4줄: 1년 만에 우연히 만난 옛 연인이 학습자가 행복해 보인다고 하고, 자기는 다음 달 수라바야로 직장을 옮긴다고 한다. 학습자가 왜 갑자기냐고 묻는다. 5~6줄: 옛 연인이 떠나기 전에 그날 일을 설명하고 싶다고 하자, 학습자는 역에 안 나온 그날이냐고 묻는다. 7줄(반전): 옛 연인은 사실 역에 갔었고 승강장 건너편에서 학습자를 봤다고 한다. 8~11줄: 왜 오지 않았냐고 묻자, 학습자가 장학금 합격 전화를 받으며 웃고 있어서 떠나는 걸 막고 싶지 않았다고 한다. 12~13줄: 학습자는 그건 자기가 정할 일이었다고 하고, 옛 연인은 그 말이 맞다며 1년이나 늦은 사과를 한다.
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=gentle | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=sad | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=twist
+A | ___ | ___ | ___ | emotion=angry | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=
+A | ___ | ___ | ___ | emotion=moved | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=expr:Seandainya
+A | ___ | ___ | ___ | emotion=serious | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=

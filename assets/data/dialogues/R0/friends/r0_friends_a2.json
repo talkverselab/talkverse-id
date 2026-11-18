@@ -1,0 +1,216 @@
+{
+ "id": "r0_friends_a2",
+ "island": "friends",
+ "kind": "short",
+ "title": "내 라면이었어",
+ "emoji": "🍜",
+ "scene": "저녁 기숙사. Raka가 라면을 들고 문을 두드린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Aku lapar",
+  "Ada makanan?",
+  "Enak"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Aku lapar sekali.",
+    "ko": "나 엄청 배고파."
+   },
+   {
+    "num": 2,
+    "id": "Aku juga. Ada makanan?",
+    "ko": "나도. 먹을 거 있어?"
+   },
+   {
+    "num": 3,
+    "id": "Ada mi, tapi satu.",
+    "ko": "라면 있어, 근데 하나."
+   },
+   {
+    "num": 4,
+    "id": "Kita bagi dua.",
+    "ko": "반씩 나누자."
+   },
+   {
+    "num": 5,
+    "id": "Kamu baik sekali.",
+    "ko": "너 진짜 착하다."
+   },
+   {
+    "num": 6,
+    "id": "Tapi itu mi aku!",
+    "ko": "근데 그거 내 라면이잖아!"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_friends_a2.md",
+  "grok_mode": "빠른",
+  "kick": "착하다고 감동한 순간 원래 내 라면이었다는 걸 알아챔"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Aku lapar banget",
+   "rd": "아꾸 라빠르 방읏",
+   "ko": "나 완전 배고파",
+   "note": "lapar = 배고프다",
+   "emotion": "sad",
+   "tags": [
+    "expr:Aku lapar"
+   ],
+   "lemmas": [
+    [
+     "lapar",
+     "lapar",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Ada makanan?",
+   "rd": "아다 마까난?",
+   "ko": "먹을 거 있어?",
+   "note": "ada = 있다",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Ada makanan?"
+   ],
+   "lemmas": [
+    [
+     "Ada",
+     "ada",
+     ""
+    ],
+    [
+     "makanan",
+     "makan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Mie instan cuma satu",
+   "rd": "미으 인스딴 쭈마 사뚜",
+   "ko": "라면 딱 하나야",
+   "note": "cuma = 단지",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mie",
+     "mie",
+     ""
+    ],
+    [
+     "instan",
+     "instan",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kita bagi dua aja",
+   "rd": "끼따 바기 두아 아자",
+   "ko": "우리 반씩 나누자",
+   "note": "bagi = 나누다",
+   "emotion": "warm",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "bagi",
+     "bagi",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kamu baik banget",
+   "rd": "까무 바익 방읏",
+   "ko": "너 진짜 착하다",
+   "note": "baik = 착하다",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "baik",
+     "baik",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Itu mie aku! Enak banget",
+   "rd": "이뚜 미으 아꾸! 에낙 방읏",
+   "ko": "그거 내 라면이야! 완전 맛있어 보이네",
+   "note": "enak = 맛있다",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "mie",
+     "mie",
+     ""
+    ],
+    [
+     "Enak",
+     "enak",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  }
+ ]
+}

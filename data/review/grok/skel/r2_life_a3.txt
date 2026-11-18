@@ -1,0 +1,19 @@
+=== r2_life_a3
+level: R2
+title: 이사 첫날
+emoji: 🏠
+scene: 새 하숙집. 주인 Bu Sri 가 규칙을 하나씩 알려 준다
+cast: A: {name}(학습자), B: Bu Sri
+register: polite
+twist: 4 ignore
+expressions: Aturannya; Tidak boleh; Kalau mau
+flow: 1~2줄: 새 하숙집 주인 아주머니가 규칙이 몇 개 있다고 하고 학습자가 뭐냐고 묻는다. 3~4줄: 밤 열 시에 문을 잠근다고 하자 학습자가 늦게 오면 어떻게 하냐고 묻는다. 5~6줄(반전): 아주머니는 그 질문엔 대충 전화하라고만 하고 두리안 요리 금지를 강조하고, 학습자는 두리안을 누가 요리하냐고 어이없어한다. 7~9줄: 3호실 학생이 해서 일주일 동안 냄새가 안 빠졌다고 하고, 학습자가 약속하자 아주머니가 그 학생 근처에도 가지 말라고 덧붙인다.
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=twist
+B | ___ | ___ | ___ | emotion=serious | tags=expr:Tidak boleh
+A | ___ | ___ | ___ | emotion=confused | tags=
+B | ___ | ___ | ___ | emotion=annoyed | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=

@@ -1,0 +1,19 @@
+=== r2_love_a1
+level: R2
+title: 우산 하나
+emoji: ☔
+scene: 퇴근길 갑자기 쏟아지는 비. Raka 가 작은 우산을 펴 든다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 7 emotion
+expressions: Bareng saja; Nanti basah; Tidak apa-apa
+flow: 1~2줄: 퇴근길에 갑자기 비가 쏟아지고, 친구가 작은 우산을 펴며 같이 쓰자고 한다. 학습자는 우산이 작아서 친구가 젖겠다고 걱정한다. 3~6줄: 친구는 젖는 데 익숙하다며 괜찮다 하지만 어깨가 다 젖고, 학습자가 오늘 왜 이렇게 다정하냐고 묻는다. 7줄(반전): 친구가 사실 일부러 큰 우산을 안 가져왔다고 털어놓는다. 8~9줄: 학습자가 왜냐고 묻자 친구가 이렇게 가까이 같이 걷고 싶었다고 한다.
+B | ___ | ___ | ___ | emotion=shy | tags=expr:Bareng saja
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Tidak apa-apa
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=twist
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=

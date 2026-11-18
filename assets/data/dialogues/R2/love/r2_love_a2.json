@@ -1,0 +1,349 @@
+{
+ "id": "r2_love_a2",
+ "island": "love",
+ "kind": "short",
+ "title": "잘못 보낸 메시지",
+ "emoji": "📱",
+ "scene": "저녁. Ayu에게서 하트 이모티콘과 메시지가 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Salah kirim",
+  "Untuk siapa?",
+  "Sudah terlanjur"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Ayu, pesanmu barusan untuk siapa?",
+    "ko": "아유, 방금 그 메시지 누구한테 보낸 거야?"
+   },
+   {
+    "num": 2,
+    "id": "Pesan apa? Aku tidak kirim apa-apa.",
+    "ko": "무슨 메시지? 나 아무것도 안 보냈는데."
+   },
+   {
+    "num": 3,
+    "id": "\"Aku kangen kamu\" dan tiga hati.",
+    "ko": "「보고 싶어」랑 하트 세 개."
+   },
+   {
+    "num": 4,
+    "id": "Aduh! Itu salah kirim! Hapus, ya!",
+    "ko": "아이고! 그거 잘못 보낸 거야! 지워 줘!"
+   },
+   {
+    "num": 5,
+    "id": "Sudah terlanjur dibaca. Untuk siapa?",
+    "ko": "이미 읽어 버렸어. 누구한테 보내려던 건데?"
+   },
+   {
+    "num": 6,
+    "id": "Untuk... kucingku. Dia di rumah nenek.",
+    "ko": "우리… 고양이한테. 할머니 댁에 있거든."
+   },
+   {
+    "num": 7,
+    "id": "Kucingmu punya HP sendiri?",
+    "ko": "네 고양이 휴대폰 있어?"
+   },
+   {
+    "num": 8,
+    "id": "Oke, oke. Bukan untuk kucing.",
+    "ko": "알았어, 알았어. 고양이한테 아니야."
+   },
+   {
+    "num": 9,
+    "id": "Jadi untuk siapa?",
+    "ko": "그럼 누구?"
+   },
+   {
+    "num": 10,
+    "id": "Baca lagi nama penerimanya, deh.",
+    "ko": "받는 사람 이름 다시 읽어 봐."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_love_a2.md",
+  "grok_mode": "빠른",
+  "kick": "고양이한테라더니 받는 사람 이름이 바로 나"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Untuk siapa pesan itu?",
+   "rd": "운뚝 시아빠 쁘산 이뚜?",
+   "ko": "그 메시지 누구한테 보낸 거야?",
+   "note": "pesan = 메시지",
+   "emotion": "curious",
+   "tags": [
+    "expr:Untuk siapa?"
+   ],
+   "lemmas": [
+    [
+     "siapa",
+     "siapa",
+     ""
+    ],
+    [
+     "pesan",
+     "pesan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Aku nggak kirim apa-apa",
+   "rd": "아꾸 응각 끼림 아빠-아빠",
+   "ko": "나 아무것도 안 보냈는데",
+   "note": "kirim = 보내다",
+   "emotion": "confused",
+   "tags": [],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "kirim",
+     "kirim",
+     ""
+    ],
+    [
+     "apa-apa",
+     "apa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "\"Kangen\" plus hati, lho",
+   "rd": "\"깡은\" 쁘루스 하띠, 로",
+   "ko": "\"보고 싶다\"에 하트까지 있잖아",
+   "note": "kangen = 보고 싶다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kangen",
+     "kangen",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "hati",
+     "hati",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Salah kirim, hapus dong",
+   "rd": "살라흐 끼림, 하뿌스 동",
+   "ko": "잘못 보낸 거야, 지워 줘",
+   "note": "salah = 잘못",
+   "emotion": "embarrassed",
+   "tags": [
+    "expr:Salah kirim"
+   ],
+   "lemmas": [
+    [
+     "Salah",
+     "salah",
+     ""
+    ],
+    [
+     "kirim",
+     "kirim",
+     ""
+    ],
+    [
+     "hapus",
+     "hapus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Sudah terlanjur dibaca. Untuk siapa?",
+   "rd": "수다흐 뜨르란주르 디바짜. 운뚝 시아빠?",
+   "ko": "이미 읽었어. 누구한테?",
+   "note": "terlanjur = 이미",
+   "emotion": "teasing",
+   "tags": [
+    "expr:Untuk siapa?",
+    "expr:Sudah terlanjur"
+   ],
+   "lemmas": [
+    [
+     "Sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "terlanjur",
+     "lanjur",
+     ""
+    ],
+    [
+     "dibaca",
+     "baca",
+     ""
+    ],
+    [
+     "siapa",
+     "siapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Untuk kucing nenek",
+   "rd": "운뚝 꾸찡 네넥",
+   "ko": "할머니 댁 고양이한테",
+   "note": "kucing = 고양이",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "kucing",
+     "kucing",
+     ""
+    ],
+    [
+     "nenek",
+     "nenek",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kucing punya HP? wkwk",
+   "rd": "꾸찡 뿌냐 흐쁘? 웍웍",
+   "ko": "고양이가 휴대폰이 있어? ㅋㅋ",
+   "note": "HP = 휴대폰",
+   "emotion": "laughing",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Kucing",
+     "kucing",
+     ""
+    ],
+    [
+     "punya",
+     "punya",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Bukan kucing, maaf",
+   "rd": "부깐 꾸찡, 마아프",
+   "ko": "고양이 아니야, 미안",
+   "note": "bukan = 아니다",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "kucing",
+     "kucing",
+     ""
+    ],
+    [
+     "maaf",
+     "maaf",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Terus untuk siapa?",
+   "rd": "뜨루스 운뚝 시아빠?",
+   "ko": "그럼 누구한테?",
+   "note": "terus = 그럼",
+   "emotion": "curious",
+   "tags": [
+    "expr:Untuk siapa?"
+   ],
+   "lemmas": [
+    [
+     "siapa",
+     "siapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Baca lagi namanya",
+   "rd": "바짜 라기 나마냐",
+   "ko": "이름 다시 읽어 봐",
+   "note": "baca = 읽다",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Baca",
+     "baca",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "namanya",
+     "nama",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+=== r0_love_a3
+level: R0
+title: 내일 시간 있어?
+emoji: 📅
+scene: 퇴근길 정류장. Dimas 가 휴대폰 달력을 보며 묻는다
+cast: A: {name}(학습자), B: Dimas
+register: casual
+twist: 6 chaos
+expressions: Besok ada waktu?; Jam berapa?; Boleh
+flow: 1~2줄: 퇴근길 정류장에서 동료가 내일 시간 있냐고 묻고 학습자가 왜냐고 묻는다. 3~4줄: 동료가 영화를 보자고 하고 학습자가 신나서 몇 시냐고 묻는다. 5줄: 동료가 새벽 다섯 시라고 한다. 6줄(반전): 학습자가 그 시간에 무슨 영화냐고 어이없어한다.
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=happy | tags=expr:Jam berapa?,expr:Boleh
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=twist

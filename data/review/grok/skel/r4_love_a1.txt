@@ -1,0 +1,25 @@
+=== r4_love_a1
+level: R4
+title: 마지막 편지
+emoji: ✉️
+scene: 결혼식 전날 밤. 오래 사귄 Raka 가 처음 만난 날 썼던 편지를 꺼낸다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 8 emotion
+expressions: Seandainya; Tak pernah kusangka; Berjanji
+flow: 1~3줄: 결혼식 전날 밤, 오래 사귄 연인이 내일이면 정식 부부라는 게 아직 안 믿긴다고 하고, 학습자가 그 낡은 봉투는 뭐냐고 묻자 처음 만난 날 쓴 편지라고 한다. 4~5줄: 학습자가 그날은 정류장에서 5분 이야기한 게 다였다고 하자, 연인은 그 5분이면 세 장을 쓰기에 충분했다고 한다. 6~8줄: 왜 한 번도 안 줬냐는 말에 너무 솔직해서 학습자가 도망갈까 봐 무서웠다고 하고, 학습자는 이젠 도망 못 간다고 웃는다. 9~11줄(반전 8줄 전후): 연인이 오늘 밤 읽어 주겠다며 편지의 마지막 문장을 읽는데, 내일도 같은 버스를 타면 결혼하겠다는 내용이다. 12~15줄: 학습자는 다음 날 정말 그 버스를 또 탔다고 하고, 연인은 새벽부터 정류장에서 기다렸다며 우연이 아니었다고 한다. 마지막 줄에서 연인은 내일도 식장 복도 끝에서 기다리겠다고 한다.
+B | ___ | ___ | ___ | emotion=moved | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=moved | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=teasing | tags=twist
+B | ___ | ___ | ___ | emotion=nervous | tags=
+A | ___ | ___ | ___ | emotion=gentle | tags=
+B | ___ | ___ | ___ | emotion=moved | tags=expr:Seandainya
+A | ___ | ___ | ___ | emotion=moved | tags=expr:Tak pernah kusangka
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=

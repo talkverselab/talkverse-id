@@ -1,0 +1,23 @@
+=== r3_friends_a2
+level: R3
+title: 창업 제안
+emoji: 🚀
+scene: 오랜 친구 Raka 가 같이 카페를 차리자며 사업계획서를 내민다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 5 chaos
+expressions: Modal; Untung; Pikir-pikir dulu
+flow: 1~3줄: 오랜 친구가 이번엔 진심이라며 둘이 카페를 차리자고 하고, 학습자는 그 말을 해마다 한다고 받아친다. 친구는 이번엔 사업계획서도 있다며 내민다. 4~8줄: 학습자가 초기 자금과 손익 시점을 묻자 친구는 반반 투자에 석 달이면 본전이라고 하고, 학습자는 너무 낙관적이라고 한다. 9~11줄(반전): 친구가 월세를 안 내도 된다며, 장소가 학습자네 집 차고이고 학습자 어머니가 이미 허락하셨다고 한다. 12~13줄: 학습자가 자기보다 엄마한테 먼저 물었냐고 황당해하자, 친구는 어머니도 바리스타를 하고 싶어 하신다며 일단 생각해 보라고 한다.
+B | ___ | ___ | ___ | emotion=excited | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=proud | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Modal
+B | ___ | ___ | ___ | emotion=warm | tags=twist
+A | ___ | ___ | ___ | emotion=curious | tags=expr:Untung
+B | ___ | ___ | ___ | emotion=proud | tags=expr:Modal
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=proud | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=shocked | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=expr:Pikir-pikir dulu

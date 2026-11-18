@@ -1,0 +1,308 @@
+{
+ "id": "r2_love_a3",
+ "island": "love",
+ "kind": "short",
+ "title": "첫 데이트 식당",
+ "emoji": "🍲",
+ "scene": "첫 데이트. Dimas가 고른 식당은 그의 어머니 가게였다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Pesan apa?",
+  "Rekomendasi",
+  "Kok tahu?"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Di sini sotonya paling enak se-Jakarta.",
+    "ko": "여기 소토가 자카르타에서 제일 맛있어."
+   },
+   {
+    "num": 2,
+    "id": "Kamu sering ke sini, ya?",
+    "ko": "여기 자주 오나 봐?"
+   },
+   {
+    "num": 3,
+    "id": "Lumayan. Mau pesan apa?",
+    "ko": "꽤. 뭐 시킬래?"
+   },
+   {
+    "num": 4,
+    "id": "Aku ikut rekomendasimu saja.",
+    "ko": "네 추천대로 할게."
+   },
+   {
+    "num": 5,
+    "id": "Bu, soto dua, yang satu tanpa seledri.",
+    "ko": "아주머니, 소토 둘이요, 하나는 셀러리 빼고요."
+   },
+   {
+    "num": 6,
+    "id": "Kok tahu aku tidak suka seledri?",
+    "ko": "내가 셀러리 싫어하는 거 어떻게 알았어?"
+   },
+   {
+    "num": 7,
+    "id": "Kamu selalu menyisihkannya di kantin.",
+    "ko": "너 구내식당에서 늘 골라내잖아."
+   },
+   {
+    "num": 8,
+    "id": "Ibu itu dari tadi tersenyum terus ke kita.",
+    "ko": "저 아주머니 아까부터 우리 보고 계속 웃으셔."
+   },
+   {
+    "num": 9,
+    "id": "Itu... ibu saya. Ini warung keluarga kami.",
+    "ko": "그게… 우리 엄마야. 여기 우리 집 식당이야."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_love_a3.md",
+  "grok_mode": "빠른",
+  "kick": "셀러리 빼 달라더니 여기가 엄마 가게"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Soto di sini paling enak di Jakarta",
+   "rd": "소또 디 시니 빨링 에낙 디 자까르따",
+   "ko": "여기 소토가 자카르타에서 제일 맛있어요",
+   "note": "soto = 소토",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "Soto",
+     "soto",
+     ""
+    ],
+    [
+     "paling",
+     "paling",
+     ""
+    ],
+    [
+     "enak",
+     "enak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Sering ke sini ya?",
+   "rd": "스링 끄 시니 야?",
+   "ko": "자주 오시나 봐요?",
+   "note": "sering = 자주",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sering",
+     "sering",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Pesan apa? Mau saya pilih?",
+   "rd": "쁘산 아빠? 마우 사야 삘리흐?",
+   "ko": "뭐 시킬까요? 제가 골라 줄까요?",
+   "note": "pesan = 주문하다",
+   "emotion": "nervous",
+   "tags": [
+    "expr:Pesan apa?"
+   ],
+   "lemmas": [
+    [
+     "Pesan",
+     "pesan",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "Mau",
+     "mau",
+     ""
+    ],
+    [
+     "pilih",
+     "pilih",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Rekomendasi kamu aja",
+   "rd": "르꼬믄다시 까무 아자",
+   "ko": "당신 추천으로 할게요",
+   "note": "rekomendasi = 추천",
+   "emotion": "shy",
+   "tags": [
+    "expr:Rekomendasi"
+   ],
+   "lemmas": [
+    [
+     "Rekomendasi",
+     "rekomendasi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Yang ini tanpa seledri ya",
+   "rd": "양 이니 딴빠 슬릇리 야",
+   "ko": "이거는 셀러리 빼 주세요",
+   "note": "seledri = 셀러리",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "tanpa",
+     "tanpa",
+     ""
+    ],
+    [
+     "seledri",
+     "seledri",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kok tahu saya nggak suka seledri?",
+   "rd": "꼭 따후 사야 응각 수까 슬릇리?",
+   "ko": "제가 셀러리 싫어하는 걸 어떻게 알았어요?",
+   "note": "kok = 어떻게",
+   "emotion": "surprised",
+   "tags": [
+    "expr:Kok tahu?",
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "tahu",
+     "tahu",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "suka",
+     "suka",
+     ""
+    ],
+    [
+     "seledri",
+     "seledri",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Lihat di kantin, selalu dipisah",
+   "rd": "리핫 디 깐띤, 슬랄루 디삐사흐",
+   "ko": "구내식당에서 늘 골라내는 거 봤어요",
+   "note": "kantin = 구내식당",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lihat",
+     "lihat",
+     ""
+    ],
+    [
+     "kantin",
+     "kantin",
+     ""
+    ],
+    [
+     "selalu",
+     "selalu",
+     ""
+    ],
+    [
+     "dipisah",
+     "pisah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Ibu di sana terus lihat kita",
+   "rd": "이부 디 사나 뜨루스 리핫 끼따",
+   "ko": "저기 아주머니가 계속 우리 보시고 웃어요",
+   "note": "terus = 계속",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "lihat",
+     "lihat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Itu mama saya, ini warungnya",
+   "rd": "이뚜 마마 사야, 이니 와룽냐",
+   "ko": "저분이 우리 엄마고, 여기가 우리 집 식당이에요",
+   "note": "warung = 식당",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "mama",
+     "mama",
+     ""
+    ],
+    [
+     "warungnya",
+     "warung",
+     ""
+    ]
+   ]
+  }
+ ]
+}

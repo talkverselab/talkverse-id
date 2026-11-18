@@ -1,0 +1,220 @@
+{
+ "id": "r0_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "망고 반 개",
+ "emoji": "🥭",
+ "scene": "시장 과일 가게. Bu Sri가 망고를 권한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Berapa harganya?",
+  "Mahal",
+  "Boleh kurang?"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Bu, ini berapa?",
+    "ko": "아주머니, 이거 얼마예요?"
+   },
+   {
+    "num": 2,
+    "id": "Sepuluh ribu, Nak.",
+    "ko": "만 루피아야."
+   },
+   {
+    "num": 3,
+    "id": "Wah, mahal. Boleh kurang?",
+    "ko": "와, 비싸요. 깎아 주실 수 있어요?"
+   },
+   {
+    "num": 4,
+    "id": "Boleh. Delapan ribu.",
+    "ko": "그래. 팔천."
+   },
+   {
+    "num": 5,
+    "id": "Lima ribu, ya?",
+    "ko": "오천 어때요?"
+   },
+   {
+    "num": 6,
+    "id": "Lima ribu... setengah mangga.",
+    "ko": "오천이면… 망고 반 개."
+   }
+  ],
+  "grok": "data/review/grok/out/r0_life_a1.md",
+  "grok_mode": "빠른",
+  "kick": "반값 부르니까 망고 반 개만 주겠다고 받아침"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Berapa harganya, Bu?",
+   "rd": "브라빠 하르가냐, 부?",
+   "ko": "얼마예요, 아줌마?",
+   "note": "berapa = 얼마",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "harganya",
+     "harga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Dua puluh ribu",
+   "rd": "두아 뿔루흐 리부",
+   "ko": "이만 루피아예요",
+   "note": "dua puluh = 이십",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Dua",
+     "dua",
+     ""
+    ],
+    [
+     "puluh",
+     "puluh",
+     ""
+    ],
+    [
+     "ribu",
+     "ribu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Mahal, boleh kurang?",
+   "rd": "마할, 볼레흐 꾸랑?",
+   "ko": "비싸요, 깎아 주세요?",
+   "note": "mahal = 비싸다",
+   "emotion": "worried",
+   "tags": [
+    "expr:Mahal",
+    "expr:Boleh kurang?"
+   ],
+   "lemmas": [
+    [
+     "Mahal",
+     "mahal",
+     ""
+    ],
+    [
+     "boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "kurang",
+     "kurang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Lima belas ribu ya",
+   "rd": "리마 블라스 리부 야",
+   "ko": "만오천이요",
+   "note": "lima belas = 십오",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lima",
+     "lima",
+     ""
+    ],
+    [
+     "belas",
+     "belas",
+     ""
+    ],
+    [
+     "ribu",
+     "ribu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Sepuluh ribu, Bu",
+   "rd": "스뿔루흐 리부, 부",
+   "ko": "만 원만요, 아줌마",
+   "note": "sepuluh = 십",
+   "emotion": "warm",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "ribu",
+     "ribu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Setengah mangga aja",
+   "rd": "스뜽아흐 망가 아자",
+   "ko": "그럼 망고 반 개만요",
+   "note": "setengah = 반",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Setengah",
+     "tengah",
+     ""
+    ],
+    [
+     "mangga",
+     "mangga",
+     ""
+    ]
+   ]
+  }
+ ]
+}

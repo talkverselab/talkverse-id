@@ -1,0 +1,467 @@
+{
+ "id": "r3_travel_a2",
+ "island": "travel",
+ "kind": "short",
+ "title": "현지인 맛집",
+ "emoji": "🍛",
+ "scene": "족자카르타 골목. 오젝 기사 Pak Darto가 진짜 맛집을 알려 주겠다며 길을 돈다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Yang asli",
+  "Masih jauh?",
+  "Langganan"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Mbak cari gudeg yang asli? Jangan yang di jalan besar.",
+    "ko": "진짜 구덱 찾아요? 큰길에 있는 데는 가지 마요."
+   },
+   {
+    "num": 2,
+    "id": "Kenapa, Pak? Yang di sana terkenal sekali.",
+    "ko": "왜요? 거기 엄청 유명하던데요."
+   },
+   {
+    "num": 3,
+    "id": "Terkenal untuk turis. Rasanya sudah disesuaikan.",
+    "ko": "관광객한테 유명하죠. 맛이 맞춰져 있어요."
+   },
+   {
+    "num": 4,
+    "id": "Kalau begitu, antar saya ke yang Bapak suka.",
+    "ko": "그럼 기사님 좋아하는 데로 데려다 주세요."
+   },
+   {
+    "num": 5,
+    "id": "Siap. Tapi tempatnya agak masuk ke gang.",
+    "ko": "좋아요. 근데 골목 안쪽에 있어요."
+   },
+   {
+    "num": 6,
+    "id": "Masih jauh? Kita sudah lewat masjid ini tiga kali.",
+    "ko": "아직 멀었어요? 이 모스크 벌써 세 번 지났어요."
+   },
+   {
+    "num": 7,
+    "id": "Jalannya memang muter. Sebentar lagi sampai.",
+    "ko": "길이 원래 빙빙 돌아요. 곧 도착해요."
+   },
+   {
+    "num": 8,
+    "id": "Argonya sudah tiga puluh ribu, Pak.",
+    "ko": "요금이 벌써 삼만이에요."
+   },
+   {
+    "num": 9,
+    "id": "Nah, ini dia. Warung Bu Sri, langganan saya.",
+    "ko": "자, 여기예요. 스리 아주머니 와룽, 내 단골이에요."
+   },
+   {
+    "num": 10,
+    "id": "Bu Sri ini siapanya Bapak?",
+    "ko": "스리 아주머니가 기사님이랑 무슨 사이예요?"
+   },
+   {
+    "num": 11,
+    "id": "Istri saya. Tapi gudegnya memang paling enak.",
+    "ko": "제 아내예요. 근데 구덱은 진짜 제일 맛있어요."
+   },
+   {
+    "num": 12,
+    "id": "Kalau enak, ongkosnya saya bayar penuh.",
+    "ko": "맛있으면 요금 다 낼게요."
+   },
+   {
+    "num": 13,
+    "id": "Kalau tidak enak, makannya gratis. Janji.",
+    "ko": "맛없으면 밥값은 공짜예요. 약속해요."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_travel_a2.md",
+  "grok_mode": "빠른",
+  "kick": "진짜 현지 맛집이라며 골목으로 데려가더니, 도착한 와룽 주인이 기사 아내였고 맛없으면 밥값 공짜라고 약속함."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kalau mau gudeg yang asli, jangan ke toko besar.",
+   "rd": "깔라우 마우 구득 양 아스리, 장안 끄 또꼬 브사르.",
+   "ko": "진짜 구덱 드시려면 큰길 가게는 가지 마세요.",
+   "note": "Yang asli = 진짜",
+   "emotion": "proud",
+   "tags": [
+    "expr:Yang asli"
+   ],
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "gudeg",
+     "gudeg",
+     ""
+    ],
+    [
+     "asli",
+     "asli",
+     ""
+    ],
+    [
+     "jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "toko",
+     "toko",
+     ""
+    ],
+    [
+     "besar",
+     "besar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kenapa, Pak?",
+   "rd": "끄나빠, 빡?",
+   "ko": "왜요?",
+   "note": "kenapa = 왜",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Itu rasa untuk turis, kurang enak.",
+   "rd": "이뚜 라사 운뚝 뚜리스, 꾸랑 에낙.",
+   "ko": "거긴 관광객 입맛에 맞춘 맛이라 별로예요.",
+   "note": "turis = 관광객",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "rasa",
+     "rasa",
+     ""
+    ],
+    [
+     "turis",
+     "turis",
+     ""
+    ],
+    [
+     "kurang",
+     "kurang",
+     ""
+    ],
+    [
+     "enak",
+     "enak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Bawa saya ke langganan Bapak dong.",
+   "rd": "바와 사야 끄 랑가난 바빡 동.",
+   "ko": "기사님 단골로 데려다 주세요.",
+   "note": "langganan = 단골",
+   "emotion": "excited",
+   "tags": [],
+   "lemmas": [
+    [
+     "Bawa",
+     "bawa",
+     ""
+    ],
+    [
+     "langganan",
+     "langgan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Tempatnya di dalam gang, Nak.",
+   "rd": "뜸빳냐 디 달람 강, 낙.",
+   "ko": "장소가 골목 안쪽이에요.",
+   "note": "gang = 골목",
+   "emotion": "neutral",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Tempatnya",
+     "tempat",
+     ""
+    ],
+    [
+     "gang",
+     "gang",
+     ""
+    ],
+    [
+     "Nak",
+     "nak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Masih jauh, Pak?",
+   "rd": "마시흐 자우흐, 빡?",
+   "ko": "아직 멀었어요?",
+   "note": "Masih jauh = 아직 멀다",
+   "emotion": "curious",
+   "tags": [
+    "expr:Masih jauh?"
+   ],
+   "lemmas": [
+    [
+     "Masih",
+     "masih",
+     ""
+    ],
+    [
+     "jauh",
+     "jauh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Sedikit lagi, kita lewat masjid ini lagi.",
+   "rd": "스디낏 라기, 끼따 르왓 마스짓 이니 라기.",
+   "ko": "조금 더요, 이 모스크 또 지나가요.",
+   "note": "sedikit lagi = 조금 더",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sedikit",
+     "sedikit",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "lewat",
+     "lewat",
+     ""
+    ],
+    [
+     "masjid",
+     "masjid",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Tarifnya sudah lumayan tinggi.",
+   "rd": "따리프냐 수다흐 루마얀 띵기.",
+   "ko": "요금이 벌써 꽤 나왔어요.",
+   "note": "tarif = 요금",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tarifnya",
+     "tarif",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "lumayan",
+     "lumayan",
+     ""
+    ],
+    [
+     "tinggi",
+     "tinggi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Ini warung langganan saya dari dulu.",
+   "rd": "이니 와룽 랑가난 사야 다리 둘루.",
+   "ko": "여기 제가 옛날부터 다니는 단골 와룽이에요.",
+   "note": "Langganan = 단골",
+   "emotion": "proud",
+   "tags": [
+    "expr:Langganan"
+   ],
+   "lemmas": [
+    [
+     "warung",
+     "warung",
+     ""
+    ],
+    [
+     "langganan",
+     "langgan",
+     ""
+    ],
+    [
+     "dulu",
+     "dulu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Pemiliknya kenal Bapak?",
+   "rd": "쁘밀릭냐 끄날 바빡?",
+   "ko": "주인이 기사님을 아세요?",
+   "note": "pemilik = 주인",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Pemiliknya",
+     "milik",
+     ""
+    ],
+    [
+     "kenal",
+     "kenal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Iya, itu istri saya.",
+   "rd": "이야, 이뚜 이스뜨리 사야.",
+   "ko": "네, 제 아내예요.",
+   "note": "istri = 아내",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "istri",
+     "istri",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Kalau enak, saya bayar penuh.",
+   "rd": "깔라우 에낙, 사야 바야르 쁘누흐.",
+   "ko": "맛있으면 요금 다 낼게요.",
+   "note": "bayar penuh = 다 내다",
+   "emotion": "amused",
+   "tags": [],
+   "lemmas": [
+    [
+     "enak",
+     "enak",
+     ""
+    ],
+    [
+     "bayar",
+     "bayar",
+     ""
+    ],
+    [
+     "penuh",
+     "penuh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Kalau nggak enak, makanannya gratis.",
+   "rd": "깔라우 응각 에낙, 마까난냐 그라띠스.",
+   "ko": "맛없으면 밥값은 공짜로 할게요.",
+   "note": "gratis = 공짜",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "enak",
+     "enak",
+     ""
+    ],
+    [
+     "makanannya",
+     "makan",
+     ""
+    ],
+    [
+     "gratis",
+     "gratis",
+     ""
+    ]
+   ]
+  }
+ ]
+}

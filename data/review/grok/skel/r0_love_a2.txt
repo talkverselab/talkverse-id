@@ -1,0 +1,16 @@
+=== r0_love_a2
+level: R0
+title: 커피 좋아해요?
+emoji: ☕
+scene: 대학 앞 노점. Ayu 가 먼저 음료를 고르고 묻는다
+cast: A: {name}(학습자), B: Ayu
+register: casual
+twist: 5 slip
+expressions: Kamu suka …?; Aku suka …; Mau?
+flow: 1~2줄: 대학 앞 노점에서 친구가 커피를 좋아하냐고 묻고 학습자가 아주 좋아한다고 한다. 3줄: 친구는 단 차가 좋다고 한다. 4줄: 학습자가 맞장구치려다 말이 꼬여 친구를 좋아한다는 말처럼 들리게 한다. 5줄(반전): 친구가 깜짝 놀라 되묻는다. 6줄: 학습자가 당황해서 차 이야기였다고 얼버무린다.
+B | ___ | ___ | ___ | emotion=neutral | tags=expr:Kamu suka …?
+A | ___ | ___ | ___ | emotion=happy | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=expr:Aku suka …
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=surprised | tags=twist
+A | ___ | ___ | ___ | emotion=embarrassed | tags=

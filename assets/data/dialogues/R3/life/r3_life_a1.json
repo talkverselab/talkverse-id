@@ -1,0 +1,533 @@
+{
+ "id": "r3_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "집주인과 계약",
+ "emoji": "📝",
+ "scene": "월세 재계약. 집주인 Pak Darto가 갑자기 월세를 올리겠다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Kontraknya habis",
+  "Naik berapa?",
+  "Bisa dinegosiasikan?"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Kontrak sewanya habis akhir bulan ini, Mbak.",
+    "ko": "임대 계약이 이달 말에 끝나요."
+   },
+   {
+    "num": 2,
+    "id": "Iya, Pak. Saya ingin memperpanjang satu tahun lagi.",
+    "ko": "네. 1년 더 연장하고 싶어요."
+   },
+   {
+    "num": 3,
+    "id": "Boleh, tapi sewanya naik dua puluh persen.",
+    "ko": "그래요, 근데 월세가 20% 올라요."
+   },
+   {
+    "num": 4,
+    "id": "Dua puluh persen? Itu terlalu tinggi, Pak.",
+    "ko": "20%요? 너무 높아요."
+   },
+   {
+    "num": 5,
+    "id": "Harga listrik dan air juga sudah naik semua.",
+    "ko": "전기세 수도세도 다 올랐어요."
+   },
+   {
+    "num": 6,
+    "id": "Apakah masih bisa dinegosiasikan?",
+    "ko": "아직 조정할 수 있을까요?"
+   },
+   {
+    "num": 7,
+    "id": "Tergantung. Mbak bisa memasak?",
+    "ko": "경우에 따라. 요리할 줄 알아요?"
+   },
+   {
+    "num": 8,
+    "id": "Bisa sedikit. Apa hubungannya dengan sewa?",
+    "ko": "조금요. 그게 월세랑 무슨 상관이에요?"
+   },
+   {
+    "num": 9,
+    "id": "Istri saya pulang kampung tiga bulan.",
+    "ko": "제 아내가 석 달 동안 고향에 가거든요."
+   },
+   {
+    "num": 10,
+    "id": "Jadi Bapak butuh makan malam?",
+    "ko": "그럼 저녁밥이 필요하신 거예요?"
+   },
+   {
+    "num": 11,
+    "id": "Tiga kali seminggu, sewanya tidak naik.",
+    "ko": "일주일에 세 번이면 월세 안 올려요."
+   },
+   {
+    "num": 12,
+    "id": "Setuju, tapi menunya saya yang tentukan.",
+    "ko": "좋아요, 근데 메뉴는 제가 정해요."
+   },
+   {
+    "num": 13,
+    "id": "Asal bukan mi instan setiap hari.",
+    "ko": "매일 라면만 아니면 돼요."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_life_a1.md",
+  "grok_mode": "빠른",
+  "kick": "월세 20% 인상 통보를 받았는데, 요리 해 주면 안 올리겠다는 조건으로 갑자기 바뀌고 라면만 아니면 된다는 말에 웃음."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kontraknya habis akhir bulan ini, Nak.",
+   "rd": "꼰뜨락냐 하비스 악히르 불란 이니, 낙.",
+   "ko": "계약이 이달 말에 끝나요.",
+   "note": "Kontraknya habis = 계약이 끝나다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kontraknya",
+     "kontrak",
+     ""
+    ],
+    [
+     "habis",
+     "habis",
+     ""
+    ],
+    [
+     "akhir",
+     "akhir",
+     ""
+    ],
+    [
+     "bulan",
+     "bulan",
+     ""
+    ],
+    [
+     "Nak",
+     "nak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Saya mau perpanjang satu tahun, Pak.",
+   "rd": "사야 마우 쁘르빤장 사뚜 따훈, 빡.",
+   "ko": "1년 연장하고 싶어요.",
+   "note": "perpanjang = 연장하다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "perpanjang",
+     "panjang",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ],
+    [
+     "tahun",
+     "tahun",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Sewanya naik dua puluh persen ya.",
+   "rd": "스와냐 나익 두아 뿔루흐 쁘르슨 야.",
+   "ko": "월세를 20% 올리겠습니다.",
+   "note": "naik dua puluh persen = 20% 오르다",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sewanya",
+     "sewa",
+     ""
+    ],
+    [
+     "naik",
+     "naik",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "puluh",
+     "puluh",
+     ""
+    ],
+    [
+     "persen",
+     "persen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Naik berapa? Itu terlalu tinggi, Pak.",
+   "rd": "나익 브라빠? 이뚜 뜨르랄루 띵기, 빡.",
+   "ko": "얼마나 올리는 거예요? 너무 높아요.",
+   "note": "Naik berapa = 얼마나 오르나",
+   "emotion": "shocked",
+   "tags": [],
+   "lemmas": [
+    [
+     "Naik",
+     "naik",
+     ""
+    ],
+    [
+     "berapa",
+     "berapa",
+     ""
+    ],
+    [
+     "terlalu",
+     "terlalu",
+     ""
+    ],
+    [
+     "tinggi",
+     "tinggi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Biaya listrik dan air juga naik semua.",
+   "rd": "비아야 리스뜨릭 단 아이르 주가 나익 스무아.",
+   "ko": "전기세랑 수도세도 다 올랐어요.",
+   "note": "biaya = 비용",
+   "emotion": "neutral",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Biaya",
+     "biaya",
+     ""
+    ],
+    [
+     "listrik",
+     "listrik",
+     ""
+    ],
+    [
+     "air",
+     "air",
+     ""
+    ],
+    [
+     "naik",
+     "naik",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Bisa dinegosiasikan, Pak?",
+   "rd": "비사 디느고시아시깐, 빡?",
+   "ko": "조정할 여지 있을까요?",
+   "note": "Bisa dinegosiasikan = 협상할 수 있다",
+   "emotion": "warm",
+   "tags": [
+    "expr:Bisa dinegosiasikan?"
+   ],
+   "lemmas": [
+    [
+     "Bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "dinegosiasikan",
+     "negosiasi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Nak, bisa masak nggak?",
+   "rd": "낙, 비사 마삭 응각?",
+   "ko": "요리할 줄 알아요?",
+   "note": "masak = 요리하다",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nak",
+     "nak",
+     ""
+    ],
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Masak? Kenapa tiba-tiba, Pak?",
+   "rd": "마삭? 끄나빠 띠바-띠바, 빡?",
+   "ko": "요리요? 갑자기 왜요?",
+   "note": "tiba-tiba = 갑자기",
+   "emotion": "confused",
+   "tags": [],
+   "lemmas": [
+    [
+     "Masak",
+     "masak",
+     ""
+    ],
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "tiba-tiba",
+     "tiba",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Istri saya pulang kampung tiga bulan.",
+   "rd": "이스뜨리 사야 뿔랑 깜뿡 띠가 불란.",
+   "ko": "아내가 석 달 동안 고향에 가요.",
+   "note": "pulang kampung = 고향에 가다",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Istri",
+     "istri",
+     ""
+    ],
+    [
+     "pulang",
+     "pulang",
+     ""
+    ],
+    [
+     "kampung",
+     "kampung",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "bulan",
+     "bulan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Pak butuh makan malam ya?",
+   "rd": "빡 부뚜흐 마깐 말람 야?",
+   "ko": "저녁밥이 필요하신 거예요?",
+   "note": "makan malam = 저녁밥",
+   "emotion": "amused",
+   "tags": [],
+   "lemmas": [
+    [
+     "butuh",
+     "butuh",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "malam",
+     "malam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Tiga kali seminggu, sewa nggak naik.",
+   "rd": "띠가 깔리 스밍구, 스와 응각 나익.",
+   "ko": "일주일에 세 번 해 주면 월세 안 올릴게요.",
+   "note": "tiga kali seminggu = 주 3회",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ],
+    [
+     "seminggu",
+     "minggu",
+     ""
+    ],
+    [
+     "sewa",
+     "sewa",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "naik",
+     "naik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Menu saya yang tentukan ya, Pak.",
+   "rd": "므누 사야 양 뜬뚜깐 야, 빡.",
+   "ko": "메뉴는 제가 정할게요.",
+   "note": "tentukan = 정하다",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "Menu",
+     "menu",
+     ""
+    ],
+    [
+     "tentukan",
+     "tentu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Asal bukan mi instan setiap hari.",
+   "rd": "아살 부깐 미 인스딴 스띠압 하리.",
+   "ko": "매일 라면만 아니면 돼요.",
+   "note": "mi instan = 라면",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Asal",
+     "asal",
+     ""
+    ],
+    [
+     "bukan",
+     "bukan",
+     ""
+    ],
+    [
+     "mi",
+     "mi",
+     ""
+    ],
+    [
+     "instan",
+     "instan",
+     ""
+    ],
+    [
+     "setiap",
+     "tiap",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
+  }
+ ]
+}

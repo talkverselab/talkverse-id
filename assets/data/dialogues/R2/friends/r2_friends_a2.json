@@ -1,0 +1,378 @@
+{
+ "id": "r2_friends_a2",
+ "island": "friends",
+ "kind": "short",
+ "title": "빌려 간 돈",
+ "emoji": "💸",
+ "scene": "점심시간. Raka가 지난달 빌린 돈 이야기를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Utang",
+  "Kapan dibayar?",
+  "Lupa"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Eh, utangku bulan lalu belum dibayar, ya?",
+    "ko": "어, 나 지난달 빌린 돈 아직 안 갚았지?"
+   },
+   {
+    "num": 2,
+    "id": "Utang yang mana? Aku sudah lupa.",
+    "ko": "무슨 돈? 나 잊어버렸는데."
+   },
+   {
+    "num": 3,
+    "id": "Yang lima puluh ribu, waktu nonton konser.",
+    "ko": "콘서트 보던 날 오만 루피아."
+   },
+   {
+    "num": 4,
+    "id": "Oh, itu. Santai saja.",
+    "ko": "아, 그거. 신경 쓰지 마."
+   },
+   {
+    "num": 5,
+    "id": "Tidak bisa. Aku bayar sekarang.",
+    "ko": "안 돼. 지금 갚을게."
+   },
+   {
+    "num": 6,
+    "id": "Kenapa tiba-tiba rajin begini?",
+    "ko": "왜 갑자기 이렇게 꼼꼼해?"
+   },
+   {
+    "num": 7,
+    "id": "Soalnya aku mau pinjam lagi, seratus ribu.",
+    "ko": "왜냐면 또 빌리려고. 십만."
+   },
+   {
+    "num": 8,
+    "id": "Jadi kamu bayar lima puluh untuk pinjam seratus?",
+    "ko": "그러니까 오만 갚고 십만 빌리겠다고?"
+   },
+   {
+    "num": 9,
+    "id": "Hitungannya bagus, kan?",
+    "ko": "계산 잘했지?"
+   }
+  ],
+  "grok": "data/review/grok/out/r2_friends_a2.md",
+  "grok_mode": "빠른",
+  "kick": "갚겠다고 고집하더니 사실은 두 배 더 빌리려고"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Utang bulan lalu belum dibayar",
+   "rd": "우땅 불란 랄루 블룸 디바야르",
+   "ko": "지난달 빚 아직 안 갚았어",
+   "note": "utang = 빚",
+   "emotion": "embarrassed",
+   "tags": [
+    "expr:Utang"
+   ],
+   "lemmas": [
+    [
+     "Utang",
+     "utang",
+     ""
+    ],
+    [
+     "bulan",
+     "bulan",
+     ""
+    ],
+    [
+     "belum",
+     "belum",
+     ""
+    ],
+    [
+     "dibayar",
+     "bayar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Utang apa? Aku lupa",
+   "rd": "우땅 아빠? 아꾸 루빠",
+   "ko": "무슨 빚? 나 잊었어",
+   "note": "lupa = 잊다",
+   "emotion": "confused",
+   "tags": [
+    "expr:Utang",
+    "expr:Lupa"
+   ],
+   "lemmas": [
+    [
+     "Utang",
+     "utang",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "lupa",
+     "lupa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Waktu konser, dua ratus ribu",
+   "rd": "왁뚜 꼰스르, 두아 라뚜스 리부",
+   "ko": "콘서트 때, 이십만",
+   "note": "konser = 콘서트",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Waktu",
+     "waktu",
+     ""
+    ],
+    [
+     "konser",
+     "konser",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "ratus",
+     "ratus",
+     ""
+    ],
+    [
+     "ribu",
+     "ribu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Santai aja, nggak usah dibayar",
+   "rd": "산따이 아자, 응각 우사흐 디바야르",
+   "ko": "신경 쓰지 마, 안 갚아도 돼",
+   "note": "santai = 편하다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Santai",
+     "santai",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "usah",
+     "usah",
+     ""
+    ],
+    [
+     "dibayar",
+     "bayar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Nggak, aku harus bayar sekarang",
+   "rd": "응각, 아꾸 하루스 바야르 스까랑",
+   "ko": "아니, 지금 꼭 갚아야 해",
+   "note": "bayar = 갚다",
+   "emotion": "serious",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "harus",
+     "harus",
+     ""
+    ],
+    [
+     "bayar",
+     "bayar",
+     ""
+    ],
+    [
+     "sekarang",
+     "sekarang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kenapa tiba-tiba begitu?",
+   "rd": "끄나빠 띠바-띠바 브기뚜?",
+   "ko": "왜 갑자기 그렇게?",
+   "note": "tiba-tiba = 갑자기",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Kenapa",
+     "kenapa",
+     ""
+    ],
+    [
+     "tiba-tiba",
+     "tiba",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Sebenarnya mau pinjam dua kali lipat",
+   "rd": "스브나르냐 마우 삔잠 두아 깔리 리빳",
+   "ko": "사실 두 배를 빌리려고",
+   "note": "lipat = 배",
+   "emotion": "shy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sebenarnya",
+     "benar",
+     ""
+    ],
+    [
+     "mau",
+     "mau",
+     ""
+    ],
+    [
+     "pinjam",
+     "pinjam",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ],
+    [
+     "lipat",
+     "lipat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Jadi total enam ratus ribu ya",
+   "rd": "자디 또딸 에남 라뚜스 리부 야",
+   "ko": "그러면 총 육십만이야",
+   "note": "total = 총",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "total",
+     "total",
+     ""
+    ],
+    [
+     "enam",
+     "enam",
+     ""
+    ],
+    [
+     "ratus",
+     "ratus",
+     ""
+    ],
+    [
+     "ribu",
+     "ribu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Hitungannya tepat, makasih wkwk",
+   "rd": "히뚱안냐 뜨빳, 마까시흐 웍웍",
+   "ko": "계산 정확하네, 고마워 ㅋㅋ",
+   "note": "tepat = 정확하다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hitungannya",
+     "hitung",
+     ""
+    ],
+    [
+     "tepat",
+     "tepat",
+     ""
+    ],
+    [
+     "makasih",
+     "makasih",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "id": "r2_life_a3",
+ "island": "life",
+ "kind": "short",
+ "title": "이사 첫날",
+ "emoji": "🏠",
+ "scene": "새 하숙집. 주인 Bu Sri가 규칙을 하나씩 알려 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Aturannya",
+  "Tidak boleh",
+  "Kalau mau"
+ ],
+ "region": "R2",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Selamat datang. Ada beberapa aturan di sini.",
+    "ko": "어서 와. 여기 규칙이 몇 개 있어."
+   },
+   {
+    "num": 2,
+    "id": "Baik, Bu. Apa saja?",
+    "ko": "네. 뭐가 있어요?"
+   },
+   {
+    "num": 3,
+    "id": "Jam sepuluh malam pintu dikunci.",
+    "ko": "밤 열 시에 문 잠가."
+   },
+   {
+    "num": 4,
+    "id": "Kalau saya pulang terlambat?",
+    "ko": "제가 늦게 오면요?"
+   },
+   {
+    "num": 5,
+    "id": "Telepon saya dulu. Dan tidak boleh masak durian.",
+    "ko": "먼저 전화해. 그리고 두리안 요리는 금지야."
+   },
+   {
+    "num": 6,
+    "id": "Durian dimasak? Siapa yang masak durian?",
+    "ko": "두리안을 요리해요? 누가 그래요?"
+   },
+   {
+    "num": 7,
+    "id": "Anak kamar tiga. Seminggu baunya tidak hilang.",
+    "ko": "3호실 학생. 일주일 동안 냄새가 안 빠졌어."
+   },
+   {
+    "num": 8,
+    "id": "Oke, Bu. Saya janji tidak.",
+    "ko": "알겠어요. 안 할게요, 약속해요."
+   },
+   {
+    "num": 9,
+    "id": "Satu lagi. Jangan dekat-dekat anak kamar tiga.",
+    "ko": "하나 더. 3호실 학생 가까이 가지 마."
+   }
+  ],
+  "grok": "data/review/grok/out/r2_life_a3.md",
+  "grok_mode": "빠른",
+  "kick": "문 잠그는 질문에 두리안 금지로 넘어가고 3호실 피하라고 함"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Aturannya ada beberapa, dengarkan",
+   "rd": "아뚜란냐 아다 브브라빠, 등아르깐",
+   "ko": "규칙이 몇 개 있어요, 들어 보세요",
+   "note": "aturan = 규칙",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Aturannya",
+     "atur",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "beberapa",
+     "beberapa",
+     ""
+    ],
+    [
+     "dengarkan",
+     "dengar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Apa saja, Bu?",
+   "rd": "아빠 사자, 부?",
+   "ko": "뭐예요, 아줌마?",
+   "note": "apa = 무엇",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Apa",
+     "apa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Pintu dikunci jam sepuluh malam",
+   "rd": "삔뚜 디꾼찌 잠 스뿔루흐 말람",
+   "ko": "밤 열 시에 문을 잠가요",
+   "note": "kunci = 잠그다",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Pintu",
+     "pintu",
+     ""
+    ],
+    [
+     "dikunci",
+     "kunci",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ],
+    [
+     "sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "malam",
+     "malam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kalau pulang terlambat gimana?",
+   "rd": "깔라우 뿔랑 뜨르람밧 기마나?",
+   "ko": "늦게 오면 어떻게 해요?",
+   "note": "terlambat = 늦다",
+   "emotion": "worried",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "pulang",
+     "pulang",
+     ""
+    ],
+    [
+     "terlambat",
+     "lambat",
+     ""
+    ],
+    [
+     "gimana",
+     "gimana",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Telepon saja. Tidak boleh masak durian",
+   "rd": "뗄레뽄 사자. 띠닥 볼레흐 마삭 두리안",
+   "ko": "전화하세요. 두리안 요리는 안 돼요",
+   "note": "durian = 두리안",
+   "emotion": "serious",
+   "tags": [
+    "expr:Tidak boleh"
+   ],
+   "lemmas": [
+    [
+     "Telepon",
+     "telepon",
+     ""
+    ],
+    [
+     "Tidak",
+     "tidak",
+     ""
+    ],
+    [
+     "boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ],
+    [
+     "durian",
+     "durian",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Siapa yang masak durian?",
+   "rd": "시아빠 양 마삭 두리안?",
+   "ko": "누가 두리안을 요리해요?",
+   "note": "siapa = 누구",
+   "emotion": "confused",
+   "tags": [],
+   "lemmas": [
+    [
+     "Siapa",
+     "siapa",
+     ""
+    ],
+    [
+     "masak",
+     "masak",
+     ""
+    ],
+    [
+     "durian",
+     "durian",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Anak kamar tiga, baunya seminggu",
+   "rd": "아낙 까마르 띠가, 바우냐 스밍구",
+   "ko": "3호실 학생이, 냄새가 일주일",
+   "note": "bau = 냄새",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Anak",
+     "anak",
+     ""
+    ],
+    [
+     "kamar",
+     "kamar",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "baunya",
+     "bau",
+     ""
+    ],
+    [
+     "seminggu",
+     "minggu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Saya janji nggak akan",
+   "rd": "사야 잔지 응각 아깐",
+   "ko": "저 안 할게요, 약속해요",
+   "note": "janji = 약속",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "janji",
+     "janji",
+     ""
+    ],
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "akan",
+     "akan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Jangan dekat-dekat dia juga",
+   "rd": "장안 드깟-드깟 디아 주가",
+   "ko": "그 아이 근처에도 가지 마세요",
+   "note": "dekat = 가깝다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "dekat-dekat",
+     "dekat",
+     ""
+    ]
+   ]
+  }
+ ]
+}

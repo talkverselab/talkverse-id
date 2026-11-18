@@ -1,0 +1,23 @@
+=== r3_culture_a1
+level: R3
+title: 라마단 저녁
+emoji: 🌙
+scene: 라마단 기간 회사. 동료 Nadia 가 금식을 마치는 부카 푸아사에 초대한다
+cast: A: {name}(학습자), B: Nadia
+register: casual
+twist: 5 emotion
+expressions: Buka puasa; Menahan; Bareng-bareng
+flow: 1~3줄: 라마단 기간, 동료가 이따 같이 부카 푸아사를 하자고 초대하고, 학습자는 자기는 금식을 안 하는데 가도 되냐고 묻는다. 동료는 그래서 더 오라며 부카 푸아사는 나누는 자리라고 한다. 4~5줄(반전): 학습자가 새벽부터 아무것도 안 먹었냐고 묻자, 동료는 제일 힘든 건 배고픔이 아니라 목마름이라고 한다. 6~7줄: 학습자가 낮에 동료 앞에서 커피를 마셔 미안하다고 하자 동료는 유혹을 참는 것도 금식의 일부라고 한다. 8~11줄: 뭘 가져가면 되냐는 말에 단 디저트를 가져오라고 하며, 어른들이 단 걸로 금식을 깨라고 하신다고 설명한다. 12~13줄: 학습자가 직접 만들어 보겠다고 하자 동료는 할머니 레시피라며 자기가 가르쳐 주겠다고 한다.
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Buka puasa
+A | ___ | ___ | ___ | emotion=nervous | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Buka puasa
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=tired | tags=twist
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=gentle | tags=expr:Menahan
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=serious | tags=
+B | ___ | ___ | ___ | emotion=moved | tags=

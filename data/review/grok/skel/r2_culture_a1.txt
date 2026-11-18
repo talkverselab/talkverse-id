@@ -1,0 +1,19 @@
+=== r2_culture_a1
+level: R2
+title: 르바란 귀성
+emoji: 🕌
+scene: 르바란 전날 기차역. Ayu 가 고향 가는 표를 구하지 못했다
+cast: A: {name}(학습자), B: Ayu
+register: casual
+twist: 5 reveal
+expressions: Mudik; Tiketnya habis; Ikut aku
+flow: 1~3줄: 르바란 전날 기차역에서 친구가 귀성 표가 다 팔려 집에 못 간다고 울상이고, 고향은 솔로이며 엄마가 벌써 명절 음식을 해 두셨다고 한다. 4~5줄(반전): 학습자도 빌린 차로 솔로 쪽에 간다고 하자 친구가 같이 가도 되냐고 매달린다. 6~7줄: 학습자가 열두 시간 걸린다고 하자 친구는 간식을 잔뜩 챙기겠다고 한다. 8~9줄: 학습자가 사실 자기는 운전을 못 한다고 털어놓자, 친구는 그래서 운전할 사람을 찾고 있었던 거냐고 깨닫는다.
+B | ___ | ___ | ___ | emotion=sad | tags=expr:Mudik
+A | ___ | ___ | ___ | emotion=warm | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=twist
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=

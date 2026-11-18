@@ -1,0 +1,226 @@
+{
+ "id": "r0_friends_a3",
+ "island": "friends",
+ "kind": "short",
+ "title": "스무 장 더",
+ "emoji": "📸",
+ "scene": "공원. Nadia가 휴대폰을 내밀며 포즈를 잡는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Tolong fotokan",
+  "Satu, dua, tiga",
+  "Lagi"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Tolong fotokan aku, ya.",
+    "ko": "나 사진 좀 찍어 줘."
+   },
+   {
+    "num": 2,
+    "id": "Oke. Satu, dua, tiga!",
+    "ko": "좋아. 하나, 둘, 셋!"
+   },
+   {
+    "num": 3,
+    "id": "Lagi, lagi! Senyum dulu.",
+    "ko": "한 번 더! 나 먼저 웃고."
+   },
+   {
+    "num": 4,
+    "id": "Satu, dua... sudah?",
+    "ko": "하나, 둘… 됐어?"
+   },
+   {
+    "num": 5,
+    "id": "Lagi! Dua puluh kali.",
+    "ko": "한 번 더! 스무 번."
+   },
+   {
+    "num": 6,
+    "id": "Tanganku sudah capek!",
+    "ko": "나 팔 아파!"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_friends_a3.md",
+  "grok_mode": "빠른",
+  "kick": "한 장 더 하자더니 스무 장으로 폭주"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Tolong fotokan aku dong",
+   "rd": "똘롱 포또깐 아꾸 동",
+   "ko": "사진 찍어 줘",
+   "note": "tolong = 부탁",
+   "emotion": "happy",
+   "tags": [
+    "expr:Tolong fotokan"
+   ],
+   "lemmas": [
+    [
+     "Tolong",
+     "tolong",
+     ""
+    ],
+    [
+     "fotokan",
+     "foto",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Satu, dua, tiga!",
+   "rd": "사뚜, 두아, 띠가!",
+   "ko": "하나, 둘, 셋!",
+   "note": "satu = 하나",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Satu",
+    "dua",
+    "tiga"
+   ],
+   "lemmas": [
+    [
+     "Satu",
+     "satu",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "tiga",
+     "tiga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Lagi, ekspresi jelek",
+   "rd": "라기, 윽스쁘르시 즐륵",
+   "ko": "다시, 표정 별로야",
+   "note": "lagi = 다시",
+   "emotion": "excited",
+   "tags": [
+    "expr:Lagi"
+   ],
+   "lemmas": [
+    [
+     "Lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "ekspresi",
+     "ekspresi",
+     ""
+    ],
+    [
+     "jelek",
+     "jelek",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Udah capek nih",
+   "rd": "우다흐 짜쁙 니흐",
+   "ko": "벌써 피곤해",
+   "note": "capek = 피곤하다",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Udah",
+     "udah",
+     ""
+    ],
+    [
+     "capek",
+     "capek",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Lagi! Dua puluh lagi!",
+   "rd": "라기! 두아 뿔루흐 라기!",
+   "ko": "더! 스무 장 더!",
+   "note": "dua puluh = 스무",
+   "emotion": "teasing",
+   "tags": [
+    "expr:Lagi",
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "Dua",
+     "dua",
+     ""
+    ],
+    [
+     "puluh",
+     "puluh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Tangan aku sakit",
+   "rd": "땅안 아꾸 사낏",
+   "ko": "내 팔 아파",
+   "note": "sakit = 아프다",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tangan",
+     "tangan",
+     ""
+    ],
+    [
+     "sakit",
+     "sakit",
+     ""
+    ]
+   ]
+  }
+ ]
+}

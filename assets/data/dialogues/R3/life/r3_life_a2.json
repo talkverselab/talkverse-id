@@ -1,0 +1,572 @@
+{
+ "id": "r3_life_a2",
+ "island": "life",
+ "kind": "short",
+ "title": "병원 접수",
+ "emoji": "🏥",
+ "scene": "밤 응급실 접수. 간호사 Nadia가 증상을 하나하나 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Keluhannya apa?",
+  "Sejak kapan?",
+  "Alergi"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Selamat malam. Keluhannya apa, Kak?",
+    "ko": "안녕하세요. 어디가 불편하세요?"
+   },
+   {
+    "num": 2,
+    "id": "Perut saya sakit sekali dan agak demam.",
+    "ko": "배가 너무 아프고 열이 좀 있어요."
+   },
+   {
+    "num": 3,
+    "id": "Sejak kapan sakitnya terasa?",
+    "ko": "언제부터 아프셨어요?"
+   },
+   {
+    "num": 4,
+    "id": "Sejak tadi sore, setelah makan di pinggir jalan.",
+    "ko": "오늘 오후부터요, 길거리에서 먹고 나서."
+   },
+   {
+    "num": 5,
+    "id": "Makan apa saja? Tolong disebutkan semuanya.",
+    "ko": "뭐 드셨어요? 전부 말씀해 주세요."
+   },
+   {
+    "num": 6,
+    "id": "Sate, es kelapa, rujak, martabak, dan bakso.",
+    "ko": "사테, 코코넛 얼음, 루작, 마르타박, 박소요."
+   },
+   {
+    "num": 7,
+    "id": "Semua itu dalam satu sore?",
+    "ko": "그걸 오후 한나절에 다요?"
+   },
+   {
+    "num": 8,
+    "id": "Saya sedang wisata kuliner. Waktunya sempit.",
+    "ko": "먹방 여행 중이라서요. 시간이 없어서."
+   },
+   {
+    "num": 9,
+    "id": "Ada alergi obat atau makanan tertentu?",
+    "ko": "약이나 특정 음식 알레르기 있어요?"
+   },
+   {
+    "num": 10,
+    "id": "Tidak ada. Apakah saya harus dirawat inap?",
+    "ko": "없어요. 입원해야 하나요?"
+   },
+   {
+    "num": 11,
+    "id": "Kemungkinan tidak. Dokter akan memeriksa sebentar lagi.",
+    "ko": "아마 아닐 거예요. 곧 의사 선생님이 보실 거예요."
+   },
+   {
+    "num": 12,
+    "id": "Terima kasih. Boleh saya minta air putih?",
+    "ko": "고마워요. 물 좀 주실 수 있어요?"
+   },
+   {
+    "num": 13,
+    "id": "Boleh. Tapi jangan es kelapa lagi, ya.",
+    "ko": "네. 근데 코코넛 얼음은 이제 그만이에요."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_life_a2.md",
+  "grok_mode": "빠른",
+  "kick": "길거리 음식 다섯 가지를 반나절에 다 먹었다고 줄줄이 말하자 간호사가 놀라며, 물 달라니까 코코넛 아이스는 이제 그만이라고 못 박음."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Keluhannya apa, Kak? Di mana yang sakit?",
+   "rd": "끌루한냐 아빠, 깍? 디 마나 양 사낏?",
+   "ko": "어디가 불편하세요? 어디가 아프세요?",
+   "note": "Keluhannya apa = 증상이 뭐예요",
+   "emotion": "gentle",
+   "tags": [
+    "expr:Keluhannya apa?"
+   ],
+   "lemmas": [
+    [
+     "Keluhannya",
+     "keluh",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ],
+    [
+     "sakit",
+     "sakit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Perut sakit dan demam, Kak.",
+   "rd": "쁘룻 사낏 단 드맘, 깍.",
+   "ko": "배가 아프고 열이 나요.",
+   "note": "perut sakit = 배가 아프다",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Perut",
+     "perut",
+     ""
+    ],
+    [
+     "sakit",
+     "sakit",
+     ""
+    ],
+    [
+     "demam",
+     "demam",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Sejak kapan mulai terasa?",
+   "rd": "스작 까빤 물라이 뜨라사?",
+   "ko": "언제부터 그러셨어요?",
+   "note": "Sejak kapan = 언제부터",
+   "emotion": "gentle",
+   "tags": [
+    "expr:Sejak kapan?"
+   ],
+   "lemmas": [
+    [
+     "Sejak",
+     "sejak",
+     ""
+    ],
+    [
+     "kapan",
+     "kapan",
+     ""
+    ],
+    [
+     "mulai",
+     "mulai",
+     ""
+    ],
+    [
+     "terasa",
+     "asa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Sejak makan jajanan pinggir jalan sore tadi.",
+   "rd": "스작 마깐 자자난 삥기르 잘란 소레 따디.",
+   "ko": "오후에 길거리 음식 먹은 뒤부터요.",
+   "note": "jajanan pinggir jalan = 길거리 음식",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sejak",
+     "sejak",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "jajanan",
+     "jajan",
+     ""
+    ],
+    [
+     "pinggir",
+     "pinggir",
+     ""
+    ],
+    [
+     "jalan",
+     "jalan",
+     ""
+    ],
+    [
+     "sore",
+     "sore",
+     ""
+    ],
+    [
+     "tadi",
+     "tadi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Coba sebutkan semua yang dimakan.",
+   "rd": "쪼바 스붓깐 스무아 양 디마깐.",
+   "ko": "먹은 거 다 말씀해 보세요.",
+   "note": "sebutkan = 말하다/열거하다",
+   "emotion": "neutral",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Coba",
+     "coba",
+     ""
+    ],
+    [
+     "sebutkan",
+     "sebut",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ],
+    [
+     "dimakan",
+     "makan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Sate, bakso, martabak, es kelapa, dan siomay.",
+   "rd": "사떼, 박소, 마르따박, 에스 끌라빠, 단 시오마이.",
+   "ko": "사테, 박소, 마르타박, 코코넛 아이스, 시오마이요.",
+   "note": "sate = 사테",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Sate",
+     "sate",
+     ""
+    ],
+    [
+     "bakso",
+     "bakso",
+     ""
+    ],
+    [
+     "martabak",
+     "martabak",
+     ""
+    ],
+    [
+     "es",
+     "es",
+     ""
+    ],
+    [
+     "kelapa",
+     "kelapa",
+     ""
+    ],
+    [
+     "siomay",
+     "siomay",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Semua itu dimakan dalam setengah hari?",
+   "rd": "스무아 이뚜 디마깐 달람 스뜽아흐 하리?",
+   "ko": "그걸 반나절에 다 드신 거예요?",
+   "note": "setengah hari = 반나절",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Semua",
+     "semua",
+     ""
+    ],
+    [
+     "dimakan",
+     "makan",
+     ""
+    ],
+    [
+     "setengah",
+     "tengah",
+     ""
+    ],
+    [
+     "hari",
+     "hari",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Iya Kak, lagi tur makan, waktunya mepet.",
+   "rd": "이야 깍, 라기 뚜르 마깐, 왁뚜냐 메뻿.",
+   "ko": "네, 먹방 여행 중이라 시간이 없었어요.",
+   "note": "mepet = 빠듯하다",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "tur",
+     "tur",
+     ""
+    ],
+    [
+     "makan",
+     "makan",
+     ""
+    ],
+    [
+     "waktunya",
+     "waktu",
+     ""
+    ],
+    [
+     "mepet",
+     "mepet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Ada alergi obat atau makanan?",
+   "rd": "아다 알르르기 오밧 아따우 마까난?",
+   "ko": "약이나 음식 알레르기 있으세요?",
+   "note": "Alergi = 알레르기",
+   "emotion": "neutral",
+   "tags": [
+    "expr:Alergi"
+   ],
+   "lemmas": [
+    [
+     "Ada",
+     "ada",
+     ""
+    ],
+    [
+     "alergi",
+     "alergi",
+     ""
+    ],
+    [
+     "obat",
+     "obat",
+     ""
+    ],
+    [
+     "makanan",
+     "makan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Nggak ada, Kak. Perlu rawat inap?",
+   "rd": "응각 아다, 깍. 쁘르루 라왓 이납?",
+   "ko": "없어요. 입원해야 하나요?",
+   "note": "rawat inap = 입원",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "Perlu",
+     "perlu",
+     ""
+    ],
+    [
+     "rawat",
+     "rawat",
+     ""
+    ],
+    [
+     "inap",
+     "inap",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Mungkin tidak, dokter segera datang.",
+   "rd": "뭉낀 띠닥, 독뜨르 스그라 다땅.",
+   "ko": "아마 아닐 거예요, 의사 선생님이 곧 오실 거예요.",
+   "note": "segera = 곧",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mungkin",
+     "mungkin",
+     ""
+    ],
+    [
+     "tidak",
+     "tidak",
+     ""
+    ],
+    [
+     "dokter",
+     "dokter",
+     ""
+    ],
+    [
+     "segera",
+     "segera",
+     ""
+    ],
+    [
+     "datang",
+     "datang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Boleh minta air putih, Kak?",
+   "rd": "볼레흐 민따 아이르 뿌띠흐, 깍?",
+   "ko": "물 좀 주실 수 있어요?",
+   "note": "air putih = 생수",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "minta",
+     "minta",
+     ""
+    ],
+    [
+     "air",
+     "air",
+     ""
+    ],
+    [
+     "putih",
+     "putih",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Boleh, tapi es kelapa sudah cukup ya.",
+   "rd": "볼레흐, 따삐 에스 끌라빠 수다흐 쭈꿉 야.",
+   "ko": "드릴게요, 근데 코코넛 아이스는 이제 그만요.",
+   "note": "cukup = 충분하다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Boleh",
+     "boleh",
+     ""
+    ],
+    [
+     "es",
+     "es",
+     ""
+    ],
+    [
+     "kelapa",
+     "kelapa",
+     ""
+    ],
+    [
+     "sudah",
+     "sudah",
+     ""
+    ],
+    [
+     "cukup",
+     "cukup",
+     ""
+    ]
+   ]
+  }
+ ]
+}

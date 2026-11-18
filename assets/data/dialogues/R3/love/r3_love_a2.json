@@ -1,0 +1,507 @@
+{
+ "id": "r3_love_a2",
+ "island": "love",
+ "kind": "short",
+ "title": "부모님께 인사",
+ "emoji": "👪",
+ "scene": "처음 Ayu의 집에 인사 가는 날. 문 앞에서 Ayu가 마지막 주의를 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Jangan lupa",
+  "Kalau ditanya",
+  "Pokoknya"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Ingat, panggil ayahku \"Bapak\", jangan \"Om\".",
+    "ko": "기억해, 우리 아빠는 「옴」 말고 「바빡」이라고 불러."
+   },
+   {
+    "num": 2,
+    "id": "Oke. Ada lagi yang harus kuperhatikan?",
+    "ko": "알았어. 더 조심할 거 있어?"
+   },
+   {
+    "num": 3,
+    "id": "Kalau ditanya pekerjaan, jawab dengan tenang dan jelas.",
+    "ko": "직업 물어보시면 차분하고 분명하게 대답해."
+   },
+   {
+    "num": 4,
+    "id": "Kalau ditanya gaji?",
+    "ko": "월급 물어보시면?"
+   },
+   {
+    "num": 5,
+    "id": "Senyum saja, lalu puji masakan ibuku.",
+    "ko": "그냥 웃고 우리 엄마 요리 칭찬해."
+   },
+   {
+    "num": 6,
+    "id": "Kalau masakannya pedas sekali?",
+    "ko": "요리가 엄청 매우면?"
+   },
+   {
+    "num": 7,
+    "id": "Pokoknya habiskan. Itu ujian pertama.",
+    "ko": "무조건 다 먹어. 그게 첫 시험이야."
+   },
+   {
+    "num": 8,
+    "id": "Ujian? Ada berapa ujian semuanya?",
+    "ko": "시험? 전부 몇 개인데?"
+   },
+   {
+    "num": 9,
+    "id": "Tiga. Makan, catur dengan ayah, dan karaoke dengan nenek.",
+    "ko": "셋. 밥, 아빠랑 체스, 할머니랑 노래방."
+   },
+   {
+    "num": 10,
+    "id": "Aku tidak bisa main catur!",
+    "ko": "나 체스 못 둬!"
+   },
+   {
+    "num": 11,
+    "id": "Tidak apa-apa, ayahku juga selalu kalah.",
+    "ko": "괜찮아, 우리 아빠도 맨날 져."
+   },
+   {
+    "num": 12,
+    "id": "Lalu siapa yang selalu menang?",
+    "ko": "그럼 누가 맨날 이기는데?"
+   },
+   {
+    "num": 13,
+    "id": "Nenek. Dan dia juga jago karaoke.",
+    "ko": "할머니. 노래방도 잘하셔."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_love_a2.md",
+  "grok_mode": "빠른",
+  "kick": "매운 음식 다 먹는 게 첫 시험이라더니, 체스도 노래방도 할머니가 다 이기는 집안의 시험이 세 개나 있음."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Jangan lupa, ayah dipanggil Pak.",
+   "rd": "장안 루빠, 아야흐 디빵길 빡.",
+   "ko": "잊지 마, 아빠는 팍이라고 불러.",
+   "note": "Jangan lupa = 잊지 마",
+   "emotion": "nervous",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jangan",
+     "jangan",
+     ""
+    ],
+    [
+     "lupa",
+     "lupa",
+     ""
+    ],
+    [
+     "ayah",
+     "ayah",
+     ""
+    ],
+    [
+     "dipanggil",
+     "panggil",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Ada lagi yang harus hati-hati?",
+   "rd": "아다 라기 양 하루스 하띠-하띠?",
+   "ko": "또 조심할 거 있어?",
+   "note": "hati-hati = 조심하다",
+   "emotion": "nervous",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ada",
+     "ada",
+     ""
+    ],
+    [
+     "lagi",
+     "lagi",
+     ""
+    ],
+    [
+     "harus",
+     "harus",
+     ""
+    ],
+    [
+     "hati-hati",
+     "hati",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Kalau ditanya kerjaan, jawab tenang dan jelas.",
+   "rd": "깔라우 디따냐 끄르자안, 자왑 뜨낭 단 즐라스.",
+   "ko": "직업 물으시면 차분하고 분명하게 대답해.",
+   "note": "Kalau ditanya = 만약 물으면",
+   "emotion": "serious",
+   "tags": [
+    "expr:Kalau ditanya"
+   ],
+   "lemmas": [
+    [
+     "ditanya",
+     "tanya",
+     ""
+    ],
+    [
+     "kerjaan",
+     "kerja",
+     ""
+    ],
+    [
+     "jawab",
+     "jawab",
+     ""
+    ],
+    [
+     "tenang",
+     "tenang",
+     ""
+    ],
+    [
+     "jelas",
+     "jelas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kalau ditanya gaji?",
+   "rd": "깔라우 디따냐 가지?",
+   "ko": "월급 물으시면?",
+   "note": "gaji = 월급",
+   "emotion": "worried",
+   "tags": [
+    "expr:Kalau ditanya"
+   ],
+   "lemmas": [
+    [
+     "ditanya",
+     "tanya",
+     ""
+    ],
+    [
+     "gaji",
+     "gaji",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Senyum aja, terus puji masakan ibu.",
+   "rd": "스늄 아자, 뜨루스 뿌지 마사깐 이부.",
+   "ko": "웃으면서 엄마 요리 칭찬해.",
+   "note": "puji = 칭찬하다",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Senyum",
+     "senyum",
+     ""
+    ],
+    [
+     "puji",
+     "puji",
+     ""
+    ],
+    [
+     "masakan",
+     "masakan",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kalau masakannya pedas banget gimana?",
+   "rd": "깔라우 마사깐냐 뻬다스 방읏 기마나?",
+   "ko": "요리가 엄청 매우면 어떡해?",
+   "note": "pedas banget = 엄청 맵다",
+   "emotion": "worried",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "masakannya",
+     "masakan",
+     ""
+    ],
+    [
+     "pedas",
+     "pedas",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ],
+    [
+     "gimana",
+     "gimana",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Pokoknya habiskan semua, itu tes pertama.",
+   "rd": "뽀꼭냐 하비스깐 스무아, 이뚜 뜨스 쁘르따마.",
+   "ko": "무조건 다 먹어, 그게 첫 번째 시험이야.",
+   "note": "Pokoknya = 어쨌든/무조건",
+   "emotion": "serious",
+   "tags": [
+    "expr:Pokoknya"
+   ],
+   "lemmas": [
+    [
+     "Pokoknya",
+     "pokok",
+     ""
+    ],
+    [
+     "habiskan",
+     "habis",
+     ""
+    ],
+    [
+     "semua",
+     "semua",
+     ""
+    ],
+    [
+     "tes",
+     "tes",
+     ""
+    ],
+    [
+     "pertama",
+     "pertama",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Tesnya ada berapa?",
+   "rd": "뜨스냐 아다 브라빠?",
+   "ko": "시험이 몇 개야?",
+   "note": "tes = 시험",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tesnya",
+     "tes",
+     ""
+    ],
+    [
+     "ada",
+     "ada",
+     ""
+    ],
+    [
+     "berapa",
+     "berapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Tiga. Makan, catur sama ayah, karaoke sama nenek.",
+   "rd": "띠가. 마깐, 짜뚜르 사마 아야흐, 까라오끄 사마 네넥.",
+   "ko": "세 개. 밥, 아빠랑 체스, 할머니랑 노래방.",
+   "note": "catur = 체스",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tiga",
+     "tiga",
+     ""
+    ],
+    [
+     "Makan",
+     "makan",
+     ""
+    ],
+    [
+     "catur",
+     "catur",
+     ""
+    ],
+    [
+     "ayah",
+     "ayah",
+     ""
+    ],
+    [
+     "karaoke",
+     "karaoke",
+     ""
+    ],
+    [
+     "nenek",
+     "nenek",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Aku nggak bisa main catur.",
+   "rd": "아꾸 응각 비사 마인 짜뚜르.",
+   "ko": "나 체스 못 둬.",
+   "note": "nggak bisa = 못 하다",
+   "emotion": "panicked",
+   "tags": [],
+   "lemmas": [
+    [
+     "nggak",
+     "nggak",
+     ""
+    ],
+    [
+     "bisa",
+     "bisa",
+     ""
+    ],
+    [
+     "main",
+     "main",
+     ""
+    ],
+    [
+     "catur",
+     "catur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Ayah juga selalu kalah.",
+   "rd": "아야흐 주가 슬랄루 깔라흐.",
+   "ko": "아빠도 맨날 져.",
+   "note": "selalu kalah = 항상 지다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ayah",
+     "ayah",
+     ""
+    ],
+    [
+     "selalu",
+     "selalu",
+     ""
+    ],
+    [
+     "kalah",
+     "kalah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Terus siapa yang menang?",
+   "rd": "뜨루스 시아빠 양 므낭?",
+   "ko": "그럼 누가 이겨?",
+   "note": "menang = 이기다",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "siapa",
+     "siapa",
+     ""
+    ],
+    [
+     "menang",
+     "menang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Nenek. Lagunya juga bagus banget.",
+   "rd": "네넥. 라구냐 주가 바구스 방읏.",
+   "ko": "할머니. 노래도 진짜 잘하셔.",
+   "note": "nenek = 할머니",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nenek",
+     "nenek",
+     ""
+    ],
+    [
+     "bagus",
+     "bagus",
+     ""
+    ],
+    [
+     "banget",
+     "banget",
+     ""
+    ]
+   ]
+  }
+ ]
+}

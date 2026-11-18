@@ -1,0 +1,16 @@
+=== r0_friends_a1
+level: R0
+title: 어디 가?
+emoji: 🛵
+scene: 골목. Nadia 가 오토바이에 앉아 손을 흔든다
+cast: A: {name}(학습자), B: Nadia
+register: casual
+twist: 5 chaos
+expressions: Mau ke mana?; Ikut, dong; Ayo
+flow: 1~2줄: 골목에서 오토바이에 앉은 친구가 어디 가냐고 묻고, 학습자는 시장에 간다고 한다. 3~4줄: 친구도 시장에 간다며 태워 주겠다고 하고, 학습자가 헬멧은 있냐고 묻는다. 5줄(반전): 친구가 헬멧을 깜빡했다. 6줄: 학습자가 차라리 걸어가자고 한다.
+B | ___ | ___ | ___ | emotion=happy | tags=expr:Mau ke mana?
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=excited | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=twist
+A | ___ | ___ | ___ | emotion=annoyed | tags=

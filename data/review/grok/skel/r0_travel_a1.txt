@@ -1,0 +1,16 @@
+=== r0_travel_a1
+level: R0
+title: 이 버스 어디 가요?
+emoji: 🚌
+scene: 정류장. Pak Darto 가 오토바이를 세우고 말을 건다
+cast: A: {name}(학습자), B: Pak Darto
+register: polite
+twist: 4 ignore
+expressions: Bus ini ke mana?; Naik ojek?; Berapa?
+flow: 1~2줄: 정류장에서 학습자가 시내 가는 버스가 서냐고 묻고, 오젝 아저씨가 그냥 오젝을 타라고 한다. 3~4줄(반전): 학습자가 버스를 타겠다는데 아저씨는 들은 척도 안 하고 오젝이 더 빠르다고만 한다. 5~6줄: 학습자가 결국 값을 묻자 아저씨가 손님은 공짜라고 한다.
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=expr:Naik ojek?
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=twist
+A | ___ | ___ | ___ | emotion=curious | tags=expr:Berapa?
+B | ___ | ___ | ___ | emotion=excited | tags=

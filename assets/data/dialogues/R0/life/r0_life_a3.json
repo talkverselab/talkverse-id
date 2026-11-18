@@ -1,0 +1,213 @@
+{
+ "id": "r0_life_a3",
+ "island": "life",
+ "kind": "short",
+ "title": "손주들 초",
+ "emoji": "🎂",
+ "scene": "이웃집 생일 잔치. Bu Sri가 케이크 초를 꽂고 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Umur berapa?",
+  "Selamat ulang tahun"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Selamat ulang tahun, Bu!",
+    "ko": "생신 축하드려요!"
+   },
+   {
+    "num": 2,
+    "id": "Terima kasih, Nak.",
+    "ko": "고마워."
+   },
+   {
+    "num": 3,
+    "id": "Umur Ibu berapa?",
+    "ko": "몇 살 되셨어요?"
+   },
+   {
+    "num": 4,
+    "id": "Rahasia, dong.",
+    "ko": "그건 비밀이지."
+   },
+   {
+    "num": 5,
+    "id": "Lilinnya banyak sekali.",
+    "ko": "초가 엄청 많네요."
+   },
+   {
+    "num": 6,
+    "id": "Itu lilin cucu saya!",
+    "ko": "그건 손주 초야!"
+   }
+  ],
+  "grok": "data/review/grok/out/r0_life_a3.md",
+  "grok_mode": "빠른",
+  "kick": "나이 비밀이라더니 초는 손주들 거라고 웃으며 말함"
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Selamat ulang tahun, Bu",
+   "rd": "슬라맛 울랑 따훈, 부",
+   "ko": "생일 축하해요, 아줌마",
+   "note": "selamat = 축하",
+   "emotion": "happy",
+   "tags": [
+    "expr:Selamat ulang tahun"
+   ],
+   "lemmas": [
+    [
+     "Selamat",
+     "selamat",
+     ""
+    ],
+    [
+     "ulang",
+     "ulang",
+     ""
+    ],
+    [
+     "tahun",
+     "tahun",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Terima kasih, sayang",
+   "rd": "뜨리마 까시흐, 사양",
+   "ko": "고마워요, 아가",
+   "note": "terima kasih = 감사합니다",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ],
+    [
+     "sayang",
+     "sayang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Umur berapa, Bu?",
+   "rd": "우무르 브라빠, 부?",
+   "ko": "몇 살이에요, 아줌마?",
+   "note": "umur = 나이",
+   "emotion": "curious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Umur",
+     "umur",
+     ""
+    ],
+    [
+     "berapa",
+     "berapa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Rahasia, hehe",
+   "rd": "라하시아, 헤헤",
+   "ko": "비밀이에요, 헤헤",
+   "note": "rahasia = 비밀",
+   "emotion": "teasing",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Rahasia",
+     "rahasia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Lilinnya banyak sekali",
+   "rd": "릴린냐 바냑 스깔리",
+   "ko": "초가 엄청 많네요",
+   "note": "lilin = 초",
+   "emotion": "surprised",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lilinnya",
+     "lilin",
+     ""
+    ],
+    [
+     "banyak",
+     "banyak",
+     ""
+    ],
+    [
+     "sekali",
+     "sekali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Itu lilin cucu-cucu",
+   "rd": "이뚜 릴린 쭈쭈-쭈쭈",
+   "ko": "그건 손주들 초예요",
+   "note": "cucu = 손주",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "lilin",
+     "lilin",
+     ""
+    ],
+    [
+     "cucu-cucu",
+     "cucu",
+     ""
+    ]
+   ]
+  }
+ ]
+}

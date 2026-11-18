@@ -1,0 +1,16 @@
+=== r0_culture_a1
+level: R0
+title: 맵지 않아요?
+emoji: 🌶️
+scene: 와룽. Bu Sri 가 삼발을 듬뿍 얹어 준다
+cast: A: {name}(학습자), B: Bu Sri
+register: polite
+twist: 5 chaos
+expressions: Pedas?; Sedikit saja; Enak
+flow: 1~2줄: 와룽 아주머니가 삼발을 권하고, 학습자는 조금만 달라고 부탁한다. 3~4줄: 아주머니가 얹어 준 양이 학습자 눈에는 한 접시나 된다. 5줄(반전): 아주머니는 여기선 다 이렇게 먹는다며 태연하다. 6줄: 한입 먹은 학습자가 매워서 급하게 물을 찾는다.
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Sedikit saja
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=twist
+A | ___ | ___ | ___ | emotion=panicked | tags=

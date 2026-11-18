@@ -1,0 +1,501 @@
+{
+ "id": "r3_study_a2",
+ "island": "study",
+ "kind": "short",
+ "title": "교환학생 면접",
+ "emoji": "🌏",
+ "scene": "교환학생 선발 면접. 면접관 Dimas가 한국어로 질문을 던진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Ceritakan tentang diri Anda",
+  "Alasannya",
+  "Pengalaman"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Silakan ceritakan sedikit tentang diri Anda.",
+    "ko": "자기소개를 간단히 해 주세요."
+   },
+   {
+    "num": 2,
+    "id": "Saya mahasiswa tahun ketiga jurusan hubungan internasional.",
+    "ko": "국제관계학과 3학년입니다."
+   },
+   {
+    "num": 3,
+    "id": "Mengapa Anda memilih universitas di Korea?",
+    "ko": "왜 한국 대학을 고르셨어요?"
+   },
+   {
+    "num": 4,
+    "id": "Karena saya ingin belajar budaya dan bahasanya langsung.",
+    "ko": "문화와 언어를 직접 배우고 싶어서요."
+   },
+   {
+    "num": 5,
+    "id": "Kalau begitu, jawab pertanyaan berikut dalam bahasa Korea.",
+    "ko": "그럼 다음 질문은 한국어로 답해 보세요."
+   },
+   {
+    "num": 6,
+    "id": "Sekarang? Saya belum siap sama sekali.",
+    "ko": "지금요? 전혀 준비가 안 됐는데요."
+   },
+   {
+    "num": 7,
+    "id": "Tenang. Pertanyaannya mudah. Anda suka makan apa?",
+    "ko": "진정하세요. 쉬운 질문이에요. 뭐 먹는 거 좋아해요?"
+   },
+   {
+    "num": 8,
+    "id": "Saya jawab \"kimchi\", tapi lidah saya tersangkut.",
+    "ko": "「김치」라고 하려다 혀가 꼬였어요."
+   },
+   {
+    "num": 9,
+    "id": "Barusan Anda bilang \"saya suka kantor\".",
+    "ko": "방금 「저는 사무실을 좋아해요」라고 하셨어요."
+   },
+   {
+    "num": 10,
+    "id": "Mungkin itu tanda saya cocok jadi pegawai di sana.",
+    "ko": "거기서 직원 하기에 딱 맞다는 신호일지도요."
+   },
+   {
+    "num": 11,
+    "id": "Jawaban yang kreatif. Itu saya catat.",
+    "ko": "창의적인 답이네요. 적어 둘게요."
+   },
+   {
+    "num": 12,
+    "id": "Dicatat sebagai nilai plus atau minus?",
+    "ko": "가산점이에요 감점이에요?"
+   },
+   {
+    "num": 13,
+    "id": "Hasilnya diumumkan minggu depan. Belajar terus, ya.",
+    "ko": "결과는 다음 주에 발표해요. 계속 공부해요."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_study_a2.md",
+  "grok_mode": "빠른",
+  "kick": "한국어로 좋아하는 음식 묻자 긴장해서 “사무실”이라고 대답했는데, 면접관이 창의적이라며 적어 두고 결과는 다음 주라고 함."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Ceritakan tentang diri Anda.",
+   "rd": "쯔리따깐 뜬땅 디리 안다.",
+   "ko": "자기소개 해 보세요.",
+   "note": "Ceritakan tentang diri Anda = 자기소개하세요",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ceritakan",
+     "cerita",
+     ""
+    ],
+    [
+     "diri",
+     "diri",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Nama saya {name}, mahasiswa tahun ketiga.",
+   "rd": "나마 사야 {name}, 마하시솨 따훈 끄띠가.",
+   "ko": "저는 {name}이고, 3학년 학생입니다.",
+   "note": "mahasiswa = 대학생",
+   "emotion": "nervous",
+   "tags": [],
+   "lemmas": [
+    [
+     "Nama",
+     "nama",
+     ""
+    ],
+    [
+     "mahasiswa",
+     "mahasiswa",
+     ""
+    ],
+    [
+     "tahun",
+     "tahun",
+     ""
+    ],
+    [
+     "ketiga",
+     "tiga",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Alasannya memilih universitas di Korea?",
+   "rd": "알라산냐 므밀리흐 우니프르시따스 디 꼬레아?",
+   "ko": "한국 대학을 고른 이유는요?",
+   "note": "Alasannya = 이유",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Alasannya",
+     "alas",
+     ""
+    ],
+    [
+     "memilih",
+     "pilih",
+     ""
+    ],
+    [
+     "universitas",
+     "universitas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Saya ingin belajar budaya dan bahasa secara langsung.",
+   "rd": "사야 잉인 블라자르 부다야 단 바하사 스짜라 랑숭.",
+   "ko": "문화와 언어를 직접 배우고 싶어서요.",
+   "note": "secara langsung = 직접",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "ingin",
+     "ingin",
+     ""
+    ],
+    [
+     "belajar",
+     "ajar",
+     ""
+    ],
+    [
+     "budaya",
+     "budaya",
+     ""
+    ],
+    [
+     "bahasa",
+     "bahasa",
+     ""
+    ],
+    [
+     "secara",
+     "cara",
+     ""
+    ],
+    [
+     "langsung",
+     "langsung",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Pertanyaan berikutnya jawab dalam bahasa Korea.",
+   "rd": "쁘르따냐안 브리꿋냐 자왑 달람 바하사 꼬레아.",
+   "ko": "다음 질문은 한국어로 답해 보세요.",
+   "note": "berikutnya = 다음",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Pertanyaan",
+     "tanya",
+     ""
+    ],
+    [
+     "berikutnya",
+     "ikut",
+     ""
+    ],
+    [
+     "jawab",
+     "jawab",
+     ""
+    ],
+    [
+     "bahasa",
+     "bahasa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Saya belum siap sama sekali, Pak.",
+   "rd": "사야 블룸 시압 사마 스깔리, 빡.",
+   "ko": "전혀 준비가 안 됐어요.",
+   "note": "belum siap = 아직 준비 안 됨",
+   "emotion": "panicked",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "belum",
+     "belum",
+     ""
+    ],
+    [
+     "siap",
+     "siap",
+     ""
+    ],
+    [
+     "sekali",
+     "sekali",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Mudah saja, makanan favorit Anda apa?",
+   "rd": "무다흐 사자, 마까난 파포릿 안다 아빠?",
+   "ko": "쉬운 질문이에요, 좋아하는 음식이 뭐예요?",
+   "note": "makanan favorit = 좋아하는 음식",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mudah",
+     "mudah",
+     ""
+    ],
+    [
+     "makanan",
+     "makan",
+     ""
+    ],
+    [
+     "favorit",
+     "favorit",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Saya suka kantor... maksudnya kantor?",
+   "rd": "사야 수까 깐또르... 막숫냐 깐또르?",
+   "ko": "저는 사무실을 좋아해요... 사무실이요?",
+   "note": "maksudnya = 그러니까",
+   "emotion": "embarrassed",
+   "tags": [],
+   "lemmas": [
+    [
+     "suka",
+     "suka",
+     ""
+    ],
+    [
+     "kantor",
+     "kantor",
+     ""
+    ],
+    [
+     "maksudnya",
+     "maksud",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Tadi Anda bilang suka kantor.",
+   "rd": "따디 안다 빌랑 수까 깐또르.",
+   "ko": "방금 사무실을 좋아한다고 하셨어요.",
+   "note": "bilang = 말하다",
+   "emotion": "laughing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Tadi",
+     "tadi",
+     ""
+    ],
+    [
+     "bilang",
+     "bilang",
+     ""
+    ],
+    [
+     "suka",
+     "suka",
+     ""
+    ],
+    [
+     "kantor",
+     "kantor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Mungkin itu tanda cocok kerja di kantor.",
+   "rd": "뭉낀 이뚜 딴다 쪼쪽 끄르자 디 깐또르.",
+   "ko": "오히려 사무직에 딱 맞는다는 신호인 것 같아요.",
+   "note": "cocok = 딱 맞다",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Mungkin",
+     "mungkin",
+     ""
+    ],
+    [
+     "tanda",
+     "tanda",
+     ""
+    ],
+    [
+     "cocok",
+     "cocok",
+     ""
+    ],
+    [
+     "kerja",
+     "kerja",
+     ""
+    ],
+    [
+     "kantor",
+     "kantor",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Jawaban kreatif, saya catat.",
+   "rd": "자와반 끄르아띠프, 사야 짜땃.",
+   "ko": "창의적인 답이네요, 적어 둘게요.",
+   "note": "kreatif = 창의적인",
+   "emotion": "amused",
+   "tags": [],
+   "lemmas": [
+    [
+     "Jawaban",
+     "jawab",
+     ""
+    ],
+    [
+     "kreatif",
+     "kreatif",
+     ""
+    ],
+    [
+     "catat",
+     "catat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Itu nilai plus atau minus, Pak?",
+   "rd": "이뚜 닐라이 쁘루스 아따우 미누스, 빡?",
+   "ko": "가산점인가요, 감점인가요?",
+   "note": "nilai plus = 가산점",
+   "emotion": "worried",
+   "tags": [],
+   "lemmas": [
+    [
+     "nilai",
+     "nilai",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "minus",
+     "minus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Hasilnya minggu depan. Terus belajar ya.",
+   "rd": "하실냐 밍구 드빤. 뜨루스 블라자르 야.",
+   "ko": "결과는 다음 주예요. 계속 공부하세요.",
+   "note": "hasilnya = 결과",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "Hasilnya",
+     "hasil",
+     ""
+    ],
+    [
+     "minggu",
+     "minggu",
+     ""
+    ],
+    [
+     "depan",
+     "depan",
+     ""
+    ],
+    [
+     "belajar",
+     "ajar",
+     ""
+    ]
+   ]
+  }
+ ]
+}

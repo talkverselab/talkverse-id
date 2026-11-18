@@ -1,0 +1,16 @@
+=== r0_friends_a2
+level: R0
+title: 배고파
+emoji: 🍜
+scene: 저녁 기숙사. Raka 가 라면을 들고 문을 두드린다
+cast: A: {name}(학습자), B: Raka
+register: casual
+twist: 4 reveal
+expressions: Aku lapar; Ada makanan?; Enak
+flow: 1~2줄: 저녁 기숙사, 친구가 배고프다며 찾아오고 학습자도 배가 고프다. 3~4줄(반전): 친구가 라면이 딱 하나 있다고 하자 학습자가 반씩 나누자고 한다. 5~6줄: 친구가 착하다고 감동하는데, 학습자는 그 라면이 원래 자기 것이라는 걸 알아챈다.
+B | ___ | ___ | ___ | emotion=sad | tags=expr:Aku lapar
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Ada makanan?
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=warm | tags=twist
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=

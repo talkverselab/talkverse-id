@@ -1,0 +1,19 @@
+=== r2_work_a1
+level: R2
+title: 첫 출근
+emoji: 💼
+scene: 첫 출근 날. 동료 Dimas 가 자리와 사람들을 소개한다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 4 reveal
+expressions: Perkenalkan; Kalau ada apa-apa; Jangan sungkan
+flow: 1~3줄: 첫 출근 날 동료가 자기소개를 하고, 학습자도 신입이라고 인사하자 동료가 자리와 컴퓨터를 보여 준다. 4~5줄(반전): 학습자가 팀장님이 누구냐고 묻자 동료가 노란 셔츠 입은 분을 가리킨다. 6~8줄: 학습자는 아침에 그분을 주차 요원으로 착각했고, 오토바이 주차비까지 쥐여 드렸다고 털어놓는다. 9줄: 동료가 앞으로는 뭐든 자기한테 먼저 물어보라고 한다.
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Perkenalkan
+A | ___ | ___ | ___ | emotion=nervous | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=twist
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=embarrassed | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=expr:Kalau ada apa-apa,expr:Jangan sungkan

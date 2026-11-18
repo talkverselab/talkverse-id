@@ -1,0 +1,189 @@
+{
+ "id": "r0_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "어디 가?",
+ "emoji": "🛵",
+ "scene": "골목. Nadia 가 오토바이에 앉아 손을 흔든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Mau ke mana?",
+  "Ikut, dong",
+  "Ayo"
+ ],
+ "region": "R0",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Hai! Mau ke mana?",
+    "ko": "안녕! 어디 가?"
+   },
+   {
+    "num": 2,
+    "id": "Ke pasar. Kamu?",
+    "ko": "시장. 너는?"
+   },
+   {
+    "num": 3,
+    "id": "Aku juga! Ikut, yuk.",
+    "ko": "나도! 같이 가자."
+   },
+   {
+    "num": 4,
+    "id": "Oke. Helmnya mana?",
+    "ko": "좋아. 헬멧은?"
+   },
+   {
+    "num": 5,
+    "id": "Helm? Aku lupa.",
+    "ko": "헬멧? 깜빡했다."
+   },
+   {
+    "num": 6,
+    "id": "Kita jalan kaki saja.",
+    "ko": "그냥 걸어가자."
+   }
+  ],
+  "grok": "data/review/grok/out/r0_friends_a1.md",
+  "grok_mode": "빠른",
+  "kick": "태워 준다더니 헬멧을 깜빡한 친구, 결국 걸어가자는 학습자."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Mau ke mana?",
+   "rd": "마우 끄 마나?",
+   "ko": "어디 가?",
+   "note": "「Mau ke mana? = 어디 가?」",
+   "emotion": "happy",
+   "tags": [
+    "expr:Mau ke mana?"
+   ],
+   "lemmas": [
+    [
+     "Mau",
+     "mau",
+     ""
+    ],
+    [
+     "mana",
+     "mana",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Ke pasar.",
+   "rd": "끄 빠사르.",
+   "ko": "시장에.",
+   "note": "「pasar = 시장」",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "pasar",
+     "pasar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Aku juga. Ikut, dong.",
+   "rd": "아꾸 주가. 이꿋, 동.",
+   "ko": "나도. 타, 어서.",
+   "note": "「Ikut, dong = 타, 어서」",
+   "emotion": "excited",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ikut",
+     "ikut",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Ada helm?",
+   "rd": "아다 헬므?",
+   "ko": "헬멧 있어?",
+   "note": "「helm = 헬멧」",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Ada",
+     "ada",
+     ""
+    ],
+    [
+     "helm",
+     "helm",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Lupa helm.",
+   "rd": "루빠 헬므.",
+   "ko": "헬멧 깜빡했어.",
+   "note": "「lupa = 잊다」",
+   "emotion": "embarrassed",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Lupa",
+     "lupa",
+     ""
+    ],
+    [
+     "helm",
+     "helm",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Ayo jalan aja.",
+   "rd": "아요 잘란 아자.",
+   "ko": "그냥 걸어가자.",
+   "note": "「ayo = 가자」",
+   "emotion": "annoyed",
+   "tags": [],
+   "lemmas": [
+    [
+     "jalan",
+     "jalan",
+     ""
+    ]
+   ]
+  }
+ ]
+}

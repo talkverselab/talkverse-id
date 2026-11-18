@@ -1,0 +1,16 @@
+=== r0_life_a3
+level: R0
+title: 몇 살이에요?
+emoji: 🎂
+scene: 이웃집 생일 잔치. Bu Sri 가 케이크 초를 꽂고 있다
+cast: A: {name}(학습자), B: Bu Sri
+register: polite
+twist: 4 reveal
+expressions: Umur berapa?; Selamat ulang tahun
+flow: 1~2줄: 이웃 아주머니 생일 잔치에서 학습자가 축하 인사를 하고 아주머니가 고마워한다. 3~4줄(반전): 학습자가 나이를 묻자 아주머니는 비밀이라며 웃는다. 5~6줄: 학습자가 케이크에 초가 엄청 많다고 하자, 아주머니가 그건 손주들 초라고 한다.
+A | ___ | ___ | ___ | emotion=happy | tags=expr:Selamat ulang tahun
+B | ___ | ___ | ___ | emotion=happy | tags=
+A | ___ | ___ | ___ | emotion=curious | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=twist
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=laughing | tags=

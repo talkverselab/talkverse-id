@@ -1,0 +1,525 @@
+{
+ "id": "r3_work_a1",
+ "island": "work",
+ "kind": "short",
+ "title": "연봉 협상",
+ "emoji": "💰",
+ "scene": "1년 차 평가 면담. 팀장 Dimas와 연봉 이야기를 해야 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Penilaian kinerja",
+  "Kenaikan gaji",
+  "Saya berharap"
+ ],
+ "region": "R3",
+ "draft": true,
+ "review": {
+  "draft": [
+   {
+    "num": 1,
+    "id": "Hasil penilaian kinerjamu tahun ini sangat baik.",
+    "ko": "올해 성과 평가 결과가 아주 좋아요."
+   },
+   {
+    "num": 2,
+    "id": "Terima kasih, Pak. Saya banyak belajar dari tim.",
+    "ko": "감사합니다. 팀에서 많이 배웠어요."
+   },
+   {
+    "num": 3,
+    "id": "Sekarang kita bicara soal gaji tahun depan.",
+    "ko": "이제 내년 연봉 얘기를 하죠."
+   },
+   {
+    "num": 4,
+    "id": "Kalau boleh, saya berharap ada kenaikan sepuluh persen.",
+    "ko": "가능하다면 10% 인상을 바라요."
+   },
+   {
+    "num": 5,
+    "id": "Sepuluh? Apa alasan utamanya?",
+    "ko": "10%요? 주된 이유가 뭐예요?"
+   },
+   {
+    "num": 6,
+    "id": "Proyek ekspor yang saya pegang naik dua kali lipat.",
+    "ko": "제가 맡은 수출 프로젝트가 두 배로 늘었어요."
+   },
+   {
+    "num": 7,
+    "id": "Itu benar. Ada pertimbangan lain?",
+    "ko": "맞아요. 다른 고려 사항은요?"
+   },
+   {
+    "num": 8,
+    "id": "Saya juga sering lembur sampai malam.",
+    "ko": "저녁 늦게까지 야근도 자주 해요."
+   },
+   {
+    "num": 9,
+    "id": "Justru itu masalahnya. Lembur itu tanda beban terlalu berat.",
+    "ko": "바로 그게 문제예요. 야근은 일이 너무 많다는 뜻이에요."
+   },
+   {
+    "num": 10,
+    "id": "Jadi permintaan saya ditolak?",
+    "ko": "그럼 제 요청은 거절인가요?"
+   },
+   {
+    "num": 11,
+    "id": "Tidak. Gajimu naik lima belas persen, dan kita tambah satu orang.",
+    "ko": "아니요. 15% 올리고, 사람도 한 명 더 뽑아요."
+   },
+   {
+    "num": 12,
+    "id": "Lima belas? Saya tidak salah dengar?",
+    "ko": "15%요? 제가 잘못 들은 거 아니죠?"
+   },
+   {
+    "num": 13,
+    "id": "Tidak. Tapi mulai besok, pulang jam enam.",
+    "ko": "아니요. 대신 내일부터 여섯 시에 퇴근해요."
+   }
+  ],
+  "grok": "data/review/grok/out/r3_work_a1.md",
+  "grok_mode": "빠른",
+  "kick": "10% 인상 요청했는데 야근이 문제라는 말에 거절인 줄 알았더니, 15%에 사람 한 명 더 뽑고 대신 6시 퇴근하라는 조건."
+ },
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Penilaian kinerja tahun ini sangat baik.",
+   "rd": "쁘닐라이안 끼느르자 따훈 이니 상앗 바익.",
+   "ko": "올해 성과 평가가 아주 좋아요.",
+   "note": "Penilaian kinerja = 성과 평가",
+   "emotion": "warm",
+   "tags": [
+    "expr:Penilaian kinerja"
+   ],
+   "lemmas": [
+    [
+     "Penilaian",
+     "nilai",
+     ""
+    ],
+    [
+     "kinerja",
+     "kinerja",
+     ""
+    ],
+    [
+     "tahun",
+     "tahun",
+     ""
+    ],
+    [
+     "sangat",
+     "sangat",
+     ""
+    ],
+    [
+     "baik",
+     "baik",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Terima kasih, Pak Dimas.",
+   "rd": "뜨리마 까시흐, 빡 디마스.",
+   "ko": "감사합니다, 디마스 팀장님.",
+   "note": "terima kasih = 감사합니다",
+   "emotion": "happy",
+   "tags": [],
+   "lemmas": [
+    [
+     "Terima",
+     "terima",
+     ""
+    ],
+    [
+     "kasih",
+     "kasih",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Kita bicara soal kenaikan gaji.",
+   "rd": "끼따 비짜라 소알 끄나이깐 가지.",
+   "ko": "연봉 인상 이야기 해볼까요.",
+   "note": "Kenaikan gaji = 연봉 인상",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "bicara",
+     "bicara",
+     ""
+    ],
+    [
+     "soal",
+     "soal",
+     ""
+    ],
+    [
+     "kenaikan",
+     "naik",
+     ""
+    ],
+    [
+     "gaji",
+     "gaji",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Saya berharap naik sepuluh persen.",
+   "rd": "사야 브르하랍 나익 스뿔루흐 쁘르슨.",
+   "ko": "10% 인상을 조심스럽게 부탁드립니다.",
+   "note": "Saya berharap = 저는 바랍니다",
+   "emotion": "nervous",
+   "tags": [
+    "expr:Saya berharap"
+   ],
+   "lemmas": [
+    [
+     "berharap",
+     "harap",
+     ""
+    ],
+    [
+     "naik",
+     "naik",
+     ""
+    ],
+    [
+     "sepuluh",
+     "puluh",
+     ""
+    ],
+    [
+     "persen",
+     "persen",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Alasan spesifiknya apa?",
+   "rd": "알라산 스쁘시픽냐 아빠?",
+   "ko": "구체적인 이유가 뭐예요?",
+   "note": "alasan = 이유",
+   "emotion": "serious",
+   "tags": [
+    "twist"
+   ],
+   "lemmas": [
+    [
+     "Alasan",
+     "alas",
+     ""
+    ],
+    [
+     "spesifiknya",
+     "spesifik",
+     ""
+    ],
+    [
+     "apa",
+     "apa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Proyek ekspor yang saya pegang jadi dua kali lipat.",
+   "rd": "쁘로윽 윽스뽀르 양 사야 쁘강 자디 두아 깔리 리빳.",
+   "ko": "맡은 수출 프로젝트가 두 배로 늘었어요.",
+   "note": "dua kali lipat = 두 배",
+   "emotion": "proud",
+   "tags": [],
+   "lemmas": [
+    [
+     "Proyek",
+     "proyek",
+     ""
+    ],
+    [
+     "ekspor",
+     "ekspor",
+     ""
+    ],
+    [
+     "pegang",
+     "pegang",
+     ""
+    ],
+    [
+     "jadi",
+     "jadi",
+     ""
+    ],
+    [
+     "dua",
+     "dua",
+     ""
+    ],
+    [
+     "kali",
+     "kali",
+     ""
+    ],
+    [
+     "lipat",
+     "lipat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Lembur juga sering ya?",
+   "rd": "름부르 주가 스링 야?",
+   "ko": "야근도 자주 하셨죠?",
+   "note": "lembur = 야근",
+   "emotion": "neutral",
+   "tags": [],
+   "lemmas": [
+    [
+     "Lembur",
+     "lembur",
+     ""
+    ],
+    [
+     "sering",
+     "sering",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Iya Pak, hampir setiap minggu.",
+   "rd": "이야 빡, 함삐르 스띠압 밍구.",
+   "ko": "네, 거의 매주요.",
+   "note": "hampir setiap minggu = 거의 매주",
+   "emotion": "tired",
+   "tags": [],
+   "lemmas": [
+    [
+     "Iya",
+     "iya",
+     ""
+    ],
+    [
+     "hampir",
+     "hampir",
+     ""
+    ],
+    [
+     "setiap",
+     "tiap",
+     ""
+    ],
+    [
+     "minggu",
+     "minggu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Justru lembur itu masalahnya.",
+   "rd": "주스뜨루 름부르 이뚜 마살라흐냐.",
+   "ko": "바로 그 야근이 문제예요.",
+   "note": "justru = 바로 그",
+   "emotion": "serious",
+   "tags": [],
+   "lemmas": [
+    [
+     "Justru",
+     "justru",
+     ""
+    ],
+    [
+     "lembur",
+     "lembur",
+     ""
+    ],
+    [
+     "masalahnya",
+     "masalah",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Maksudnya permintaan saya ditolak?",
+   "rd": "막숫냐 쁘르민따안 사야 디똘락?",
+   "ko": "제 요청이 거절이라는 뜻인가요?",
+   "note": "ditolak = 거절되다",
+   "emotion": "sad",
+   "tags": [],
+   "lemmas": [
+    [
+     "Maksudnya",
+     "maksud",
+     ""
+    ],
+    [
+     "permintaan",
+     "minta",
+     ""
+    ],
+    [
+     "ditolak",
+     "tolak",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Saya naikkan lima belas persen, plus rekrut satu orang.",
+   "rd": "사야 나익깐 리마 블라스 쁘르슨, 쁘루스 륵룻 사뚜 오랑.",
+   "ko": "15% 올리고 사람 한 명 더 뽑을게요.",
+   "note": "rekrut = 채용하다",
+   "emotion": "warm",
+   "tags": [],
+   "lemmas": [
+    [
+     "naikkan",
+     "naik",
+     ""
+    ],
+    [
+     "lima",
+     "lima",
+     ""
+    ],
+    [
+     "belas",
+     "belas",
+     ""
+    ],
+    [
+     "persen",
+     "persen",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "rekrut",
+     "rekrut",
+     ""
+    ],
+    [
+     "satu",
+     "satu",
+     ""
+    ],
+    [
+     "orang",
+     "orang",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Saya dengar benar, Pak?",
+   "rd": "사야 등아르 브나르, 빡?",
+   "ko": "제가 잘못 들은 거 아니죠?",
+   "note": "dengar benar = 제대로 듣다",
+   "emotion": "shocked",
+   "tags": [],
+   "lemmas": [
+    [
+     "dengar",
+     "dengar",
+     ""
+    ],
+    [
+     "benar",
+     "benar",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Benar, tapi besok pulang jam enam.",
+   "rd": "브나르, 따삐 베속 뿔랑 잠 에남.",
+   "ko": "맞아요, 대신 내일부터 여섯 시에 퇴근하세요.",
+   "note": "pulang jam enam = 6시에 퇴근",
+   "emotion": "teasing",
+   "tags": [],
+   "lemmas": [
+    [
+     "Benar",
+     "benar",
+     ""
+    ],
+    [
+     "besok",
+     "besok",
+     ""
+    ],
+    [
+     "pulang",
+     "pulang",
+     ""
+    ],
+    [
+     "jam",
+     "jam",
+     ""
+    ],
+    [
+     "enam",
+     "enam",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+=== r2_study_a1
+level: R2
+title: 도서관 자리
+emoji: 📚
+scene: 시험 기간 도서관. 맡아 둔 자리에 Nadia 가 앉아 있다
+cast: A: {name}(학습자), B: Nadia
+register: casual
+twist: 6 chaos
+expressions: Maaf, ini tempat saya; Dari tadi; Kalau begitu
+flow: 1~2줄: 시험 기간 도서관에서 학습자가 맡아 둔 자리에 친구가 앉아 있고, 친구는 가방을 누가 두고 간 줄 알았다고 한다. 3~5줄: 학습자는 화장실에 5분 다녀왔을 뿐이라 하고, 친구는 한 시간 전부터 거기 있었다고 한다. 6~7줄(반전): 친구가 가방이 계속 진동하더라고 하자, 학습자가 그게 시험 알람이라는 걸 깨닫는다. 8~10줄: 시험이 열 시라는데 지금이 이미 열 시 넘었고, 친구가 뛰라고 외친다.
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:Maaf, ini tempat saya
+B | ___ | ___ | ___ | emotion=surprised | tags=
+A | ___ | ___ | ___ | emotion=annoyed | tags=
+B | ___ | ___ | ___ | emotion=confused | tags=expr:Dari tadi
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=twist
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=panicked | tags=
+B | ___ | ___ | ___ | emotion=panicked | tags=

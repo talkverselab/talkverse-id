@@ -1,0 +1,19 @@
+=== r2_life_a1
+level: R2
+title: 택배가 이웃집에
+emoji: 📦
+scene: 아파트 복도. 내 택배를 든 Bu Sri 가 문을 두드린다
+cast: A: {name}(학습자), B: Bu Sri
+register: polite
+twist: 5 chaos
+expressions: Paket; Salah alamat; Sudah dibuka
+flow: 1~2줄: 아파트 복도에서 이웃 아주머니가 학습자 택배가 자기 집으로 왔다며 가져오고, 학습자는 사흘이나 기다렸다고 반가워한다. 3~4줄: 아주머니가 자기 건 줄 알고 뜯어 버렸다고 사과하고, 학습자는 책뿐이라 괜찮다고 한다. 5~7줄(반전): 아주머니가 요리책이 좋더라며 벌써 다 읽고 한 요리를 직접 해 보기까지 했다고 한다. 8~9줄: 학습자가 정말 빠르시다고 하자 아주머니가 그 요리를 내밀며 책 더럽힌 값이라고 한다.
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Paket
+A | ___ | ___ | ___ | emotion=happy | tags=
+B | ___ | ___ | ___ | emotion=embarrassed | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=happy | tags=twist
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=proud | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=

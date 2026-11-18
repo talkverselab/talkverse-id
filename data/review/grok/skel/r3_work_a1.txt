@@ -1,0 +1,23 @@
+=== r3_work_a1
+level: R3
+title: 연봉 협상
+emoji: 💰
+scene: 1년 차 평가 면담. 팀장 Dimas 와 연봉 이야기를 해야 한다
+cast: A: {name}(학습자), B: Dimas
+register: polite
+twist: 5 reveal
+expressions: Penilaian kinerja; Kenaikan gaji; Saya berharap
+flow: 1~4줄: 1년 차 평가 면담에서 팀장이 성과가 아주 좋다며 연봉 이야기를 꺼내고, 학습자가 10% 인상을 조심스럽게 요청한다. 5~8줄: 팀장이 이유를 묻자 학습자가 맡은 수출 프로젝트가 두 배로 늘었고 야근도 잦다고 한다. 9~10줄(반전): 팀장이 바로 그 야근이 문제라며 일이 너무 많다는 뜻이라고 하자 학습자는 거절이냐고 묻는다. 11~13줄: 팀장은 15% 올리고 사람도 한 명 더 뽑겠다고 하고, 학습자가 잘못 들은 거 아니냐고 묻자 대신 내일부터 여섯 시에 퇴근하라고 한다.
+B | ___ | ___ | ___ | emotion=warm | tags=expr:Penilaian kinerja
+A | ___ | ___ | ___ | emotion=happy | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=nervous | tags=expr:Saya berharap
+B | ___ | ___ | ___ | emotion=serious | tags=twist
+A | ___ | ___ | ___ | emotion=proud | tags=
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=tired | tags=
+B | ___ | ___ | ___ | emotion=serious | tags=
+A | ___ | ___ | ___ | emotion=sad | tags=
+B | ___ | ___ | ___ | emotion=warm | tags=
+A | ___ | ___ | ___ | emotion=shocked | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
