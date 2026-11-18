@@ -30,7 +30,7 @@
 "dialogues/R1/love/r1_love_a4.json": "1654b103f0ff",
 "dialogues/R1/love/r1_love_c1.json": "96a9923bcef2",
 "dialogues/R1/study/r1_study_a1.json": "62e63b539fe3",
-"dialogues/R1/study/r1_study_a2.json": "21544de268ca",
+"dialogues/R1/study/r1_study_a2.json": "64648753e764",
 "dialogues/R1/study/r1_study_a3.json": "cdee7cca0084",
 "dialogues/R1/study/r1_study_a4.json": "ec18b66ba679",
 "dialogues/R1/survival/r1_survival_s1.json": "27e1f47d4456",
@@ -78,5 +78,5 @@
 "dialogues/id/L1.json": "f4888e385e2c",
 "grammar/sense_course.json": "d145b80c270a"
 },
-"rev": 4
+"rev": 5
 }
