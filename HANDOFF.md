@@ -29,6 +29,15 @@
   - 가볍게 다듬을 편(반전은 살리고 일상 표현 보강): `life_a4`(양파 「스무 개 더」), `work_a2`(사장님께 「자기야」·「나 죽었어」), `friends_a2`(이웃이 두드리는데 「더 크게」).
   - 고칠 때 줄마다 감정 열을 넣고, 장면이 바뀌는 편만 그림·Grok 프롬프트를 새로 만든다(나머지는 이미 통과한 그림 유지).
 
+## 2026-11-18 통합 앱 심사 준비(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`) — 다음 세션은 여기부터
+- **원고 서버 받기 완료**: `lib/services/script_sync.dart`(embedInit 에서 ContentSync 앞, 15초 상한) · 서버 `script/id` **rev 2**(R1 30편 + L1 + 언어감각 과정) · 올리기 `tools/script_publish.py --publish` → `assets/data/script_rev.json` 커밋 · 턴 잠금 `tools/turn_lock.py`(기준표 `data/review/turn_lock_id.json`). 실제 서버로 rev1→rev2 받기 시험 통과.
+- **일본어앱 109~112 수준**: 언어감각 과정 10급(외울 대화 10줄 + 참고 4, 영상 자리는 비어 있음 「영상 준비 중」) · 외국어에서 온 말(kata serapan 120어, 3단계, 퀴즈 복습) · 카드 〇〇/장면 A → 이름. 한자 3자는 해당 없음.
+- 빌드: iOS TestFlight **2611181434**. Android CI 는 Flutter 3.47.7 고정(7f565f9) 뒤 다시 도는 중 → 끝나면 `tools/zealot_push.sh`. (11-18 실수로 옛 빌드 25 를 Zealot 에 한 번 더 올림 — 해 없음)
+- **회화 30% 기준(사용자, 11-18)**: 급별 목표 R0 14 · R1 21(이미 30) · R2 17 · R3 13 · R4 1. **새 원칙(11-18 uk 전달): Claude 는 초안까지, 대사는 Grok 이 새로 쓰고 그대로 붙여 넣기**(Claude 가 문장 손대지 않음 — 형식·독음·감정 열·단어 칩·검사기만).
+  - 초안 45편 = `data/review/write/drafts_20261118/R0·R2·R3·R4/`(앱·서버 밖). 몇몇 줄이 단어 수 기준을 넘음 — Grok 판에서 검사기로 맞춘다.
+  - **uk Grok 순서 10번** — uk 가 「id 시작」을 보내면 M4 크롬 9228 켜고 `grok_cookie_sync.py 9231 9228`, 「빠른」 모드(사용자 11-18). Grok 판 → `assets/data/dialogues/R?/…` → `tools/check_dialogues.py` → `add_lemmas.py` → pubspec 에 새 급 폴더 → `script_publish.py --publish`.
+- 장면 그림 10장 기준은 이미 넘음(220장). 단어 그림은 공용 DB.
+
 ## 2026-11-10 정리 후 종료(허브 지시) — 다음 세션은 여기부터
 - **장면 컷 업로드 완료(11-10)**: 다시 그린 15장(life_a1 1·2·4, study_a4·survival_s2·s3 전부)을 R2·D1 에 올렸다(`SKIP=r1_life_a1:3 … scene_upload.py`). life_a1 3번 컷은 새 그림(점원이 여자)을 **안 올림** — 서버엔 기존 컷. 앱 번들 에셋(`attach_scenes.py`)은 아직 안 바꿈.
 - **Grok 은 주간 한도로 11/16 초기화 전 쓰지 않기**(uk 공지). 그 뒤 할 일: work_a2·work_a4 4컷씩 + life_a1 3번 컷 다시 → `scene_upload.py` → `.prev.jpg` 정리.
