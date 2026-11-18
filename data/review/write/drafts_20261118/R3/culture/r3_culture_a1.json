@@ -1,0 +1,161 @@
+{
+ "id": "r3_culture_a1",
+ "island": "culture",
+ "kind": "short",
+ "title": "라마단 저녁",
+ "emoji": "🌙",
+ "scene": "라마단 기간 회사. 동료 Nadia 가 금식을 마치는 부카 푸아사에 초대한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Buka puasa",
+  "Menahan",
+  "Bareng-bareng"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Nanti sore ikut buka puasa bareng kami, ya.",
+   "rd": "난띠 소레 이꿋 부까 뿌아사 바릉 까미, 야.",
+   "ko": "이따 저녁에 우리랑 같이 부카 푸아사 해.",
+   "note": "buka puasa = 금식 깨는 저녁",
+   "emotion": "warm",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Boleh? Aku kan tidak puasa.",
+   "rd": "볼레흐? 아꾸 깐 띠닥 뿌아사.",
+   "ko": "그래도 돼? 나는 금식 안 하잖아.",
+   "note": "puasa = 금식",
+   "emotion": "hesitant",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Justru itu. Buka puasa itu untuk berbagi.",
+   "rd": "주스뜨루 이뚜. 부까 뿌아사 이뚜 운뚝 브르바기.",
+   "ko": "그러니까 더. 부카 푸아사는 나누는 거야.",
+   "note": "berbagi = 나누다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kamu tidak makan dan minum dari subuh?",
+   "rd": "까무 띠닥 마깐 단 미눔 다리 수부흐?",
+   "ko": "너 새벽부터 아무것도 안 먹고 안 마셨어?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Iya. Yang paling berat bukan lapar, tapi haus.",
+   "rd": "이야. 양 빨링 브랏 부깐 라빠르, 따삐 하우스.",
+   "ko": "응. 제일 힘든 건 배고픔이 아니라 목마름이야.",
+   "note": "haus = 목마르다",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Maaf, tadi siang aku minum kopi di depanmu.",
+   "rd": "마아프, 따디 시앙 아꾸 미눔 꼬삐 디 드빤무.",
+   "ko": "미안, 아까 낮에 네 앞에서 커피 마셨어.",
+   "note": "",
+   "emotion": "apologetic",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tidak apa-apa. Menahan godaan juga bagian dari puasa.",
+   "rd": "띠닥 아빠-아빠. 므나한 고다안 주가 바기안 다리 뿌아사.",
+   "ko": "괜찮아. 유혹 참는 것도 금식의 일부야.",
+   "note": "menahan = 참다 · godaan = 유혹",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Aku harus bawa apa nanti?",
+   "rd": "아꾸 하루스 바와 아빠 난띠?",
+   "ko": "이따 뭐 가져가야 해?",
+   "note": "",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Bawa kolak kalau mau. Yang manis-manis.",
+   "rd": "바와 꼴락 깔라우 마우. 양 마니스-마니스.",
+   "ko": "원하면 콜락 가져와. 단 거.",
+   "note": "kolak = 바나나 단팥죽",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Kenapa harus yang manis?",
+   "rd": "끄나빠 하루스 양 마니스?",
+   "ko": "왜 단 거여야 해?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Kata orang tua, berbuka dengan yang manis.",
+   "rd": "까따 오랑 뚜아, 브르부까 등안 양 마니스.",
+   "ko": "어른들이 단 걸로 금식을 깨라고 하셔.",
+   "note": "ber-buka = 금식을 깨다",
+   "emotion": "warm",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Oke. Aku buat kolak sendiri.",
+   "rd": "오께. 아꾸 부앗 꼴락 슨디리.",
+   "ko": "알았어. 콜락 내가 직접 만들게.",
+   "note": "",
+   "emotion": "determined",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Kamu bisa? Itu resep nenekku, nanti kuajari.",
+   "rd": "까무 비사? 이뚜 르습 느늑꾸, 난띠 꾸아자리.",
+   "ko": "할 수 있어? 우리 할머니 레시피야, 내가 알려 줄게.",
+   "note": "ajar-i = 가르치다",
+   "emotion": "moved",
+   "tags": []
+  }
+ ]
+}

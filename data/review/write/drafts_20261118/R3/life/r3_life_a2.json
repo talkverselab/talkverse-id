@@ -1,0 +1,161 @@
+{
+ "id": "r3_life_a2",
+ "island": "life",
+ "kind": "short",
+ "title": "병원 접수",
+ "emoji": "🏥",
+ "scene": "밤 응급실 접수. 간호사 Nadia 가 증상을 하나하나 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Keluhannya apa?",
+  "Sejak kapan?",
+  "Alergi"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Selamat malam. Keluhannya apa, Kak?",
+   "rd": "슬라맛 말람. 끌루한냐 아빠, 깍?",
+   "ko": "안녕하세요. 어디가 불편하세요?",
+   "note": "keluhan = 불편한 증상",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Perut saya sakit sekali dan agak demam.",
+   "rd": "쁘룻 사야 사낏 스깔리 단 아각 드맘.",
+   "ko": "배가 너무 아프고 열이 좀 있어요.",
+   "note": "demam = 열",
+   "emotion": "pain",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Sejak kapan sakitnya terasa?",
+   "rd": "스작 까빤 사낏냐 뜨라사?",
+   "ko": "언제부터 아프셨어요?",
+   "note": "sejak = ~부터",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Sejak tadi sore, setelah makan di pinggir jalan.",
+   "rd": "스작 따디 소레, 스뜰라흐 마깐 디 삥기르 잘란.",
+   "ko": "오늘 오후부터요, 길거리에서 먹고 나서.",
+   "note": "pinggir jalan = 길가",
+   "emotion": "pain",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Makan apa saja? Tolong disebutkan semuanya.",
+   "rd": "마깐 아빠 사자? 똘롱 디스붓깐 스무아냐.",
+   "ko": "뭐 드셨어요? 전부 말씀해 주세요.",
+   "note": "di-sebut-kan = 언급되다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Sate, es kelapa, rujak, martabak, dan bakso.",
+   "rd": "사떼, 에스 끌라빠, 루작, 마르따박, 단 박소.",
+   "ko": "사테, 코코넛 얼음, 루작, 마르타박, 박소요.",
+   "note": "",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Semua itu dalam satu sore?",
+   "rd": "스무아 이뚜 달람 사뚜 소레?",
+   "ko": "그걸 오후 한나절에 다요?",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Saya sedang wisata kuliner. Waktunya sempit.",
+   "rd": "사야 스당 위사따 꿀리느르. 왁뚜냐 슴삣.",
+   "ko": "먹방 여행 중이라서요. 시간이 없어서.",
+   "note": "kuliner = 음식 · sempit = 좁다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Ada alergi obat atau makanan tertentu?",
+   "rd": "아다 알르르기 오밧 아따우 마까난 뜨르뜬뚜?",
+   "ko": "약이나 특정 음식 알레르기 있어요?",
+   "note": "tertentu = 특정한",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Tidak ada. Apakah saya harus dirawat inap?",
+   "rd": "띠닥 아다. 아빠까흐 사야 하루스 디라왓 이납?",
+   "ko": "없어요. 입원해야 하나요?",
+   "note": "di-rawat inap = 입원하다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Kemungkinan tidak. Dokter akan memeriksa sebentar lagi.",
+   "rd": "끄뭉끼난 띠닥. 독뜨르 아깐 므므릭사 스븐따르 라기.",
+   "ko": "아마 아닐 거예요. 곧 의사 선생님이 보실 거예요.",
+   "note": "kemungkinan = 가능성",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Terima kasih. Boleh saya minta air putih?",
+   "rd": "뜨리마 까시흐. 볼레흐 사야 민따 아이르 뿌띠흐?",
+   "ko": "고마워요. 물 좀 주실 수 있어요?",
+   "note": "air putih = 맹물",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Boleh. Tapi jangan es kelapa lagi, ya.",
+   "rd": "볼레흐. 따삐 장안 에스 끌라빠 라기, 야.",
+   "ko": "네. 근데 코코넛 얼음은 이제 그만이에요.",
+   "note": "",
+   "emotion": "teasing",
+   "tags": []
+  }
+ ]
+}

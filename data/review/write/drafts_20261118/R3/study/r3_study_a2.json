@@ -1,0 +1,161 @@
+{
+ "id": "r3_study_a2",
+ "island": "study",
+ "kind": "short",
+ "title": "교환학생 면접",
+ "emoji": "🌏",
+ "scene": "교환학생 선발 면접. 면접관 Dimas 가 한국어로 질문을 던진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Ceritakan tentang diri Anda",
+  "Alasannya",
+  "Pengalaman"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Silakan ceritakan sedikit tentang diri Anda.",
+   "rd": "실라깐 쯔리따깐 스디낏 뜬땅 디리 안다.",
+   "ko": "자기소개를 간단히 해 주세요.",
+   "note": "cerita-kan = 이야기하다 · diri = 자신",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Saya mahasiswa tahun ketiga jurusan hubungan internasional.",
+   "rd": "사야 마하시솨 따훈 끄띠가 주루산 후붕안 인뜨르나시오날.",
+   "ko": "국제관계학과 3학년입니다.",
+   "note": "jurusan = 전공",
+   "emotion": "nervous",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Mengapa Anda memilih universitas di Korea?",
+   "rd": "믕아빠 안다 므밀리흐 우니프르시따스 디 꼬레아?",
+   "ko": "왜 한국 대학을 고르셨어요?",
+   "note": "mengapa = 왜(글말)",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Karena saya ingin belajar budaya dan bahasanya langsung.",
+   "rd": "까르나 사야 잉인 블라자르 부다야 단 바하사냐 랑숭.",
+   "ko": "문화와 언어를 직접 배우고 싶어서요.",
+   "note": "langsung = 직접",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kalau begitu, jawab pertanyaan berikut dalam bahasa Korea.",
+   "rd": "깔라우 브기뚜, 자왑 쁘르따냐안 브리꿋 달람 바하사 꼬레아.",
+   "ko": "그럼 다음 질문은 한국어로 답해 보세요.",
+   "note": "berikut = 다음",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Sekarang? Saya belum siap sama sekali.",
+   "rd": "스까랑? 사야 블룸 시압 사마 스깔리.",
+   "ko": "지금요? 전혀 준비가 안 됐는데요.",
+   "note": "",
+   "emotion": "panicked",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tenang. Pertanyaannya mudah. Anda suka makan apa?",
+   "rd": "뜨낭. 쁘르따냐안냐 무다흐. 안다 수까 마깐 아빠?",
+   "ko": "진정하세요. 쉬운 질문이에요. 뭐 먹는 거 좋아해요?",
+   "note": "",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Saya jawab \"kimchi\", tapi lidah saya tersangkut.",
+   "rd": "사야 자왑 \"낌쯔히\", 따삐 리다흐 사야 뜨르상꿋.",
+   "ko": "「김치」라고 하려다 혀가 꼬였어요.",
+   "note": "ter-sangkut = 걸리다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Barusan Anda bilang \"saya suka kantor\".",
+   "rd": "바루산 안다 빌랑 \"사야 수까 깐또르\".",
+   "ko": "방금 「저는 사무실을 좋아해요」라고 하셨어요.",
+   "note": "",
+   "emotion": "laughing",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Mungkin itu tanda saya cocok jadi pegawai di sana.",
+   "rd": "뭉낀 이뚜 딴다 사야 쪼쪽 자디 쁘가와이 디 사나.",
+   "ko": "거기서 직원 하기에 딱 맞다는 신호일지도요.",
+   "note": "pegawai = 직원",
+   "emotion": "joking",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Jawaban yang kreatif. Itu saya catat.",
+   "rd": "자와반 양 끄르아띠프. 이뚜 사야 짜땃.",
+   "ko": "창의적인 답이네요. 적어 둘게요.",
+   "note": "catat = 적다",
+   "emotion": "amused",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Dicatat sebagai nilai plus atau minus?",
+   "rd": "디짜땃 스바가이 닐라이 쁘루스 아따우 미누스?",
+   "ko": "가산점이에요 감점이에요?",
+   "note": "nilai = 점수",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Hasilnya diumumkan minggu depan. Belajar terus, ya.",
+   "rd": "하실냐 디우뭄깐 밍구 드빤. 블라자르 뜨루스, 야.",
+   "ko": "결과는 다음 주에 발표해요. 계속 공부해요.",
+   "note": "di-umum-kan = 발표되다",
+   "emotion": "warm",
+   "tags": []
+  }
+ ]
+}

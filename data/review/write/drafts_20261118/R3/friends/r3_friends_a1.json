@@ -1,0 +1,161 @@
+{
+ "id": "r3_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "단톡방 오해",
+ "emoji": "💬",
+ "scene": "친구 단톡방에 내 험담 같은 메시지가 올라왔다. Nadia 를 카페에서 만난다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Salah paham",
+  "Bukan begitu maksudnya",
+  "Jujur saja"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Jujur saja, pesan di grup kemarin itu tentang aku?",
+   "rd": "주주르 사자, 쁘산 디 그룹 끄마린 이뚜 뜬땅 아꾸?",
+   "ko": "솔직히 말해, 어제 단톡방 그 메시지 나 얘기야?",
+   "note": "grup = 단톡방",
+   "emotion": "hurt",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Pesan yang mana? Banyak sekali yang masuk.",
+   "rd": "쁘산 양 마나? 바냑 스깔리 양 마숙.",
+   "ko": "어떤 거? 엄청 많이 왔잖아.",
+   "note": "",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "\"Dia selalu terlambat dan suka pura-pura sibuk.\"",
+   "rd": "\"디아 슬랄루 뜨르람밧 단 수까 뿌라-뿌라 시북.\"",
+   "ko": "「걔는 맨날 늦고 바쁜 척해.」",
+   "note": "pura-pura = ~인 척",
+   "emotion": "hurt",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Oh, itu. Kamu salah paham, sungguh.",
+   "rd": "오, 이뚜. 까무 살라흐 빠함, 숭구흐.",
+   "ko": "아, 그거. 오해야, 진짜로.",
+   "note": "salah paham = 오해",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Salah paham bagaimana? Namaku tidak disebut, tapi jelas sekali.",
+   "rd": "살라흐 빠함 바가이마나? 나마꾸 띠닥 디스붓, 따삐 즐라스 스깔리.",
+   "ko": "어떻게 오해야? 이름은 없지만 너무 뻔하잖아.",
+   "note": "jelas = 뻔한",
+   "emotion": "angry",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Bukan begitu maksudnya. Itu tentang kucing baruku.",
+   "rd": "부깐 브기뚜 막숫냐. 이뚜 뜬땅 꾸찡 바루꾸.",
+   "ko": "그런 뜻 아니야. 우리 새 고양이 얘기야.",
+   "note": "",
+   "emotion": "apologetic",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kucing? Kucing bisa pura-pura sibuk?",
+   "rd": "꾸찡? 꾸찡 비사 뿌라-뿌라 시북?",
+   "ko": "고양이? 고양이가 바쁜 척을 해?",
+   "note": "",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Dia selalu duduk di atas laptopku waktu aku kerja.",
+   "rd": "디아 슬랄루 두둑 디 아따스 랍똡꾸 왁뚜 아꾸 끄르자.",
+   "ko": "내가 일할 때마다 노트북 위에 앉아 있거든.",
+   "note": "",
+   "emotion": "laughing",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Lalu \"selalu terlambat\"?",
+   "rd": "랄루 \"슬랄루 뜨르람밧\"?",
+   "ko": "그럼 「맨날 늦어」는?",
+   "note": "",
+   "emotion": "suspicious",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Terlambat pulang. Dia keluyuran sampai subuh.",
+   "rd": "뜨르람밧 뿔랑. 디아 끌루유란 삼빠이 수부흐.",
+   "ko": "집에 늦게 온다고. 새벽까지 돌아다녀.",
+   "note": "keluyuran = 쏘다니다 · subuh = 새벽",
+   "emotion": "laughing",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "id": "Ya ampun, aku hampir keluar dari grup.",
+   "rd": "야 암뿐, 아꾸 함삐르 끌루아르 다리 그룹.",
+   "ko": "세상에, 나 단톡방 나갈 뻔했어.",
+   "note": "ya ampun = 아이고",
+   "emotion": "relieved",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "id": "Lain kali tanya langsung saja, ya.",
+   "rd": "라인 깔리 따냐 랑숭 사자, 야.",
+   "ko": "다음엔 그냥 바로 물어봐.",
+   "note": "lain kali = 다음번",
+   "emotion": "warm",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "id": "Oke. Tapi kenapa namanya \"Bos Besar\"?",
+   "rd": "오께. 따삐 끄나빠 나마냐 \"보스 브사르\"?",
+   "ko": "알았어. 근데 고양이 이름이 왜 「큰 사장」이야?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "id": "r3_travel_a1",
+ "island": "travel",
+ "kind": "short",
+ "title": "잃어버린 여권",
+ "emoji": "🛂",
+ "scene": "공항 출국 심사 직전. 여권이 없다는 걸 알았다. 직원 Ayu 가 돕는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Kehilangan paspor",
+  "Terakhir kali",
+  "Laporan"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Permisi, saya kehilangan paspor. Pesawat saya dua jam lagi.",
+   "rd": "쁘르미시, 사야 끄힐랑안 빠스뽀르. 쁘사왓 사야 두아 잠 라기.",
+   "ko": "실례합니다, 여권을 잃어버렸어요. 비행기가 두 시간 뒤예요.",
+   "note": "ke-hilang-an = 잃어버리다",
+   "emotion": "panicked",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Tenang dulu. Di mana terakhir kali Anda melihatnya?",
+   "rd": "뜨낭 둘루. 디 마나 뜨르악히르 깔리 안다 믈리핫냐?",
+   "ko": "먼저 진정하세요. 마지막으로 어디서 보셨어요?",
+   "note": "terakhir = 마지막",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Di konter check-in. Saya taruh di atas koper.",
+   "rd": "디 꼰뜨르 쯔흐츠끄-인. 사야 따루흐 디 아따스 꼬쁘르.",
+   "ko": "체크인 카운터에서요. 캐리어 위에 올려 뒀어요.",
+   "note": "taruh = 두다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Kopernya sudah masuk bagasi?",
+   "rd": "꼬쁘르냐 수다흐 마숙 바가시?",
+   "ko": "캐리어는 벌써 부쳤어요?",
+   "note": "bagasi = 수하물",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Sudah. Jangan-jangan paspornya ikut masuk.",
+   "rd": "수다흐. 장안-장안 빠스뽀르냐 이꿋 마숙.",
+   "ko": "네. 설마 여권도 같이 들어간 거 아니겠죠.",
+   "note": "jangan-jangan = 설마",
+   "emotion": "panicked",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Kemungkinan itu ada. Saya hubungi bagian bagasi.",
+   "rd": "끄뭉끼난 이뚜 아다. 사야 후붕이 바기안 바가시.",
+   "ko": "그럴 수도 있어요. 수하물 담당에 연락해 볼게요.",
+   "note": "hubungi = 연락하다",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kalau tidak ketemu, apa yang harus saya lakukan?",
+   "rd": "깔라우 띠닥 끄뜨무, 아빠 양 하루스 사야 라꾸깐?",
+   "ko": "못 찾으면 어떻게 해야 해요?",
+   "note": "ketemu = 찾다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Buat laporan polisi, lalu ke kedutaan untuk dokumen darurat.",
+   "rd": "부앗 라뽀란 뽈리시, 랄루 끄 끄두따안 운뚝 도꾸믄 다루랏.",
+   "ko": "경찰 신고하고 대사관에서 긴급 서류를 받아야 해요.",
+   "note": "kedutaan = 대사관 · darurat = 긴급",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Itu pasti makan waktu berhari-hari.",
+   "rd": "이뚜 빠스띠 마깐 왁뚜 브르하리-하리.",
+   "ko": "그럼 며칠은 걸리겠네요.",
+   "note": "berhari-hari = 며칠씩",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Tunggu, bagian bagasi menelepon balik.",
+   "rd": "뚱구, 바기안 바가시 므늘르뽄 발릭.",
+   "ko": "잠깐만요, 수하물 쪽에서 다시 전화 왔어요.",
+   "note": "",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "id": "Bagaimana? Ketemu?",
+   "rd": "바가이마나? 끄뜨무?",
+   "ko": "어때요? 찾았대요?",
+   "note": "",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "id": "Ketemu, tapi koper Anda sudah dimuat ke pesawat Bali.",
+   "rd": "끄뜨무, 따삐 꼬쁘르 안다 수다흐 디무앗 끄 쁘사왓 발리.",
+   "ko": "찾았는데, 캐리어가 발리행 비행기에 실렸대요.",
+   "note": "di-muat = 실리다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "id": "Saya mau ke Seoul, bukan Bali!",
+   "rd": "사야 마우 끄 스오울, 부깐 발리!",
+   "ko": "저 서울 가요, 발리가 아니라!",
+   "note": "",
+   "emotion": "shocked",
+   "tags": []
+  }
+ ]
+}

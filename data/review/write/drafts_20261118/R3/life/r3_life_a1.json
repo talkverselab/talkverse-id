@@ -1,0 +1,161 @@
+{
+ "id": "r3_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "집주인과 계약",
+ "emoji": "📝",
+ "scene": "월세 재계약. 집주인 Pak Darto 가 갑자기 월세를 올리겠다고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Kontraknya habis",
+  "Naik berapa?",
+  "Bisa dinegosiasikan?"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kontrak sewanya habis akhir bulan ini, Mbak.",
+   "rd": "꼰뜨락 스와냐 하비스 악히르 불란 이니, 음박.",
+   "ko": "임대 계약이 이달 말에 끝나요.",
+   "note": "sewa = 임대",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Iya, Pak. Saya ingin memperpanjang satu tahun lagi.",
+   "rd": "이야, 빡. 사야 잉인 믐쁘르빤장 사뚜 따훈 라기.",
+   "ko": "네. 1년 더 연장하고 싶어요.",
+   "note": "mem-per-panjang = 연장하다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Boleh, tapi sewanya naik dua puluh persen.",
+   "rd": "볼레흐, 따삐 스와냐 나익 두아 뿔루흐 쁘르슨.",
+   "ko": "그래요, 근데 월세가 20% 올라요.",
+   "note": "naik = 오르다",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Dua puluh persen? Itu terlalu tinggi, Pak.",
+   "rd": "두아 뿔루흐 쁘르슨? 이뚜 뜨르랄루 띵기, 빡.",
+   "ko": "20%요? 너무 높아요.",
+   "note": "",
+   "emotion": "shocked",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Harga listrik dan air juga sudah naik semua.",
+   "rd": "하르가 리스뜨릭 단 아이르 주가 수다흐 나익 스무아.",
+   "ko": "전기세 수도세도 다 올랐어요.",
+   "note": "listrik = 전기",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Apakah masih bisa dinegosiasikan?",
+   "rd": "아빠까흐 마시흐 비사 디느고시아시깐?",
+   "ko": "아직 조정할 수 있을까요?",
+   "note": "di-negosiasi-kan = 협상되다",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tergantung. Mbak bisa memasak?",
+   "rd": "뜨르간뚱. 음박 비사 므마삭?",
+   "ko": "경우에 따라. 요리할 줄 알아요?",
+   "note": "tergantung = ~에 달렸다",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Bisa sedikit. Apa hubungannya dengan sewa?",
+   "rd": "비사 스디낏. 아빠 후붕안냐 등안 스와?",
+   "ko": "조금요. 그게 월세랑 무슨 상관이에요?",
+   "note": "hubungan = 관계",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Istri saya pulang kampung tiga bulan.",
+   "rd": "이스뜨리 사야 뿔랑 깜뿡 띠가 불란.",
+   "ko": "제 아내가 석 달 동안 고향에 가거든요.",
+   "note": "",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Jadi Bapak butuh makan malam?",
+   "rd": "자디 바빡 부뚜흐 마깐 말람?",
+   "ko": "그럼 저녁밥이 필요하신 거예요?",
+   "note": "butuh = 필요하다",
+   "emotion": "amused",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Tiga kali seminggu, sewanya tidak naik.",
+   "rd": "띠가 깔리 스밍구, 스와냐 띠닥 나익.",
+   "ko": "일주일에 세 번이면 월세 안 올려요.",
+   "note": "",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Setuju, tapi menunya saya yang tentukan.",
+   "rd": "스뚜주, 따삐 므누냐 사야 양 뜬뚜깐.",
+   "ko": "좋아요, 근데 메뉴는 제가 정해요.",
+   "note": "tentu-kan = 정하다",
+   "emotion": "confident",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Asal bukan mi instan setiap hari.",
+   "rd": "아살 부깐 미 인스딴 스띠압 하리.",
+   "ko": "매일 라면만 아니면 돼요.",
+   "note": "asal = ~이기만 하면",
+   "emotion": "laughing",
+   "tags": []
+  }
+ ]
+}

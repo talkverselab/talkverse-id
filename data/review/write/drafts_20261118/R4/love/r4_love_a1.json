@@ -1,0 +1,181 @@
+{
+ "id": "r4_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "마지막 편지",
+ "emoji": "✉️",
+ "scene": "결혼식 전날 밤. 오래 사귄 Raka 가 처음 만난 날 썼던 편지를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Seandainya",
+  "Tak pernah kusangka",
+  "Berjanji"
+ ],
+ "region": "R4",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Besok kita resmi menikah. Aku masih belum percaya.",
+   "rd": "베속 끼따 르스미 므니까흐. 아꾸 마시흐 블룸 쁘르짜야.",
+   "ko": "내일이면 우리 정식으로 결혼해. 아직도 안 믿겨.",
+   "note": "resmi = 공식적",
+   "emotion": "moved",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Aku juga. Kenapa kamu bawa amplop tua itu?",
+   "rd": "아꾸 주가. 끄나빠 까무 바와 암쁘롭 뚜아 이뚜?",
+   "ko": "나도. 그 낡은 봉투는 왜 가져왔어?",
+   "note": "amplop = 봉투",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Ini surat yang kutulis di hari pertama kita bertemu.",
+   "rd": "이니 수랏 양 꾸뚤리스 디 하리 쁘르따마 끼따 브르뜨무.",
+   "ko": "우리가 처음 만난 날 내가 쓴 편지야.",
+   "note": "",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Hari itu? Kita cuma bicara lima menit di halte.",
+   "rd": "하리 이뚜? 끼따 쭈마 비짜라 리마 므닛 디 할뜨.",
+   "ko": "그날? 우리 정류장에서 5분 얘기한 게 다잖아.",
+   "note": "halte = 정류장",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Lima menit itu cukup untuk membuatku menulis tiga halaman.",
+   "rd": "리마 므닛 이뚜 쭈꿉 운뚝 믐부앗꾸 므눌리스 띠가 할라만.",
+   "ko": "그 5분이면 세 장을 쓰기에 충분했어.",
+   "note": "cukup = 충분하다",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kenapa tidak pernah kamu berikan padaku?",
+   "rd": "끄나빠 띠닥 쁘르나흐 까무 브리깐 빠다꾸?",
+   "ko": "왜 한 번도 안 줬어?",
+   "note": "",
+   "emotion": "moved",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Karena isinya terlalu jujur. Aku takut kamu lari.",
+   "rd": "까르나 이시냐 뜨르랄루 주주르. 아꾸 따꿋 까무 라리.",
+   "ko": "너무 솔직해서. 네가 도망갈까 봐 무서웠어.",
+   "note": "takut = 무섭다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Sekarang aku sudah tidak bisa lari lagi, kan?",
+   "rd": "스까랑 아꾸 수다흐 띠닥 비사 라리 라기, 깐?",
+   "ko": "이제는 도망 못 가잖아, 그치?",
+   "note": "",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Makanya malam ini kubacakan. Dengarkan baik-baik.",
+   "rd": "마까냐 말람 이니 꾸바짜깐. 등아르깐 바익-바익.",
+   "ko": "그래서 오늘 밤 읽어 주려고. 잘 들어.",
+   "note": "baca-kan = 읽어 주다",
+   "emotion": "nervous",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Baik. Aku dengarkan.",
+   "rd": "바익. 아꾸 등아르깐.",
+   "ko": "좋아. 들을게.",
+   "note": "",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "\"Seandainya kamu naik bus yang sama besok, aku akan menikahimu.\"",
+   "rd": "\"스안다이냐 까무 나익 부스 양 사마 베속, 아꾸 아깐 므니까히무.\"",
+   "ko": "「내일도 네가 같은 버스를 타면, 너랑 결혼할 거야.」",
+   "note": "meN-nikah-i = ~와 결혼하다",
+   "emotion": "moved",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Tak pernah kusangka. Besoknya aku memang naik bus itu lagi.",
+   "rd": "딱 쁘르나흐 꾸상까. 브속냐 아꾸 므망 나익 부스 이뚜 라기.",
+   "ko": "생각도 못 했어. 다음 날 나 정말 그 버스 또 탔어.",
+   "note": "sangka = 짐작하다",
+   "emotion": "moved",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Aku tahu. Aku menunggu di halte sejak jam lima pagi.",
+   "rd": "아꾸 따후. 아꾸 므눙구 디 할뜨 스작 잠 리마 빠기.",
+   "ko": "알아. 나 새벽 다섯 시부터 정류장에서 기다렸거든.",
+   "note": "",
+   "emotion": "warm",
+   "tags": []
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "id": "Jadi itu bukan kebetulan?",
+   "rd": "자디 이뚜 부깐 끄브뚤란?",
+   "ko": "그럼 그게 우연이 아니었어?",
+   "note": "kebetulan = 우연",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "id": "Bukan. Dan besok pun, aku akan menunggumu di ujung lorong.",
+   "rd": "부깐. 단 베속 뿐, 아꾸 아깐 므눙구무 디 우중 로롱.",
+   "ko": "아니. 내일도 복도 끝에서 너를 기다릴게.",
+   "note": "lorong = 통로",
+   "emotion": "warm",
+   "tags": []
+  }
+ ]
+}

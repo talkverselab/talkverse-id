@@ -1,0 +1,161 @@
+{
+ "id": "r3_travel_a2",
+ "island": "travel",
+ "kind": "short",
+ "title": "현지인 맛집",
+ "emoji": "🍛",
+ "scene": "족자카르타 골목. 오젝 기사 Pak Darto 가 진짜 맛집을 알려 주겠다며 길을 돈다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Yang asli",
+  "Masih jauh?",
+  "Langganan"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Mbak cari gudeg yang asli? Jangan yang di jalan besar.",
+   "rd": "음박 짜리 구득 양 아스리? 장안 양 디 잘란 브사르.",
+   "ko": "진짜 구덱 찾아요? 큰길에 있는 데는 가지 마요.",
+   "note": "gudeg = 잭프루트 조림 · asli = 진짜",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kenapa, Pak? Yang di sana terkenal sekali.",
+   "rd": "끄나빠, 빡? 양 디 사나 뜨르끄날 스깔리.",
+   "ko": "왜요? 거기 엄청 유명하던데요.",
+   "note": "terkenal = 유명한",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Terkenal untuk turis. Rasanya sudah disesuaikan.",
+   "rd": "뜨르끄날 운뚝 뚜리스. 라사냐 수다흐 디스수아이깐.",
+   "ko": "관광객한테 유명하죠. 맛이 맞춰져 있어요.",
+   "note": "di-sesuai-kan = 맞춰지다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kalau begitu, antar saya ke yang Bapak suka.",
+   "rd": "깔라우 브기뚜, 안따르 사야 끄 양 바빡 수까.",
+   "ko": "그럼 기사님 좋아하는 데로 데려다 주세요.",
+   "note": "antar = 데려다주다",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Siap. Tapi tempatnya agak masuk ke gang.",
+   "rd": "시압. 따삐 뜸빳냐 아각 마숙 끄 강.",
+   "ko": "좋아요. 근데 골목 안쪽에 있어요.",
+   "note": "gang = 골목",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Masih jauh? Kita sudah lewat masjid ini tiga kali.",
+   "rd": "마시흐 자우흐? 끼따 수다흐 르왓 마스짓 이니 띠가 깔리.",
+   "ko": "아직 멀었어요? 이 모스크 벌써 세 번 지났어요.",
+   "note": "lewat = 지나다",
+   "emotion": "suspicious",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Jalannya memang muter. Sebentar lagi sampai.",
+   "rd": "잘란냐 므망 무뜨르. 스븐따르 라기 삼빠이.",
+   "ko": "길이 원래 빙빙 돌아요. 곧 도착해요.",
+   "note": "muter = 빙 돌다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Argonya sudah tiga puluh ribu, Pak.",
+   "rd": "아르고냐 수다흐 띠가 뿔루흐 리부, 빡.",
+   "ko": "요금이 벌써 삼만이에요.",
+   "note": "argo = 미터 요금",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Nah, ini dia. Warung Bu Sri, langganan saya.",
+   "rd": "나흐, 이니 디아. 와룽 부 스리, 랑가난 사야.",
+   "ko": "자, 여기예요. 스리 아주머니 와룽, 내 단골이에요.",
+   "note": "langganan = 단골",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Bu Sri ini siapanya Bapak?",
+   "rd": "부 스리 이니 시아빠냐 바빡?",
+   "ko": "스리 아주머니가 기사님이랑 무슨 사이예요?",
+   "note": "",
+   "emotion": "suspicious",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Istri saya. Tapi gudegnya memang paling enak.",
+   "rd": "이스뜨리 사야. 따삐 구득냐 므망 빨링 에낙.",
+   "ko": "제 아내예요. 근데 구덱은 진짜 제일 맛있어요.",
+   "note": "",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Kalau enak, ongkosnya saya bayar penuh.",
+   "rd": "깔라우 에낙, 옹꼬스냐 사야 바야르 쁘누흐.",
+   "ko": "맛있으면 요금 다 낼게요.",
+   "note": "ongkos = 요금 · penuh = 가득",
+   "emotion": "amused",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Kalau tidak enak, makannya gratis. Janji.",
+   "rd": "깔라우 띠닥 에낙, 마깐냐 그라띠스. 잔지.",
+   "ko": "맛없으면 밥값은 공짜예요. 약속해요.",
+   "note": "",
+   "emotion": "confident",
+   "tags": []
+  }
+ ]
+}

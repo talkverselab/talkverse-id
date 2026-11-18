@@ -1,0 +1,161 @@
+{
+ "id": "r3_friends_a2",
+ "island": "friends",
+ "kind": "short",
+ "title": "창업 제안",
+ "emoji": "🚀",
+ "scene": "오랜 친구 Raka 가 같이 카페를 차리자며 사업계획서를 내민다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Modal",
+  "Untung",
+  "Pikir-pikir dulu"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Aku serius kali ini. Ayo kita buka kafe berdua.",
+   "rd": "아꾸 스리우스 깔리 이니. 아요 끼따 부까 까페 브르두아.",
+   "ko": "이번엔 진심이야. 우리 둘이 카페 열자.",
+   "note": "buka = 열다",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kamu bilang begitu tiap tahun, Raka.",
+   "rd": "까무 빌랑 브기뚜 띠압 따훈, 라까.",
+   "ko": "라카, 너 그 말 해마다 해.",
+   "note": "tiap = 매",
+   "emotion": "skeptical",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Kali ini ada rencana bisnis lengkap. Baca dulu.",
+   "rd": "깔리 이니 아다 른짜나 비스니스 릉깝. 바짜 둘루.",
+   "ko": "이번엔 사업계획서도 있어. 일단 읽어 봐.",
+   "note": "rencana = 계획",
+   "emotion": "confident",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Modal awalnya dari mana?",
+   "rd": "모달 아왈냐 다리 마나?",
+   "ko": "초기 자금은 어디서 나는데?",
+   "note": "modal = 자본",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Setengah dari tabunganku, setengah dari kamu.",
+   "rd": "스뜽아흐 다리 따붕안꾸, 스뜽아흐 다리 까무.",
+   "ko": "반은 내 저금, 반은 너.",
+   "note": "tabungan = 저금",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kapan kira-kira mulai untung?",
+   "rd": "까빤 끼라-끼라 물라이 운뚱?",
+   "ko": "대략 언제부터 이익이 나?",
+   "note": "untung = 이익",
+   "emotion": "skeptical",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Menurut hitunganku, bulan ketiga sudah balik modal.",
+   "rd": "므누룻 히뚱안꾸, 불란 끄띠가 수다흐 발릭 모달.",
+   "ko": "내 계산으로는 석 달째면 본전 찾아.",
+   "note": "balik modal = 본전 회수",
+   "emotion": "confident",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Bulan ketiga? Hitungannya terlalu optimis.",
+   "rd": "불란 끄띠가? 히뚱안냐 뜨르랄루 옵띠미스.",
+   "ko": "석 달? 계산이 너무 낙관적이야.",
+   "note": "optimis = 낙관적",
+   "emotion": "skeptical",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Karena kita tidak perlu bayar sewa tempat.",
+   "rd": "까르나 끼따 띠닥 쁘르루 바야르 스와 뜸빳.",
+   "ko": "가게 월세를 안 내도 되거든.",
+   "note": "",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Kok bisa? Tempatnya di mana?",
+   "rd": "꼭 비사? 뜸빳냐 디 마나?",
+   "ko": "어떻게? 장소가 어딘데?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Di garasi rumahmu. Ibumu sudah setuju.",
+   "rd": "디 가라시 루마흐무. 이부무 수다흐 스뚜주.",
+   "ko": "너희 집 차고. 너희 어머니가 벌써 허락하셨어.",
+   "note": "garasi = 차고",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Kamu tanya ibuku sebelum tanya aku?",
+   "rd": "까무 따냐 이부꾸 스블룸 따냐 아꾸?",
+   "ko": "나보다 우리 엄마한테 먼저 물어봤어?",
+   "note": "",
+   "emotion": "shocked",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Ibumu juga mau jadi barista. Kita pikir-pikir dulu, ya.",
+   "rd": "이부무 주가 마우 자디 바리스따. 끼따 삐끼르-삐끼르 둘루, 야.",
+   "ko": "너희 엄마도 바리스타 하고 싶으시대. 일단 생각해 봐.",
+   "note": "pikir-pikir = 곰곰이 생각하다",
+   "emotion": "laughing",
+   "tags": []
+  }
+ ]
+}

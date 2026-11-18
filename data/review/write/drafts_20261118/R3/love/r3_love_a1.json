@@ -1,0 +1,161 @@
+{
+ "id": "r3_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "헤어진 날의 비밀",
+ "emoji": "💔",
+ "scene": "1년 만에 우연히 만난 옛 연인 Raka. 카페에서 그날 이야기를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Sudah lama",
+  "Sebenarnya waktu itu",
+  "Seandainya"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Sudah setahun, ya. Kamu kelihatan bahagia sekarang.",
+   "rd": "수다흐 스따훈, 야. 까무 끌리하딴 바하기아 스까랑.",
+   "ko": "벌써 1년이네. 너 지금 행복해 보인다.",
+   "note": "kelihatan = 보이다",
+   "emotion": "awkward",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Lumayan. Kamu sendiri bagaimana kabarnya?",
+   "rd": "루마얀. 까무 슨디리 바가이마나 까바르냐?",
+   "ko": "그럭저럭. 너는 어떻게 지내?",
+   "note": "kabar = 소식",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Aku pindah kerja ke Surabaya bulan depan.",
+   "rd": "아꾸 삔다흐 끄르자 끄 수라바야 불란 드빤.",
+   "ko": "나 다음 달에 수라바야로 직장 옮겨.",
+   "note": "pindah = 옮기다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Jauh juga. Kenapa tiba-tiba?",
+   "rd": "자우흐 주가. 끄나빠 띠바-띠바?",
+   "ko": "꽤 멀다. 왜 갑자기?",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Sebelum pergi, ada yang harus kujelaskan tentang hari itu.",
+   "rd": "스블룸 쁘르기, 아다 양 하루스 꾸즐라스깐 뜬땅 하리 이뚜.",
+   "ko": "떠나기 전에 그날 일을 설명해야 할 게 있어.",
+   "note": "jelas-kan = 설명하다",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Hari kamu tidak datang ke stasiun?",
+   "rd": "하리 까무 띠닥 다땅 끄 스따시운?",
+   "ko": "네가 역에 안 나온 그날?",
+   "note": "",
+   "emotion": "hurt",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Aku datang. Aku melihatmu dari seberang peron.",
+   "rd": "아꾸 다땅. 아꾸 믈리핫무 다리 스브랑 쁘론.",
+   "ko": "나 갔었어. 승강장 건너편에서 너를 봤어.",
+   "note": "seberang = 건너편 · peron = 승강장",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Lalu kenapa kamu tidak menghampiriku?",
+   "rd": "랄루 끄나빠 까무 띠닥 믕함삐리꾸?",
+   "ko": "그럼 왜 나한테 안 왔어?",
+   "note": "meng-hampir-i = 다가가다",
+   "emotion": "angry",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Kamu sedang tertawa ditelepon dengan beasiswamu yang diterima.",
+   "rd": "까무 스당 뜨르따와 디뜰르뽄 등안 브아시솨무 양 디뜨리마.",
+   "ko": "너는 장학금 붙었다고 전화로 웃고 있었어.",
+   "note": "beasiswa = 장학금",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Kamu tidak mau menghalangiku berangkat?",
+   "rd": "까무 띠닥 마우 믕할랑이꾸 브랑깟?",
+   "ko": "내가 떠나는 걸 막고 싶지 않았던 거야?",
+   "note": "meng-halang-i = 가로막다",
+   "emotion": "moved",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Seandainya aku memanggilmu, kamu pasti tidak jadi pergi.",
+   "rd": "스안다이냐 아꾸 므망길무, 까무 빠스띠 띠닥 자디 쁘르기.",
+   "ko": "내가 불렀으면 너는 분명 안 갔을 거야.",
+   "note": "seandainya = 만약 ~였다면",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Mungkin. Tapi aku berhak memilih sendiri, Raka.",
+   "rd": "뭉낀. 따삐 아꾸 브르학 므밀리흐 슨디리, 라까.",
+   "ko": "그랬겠지. 근데 그건 내가 고를 일이었어, 라카.",
+   "note": "berhak = 권리가 있다",
+   "emotion": "firm",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Kamu benar. Maaf, terlambat setahun.",
+   "rd": "까무 브나르. 마아프, 뜨르람밧 스따훈.",
+   "ko": "네 말이 맞아. 미안, 1년이나 늦었네.",
+   "note": "",
+   "emotion": "regretful",
+   "tags": []
+  }
+ ]
+}

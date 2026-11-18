@@ -1,0 +1,161 @@
+{
+ "id": "r3_work_a1",
+ "island": "work",
+ "kind": "short",
+ "title": "연봉 협상",
+ "emoji": "💰",
+ "scene": "1년 차 평가 면담. 팀장 Dimas 와 연봉 이야기를 해야 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Penilaian kinerja",
+  "Kenaikan gaji",
+  "Saya berharap"
+ ],
+ "region": "R3",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Hasil penilaian kinerjamu tahun ini sangat baik.",
+   "rd": "하실 쁘닐라이안 끼느르자무 따훈 이니 상앗 바익.",
+   "ko": "올해 성과 평가 결과가 아주 좋아요.",
+   "note": "kinerja = 성과",
+   "emotion": "warm",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Terima kasih, Pak. Saya banyak belajar dari tim.",
+   "rd": "뜨리마 까시흐, 빡. 사야 바냑 블라자르 다리 띰.",
+   "ko": "감사합니다. 팀에서 많이 배웠어요.",
+   "note": "",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Sekarang kita bicara soal gaji tahun depan.",
+   "rd": "스까랑 끼따 비짜라 소알 가지 따훈 드빤.",
+   "ko": "이제 내년 연봉 얘기를 하죠.",
+   "note": "soal = ~에 관해",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kalau boleh, saya berharap ada kenaikan sepuluh persen.",
+   "rd": "깔라우 볼레흐, 사야 브르하랍 아다 끄나이깐 스뿔루흐 쁘르슨.",
+   "ko": "가능하다면 10% 인상을 바라요.",
+   "note": "kenaikan = 인상",
+   "emotion": "nervous",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Sepuluh? Apa alasan utamanya?",
+   "rd": "스뿔루흐? 아빠 알라산 우따마냐?",
+   "ko": "10%요? 주된 이유가 뭐예요?",
+   "note": "utama = 주된",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Proyek ekspor yang saya pegang naik dua kali lipat.",
+   "rd": "쁘로윽 윽스뽀르 양 사야 쁘강 나익 두아 깔리 리빳.",
+   "ko": "제가 맡은 수출 프로젝트가 두 배로 늘었어요.",
+   "note": "lipat = 배",
+   "emotion": "confident",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Itu benar. Ada pertimbangan lain?",
+   "rd": "이뚜 브나르. 아다 쁘르띰방안 라인?",
+   "ko": "맞아요. 다른 고려 사항은요?",
+   "note": "pertimbangan = 고려",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Saya juga sering lembur sampai malam.",
+   "rd": "사야 주가 스링 름부르 삼빠이 말람.",
+   "ko": "저녁 늦게까지 야근도 자주 해요.",
+   "note": "lembur = 야근",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Justru itu masalahnya. Lembur itu tanda beban terlalu berat.",
+   "rd": "주스뜨루 이뚜 마살라흐냐. 름부르 이뚜 딴다 브반 뜨르랄루 브랏.",
+   "ko": "바로 그게 문제예요. 야근은 일이 너무 많다는 뜻이에요.",
+   "note": "beban = 짐",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Jadi permintaan saya ditolak?",
+   "rd": "자디 쁘르민따안 사야 디똘락?",
+   "ko": "그럼 제 요청은 거절인가요?",
+   "note": "di-tolak = 거절되다",
+   "emotion": "disappointed",
+   "tags": []
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "id": "Tidak. Gajimu naik lima belas persen, dan kita tambah satu orang.",
+   "rd": "띠닥. 가지무 나익 리마 블라스 쁘르슨, 단 끼따 땀바흐 사뚜 오랑.",
+   "ko": "아니요. 15% 올리고, 사람도 한 명 더 뽑아요.",
+   "note": "tambah = 더하다",
+   "emotion": "warm",
+   "tags": []
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "id": "Lima belas? Saya tidak salah dengar?",
+   "rd": "리마 블라스? 사야 띠닥 살라흐 등아르?",
+   "ko": "15%요? 제가 잘못 들은 거 아니죠?",
+   "note": "",
+   "emotion": "shocked",
+   "tags": []
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "id": "Tidak. Tapi mulai besok, pulang jam enam.",
+   "rd": "띠닥. 따삐 물라이 베속, 뿔랑 잠 에남.",
+   "ko": "아니요. 대신 내일부터 여섯 시에 퇴근해요.",
+   "note": "",
+   "emotion": "teasing",
+   "tags": []
+  }
+ ]
+}
