@@ -1,11 +1,13 @@
 import 'dart:convert';
 import '../core/embed_env.dart';
 
+import 'package:flutter/foundation.dart' show ValueNotifier;
 import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import '../core/prefs.dart';
 
 import 'content_sync.dart';
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 
 /// 회화 리더(일본어앱 시안 02 「만화책 읽기형」)용 회화 모델 — 2026-11-02, 일본어앱 `dialogue_service.dart` 를 옮김.
 ///
@@ -154,47 +156,76 @@ class DialogueService {
 
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
-    try {
-      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/id/L1.json'))) as Map<String, dynamic>;
-      final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
-      final names = chars.map((k, v) => MapEntry(k, ((v as Map)['name'] ?? k).toString()));
-      final genders = chars.map((k, v) => MapEntry(k, ((v as Map)['gender'] ?? 'female').toString()));
-      final level = j['level'] as String? ?? 'L1';
-      for (final e in (j['episodes'] as List? ?? const [])) {
-        final m = e as Map<String, dynamic>;
-        final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
-        if (turns.isEmpty) continue;
-        _all.add(Dialogue(
-          id: '${level}_${m['id']}',
-          region: level,
-          island: 'love', // 옛 L1 = 매칭 앱에서 시작하는 연애 이야기(원칙: 기존 연애 서사는 love 주제)
-          title: m['title'] as String? ?? m['id'] as String,
-          emoji: m['emoji'] as String? ?? '💬',
-          scene: m['scenario'] as String? ?? '',
-          speakers: names,
-          genders: genders,
-          expressions: const [],
-          turns: turns,
-        ));
-      }
-    } catch (_) {}
-    await _loadNew();
+    await _readAll();
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로) — 일본어앱 빌드 113·114 와 같은 방식(2026-11-18)
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
+
+  /// 앱 안 편 + 서버에서 받은 새 편을 읽는다. 각 파일은 덮어쓴 판이 있으면 그것([ScriptSync]).
+  Future<void> _readAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final next = <Dialogue>[];
+    const legacy = 'dialogues/id/L1.json';
+    if (!sync.removed.contains(legacy)) {
+      try {
+        final j = json.decode(await sync.load(legacy)) as Map<String, dynamic>;
+        final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
+        final names = chars.map((k, v) => MapEntry(k, ((v as Map)['name'] ?? k).toString()));
+        final genders = chars.map((k, v) => MapEntry(k, ((v as Map)['gender'] ?? 'female').toString()));
+        final level = j['level'] as String? ?? 'L1';
+        for (final e in (j['episodes'] as List? ?? const [])) {
+          final m = e as Map<String, dynamic>;
+          final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
+          if (turns.isEmpty) continue;
+          next.add(Dialogue(
+            id: '${level}_${m['id']}',
+            region: level,
+            island: 'love', // 옛 L1 = 매칭 앱에서 시작하는 연애 이야기(원칙: 기존 연애 서사는 love 주제)
+            title: m['title'] as String? ?? m['id'] as String,
+            emoji: m['emoji'] as String? ?? '💬',
+            scene: m['scenario'] as String? ?? '',
+            speakers: names,
+            genders: genders,
+            expressions: const [],
+            turns: turns,
+          ));
+        }
+      } catch (_) {}
+    }
+    next.addAll(await _readNew(sync));
+    _all
+      ..clear()
+      ..addAll(next);
   }
 
   /// 고정 인물(data/review/uxui/CHARACTERS.md) 목소리 성별. A = 학습자 프로필.
   static const _voice = {'Ayu': 'female', 'Raka': 'male', 'Bu Sri': 'female', 'Pak Darto': 'male', 'Nadia': 'female', 'Dimas': 'male', 'Kasir': 'female'};
 
   /// 새 회화(일본어앱 구조): assets/data/dialogues/R<레벨>/<주제>/<편id>.json — 2026-11-03.
-  Future<void> _loadNew() async {
+  /// 편 목록 = 앱 안 편 + 서버에서 받은 새 편 − 서버 판에서 빠진 편.
+  Future<List<Dialogue>> _readNew(ScriptSync sync) async {
+    final out = <Dialogue>[];
     final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
-    final paths = manifest.listAssets().map(stripAssetPrefix).where((p) => RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$').hasMatch(p)).toList()..sort();
-    for (final p in paths) {
+    final pat = RegExp(r'^assets/data/dialogues/R[0-4]/[^/]+/[^/]+\.json$');
+    final rels = <String>{
+      for (final p in manifest.listAssets().map(stripAssetPrefix).where(pat.hasMatch)) p.substring('assets/data/'.length),
+      ...sync.added.where((p) => pat.hasMatch('assets/data/$p')),
+    }..removeAll(sync.removed);
+    for (final rel in rels.toList()..sort()) {
       try {
-        final m = json.decode(await rootBundle.loadString(assetPath(p))) as Map<String, dynamic>;
+        final m = json.decode(await sync.load(rel)) as Map<String, dynamic>;
         final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
         if (turns.isEmpty) continue;
         final sp = ((m['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry(k.toString(), v.toString()));
-        _all.add(Dialogue(
+        out.add(Dialogue(
           id: m['id'] as String,
           region: m['region'] as String? ?? 'R1',
           island: m['island'] as String? ?? 'life',
@@ -208,6 +239,7 @@ class DialogueService {
         ));
       } catch (_) {}
     }
+    return out;
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;

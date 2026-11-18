@@ -94,3 +94,11 @@
 - 한 턴에서 감정이 바뀌면 `emotion` 대신 `segs`(`[감정, 본문]` 목록)로 나눈다. 이어 붙이면 그 턴의 `id` 와 같아야 한다.
 - neutral 만 쓰지 않는다 — 대사 맥락으로 정한다. 작성 기준은 `data/tts/PLAN_GUIDE.md`.
 - 이미 쓴 편은 고치지 않고, 음성 작업 때 `data/tts/plan/<편id>.json` 으로 정한다.
+
+## 원고 서버 받기(2026-11-18, 일본어앱 빌드 113·114 와 같은 구조)
+
+- 규격 = 일본어앱 `docs/CONTENT_SYNC.md` §6. 서버 R2 `talkverse-art` `script/id/…`, 앱이 읽는 주소 `https://auth.talkverse.uk/art/script/id/index.json`·`…/<경로>?v=<sha>`.
+- 대상: 회화 편 `assets/data/dialogues/R0~R4/**.json` + 옛 이야기 `dialogues/id/L1.json`. 앱 안 기준표 `assets/data/script_rev.json`(rev 1 = 2026-11-18, 파일 31).
+- 앱: `lib/services/script_sync.dart`. `embedInit` 에서 그림·음성 내려받기 앞에 켤 때마다 확인(15초 상한), `DialogueService` 가 `ScriptSync.load(rel)` 로 읽고 받은 뒤 `revision` 을 올린다. 기기 폴더 `Application Support/id/script/`.
+- 원고를 고친 뒤: `python3 tools/script_publish.py`(바뀐 것 보기) → `--publish`(턴 잠금 검사 → 올림 → rev+1) → `assets/data/script_rev.json` 커밋.
+- 편 id·턴 번호는 다시 매기지 않는다(`tools/turn_lock.py`, 기준표 `data/review/turn_lock_id.json`). 음성이 있는 턴은 화면 글자가 음성 본문을 따르므로 대사를 고치면 음성도 다시.
