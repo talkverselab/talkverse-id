@@ -1,0 +1,121 @@
+{
+ "id": "r2_work_a2",
+ "island": "work",
+ "kind": "short",
+ "title": "회의 마이크",
+ "emoji": "🎙️",
+ "scene": "온라인 회의. 내 마이크가 켜진 줄 모르고 혼잣말을 했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Mikrofonnya",
+  "Bisa didengar?",
+  "Maaf, Pak"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Maaf, mikrofon kamu masih menyala.",
+   "rd": "마아프, 믹로폰 까무 마시흐 므냘라.",
+   "ko": "저기, 마이크 아직 켜져 있어요.",
+   "note": "me-nyala = 켜져 있다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Hah? Dari kapan, Mas?",
+   "rd": "하? 다리 까빤, 마스?",
+   "ko": "네? 언제부터요?",
+   "note": "dari kapan = 언제부터",
+   "emotion": "panicked",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Dari waktu kamu bilang rapatnya membosankan.",
+   "rd": "다리 왁뚜 까무 빌랑 라빳냐 믐보산깐.",
+   "ko": "회의 지루하다고 한 때부터요.",
+   "note": "mem-bosan-kan = 지루하게 하다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Semua orang bisa dengar?",
+   "rd": "스무아 오랑 비사 등아르?",
+   "ko": "다들 들렸어요?",
+   "note": "",
+   "emotion": "panicked",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Termasuk Pak Direktur. Dia tertawa.",
+   "rd": "뜨르마숙 빡 디륵뚜르. 디아 뜨르따와.",
+   "ko": "사장님까지요. 웃으시던데요.",
+   "note": "termasuk = ~까지 포함해 · ter-tawa = 웃다",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Aduh. Saya harus minta maaf sekarang.",
+   "rd": "아두흐. 사야 하루스 민따 마아프 스까랑.",
+   "ko": "아이고. 지금 사과해야겠어요.",
+   "note": "minta maaf = 사과하다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tunggu. Dia barusan bilang setuju denganmu.",
+   "rd": "뚱구. 디아 바루산 빌랑 스뚜주 등안무.",
+   "ko": "잠깐만요. 사장님이 방금 당신 말에 동의한대요.",
+   "note": "setuju = 동의하다",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Setuju rapatnya membosankan?",
+   "rd": "스뚜주 라빳냐 믐보산깐?",
+   "ko": "회의가 지루하다는 데 동의하신다고요?",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Iya. Mulai minggu depan rapatnya cuma lima belas menit.",
+   "rd": "이야. 물라이 밍구 드빤 라빳냐 쭈마 리마 블라스 므닛.",
+   "ko": "네. 다음 주부터 회의 15분만 한대요.",
+   "note": "mulai = ~부터",
+   "emotion": "happy",
+   "tags": []
+  }
+ ]
+}

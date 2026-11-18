@@ -1,0 +1,121 @@
+{
+ "id": "r2_friends_a3",
+ "island": "friends",
+ "kind": "short",
+ "title": "다이어트 첫날",
+ "emoji": "🥗",
+ "scene": "아침 운동장. Ayu 가 다이어트를 시작한다며 뛰자고 한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Mulai hari ini",
+  "Capek",
+  "Habis ini"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Mulai hari ini aku diet. Ayo lari bareng!",
+   "rd": "물라이 하리 이니 아꾸 디읏. 아요 라리 바릉!",
+   "ko": "오늘부터 나 다이어트야. 같이 뛰자!",
+   "note": "mulai = ~부터",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Jam enam pagi? Kamu serius?",
+   "rd": "잠 에남 빠기? 까무 스리우스?",
+   "ko": "아침 여섯 시에? 진심이야?",
+   "note": "",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Serius. Tiga putaran saja.",
+   "rd": "스리우스. 띠가 뿌따란 사자.",
+   "ko": "진심. 세 바퀴만.",
+   "note": "putaran = 바퀴",
+   "emotion": "determined",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Baru satu putaran, kamu sudah duduk.",
+   "rd": "바루 사뚜 뿌따란, 까무 수다흐 두둑.",
+   "ko": "한 바퀴 돌았는데 벌써 앉았네.",
+   "note": "baru = 겨우",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Aku capek. Kakiku tidak kuat lagi.",
+   "rd": "아꾸 짜쁙. 까끼꾸 띠닥 꾸앗 라기.",
+   "ko": "힘들어. 다리가 더는 못 버텨.",
+   "note": "kuat = 버티다",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Ya sudah, kita pulang?",
+   "rd": "야 수다흐, 끼따 뿔랑?",
+   "ko": "그럼 집에 갈까?",
+   "note": "",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tunggu, habis ini ada bubur ayam di depan.",
+   "rd": "뚱구, 하비스 이니 아다 부부르 아얌 디 드빤.",
+   "ko": "잠깐, 이따 앞에 닭죽 있어.",
+   "note": "habis ini = 이거 끝나고 · bubur ayam = 닭죽",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Katanya diet?",
+   "rd": "까따냐 디읏?",
+   "ko": "다이어트 한다며?",
+   "note": "katanya = ~라며",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Lari sudah. Sekarang hadiahnya.",
+   "rd": "라리 수다흐. 스까랑 하디아흐냐.",
+   "ko": "뛰기는 했잖아. 이제 상 받아야지.",
+   "note": "hadiah = 상",
+   "emotion": "happy",
+   "tags": []
+  }
+ ]
+}

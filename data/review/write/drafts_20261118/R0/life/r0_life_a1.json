@@ -1,0 +1,91 @@
+{
+ "id": "r0_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "얼마예요?",
+ "emoji": "🥭",
+ "scene": "시장 과일 가게. Bu Sri 가 망고를 권한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Berapa harganya?",
+  "Mahal",
+  "Boleh kurang?"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Bu, ini berapa?",
+   "rd": "부, 이니 브라빠?",
+   "ko": "아주머니, 이거 얼마예요?",
+   "note": "berapa = 얼마",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Sepuluh ribu, Nak.",
+   "rd": "스뿔루흐 리부, 낙.",
+   "ko": "만 루피아야.",
+   "note": "ribu = 천 · Nak = 얘야",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Wah, mahal. Boleh kurang?",
+   "rd": "와, 마할. 볼레흐 꾸랑?",
+   "ko": "와, 비싸요. 깎아 주실 수 있어요?",
+   "note": "mahal = 비싸다 · kurang = 덜",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Boleh. Delapan ribu.",
+   "rd": "볼레흐. 들라빤 리부.",
+   "ko": "그래. 팔천.",
+   "note": "delapan = 여덟",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Lima ribu, ya?",
+   "rd": "리마 리부, 야?",
+   "ko": "오천 어때요?",
+   "note": "",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Lima ribu... setengah mangga.",
+   "rd": "리마 리부... 스뜽아흐 망가.",
+   "ko": "오천이면… 망고 반 개.",
+   "note": "setengah = 반",
+   "emotion": "teasing",
+   "tags": []
+  }
+ ]
+}

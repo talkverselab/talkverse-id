@@ -1,0 +1,91 @@
+{
+ "id": "r0_friends_a2",
+ "island": "friends",
+ "kind": "short",
+ "title": "배고파",
+ "emoji": "🍜",
+ "scene": "저녁 기숙사. Raka 가 라면을 들고 문을 두드린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Aku lapar",
+  "Ada makanan?",
+  "Enak"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Aku lapar sekali.",
+   "rd": "아꾸 라빠르 스깔리.",
+   "ko": "나 엄청 배고파.",
+   "note": "lapar = 배고프다",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Aku juga. Ada makanan?",
+   "rd": "아꾸 주가. 아다 마까난?",
+   "ko": "나도. 먹을 거 있어?",
+   "note": "makanan = 음식",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Ada mi, tapi satu.",
+   "rd": "아다 미, 따삐 사뚜.",
+   "ko": "라면 있어, 근데 하나.",
+   "note": "mi = 면 · tapi = 근데",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kita bagi dua.",
+   "rd": "끼따 바기 두아.",
+   "ko": "반씩 나누자.",
+   "note": "bagi dua = 둘로 나누다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kamu baik sekali.",
+   "rd": "까무 바익 스깔리.",
+   "ko": "너 진짜 착하다.",
+   "note": "baik = 착하다",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Tapi itu mi aku!",
+   "rd": "따삐 이뚜 미 아꾸!",
+   "ko": "근데 그거 내 라면이잖아!",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  }
+ ]
+}

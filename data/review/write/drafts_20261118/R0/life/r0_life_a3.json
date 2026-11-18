@@ -1,0 +1,90 @@
+{
+ "id": "r0_life_a3",
+ "island": "life",
+ "kind": "short",
+ "title": "몇 살이에요?",
+ "emoji": "🎂",
+ "scene": "이웃집 생일 잔치. Bu Sri 가 케이크 초를 꽂고 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Umur berapa?",
+  "Selamat ulang tahun"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Selamat ulang tahun, Bu!",
+   "rd": "슬라맛 울랑 따훈, 부!",
+   "ko": "생신 축하드려요!",
+   "note": "selamat ulang tahun = 생일 축하해",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Terima kasih, Nak.",
+   "rd": "뜨리마 까시흐, 낙.",
+   "ko": "고마워.",
+   "note": "",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Umur Ibu berapa?",
+   "rd": "우무르 이부 브라빠?",
+   "ko": "몇 살 되셨어요?",
+   "note": "umur = 나이 · Ibu = (상대 여성) 당신",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Rahasia, dong.",
+   "rd": "라하시아, 동.",
+   "ko": "그건 비밀이지.",
+   "note": "rahasia = 비밀 · dong = ~지",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Lilinnya banyak sekali.",
+   "rd": "릴린냐 바냑 스깔리.",
+   "ko": "초가 엄청 많네요.",
+   "note": "lilin = 초 · banyak = 많다",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Itu lilin cucu saya!",
+   "rd": "이뚜 릴린 쭈쭈 사야!",
+   "ko": "그건 손주 초야!",
+   "note": "cucu = 손주",
+   "emotion": "laughing",
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "id": "r2_work_a1",
+ "island": "work",
+ "kind": "short",
+ "title": "첫 출근",
+ "emoji": "💼",
+ "scene": "첫 출근 날. 동료 Dimas 가 자리와 사람들을 소개한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "expressions": [
+  "Perkenalkan",
+  "Kalau ada apa-apa",
+  "Jangan sungkan"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Selamat pagi. Perkenalkan, saya Dimas, tim pemasaran.",
+   "rd": "슬라맛 빠기. 쁘르끄날깐, 사야 디마스, 띰 쁘마사란.",
+   "ko": "안녕하세요. 소개할게요, 마케팅팀 디마스예요.",
+   "note": "perkenal-kan = 소개하다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Senang bertemu, Mas. Saya {name}, karyawan baru.",
+   "rd": "스낭 브르뜨무, 마스. 사야 {name}, 까랴완 바루.",
+   "ko": "반가워요. 신입 {name}이에요.",
+   "note": "karyawan = 직원",
+   "emotion": "nervous",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Ini meja kamu. Komputernya sudah disiapkan.",
+   "rd": "이니 메자 까무. 꼼뿌뜨르냐 수다흐 디시압깐.",
+   "ko": "여기가 자리예요. 컴퓨터는 준비해 뒀어요.",
+   "note": "di-siap-kan = 준비되다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Terima kasih. Bos kita yang mana, Mas?",
+   "rd": "뜨리마 까시흐. 보스 끼따 양 마나, 마스?",
+   "ko": "감사해요. 우리 팀장님은 어느 분이세요?",
+   "note": "yang mana = 어느 것",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Yang pakai kemeja kuning di sana.",
+   "rd": "양 빠까이 끄므자 꾸닝 디 사나.",
+   "ko": "저기 노란 셔츠 입은 분요.",
+   "note": "kemeja = 셔츠",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Oh, tadi saya kira beliau tukang parkir.",
+   "rd": "오, 따디 사야 끼라 블리아우 뚜깡 빠르끼르.",
+   "ko": "아, 아까 주차 요원인 줄 알았어요.",
+   "note": "beliau = 그분 · tukang parkir = 주차 요원",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Kamu bilang apa ke beliau?",
+   "rd": "까무 빌랑 아빠 끄 블리아우?",
+   "ko": "그분한테 뭐라고 했어요?",
+   "note": "",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Saya kasih dua ribu untuk parkir motor.",
+   "rd": "사야 까시흐 두아 리부 운뚝 빠르끼르 모또르.",
+   "ko": "오토바이 주차비로 이천 드렸어요.",
+   "note": "kasih = 주다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Kalau ada apa-apa, jangan sungkan tanya saya dulu.",
+   "rd": "깔라우 아다 아빠-아빠, 장안 숭깐 따냐 사야 둘루.",
+   "ko": "무슨 일 있으면 망설이지 말고 나한테 먼저 물어요.",
+   "note": "sungkan = 어려워하다",
+   "emotion": "laughing",
+   "tags": []
+  }
+ ]
+}

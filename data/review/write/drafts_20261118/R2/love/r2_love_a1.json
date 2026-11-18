@@ -1,0 +1,121 @@
+{
+ "id": "r2_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "우산 하나",
+ "emoji": "☔",
+ "scene": "퇴근길 갑자기 쏟아지는 비. Raka 가 작은 우산을 펴 든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Bareng saja",
+  "Nanti basah",
+  "Tidak apa-apa"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Kamu tidak bawa payung? Bareng saja.",
+   "rd": "까무 띠닥 바와 빠융? 바릉 사자.",
+   "ko": "우산 안 가져왔어? 같이 쓰자.",
+   "note": "bawa = 가져오다 · bareng = 같이",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Payungmu kecil sekali, nanti kamu basah.",
+   "rd": "빠융무 끄찔 스깔리, 난띠 까무 바사흐.",
+   "ko": "네 우산 너무 작아서 너 젖을 텐데.",
+   "note": "basah = 젖다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Tidak apa-apa. Aku sudah biasa basah.",
+   "rd": "띠닥 아빠-아빠. 아꾸 수다흐 비아사 바사흐.",
+   "ko": "괜찮아. 젖는 거 익숙해.",
+   "note": "biasa = 익숙하다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Bahumu sudah basah semua, Raka.",
+   "rd": "바후무 수다흐 바사흐 스무아, 라까.",
+   "ko": "라카, 네 어깨 다 젖었어.",
+   "note": "bahu = 어깨",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Yang penting kamu tidak kehujanan.",
+   "rd": "양 쁜띵 까무 띠닥 끄후자난.",
+   "ko": "중요한 건 네가 비 안 맞는 거야.",
+   "note": "ke-hujan-an = 비를 맞다",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kenapa kamu baik sekali hari ini?",
+   "rd": "끄나빠 까무 바익 스깔리 하리 이니?",
+   "ko": "오늘 왜 이렇게 다정해?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Sebenarnya... aku sengaja tidak bawa payung besar.",
+   "rd": "스브나르냐... 아꾸 승아자 띠닥 바와 빠융 브사르.",
+   "ko": "사실은… 일부러 큰 우산 안 가져왔어.",
+   "note": "sengaja = 일부러",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Sengaja? Supaya apa?",
+   "rd": "승아자? 수빠야 아빠?",
+   "ko": "일부러? 왜?",
+   "note": "supaya = ~하려고",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Supaya bisa jalan sedekat ini denganmu.",
+   "rd": "수빠야 비사 잘란 스드깟 이니 등안무.",
+   "ko": "이렇게 가까이 너랑 걸으려고.",
+   "note": "sedekat ini = 이만큼 가까이",
+   "emotion": "shy",
+   "tags": []
+  }
+ ]
+}

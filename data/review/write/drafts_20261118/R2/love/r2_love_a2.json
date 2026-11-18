@@ -1,0 +1,131 @@
+{
+ "id": "r2_love_a2",
+ "island": "love",
+ "kind": "short",
+ "title": "잘못 보낸 메시지",
+ "emoji": "📱",
+ "scene": "저녁. Ayu 에게서 하트 이모티콘과 메시지가 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Salah kirim",
+  "Untuk siapa?",
+  "Sudah terlanjur"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Ayu, pesanmu barusan untuk siapa?",
+   "rd": "아유, 쁘산무 바루산 운뚝 시아빠?",
+   "ko": "아유, 방금 그 메시지 누구한테 보낸 거야?",
+   "note": "pesan = 메시지 · barusan = 방금",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Pesan apa? Aku tidak kirim apa-apa.",
+   "rd": "쁘산 아빠? 아꾸 띠닥 끼림 아빠-아빠.",
+   "ko": "무슨 메시지? 나 아무것도 안 보냈는데.",
+   "note": "apa-apa = 아무것도",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "\"Aku kangen kamu\" dan tiga hati.",
+   "rd": "\"아꾸 깡은 까무\" 단 띠가 하띠.",
+   "ko": "「보고 싶어」랑 하트 세 개.",
+   "note": "kangen = 보고 싶다",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Aduh! Itu salah kirim! Hapus, ya!",
+   "rd": "아두흐! 이뚜 살라흐 끼림! 하뿌스, 야!",
+   "ko": "아이고! 그거 잘못 보낸 거야! 지워 줘!",
+   "note": "salah kirim = 잘못 보내다 · hapus = 지우다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Sudah terlanjur dibaca. Untuk siapa?",
+   "rd": "수다흐 뜨르란주르 디바짜. 운뚝 시아빠?",
+   "ko": "이미 읽어 버렸어. 누구한테 보내려던 건데?",
+   "note": "terlanjur = 이미 그만",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Untuk... kucingku. Dia di rumah nenek.",
+   "rd": "운뚝... 꾸찡꾸. 디아 디 루마흐 네넥.",
+   "ko": "우리… 고양이한테. 할머니 댁에 있거든.",
+   "note": "",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Kucingmu punya HP sendiri?",
+   "rd": "꾸찡무 뿌냐 흐쁘 슨디리?",
+   "ko": "네 고양이 휴대폰 있어?",
+   "note": "HP = 휴대폰",
+   "emotion": "laughing",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Oke, oke. Bukan untuk kucing.",
+   "rd": "오께, 오께. 부깐 운뚝 꾸찡.",
+   "ko": "알았어, 알았어. 고양이한테 아니야.",
+   "note": "",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Jadi untuk siapa?",
+   "rd": "자디 운뚝 시아빠?",
+   "ko": "그럼 누구?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "id": "Baca lagi nama penerimanya, deh.",
+   "rd": "바짜 라기 나마 쁘느리마냐, 데흐.",
+   "ko": "받는 사람 이름 다시 읽어 봐.",
+   "note": "penerima = 받는 사람 — 바로 나",
+   "emotion": "shy",
+   "tags": []
+  }
+ ]
+}

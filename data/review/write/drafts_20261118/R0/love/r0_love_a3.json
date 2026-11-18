@@ -1,0 +1,91 @@
+{
+ "id": "r0_love_a3",
+ "island": "love",
+ "kind": "short",
+ "title": "내일 시간 있어?",
+ "emoji": "📅",
+ "scene": "퇴근길 정류장. Dimas 가 휴대폰 달력을 보며 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Besok ada waktu?",
+  "Jam berapa?",
+  "Boleh"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Besok kamu ada waktu?",
+   "rd": "베속 까무 아다 왁뚜?",
+   "ko": "내일 시간 있어?",
+   "note": "besok = 내일 · ada waktu = 시간이 있다",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Ada. Kenapa?",
+   "rd": "아다. 끄나빠?",
+   "ko": "있어. 왜?",
+   "note": "kenapa = 왜",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Mau nonton film?",
+   "rd": "마우 논똔 필므?",
+   "ko": "영화 볼래?",
+   "note": "mau = ~할래 · nonton = 보다",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Boleh! Jam berapa?",
+   "rd": "볼레흐! 잠 브라빠?",
+   "ko": "좋아! 몇 시?",
+   "note": "jam berapa = 몇 시",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Jam lima pagi.",
+   "rd": "잠 리마 빠기.",
+   "ko": "아침 다섯 시.",
+   "note": "pagi = 아침",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Pagi?! Film apa itu?",
+   "rd": "빠기?! 필므 아빠 이뚜?",
+   "ko": "아침?! 그게 무슨 영화야?",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  }
+ ]
+}

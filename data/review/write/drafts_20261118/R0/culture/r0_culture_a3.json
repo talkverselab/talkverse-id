@@ -1,0 +1,91 @@
+{
+ "id": "r0_culture_a3",
+ "island": "culture",
+ "kind": "short",
+ "title": "오른손으로",
+ "emoji": "🤝",
+ "scene": "이웃집 방문. Pak Darto 가 차를 내준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Silakan",
+  "Tangan kanan",
+  "Maaf"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Silakan minum tehnya.",
+   "rd": "실라깐 미눔 뜨흐냐.",
+   "ko": "차 드세요.",
+   "note": "silakan = ~하세요",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Terima kasih, Pak.",
+   "rd": "뜨리마 까시흐, 빡.",
+   "ko": "감사합니다.",
+   "note": "",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Pakai tangan kanan, ya.",
+   "rd": "빠까이 땅안 까난, 야.",
+   "ko": "오른손으로 받아요.",
+   "note": "tangan kanan = 오른손 — 물건은 오른손으로",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Oh, maaf! Begini?",
+   "rd": "오, 마아프! 브기니?",
+   "ko": "아, 죄송해요! 이렇게요?",
+   "note": "",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Itu tangan kiri lagi.",
+   "rd": "이뚜 땅안 끼리 라기.",
+   "ko": "그것도 또 왼손이에요.",
+   "note": "",
+   "emotion": "laughing",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Aku kidal, Pak!",
+   "rd": "아꾸 끼달, 빡!",
+   "ko": "저 왼손잡이예요!",
+   "note": "kidal = 왼손잡이",
+   "emotion": "embarrassed",
+   "tags": []
+  }
+ ]
+}

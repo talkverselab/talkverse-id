@@ -1,0 +1,121 @@
+{
+ "id": "r2_life_a1",
+ "island": "life",
+ "kind": "short",
+ "title": "택배가 이웃집에",
+ "emoji": "📦",
+ "scene": "아파트 복도. 내 택배를 든 Bu Sri 가 문을 두드린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Paket",
+  "Salah alamat",
+  "Sudah dibuka"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Nak, ini paketmu? Diantar ke rumah saya.",
+   "rd": "낙, 이니 빠끗무? 디안따르 끄 루마흐 사야.",
+   "ko": "이거 네 택배니? 우리 집으로 왔더라.",
+   "note": "paket = 택배 · di-antar = 배달되다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Iya, Bu! Sudah tiga hari saya tunggu.",
+   "rd": "이야, 부! 수다흐 띠가 하리 사야 뚱구.",
+   "ko": "네! 사흘이나 기다렸어요.",
+   "note": "",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Maaf, sudah saya buka. Saya kira punya saya.",
+   "rd": "마아프, 수다흐 사야 부까. 사야 끼라 뿌냐 사야.",
+   "ko": "미안, 내가 뜯어 버렸어. 내 건 줄 알았지.",
+   "note": "kira = 생각하다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Tidak apa-apa, Bu. Isinya cuma buku.",
+   "rd": "띠닥 아빠-아빠, 부. 이시냐 쭈마 부꾸.",
+   "ko": "괜찮아요. 안에 책밖에 없어요.",
+   "note": "isi = 내용물",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Buku masak, kan? Resepnya bagus-bagus.",
+   "rd": "부꾸 마삭, 깐? 르습냐 바구스-바구스.",
+   "ko": "요리책이지? 레시피 좋더라.",
+   "note": "masak = 요리",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Ibu sudah baca?",
+   "rd": "이부 수다흐 바짜?",
+   "ko": "벌써 읽으셨어요?",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Sudah saya coba juga. Halaman dua puluh.",
+   "rd": "수다흐 사야 쪼바 주가. 할라만 두아 뿔루흐.",
+   "ko": "해 보기도 했어. 20쪽.",
+   "note": "coba = 해 보다 · halaman = 쪽",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Wah, Ibu cepat sekali.",
+   "rd": "와, 이부 쯔빳 스깔리.",
+   "ko": "와, 정말 빠르시네요.",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Ini, rendangnya. Sebagai ganti bukunya kotor.",
+   "rd": "이니, 른당냐. 스바가이 간띠 부꾸냐 꼬또르.",
+   "ko": "여기 른당. 책 더럽힌 값이야.",
+   "note": "sebagai ganti = ~대신",
+   "emotion": "kind",
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "r0_love_a1",
+ "island": "love",
+ "kind": "short",
+ "title": "이름이 뭐예요?",
+ "emoji": "💌",
+ "scene": "동네 카페. 옆자리 Raka 가 자꾸 쳐다보다 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Siapa nama kamu?",
+  "Nama saya …",
+  "Senang kenalan"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Halo, siapa nama kamu?",
+   "rd": "할로, 시아빠 나마 까무?",
+   "ko": "안녕, 이름이 뭐야?",
+   "note": "siapa = 누구 · nama = 이름",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Nama saya {name}.",
+   "rd": "나마 사야 {name}.",
+   "ko": "내 이름은 {name}이야.",
+   "note": "nama saya = 내 이름은",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Nama yang bagus sekali.",
+   "rd": "나마 양 바구스 스깔리.",
+   "ko": "이름 정말 예쁘다.",
+   "note": "bagus = 좋은 · sekali = 아주",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Terima kasih. Kamu siapa?",
+   "rd": "뜨리마 까시흐. 까무 시아빠?",
+   "ko": "고마워. 너는?",
+   "note": "terima kasih = 고마워",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Aku Raka. Aku tetanggamu.",
+   "rd": "아꾸 라까. 아꾸 뜨땅가무.",
+   "ko": "나 라카야. 너희 옆집 살아.",
+   "note": "tetangga = 이웃 · -mu = 너의",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Oh! Yang suka bernyanyi malam-malam?",
+   "rd": "오! 양 수까 브르냐니 말람-말람?",
+   "ko": "아! 밤마다 노래 부르는 그 사람?",
+   "note": "ber-nyanyi = 노래하다",
+   "emotion": "surprised",
+   "tags": []
+  }
+ ]
+}

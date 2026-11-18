@@ -1,0 +1,91 @@
+{
+ "id": "r0_friends_a3",
+ "island": "friends",
+ "kind": "short",
+ "title": "사진 찍어 줄래?",
+ "emoji": "📸",
+ "scene": "공원. Nadia 가 휴대폰을 내밀며 포즈를 잡는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Tolong fotokan",
+  "Satu, dua, tiga",
+  "Lagi"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Tolong fotokan aku, ya.",
+   "rd": "똘롱 포또깐 아꾸, 야.",
+   "ko": "나 사진 좀 찍어 줘.",
+   "note": "tolong = ~해 줘 · foto-kan = 사진 찍어 주다",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Oke. Satu, dua, tiga!",
+   "rd": "오께. 사뚜, 두아, 띠가!",
+   "ko": "좋아. 하나, 둘, 셋!",
+   "note": "satu dua tiga = 하나 둘 셋",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Lagi, lagi! Senyum dulu.",
+   "rd": "라기, 라기! 스늄 둘루.",
+   "ko": "한 번 더! 나 먼저 웃고.",
+   "note": "lagi = 또 · senyum = 웃다",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Satu, dua... sudah?",
+   "rd": "사뚜, 두아... 수다흐?",
+   "ko": "하나, 둘… 됐어?",
+   "note": "sudah = 됐다",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Lagi! Dua puluh kali.",
+   "rd": "라기! 두아 뿔루흐 깔리.",
+   "ko": "한 번 더! 스무 번.",
+   "note": "dua puluh = 이십 · kali = 번",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Tanganku sudah capek!",
+   "rd": "땅안꾸 수다흐 짜쁙!",
+   "ko": "나 팔 아파!",
+   "note": "tangan = 손 · capek = 지치다",
+   "emotion": "annoyed",
+   "tags": []
+  }
+ ]
+}

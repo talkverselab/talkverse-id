@@ -1,0 +1,91 @@
+{
+ "id": "r0_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "어디 가?",
+ "emoji": "🛵",
+ "scene": "골목. Nadia 가 오토바이에 앉아 손을 흔든다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Mau ke mana?",
+  "Ikut, dong",
+  "Ayo"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Hai! Mau ke mana?",
+   "rd": "하이! 마우 끄 마나?",
+   "ko": "안녕! 어디 가?",
+   "note": "ke mana = 어디로",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Ke pasar. Kamu?",
+   "rd": "끄 빠사르. 까무?",
+   "ko": "시장. 너는?",
+   "note": "pasar = 시장",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Aku juga! Ikut, yuk.",
+   "rd": "아꾸 주가! 이꿋, 육.",
+   "ko": "나도! 같이 가자.",
+   "note": "ikut = 같이 가다 · yuk = ~하자",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Oke. Helmnya mana?",
+   "rd": "오께. 흘므냐 마나?",
+   "ko": "좋아. 헬멧은?",
+   "note": "mana = 어디",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Helm? Aku lupa.",
+   "rd": "헬므? 아꾸 루빠.",
+   "ko": "헬멧? 깜빡했다.",
+   "note": "lupa = 잊다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kita jalan kaki saja.",
+   "rd": "끼따 잘란 까끼 사자.",
+   "ko": "그냥 걸어가자.",
+   "note": "jalan kaki = 걷다",
+   "emotion": "annoyed",
+   "tags": []
+  }
+ ]
+}

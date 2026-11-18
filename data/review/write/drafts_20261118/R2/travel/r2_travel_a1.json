@@ -1,0 +1,121 @@
+{
+ "id": "r2_travel_a1",
+ "island": "travel",
+ "kind": "short",
+ "title": "렌터카 대신",
+ "emoji": "🏍️",
+ "scene": "발리 공항. 예약한 차가 없어서 Pak Darto 가 오토바이를 권한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Mobilnya tidak ada",
+  "Bisa diganti?",
+  "Lebih murah"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, mobil yang saya pesan di mana?",
+   "rd": "빡, 모빌 양 사야 쁘산 디 마나?",
+   "ko": "기사님, 제가 예약한 차 어디 있어요?",
+   "note": "pesan = 예약하다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Maaf, Mbak, mobilnya dipakai orang lain.",
+   "rd": "마아프, 음박, 모빌냐 디빠까이 오랑 라인.",
+   "ko": "죄송해요, 차를 다른 사람이 쓰고 있어요.",
+   "note": "di-pakai = 쓰이다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Lho, saya sudah bayar seminggu lalu!",
+   "rd": "로, 사야 수다흐 바야르 스밍구 랄루!",
+   "ko": "어, 저 일주일 전에 돈 냈어요!",
+   "note": "",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Bisa diganti motor. Lebih murah dan cepat.",
+   "rd": "비사 디간띠 모또르. 르비흐 무라흐 단 쯔빳.",
+   "ko": "오토바이로 바꿔 드릴 수 있어요. 더 싸고 빨라요.",
+   "note": "di-ganti = 바뀌다",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Koper saya dua dan besar sekali.",
+   "rd": "꼬쁘르 사야 두아 단 브사르 스깔리.",
+   "ko": "제 캐리어 두 개고 엄청 커요.",
+   "note": "koper = 캐리어",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Tenang. Saya sudah biasa bawa kulkas.",
+   "rd": "뜨낭. 사야 수다흐 비아사 바와 꿀까스.",
+   "ko": "걱정 마요. 냉장고도 실어 봤어요.",
+   "note": "kulkas = 냉장고",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Di atas motor? Bagaimana caranya?",
+   "rd": "디 아따스 모또르? 바가이마나 짜라냐?",
+   "ko": "오토바이 위에요? 어떻게요?",
+   "note": "caranya = 방법",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Satu di depan, satu di belakang, Mbak di tengah.",
+   "rd": "사뚜 디 드빤, 사뚜 디 블라깡, 음박 디 뜽아흐.",
+   "ko": "하나는 앞에, 하나는 뒤에, 손님은 가운데.",
+   "note": "tengah = 가운데",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Kalau begitu, pelan-pelan, ya, Pak!",
+   "rd": "깔라우 브기뚜, 쁠란-쁠란, 야, 빡!",
+   "ko": "그럼 천천히 가 주세요!",
+   "note": "pelan-pelan = 천천히",
+   "emotion": "worried",
+   "tags": []
+  }
+ ]
+}

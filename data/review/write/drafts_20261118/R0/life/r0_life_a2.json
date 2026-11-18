@@ -1,0 +1,91 @@
+{
+ "id": "r0_life_a2",
+ "island": "life",
+ "kind": "short",
+ "title": "화장실 어디예요?",
+ "emoji": "🚻",
+ "scene": "쇼핑몰. 급한데 직원 Dimas 가 너무 천천히 설명한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Di mana …?",
+  "Kiri / kanan",
+  "Terima kasih"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Permisi, toilet di mana?",
+   "rd": "쁘르미시, 또일릇 디 마나?",
+   "ko": "실례합니다, 화장실 어디예요?",
+   "note": "di mana = 어디에",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Lurus, lalu belok kiri.",
+   "rd": "루루스, 랄루 블록 끼리.",
+   "ko": "쭉 가서 왼쪽으로 도세요.",
+   "note": "lurus = 곧장 · kiri = 왼쪽",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Kiri? Terima kasih!",
+   "rd": "끼리? 뜨리마 까시흐!",
+   "ko": "왼쪽이요? 고맙습니다!",
+   "note": "",
+   "emotion": "relieved",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Eh, maaf, kanan!",
+   "rd": "에, 마아프, 까난!",
+   "ko": "어, 죄송해요, 오른쪽!",
+   "note": "kanan = 오른쪽",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Kanan atau kiri?!",
+   "rd": "까난 아따우 끼리?!",
+   "ko": "오른쪽이에요 왼쪽이에요?!",
+   "note": "atau = 아니면",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Ikut saya saja!",
+   "rd": "이꿋 사야 사자!",
+   "ko": "그냥 저 따라오세요!",
+   "note": "ikut = 따라가다",
+   "emotion": "excited",
+   "tags": []
+  }
+ ]
+}

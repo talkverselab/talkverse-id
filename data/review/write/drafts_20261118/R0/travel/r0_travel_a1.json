@@ -1,0 +1,91 @@
+{
+ "id": "r0_travel_a1",
+ "island": "travel",
+ "kind": "short",
+ "title": "이 버스 어디 가요?",
+ "emoji": "🚌",
+ "scene": "정류장. Pak Darto 가 오토바이를 세우고 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Bus ini ke mana?",
+  "Naik ojek?",
+  "Berapa?"
+ ],
+ "region": "R0",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, bus ke Kota di sini?",
+   "rd": "빡, 부스 끄 꼬따 디 시니?",
+   "ko": "아저씨, 시내 가는 버스 여기 서요?",
+   "note": "di sini = 여기",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Bus? Naik ojek saja.",
+   "rd": "부스? 나익 오젝 사자.",
+   "ko": "버스? 그냥 오젝 타요.",
+   "note": "naik = 타다 · ojek = 오토바이 택시",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Saya mau naik bus.",
+   "rd": "사야 마우 나익 부스.",
+   "ko": "저 버스 탈 거예요.",
+   "note": "",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Ojek lebih cepat, lho.",
+   "rd": "오젝 르비흐 쯔빳, 로.",
+   "ko": "오젝이 더 빨라요.",
+   "note": "lebih cepat = 더 빠르다",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Berapa, Pak?",
+   "rd": "브라빠, 빡?",
+   "ko": "얼마예요?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Untuk kamu, gratis!",
+   "rd": "운뚝 까무, 그라띠스!",
+   "ko": "당신은 공짜!",
+   "note": "gratis = 공짜",
+   "emotion": "excited",
+   "tags": []
+  }
+ ]
+}

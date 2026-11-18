@@ -1,0 +1,121 @@
+{
+ "id": "r2_friends_a1",
+ "island": "friends",
+ "kind": "short",
+ "title": "노래방",
+ "emoji": "🎤",
+ "scene": "친구 생일 노래방. Nadia 가 마이크를 놓지 않는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Giliran aku",
+  "Satu lagu lagi",
+  "Suaramu"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Nadia, sekarang giliran aku, ya.",
+   "rd": "나디아, 스까랑 길리란 아꾸, 야.",
+   "ko": "나디아, 이제 내 차례야.",
+   "note": "giliran = 차례",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Satu lagu lagi! Ini lagu favoritku.",
+   "rd": "사뚜 라구 라기! 이니 라구 파포릿꾸.",
+   "ko": "한 곡만 더! 이거 내 최애곡이야.",
+   "note": "lagu = 노래",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Kamu bilang begitu sudah lima kali.",
+   "rd": "까무 빌랑 브기뚜 수다흐 리마 깔리.",
+   "ko": "그 말 벌써 다섯 번째야.",
+   "note": "",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Oke, kita nyanyi berdua saja.",
+   "rd": "오께, 끼따 냐니 브르두아 사자.",
+   "ko": "알았어, 그냥 둘이 같이 부르자.",
+   "note": "berdua = 둘이서",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Lagu apa? Aku tidak tahu lagu ini.",
+   "rd": "라구 아빠? 아꾸 띠닥 따후 라구 이니.",
+   "ko": "무슨 노래? 나 이 노래 몰라.",
+   "note": "",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Tidak apa-apa. Ikuti saja liriknya.",
+   "rd": "띠닥 아빠-아빠. 이꾸띠 사자 리릭냐.",
+   "ko": "괜찮아. 가사만 따라 해.",
+   "note": "ikut-i = 따라가다 · lirik = 가사",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Liriknya bahasa Jawa semua!",
+   "rd": "리릭냐 바하사 자와 스무아!",
+   "ko": "가사가 전부 자바어잖아!",
+   "note": "",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Makanya aku yang nyanyi terus dari tadi.",
+   "rd": "마까냐 아꾸 양 냐니 뜨루스 다리 따디.",
+   "ko": "그러니까 내가 아까부터 계속 부른 거지.",
+   "note": "makanya = 그러니까",
+   "emotion": "teasing",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "id": "Ya sudah, mikrofonnya untukmu. Aku makan saja.",
+   "rd": "야 수다흐, 믹로폰냐 운뚝무. 아꾸 마깐 사자.",
+   "ko": "그래, 마이크는 너 해. 난 먹기나 할래.",
+   "note": "ya sudah = 그래 됐어",
+   "emotion": "tired",
+   "tags": []
+  }
+ ]
+}

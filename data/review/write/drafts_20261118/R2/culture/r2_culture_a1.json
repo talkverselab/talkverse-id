@@ -1,0 +1,121 @@
+{
+ "id": "r2_culture_a1",
+ "island": "culture",
+ "kind": "short",
+ "title": "르바란 귀성",
+ "emoji": "🕌",
+ "scene": "르바란 전날 기차역. Ayu 가 고향 가는 표를 구하지 못했다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Ayu"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Mudik",
+  "Tiketnya habis",
+  "Ikut aku"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Tiket mudik habis semua. Aku tidak bisa pulang.",
+   "rd": "띠끗 무딕 하비스 스무아. 아꾸 띠닥 비사 뿔랑.",
+   "ko": "귀성 표가 다 팔렸어. 나 집에 못 가.",
+   "note": "mudik = 고향 가기 · habis = 다 떨어지다",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kampungmu di mana?",
+   "rd": "깜뿡무 디 마나?",
+   "ko": "고향이 어디야?",
+   "note": "kampung = 고향 마을",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Di Solo. Ibu sudah masak opor.",
+   "rd": "디 솔로. 이부 수다흐 마삭 오뽀르.",
+   "ko": "솔로. 엄마가 벌써 오포르 만들어 놓으셨대.",
+   "note": "opor = 코코넛 닭 요리",
+   "emotion": "sad",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Aku juga ke arah Solo. Naik mobil sewaan.",
+   "rd": "아꾸 주가 끄 아라흐 솔로. 나익 모빌 스와안.",
+   "ko": "나도 솔로 쪽으로 가. 빌린 차로.",
+   "note": "sewaan = 빌린 것",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Serius? Boleh aku ikut?",
+   "rd": "스리우스? 볼레흐 아꾸 이꿋?",
+   "ko": "진짜? 나 같이 가도 돼?",
+   "note": "",
+   "emotion": "hopeful",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Boleh, tapi perjalanannya dua belas jam.",
+   "rd": "볼레흐, 따삐 쁘르잘라난냐 두아 블라스 잠.",
+   "ko": "돼, 근데 열두 시간 걸려.",
+   "note": "perjalanan = 여정",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Tidak apa-apa. Aku bawa camilan banyak.",
+   "rd": "띠닥 아빠-아빠. 아꾸 바와 짜밀란 바냑.",
+   "ko": "괜찮아. 간식 많이 가져갈게.",
+   "note": "camilan = 간식",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Sebenarnya aku tidak bisa menyetir.",
+   "rd": "스브나르냐 아꾸 띠닥 비사 므느띠르.",
+   "ko": "사실 나 운전 못 해.",
+   "note": "me-nyetir = 운전하다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Jadi kamu cari teman yang bisa menyetir?",
+   "rd": "자디 까무 짜리 뜨만 양 비사 므느띠르?",
+   "ko": "그러니까 운전할 사람 찾고 있었던 거야?",
+   "note": "",
+   "emotion": "laughing",
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "id": "r2_culture_a2",
+ "island": "culture",
+ "kind": "short",
+ "title": "결혼식 초대",
+ "emoji": "💐",
+ "scene": "사무실. Nadia 가 화려한 청첩장을 나눠 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nadia"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "expressions": [
+  "Undangan",
+  "Datang, ya",
+  "Pakai baju apa?"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Ini undangan pernikahan kakakku. Datang, ya.",
+   "rd": "이니 운당안 쁘르니까한 까깍꾸. 다땅, 야.",
+   "ko": "우리 언니 결혼식 청첩장이야. 꼭 와.",
+   "note": "undangan = 초대장 · pernikahan = 결혼",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Wah, terima kasih. Tamunya berapa orang?",
+   "rd": "와, 뜨리마 까시흐. 따무냐 브라빠 오랑?",
+   "ko": "와, 고마워. 하객이 몇 명이야?",
+   "note": "tamu = 손님",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Sekitar seribu lima ratus.",
+   "rd": "스끼따르 스리부 리마 라뚜스.",
+   "ko": "천오백 명쯤.",
+   "note": "sekitar = 약",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Seribu lima ratus? Kakakmu kenal semua?",
+   "rd": "스리부 리마 라뚜스? 까깍무 끄날 스무아?",
+   "ko": "천오백? 언니가 다 아는 사람이야?",
+   "note": "kenal = 알다",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Tidak. Kebanyakan teman orang tuaku.",
+   "rd": "띠닥. 끄바냐깐 뜨만 오랑 뚜아꾸.",
+   "ko": "아니. 대부분 부모님 친구분들.",
+   "note": "kebanyakan = 대부분",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Aku harus pakai baju apa?",
+   "rd": "아꾸 하루스 빠까이 바주 아빠?",
+   "ko": "나 뭐 입어야 해?",
+   "note": "",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Bebas. Yang penting jangan putih.",
+   "rd": "베바스. 양 쁜띵 장안 뿌띠흐.",
+   "ko": "자유야. 하얀색만 빼고.",
+   "note": "bebas = 자유",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Hadiahnya apa yang bagus?",
+   "rd": "하디아흐냐 아빠 양 바구스?",
+   "ko": "선물은 뭐가 좋을까?",
+   "note": "",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Datang dan makan banyak. Makanannya untuk tiga ribu.",
+   "rd": "다땅 단 마깐 바냑. 마까난냐 운뚝 띠가 리부.",
+   "ko": "와서 많이 먹기. 음식이 삼천 명분이야.",
+   "note": "",
+   "emotion": "laughing",
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "id": "r2_friends_a2",
+ "island": "friends",
+ "kind": "short",
+ "title": "빌려 간 돈",
+ "emoji": "💸",
+ "scene": "점심시간. Raka 가 지난달 빌린 돈 이야기를 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "expressions": [
+  "Utang",
+  "Kapan dibayar?",
+  "Lupa"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Eh, utangku bulan lalu belum dibayar, ya?",
+   "rd": "에, 우땅꾸 불란 랄루 블룸 디바야르, 야?",
+   "ko": "어, 나 지난달 빌린 돈 아직 안 갚았지?",
+   "note": "utang = 빚 · di-bayar = 갚아지다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Utang yang mana? Aku sudah lupa.",
+   "rd": "우땅 양 마나? 아꾸 수다흐 루빠.",
+   "ko": "무슨 돈? 나 잊어버렸는데.",
+   "note": "",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Yang lima puluh ribu, waktu nonton konser.",
+   "rd": "양 리마 뿔루흐 리부, 왁뚜 논똔 꼰스르.",
+   "ko": "콘서트 보던 날 오만 루피아.",
+   "note": "waktu = ~때",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Oh, itu. Santai saja.",
+   "rd": "오, 이뚜. 산따이 사자.",
+   "ko": "아, 그거. 신경 쓰지 마.",
+   "note": "santai = 느긋한",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Tidak bisa. Aku bayar sekarang.",
+   "rd": "띠닥 비사. 아꾸 바야르 스까랑.",
+   "ko": "안 돼. 지금 갚을게.",
+   "note": "",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kenapa tiba-tiba rajin begini?",
+   "rd": "끄나빠 띠바-띠바 라진 브기니?",
+   "ko": "왜 갑자기 이렇게 꼼꼼해?",
+   "note": "tiba-tiba = 갑자기 · rajin = 부지런한",
+   "emotion": "suspicious",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Soalnya aku mau pinjam lagi, seratus ribu.",
+   "rd": "소알냐 아꾸 마우 삔잠 라기, 스라뚜스 리부.",
+   "ko": "왜냐면 또 빌리려고. 십만.",
+   "note": "soalnya = 왜냐면 · pinjam = 빌리다",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Jadi kamu bayar lima puluh untuk pinjam seratus?",
+   "rd": "자디 까무 바야르 리마 뿔루흐 운뚝 삔잠 스라뚜스?",
+   "ko": "그러니까 오만 갚고 십만 빌리겠다고?",
+   "note": "",
+   "emotion": "laughing",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Hitungannya bagus, kan?",
+   "rd": "히뚱안냐 바구스, 깐?",
+   "ko": "계산 잘했지?",
+   "note": "hitungan = 계산",
+   "emotion": "teasing",
+   "tags": []
+  }
+ ]
+}

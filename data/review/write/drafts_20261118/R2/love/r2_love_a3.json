@@ -1,0 +1,121 @@
+{
+ "id": "r2_love_a3",
+ "island": "love",
+ "kind": "short",
+ "title": "첫 데이트 식당",
+ "emoji": "🍲",
+ "scene": "첫 데이트. Dimas 가 고른 식당은 그의 어머니 가게였다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "expressions": [
+  "Pesan apa?",
+  "Rekomendasi",
+  "Kok tahu?"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Di sini sotonya paling enak se-Jakarta.",
+   "rd": "디 시니 소또냐 빨링 에낙 스-자까르따.",
+   "ko": "여기 소토가 자카르타에서 제일 맛있어.",
+   "note": "soto = 국 요리 · se- = ~전체에서",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kamu sering ke sini, ya?",
+   "rd": "까무 스링 끄 시니, 야?",
+   "ko": "여기 자주 오나 봐?",
+   "note": "",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Lumayan. Mau pesan apa?",
+   "rd": "루마얀. 마우 쁘산 아빠?",
+   "ko": "꽤. 뭐 시킬래?",
+   "note": "lumayan = 꽤",
+   "emotion": "nervous",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Aku ikut rekomendasimu saja.",
+   "rd": "아꾸 이꿋 르꼬믄다시무 사자.",
+   "ko": "네 추천대로 할게.",
+   "note": "ikut = 따르다",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Bu, soto dua, yang satu tanpa seledri.",
+   "rd": "부, 소또 두아, 양 사뚜 딴빠 슬릇리.",
+   "ko": "아주머니, 소토 둘이요, 하나는 셀러리 빼고요.",
+   "note": "tanpa = ~없이",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Kok tahu aku tidak suka seledri?",
+   "rd": "꼭 따후 아꾸 띠닥 수까 슬릇리?",
+   "ko": "내가 셀러리 싫어하는 거 어떻게 알았어?",
+   "note": "kok = 어떻게·웬걸",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Kamu selalu menyisihkannya di kantin.",
+   "rd": "까무 슬랄루 므니시흐깐냐 디 깐띤.",
+   "ko": "너 구내식당에서 늘 골라내잖아.",
+   "note": "menyisih-kan = 따로 빼다",
+   "emotion": "shy",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Ibu itu dari tadi tersenyum terus ke kita.",
+   "rd": "이부 이뚜 다리 따디 뜨르스늄 뜨루스 끄 끼따.",
+   "ko": "저 아주머니 아까부터 우리 보고 계속 웃으셔.",
+   "note": "ter-senyum = 미소 짓다",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Itu... ibu saya. Ini warung keluarga kami.",
+   "rd": "이뚜... 이부 사야. 이니 와룽 끌루아르가 까미.",
+   "ko": "그게… 우리 엄마야. 여기 우리 집 식당이야.",
+   "note": "",
+   "emotion": "embarrassed",
+   "tags": []
+  }
+ ]
+}

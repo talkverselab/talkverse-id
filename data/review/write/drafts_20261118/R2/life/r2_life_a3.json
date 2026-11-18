@@ -1,0 +1,121 @@
+{
+ "id": "r2_life_a3",
+ "island": "life",
+ "kind": "short",
+ "title": "이사 첫날",
+ "emoji": "🏠",
+ "scene": "새 하숙집. 주인 Bu Sri 가 규칙을 하나씩 알려 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Bu Sri"
+ },
+ "register": "polite",
+ "twist": 4,
+ "twist_type": "ignore",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Aturannya",
+  "Tidak boleh",
+  "Kalau mau"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Selamat datang. Ada beberapa aturan di sini.",
+   "rd": "슬라맛 다땅. 아다 브브라빠 아뚜란 디 시니.",
+   "ko": "어서 와. 여기 규칙이 몇 개 있어.",
+   "note": "aturan = 규칙 · beberapa = 몇몇",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Baik, Bu. Apa saja?",
+   "rd": "바익, 부. 아빠 사자?",
+   "ko": "네. 뭐가 있어요?",
+   "note": "apa saja = 무엇무엇",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Jam sepuluh malam pintu dikunci.",
+   "rd": "잠 스뿔루흐 말람 삔뚜 디꾼찌.",
+   "ko": "밤 열 시에 문 잠가.",
+   "note": "di-kunci = 잠기다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kalau saya pulang terlambat?",
+   "rd": "깔라우 사야 뿔랑 뜨르람밧?",
+   "ko": "제가 늦게 오면요?",
+   "note": "terlambat = 늦다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Telepon saya dulu. Dan tidak boleh masak durian.",
+   "rd": "뗄레뽄 사야 둘루. 단 띠닥 볼레흐 마삭 두리안.",
+   "ko": "먼저 전화해. 그리고 두리안 요리는 금지야.",
+   "note": "tidak boleh = 안 된다",
+   "emotion": "serious",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Durian dimasak? Siapa yang masak durian?",
+   "rd": "두리안 디마삭? 시아빠 양 마삭 두리안?",
+   "ko": "두리안을 요리해요? 누가 그래요?",
+   "note": "",
+   "emotion": "confused",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Anak kamar tiga. Seminggu baunya tidak hilang.",
+   "rd": "아낙 까마르 띠가. 스밍구 바우냐 띠닥 힐랑.",
+   "ko": "3호실 학생. 일주일 동안 냄새가 안 빠졌어.",
+   "note": "bau = 냄새 · hilang = 사라지다",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Oke, Bu. Saya janji tidak.",
+   "rd": "오께, 부. 사야 잔지 띠닥.",
+   "ko": "알겠어요. 안 할게요, 약속해요.",
+   "note": "janji = 약속하다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Satu lagi. Jangan dekat-dekat anak kamar tiga.",
+   "rd": "사뚜 라기. 장안 드깟-드깟 아낙 까마르 띠가.",
+   "ko": "하나 더. 3호실 학생 가까이 가지 마.",
+   "note": "",
+   "emotion": "teasing",
+   "tags": []
+  }
+ ]
+}

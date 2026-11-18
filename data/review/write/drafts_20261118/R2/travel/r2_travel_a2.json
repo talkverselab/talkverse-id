@@ -1,0 +1,121 @@
+{
+ "id": "r2_travel_a2",
+ "island": "travel",
+ "kind": "short",
+ "title": "일출 투어",
+ "emoji": "🌄",
+ "scene": "새벽 3시 화산 투어. 가이드 Raka 가 정상 직전에 멈춘다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Raka"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "expressions": [
+  "Sebentar lagi",
+  "Hati-hati",
+  "Indah sekali"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Sebentar lagi sampai. Hati-hati, jalannya licin.",
+   "rd": "스븐따르 라기 삼빠이. 하띠-하띠, 잘란냐 리찐.",
+   "ko": "조금만 더 가면 도착이에요. 조심해요, 길이 미끄러워요.",
+   "note": "licin = 미끄럽다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Kaki saya sudah tidak terasa.",
+   "rd": "까끼 사야 수다흐 띠닥 뜨라사.",
+   "ko": "다리 감각이 없어요.",
+   "note": "terasa = 느껴지다",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Pegang tangan saya. Lima menit lagi.",
+   "rd": "쁘강 땅안 사야. 리마 므닛 라기.",
+   "ko": "제 손 잡아요. 5분만 더.",
+   "note": "pegang = 잡다",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Kamu bilang lima menit tiga puluh menit lalu.",
+   "rd": "까무 빌랑 리마 므닛 띠가 뿔루흐 므닛 랄루.",
+   "ko": "30분 전에도 5분이라고 했잖아요.",
+   "note": "",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Kali ini benar. Lihat, langitnya mulai merah.",
+   "rd": "깔리 이니 브나르. 리핫, 랑잇냐 물라이 메라흐.",
+   "ko": "이번엔 진짜예요. 봐요, 하늘이 붉어지기 시작했어요.",
+   "note": "langit = 하늘",
+   "emotion": "excited",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Wah... indah sekali.",
+   "rd": "와... 인다흐 스깔리.",
+   "ko": "와… 정말 아름답다.",
+   "note": "indah = 아름답다",
+   "emotion": "moved",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Saya naik ke sini hampir setiap hari.",
+   "rd": "사야 나익 끄 시니 함삐르 스띠압 하리.",
+   "ko": "저 여기 거의 매일 올라와요.",
+   "note": "",
+   "emotion": "calm",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Tidak bosan?",
+   "rd": "띠닥 보산?",
+   "ko": "안 질려요?",
+   "note": "bosan = 질리다",
+   "emotion": "curious",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Tidak pernah. Setiap pagi wajah tamunya beda.",
+   "rd": "띠닥 쁘르나흐. 스띠압 빠기 와자흐 따무냐 브다.",
+   "ko": "한 번도요. 아침마다 손님 표정이 다르거든요.",
+   "note": "wajah = 얼굴 · beda = 다르다",
+   "emotion": "warm",
+   "tags": []
+  }
+ ]
+}

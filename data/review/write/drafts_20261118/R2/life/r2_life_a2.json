@@ -1,0 +1,111 @@
+{
+ "id": "r2_life_a2",
+ "island": "life",
+ "kind": "short",
+ "title": "에어컨 수리",
+ "emoji": "❄️",
+ "scene": "한낮 36도. 수리기사 Pak Darto 가 에어컨을 보고 고개를 젓는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Pak Darto"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "expressions": [
+  "Kenapa?",
+  "Harus diganti",
+  "Berapa lama?"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "id": "Pak, AC-nya kenapa? Panas sekali di sini.",
+   "rd": "빡, 아츠-냐 끄나빠? 빠나스 스깔리 디 시니.",
+   "ko": "기사님, 에어컨 왜 그래요? 여기 너무 더워요.",
+   "note": "AC = 에어컨",
+   "emotion": "annoyed",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "id": "Remotnya habis baterai, Mbak.",
+   "rd": "르못냐 하비스 바뜨라이, 음박.",
+   "ko": "리모컨 배터리가 다 됐어요.",
+   "note": "habis = 다 떨어지다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "id": "Cuma baterai? Saya sudah panggil Bapak jauh-jauh.",
+   "rd": "쭈마 바뜨라이? 사야 수다흐 빵길 바빡 자우흐-자우흐.",
+   "ko": "배터리뿐이에요? 멀리서 오시게 했는데.",
+   "note": "panggil = 부르다",
+   "emotion": "embarrassed",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "id": "Tapi filternya juga kotor sekali. Harus dicuci.",
+   "rd": "따삐 필뜨르냐 주가 꼬또르 스깔리. 하루스 디쭈찌.",
+   "ko": "근데 필터도 엄청 더러워요. 씻어야 해요.",
+   "note": "di-cuci = 씻기다",
+   "emotion": "neutral",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "id": "Berapa lama, Pak?",
+   "rd": "브라빠 라마, 빡?",
+   "ko": "얼마나 걸려요?",
+   "note": "berapa lama = 얼마나 오래",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "id": "Satu jam. Sambil menunggu, ada es teh?",
+   "rd": "사뚜 잠. 삼빌 므눙구, 아다 에스 떼흐?",
+   "ko": "한 시간요. 기다리는 동안 아이스티 있어요?",
+   "note": "sambil = ~하면서",
+   "emotion": "happy",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "id": "Ada. Bapak mau gula?",
+   "rd": "아다. 바빡 마우 굴라?",
+   "ko": "있어요. 설탕 넣으세요?",
+   "note": "",
+   "emotion": "kind",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "id": "Banyak, ya. Saya juga kepanasan.",
+   "rd": "바냑, 야. 사야 주가 끄빠나산.",
+   "ko": "많이요. 나도 더워 죽겠어요.",
+   "note": "ke-panas-an = 더위 먹다",
+   "emotion": "tired",
+   "tags": []
+  }
+ ]
+}

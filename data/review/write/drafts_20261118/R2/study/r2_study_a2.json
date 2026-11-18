@@ -1,0 +1,131 @@
+{
+ "id": "r2_study_a2",
+ "island": "study",
+ "kind": "short",
+ "title": "조별 과제 단톡",
+ "emoji": "💻",
+ "scene": "밤 11시. 조장 Dimas 가 영상 통화를 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dimas"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "expressions": [
+  "Bagian kamu",
+  "Sudah dikerjakan?",
+  "Tenang saja"
+ ],
+ "region": "R2",
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "id": "Bagian kamu sudah dikerjakan?",
+   "rd": "바기안 까무 수다흐 디끄르자깐?",
+   "ko": "네 부분 다 했어?",
+   "note": "bagian = 부분 · di-kerja-kan = 해지다",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "id": "Hampir. Tinggal kesimpulannya saja.",
+   "rd": "함삐르. 띵갈 끄심뿔란냐 사자.",
+   "ko": "거의. 결론만 남았어.",
+   "note": "tinggal = ~만 남다 · kesimpulan = 결론",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "id": "Syukurlah. Yang lain belum mulai sama sekali.",
+   "rd": "슈꾸르라흐. 양 라인 블룸 물라이 사마 스깔리.",
+   "ko": "다행이다. 다른 사람들은 아예 시작도 안 했어.",
+   "note": "sama sekali = 전혀",
+   "emotion": "relieved",
+   "tags": []
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "id": "Lho, besok pagi harus dikumpulkan, kan?",
+   "rd": "로, 베속 빠기 하루스 디꿈뿔깐, 깐?",
+   "ko": "어, 내일 아침에 내야 하잖아?",
+   "note": "di-kumpul-kan = 제출되다",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "id": "Iya. Makanya aku telepon kamu.",
+   "rd": "이야. 마까냐 아꾸 뗄레뽄 까무.",
+   "ko": "응. 그래서 너한테 전화한 거야.",
+   "note": "makanya = 그래서",
+   "emotion": "worried",
+   "tags": []
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "id": "Jangan bilang aku harus mengerjakan semuanya.",
+   "rd": "장안 빌랑 아꾸 하루스 믕으르자깐 스무아냐.",
+   "ko": "설마 나더러 다 하라는 거 아니지.",
+   "note": "jangan bilang = 설마 ~는 아니겠지",
+   "emotion": "suspicious",
+   "tags": []
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "id": "Bukan. Aku sudah selesaikan bagian mereka.",
+   "rd": "부깐. 아꾸 수다흐 슬르사이깐 바기안 므르까.",
+   "ko": "아니. 그 사람들 부분은 내가 벌써 끝냈어.",
+   "note": "selesai-kan = 끝내다",
+   "emotion": "proud",
+   "tags": []
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "id": "Hah? Kapan kamu sempat?",
+   "rd": "하? 까빤 까무 슴빳?",
+   "ko": "뭐? 언제 그럴 시간이 있었어?",
+   "note": "sempat = 시간이 나다",
+   "emotion": "surprised",
+   "tags": []
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "id": "Aku tidak tidur dua hari.",
+   "rd": "아꾸 띠닥 띠두르 두아 하리.",
+   "ko": "나 이틀 못 잤어.",
+   "note": "",
+   "emotion": "tired",
+   "tags": []
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "id": "Dimas, tidur sekarang. Kesimpulannya biar aku.",
+   "rd": "디마스, 띠두르 스까랑. 끄심뿔란냐 비아르 아꾸.",
+   "ko": "디마스, 지금 자. 결론은 내가 할게.",
+   "note": "biar aku = 내가 할게",
+   "emotion": "kind",
+   "tags": []
+  }
+ ]
+}
