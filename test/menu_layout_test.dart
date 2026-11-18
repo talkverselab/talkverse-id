@@ -57,7 +57,10 @@ void main() {
     testWidgets('학습 ${size.width}', (t) async {
       await open(t, size, const LearnScreen());
       await t.pump();
+      expect(find.text('언어감각 익히기'), findsOneWidget);
+      await t.scrollUntilVisible(find.text('절벽 단어 R1~R5'), 200);
       expect(find.text('절벽 단어 R1~R5'), findsOneWidget);
+      expect(find.text('외국어에서 온 말'), findsOneWidget);
       expect(find.text('회화 노트'), findsNothing);
       expect(t.takeException(), isNull);
     });

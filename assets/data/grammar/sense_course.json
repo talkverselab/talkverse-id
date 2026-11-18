@@ -1,0 +1,894 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "급마다 외울 대화 10줄 + 참고",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "meN- 익히기 (동사 만들기)",
+   "lessons": [
+    {
+     "id": "L1-talk",
+     "title": "meN- 익히기 (동사 만들기)",
+     "kind": "memorize",
+     "video": "",
+     "note": "meN- 을 일부러 설명하지 않았어요. 대화를 외우면 소리 바뀜이 귀에 붙어요.",
+     "sentences": [
+      {
+       "who": "Raka",
+       "id": "Ayu, kamu sedang {membaca|1} apa?",
+       "ko": "아유, 뭐 {읽|1}고 있어?"
+      },
+      {
+       "who": "Ayu",
+       "id": "Aku {membaca|1} novel. Kamu {memasak|2} apa?",
+       "ko": "소설 {읽|1}어. 너는 뭐 {요리해|2}?"
+      },
+      {
+       "who": "Raka",
+       "id": "Aku {mencoba|3} resep nasi goreng baru.",
+       "ko": "새 나시고렝 레시피를 {해 보|3}는 중이야."
+      },
+      {
+       "who": "Ayu",
+       "id": "Wah, nanti aku {membantu|4} {mencuci|5} piring, ya.",
+       "ko": "와, 이따 접시 {씻는|5} 건 내가 {도와|4}줄게."
+      },
+      {
+       "who": "Raka",
+       "id": "Tolong {ambilkan|6} garam itu.",
+       "ko": "그 소금 좀 {집어|6} 줘."
+      },
+      {
+       "who": "Ayu",
+       "id": "Ini. Kamu juga {menyiapkan|7} teh?",
+       "ko": "여기. 차도 {준비하|7}는 거야?"
+      },
+      {
+       "who": "Raka",
+       "id": "Iya. Sambil {menunggu|8}, kita {menonton|9} TV, yuk.",
+       "ko": "응. {기다리|8}는 동안 TV {보|9}자."
+      },
+      {
+       "who": "Ayu",
+       "id": "Oke. Aku {menulis|10} pesan untuk Ibu dulu.",
+       "ko": "좋아. 나 먼저 엄마한테 메시지 {쓸|10}게."
+      },
+      {
+       "who": "Raka",
+       "id": "Bilang aku {mengundang|1} Ibu makan malam di sini.",
+       "ko": "여기서 저녁 드시라고 내가 {초대한|1}다고 전해 줘."
+      },
+      {
+       "who": "Ayu",
+       "id": "Siap! Ibu pasti senang {mendengarnya|2}.",
+       "ko": "알겠어! 엄마가 {들으시|2}면 분명 좋아하실 거야."
+      }
+     ],
+     "footnotes": [
+      "meN- = 동사를 만드는 앞말. 뒤 첫소리에 따라 me·mem·men·meng·meny 로 바뀌어요 (baca → membaca, coba → mencoba, ambil → mengambil).",
+      "p·t·k·s 로 시작하는 말은 그 첫소리가 사라져요 (tunggu → menunggu, tonton → menonton, siap → menyiapkan, pakai → memakai).",
+      "부탁·명령할 때는 meN- 을 떼요 (Tolong ambilkan, Baca ini!).",
+      "친한 말에서는 meN- 을 자주 빼요 (Lagi baca apa? = 뭐 읽어?)."
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "title": "접사 체계 한눈에 (메뉴 열기)",
+     "kind": "ref",
+     "open": "affix"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "꾸미는 말은 뒤에",
+   "lessons": [
+    {
+     "id": "L2-talk",
+     "title": "꾸미는 말은 뒤에",
+     "kind": "memorize",
+     "video": "",
+     "note": "한국어와 순서가 반대예요. 외우다 보면 「명사 먼저」가 자연스러워져요.",
+     "sentences": [
+      {
+       "who": "Nadia",
+       "id": "Itu {rumah|1} {baru|2} kamu?",
+       "ko": "저게 너의 {새|2} {집|1}이야?"
+      },
+      {
+       "who": "Dimas",
+       "id": "Iya. {Rumah|1} {kecil|3}, tapi {kamarnya|4} {terang|5}.",
+       "ko": "응. {작은|3} {집|1}이지만 {방이|4} {밝아|5}."
+      },
+      {
+       "who": "Nadia",
+       "id": "{Kucing|6} {hitam|7} itu {kucing|6} {kamu|8} juga?",
+       "ko": "그 {검은|7} {고양이|6}도 {네|8} {고양이|6}야?"
+      },
+      {
+       "who": "Dimas",
+       "id": "Bukan. Itu {kucing|6} {tetangga|9} {sebelah|10}.",
+       "ko": "아니. {옆집|10} {이웃|9} {고양이|6}야."
+      },
+      {
+       "who": "Nadia",
+       "id": "Lucu sekali! Aku suka {mata|1} {birunya|2}.",
+       "ko": "엄청 귀엽다! {파란|2} {눈|1}이 좋아."
+      },
+      {
+       "who": "Dimas",
+       "id": "Mau minum {kopi|3} {dingin|4}?",
+       "ko": "{차가운|4} {커피|3} 마실래?"
+      },
+      {
+       "who": "Nadia",
+       "id": "Boleh. {Gelas|5} {yang|6} {besar|7}, ya.",
+       "ko": "좋아. {큰|7} {잔|5}으로."
+      },
+      {
+       "who": "Dimas",
+       "id": "Ini {gelas|5} {favorit|8} {saya|9}.",
+       "ko": "이게 {내가|9} {제일 좋아하는|8} {잔|5}이야."
+      },
+      {
+       "who": "Nadia",
+       "id": "{Rumah|1} {ini|10} cocok sekali untuk kamu.",
+       "ko": "{이|10} {집|1}, 너한테 딱 어울린다."
+      },
+      {
+       "who": "Dimas",
+       "id": "Terima kasih. Kapan-kapan main ke sini lagi, ya.",
+       "ko": "고마워. 언제 또 놀러 와."
+      }
+     ],
+     "footnotes": [
+      "명사 + 꾸미는 말: rumah baru (집 새 = 새 집), kopi dingin (커피 차가운 = 차가운 커피).",
+      "「누구의」도 뒤에: kucing saya (고양이 나 = 내 고양이), rumah kamu (네 집).",
+      "이·그·저도 뒤에: rumah ini (이 집), kucing itu (그 고양이).",
+      "꾸미는 말이 길거나 고를 때는 yang: gelas yang besar (큰 것인 잔)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "때를 나타내는 말",
+   "lessons": [
+    {
+     "id": "L3-talk",
+     "title": "때를 나타내는 말",
+     "kind": "memorize",
+     "video": "",
+     "note": "인도네시아어 동사는 모양이 바뀌지 않아요. 앞에 붙는 한 단어가 때를 알려 줘요.",
+     "sentences": [
+      {
+       "who": "Ayu",
+       "id": "Raka, kamu {sudah|1} makan?",
+       "ko": "라카, 밥 {먹었어|1}?"
+      },
+      {
+       "who": "Raka",
+       "id": "{Belum|2}. Aku {sedang|3} menunggu kamu.",
+       "ko": "{아직|2}. 너 {기다리고 있었어|3}."
+      },
+      {
+       "who": "Ayu",
+       "id": "Maaf, aku {baru|4} pulang dari kantor.",
+       "ko": "미안, 회사에서 {막|4} 왔어."
+      },
+      {
+       "who": "Raka",
+       "id": "Tidak apa-apa. Kita {akan|5} makan di warung Bu Sri?",
+       "ko": "괜찮아. 우리 스리 아주머니 와룽에서 {먹을 거지|5}?"
+      },
+      {
+       "who": "Ayu",
+       "id": "Iya, tapi aku {masih|6} harus mandi.",
+       "ko": "응, 근데 나 {아직|6} 씻어야 돼."
+      },
+      {
+       "who": "Raka",
+       "id": "Warungnya {sebentar lagi|7} tutup, lho.",
+       "ko": "와룽 {곧|7} 문 닫는다?"
+      },
+      {
+       "who": "Ayu",
+       "id": "Lima menit saja! Aku {pernah|8} mandi tiga menit.",
+       "ko": "5분만! 나 3분 만에 씻은 {적도 있어|8}."
+      },
+      {
+       "who": "Raka",
+       "id": "Oke. Aku {mau|9} pesan dulu lewat telepon.",
+       "ko": "알았어. 내가 먼저 전화로 주문 {할게|9}."
+      },
+      {
+       "who": "Ayu",
+       "id": "Pesan nasi goreng {lagi|10}?",
+       "ko": "{또|10} 나시고렝 시켜?"
+      },
+      {
+       "who": "Raka",
+       "id": "Tentu. Aku {selalu|1} pesan itu.",
+       "ko": "당연하지. 난 {늘|1} 그거 시켜."
+      }
+     ],
+     "footnotes": [
+      "sudah = 이미 (~했다) · belum = 아직 안 · sedang = ~하는 중 · akan = ~할 것이다 · baru = 막 ~했다.",
+      "「밥 먹었어?」에 「아니」는 tidak 이 아니라 belum (아직 안 먹었다).",
+      "pernah = ~한 적 있다 · masih = 아직도 ~하다 · mau = ~하려고 하다(말할 때는 akan 보다 자주)."
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "title": "때 말 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "sudah  이미 ~했다",
+       "tip": "끝난 일. 말할 때는 udah. 대답: Sudah. (했어)",
+       "sentences": [
+        {
+         "id": "Saya sudah makan.",
+         "ko": "저는 밥 먹었어요."
+        },
+        {
+         "id": "Filmnya sudah mulai.",
+         "ko": "영화 벌써 시작했어요."
+        }
+       ]
+      },
+      {
+       "head": "belum  아직 안 ~했다",
+       "tip": "곧 할 수도 있는 일의 「아직」. 질문 끝에 ~belum? = ~했어 안 했어?",
+       "sentences": [
+        {
+         "id": "Saya belum makan.",
+         "ko": "아직 밥 안 먹었어요."
+        },
+        {
+         "id": "Kamu sudah mandi belum?",
+         "ko": "너 씻었어 안 씻었어?"
+        }
+       ]
+      },
+      {
+       "head": "sedang  ~하는 중",
+       "tip": "말할 때는 lagi 를 더 써요 (Lagi apa? = 뭐 해?).",
+       "sentences": [
+        {
+         "id": "Dia sedang tidur.",
+         "ko": "그는 자는 중이에요."
+        },
+        {
+         "id": "Aku lagi di jalan.",
+         "ko": "나 가는 길이야."
+        }
+       ]
+      },
+      {
+       "head": "akan  ~할 것이다",
+       "tip": "글·뉴스에서 자주. 말할 때는 mau 나 nanti.",
+       "sentences": [
+        {
+         "id": "Besok akan hujan.",
+         "ko": "내일 비가 올 거예요."
+        },
+        {
+         "id": "Nanti aku telepon.",
+         "ko": "이따 전화할게."
+        }
+       ]
+      },
+      {
+       "head": "pernah  ~한 적 있다",
+       "tip": "반대는 belum pernah (아직 ~한 적 없다) · tidak pernah (한 번도 안 한다).",
+       "sentences": [
+        {
+         "id": "Saya pernah ke Bali.",
+         "ko": "발리에 가 본 적 있어요."
+        },
+        {
+         "id": "Aku belum pernah naik ojek.",
+         "ko": "오젝은 아직 타 본 적 없어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "「아니」가 넷",
+   "lessons": [
+    {
+     "id": "L4-talk",
+     "title": "「아니」가 넷",
+     "kind": "memorize",
+     "video": "",
+     "note": "한국어 「안·아니·아직·하지 마」가 인도네시아어에서는 네 단어로 나뉘어요.",
+     "sentences": [
+      {
+       "who": "Dimas",
+       "id": "Kamu {tidak|1} capek?",
+       "ko": "너 {안|1} 피곤해?"
+      },
+      {
+       "who": "Nadia",
+       "id": "{Tidak|1}. Tapi aku {belum|2} makan siang.",
+       "ko": "{안|1} 피곤해. 근데 점심을 {아직 안|2} 먹었어."
+      },
+      {
+       "who": "Dimas",
+       "id": "Ini roti untuk kamu.",
+       "ko": "이거 너 먹으라고 산 빵이야."
+      },
+      {
+       "who": "Nadia",
+       "id": "Ini {bukan|3} roti, ini kue!",
+       "ko": "이거 빵 {아니야|3}, 케이크잖아!"
+      },
+      {
+       "who": "Dimas",
+       "id": "Iya, kue. {Jangan|4} dimakan semua, ya.",
+       "ko": "응, 케이크. 다 먹지는 {마|4}."
+      },
+      {
+       "who": "Nadia",
+       "id": "Kenapa? Ini {bukan|3} untuk aku?",
+       "ko": "왜? 이거 내 거 {아니야|3}?"
+      },
+      {
+       "who": "Dimas",
+       "id": "Untuk kamu, tapi aku juga {belum|2} makan.",
+       "ko": "네 거 맞는데, 나도 {아직 안|2} 먹었거든."
+      },
+      {
+       "who": "Nadia",
+       "id": "Ha-ha. Kamu {tidak|1} bilang dari tadi.",
+       "ko": "하하. 아까부터 말 {안|1} 했잖아."
+      },
+      {
+       "who": "Dimas",
+       "id": "{Jangan|4} marah. Kita bagi dua saja.",
+       "ko": "화내지 {마|4}. 그냥 반씩 나누자."
+      },
+      {
+       "who": "Nadia",
+       "id": "Oke. Tapi potongan besar {bukan|3} punya kamu.",
+       "ko": "좋아. 근데 큰 조각은 네 거 {아니야|3}."
+      }
+     ],
+     "footnotes": [
+      "tidak = 동사·형용사 부정 (tidak capek 안 피곤해, tidak tahu 몰라). 말할 때는 nggak.",
+      "bukan = 명사 부정 「~이 아니다」 (bukan roti 빵이 아니다). 문장 끝 ~, bukan? = ~잖아, 그렇지?",
+      "belum = 아직 안 (L3). jangan = ~하지 마."
+     ]
+    },
+    {
+     "id": "L4-ref",
+     "title": "부정 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "tidak / nggak",
+       "tip": "동사·형용사 앞. 「안·못」 둘 다 tidak 로 시작해요 (tidak bisa = 못 해).",
+       "sentences": [
+        {
+         "id": "Saya tidak suka pedas.",
+         "ko": "저는 매운 걸 안 좋아해요."
+        },
+        {
+         "id": "Aku nggak bisa datang.",
+         "ko": "나 못 가."
+        }
+       ]
+      },
+      {
+       "head": "bukan",
+       "tip": "명사 앞, 또는 「그게 아니라」. 맞장구 질문 ~, kan? 도 bukan 에서 왔어요.",
+       "sentences": [
+        {
+         "id": "Dia bukan guru.",
+         "ko": "그는 선생님이 아니에요."
+        },
+        {
+         "id": "Bukan begitu maksudku.",
+         "ko": "내 말은 그게 아니야."
+        }
+       ]
+      },
+      {
+       "head": "jangan",
+       "tip": "금지. 부드럽게는 Jangan ... ya. 공문은 Dilarang ...",
+       "sentences": [
+        {
+         "id": "Jangan lupa, ya.",
+         "ko": "잊지 마."
+        },
+        {
+         "id": "Dilarang merokok.",
+         "ko": "흡연 금지."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "di- 로 말하기 (당하는 쪽이 주어)",
+   "lessons": [
+    {
+     "id": "L5-talk",
+     "title": "di- 로 말하기 (당하는 쪽이 주어)",
+     "kind": "memorize",
+     "video": "",
+     "note": "인도네시아어는 di- 꼴을 아주 자주 써요. 한국어로는 보통 「~했다」로 옮겨요.",
+     "sentences": [
+      {
+       "who": "Ayu",
+       "id": "Kue di meja {dimakan|1} siapa?",
+       "ko": "식탁 위 케이크 누가 {먹었어|1}?"
+      },
+      {
+       "who": "Raka",
+       "id": "Bukan aku! Mungkin {dimakan|1} kucing.",
+       "ko": "나 아니야! 고양이가 {먹었|1}나 봐."
+      },
+      {
+       "who": "Ayu",
+       "id": "Kucing tidak makan kue. Pintunya juga {dikunci|2}.",
+       "ko": "고양이는 케이크 안 먹어. 문도 {잠겨 있었|2}고."
+      },
+      {
+       "who": "Raka",
+       "id": "Hmm... kuncinya {disimpan|3} di mana?",
+       "ko": "음… 열쇠는 어디에 {뒀|3}어?"
+      },
+      {
+       "who": "Ayu",
+       "id": "{Dibawa|4} kamu tadi pagi.",
+       "ko": "아침에 네가 {가져갔|4}잖아."
+      },
+      {
+       "who": "Raka",
+       "id": "Oh, iya. Kuenya {kubeli|5} lagi, deh.",
+       "ko": "아, 맞다. 케이크 내가 다시 {사 올|5}게."
+      },
+      {
+       "who": "Ayu",
+       "id": "Jadi memang kamu yang makan!",
+       "ko": "역시 네가 먹은 거네!"
+      },
+      {
+       "who": "Raka",
+       "id": "Sedikit saja. Kuenya {dibuat|6} Ibu, enak sekali.",
+       "ko": "조금만. 엄마가 {만든|6} 거라 너무 맛있었어."
+      },
+      {
+       "who": "Ayu",
+       "id": "Nanti {dimarahi|7} Ibu, lho.",
+       "ko": "엄마한테 {혼날|7}걸."
+      },
+      {
+       "who": "Raka",
+       "id": "Makanya ini rahasia kita, ya.",
+       "ko": "그러니까 이건 우리 비밀이야."
+      }
+     ],
+     "footnotes": [
+      "di- + 동사 = 「(누가) ~했다」. 하는 사람은 뒤에: dimakan kucing (고양이가 먹었다), dibuat Ibu (엄마가 만들었다).",
+      "나·너가 한 일은 ku-·kau- 를 앞에: kubeli (내가 산다). 말할 때는 aku beli 도 많이 써요.",
+      "dimarahi = 혼나다 — 한국어 「혼나다·잡히다」처럼 당하는 말이 di- 로 나와요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "높임말 익히기",
+   "lessons": [
+    {
+     "id": "L6-talk",
+     "title": "높임말 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "인도네시아어 높임은 어미가 아니라 「부르는 말」과 공손한 단어로 해요.",
+     "sentences": [
+      {
+       "who": "Dimas",
+       "id": "Selamat pagi, {Pak|1}. {Bapak|1} mau ke mana?",
+       "ko": "안녕하세요, {기사님|1}. {기사님|1}은 어디 가세요?"
+      },
+      {
+       "who": "Pak Darto",
+       "id": "Pagi, {Mas|2}. Saya mau antar penumpang.",
+       "ko": "안녕, {총각|2}. 손님 모셔다드리러 가요."
+      },
+      {
+       "who": "Dimas",
+       "id": "{Bisa|3} antar saya ke kantor juga?",
+       "ko": "저도 회사까지 데려다주실 수 {있으세요|3}?"
+      },
+      {
+       "who": "Pak Darto",
+       "id": "Bisa. {Silakan|4} naik.",
+       "ko": "되지요. {타세요|4}."
+      },
+      {
+       "who": "Dimas",
+       "id": "{Mohon|5} agak cepat, ya, Pak. Saya terlambat.",
+       "ko": "조금만 빨리 {부탁드려요|5}, 기사님. 제가 늦었어요."
+      },
+      {
+       "who": "Pak Darto",
+       "id": "Siap. {Mas|2} pakai helm dulu.",
+       "ko": "알겠어요. 총각, 헬멧부터 써요."
+      },
+      {
+       "who": "Dimas",
+       "id": "{Terima kasih|6} banyak, Pak.",
+       "ko": "정말 {감사합니다|6}, 기사님."
+      },
+      {
+       "who": "Pak Darto",
+       "id": "{Sama-sama|7}. Hati-hati di jalan, ya.",
+       "ko": "{천만에요|7}. 조심히 가요."
+      },
+      {
+       "who": "Dimas",
+       "id": "{Permisi|8}, berapa ongkosnya?",
+       "ko": "{저기요|8}, 요금이 얼마예요?"
+      },
+      {
+       "who": "Pak Darto",
+       "id": "Lima belas ribu saja, {Mas|2}.",
+       "ko": "만오천 루피아만 줘요, {총각|2}."
+      }
+     ],
+     "footnotes": [
+      "Bapak/Pak = 아저씨·~님(남자 어른) · Ibu/Bu = 아주머니·~님(여자 어른) — 「당신」 대신 이 말을 그대로 2인칭으로 써요 (Bapak mau ke mana? = 어디 가세요?).",
+      "Mas·Mbak(자바식)·Kak = 또래나 조금 위인 남·여에게. Anda 는 광고·공문에서만, 얼굴 보고는 거의 안 써요.",
+      "silakan = (상대가 하도록) ~하세요 · tolong / mohon = (내가 바라며) ~해 주세요 · permisi = 실례합니다·저기요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "-kan · -i 익히기",
+   "lessons": [
+    {
+     "id": "L7-talk",
+     "title": "-kan · -i 익히기",
+     "kind": "memorize",
+     "video": "",
+     "note": "뒤에 붙는 -kan·-i 는 「누구에게·무엇을」을 바꿔 줘요. 대화로 차이를 느껴 보세요.",
+     "sentences": [
+      {
+       "who": "Nadia",
+       "id": "Dimas, tolong {bukakan|1} jendela.",
+       "ko": "디마스, 창문 좀 {열어|1} 줘."
+      },
+      {
+       "who": "Dimas",
+       "id": "Panas, ya? Aku {nyalakan|2} kipas juga.",
+       "ko": "덥지? 선풍기도 {켤|2}게."
+      },
+      {
+       "who": "Nadia",
+       "id": "Makasih. Aku mau {kirimkan|3} laporan ke Bu Sri.",
+       "ko": "고마워. 스리 선생님께 보고서 {보내|3}려고."
+      },
+      {
+       "who": "Dimas",
+       "id": "Sudah kamu {periksa|4}?",
+       "ko": "{확인|4}했어?"
+      },
+      {
+       "who": "Nadia",
+       "id": "Belum. Bisa kamu {bacakan|5} untukku?",
+       "ko": "아직. 나한테 {읽어|5} 줄 수 있어?"
+      },
+      {
+       "who": "Dimas",
+       "id": "Boleh. Nanti aku {tandai|6} yang salah.",
+       "ko": "좋아. 틀린 데 {표시해|6} 줄게."
+      },
+      {
+       "who": "Nadia",
+       "id": "Jangan {tertawakan|7} tulisanku, ya.",
+       "ko": "내 글 보고 {비웃지|7} 마."
+      },
+      {
+       "who": "Dimas",
+       "id": "Tidak. Aku malah mau {pelajari|8} cara kamu menulis.",
+       "ko": "안 웃어. 오히려 네가 쓰는 법을 {배우|8}고 싶은걸."
+      },
+      {
+       "who": "Nadia",
+       "id": "Ha-ha. Kamu yang harus {perbaiki|9} bahasamu!",
+       "ko": "하하. 네 말부터 {고쳐|9}야겠다!"
+      },
+      {
+       "who": "Dimas",
+       "id": "Oke, oke. Aku {akui|10}, kamu lebih pintar.",
+       "ko": "알았어. 네가 더 똑똑한 거 {인정|10}할게."
+      }
+     ],
+     "footnotes": [
+      "-kan = 「~하게 하다 / ~해 주다」: buka(열다) → bukakan (열어 주다), nyala(켜지다) → nyalakan (켜다).",
+      "-i = 「~에다 / ~를 대상으로」: tanda(표) → tandai (표시하다), aku(나) → akui (인정하다), baik(좋은) → perbaiki (고치다).",
+      "pelajari = 배우다(무엇을) — belajar(공부하다)에서 per-…-i. 헷갈려도 대화째 외우면 돼요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "묻고 맞장구치기",
+   "lessons": [
+    {
+     "id": "L8-talk",
+     "title": "묻고 맞장구치기",
+     "kind": "memorize",
+     "video": "",
+     "note": "인도네시아어는 질문 어순이 거의 그대로예요. 끝에 붙는 말맛이 중요해요.",
+     "sentences": [
+      {
+       "who": "Ayu",
+       "id": "Kamu orang Korea, {ya|1}?",
+       "ko": "너 한국 사람이지, {응|1}?"
+      },
+      {
+       "who": "Nadia",
+       "id": "Bukan, aku orang Indonesia. {Kok|2} kamu kira begitu?",
+       "ko": "아니, 나 인도네시아 사람이야. {왜|2} 그렇게 생각했어?"
+      },
+      {
+       "who": "Ayu",
+       "id": "Bahasa Korea kamu bagus, {sih|3}.",
+       "ko": "한국어를 잘하{니까|3}."
+      },
+      {
+       "who": "Nadia",
+       "id": "Aku belajar dari drama. Kamu suka drama {juga|4}?",
+       "ko": "드라마 보고 배웠어. 너{도|4} 드라마 좋아해?"
+      },
+      {
+       "who": "Ayu",
+       "id": "Suka! {Apa|5} judul favoritmu?",
+       "ko": "좋아해! 제일 좋아하는 게 {뭐|5}야?"
+      },
+      {
+       "who": "Nadia",
+       "id": "Banyak. {Mau|6} nonton bareng?",
+       "ko": "많지. 같이 볼{래|6}?"
+      },
+      {
+       "who": "Ayu",
+       "id": "Boleh! Di rumahmu, {kan|7}?",
+       "ko": "좋아! 너희 집에서, {그치|7}?"
+      },
+      {
+       "who": "Nadia",
+       "id": "{Iya, dong|8}. Aku siapkan camilan.",
+       "ko": "{당연하지|8}. 간식 준비할게."
+      },
+      {
+       "who": "Ayu",
+       "id": "Kapan? {Bisakah|9} hari Sabtu?",
+       "ko": "언제? 토요일 {될까|9}?"
+      },
+      {
+       "who": "Nadia",
+       "id": "Sabtu {oke|10}. Jangan telat, {ya|1}!",
+       "ko": "토요일 {좋아|10}. 늦지 마, {알았지|1}!"
+      }
+     ],
+     "footnotes": [
+      "~, ya? = ~지? / ~해 줘 (부드럽게). ~, kan? = ~잖아, 그치?",
+      "kok = 「어째서·웬걸」 놀람이 섞인 왜. sih = 「~거든·~니까」 말맛. dong = 「당연히·좀 ~해」.",
+      "-kah 는 글말 질문 (Bisakah? = 될까요?). 말할 때는 끝을 올리기만 해도 질문이에요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "이유와 조건 말하기",
+   "lessons": [
+    {
+     "id": "L9-talk",
+     "title": "이유와 조건 말하기",
+     "kind": "memorize",
+     "video": "",
+     "note": "잇는 말은 문장 맨 앞이나 가운데에 그대로 끼우면 돼요. 한국어처럼 동사 끝이 바뀌지 않아요.",
+     "sentences": [
+      {
+       "who": "Raka",
+       "id": "{Kalau|1} besok hujan, kita jadi ke pantai?",
+       "ko": "내일 비 오{면|1} 우리 바다 가는 거 그대로야?"
+      },
+      {
+       "who": "Ayu",
+       "id": "{Kalau|1} hujan, kita ke museum saja.",
+       "ko": "비 오{면|1} 그냥 박물관 가자."
+      },
+      {
+       "who": "Raka",
+       "id": "{Kenapa|2} museum?",
+       "ko": "{왜|2} 박물관이야?"
+      },
+      {
+       "who": "Ayu",
+       "id": "{Karena|3} di sana ada pameran batik.",
+       "ko": "거기서 바틱 전시를 하{거든|3}."
+      },
+      {
+       "who": "Raka",
+       "id": "{Jadi|4} kamu memang mau ke museum dari awal!",
+       "ko": "{그러니까|4} 처음부터 박물관 가고 싶었던 거구나!"
+      },
+      {
+       "who": "Ayu",
+       "id": "{Soalnya|5} pantai sudah tiga kali.",
+       "ko": "{왜냐면|5} 바다는 벌써 세 번이나 갔잖아."
+      },
+      {
+       "who": "Raka",
+       "id": "{Meskipun|6} begitu, aku tetap mau berenang.",
+       "ko": "그래{도|6} 난 수영하고 싶어."
+      },
+      {
+       "who": "Ayu",
+       "id": "Oke, {supaya|7} adil, pagi museum, sore pantai.",
+       "ko": "좋아, 공평하{게|7} 아침엔 박물관, 오후엔 바다."
+      },
+      {
+       "who": "Raka",
+       "id": "{Kalau begitu|8}, aku yang bawa bekal.",
+       "ko": "{그럼|8} 도시락은 내가 싸 올게."
+      },
+      {
+       "who": "Ayu",
+       "id": "Setuju! {Tapi|9} jangan nasi goreng lagi.",
+       "ko": "찬성! {근데|9} 또 나시고렝은 싫어."
+      }
+     ],
+     "footnotes": [
+      "kalau = ~면 · karena / soalnya(말) = ~이니까·왜냐면 · jadi = 그래서 · meskipun = ~해도 · supaya = ~하도록.",
+      "kalau begitu = 그럼. 한국어 연결어미 자리에 이 단어를 「끼워」 넣는다고 생각하면 쉬워요."
+     ]
+    },
+    {
+     "id": "L9-ref",
+     "title": "잇는 말 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "kalau / jika  ~면",
+       "tip": "jika·apabila 는 글말. kalau 는 「~는」 주제 표시로도 써요 (Kalau aku, ...= 나는...).",
+       "sentences": [
+        {
+         "id": "Kalau capek, istirahat saja.",
+         "ko": "피곤하면 그냥 쉬어."
+        },
+        {
+         "id": "Kalau saya, suka teh.",
+         "ko": "저는 차가 좋아요."
+        }
+       ]
+      },
+      {
+       "head": "karena  ~이니까",
+       "tip": "이유. 말할 때는 soalnya·gara-gara(탓).",
+       "sentences": [
+        {
+         "id": "Saya terlambat karena macet.",
+         "ko": "길이 막혀서 늦었어요."
+        },
+        {
+         "id": "Gara-gara hujan, kami batal pergi.",
+         "ko": "비 때문에 못 갔어요."
+        }
+       ]
+      },
+      {
+       "head": "meskipun / walaupun  ~해도",
+       "tip": "뒤에 tetap(그래도 여전히)을 자주 같이 써요.",
+       "sentences": [
+        {
+         "id": "Meskipun mahal, saya tetap beli.",
+         "ko": "비싸도 그래도 샀어요."
+        }
+       ]
+      },
+      {
+       "head": "supaya / agar  ~하도록",
+       "tip": "목적. agar 는 글말.",
+       "sentences": [
+        {
+         "id": "Belajar supaya lulus.",
+         "ko": "붙으려고 공부해."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "말투 바꾸기 (글말 ↔ 입말)",
+   "lessons": [
+    {
+     "id": "L10-talk",
+     "title": "말투 바꾸기 (글말 ↔ 입말)",
+     "kind": "memorize",
+     "video": "",
+     "note": "같은 뜻을 사무실 말투와 친구 말투로 나란히 외워요. 인도네시아 사람은 이 둘을 자유롭게 바꿔요.",
+     "sentences": [
+      {
+       "who": "Dimas (회의)",
+       "id": "Apakah Anda {sudah|1} menerima email saya?",
+       "ko": "제 이메일 {받으셨|1}습니까?"
+      },
+      {
+       "who": "Dimas (친구)",
+       "id": "Email aku {udah|1} masuk?",
+       "ko": "내 메일 {갔|1}어?"
+      },
+      {
+       "who": "Nadia (회의)",
+       "id": "{Belum|2}, Pak. Saya {tidak|3} menemukannya.",
+       "ko": "{아직|2}입니다. 찾지 {못|3}했습니다."
+      },
+      {
+       "who": "Nadia (친구)",
+       "id": "{Belom|2}. Aku {nggak|3} nemu, tuh.",
+       "ko": "{아직|2}. {못|3} 찾았는데?"
+      },
+      {
+       "who": "Dimas (회의)",
+       "id": "{Mohon|4} diperiksa kembali.",
+       "ko": "다시 확인 {부탁드립니다|4}."
+      },
+      {
+       "who": "Dimas (친구)",
+       "id": "Cek lagi, {dong|4}.",
+       "ko": "다시 좀 봐 {줘|4}."
+      },
+      {
+       "who": "Nadia (회의)",
+       "id": "Baik, akan saya periksa {sekarang|5}.",
+       "ko": "네, {지금|5} 확인하겠습니다."
+      },
+      {
+       "who": "Nadia (친구)",
+       "id": "Oke, aku cek {sekarang|5} {aja|6}.",
+       "ko": "알았어, 그냥 {지금|5} 볼{게|6}."
+      },
+      {
+       "who": "Dimas (회의)",
+       "id": "Terima kasih atas {bantuannya|7}.",
+       "ko": "{도와주셔서|7} 감사합니다."
+      },
+      {
+       "who": "Nadia (친구)",
+       "id": "{Makasih|8} ya! Eh, ketemu, ternyata masuk spam.",
+       "ko": "{고마워|8}! 어, 찾았다. 스팸함에 있었네."
+      }
+     ],
+     "footnotes": [
+      "sudah → udah · belum → belom · tidak → nggak/gak · saja → aja · terima kasih → makasih.",
+      "입말은 meN- 을 줄여요: menemukan → nemu, memeriksa → cek(영어에서).",
+      "Anda·Apakah·mohon = 글말 신호. 친구에게 쓰면 딱딱하고 거리감이 생겨요."
+     ]
+    }
+   ]
+  }
+ ]
+}

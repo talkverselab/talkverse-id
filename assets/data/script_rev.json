@@ -30,7 +30,8 @@
 "dialogues/R1/work/r1_work_a2.json": "3233799390cb",
 "dialogues/R1/work/r1_work_a3.json": "c9b665f400cc",
 "dialogues/R1/work/r1_work_a4.json": "4da732221323",
-"dialogues/id/L1.json": "f4888e385e2c"
+"dialogues/id/L1.json": "f4888e385e2c",
+"grammar/sense_course.json": "d145b80c270a"
 },
-"rev": 1
+"rev": 2
 }

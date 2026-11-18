@@ -1,0 +1,886 @@
+{
+ "_meta": "외국어에서 온 말(kata serapan) — 1단계 핵심 · 2단계 중급까지 · 3단계 전체",
+ "intro": "영어·네덜란드어 단어가 인도네시아어 철자로 바뀌는 규칙이에요. 규칙 몇 개면 수천 단어가 읽혀요.",
+ "rules_table": [
+  [
+   "-tion · -sion",
+   "-si",
+   "information → informasi"
+  ],
+  [
+   "-ty",
+   "-tas",
+   "university → universitas"
+  ],
+  [
+   "c · q (ㅋ 소리)",
+   "k",
+   "computer → komputer"
+  ],
+  [
+   "-ic (명사)",
+   "-ik",
+   "music → musik"
+  ],
+  [
+   "-ic · -ical (형용사)",
+   "-is",
+   "practical → praktis"
+  ],
+  [
+   "ph · x · sh",
+   "f · ks · sy",
+   "photo → foto · taxi → taksi"
+  ],
+  [
+   "-ure · -ent · -ant",
+   "-ur · -en · -an",
+   "structure → struktur"
+  ],
+  [
+   "-ive",
+   "-if",
+   "active → aktif"
+  ],
+  [
+   "-ist · -ism",
+   "-is · -isme",
+   "tourist → turis"
+  ],
+  [
+   "네덜란드어",
+   "따로 외우기",
+   "kantoor → kantor"
+  ]
+ ],
+ "branches": [
+  {
+   "id": "si",
+   "title": "-tion → -si",
+   "emoji": "📡",
+   "rule": "영어 -tion·-sion·-ssion 은 -si 로 끝나요. 영어를 알면 바로 읽혀요.",
+   "words": [
+    {
+     "id": "informasi",
+     "en": "information",
+     "ko": "정보",
+     "st": 1
+    },
+    {
+     "id": "organisasi",
+     "en": "organization",
+     "ko": "조직",
+     "st": 1
+    },
+    {
+     "id": "komunikasi",
+     "en": "communication",
+     "ko": "소통",
+     "st": 1
+    },
+    {
+     "id": "situasi",
+     "en": "situation",
+     "ko": "상황",
+     "st": 1
+    },
+    {
+     "id": "televisi",
+     "en": "television",
+     "ko": "텔레비전",
+     "st": 1
+    },
+    {
+     "id": "diskusi",
+     "en": "discussion",
+     "ko": "토론",
+     "st": 1
+    },
+    {
+     "id": "tradisi",
+     "en": "tradition",
+     "ko": "전통",
+     "st": 1
+    },
+    {
+     "id": "posisi",
+     "en": "position",
+     "ko": "위치",
+     "st": 2
+    },
+    {
+     "id": "generasi",
+     "en": "generation",
+     "ko": "세대",
+     "st": 2
+    },
+    {
+     "id": "motivasi",
+     "en": "motivation",
+     "ko": "동기",
+     "st": 2
+    },
+    {
+     "id": "reservasi",
+     "en": "reservation",
+     "ko": "예약",
+     "st": 2
+    },
+    {
+     "id": "koleksi",
+     "en": "collection",
+     "ko": "수집품",
+     "st": 2,
+     "note": "-ction → -ksi"
+    },
+    {
+     "id": "versi",
+     "en": "version",
+     "ko": "판(버전)",
+     "st": 2
+    },
+    {
+     "id": "administrasi",
+     "en": "administration",
+     "ko": "행정",
+     "st": 3
+    },
+    {
+     "id": "operasi",
+     "en": "operation",
+     "ko": "수술·작전",
+     "st": 3
+    },
+    {
+     "id": "polisi",
+     "en": "police",
+     "ko": "경찰",
+     "st": 1,
+     "note": "네덜란드어 politie 에서 — 영어처럼 보이지만 -si 로 끝나요"
+    },
+    {
+     "id": "stasiun",
+     "en": "station",
+     "ko": "역",
+     "st": 1,
+     "note": "-tion 인데 -siun — 네덜란드어 station 소리에서 온 예외",
+     "ex": true
+    }
+   ]
+  },
+  {
+   "id": "tas",
+   "title": "-ty → -tas",
+   "emoji": "🎓",
+   "rule": "영어 -ty 는 -tas 로 끝나요 (네덜란드어 -teit 를 거쳐 왔어요).",
+   "words": [
+    {
+     "id": "universitas",
+     "en": "university",
+     "ko": "대학교",
+     "st": 1
+    },
+    {
+     "id": "kualitas",
+     "en": "quality",
+     "ko": "품질",
+     "st": 1
+    },
+    {
+     "id": "aktivitas",
+     "en": "activity",
+     "ko": "활동",
+     "st": 1
+    },
+    {
+     "id": "fasilitas",
+     "en": "facility",
+     "ko": "시설",
+     "st": 1
+    },
+    {
+     "id": "komunitas",
+     "en": "community",
+     "ko": "공동체",
+     "st": 2
+    },
+    {
+     "id": "identitas",
+     "en": "identity",
+     "ko": "신원",
+     "st": 2
+    },
+    {
+     "id": "prioritas",
+     "en": "priority",
+     "ko": "우선순위",
+     "st": 2
+    },
+    {
+     "id": "kapasitas",
+     "en": "capacity",
+     "ko": "용량",
+     "st": 2
+    },
+    {
+     "id": "realitas",
+     "en": "reality",
+     "ko": "현실",
+     "st": 3
+    },
+    {
+     "id": "kreativitas",
+     "en": "creativity",
+     "ko": "창의성",
+     "st": 3
+    },
+    {
+     "id": "popularitas",
+     "en": "popularity",
+     "ko": "인기",
+     "st": 3
+    },
+    {
+     "id": "mentalitas",
+     "en": "mentality",
+     "ko": "사고방식",
+     "st": 3
+    }
+   ]
+  },
+  {
+   "id": "k",
+   "title": "c · q → k",
+   "emoji": "🔤",
+   "rule": "인도네시아어 철자에는 c(ㅋ 소리)·q 가 없어요. ㅋ 소리는 모두 k 로 써요. c 는 「ㅉ」 소리예요.",
+   "words": [
+    {
+     "id": "komputer",
+     "en": "computer",
+     "ko": "컴퓨터",
+     "st": 1
+    },
+    {
+     "id": "kamera",
+     "en": "camera",
+     "ko": "카메라",
+     "st": 1
+    },
+    {
+     "id": "kafe",
+     "en": "cafe",
+     "ko": "카페",
+     "st": 1
+    },
+    {
+     "id": "kelas",
+     "en": "class",
+     "ko": "교실·반",
+     "st": 1
+    },
+    {
+     "id": "klinik",
+     "en": "clinic",
+     "ko": "병원(작은)",
+     "st": 1
+    },
+    {
+     "id": "kode",
+     "en": "code",
+     "ko": "코드",
+     "st": 1
+    },
+    {
+     "id": "produk",
+     "en": "product",
+     "ko": "제품",
+     "st": 2
+    },
+    {
+     "id": "konser",
+     "en": "concert",
+     "ko": "콘서트",
+     "st": 2
+    },
+    {
+     "id": "kontrak",
+     "en": "contract",
+     "ko": "계약",
+     "st": 2
+    },
+    {
+     "id": "akses",
+     "en": "access",
+     "ko": "접근",
+     "st": 2,
+     "note": "cc → k"
+    },
+    {
+     "id": "praktik",
+     "en": "practice",
+     "ko": "실습",
+     "st": 3
+    },
+    {
+     "id": "kualifikasi",
+     "en": "qualification",
+     "ko": "자격",
+     "st": 3,
+     "note": "qu → ku"
+    },
+    {
+     "id": "kopi",
+     "en": "coffee",
+     "ko": "커피",
+     "st": 1,
+     "note": "네덜란드어 koffie 에서",
+     "ex": true
+    }
+   ]
+  },
+  {
+   "id": "ik",
+   "title": "-ic → -ik · -ical → -is",
+   "emoji": "🎵",
+   "rule": "명사 -ic 는 -ik, 형용사 -ic/-ical 은 -is 로 끝나요.",
+   "words": [
+    {
+     "id": "musik",
+     "en": "music",
+     "ko": "음악",
+     "st": 1
+    },
+    {
+     "id": "plastik",
+     "en": "plastic",
+     "ko": "플라스틱",
+     "st": 1
+    },
+    {
+     "id": "elektronik",
+     "en": "electronic",
+     "ko": "전자 제품",
+     "st": 1
+    },
+    {
+     "id": "politik",
+     "en": "politics",
+     "ko": "정치",
+     "st": 1
+    },
+    {
+     "id": "praktis",
+     "en": "practical",
+     "ko": "실용적인",
+     "st": 1
+    },
+    {
+     "id": "otomatis",
+     "en": "automatic",
+     "ko": "자동",
+     "st": 1
+    },
+    {
+     "id": "klasik",
+     "en": "classic",
+     "ko": "고전적인",
+     "st": 2
+    },
+    {
+     "id": "unik",
+     "en": "unique",
+     "ko": "독특한",
+     "st": 2,
+     "note": "-que → -k"
+    },
+    {
+     "id": "romantis",
+     "en": "romantic",
+     "ko": "낭만적인",
+     "st": 2
+    },
+    {
+     "id": "logis",
+     "en": "logical",
+     "ko": "논리적인",
+     "st": 2
+    },
+    {
+     "id": "kritis",
+     "en": "critical",
+     "ko": "비판적인",
+     "st": 3
+    },
+    {
+     "id": "ekonomis",
+     "en": "economical",
+     "ko": "경제적인",
+     "st": 3
+    },
+    {
+     "id": "fantastis",
+     "en": "fantastic",
+     "ko": "환상적인",
+     "st": 3
+    },
+    {
+     "id": "teknis",
+     "en": "technical",
+     "ko": "기술적인",
+     "st": 3
+    }
+   ]
+  },
+  {
+   "id": "fks",
+   "title": "ph → f · x → ks · sh → sy",
+   "emoji": "📷",
+   "rule": "소리 나는 대로 바꿔 써요: ph 는 f, x 는 ks, sh 는 sy.",
+   "words": [
+    {
+     "id": "foto",
+     "en": "photo",
+     "ko": "사진",
+     "st": 1
+    },
+    {
+     "id": "taksi",
+     "en": "taxi",
+     "ko": "택시",
+     "st": 1
+    },
+    {
+     "id": "teks",
+     "en": "text",
+     "ko": "글(텍스트)",
+     "st": 1
+    },
+    {
+     "id": "fisik",
+     "en": "physical",
+     "ko": "몸·신체적",
+     "st": 2
+    },
+    {
+     "id": "ekstra",
+     "en": "extra",
+     "ko": "추가",
+     "st": 2
+    },
+    {
+     "id": "maksimal",
+     "en": "maximal",
+     "ko": "최대",
+     "st": 2
+    },
+    {
+     "id": "syampo",
+     "en": "shampoo",
+     "ko": "샴푸",
+     "st": 2
+    },
+    {
+     "id": "ekspor",
+     "en": "export",
+     "ko": "수출",
+     "st": 3
+    },
+    {
+     "id": "kompleks",
+     "en": "complex",
+     "ko": "복잡한·단지",
+     "st": 3
+    },
+    {
+     "id": "farmasi",
+     "en": "pharmacy",
+     "ko": "약학",
+     "st": 3
+    },
+    {
+     "id": "telepon",
+     "en": "telephone",
+     "ko": "전화",
+     "st": 1,
+     "note": "ph 인데 p — 오래전에 들어와 굳은 예외",
+     "ex": true
+    }
+   ]
+  },
+  {
+   "id": "ur",
+   "title": "-ure → -ur · -ent → -en · -ant → -an",
+   "emoji": "🏛️",
+   "rule": "끝의 묵음 e 와 t 를 떼요.",
+   "words": [
+    {
+     "id": "struktur",
+     "en": "structure",
+     "ko": "구조",
+     "st": 1
+    },
+    {
+     "id": "dokumen",
+     "en": "document",
+     "ko": "서류",
+     "st": 1
+    },
+    {
+     "id": "persen",
+     "en": "percent",
+     "ko": "퍼센트",
+     "st": 1
+    },
+    {
+     "id": "restoran",
+     "en": "restaurant",
+     "ko": "레스토랑",
+     "st": 1
+    },
+    {
+     "id": "kultur",
+     "en": "culture",
+     "ko": "문화",
+     "st": 2
+    },
+    {
+     "id": "prosedur",
+     "en": "procedure",
+     "ko": "절차",
+     "st": 2
+    },
+    {
+     "id": "konsumen",
+     "en": "consumer",
+     "ko": "소비자",
+     "st": 2,
+     "note": "-er 인데 -en — 네덜란드어 consument 에서",
+     "ex": true
+    },
+    {
+     "id": "momen",
+     "en": "moment",
+     "ko": "순간",
+     "st": 2
+    },
+    {
+     "id": "agen",
+     "en": "agent",
+     "ko": "대리점·요원",
+     "st": 3
+    },
+    {
+     "id": "elegan",
+     "en": "elegant",
+     "ko": "우아한",
+     "st": 3
+    },
+    {
+     "id": "relevan",
+     "en": "relevant",
+     "ko": "관련 있는",
+     "st": 3
+    },
+    {
+     "id": "temperatur",
+     "en": "temperature",
+     "ko": "온도",
+     "st": 3
+    }
+   ]
+  },
+  {
+   "id": "if",
+   "title": "-ive → -if",
+   "emoji": "➕",
+   "rule": "영어 -ive 는 -if 로 끝나요.",
+   "words": [
+    {
+     "id": "aktif",
+     "en": "active",
+     "ko": "활발한",
+     "st": 1
+    },
+    {
+     "id": "positif",
+     "en": "positive",
+     "ko": "긍정적인",
+     "st": 1
+    },
+    {
+     "id": "negatif",
+     "en": "negative",
+     "ko": "부정적인",
+     "st": 1
+    },
+    {
+     "id": "kreatif",
+     "en": "creative",
+     "ko": "창의적인",
+     "st": 1
+    },
+    {
+     "id": "efektif",
+     "en": "effective",
+     "ko": "효과적인",
+     "st": 2
+    },
+    {
+     "id": "produktif",
+     "en": "productive",
+     "ko": "생산적인",
+     "st": 2
+    },
+    {
+     "id": "sensitif",
+     "en": "sensitive",
+     "ko": "예민한",
+     "st": 2
+    },
+    {
+     "id": "alternatif",
+     "en": "alternative",
+     "ko": "대안",
+     "st": 3
+    },
+    {
+     "id": "objektif",
+     "en": "objective",
+     "ko": "객관적인",
+     "st": 3
+    },
+    {
+     "id": "eksklusif",
+     "en": "exclusive",
+     "ko": "독점적인",
+     "st": 3
+    }
+   ]
+  },
+  {
+   "id": "is",
+   "title": "-ist → -is · -ism → -isme",
+   "emoji": "🧳",
+   "rule": "사람 -ist 는 t 를 떼고, 생각 -ism 은 -isme 로 써요.",
+   "words": [
+    {
+     "id": "turis",
+     "en": "tourist",
+     "ko": "관광객",
+     "st": 1
+    },
+    {
+     "id": "artis",
+     "en": "artist",
+     "ko": "연예인",
+     "st": 1,
+     "note": "영어 artist(화가)보다 「연예인」 뜻으로 많이 써요"
+    },
+    {
+     "id": "egois",
+     "en": "egoist",
+     "ko": "이기적인 사람",
+     "st": 1
+    },
+    {
+     "id": "optimis",
+     "en": "optimist",
+     "ko": "낙관적인",
+     "st": 2
+    },
+    {
+     "id": "pesimis",
+     "en": "pessimist",
+     "ko": "비관적인",
+     "st": 2
+    },
+    {
+     "id": "jurnalis",
+     "en": "journalist",
+     "ko": "기자",
+     "st": 2
+    },
+    {
+     "id": "turisme",
+     "en": "tourism",
+     "ko": "관광업",
+     "st": 3
+    },
+    {
+     "id": "nasionalisme",
+     "en": "nationalism",
+     "ko": "민족주의",
+     "st": 3
+    }
+   ]
+  },
+  {
+   "id": "snd",
+   "title": "소리 나는 대로",
+   "emoji": "🔊",
+   "rule": "들리는 소리를 그대로 인도네시아 철자로 적어요.",
+   "words": [
+    {
+     "id": "tim",
+     "en": "team",
+     "ko": "팀",
+     "st": 1
+    },
+    {
+     "id": "bisnis",
+     "en": "business",
+     "ko": "사업",
+     "st": 1
+    },
+    {
+     "id": "klub",
+     "en": "club",
+     "ko": "동아리·클럽",
+     "st": 1
+    },
+    {
+     "id": "mal",
+     "en": "mall",
+     "ko": "쇼핑몰",
+     "st": 1
+    },
+    {
+     "id": "gol",
+     "en": "goal",
+     "ko": "골",
+     "st": 1
+    },
+    {
+     "id": "menu",
+     "en": "menu",
+     "ko": "메뉴",
+     "st": 1
+    },
+    {
+     "id": "bonus",
+     "en": "bonus",
+     "ko": "보너스",
+     "st": 2
+    },
+    {
+     "id": "target",
+     "en": "target",
+     "ko": "목표",
+     "st": 2
+    },
+    {
+     "id": "internet",
+     "en": "internet",
+     "ko": "인터넷",
+     "st": 2
+    },
+    {
+     "id": "film",
+     "en": "film",
+     "ko": "영화",
+     "st": 2
+    },
+    {
+     "id": "sepak bola",
+     "en": "football",
+     "ko": "축구",
+     "st": 3,
+     "note": "반만 소리 그대로 — sepak(차다)+bola(공)",
+     "ex": true
+    }
+   ]
+  },
+  {
+   "id": "nl",
+   "title": "네덜란드에서 온 말",
+   "emoji": "🇳🇱",
+   "rule": "식민지 시대에 들어온 말이라 영어와 달라요. 따로 외워 두면 생활에서 바로 써요.",
+   "words": [
+    {
+     "id": "kantor",
+     "en": "kantoor",
+     "ko": "사무실",
+     "st": 1,
+     "ex": true
+    },
+    {
+     "id": "handuk",
+     "en": "handdoek",
+     "ko": "수건",
+     "st": 1,
+     "ex": true
+    },
+    {
+     "id": "kulkas",
+     "en": "koelkast",
+     "ko": "냉장고",
+     "st": 1,
+     "ex": true
+    },
+    {
+     "id": "kamar",
+     "en": "kamer",
+     "ko": "방",
+     "st": 1,
+     "ex": true
+    },
+    {
+     "id": "wortel",
+     "en": "wortel",
+     "ko": "당근",
+     "st": 2,
+     "ex": true
+    },
+    {
+     "id": "setir",
+     "en": "stuur",
+     "ko": "운전대",
+     "st": 2,
+     "ex": true
+    },
+    {
+     "id": "pensiun",
+     "en": "pensioen",
+     "ko": "연금·은퇴",
+     "st": 2,
+     "ex": true
+    },
+    {
+     "id": "om",
+     "en": "oom",
+     "ko": "아저씨(친척)",
+     "st": 2,
+     "ex": true
+    },
+    {
+     "id": "tante",
+     "en": "tante",
+     "ko": "이모·고모",
+     "st": 2,
+     "ex": true
+    },
+    {
+     "id": "buncis",
+     "en": "boontjes",
+     "ko": "껍질콩",
+     "st": 3,
+     "ex": true
+    },
+    {
+     "id": "knalpot",
+     "en": "knalpot",
+     "ko": "머플러(배기관)",
+     "st": 3,
+     "ex": true
+    },
+    {
+     "id": "gratis",
+     "en": "gratis",
+     "ko": "공짜",
+     "st": 1,
+     "ex": true
+    }
+   ]
+  }
+ ]
+}

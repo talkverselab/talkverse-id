@@ -39,6 +39,7 @@ dependencies:
   in_app_purchase: ^3.3.1
   url_launcher: ^6.3.3
   in_app_purchase_storekit: ^0.4.16
+  video_player: ^2.14.1 # 언어감각 회차 영상(서버에서 바로 재생, 일본어앱과 같은 판)
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +74,8 @@ flutter:
     - assets/data/dialogues/R1/study/
     - assets/data/dialogues/R1/work/
     - assets/data/grammar/affixes.json
+    - assets/data/grammar/sense_course.json
+    - assets/data/vocab/loanwords.json
     - assets/data/roots/kata_dasar_core.json
     - assets/data/roots/kata_conv.json
     - assets/data/freq/lang_id_cliff2000.csv
