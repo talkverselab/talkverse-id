@@ -36,6 +36,7 @@
 - **회화 30% 기준(사용자, 11-18)**: 급별 목표 R0 14 · R1 21(이미 30) · R2 17 · R3 13 · R4 1. **새 원칙(11-18 uk 전달): Claude 는 초안까지, 대사는 Grok 이 새로 쓰고 그대로 붙여 넣기**(Claude 가 문장 손대지 않음 — 형식·독음·감정 열·단어 칩·검사기만).
   - 초안 45편 = `data/review/write/drafts_20261118/R0·R2·R3·R4/`(앱·서버 밖). 몇몇 줄이 단어 수 기준을 넘음 — Grok 판에서 검사기로 맞춘다.
   - **2026-11-19 Grok 대사 완료**: 45편 전부 Grok 「빠른」이 새로 씀 → `assets/data/dialogues/R0·R2·R3·R4/`, 서버 원고 rev 3. 도구 `tools/grok/`(rewrite_grok_id.md 규칙 · id_dialogue_txt.py export/import · rewrite_run.sh · grok_text.py). 뼈대는 대사 칸을 비우고 편마다 줄거리 메모(`data/review/grok/flow_20261119.json`)만 — 줄마다 초안 한국어를 인용했던 첫 시도는 Grok 이 그대로 옮겨 버림(`out_try1/`). 초안과 같은 줄 24/423. R4 는 1편(감정 반전)이라 카오스 0%.
+  - 11-19 뒤처리: 메모 칸 정리 2줄(r0_travel_a2 칸 밀림 `emotion=neutral`, r1_study_a2 구성 표시) → 서버 원고 **rev 5**. Zealot 빌드 30 · TestFlight 2611190316 · PC 백업 빌드 30. **다음 = 장면 컷 9장(work_a2·a4 4장씩, life_a1 3번) — uk 에 Grok 차례 요청해 둠(「id 그림 시작」 기다림)**.
   - **uk Grok 순서 10번** — uk 가 「id 시작」을 보내면 M4 크롬 9228 켜고 `grok_cookie_sync.py 9231 9228`, 「빠른」 모드(사용자 11-18). Grok 판 → `assets/data/dialogues/R?/…` → `tools/check_dialogues.py` → `add_lemmas.py` → pubspec 에 새 급 폴더 → `script_publish.py --publish`.
 - 장면 그림 10장 기준은 이미 넘음(220장). 단어 그림은 공용 DB.
 
