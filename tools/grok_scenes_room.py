@@ -177,7 +177,7 @@ def main(paths):
         n_cuts = len(S.pairs(ep))
         f = os.path.join(WORK, ep['id'] + '.txt')
         open(f, 'w', encoding='utf-8').write(ep_file(ep))
-        attached = f"{ep['id']}:1" in skip
+        attached = False  # 방마다 첫 요청에 편 파일·시트를 붙인다(11-19 — 요청마다 새 방, uk 태국어 요령)
         for k in range(1, n_cuts + 1):
             if f"{ep['id']}:{k}" in skip:
                 continue
@@ -191,7 +191,7 @@ def main(paths):
                     rc = os.path.join(WORK, ep['id'] + '_ref1.jpg')
                     shutil.copy(ref, rc)
                     files.append(rc)
-                send(c, f"{os.path.basename(f)} 컷 1 — 첨부 사진(기존 컷 1)과 같은 화풍·장소, 인물·조연은 시트 그대로, 글자 없음.", put(files))
+                send(c, f"{os.path.basename(f)} 컷 {k} — 첨부 사진(기존 컷 1)과 같은 화풍·장소, 인물·조연은 시트 그대로, 글자 없음." + (' ' + os.environ['NOTE'] if os.environ.get('NOTE') else ''), put(files))
                 attached = True
             else:
                 send(c, f"{ep['id']} 컷 {k}", [])  # 한 메시지 = 그림 1장(이 방식에서 Grok 은 한 번에 1장만 그린다)
