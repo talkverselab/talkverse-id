@@ -1,6 +1,6 @@
 #!/bin/zsh
 # 새벽 음성 전편(2026-11-22). uk 순서: 11-25 03:40 첫 순서, 06:30 이후 새 묶음 금지, 06:55 까지 3090 비움. 남으면 11-27 00:01 이어서.
-# 3090 이 비기(메모리 3GB 미만)를 기다림 → 참고 음성(vox, 2060) → run_all(묶음 4편, STOP_AT 06:30).
+# uk 「id 지금 시작」 뒤에만 실행. 3090 이 비기(메모리 3GB 미만 3번 연속 + PC 작업 파일 5분 정지)를 기다림 → 참고 음성(vox, 2060) → run_all(묶음 4편, STOP_AT 06:30).
 set -u
 cd ~/talkverse/id
 W=~/tts_work/id; PC=Administrator@100.127.143.37; PY=~/.venvs/whisper/bin/python
@@ -10,7 +10,14 @@ log "시작"
 [ -f $W/PC_PAUSED ] && { log "PC 멈춤 중(PC_PAUSED) — 시작 안 함"; exit 3; }
 while true; do
   m=$(ssh $PC "nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits -i 0" 2>/dev/null | tr -dc 0-9)
-  [ -n "$m" ] && [ "$m" -lt 3000 ] && break
+  # 묶음마다 모델을 내렸다 올리는 실행기는 몇 초씩 비어 보인다(uk 11-23) — 낮은 값이 1분 간격 3번 + PC 작업 파일이 5분 넘게 멈춤일 때만 빈 것으로
+  if [ -n "$m" ] && [ "$m" -lt 3000 ]; then
+    low=$(( ${low:-0} + 1 ))
+    age=$(ssh $PC "\$t=@('D:\\tts_test\\job\\job.log','D:\\tts_test\\job\\moss_jobs.json') | ?{Test-Path \$_} | %{(Get-Item \$_).LastWriteTime} | sort -desc | select -first 1; if(\$t){[int]((Get-Date)-\$t).TotalSeconds}else{99999}" 2>/dev/null | tr -dc 0-9)
+    [ "$low" -ge 3 ] && [ -n "$age" ] && [ "$age" -gt 300 ] && break
+  else
+    low=0
+  fi
   [ "$(date +%H%M)" -ge 0600 ] && { log "3090 안 빔(${m}MiB) — 포기"; exit 2; }
   sleep 60
 done
