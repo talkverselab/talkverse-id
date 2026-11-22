@@ -8,7 +8,7 @@ import '../services/dialogue_service.dart';
 import '../widgets/indo_decor.dart';
 import 'about_screen.dart';
 import 'curriculum_screen.dart';
-import '../services/curriculum.dart';
+import 'custom_script_screen.dart';
 import 'affix_screen.dart';
 import 'loanword_screen.dart';
 import 'sense_course_screen.dart';
@@ -187,7 +187,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 8),
                 const _HomeTodayCut(),
                 const SizedBox(height: 14),
-                const _CurriculumCard(), // 토크버스 커리큘럼(전 언어 공통, 2026-11-22) — 회화 메뉴 위
+                const CurriculumHomeCard(), // 토크버스 커리큘럼(전 언어 공통, 2026-11-22) — 회화 메뉴 위
                 const SizedBox(height: 22),
                 const Row(
                   children: [
@@ -217,70 +217,6 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-/// 홈의 커리큘럼 카드 — 「오늘: 복습 N · 새 편 N」, 누르면 커리큘럼 화면.
-class _CurriculumCard extends StatefulWidget {
-  const _CurriculumCard();
-  @override
-  State<_CurriculumCard> createState() => _CurriculumCardState();
-}
-
-class _CurriculumCardState extends State<_CurriculumCard> {
-  String _line = '';
-
-  @override
-  void initState() {
-    super.initState();
-    _refresh();
-  }
-
-  Future<void> _refresh() async {
-    final s = await Curriculum.instance.load();
-    final today = dayOf(DateTime.now());
-    s.rollDay(today);
-    final c = s.course;
-    final left = (c == null || c.passedAt != null) ? 0 : c.dialogueIds.where((id) => !c.practiced.contains(id)).length;
-    final newN = (s.newGoal - s.todayNew).clamp(0, left);
-    final line = s.level == null
-        ? '회화 레벨을 고르고 매일 분량으로 연습해요'
-        : c == null || c.passedAt != null
-            ? '${s.level} · 새 코스를 만들어 보세요 · 복습 ${s.dueOn(today).length}'
-            : '오늘: 복습 ${s.dueOn(today).length} · 새 편 $newN${s.streakCount > 0 ? ' · 🔥${s.streakCount}일' : ''}';
-    if (mounted) setState(() => _line = line);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Material(
-      color: AppColors.gading,
-      borderRadius: BorderRadius.circular(14),
-      child: InkWell(
-        key: const ValueKey('home-curriculum'),
-        borderRadius: BorderRadius.circular(14),
-        onTap: () async {
-          await openPane(context, (_) => const CurriculumScreen());
-          _refresh();
-        },
-        child: Container(
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(borderRadius: BorderRadius.circular(14), border: Border.all(color: AppColors.line)),
-          child: Row(children: [
-            const Icon(Icons.school_rounded, color: AppColors.merah, size: 30),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                const Text('토크버스 커리큘럼', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.kayu)),
-                const SizedBox(height: 2),
-                Text(_line, style: const TextStyle(fontSize: 12, color: AppColors.kayuLight)),
-              ]),
-            ),
-            const Icon(Icons.chevron_right, color: AppColors.muted),
-          ]),
-        ),
-      ),
-    );
-  }
-}
-
 class _MenuGrid extends StatelessWidget {
   const _MenuGrid();
 
@@ -293,6 +229,8 @@ class _MenuGrid extends StatelessWidget {
       _MenuItem(icon: Icons.layers_rounded, label: '단어', sub: 'Frekuensi', seal: 'TOP', color: AppColors.laut, builder: (_) => const WordFreqScreen()),
       _MenuItem(icon: Icons.compare_arrows_rounded, label: 'ID ↔ MS', sub: '인니어·말레이어 차이', seal: 'MS', color: AppColors.biruMs, builder: (_) => const VariantsScreen()),
       _MenuItem(icon: Icons.style_rounded, label: '복습', sub: 'Flashcard', seal: 'ULG', color: AppColors.emasDeep, builder: (_) => const FlashcardScreen()),
+      // AI 회화 작성(맞춤 회화) — 작성기가 켜지고 사용자가 정할 때까지 숨김(kCustomScriptLive=false, 일본어앱과 같게 2026-11-22)
+      if (kCustomScriptLive) _MenuItem(icon: Icons.auto_awesome, label: 'AI 회화', sub: '맞춤 회화 만들기', seal: 'AI', color: AppColors.kinDeep, builder: (_) => const CustomScriptScreen()),
     ];
 
     return GridView.builder(
