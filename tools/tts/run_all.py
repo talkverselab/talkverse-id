@@ -37,8 +37,12 @@ def fetch(path):
 done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()
 ids = [e for e in L.planned() if e not in done]
 log('남은 편', len(ids))
+STOP_AT = os.environ.get('STOP_AT')  # 예 '06:30' — 이 시각 뒤에는 새 묶음을 시작하지 않는다(음성은 새벽만, 2026-11-22)
 for i in range(0, len(ids), N):
     eps = ids[i:i + N]
+    if STOP_AT and time.strftime('%H:%M') >= STOP_AT and time.strftime('%H:%M') < '12:00':
+        left = sum(len(L.seg_files(e)) for e in ids[i:])
+        log('STOP_AT', STOP_AT, '남은 편', len(ids) - i, '조각', left); open(f'{work}/left.txt', 'w').write(f'{len(ids) - i} {left}\n'); break
     sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
     for ep in eps:
         fetch(ep)
