@@ -6,6 +6,8 @@ cd ~/talkverse/id
 W=~/tts_work/id; PC=Administrator@100.127.143.37; PY=~/.venvs/whisper/bin/python
 log(){ echo "$(date +%H:%M:%S) $*" >> $W/dawn.log; }
 log "시작"
+# PC 작업 멈춤(사용자 11-22 19시, uk 전달) — 풀렸다는 전달이 오면 이 파일을 지운다
+[ -f $W/PC_PAUSED ] && { log "PC 멈춤 중(PC_PAUSED) — 시작 안 함"; exit 3; }
 while true; do
   m=$(ssh $PC "nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits -i 0" 2>/dev/null | tr -dc 0-9)
   [ -n "$m" ] && [ "$m" -lt 3000 ] && break
