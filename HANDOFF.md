@@ -57,3 +57,8 @@
 - `flutter test` 는 `analysis_options.yaml` 을 바꾼다 → 되돌린다. 다른 세션의 flutter 가 시작 잠금을 오래 쥐면 `dart analyze` 는 `/opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/dart` 로 직접.
 - 시뮬레이터 확인은 임시 기기(`xcrun simctl create … iOS-27-0`)를 만들고 끝나면 지운다. 디스크가 찰 수 있다(2026-11-09 한 번 가득 참).
 - 회화 음성 PC 출력은 `out/ref_id/`·`out/id/<편>/` 로 언어별 분리. GPU 는 uk 신호를 받고만 쓴다.
+
+## 2026-11-22 18시 — PC 멈춤·심사 정리(uk 전달)
+- 사용자 「pc 작업은 잠시멈춤」(19시쯤, uk 전달): `~/tts_work/id/PC_PAUSED` 를 만들어 두었고 `dawn_id.sh` 는 이게 있으면 시작 안 함(e592672). 풀렸다는 전달이 오면 지운다. PC 백업(빌드 32 APK)도 풀린 뒤에.
+- 통합 앱 심사 정리: 회차 영상 주소가 비면 「영상 준비 중」 칸 숨김(3808677). 다른 자리표시 없음(회화 급은 이미 내용 있을 때만 보임, 로그인 버튼은 uk 지시로 그대로).
+- 빌드 32 → Zealot https://apps.talkverse.uk/0wFAp/556, TestFlight 2611221813. (빌드 31 이 Zealot 에 한 번 더 올라감 — 547, CI 기다림이 먼저 끝나서. 같은 APK라 무해.)
