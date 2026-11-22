@@ -312,7 +312,7 @@ class LearnScreen extends StatelessWidget {
   static final List<_LessonItem> _lessons = [
     _LessonItem('기초', '알파벳과 발음', '모음·자음·겹글자·끝소리 · 탭하면 IPA·입모양·한국어 비교', Icons.abc, AppColors.beni, (_) => const AlphabetScreen()),
     _LessonItem('기초', '어근 core', 'kata dasar → 파생어 가족', Icons.spa_outlined, AppColors.sogan, (_) => const RootsScreen()),
-    _LessonItem('문법', '언어감각 익히기', '급마다 영상 → 외울 대화 10줄 + 참고 (L1~L10)', Icons.psychology_outlined, AppColors.ai, (_) => const SenseCourseScreen()),
+    _LessonItem('문법', '언어감각 익히기', '급마다 영상 → 외울 대화 10줄 + 참고', Icons.psychology_outlined, AppColors.ai, (_) => const SenseCourseScreen()),
     _LessonItem('문법', '접사 체계', 'meN- / ber- / di- / ter- / -kan / -i / -an / ke-an', Icons.account_tree_outlined, AppColors.affixMe, (_) => const AffixScreen()),
     _LessonItem('단어', '외국어에서 온 말', 'kata serapan · 철자 규칙 · 3단계 · 퀴즈 복습', Icons.translate, AppColors.laut, (_) => const LoanwordScreen()),
     _LessonItem('회화', '만화책 읽기 회화', '장면 컷 + 대화 스크립트 · 모든 문장 듣기 · 그림 카드', Icons.auto_stories_outlined, AppColors.beni, (_) => const DialogueHomeScreen()),

@@ -59,5 +59,8 @@ void main() {
     expect(SenseCourse.flat(d).length, 1);
     (d['levels'] as List)[1]['lessons'] = [{'id': 'L2-1', 'title': 'y'}];
     expect(SenseCourse.levels(d).map((l) => l['id']), ['L1', 'L2']);
+    // 서버 원고에서 스텝을 빼면(파일 통째로 서버 판) 사라진다
+    (d['levels'] as List).removeAt(0);
+    expect(SenseCourse.levels(d).map((l) => l['id']), ['L2']);
   });
 }
