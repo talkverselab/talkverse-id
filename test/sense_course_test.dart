@@ -31,14 +31,14 @@ void main() {
     });
   }
 
-  testWidgets('외울 대화 — 영상 자리, 색 표시가 글자에 안 남음, 마침 → 다음 급', (t) async {
+  testWidgets('외울 대화 — 영상 없으면 칸 없음, 색 표시가 글자에 안 남음, 마침 → 다음 급', (t) async {
     t.view.physicalSize = const Size(320, 3000);
     t.view.devicePixelRatio = 1;
     addTearDown(t.view.reset);
     await t.pumpWidget(const MaterialApp(home: SenseLessonScreen(index: 0)));
     await settle(t, find.byKey(const ValueKey('sense-finish')));
     expect(t.takeException(), isNull);
-    expect(find.byKey(const ValueKey('memorize-video')), findsOneWidget);
+    expect(find.byKey(const ValueKey('memorize-video')), findsNothing); // 영상 없는 회차는 칸을 숨김(심사 정리 2026-11-22)
     expect(find.textContaining('{', findRichText: true), findsNothing);
     expect(plainMarked('Aku {membaca|1} novel.'), 'Aku membaca novel.');
     await t.tap(find.byKey(const ValueKey('sense-finish')));
