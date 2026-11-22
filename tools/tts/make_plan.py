@@ -32,7 +32,14 @@ def reading(s):
     return re.sub(r'\s+', ' ', r).strip()
 
 
+# 회화 감정 열(대사 규칙 28종) → 음성 감정(voices.json 16종). 2026-11-22 — 새 45편·R1 은 대사 규칙 목록으로 적혀 있다.
+TTS_EMO = {'happy': 'cheerful', 'proud': 'cheerful', 'shocked': 'surprised', 'confused': 'surprised', 'laughing': 'amused',
+           'angry': 'shout', 'panicked': 'flustered', 'embarrassed': 'flustered', 'nervous': 'worried', 'tired': 'sad',
+           'warm': 'gentle', 'moved': 'gentle', 'relieved': 'gentle', 'serious': 'stiff', 'curious': 'neutral'}
+
+
 def seg(e, s):
+    e = TTS_EMO.get(e, e)
     r = reading(s)
     return [e, s] if r == s else [e, s, r]
 

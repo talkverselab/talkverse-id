@@ -1,0 +1,80 @@
+{
+ "ep": "r2_love_a1",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Hujan deras, bareng saja."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Nanti basah, payungnya kecil."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Aku biasa basah, tidak apa-apa."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Bahumu udah basah semua."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Emang, nggak apa-apa sih."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Kenapa hari ini baik banget?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Aku sengaja nggak bawa yang besar."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Kenapa nggak bawa yang besar?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Mau jalan deket sama kamu."
+    ]
+   ]
+  }
+ }
+}

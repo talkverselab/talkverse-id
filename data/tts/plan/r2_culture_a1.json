@@ -1,0 +1,80 @@
+{
+ "ep": "r2_culture_a1",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "sad",
+     "Aku mau mudik, tapi tiketnya habis"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Kasihan deh, rumahmu di mana?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "Di Solo, mama udah masak opor"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Aku juga ke Solo, pakai mobil pinjam"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Ikut aku dong, please"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Tapi perjalanan dua belas jam"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Nggak apa-apa, aku bawa camilan banyak"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Sebenarnya aku nggak bisa nyetir"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Jadi kamu cari supir ya? wkwk"
+    ]
+   ]
+  }
+ }
+}

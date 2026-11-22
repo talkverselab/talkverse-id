@@ -1,0 +1,80 @@
+{
+ "ep": "r2_work_a2",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Kak, mikrofonnya masih nyala dari tadi."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Dari kapan, Kak? Bisa didengar semua?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Dari Kak bilang rapatnya membosankan."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Semua orang dengar ya, Kak?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Pak bos juga dengar, lalu ketawa."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Maaf, Pak! Saya harus minta maaf sekarang."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Tapi Pak bos setuju dengan kata Kak."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Setuju? Benarkah, Kak?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Iya, mulai minggu depan rapat cuma lima belas menit."
+    ]
+   ]
+  }
+ }
+}

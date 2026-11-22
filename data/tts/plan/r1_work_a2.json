@@ -1,0 +1,64 @@
+{
+ "ep": "r1_work_a2",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Halo, sayang? Iya, aku masih di kantor."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Mas Dimas punya pacar?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Ssst! Iya, pacar saya sih."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Lho, itu nomor Bu Bos kok?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Aduh! Nggak! Saya bilang sayang ke Bu Bos!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Terus, Bu Bos bilang apa?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Dia bilang, besok ke ruangannya. Saya mati."
+    ]
+   ]
+  }
+ }
+}

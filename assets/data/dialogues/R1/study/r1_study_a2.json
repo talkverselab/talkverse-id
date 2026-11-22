@@ -47,7 +47,8 @@
      "diem",
      ""
     ]
-   ]
+   ],
+   "emotion": "serious"
   },
   {
    "num": 2,
@@ -69,7 +70,8 @@
      "maaf",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 3,
@@ -91,7 +93,8 @@
      "tonton",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 4,
@@ -123,7 +126,8 @@
      "kabur",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 5,
@@ -150,7 +154,8 @@
      "malu",
      ""
     ]
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 6,
@@ -172,7 +177,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 7,
@@ -189,7 +195,8 @@
      "ingat",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

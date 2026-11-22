@@ -1,0 +1,80 @@
+{
+ "ep": "r2_travel_a1",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Mobilnya di mana? Sudah booking"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Maaf, mobilnya tidak ada, dipakai orang"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Saya bayar seminggu lalu"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Bisa diganti motor, lebih murah dan cepat"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Koper saya besar dua buah"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Tenang, kulkas pun pernah saya angkut"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Bagaimana caranya?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Satu depan, satu belakang, Anda di tengah"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Tolong pelan-pelan ya"
+    ]
+   ]
+  }
+ }
+}

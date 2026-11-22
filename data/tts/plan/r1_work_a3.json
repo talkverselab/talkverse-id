@@ -1,0 +1,64 @@
+{
+ "ep": "r1_work_a3",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Besok kita akan bertemu dengan klien."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Siap. Saya sudah menyiapkan semua, deh."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Terima kasih. Bahasamu sudah bagus sekali."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Terima kasih. Saya terlalu deg-degan."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Coba latihan salam sekarang, dong."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Selamat tidur, Pak! Eh, selamat datang!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Klien pasti tidak akan tidur, deh."
+    ]
+   ]
+  }
+ }
+}

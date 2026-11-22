@@ -59,7 +59,8 @@
      "jadi",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -92,7 +93,8 @@
      "suara",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -115,7 +117,8 @@
      "suara",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -158,7 +161,8 @@
      "denger",
      ""
     ]
-   ]
+   ],
+   "emotion": "laughing"
   },
   {
    "num": 5,
@@ -176,7 +180,8 @@
      "nyanyi",
      ""
     ]
-   ]
+   ],
+   "emotion": "shocked"
   },
   {
    "num": 6,
@@ -209,7 +214,8 @@
      "bagus",
      ""
     ]
-   ]
+   ],
+   "emotion": "laughing"
   },
   {
    "num": 7,
@@ -237,7 +243,8 @@
      "negara",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   }
  ],
  "review": {

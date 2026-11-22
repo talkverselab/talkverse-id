@@ -1,0 +1,72 @@
+{
+ "ep": "r1_survival_s1",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Kak, mau pesan apa?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Nasi goreng satu ya, Bu."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Pedas atau nggak, Kak?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Sedikit aja deh, Bu."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Siap! Sedikit banget ya… eh, kebanyakan!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Bu! Itu bukan sedikit!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Lho, ini sedikit buat orang sini."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Es teh manis tiga dong."
+    ]
+   ]
+  }
+ }
+}

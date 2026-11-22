@@ -1,0 +1,88 @@
+{
+ "ep": "r2_study_a1",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Maaf, ini tempat saya. Aku cuma ke toilet sebentar."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Hah? Aku kira tasnya ditinggal orang, sih."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Lima menit doang, kok. Kenapa kamu duduk di situ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Dari tadi aku di sini, udah hampir sejam."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Sejam? Nggak mungkin, aku lima menit aja."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Tas kamu getar-getar mulu, alarm ujian kali?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Alarm? Kalau begitu ujian jam sepuluh!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Sekarang udah lewat sepuluh, loh."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Hah? Aku telat banget!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Lari sekarang juga! Cepetan!"
+    ]
+   ]
+  }
+ }
+}

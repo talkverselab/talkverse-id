@@ -56,7 +56,8 @@
      "milik",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -73,7 +74,8 @@
      "drama",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 3,
@@ -100,7 +102,8 @@
      "gitu",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -122,7 +125,8 @@
      "gitu",
      ""
     ]
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 5,
@@ -149,7 +153,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 6,
@@ -176,7 +181,8 @@
      "dokter",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 7,
@@ -208,7 +214,8 @@
      "nonton",
      ""
     ]
-   ]
+   ],
+   "emotion": "annoyed"
   }
  ],
  "review": {

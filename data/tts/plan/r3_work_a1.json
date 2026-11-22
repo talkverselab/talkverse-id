@@ -1,0 +1,112 @@
+{
+ "ep": "r3_work_a1",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Penilaian kinerja tahun ini sangat baik."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Terima kasih, Pak Dimas."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Kita bicara soal kenaikan gaji."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Saya berharap naik sepuluh persen."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Alasan spesifiknya apa?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Proyek ekspor yang saya pegang jadi dua kali lipat."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Lembur juga sering ya?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Iya Pak, hampir setiap minggu."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "stiff",
+     "Justru lembur itu masalahnya."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "sad",
+     "Maksudnya permintaan saya ditolak?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Saya naikkan lima belas persen, plus rekrut satu orang."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Saya dengar benar, Pak?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Benar, tapi besok pulang jam enam."
+    ]
+   ]
+  }
+ }
+}

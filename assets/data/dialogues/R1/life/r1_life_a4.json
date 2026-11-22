@@ -56,7 +56,8 @@
      "masak",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 2,
@@ -83,7 +84,8 @@
      "masak",
      ""
     ]
-   ]
+   ],
+   "emotion": "nervous"
   },
   {
    "num": 3,
@@ -105,7 +107,8 @@
      "bawang",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 4,
@@ -132,7 +135,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "sad"
   },
   {
    "num": 5,
@@ -159,7 +163,8 @@
      "bawang",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -186,7 +191,8 @@
      "habis",
      ""
     ]
-   ]
+   ],
+   "emotion": "relieved"
   },
   {
    "num": 7,
@@ -228,7 +234,8 @@
      "lagi",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

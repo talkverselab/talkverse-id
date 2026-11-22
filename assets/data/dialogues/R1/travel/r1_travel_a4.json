@@ -61,7 +61,8 @@
      "akhir",
      ""
     ]
-   ]
+   ],
+   "emotion": "sad"
   },
   {
    "num": 2,
@@ -88,7 +89,8 @@
      "pulang",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 3,
@@ -125,7 +127,8 @@
      "semua",
      ""
     ]
-   ]
+   ],
+   "emotion": "moved"
   },
   {
    "num": 4,
@@ -147,7 +150,8 @@
      "anak",
      ""
     ]
-   ]
+   ],
+   "emotion": "moved"
   },
   {
    "num": 5,
@@ -174,7 +178,8 @@
      "menangis",
      ""
     ]
-   ]
+   ],
+   "emotion": "moved"
   },
   {
    "num": 6,
@@ -201,7 +206,8 @@
      "sayang",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 7,
@@ -228,7 +234,8 @@
      "gimana",
      ""
     ]
-   ]
+   ],
+   "emotion": "moved"
   }
  ],
  "review": {

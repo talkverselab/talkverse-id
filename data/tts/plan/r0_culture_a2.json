@@ -1,0 +1,56 @@
+{
+ "ep": "r0_culture_a2",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bagus banget! Beli di mana?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ini batik, Hari Jumat"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Kenapa Hari Jumat?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Semua pakai batik hari Jumat"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Aku nggak punya batik"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Ini buat kamu, ambil deh"
+    ]
+   ]
+  }
+ }
+}

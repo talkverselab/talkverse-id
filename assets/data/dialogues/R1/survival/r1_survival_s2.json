@@ -62,7 +62,8 @@
      "bantu",
      ""
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -94,7 +95,8 @@
      "hilang",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 3,
@@ -131,7 +133,8 @@
      "tas",
      ""
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -163,7 +166,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -180,7 +184,8 @@
      "tangan",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 6,
@@ -212,7 +217,8 @@
      "kasih",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 7,
@@ -249,7 +255,8 @@
      "dulu",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   }
  ],
  "review": {

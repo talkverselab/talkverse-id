@@ -1,0 +1,64 @@
+{
+ "ep": "r1_love_a1",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Kursinya kosong nggak, Kak?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Iya, kosong. Silakan Kak."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Makasih Kak. Sering ke sini?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Lumayan. Kopinya enak banget."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Tiap Sabtu saya ke sini... bukan karena kopi."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Lho, terus karena apa dong?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Hehe, kopinya enak juga kok."
+    ]
+   ]
+  }
+ }
+}

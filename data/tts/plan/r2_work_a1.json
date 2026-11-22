@@ -1,0 +1,80 @@
+{
+ "ep": "r2_work_a1",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Perkenalkan, saya Dimas. Selamat datang di kantor, Kak."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Terima kasih. Saya baru mulai kerja hari ini."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Ini meja Kak, komputernya sudah siap dipakai."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Kak, siapa yang jadi kepala tim di sini?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Yang pakai baju kuning di sana, Kak."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Tadi pagi saya kira beliau petugas parkir."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Kak sempat kasih uang parkir ke beliau?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Iya Kak, saya kasih untuk parkir motor."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Kalau ada apa-apa, tanya saya dulu. Jangan sungkan, Kak."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "ep": "r4_love_a1",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Besok kita resmi jadi suami istri, masih nggak percaya."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Amplop tua itu apa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Surat yang aku tulis hari pertama ketemu."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Hari itu cuma ngobrol lima menit di halte."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Lima menit cukup buat nulis tiga lembar."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Kenapa nggak pernah dikasih?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Terlalu jujur, takut kamu kabur."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Sekarang nggak bisa kabur lagi."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Malam ini aku bacain yang terakhir."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Aku dengerin."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Seandainya besok naik bus yang sama, aku nikah."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Tak pernah kusangka aku benar-benar naik lagi."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Aku nunggu di halte dari subuh."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "surprised",
+     "Bukan kebetulan ya?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "Besok aku nunggu lagi di ujung lorong."
+    ]
+   ]
+  }
+ }
+}

@@ -55,7 +55,8 @@
      "nggak",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 2,
@@ -82,7 +83,8 @@
      "kenapa",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -109,7 +111,8 @@
      "tanya",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 4,
@@ -131,7 +134,8 @@
      "punya",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 5,
@@ -163,7 +167,8 @@
      "kopi",
      ""
     ]
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 6,
@@ -195,7 +200,8 @@
      "tadi",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 7,
@@ -227,7 +233,8 @@
      "gitu",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 8,
@@ -249,7 +256,8 @@
      "kopi",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

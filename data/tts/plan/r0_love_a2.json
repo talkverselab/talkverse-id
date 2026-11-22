@@ -1,0 +1,56 @@
+{
+ "ep": "r0_love_a2",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Kamu suka kopi?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Aku suka banget"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Aku suka teh manis"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Aku juga suka kamu"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Suka aku?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Maksudnya teh! Mau?"
+    ]
+   ]
+  }
+ }
+}

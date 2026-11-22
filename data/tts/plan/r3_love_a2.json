@@ -1,0 +1,112 @@
+{
+ "ep": "r3_love_a2",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Jangan lupa, ayah dipanggil Pak."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Ada lagi yang harus hati-hati?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Kalau ditanya kerjaan, jawab tenang dan jelas."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Kalau ditanya gaji?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Senyum aja, terus puji masakan ibu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Kalau masakannya pedas banget gimana?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Pokoknya habiskan semua, itu tes pertama."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Tesnya ada berapa?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Tiga. Makan, catur sama ayah, karaoke sama nenek."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Aku nggak bisa main catur."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Ayah juga selalu kalah."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Terus siapa yang menang?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Nenek. Lagunya juga bagus banget."
+    ]
+   ]
+  }
+ }
+}

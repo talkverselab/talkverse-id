@@ -57,7 +57,8 @@
      "gimana",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 2,
@@ -89,7 +90,8 @@
      "ajar",
      ""
     ]
-   ]
+   ],
+   "emotion": "sad"
   },
   {
    "num": 3,
@@ -116,7 +118,8 @@
      "bilang",
      ""
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -148,7 +151,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 5,
@@ -185,7 +189,8 @@
      "pribadi",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 6,
@@ -217,7 +222,8 @@
      "gitu",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -249,7 +255,8 @@
      "bayar",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

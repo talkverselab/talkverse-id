@@ -1,0 +1,80 @@
+{
+ "ep": "r2_travel_a2",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Sebentar lagi sampai, Kak. Hati-hati, di sini licin."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Kak, kaki saya udah nggak terasa sama sekali."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Pegang tangan saya, Kak. Lima menit lagi saja."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Tadi juga bilang lima menit, tiga puluh menit lalu."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Kali ini benar, Kak. Lihat langitnya yang memerah."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Indah sekali... Saya sampai kehilangan kata-kata."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Saya naik ke sini hampir setiap hari, Kak."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Kak, nggak bosan naik setiap hari begini?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Nggak, karena senyum tamu setiap pagi berbeda."
+    ]
+   ]
+  }
+ }
+}

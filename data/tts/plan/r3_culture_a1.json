@@ -1,0 +1,112 @@
+{
+ "ep": "r3_culture_a1",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Nanti sore buka puasa bareng-bareng yuk."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Aku kan nggak puasa, boleh ikut?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Justru karena itu, buka puasa itu untuk berbagi."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Dari subuh nggak makan sama sekali?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Yang paling berat bukan lapar, tapi haus."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Maaf ya, tadi siang aku minum kopi di depanmu."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Nggak apa-apa, menahan godaan juga bagian puasa."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Aku bawa apa nanti?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Bawa yang manis-manis aja."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Kenapa harus yang manis?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Orang tua bilang, buka dengan yang manis lebih baik."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "stiff",
+     "Aku coba bikin sendiri boleh?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Ini resep nenek, nanti aku ajarin deh."
+    ]
+   ]
+  }
+ }
+}

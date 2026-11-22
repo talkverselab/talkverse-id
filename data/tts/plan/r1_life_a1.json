@@ -1,0 +1,72 @@
+{
+ "ep": "r1_life_a1",
+ "cast": {
+  "B": "woman_y"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Mau kantong nggak, Kak?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Iya, Kak."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Struknya mau diambil?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Iya, Kak."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Ada promo, beli satu gratis satu. Mau?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Iya! Gratis banyak banget! Eh?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Totalnya dua ratus ribu, Kak."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Kok mahal? Air doang, Kak!"
+    ]
+   ]
+  }
+ }
+}

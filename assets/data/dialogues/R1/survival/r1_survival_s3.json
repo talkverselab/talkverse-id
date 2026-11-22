@@ -59,7 +59,8 @@
      "mana",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 2,
@@ -81,7 +82,8 @@
      "duduk",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -113,7 +115,8 @@
      "terminal",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 4,
@@ -140,7 +143,8 @@
      "henti",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -157,7 +161,8 @@
      "kiri",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 6,
@@ -184,7 +189,8 @@
      "sekali",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -216,7 +222,8 @@
      "turun",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 8,
@@ -238,7 +245,8 @@
      "angkot",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   }
  ],
  "review": {

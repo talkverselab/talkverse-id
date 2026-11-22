@@ -1,0 +1,64 @@
+{
+ "ep": "r1_love_a3",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Eh, dia bilang \"Kau milikku!\""
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Seperti drama saja sih."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Coba kamu bilang gitu dong."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Kau milikku... gitu?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Aduh, jantungku meledak banget!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Meledak? Mau ke dokter?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Bukan sakit, bodoh. Diamlah, nonton saja!"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "ep": "r1_study_a1",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Lo dari {country}? Bahasa Indonesia lo bagus banget!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Makasih! Gue belajar tiap hari."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Mau minum apa? Gue traktir dong."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Gue mau es kepala muda deh!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Kepala?! Hahaha! Kelapa dong!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Iya, kelapa! Bukan kepala kok!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Oke, buat lo es kelapa muda... tanpa kepala."
+    ]
+   ]
+  }
+ }
+}

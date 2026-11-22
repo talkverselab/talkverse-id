@@ -1,0 +1,72 @@
+{
+ "ep": "r1_love_a2",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Kamu punya pacar nggak?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Nggak punya. Kenapa sih?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Nggak apa-apa. Tanya aja."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Kamu sendiri punya?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Belum. Aku nungguin kamu banget... eh, kopiku!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Kopimu udah datang dari tadi."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Ya udah deh. Jangan lihat aku gitu!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Aku lihat kopimu aja kok."
+    ]
+   ]
+  }
+ }
+}

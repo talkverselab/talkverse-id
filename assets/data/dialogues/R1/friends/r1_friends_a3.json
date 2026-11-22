@@ -61,7 +61,8 @@
      "malem",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 2,
@@ -93,7 +94,8 @@
      "ikut",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -130,7 +132,8 @@
      "duit",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -157,7 +160,8 @@
      "traktir",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 5,
@@ -204,7 +208,8 @@
      "dua",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 6,
@@ -226,7 +231,8 @@
      "sendiri",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -253,7 +259,8 @@
      "nasi",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

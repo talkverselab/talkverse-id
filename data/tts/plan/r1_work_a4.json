@@ -1,0 +1,72 @@
+{
+ "ep": "r1_work_a4",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Tolong kirim laporan ini dengan satu foto."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Baik, Pak. Foto yang mana sih?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Foto kantor kami aja dong. Jangan yang lain."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Sudah terkirim, Pak."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Kenapa Bapak Bos tertawa sampai pegang perut?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Saya tidak tahu. Coba lihat dong."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ini foto kamu tidur di meja! Kok?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Itu foto kantor kami juga, kan?"
+    ]
+   ]
+  }
+ }
+}

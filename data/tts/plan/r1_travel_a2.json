@@ -1,0 +1,64 @@
+{
+ "ep": "r1_travel_a2",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Aduh, hujan deras banget!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Pak, saya lupa bawa payung."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Ini, pakai jas hujan saya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Terus Pak pakai apa dong?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Bapak kayak bebek, biasa basah! Hehe."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Pak… makasih banyak banget."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Nggak usah. Bayar dua kali, ya!"
+    ]
+   ]
+  }
+ }
+}

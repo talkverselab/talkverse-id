@@ -1,0 +1,80 @@
+{
+ "ep": "r2_life_a1",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Paket Anda salah alamat, ini saya bawa"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Terima kasih, sudah tiga hari nunggu"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Maaf, saya kira punya saya, sudah dibuka"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Nggak apa-apa, cuma buku"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Buku masak bagus, sudah saya baca semua"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Sudah dibaca semuanya?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Bahkan sudah coba satu resep"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Cepat sekali, Bu"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Ini hasilnya, ganti buku yang kotor"
+    ]
+   ]
+  }
+ }
+}

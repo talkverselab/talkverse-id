@@ -1,0 +1,88 @@
+{
+ "ep": "r2_study_a2",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Bagian kamu sudah dikerjakan?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Kesimpulan aja yang belum"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Yang lain belum mulai sama sekali"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Besok pagi kumpul, kan?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Makanya aku telepon. Tenang saja"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Jangan-jangan mau lempar semua ke aku"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Nggak, bagian mereka sudah aku selesaiin"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Kamu yang kerjain semuanya?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "sad",
+     "Dua hari nggak tidur"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Sekarang tidur, kesimpulan aku yang buat"
+    ]
+   ]
+  }
+ }
+}

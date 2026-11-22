@@ -53,7 +53,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 2,
@@ -75,7 +76,8 @@
      "kuat",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 3,
@@ -97,7 +99,8 @@
      "gang",
      ""
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 4,
@@ -129,7 +132,8 @@
      "semua",
      ""
     ]
-   ]
+   ],
+   "emotion": "proud"
   },
   {
    "num": 5,
@@ -146,7 +150,8 @@
      "rumah",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 6,
@@ -183,7 +188,8 @@
      "ember",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 7,
@@ -205,7 +211,8 @@
      "bagaimana",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 8,
@@ -242,7 +249,8 @@
      "ada",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   }
  ],
  "review": {

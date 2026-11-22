@@ -1,0 +1,56 @@
+{
+ "ep": "r0_friends_a2",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "sad",
+     "Aku lapar banget"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ada makanan?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Mie instan cuma satu"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Kita bagi dua aja"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Kamu baik banget"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Itu mie aku! Enak banget"
+    ]
+   ]
+  }
+ }
+}

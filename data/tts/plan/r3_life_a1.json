@@ -1,0 +1,112 @@
+{
+ "ep": "r3_life_a1",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Kontraknya habis akhir bulan ini, Nak."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Saya mau perpanjang satu tahun, Pak."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Sewanya naik dua puluh persen ya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Naik berapa? Itu terlalu tinggi, Pak."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Biaya listrik dan air juga naik semua."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Bisa dinegosiasikan, Pak?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Nak, bisa masak nggak?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Masak? Kenapa tiba-tiba, Pak?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Istri saya pulang kampung tiga bulan."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Pak butuh makan malam ya?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Tiga kali seminggu, sewa nggak naik."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Menu saya yang tentukan ya, Pak."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Asal bukan mi instan setiap hari."
+    ]
+   ]
+  }
+ }
+}

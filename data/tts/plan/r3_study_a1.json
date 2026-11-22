@@ -1,0 +1,112 @@
+{
+ "ep": "r3_study_a1",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Saya sudah baca draf skripsi sampai selesai."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Menurut Ibu, perlu diperbaiki banyak?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Hampir setiap paragraf ada catatan merah."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Kalau boleh saya jelaskan, data masih kurang."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Bukan masalah data, Nak."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Lalu apa yang perlu diperbaiki?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Kalimatnya terlalu indah untuk tulisan akademik."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Dulu saya bermimpi jadi novelis."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Bab dua mulai dengan hujan di jendela, kelihatan."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "stiff",
+     "Saya akan buat kalimatnya lebih kering."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Skripsi perbaiki, tapi draf ini jangan dibuang."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Kenapa, Bu?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Saya penasaran sama akhir ceritanya."
+    ]
+   ]
+  }
+ }
+}

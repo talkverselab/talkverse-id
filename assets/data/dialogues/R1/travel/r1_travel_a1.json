@@ -43,7 +43,8 @@
      "stasiun",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -75,7 +76,8 @@
      "pintas",
      ""
     ]
-   ]
+   ],
+   "emotion": "proud"
   },
   {
    "num": 3,
@@ -102,7 +104,8 @@
      "menit",
      ""
     ]
-   ]
+   ],
+   "emotion": "happy"
   },
   {
    "num": 4,
@@ -129,7 +132,8 @@
      "masuk",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 5,
@@ -151,7 +155,8 @@
      "pintas",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 6,
@@ -178,7 +183,8 @@
      "pisang",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 7,
@@ -200,7 +206,8 @@
      "stasiun",
      ""
     ]
-   ]
+   ],
+   "emotion": "tired"
   },
   {
    "num": 8,
@@ -227,7 +234,8 @@
      "keluarga",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   }
  ],
  "review": {

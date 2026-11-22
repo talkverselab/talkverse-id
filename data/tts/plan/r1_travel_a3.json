@@ -1,0 +1,72 @@
+{
+ "ep": "r1_travel_a3",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Pak, ke stasiun. Saya telat banget!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Siap! Pegangan kuat dong!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Pak, kok kita masuk gang?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Jalan pintas. Saya tahu semua!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Pak, ini rumah Bapak ya?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Iya! Rumah saya! Mampir, istri masak seember!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Pak! Kereta saya bagaimana?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Makan dulu deh, kereta masih ada!"
+    ]
+   ]
+  }
+ }
+}

@@ -58,7 +58,8 @@
      "kantor",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 2,
@@ -80,7 +81,8 @@
      "pacar",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 3,
@@ -102,7 +104,8 @@
      "pacar",
      ""
     ]
-   ]
+   ],
+   "emotion": "nervous"
   },
   {
    "num": 4,
@@ -124,7 +127,8 @@
      "bos",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -156,7 +160,8 @@
      "bos",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 6,
@@ -183,7 +188,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 7,
@@ -215,7 +221,8 @@
      "mati",
      ""
     ]
-   ]
+   ],
+   "emotion": "sad"
   }
  ],
  "review": {

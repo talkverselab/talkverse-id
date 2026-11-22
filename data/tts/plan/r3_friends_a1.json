@@ -1,0 +1,112 @@
+{
+ "ep": "r3_friends_a1",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "sad",
+     "Jujur saja, kemarin di grup itu soal aku kan?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Yang mana sih? Aku nggak ngeh."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "Yang bilang selalu telat dan pura-pura sibuk."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Salah paham banget. Bukan soal kamu."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Salah paham? Namanya aja nggak disebut, tapi jelas."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Bukan begitu maksudnya. Itu soal kucing baru."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Kucing bisa pura-pura sibuk?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Tiap aku kerja, dia duduk di laptop."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Terus yang keliling sampai subuh?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Iya, dia keluyuran di luar sampai pagi."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Aku hampir keluar dari grup tadi."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Besok kalau ada apa-apa, tanya aku dulu ya."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "Tapi kenapa nama kucingnya Bos Besar?"
+    ]
+   ]
+  }
+ }
+}

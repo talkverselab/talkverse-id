@@ -1,0 +1,112 @@
+{
+ "ep": "r3_friends_a2",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Kali ini serius, ayo kita buka kafe bareng."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Kamu bilang gitu tiap tahun sih."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Kali ini beda, aku bawa proposal bisnis."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Modal awalnya berapa?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Kita bagi dua, tiga bulan udah balik modal."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Untungnya kapan sih? Terlalu optimis."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Modalnya nggak banyak, sewa juga gratis."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Gratis? Di mana tempatnya?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Di garasi rumah kamu."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Rumah aku? Serius?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Ibu kamu udah setuju, bahkan mau jadi barista."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Kamu tanya ibu dulu sebelum aku?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Iya dong, pikir-pikir dulu ya."
+    ]
+   ]
+  }
+ }
+}

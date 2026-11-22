@@ -1,0 +1,64 @@
+{
+ "ep": "r1_life_a2",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Hari ini mau makan apa, Kak?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Apa aja, Bu. Semuanya enak kok."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Oke deh, apa aja ya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Nih! Ayam ikan tahu tempe sayur telur semua!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Bu! Ini buat sepuluh orang!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Kamu bilang apa aja. Habisin dong!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Saya udah kenyang liat doang."
+    ]
+   ]
+  }
+ }
+}

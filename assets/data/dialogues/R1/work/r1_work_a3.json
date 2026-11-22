@@ -68,7 +68,8 @@
      "klien",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -95,7 +96,8 @@
      "semua",
      ""
     ]
-   ]
+   ],
+   "emotion": "proud"
   },
   {
    "num": 3,
@@ -132,7 +134,8 @@
      "sekali",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 4,
@@ -164,7 +167,8 @@
      "deg",
      ""
     ]
-   ]
+   ],
+   "emotion": "nervous"
   },
   {
    "num": 5,
@@ -196,7 +200,8 @@
      "sekarang",
      ""
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 6,
@@ -223,7 +228,8 @@
      "datang",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 7,
@@ -260,7 +266,8 @@
      "tidur",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   }
  ],
  "review": {

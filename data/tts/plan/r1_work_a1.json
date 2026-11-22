@@ -1,0 +1,72 @@
+{
+ "ep": "r1_work_a1",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Besok rapat jam sembilan ya."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Siap, Pak Dimas."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Malam Pak! Saya udah siap."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Lho? Kamu di kantor jam sembilan malam?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Kok rapatnya bukan sekarang, Pak? Saya siap banget!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Jam sembilan pagi! Pulang tidur!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Oke tapi saya bawa kopi dua."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Nggak apa-apa. Saya temani lima menit."
+    ]
+   ]
+  }
+ }
+}

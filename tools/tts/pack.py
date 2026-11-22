@@ -2,7 +2,7 @@
 """문장 조각 wav → 턴별 mp4(AAC) → R2 `audio/id/<편>/<턴>_<m|f>.mp4` + D1 `audio_lines`(그 편의 줄을 지우고 다시 넣는다).
 모든 턴에 남성판·여성판 두 파일·두 줄(본문 text(인도네시아어)·reading(빈 값)·rd(한글 독음)·ko(한국어 뜻) 포함). 두 판의 소리가 같아도 따로 올린다 — 구조를 단순하게.
 조각마다 앞뒤 무음을 자르고 0.45초 넘는 쉼을 줄인 뒤 0.22초 간격으로 잇고 소리 크기를 맞춘다(-18 LUFS).
-  python3 tools/tts/pack.py <wav폴더> <편id>... [--upload] [--no-db] [--post [N]]   --post N = 음질 후처리 N단계(POSTS), 주소·목록은 <편>_pp(1)·_pp2·_pp3   --no-db = R2 에만 올린다(시험 비교판은 사용자가 고른 판만 D1 에 넣는다)
+  python3 tools/tts/pack.py <wav폴더> <편id>... [--upload] [--no-db] [--post [N]] [--keep-id]   --post N = 음질 후처리 N단계(POSTS), 주소·목록은 <편>_pp(1)·_pp2·_pp3   --no-db = R2 에만 올린다(시험 비교판은 사용자가 고른 판만 D1 에 넣는다)
 목록 = data/tts/audio_id.json(리뷰 페이지용). 주소에는 ?v=<sha1 앞 8자리>(서버 캐시가 1년)."""
 import datetime, hashlib, json, os, subprocess, sys, tempfile
 from concurrent.futures import ThreadPoolExecutor
@@ -60,11 +60,12 @@ def main():
     UP = '--upload' in sys.argv; DB = '--no-db' not in sys.argv; a = sys.argv[1:]; PP = 0
     if '--post' in a:
         i = a.index('--post'); PP = int(a[i + 1]) if i + 1 < len(a) and a[i + 1].isdigit() else 1; a = a[:i] + a[i + (2 if PP and i + 1 < len(a) and a[i + 1].isdigit() else 1):]
-    a = [x for x in a if x not in ('--upload', '--no-db')]; wav, eps = a[0], a[1:]
+    KEEP = '--keep-id' in a  # 전편(run_all): 후처리를 하되 편 이름에 _pp 꼬리를 붙이지 않는다(2026-11-22 2단계로 정함)
+    a = [x for x in a if x not in ('--upload', '--no-db', '--keep-id')]; wav, eps = a[0], a[1:]
     tmp = tempfile.mkdtemp(); q = lambda s: "'" + s.replace("'", "''") + "'"
     mf = f'{R}/data/tts/audio_id.json'
     for ep in eps:
-        rows = []; oe = ep + ('_pp' if PP == 1 else f'_pp{PP}' if PP else '')
+        rows = []; oe = ep if KEEP else ep + ('_pp' if PP == 1 else f'_pp{PP}' if PP else '')
         for t in L.turns(ep):
             for g in 'mf':
                 x = t[g]; tag = 'c' if t['same'] else g; f = f"{tmp}/{oe}_{t['num']:02d}_{g}.mp4"

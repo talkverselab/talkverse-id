@@ -1,0 +1,80 @@
+{
+ "ep": "r2_life_a3",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Aturannya ada beberapa, dengarkan"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Apa saja, Bu?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Pintu dikunci jam sepuluh malam"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Kalau pulang terlambat gimana?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Telepon saja. Tidak boleh masak durian"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Siapa yang masak durian?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Anak kamar tiga, baunya seminggu"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Saya janji nggak akan"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Jangan dekat-dekat dia juga"
+    ]
+   ]
+  }
+ }
+}

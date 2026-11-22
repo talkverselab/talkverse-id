@@ -58,7 +58,8 @@
      "sembilan",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -75,7 +76,8 @@
      "siap",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -102,7 +104,8 @@
      "siap",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 4,
@@ -134,7 +137,8 @@
      "malam",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 5,
@@ -171,7 +175,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "proud"
   },
   {
    "num": 6,
@@ -208,7 +213,8 @@
      "tidur",
      ""
     ]
-   ]
+   ],
+   "emotion": "annoyed"
   },
   {
    "num": 7,
@@ -240,7 +246,8 @@
      "dua",
      ""
     ]
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -277,7 +284,8 @@
      "menit",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   }
  ],
  "review": {

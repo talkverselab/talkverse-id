@@ -1,0 +1,112 @@
+{
+ "ep": "r3_travel_a2",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Kalau mau gudeg yang asli, jangan ke toko besar."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Kenapa, Pak?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Itu rasa untuk turis, kurang enak."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Bawa saya ke langganan Bapak dong."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Tempatnya di dalam gang, Nak."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Masih jauh, Pak?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Sedikit lagi, kita lewat masjid ini lagi."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Tarifnya sudah lumayan tinggi."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Ini warung langganan saya dari dulu."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Pemiliknya kenal Bapak?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Iya, itu istri saya."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Kalau enak, saya bayar penuh."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "cheerful",
+     "Kalau nggak enak, makanannya gratis."
+    ]
+   ]
+  }
+ }
+}

@@ -73,7 +73,8 @@
      "foto",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -100,7 +101,8 @@
      "mana",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 3,
@@ -132,7 +134,8 @@
      "lain",
      ""
     ]
-   ]
+   ],
+   "emotion": "serious"
   },
   {
    "num": 4,
@@ -154,7 +157,8 @@
      "kirim",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -191,7 +195,8 @@
      "perut",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 6,
@@ -223,7 +228,8 @@
      "lihat",
      ""
     ]
-   ]
+   ],
+   "emotion": "nervous"
   },
   {
    "num": 7,
@@ -250,7 +256,8 @@
      "meja",
      ""
     ]
-   ]
+   ],
+   "emotion": "shocked"
   },
   {
    "num": 8,
@@ -272,7 +279,8 @@
      "kantor",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

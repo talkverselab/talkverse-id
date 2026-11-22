@@ -1,0 +1,64 @@
+{
+ "ep": "r1_life_a4",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ayo, bantu Ibu masak dong!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Saya tak bisa masak, Bu."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Gampang kan? Potong bawang saja."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Bu... mata saya menangis banget!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Itu bukan menangis. Itu bawang kok!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Bu, bawangnya sudah habis."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Bagus! Mata menangis? Potong dua puluh lagi, ya!"
+    ]
+   ]
+  }
+ }
+}

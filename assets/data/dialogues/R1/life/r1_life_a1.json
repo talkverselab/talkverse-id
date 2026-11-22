@@ -54,7 +54,8 @@
      "nggak",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -71,7 +72,8 @@
      "iya",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -98,7 +100,8 @@
      "ambil",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 4,
@@ -115,7 +118,8 @@
      "iya",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -157,7 +161,8 @@
      "mau",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
@@ -189,7 +194,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 7,
@@ -221,7 +227,8 @@
      "ribu",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 8,
@@ -243,7 +250,8 @@
      "doang",
      ""
     ]
-   ]
+   ],
+   "emotion": "shocked"
   }
  ],
  "review": {

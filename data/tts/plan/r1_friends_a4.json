@@ -1,0 +1,72 @@
+{
+ "ep": "r1_friends_a4",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Sini dong. Aku mau bilang rahasia."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Rahasia? Kalau aku tak boleh tahu?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Jangan bilang siapa-siapa ya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Baik. Aku tutup mulut rapat."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Raka dan Dimas sudah tahu duluan!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Mereka tahu? Benar?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Kami semua tahu. Cuma kamu belum."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Jadi rahasia ini tentang aku?!"
+    ]
+   ]
+  }
+ }
+}

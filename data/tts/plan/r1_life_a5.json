@@ -1,0 +1,72 @@
+{
+ "ep": "r1_life_a5",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Pak, ini berapa ya?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Hah? Saya tidak dengar kok."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Maaf, Bu! Ini berapa, Bu?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Nah, sekarang saya dengar. Lima ribu!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Bagaimana saya harus bayar, Bu?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Bayar dengan senyum dulu deh."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Baik, Bu, begini ya?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Ditambahi lima ribu lagi. Baru bagus."
+    ]
+   ]
+  }
+ }
+}

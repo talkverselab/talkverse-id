@@ -55,7 +55,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 2,
@@ -82,7 +83,8 @@
      "satu",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 3,
@@ -104,7 +106,8 @@
      "nggak",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 4,
@@ -121,7 +124,8 @@
      "sedikit",
      ""
     ]
-   ]
+   ],
+   "emotion": "neutral"
   },
   {
    "num": 5,
@@ -153,7 +157,8 @@
      "banyak",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 6,
@@ -175,7 +180,8 @@
      "sedikit",
      ""
     ]
-   ]
+   ],
+   "emotion": "shocked"
   },
   {
    "num": 7,
@@ -197,7 +203,8 @@
      "orang",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -229,7 +236,8 @@
      "tiga",
      ""
     ]
-   ]
+   ],
+   "emotion": "tired"
   }
  ],
  "review": {

@@ -59,7 +59,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 2,
@@ -81,7 +82,8 @@
      "enak",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -103,7 +105,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 4,
@@ -145,7 +148,8 @@
      "semua",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 5,
@@ -167,7 +171,8 @@
      "orang",
      ""
     ]
-   ]
+   ],
+   "emotion": "shocked"
   },
   {
    "num": 6,
@@ -189,7 +194,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -221,7 +227,8 @@
      "doang",
      ""
     ]
-   ]
+   ],
+   "emotion": "tired"
   }
  ],
  "review": {

@@ -1,0 +1,66 @@
+{
+ "ep": "r1_friends_c1",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Bro, nanti malem jadi dong?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Jadi! Gue kirim pesan suara ya."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "🎤 (pesan suara 0:42)",
+     ""
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Gila, itu masuk grup kantor!! Semua denger wkwk 😂",
+     "Gila, itu masuk grup kantor!! Semua denger wkwk"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "HAH?! Gue nyanyi buat lo!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Bos lo udah balas \"Suaranya bagus\" wkwk"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Gue mau pindah negara deh."
+    ]
+   ]
+  }
+ }
+}

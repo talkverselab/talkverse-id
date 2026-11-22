@@ -57,7 +57,8 @@
      "belum",
      ""
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 2,
@@ -75,7 +76,8 @@
      "belum",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 3,
@@ -98,7 +100,8 @@
      "indah",
      ""
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 4,
@@ -110,7 +113,8 @@
    "tags": [],
    "ui": "bubble",
    "art": "assets/images/scenes/r1_love_c1_2.jpg",
-   "lemmas": []
+   "lemmas": [],
+   "emotion": "warm"
   },
   {
    "num": 5,
@@ -138,7 +142,8 @@
      "mana",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 6,
@@ -171,7 +176,8 @@
      "balas",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 7,
@@ -189,7 +195,8 @@
      "mana",
      ""
     ]
-   ]
+   ],
+   "emotion": "laughing"
   },
   {
    "num": 8,
@@ -201,7 +208,8 @@
    "tags": [],
    "ui": "bubble",
    "art": "assets/images/scenes/r1_love_c1_4.jpg",
-   "lemmas": []
+   "lemmas": [],
+   "emotion": "shy"
   }
  ],
  "review": {

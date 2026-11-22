@@ -1,0 +1,64 @@
+{
+ "ep": "r1_friends_a3",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Kalian mau ke mana sih malem ini?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ke pasar malam. Mau ikut yuk?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Mau banget! Tapi aku gak punya duit."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Enggak apa-apa. Aku traktir deh."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Benar? Aku makan sate sepuluh, es teh dua!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Sepuluh? Untuk kamu sendiri?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Untuk aku sendiri. Kamu makan nasi saja."
+    ]
+   ]
+  }
+ }
+}

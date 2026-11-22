@@ -1,0 +1,64 @@
+{
+ "ep": "r1_life_a3",
+ "cast": {
+  "B": "busri"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Nak, mau makan apa hari ini?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Nasi goreng pedas satu, Bu."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Nih, makan banyak-banyak ya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Makasih, Bu. Berapa harganya?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Nggak usah bayar. Kayak anak sendiri."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Wah, Bu baik banget sih!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Eh, tapi kemarin belum bayar lho!"
+    ]
+   ]
+  }
+ }
+}

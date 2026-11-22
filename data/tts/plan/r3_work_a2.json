@@ -1,0 +1,112 @@
+{
+ "ep": "r3_work_a2",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Sudah lihat email dari klien?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Belum, Pak. Ada apa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Harga di penawaran tertulis sepuluh kali lipat."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Itu kesalahan saya. Segera saya perbaiki."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Baca balasannya sampai selesai dulu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Mereka setuju dengan harga itu?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Iya, mereka terima penawaran sepuluh kali."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "stiff",
+     "Tetap harus kita beritahu yang benar."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Setuju. Kak yang bertanggung jawab telepon."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "stiff",
+     "Baik, saya hubungi sekarang."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Mereka marah?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Tidak, malah pesan dua kali lebih banyak."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "cheerful",
+     "Karena jujur. Kopi hari ini saya yang bayar."
+    ]
+   ]
+  }
+ }
+}

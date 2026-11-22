@@ -1,0 +1,56 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Siapa nama kamu?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Nama saya {name}"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Nama kamu cantik banget"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Senang kenalan. Kamu siapa?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Raka, tetangga sebelah"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Yang nyanyi tiap malam?"
+    ]
+   ]
+  }
+ }
+}

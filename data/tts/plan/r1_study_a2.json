@@ -1,0 +1,64 @@
+{
+ "ep": "r1_study_a2",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Ssst, diem. Perpus nih."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Iya, maaf... Hah... HACIH!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Wah, kita jadi tontonan deh!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Aduh, aku malu banget, pengen kabur!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Kamu lucu banget kalau malu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Hah? Kamu bilang apa sih?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Ssst. Perpus, ingat dong."
+    ]
+   ]
+  }
+ }
+}

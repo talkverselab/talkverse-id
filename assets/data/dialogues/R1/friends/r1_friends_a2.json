@@ -48,7 +48,8 @@
      "duet",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -80,7 +81,8 @@
      "nggak",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 3,
@@ -107,7 +109,8 @@
      "nyanyi",
      ""
     ]
-   ]
+   ],
+   "emotion": "proud"
   },
   {
    "num": 4,
@@ -129,7 +132,8 @@
      "dulu",
      ""
     ]
-   ]
+   ],
+   "emotion": "panicked"
   },
   {
    "num": 5,
@@ -156,7 +160,8 @@
      "ketok",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 6,
@@ -183,7 +188,8 @@
      "diam",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 7,
@@ -220,7 +226,8 @@
      "lagi",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

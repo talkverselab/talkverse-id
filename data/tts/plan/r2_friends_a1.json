@@ -1,0 +1,80 @@
+{
+ "ep": "r2_friends_a1",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Giliran aku dong, udah lama"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Satu lagu lagi, ini favorit"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Itu udah kelima kalinya"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Yuk nyanyi bareng aja"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Aku nggak tahu lagu ini"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Ikutin liriknya aja, suaramu bagus"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Liriknya semua bahasa Jawa"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Makanya aku yang nyanyi terus"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "sad",
+     "Ambil mic-nya, aku makan aja"
+    ]
+   ]
+  }
+ }
+}

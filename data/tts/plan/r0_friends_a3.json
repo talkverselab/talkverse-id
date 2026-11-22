@@ -1,0 +1,56 @@
+{
+ "ep": "r0_friends_a3",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Tolong fotokan aku dong"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Satu, dua, tiga!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Lagi, ekspresi jelek"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Udah capek nih"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Lagi! Dua puluh lagi!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Tangan aku sakit"
+    ]
+   ]
+  }
+ }
+}

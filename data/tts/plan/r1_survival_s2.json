@@ -1,0 +1,64 @@
+{
+ "ep": "r1_survival_s2",
+ "cast": {
+  "B": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Halo Kak, ada yang bisa dibantu?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Paspor saya tidak ada! Hilang!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Tenang, Kak. Sudah cari dan cek tas?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Sudah. Tas saya kosong banget."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Waduh, Kak! Paspornya di tangan Kakak!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh iya, ini paspor saya. Terima kasih!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Lain kali cek tangan dulu dong."
+    ]
+   ]
+  }
+ }
+}

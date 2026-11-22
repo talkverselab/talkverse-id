@@ -1,0 +1,88 @@
+{
+ "ep": "r2_love_a2",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Untuk siapa pesan itu?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Aku nggak kirim apa-apa"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "\"Kangen\" plus hati, lho"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Salah kirim, hapus dong"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Sudah terlanjur dibaca. Untuk siapa?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Untuk kucing nenek"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Kucing punya HP? wkwk"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Bukan kucing, maaf"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Terus untuk siapa?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shy",
+     "Baca lagi namanya"
+    ]
+   ]
+  }
+ }
+}

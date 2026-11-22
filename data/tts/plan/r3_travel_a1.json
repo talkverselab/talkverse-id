@@ -1,0 +1,112 @@
+{
+ "ep": "r3_travel_a1",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Saya kehilangan paspor, pesawat tinggal dua jam."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Tenang, Kak. Terakhir kali lihat di mana?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Di atas koper, di konter check-in."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Kopernya sudah dititipkan?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Sudah, Kak. Mungkin paspor ikut masuk."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Saya hubungi bagian bagasi sekarang."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Kalau nggak ketemu gimana, Kak?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "stiff",
+     "Perlu laporan polisi dan surat darurat kedutaan."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "sad",
+     "Itu bisa makan waktu berapa hari?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Ada telepon dari bagasi."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Ketemu paspornya, Kak?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Ketemu, tapi koper naik pesawat ke pulau lain."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Saya mau ke Seoul!"
+    ]
+   ]
+  }
+ }
+}

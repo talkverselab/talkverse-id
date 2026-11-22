@@ -1,0 +1,64 @@
+{
+ "ep": "r1_study_a3",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Eh, ujianmu tadi gimana?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Hancur total. Aku nggak belajar."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Kenapa nggak bilang ke aku?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Malu. Kamu selalu pintar banget."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Mulai besok aku jadi guru pribadimu deh."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Beneran? Tiap hari gitu?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Tiap hari dong. Tapi kopi kamu yang bayar."
+    ]
+   ]
+  }
+ }
+}

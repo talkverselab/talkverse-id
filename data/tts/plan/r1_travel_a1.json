@@ -1,0 +1,72 @@
+{
+ "ep": "r1_travel_a1",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Pak, ke stasiun, ya."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Siap! Saya tau jalan pintas deh."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Wah, bagus. Berapa menit?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Sepuluh. Eh, rumah ibu! Masuk dong!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Pak… ini jalan pintas?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Sebentar! Ibu kasih kamu pisang."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Saya cuma mau ke stasiun…"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Udah! Sekarang kamu keluarga."
+    ]
+   ]
+  }
+ }
+}

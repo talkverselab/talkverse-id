@@ -50,7 +50,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "excited"
   },
   {
    "num": 2,
@@ -82,7 +83,8 @@
      "hari",
      ""
     ]
-   ]
+   ],
+   "emotion": "proud"
   },
   {
    "num": 3,
@@ -114,7 +116,8 @@
      "traktir",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 4,
@@ -146,7 +149,8 @@
      "muda",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 5,
@@ -168,7 +172,8 @@
      "kelapa",
      ""
     ]
-   ]
+   ],
+   "emotion": "laughing"
   },
   {
    "num": 6,
@@ -200,7 +205,8 @@
      "kepala",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 7,
@@ -242,7 +248,8 @@
      "kepala",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

@@ -63,7 +63,8 @@
      "rahasia",
      ""
     ]
-   ]
+   ],
+   "emotion": "serious"
   },
   {
    "num": 2,
@@ -95,7 +96,8 @@
      "tahu",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 3,
@@ -122,7 +124,8 @@
      "siapa",
      ""
     ]
-   ]
+   ],
+   "emotion": "serious"
   },
   {
    "num": 4,
@@ -154,7 +157,8 @@
      "rapat",
      ""
     ]
-   ]
+   ],
+   "emotion": "gentle"
   },
   {
    "num": 5,
@@ -181,7 +185,8 @@
      "duluan",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 6,
@@ -203,7 +208,8 @@
      "benar",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 7,
@@ -230,7 +236,8 @@
      "belum",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 8,
@@ -252,7 +259,8 @@
      "rahasia",
      ""
     ]
-   ]
+   ],
+   "emotion": "shocked"
   }
  ],
  "review": {

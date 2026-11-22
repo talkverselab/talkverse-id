@@ -56,7 +56,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
     final entries = <WordEntry>[];
     for (var i = 1; i < rows.length; i++) {
       final r = rows[i];
-      if (r.length < 8) continue;
+      if (r.length < 8 || '${r[7]}' == 'hidden') continue; // R5 인명·영어·조각·욕설(2026-11-22)
       entries.add(WordEntry(rank: int.tryParse('${r[0]}') ?? 0, word: '${r[1]}', region: '${r[4]}', ko: '${r[6]}', speakable: '${r[7]}' == 'root'));
     }
     final conv = <WordEntry>[];

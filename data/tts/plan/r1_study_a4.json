@@ -1,0 +1,72 @@
+{
+ "ep": "r1_study_a4",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Tenang dong, presentasi kita cuma lima menit."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Bagaimana kalau Pak dosen nanya?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Tidak akan. Dia selalu tidur sih."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Maaf, Pak... kok sudah bangun?!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Siapa yang bikin dia bangun?!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Dia nanya lagi dan lagi!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Sekarang mereka semua harus jawab."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Lima menit... jadi dua jam."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "ep": "r1_survival_s3",
+ "cast": {
+  "B": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Pak, angkot ini ke mana?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ke terminal. Duduk aja deh."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Saya harus ke kampus, bukan terminal!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Tidak bisa berhenti di sini, Mas."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Kiri dong, Pak! Berhenti kiri!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Kalian mau turun? Ayo turun sekali!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Kenapa semua ikut turun?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Mereka juga salah angkot, dan saya juga."
+    ]
+   ]
+  }
+ }
+}

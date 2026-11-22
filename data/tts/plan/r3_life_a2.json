@@ -1,0 +1,112 @@
+{
+ "ep": "r3_life_a2",
+ "cast": {
+  "B": "nadia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Keluhannya apa, Kak? Di mana yang sakit?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Perut sakit dan demam, Kak."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Sejak kapan mulai terasa?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Sejak makan jajanan pinggir jalan sore tadi."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Coba sebutkan semua yang dimakan."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Sate, bakso, martabak, es kelapa, dan siomay."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Semua itu dimakan dalam setengah hari?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Iya Kak, lagi tur makan, waktunya mepet."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "neutral",
+     "Ada alergi obat atau makanan?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Nggak ada, Kak. Perlu rawat inap?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Mungkin tidak, dokter segera datang."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "sad",
+     "Boleh minta air putih, Kak?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Boleh, tapi es kelapa sudah cukup ya."
+    ]
+   ]
+  }
+ }
+}

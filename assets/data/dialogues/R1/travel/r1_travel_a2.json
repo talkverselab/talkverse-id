@@ -53,7 +53,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "surprised"
   },
   {
    "num": 2,
@@ -80,7 +81,8 @@
      "payung",
      ""
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 3,
@@ -107,7 +109,8 @@
      "hujan",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 4,
@@ -129,7 +132,8 @@
      "apa",
      ""
     ]
-   ]
+   ],
+   "emotion": "worried"
   },
   {
    "num": 5,
@@ -161,7 +165,8 @@
      "basah",
      ""
     ]
-   ]
+   ],
+   "emotion": "laughing"
   },
   {
    "num": 6,
@@ -188,7 +193,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "moved"
   },
   {
    "num": 7,
@@ -225,7 +231,8 @@
      "kali",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

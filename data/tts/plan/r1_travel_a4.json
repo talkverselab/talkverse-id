@@ -1,0 +1,64 @@
+{
+ "ep": "r1_travel_a4",
+ "cast": {
+  "B": "darto"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "sad",
+     "Pak, besok saya pulang, ini terakhir sih."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Lho, besok udah pulang Korea?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Iya besok. Terima kasih untuk semuanya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Kamu sudah seperti anak Bapak."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Pak, jangan bikin saya menangis dong."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Ambil helm kesayangan Bapak untuk kamu."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Pak, ini satu-satunya! Nanti Bapak gimana?"
+    ]
+   ]
+  }
+ }
+}

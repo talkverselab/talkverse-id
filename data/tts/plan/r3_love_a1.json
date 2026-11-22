@@ -1,0 +1,112 @@
+{
+ "ep": "r3_love_a1",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Sudah lama nggak ketemu. Kamu kelihatan bahagia."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Kamu juga. Apa kabar?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Bulan depan aku pindah kerja ke Surabaya."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Kenapa tiba-tiba?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Sebelum pergi, aku mau jelasin soal hari itu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "sad",
+     "Hari di stasiun yang kamu nggak datang?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Sebenarnya waktu itu aku ada di sana."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Di mana? Kenapa nggak nyamperin?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "sad",
+     "Aku lihat kamu dari seberang peron."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Terus kenapa diam aja?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "sad",
+     "Seandainya aku datang, kamu nggak jadi pergi."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "stiff",
+     "Itu harusnya aku yang putusin."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "sad",
+     "Kamu benar. Maaf, terlambat setahun."
+    ]
+   ]
+  }
+ }
+}

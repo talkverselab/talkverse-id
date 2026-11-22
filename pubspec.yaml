@@ -64,7 +64,6 @@ flutter:
     - assets/data/dialogues/id/_meta.json
     - assets/data/dialogues/id/L1.json
     - assets/data/dialogues/ms/_meta.json
-    - assets/images/scenes/
     - assets/images/ipa/
     - assets/data/dialogues/R1/survival/
     - assets/data/dialogues/R1/love/

@@ -1,0 +1,64 @@
+{
+ "ep": "r1_friends_a2",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Yuk nyanyi duet sama gue dong!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Oke. Suara lo bagus nggak?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Lebih bagus dari penyanyi, hahaha!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Aduh, telinga gue! Stop dulu!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Kenapa sih tetangga ketok terus?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Mereka bilang kami harus diam."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Nggak bisa! Lebih kenceng lagi!"
+    ]
+   ]
+  }
+ }
+}

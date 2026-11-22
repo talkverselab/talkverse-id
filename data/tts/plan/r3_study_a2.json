@@ -1,0 +1,112 @@
+{
+ "ep": "r3_study_a2",
+ "cast": {
+  "B": "dimas"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Ceritakan tentang diri Anda."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Nama saya {name}, mahasiswa tahun ketiga."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Alasannya memilih universitas di Korea?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Saya ingin belajar budaya dan bahasa secara langsung."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Pertanyaan berikutnya jawab dalam bahasa Korea."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Saya belum siap sama sekali, Pak."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Mudah saja, makanan favorit Anda apa?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Saya suka kantor... maksudnya kantor?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Tadi Anda bilang suka kantor."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Mungkin itu tanda cocok kerja di kantor."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Jawaban kreatif, saya catat."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "worried",
+     "Itu nilai plus atau minus, Pak?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Hasilnya minggu depan. Terus belajar ya."
+    ]
+   ]
+  }
+ }
+}

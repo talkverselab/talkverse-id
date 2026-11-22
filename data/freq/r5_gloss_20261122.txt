@@ -1,0 +1,663 @@
+# R5 뜻 없는 낱말 처리(2026-11-22, 사용자 「진행」 — 이 세션 판단). 여기 있는 말 = 뜻을 넣는다. 없는 말 = 앱에서 숨김(인명·영어·조각·욕설).
+alas:바탕·받침
+tari:춤
+assalamualaikum:안녕하세요(이슬람식 인사)
+asalamualaikum:안녕하세요(이슬람식 인사)
+waalaikumsalam:(인사 답) 당신에게도 평화를
+alaikumsalam:(인사 답) 당신에게도 평화를
+kasihan:불쌍하다
+pula:또한
+para:~들(사람 무리)
+peduli:신경 쓰다
+bawah:아래
+elu:너(자카르타 구어)
+elo:너(자카르타 구어)
+cocok:어울리다
+tunjuk:가리키다
+mak:엄마
+eyang:할아버지·할머니
+jemput:마중 가다
+omong:말하다
+kejar:쫓다
+demi:~을 위해
+canda:농담
+belah:쪼개다·편
+maka:그래서
+mengapa:왜
+perhati:주의(perhatian 어근)
+pelan:천천히
+padahal:그런데도
+bentar:잠깐
+bingung:헷갈리다
+mah:(강조 구어)
+paksa:강요하다
+ngerti:알아듣다
+semangat:힘내·의욕
+jujur:정직하다
+tepat:정확하다
+misal:예를 들어
+ku:나(의)
+paman:삼촌
+beres:끝나다·정리되다
+tembak:쏘다·고백하다(구어)
+belanda:네덜란드
+pamit:작별 인사하다
+tangkap:잡다
+bebas:자유롭다
+justru:오히려
+dok:의사 선생님(호칭)
+maya:가상의
+hukum:법·벌
+mami:엄마
+sampe:~까지(구어)
+mending:차라리 낫다
+santai:느긋하다
+antara:사이
+suatu:어떤
+jodoh:인연·짝
+hamil:임신하다
+titip:맡기다
+bersih:깨끗하다
+agak:조금
+gagal:실패하다
+hantu:귀신
+tanah:땅
+kawin:결혼하다
+temen:친구(구어)
+rambut:머리카락
+pantas:마땅하다·어울리다
+kumpul:모이다
+tujuh:일곱
+pisah:헤어지다
+sok:~인 척하다
+juang:싸우다(berjuang 어근)
+lapar:배고프다
+jago:잘하다·고수
+mbah:할아버지·할머니(자와)
+mbok:어머니·아주머니(자와)
+amin:아멘
+repot:번거롭다
+lindung:보호(lindungi 어근)
+utang:빚
+enam:여섯
+papi:아빠
+cium:입 맞추다·냄새 맡다
+kubur:무덤·묻다
+pinjam:빌리다
+tukang:기술자·~꾼
+sembuh:낫다
+kakek:할아버지
+entah:모르겠다·글쎄
+mesti:반드시
+nona:아가씨
+bayang:그림자(bayangkan 어근)
+kasus:사건
+dik:동생(호칭)
+tolak:거절하다
+mampu:할 수 있다
+jelek:못생기다·나쁘다
+negeri:나라
+seru:신나다
+sesuai:알맞다
+kuasa:권력
+mantan:전 애인·전직
+bibi:이모·고모
+sumpah:맹세·진짜로
+periksa:검사하다
+ganteng:잘생기다
+bangga:자랑스럽다
+syukur:감사·다행
+utama:주요한
+maafin:용서해 줘(구어)
+sekitar:주변·약
+mundur:물러나다
+jawa:자와(섬·사람)
+obrol:수다(ngobrol 어근)
+cuci:씻다·빨다
+capek:피곤하다
+sembunyi:숨다
+raya:큰(대로·명절)
+benci:싫어하다
+abis:끝나다·다 떨어지다(구어)
+hormat:존경
+hitung:세다·계산하다
+mu:너(의)
+tawar:값을 깎다
+selain:~외에
+heh:어이
+delapan:여덟
+oma:할머니
+putar:돌리다·틀다
+cuman:그냥·~뿐(구어)
+salat:이슬람 기도
+rekam:녹음·녹화하다
+libur:쉬다·휴일
+sembarang:아무렇게나
+campur:섞다
+celaka:큰일 나다
+kemudian:그다음
+pimpin:이끌다
+cucu:손주
+merdeka:독립
+bantuin:도와줘(구어)
+ucap:말하다
+alami:겪다·자연의
+tega:모질다
+jepang:일본
+kejut:놀람(kaget 와 비슷)
+dukung:응원하다
+kaget:깜짝 놀라다
+hadiah:선물
+nyaman:편안하다
+ikhlas:진심으로 받아들이다
+ntar:이따가(구어)
+teteh:언니·누나(순다)
+cepet:빠르다(구어)
+parah:심하다
+minggir:비키다
+sepakat:합의하다
+woi:야!
+ponsel:휴대폰
+dendam:원한
+napas:숨
+hadir:참석하다
+pusing:어지럽다·골치 아프다
+cerai:이혼하다
+sambil:~하면서
+hingga:~까지
+suster:간호사
+cabut:뽑다·뜨다(구어)
+sesal:후회(menyesal 어근)
+kacau:엉망이다
+mayat:시신
+sori:미안(구어)
+komandan:지휘관
+kurasa:내 생각엔
+bude:큰엄마·이모(자와)
+dorong:밀다
+sangka:짐작하다
+sisa:나머지
+inget:기억하다(구어)
+bela:편들다
+nyari:찾다(구어)
+biaya:비용
+astagfirullah:맙소사(이슬람식)
+astaghfirullah:맙소사(이슬람식)
+astagfirullahaladzim:맙소사(이슬람식)
+astaghfirullahaladzim:맙소사(이슬람식)
+dengerin:들어 봐(구어)
+bukankah:~이 아니던가
+peluk:안다
+larang:금지하다
+kandung:친(친부모·친형제)
+gantung:걸다
+cita:꿈(cita-cita)
+curi:훔치다
+teriak:소리치다
+maha:지극히(신 앞에)
+asyik:재미있다
+asik:재미있다(구어)
+ilmu:학문·지식
+kumohon:부탁이야
+dateng:오다(구어)
+tipu:속이다
+ngasih:주다(구어)
+harta:재산
+artis:연예인
+nyala:켜지다
+malas:귀찮다·게으르다
+males:귀찮다(구어)
+selingkuh:바람피우다
+terang:밝다
+curiga:의심하다
+culik:납치하다
+islam:이슬람
+toilet:화장실
+entar:이따가(구어)
+toh:어차피·뭐
+umi:엄마(이슬람 가정)
+ummi:엄마(이슬람 가정)
+kembang:꽃
+amerika:미국
+senja:해질녘
+ribut:시끄럽다·다투다
+lampu:등·불
+ngobrol:수다 떨다
+pakde:큰아빠·삼촌(자와)
+rapi:단정하다
+gede:크다(구어)
+abi:아빠(이슬람 가정)
+mba:언니·누나(호칭)
+gabung:합치다·가입하다
+lukis:그리다
+lamar:청혼하다·지원하다
+nyokap:엄마(자카르타 은어)
+bokap:아빠(자카르타 은어)
+dapet:얻다(구어)
+sentuh:만지다
+kubilang:내가 말했잖아
+sedia:준비되다
+kecuali:~을 빼고
+lancar:유창하다·순조롭다
+nyawa:목숨
+ustaz:이슬람 선생님
+ramai:붐비다
+rela:기꺼이 하다
+korea:한국
+masakan:요리
+batal:취소되다
+kek:~처럼(구어)·할아버지
+inap:묵다
+lengkap:완전하다
+romantis:로맨틱하다
+nyonya:부인·사모님
+cipta:만들다
+waduh:아이고
+catat:적다
+nangis:울다(구어)
+nek:할머니(호칭)
+percuma:소용없다
+emak:엄마
+makhluk:생물
+tindak:행동
+jin:정령
+tumben:웬일로
+mabuk:취하다
+keliling:돌아다니다
+damai:평화
+kesal:짜증 나다
+rawat:돌보다
+takdir:운명
+bubar:흩어지다
+ama:~와(구어)
+mantap:끝내준다
+engkau:그대
+celana:바지
+daftar:등록하다·목록
+usir:쫓아내다
+taksi:택시
+panik:당황하다
+nunggu:기다리다(구어)
+bekas:헌·쓰던
+cepetan:빨리빨리
+renang:수영
+ikat:묶다
+langgan:구독(langganan 어근)
+maling:도둑
+lurus:곧다
+menemani:곁에 있어 주다
+dukun:무당
+derita:고통
+tabrak:부딪치다
+dikit:조금(구어)
+tanding:시합
+gilir:차례(giliran 어근)
+pelajaran:수업
+kenang:추억하다
+waris:상속
+banding:비교하다
+layan:모시다(layanan 어근)
+pantai:해변
+ahli:전문가
+khianat:배신
+libat:관련되다(terlibat 어근)
+seram:무섭다
+contoh:예
+sang:(이름 앞 높임)
+masing:각자(masing-masing)
+dadah:안녕(작별)
+bali:발리
+galak:사납다
+arwah:영혼
+inti:핵심
+kafe:카페
+mikir:생각하다(구어)
+cemburu:질투하다
+layak:자격 있다
+sebal:짜증 나다
+dagang:장사
+tekan:누르다
+capai:이루다
+panti:보호 시설
+lapang:넓다
+sah:정식이다
+jamin:보증하다
+tiada:없다(문어)
+syuting:촬영
+langkah:걸음
+pecat:해고하다
+sebenernya:사실은(구어)
+geng:패거리
+jogja:족자(도시)
+mampir:들르다
+rugi:손해 보다
+sebar:퍼뜨리다
+puisi:시
+mamah:엄마
+sopan:예의 바르다
+tumpang:얻어 타다
+miskin:가난하다
+jebak:함정에 빠뜨리다
+silah:부디(silakan 어근)
+wujud:모습
+kuntilanak:여자 귀신
+sombong:거만하다
+mamak:엄마
+awan:구름
+persis:똑같다
+belas:십~(11~19)
+eropa:유럽
+bioskop:영화관
+masjid:모스크
+hapus:지우다
+segar:상쾌하다
+trus:그리고·계속(구어)
+melulu:줄곧
+tuduh:비난하다
+dewa:신
+makam:묘
+kencan:데이트
+biarin:내버려 둬(구어)
+setia:충실하다
+titik:점
+sewa:빌리다
+buta:눈멀다
+tengkar:싸움(bertengkar 어근)
+susul:뒤따라가다
+persen:퍼센트
+impi:꿈(impian 어근)
+macet:막히다
+barusan:방금
+dek:동생(호칭)
+haji:성지 순례자
+udahlah:됐어
+rampok:강도
+kupikir:내 생각엔
+bangkit:일어서다
+sanggup:해낼 수 있다
+duh:아이고
+tanam:심다
+barat:서쪽
+asing:낯설다·외국의
+akang:형·오빠(순다)
+kambing:염소
+bel:벨
+ancam:위협하다
+abdi:종·저(순다)
+kulihat:내가 보니
+muslim:무슬림
+lepasin:놓아줘(구어)
+lempar:던지다
+kasar:거칠다
+jurus:기술(무술)
+tatap:바라보다
+risiko:위험
+favorit:가장 좋아하는
+yaudah:그럼 됐어
+siksa:고문·괴롭히다
+pahlawan:영웅
+payah:형편없다
+duga:추측하다
+duka:슬픔
+jaket:재킷
+kado:선물
+ninggalin:떠나다·남기다(구어)
+letak:위치
+tuntut:요구하다
+ketawa:웃다(구어)
+alah:에이
+gas:가스·가자!
+saran:제안
+ngomongin:~에 대해 말하다(구어)
+pengin:원하다(구어)
+pingin:원하다(구어)
+warung:작은 가게·식당
+murni:순수하다
+virus:바이러스
+pingsan:기절하다
+nakal:장난꾸러기
+hajar:두들겨 패다
+wajib:의무
+kos:하숙
+kosan:하숙집
+ribet:복잡하다
+iman:믿음
+ngelakuin:하다(구어)
+langgar:어기다
+rajin:부지런하다
+dadak:갑자기(mendadak 어근)
+cokelat:초콜릿·갈색
+asuh:기르다
+jelasin:설명해 줘(구어)
+mikirin:~을 생각하다(구어)
+insyaallah:신의 뜻이라면
+insya:신의 뜻이라면(insya Allah)
+mulia:고귀하다
+roh:영혼
+tabung:저금하다·통
+giat:열심이다
+tagih:청구하다
+rebut:빼앗다
+lurah:마을 이장
+bila:~하면
+benda:물건
+wangi:향기롭다
+sosial:사회의
+tukar:바꾸다
+semenjak:~이래로
+sehingga:그래서
+cakep:멋지다(구어)
+sambut:맞이하다
+hina:모욕하다
+heran:이상하게 여기다
+kalung:목걸이
+egois:이기적이다
+deket:가깝다(구어)
+kulakukan:내가 한
+hore:야호
+kagak:아니(자카르타 구어)
+paket:소포
+jagain:지켜 줘(구어)
+alih:옮기다
+gawat:큰일이다
+malang:불운하다
+olahraga:운동
+kenalin:소개할게(구어)
+rem:브레이크
+puji:칭찬하다
+tarung:싸우다
+bule:서양인
+ngerasa:느끼다(구어)
+kencang:빠르다·세다
+kukira:나는 ~인 줄 알았다
+suci:성스럽다
+jabat:악수하다·직책
+bungkus:포장하다
+belok:돌다(방향)
+almarhum:고(故)
+rupiah:루피아
+tunang:약혼(tunangan 어근)
+tikus:쥐
+belom:아직(구어)
+atuh:(강조, 순다 구어)
+pengantin:신랑·신부
+kecut:시다
+curang:속임수를 쓰다
+ritual:의식
+handphone:휴대폰
+cacing:지렁이
+tepuk:손뼉 치다
+kembar:쌍둥이
+restu:축복·허락
+tebak:맞히다
+seksi:섹시하다·부서
+hindar:피하다(hindari 어근)
+rok:치마
+lakuin:하다(구어)
+monyet:원숭이
+tendang:차다
+jerman:독일
+ngajak:같이 하자고 하다
+kutu:이
+tetep:여전히(구어)
+hibur:위로하다
+hafal:외우다
+aktif:활발하다
+miliar:10억
+manja:응석 부리다
+goyang:흔들다
+parkir:주차하다
+raden:(자와 귀족 칭호)
+tunai:현금
+budaya:문화
+sopir:운전기사
+modal:자본
+sakti:신통하다
+babe:아빠(자카르타 구어)
+menu:메뉴
+resep:요리법·처방전
+halang:막다(halangan 어근)
+konsep:개념
+silat:실랏(무술)
+sesat:길을 잃다
+dompet:지갑
+betah:정붙이다
+sembah:절하다
+ular:뱀
+rezeki:복·생계
+garuda:가루다(신화 새)
+ngeliat:보다(구어)
+pamer:자랑하다
+kutuk:저주하다
+racun:독
+nasional:국가의
+sikat:솔·해치우다
+sepupu:사촌
+kemaren:어제(구어)
+cerdas:똑똑하다
+kas:금고·현금
+pinter:똑똑하다(구어)
+gemar:즐기다
+tunda:미루다
+setir:운전대
+ojek:오토바이 택시
+sifat:성격
+yaitu:즉
+nyai:할머니·마님
+iseng:심심풀이로
+target:목표
+utara:북쪽
+akting:연기
+embun:이슬
+lompat:뛰다
+gelas:유리잔
+ngaku:인정하다(구어)
+balikin:돌려줘(구어)
+ukur:재다
+bolong:구멍 나다
+bismillah:신의 이름으로(시작할 때)
+tantang:도전하다
+lomba:대회
+bibir:입술
+nemenin:같이 있어 주다(구어)
+temenin:같이 있어 줘(구어)
+ban:타이어
+pah:아빠(호칭)
+pandai:영리하다
+damping:곁에 서다
+bunyi:소리
+norak:촌스럽다
+kuberi:내가 준다
+cut:(아체 귀족 칭호)
+ngurusin:챙기다(구어)
+hendak:~하려 하다
+sejati:진정한
+subuh:새벽(기도)
+raga:몸
+karun:보물(harta karun)
+narkoba:마약
+jahit:바느질하다
+dana:자금
+pahit:쓰다
+madu:꿀
+belikan:사 주다
+beasiswa:장학금
+gaul:어울리다·인싸
+betapa:얼마나
+kejam:잔인하다
+setop:멈춰
+jijik:역겹다
+pisau:칼
+sudut:모서리
+lingkung:둘레(lingkungan 어근)
+lunas:다 갚다
+dalem:안(구어)
+laptop:노트북
+tolongin:도와줘(구어)
+saing:경쟁(saingan 어근)
+sumber:근원
+karang:산호·짓다(karangan)
+asisten:조수
+bakso:바소(완자탕)
+martabak:마르타박(부침 요리)
+tulus:진심이다
+judi:도박
+telpon:전화(구어)
+keburu:서두르다·늦지 않게
+gigit:물다
+singkir:치우다(singkirkan 어근)
+keponakan:조카
+rusuh:소란
+sutradara:영화감독
+pinggir:가장자리
+basi:상하다·식상하다
+ungkap:드러내다
+mulu:맨날(구어)
+ikutin:따라가(구어)
+koper:여행 가방
+rumit:복잡하다
+gendong:업다
+tempel:붙이다
+adek:동생(구어)
+sekaligus:동시에
+teliti:꼼꼼하다
+abadi:영원하다
+inspirasi:영감
+tegang:긴장되다
+viral:화제가 되다
+busuk:썩다
+jumat:금요일
+tumbal:제물
+pesantren:이슬람 기숙 학교
+kait:걸다·관련
+tongkat:지팡이
+cuti:휴가
+selera:입맛
+kontra:반대
+bensin:휘발유
+gaib:보이지 않는·초자연
+pos:우편·초소
+karier:경력
+jalur:경로
+injak:밟다
+komentar:댓글
+pamit:작별 인사하다
+cing:(구어 호칭, 순다)
+kangen:그립다
+berisik:시끄럽다
+piring:접시
+wajar:당연하다
+haus:목마르다
+stop:멈춰
+chef:요리사
+normal:정상이다
+bajak:해적질·쟁기질하다
+sel:세포·감방
+bandung:반둥(도시)
+surabaya:수라바야(도시)
+medan:메단(도시)·전장
+laksana:~처럼
+jaya:번영하다
+gaek:늙은
+smp:중학교
+net:그물·인터넷

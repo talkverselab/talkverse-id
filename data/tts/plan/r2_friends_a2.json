@@ -1,0 +1,80 @@
+{
+ "ep": "r2_friends_a2",
+ "cast": {
+  "B": "raka"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "flustered",
+     "Utang bulan lalu belum dibayar"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Utang apa? Aku lupa"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Waktu konser, dua ratus ribu"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Santai aja, nggak usah dibayar"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Nggak, aku harus bayar sekarang"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Kenapa tiba-tiba begitu?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Sebenarnya mau pinjam dua kali lipat"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Jadi total enam ratus ribu ya"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Hitungannya tepat, makasih wkwk"
+    ]
+   ]
+  }
+ }
+}

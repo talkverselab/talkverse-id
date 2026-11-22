@@ -1,0 +1,72 @@
+{
+ "ep": "r1_love_a4",
+ "cast": {
+  "B": "ayu"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "neutral",
+     "Kamu nonton dengan siapa sih?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Sendiri saja. Kamu?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Aku juga. Ayo nonton bareng dong."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Hai, kalian! Raka, Nadia, Dimas?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Kenapa mereka semua di sini sih? Gila banget!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Kebetulan sekali, ya."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Aku tak mau nonton dengan lima orang."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Jadi aku dan kamu saja?"
+    ]
+   ]
+  }
+ }
+}

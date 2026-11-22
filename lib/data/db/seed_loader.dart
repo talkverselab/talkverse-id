@@ -123,7 +123,7 @@ class SeedLoader {
     final batch = <Insertable<WordRow>>[];
     for (var i = 1; i < rows.length; i++) {
       final row = rows[i];
-      if (row.length < 5) continue;
+      if (row.length < 5 || (row.length > 7 && '${row[7]}' == 'hidden')) continue; // R5 숨김 낱말(2026-11-22)
       batch.add(WordsCompanion.insert(
         rank: Value(int.tryParse('${row[0]}') ?? 0),
         word: '${row[1]}',

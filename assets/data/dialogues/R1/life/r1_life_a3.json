@@ -63,7 +63,8 @@
      "hari",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 2,
@@ -95,7 +96,8 @@
      "satu",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 3,
@@ -117,7 +119,8 @@
      "banyak",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 4,
@@ -144,7 +147,8 @@
      "harga",
      ""
     ]
-   ]
+   ],
+   "emotion": "happy"
   },
   {
    "num": 5,
@@ -186,7 +190,8 @@
      "sendiri",
      ""
     ]
-   ]
+   ],
+   "emotion": "warm"
   },
   {
    "num": 6,
@@ -208,7 +213,8 @@
      "banget",
      ""
     ]
-   ]
+   ],
+   "emotion": "moved"
   },
   {
    "num": 7,
@@ -235,7 +241,8 @@
      "bayar",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {

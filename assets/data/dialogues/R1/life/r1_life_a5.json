@@ -53,7 +53,8 @@
      "berapa",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 2,
@@ -75,7 +76,8 @@
      "dengar",
      ""
     ]
-   ]
+   ],
+   "emotion": "confused"
   },
   {
    "num": 3,
@@ -97,7 +99,8 @@
      "berapa",
      ""
     ]
-   ]
+   ],
+   "emotion": "embarrassed"
   },
   {
    "num": 4,
@@ -129,7 +132,8 @@
      "ribu",
      ""
     ]
-   ]
+   ],
+   "emotion": "amused"
   },
   {
    "num": 5,
@@ -156,7 +160,8 @@
      "bayar",
      ""
     ]
-   ]
+   ],
+   "emotion": "curious"
   },
   {
    "num": 6,
@@ -183,7 +188,8 @@
      "dulu",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   },
   {
    "num": 7,
@@ -200,7 +206,8 @@
      "baik",
      ""
     ]
-   ]
+   ],
+   "emotion": "shy"
   },
   {
    "num": 8,
@@ -242,7 +249,8 @@
      "bagus",
      ""
     ]
-   ]
+   ],
+   "emotion": "teasing"
   }
  ],
  "review": {
