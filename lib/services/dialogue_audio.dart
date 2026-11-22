@@ -29,9 +29,11 @@ class DialogueAudio {
   bool covers(Dialogue d) => d.turns.any((t) => line(d.id, t.num) != null) && d.turns.every((t) => !t.tl.contains('{name}') || line(d.id, t.num) != null);
 
   /// 음성을 끝까지 재생한다. 음성이 없거나 재생에 실패하면 false(부르는 쪽이 TTS 로 넘긴다).
-  Future<bool> play(String episodeId, int turn, {double rate = 1.0}) async {
+  /// [tl] 을 주면 녹음의 대사(`text`)가 지금 원고와 다를 때(원고가 바뀐 줄) 녹음을 쓰지 않는다.
+  Future<bool> play(String episodeId, int turn, {double rate = 1.0, String? tl}) async {
     final l = line(episodeId, turn);
     if (l == null) return false;
+    if (tl != null && !sameLine(l.text, tl)) return false; // 옛 녹음 → TTS(uk 전달 사용자 지시 2026-11-22)
     final my = ++_gen;
     try {
       await TtsService.instance.stop();
@@ -73,7 +75,16 @@ class DialogueAudio {
 
 /// 턴 하나 읽기: 생성 음성이 있으면 그것, 없으면 기기 음성. 끝날 때까지 기다린다.
 Future<void> speakTurn(Dialogue d, DialogueTurn t, {double rate = 1.0}) async {
-  if (await DialogueAudio.instance.play(d.id, t.num, rate: rate)) return;
+  if (await DialogueAudio.instance.play(d.id, t.num, rate: rate, tl: t.tl)) return;
   final s = t.tl.replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), '').trim();
   await TtsService.instance.speakAs(s, gender: d.voiceGender(t.speaker), rate: rate * 0.45);
+}
+
+String _norm(String s) => s.toLowerCase().replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'[^a-z0-9]'), '');
+
+/// 녹음 대사와 원고 줄이 같은가 — 괄호·문장부호·대소문자 무시, 원고의 `{name}` 자리는 아무 글자나. 녹음에 대사가 없으면 같다고 본다.
+bool sameLine(String recorded, String tl) {
+  if (recorded.trim().isEmpty) return true;
+  final parts = tl.replaceAll(RegExp(r'\([^)]*\)'), '').split(RegExp(r'\{[a-z_]+\}')).map(_norm).map(RegExp.escape);
+  return RegExp('^${parts.join('[a-z0-9]*')}\$').hasMatch(_norm(recorded));
 }
