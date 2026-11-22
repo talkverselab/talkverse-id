@@ -166,9 +166,13 @@ class DialogueService {
     ScriptSync.instance.refresh().then((changed) async {
       if (!changed) return;
       await _readAll();
+      onScriptChanged?.call(); // 문법(언어감각) 등 다른 원고 캐시도 비운다
       revision.value++;
     });
   }
+
+  /// 서버 원고가 바뀌었을 때 부를 것(언어감각 과정 캐시 비우기 — main 에서 붙임, 2026-11-23).
+  static void Function()? onScriptChanged;
 
   /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
   final ValueNotifier<int> revision = ValueNotifier(0);

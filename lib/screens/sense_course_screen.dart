@@ -33,9 +33,16 @@ class SenseCourse {
     await p.setStringList(_kDoneKey, s.toList());
   }
 
+  /// 원고가 서버 판으로 바뀌면 다음에 열 때 다시 읽는다(스텝 목록·제목·순서·문장 모두 데이터 — 사용자 지시 2026-11-23 「DB업데이트 하면서 업뎃」).
+  static void clearCache() => _cache = null;
+
+  /// 보일 스텝(급): 회차가 하나도 없는 스텝은 숨긴다 — 서버 원고에 내용이 생기면 저절로 나타난다(2026-11-23).
+  static List<Map<String, dynamic>> levels(Map<String, dynamic> d) =>
+      [for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>()) if (((lv['lessons'] as List?) ?? const []).isNotEmpty) lv];
+
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
   static List<(Map<String, dynamic>, Map<String, dynamic>)> flat(Map<String, dynamic> d) => [
-        for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>())
+        for (final lv in levels(d))
           for (final ls in (lv['lessons'] as List).cast<Map<String, dynamic>>()) (lv, ls),
       ];
 }
@@ -104,7 +111,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
           style: const TextStyle(fontSize: 12, color: AppColors.muted)),
     ];
     var i = 0;
-    for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>()) {
+    for (final lv in SenseCourse.levels(d)) {
       children.add(Padding(
         padding: const EdgeInsets.fromLTRB(2, 18, 2, 8),
         child: Text('${lv['id']}  ${lv['title']}',

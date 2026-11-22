@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'services/dialogue_service.dart';
+import 'screens/sense_course_screen.dart';
 
 import 'core/constants.dart';
 import 'core/embed_env.dart';
@@ -59,6 +61,7 @@ Future<void> embedInit({bool standalone = false}) async {
   ]);
   // 회화 원고는 켤 때마다 무조건 서버 판을 확인해 받는다 — 그림·음성 내려받기(선택·「나중에」)와 따로(일본어앱 빌드 113·114, 사용자 지시 2026-11-18).
   // 느린 망에서는 startupWait 까지만 기다리고 앱을 연다(받기는 뒤에서 이어지고, 끝나면 회화 목록을 다시 읽는다).
+  DialogueService.onScriptChanged = SenseCourse.clearCache; // 서버 원고가 바뀌면 문법(언어감각) 과정도 다시 읽는다(2026-11-23)
   try {
     await ScriptSync.instance.refresh().timeout(ScriptSync.startupWait);
   } catch (_) {}

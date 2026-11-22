@@ -46,4 +46,18 @@ void main() {
     await t.pump(const Duration(milliseconds: 500));
     expect(await SenseCourse.done(), contains('L1-talk'));
   });
+
+  test('빈 스텝(급)은 숨기고 서버 원고에 내용이 생기면 보임', () {
+    final d = {
+      'levels': [
+        {'id': 'L1', 'title': 'a', 'lessons': [{'id': 'L1-1', 'title': 'x'}]},
+        {'id': 'L2', 'title': 'b', 'lessons': []},
+        {'id': 'L3', 'title': 'c'},
+      ]
+    };
+    expect(SenseCourse.levels(d).map((l) => l['id']), ['L1']);
+    expect(SenseCourse.flat(d).length, 1);
+    (d['levels'] as List)[1]['lessons'] = [{'id': 'L2-1', 'title': 'y'}];
+    expect(SenseCourse.levels(d).map((l) => l['id']), ['L1', 'L2']);
+  });
 }
