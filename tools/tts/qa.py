@@ -32,6 +32,11 @@ def score(f, text):
     return difflib.SequenceMatcher(None, w, g).ratio(), d
 
 
+def _sig(f, text):
+    import hashlib
+    return hashlib.sha1(open(f, 'rb').read() + text.encode('utf-8')).hexdigest()[:16]
+
+
 def main():
     a = sys.argv[1:]; jobs_out = None
     if '--jobs' in a:
@@ -44,12 +49,13 @@ def main():
             k = f'{ep}/{name}'; f = f'{wav}/{k}'; q = Q.setdefault(k, {'tries': 0})
             if not os.path.exists(f):
                 q.update(sim=0.0, ok=False); bad += 1; continue
-            if 'sim' not in q:
-                q['sim'], q['dur'] = score(f, text)
+            sig = _sig(f, text)  # 캐시 키 = 파일 내용 + 대사(같은 이름으로 다시 만든 조각에 옛 점수가 남던 문제, 한국어앱 c6433c4 와 같은 수정 2026-11-23)
+            if 'sim' not in q or q.get('sig') != sig:
+                q['sim'], q['dur'] = score(f, text); q['sig'] = sig
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
-                    shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    shutil.copy(c, f); q['sim'], q['dur'] = s, d; q['sig'] = _sig(f, text)
                 os.remove(c)
             q['ok'] = q['sim'] >= 0.72
             if not q['ok']:
