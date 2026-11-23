@@ -48,7 +48,7 @@ class Account {
     try {
       final r = await http.get(Uri.parse('$base/providers')).timeout(const Duration(seconds: 6));
       final j = jsonDecode(r.body) as Map<String, dynamic>;
-      out.addAll((j['web'] as List).cast<String>());
+      out.addAll(((j['app'] ?? j['web']) as List).cast<String>()); // 앱 목록이 있으면 그것(출시 심사 점검 11-23)
     } catch (_) {}
     if (_iosNativeApple && !out.contains('apple')) out.add('apple');
     const order = ['apple', 'google', 'kakao', 'naver'];
