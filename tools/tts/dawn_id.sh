@@ -1,6 +1,7 @@
 #!/bin/zsh
 # 새벽 음성 전편(2026-11-22). uk 순서: 11-25 03:40 첫 순서, 06:30 이후 새 묶음 금지, 06:55 까지 3090 비움. 남으면 11-27 00:01 이어서.
-# uk 「id 지금 시작」 뒤에만 실행. 3090 이 비기(메모리 3GB 미만 3번 연속 + PC 작업 파일 5분 정지)를 기다림 → 참고 음성(vox, 2060) → run_all(묶음 4편, STOP_AT 06:30).
+# 2026-11-23 사용자: 낮에도 실행 — 시각 제한 없음(필요하면 STOP_AT=06:30 GIVEUP_AT=0600). 멈춤 = touch $W/PAUSE.
+# uk 「id 지금 시작」(또는 앞 순서 fa 의 「GPU 끝」) 뒤에만 실행. 3090 이 비기(메모리 3GB 미만 3번 연속 + PC 작업 파일 5분 정지)를 기다림 → 참고 음성(vox, 2060) → run_all(묶음 4편, STOP_AT 06:30).
 set -u
 cd ~/talkverse/id
 W=~/tts_work/id; PC=Administrator@100.127.143.37; PY=~/.venvs/whisper/bin/python
@@ -18,7 +19,7 @@ while true; do
   else
     low=0
   fi
-  [ "$(date +%H%M)" -ge 0600 ] && { log "3090 안 빔(${m}MiB) — 포기"; exit 2; }
+  [ -n "$GIVEUP_AT" ] && [ "$(date +%H%M)" -ge "$GIVEUP_AT" ] && { log "3090 안 빔(${m}MiB) — 포기"; exit 2; }
   sleep 60
 done
 log "3090 빔(${m}MiB)"
@@ -30,5 +31,5 @@ if [ ! -f $W/refs_done ]; then
   until ssh $PC "(Get-ScheduledTask -TaskName 'TTS job 2060').State" | grep -q Ready; do sleep 30; done
   touch $W/refs_done; log "참고 음성 끝"
 fi
-STOP_AT=${STOP_AT:-06:30} $PY tools/tts/run_all.py $W 4 >> $W/run.log 2>&1
+STOP_AT=${STOP_AT:-} $PY tools/tts/run_all.py $W 4 >> $W/run.log 2>&1
 log "run_all 끝 $(cat $W/left.txt 2>/dev/null)"

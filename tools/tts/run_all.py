@@ -40,9 +40,10 @@ log('남은 편', len(ids))
 STOP_AT = os.environ.get('STOP_AT')  # 예 '06:30' — 이 시각 뒤에는 새 묶음을 시작하지 않는다(음성은 새벽만, 2026-11-22)
 for i in range(0, len(ids), N):
     eps = ids[i:i + N]
-    if STOP_AT and time.strftime('%H:%M') >= STOP_AT and time.strftime('%H:%M') < '12:00':
+    # 「비워 주세요」(다른 작업이 3090 을 씀) → work/PAUSE 파일을 만들면 묶음 경계에서 멈춘다(2026-11-23, 낮에도 실행)
+    if os.path.exists(f'{work}/PAUSE') or (STOP_AT and time.strftime('%H:%M') >= STOP_AT and time.strftime('%H:%M') < '12:00'):
         left = sum(len(L.seg_files(e)) for e in ids[i:])
-        log('STOP_AT', STOP_AT, '남은 편', len(ids) - i, '조각', left); open(f'{work}/left.txt', 'w').write(f'{len(ids) - i} {left}\n'); break
+        log('멈춤', 'PAUSE' if os.path.exists(f'{work}/PAUSE') else STOP_AT, '남은 편', len(ids) - i, '조각', left); open(f'{work}/left.txt', 'w').write(f'{len(ids) - i} {left}\n'); break
     sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
     for ep in eps:
         fetch(ep)
