@@ -67,3 +67,12 @@
 - 녹음 없는 줄은 원래 기기 TTS. 녹음 대사(매니페스트 text)가 지금 원고와 다르면 녹음 대신 TTS(`sameLine`, 8beb4ad). 빌드 33 → Zealot 576, TestFlight 2611221957, PC 백업.
 - 3090 음성 새 순서(사용자 「Moss지원언어부터」): 인도네시아어는 MOSS 미지원이라 뒤(페르시아어와 함께, 독일어 앞). **11-25 03:40·11-27 00:01 예약 지움.** 차례가 오면 uk 가 「id 지금 시작」 → 그때 `tools/tts/dawn_id.sh` 실행(낮 시작이면 06:00 포기·STOP_AT 줄 조정 필요). 낮 음성은 전역 규칙(01~07시)과 어긋나 사용자 확인 뒤에.
 - 진행 페이지: `~/bin/tv-progress id <stop|wait|user|run|done> …` — 20:0x wait 로 올림.
+
+## 2026-11-23 — 커리큘럼·문법 서버화·심사 수정·이용권(uk 전달)
+- 커리큘럼(ja 기준 구현 옮김) → §12 단계 JSON(`assets/curriculum_id.json` rev 2, 서버 `talkverse.uk/api/curriculum/id` 가 rev 더 높으면 받음): 1~4단계, pick·pass·daily·desc·free 를 JSON 에서. 진도 `id_curriculum_v1`(level = 단계 '1'~'5').
+- 문법(언어감각) 과정: 스텝 목록·제목·문장 모두 서버 원고(script/id), 빈 스텝 숨김, 원고 바뀌면 다시 읽기.
+- AI 회화 작성 화면 옮김(숨김 `kCustomScriptLive=false`, /api/script/id).
+- 심사 수정: 원고 review·draft 칸(Grok 이름)을 `tools/strip_review.py` 로 빼 `data/review/script_meta/` 로(올리기 도구가 매번 실행), 원고 rev 7. 로그인은 서버가 켠 제공자만, 결제 문구 iOS/안드로이드 가름.
+- 이용권 잠금(PAYWALL_SPEC): 회화 R2+·커리큘럼 2단계+·언어감각 2급+ 자물쇠 → 결제(`lib/widgets/lock.dart`). 가격은 스토어 값만. 저장 `id_entitlement_v1`·`all_entitlement_v1`. **CLAUDE.md 의 「아무것도 잠그지 않는다」 줄은 사용자 확인 뒤 고칠 것.**
+- 음성: 11-25 예약 지움, MOSS 미지원이라 뒤 순서 — uk 「id 지금 시작」 뒤 `tools/tts/dawn_id.sh`(빈 판정 = 낮은 값 3번 + PC 작업 파일 5분 정지). qa 캐시 키 = 파일 내용+대사.
+- **단독 iOS(TestFlight) 빌드 멈춤**(uk 11-23, M6 디스크 — 통합 앱으로 출시). Android CI·Zealot 만. 마지막: Zealot 빌드 42(80efb59), TestFlight 2611231333.
