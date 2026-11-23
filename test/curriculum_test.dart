@@ -160,4 +160,23 @@ void main() {
       expect(migrateLevel('R2', st), '1');
     });
   });
+
+  test('단계 JSON 의 pick·pass·daily 를 읽고, 없거나 틀리면 기본값', () {
+    final a = _d('a', 'life', 3);
+    final st = parseStages({
+      'stages': [
+        {'n': 1, 'dialogueIds': ['a'], 'pick': [2, 4], 'pass': 70, 'daily': {'light': 2, 'normal': 3, 'focus': 5}},
+        {'n': 2, 'dialogueIds': ['a'], 'pick': 'x', 'pass': 0, 'daily': null},
+      ]
+    }, (id) => id == 'a' ? a : null);
+    expect(st[0].pick, [2, 4]);
+    expect(st[0].pass, 70);
+    expect(st[0].daily, {1: 2, 2: 3, 3: 5});
+    expect(st[1].pick, [3, 5, 10]);
+    expect(st[1].pass, 80);
+    expect(st[1].daily, {1: 1, 2: 2, 3: 3});
+    final s = CurriculumState(course: Course('c', ['a'], practiced: ['a']), dailyGoal: 3)..dailyMap = st[0].daily;
+    expect(s.newLeft('2026-11-23'), 5);
+    expect(s.recordExam(7, 10, {}, '2026-11-23', pass: 70), isTrue);
+  });
 }

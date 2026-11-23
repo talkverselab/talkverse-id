@@ -36,6 +36,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       setState(() {
         _loading = false;
         _levelPick = _st.level == null;
+        final opts = _svc.pick;
+        if (!opts.contains(_pickCount)) _pickCount = opts.contains(5) ? 5 : opts[opts.length ~/ 2];
         _picking = _st.level != null && _st.course == null;
       });
     });
@@ -43,8 +45,11 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 
   Future<void> _setLevel(String lv) async {
     _st.level = lv;
+    _svc.syncDaily();
     await _svc.save();
     setState(() {
+      final opts = _svc.pick;
+      if (!opts.contains(_pickCount)) _pickCount = opts.contains(5) ? 5 : opts[opts.length ~/ 2];
       _levelPick = false;
       _picked.clear();
       _picking = _st.course == null;
@@ -72,7 +77,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     final qs = [for (final d in ds) ...buildQuestions(d, limit: per, pool: ds, seed: seed)]..shuffle();
     final res = await openFull<QuizResult>(context, (_) => CurriculumQuizScreen(title: tr('코스 시험'), questions: qs.take(30).toList(), mode: QuizMode.exam));
     if (res == null || !mounted) return;
-    final passed = _st.recordExam(res.correct, res.total, res.wrongDialogues, _svc.today);
+    final passed = _st.recordExam(res.correct, res.total, res.wrongDialogues, _svc.today, pass: _svc.pass);
     await _svc.save();
     if (!mounted) return;
     setState(() {});
@@ -81,8 +86,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       builder: (ctx) => AlertDialog(
         title: Text(passed ? tr('코스 통과!') : tr('조금만 더')),
         content: Text(passed
-            ? trf('{0}점 — 80점을 넘었어요. 다음 코스를 골라요.', [scorePercent(res.correct, res.total)])
-            : trf('{0}점 — 80점이 넘어야 통과예요. 틀린 편만 다시 연습하고 시험을 봐요.', [scorePercent(res.correct, res.total)])),
+            ? trf('{0}점 — {1}점을 넘었어요. 다음 코스를 골라요.', [scorePercent(res.correct, res.total), _svc.pass])
+            : trf('{0}점 — {1}점이 넘어야 통과예요. 틀린 편만 다시 연습하고 시험을 봐요.', [scorePercent(res.correct, res.total), _svc.pass])),
         actions: [TextButton(onPressed: () => Navigator.pop(ctx), child: Text(tr('확인')))],
       ),
     );
@@ -156,6 +161,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Text(tr(_svc.stageTitle(lv)), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
+                  if ((_svc.stageOf(lv)?.desc ?? '').isNotEmpty) Text(_svc.stageOf(lv)!.desc, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight)),
                   Text(
                     trf('{0}편 · 통과 {1}', [_svc.levelList(lv).length, _svc.levelList(lv).where((d) => _st.passedDialogues.contains(d.id)).length]),
                     style: const TextStyle(fontSize: 12, color: AppColors.muted),
@@ -206,9 +212,9 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
               showSelectedIcon: false,
               style: SegmentedButton.styleFrom(visualDensity: VisualDensity.compact, textStyle: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700)),
               segments: [
-                ButtonSegment(value: 1, label: Text(tr('가볍게'))),
-                ButtonSegment(value: 2, label: Text(tr('보통'))),
-                ButtonSegment(value: 3, label: Text(tr('집중'))),
+                ButtonSegment(value: 1, label: Text(trf('가볍게 {0}', [_st.dailyMap[1] ?? 1]))),
+                ButtonSegment(value: 2, label: Text(trf('보통 {0}', [_st.dailyMap[2] ?? 2]))),
+                ButtonSegment(value: 3, label: Text(trf('집중 {0}', [_st.dailyMap[3] ?? 3]))),
               ],
               selected: {_st.dailyGoal},
               onSelectionChanged: (s) async {
@@ -300,7 +306,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
           style: FilledButton.styleFrom(backgroundColor: AppColors.sumi, padding: const EdgeInsets.symmetric(vertical: 12)),
           onPressed: c.allPracticed && ds.isNotEmpty ? _exam : null,
           icon: const Icon(Icons.flag, size: 18),
-          label: Text(c.allPracticed ? tr('코스 시험 보기 (80% 이상 통과)') : tr('모든 편을 연습하면 시험이 열려요')),
+          label: Text(c.allPracticed ? trf('코스 시험 보기 ({0}% 이상 통과)', [_svc.pass]) : tr('모든 편을 연습하면 시험이 열려요')),
         ),
       ),
       if (_svc.levelDone(lv) && _svc.nextLevel(lv) != null) ...[
@@ -322,7 +328,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
     return [
       Text(tr('다이얼로그 고르기'), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi, fontSize: 15)),
       const SizedBox(height: 2),
-      Text(tr('이 편들로 연습하고, 코스 시험에서 80% 이상이면 다음 코스로 넘어가요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+      Text(trf('이 편들로 연습하고, 코스 시험에서 {0}% 이상이면 다음 코스로 넘어가요.', [_svc.pass]), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
       if (doneLevel && next != null) ...[
         const SizedBox(height: 8),
         _card(
@@ -332,6 +338,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       ],
       const SizedBox(height: 10),
       CoursePickBar(
+        options: _svc.pick,
         count: _pickCount,
         onCount: (n) => setState(() {
           _pickCount = n;
@@ -382,16 +389,17 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
 /// 코스 고르기의 3·5·10 칩 + 「추천으로 채우기」 — 좁은 폭(아이패드 분할 300px)에서 넘치지 않게 Wrap(몽골어앱 발견, 2026-11-22).
 class CoursePickBar extends StatelessWidget {
   final int count;
+  final List<int> options; // 단계 JSON 의 pick(없으면 3·5·10)
   final ValueChanged<int> onCount;
   final VoidCallback onRecommend;
-  const CoursePickBar({super.key, required this.count, required this.onCount, required this.onRecommend});
+  const CoursePickBar({super.key, required this.count, required this.onCount, required this.onRecommend, this.options = const [3, 5, 10]});
   @override
   Widget build(BuildContext context) => Wrap(
         spacing: 6,
         runSpacing: 4,
         crossAxisAlignment: WrapCrossAlignment.center,
         children: [
-          for (final n in const [3, 5, 10]) ChoiceChip(label: Text(trf('{0}편', [n])), selected: count == n, onSelected: (_) => onCount(n)),
+          for (final n in options) ChoiceChip(label: Text(trf('{0}편', [n])), selected: count == n, onSelected: (_) => onCount(n)),
           TextButton.icon(onPressed: onRecommend, icon: const Icon(Icons.auto_awesome, size: 16), label: Text(tr('추천으로 채우기'))),
         ],
       );
@@ -702,7 +710,7 @@ class _CurriculumHomeCardState extends State<CurriculumHomeCard> {
     final total = doneN + due + newLeft;
     final streak = _ready ? st.streakShown(today) : 0;
     final sub = !_ready || st.level == null
-        ? tr('레벨에서 다이얼로그를 골라 연습 · 80% 넘으면 다음 코스')
+        ? tr('단계에서 다이얼로그를 골라 연습 · 시험 통과하면 다음 코스')
         : st.dayDone(today)
             ? (streak > 0 ? trf('오늘 분량 끝 · 🔥 {0}일 연속', [streak]) : tr('오늘 분량 끝'))
             : trf('오늘: 복습 {0} · 새 편 {1}', [due, newLeft]);
