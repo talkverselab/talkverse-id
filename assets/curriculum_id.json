@@ -1,0 +1,154 @@
+{
+ "lang": "id",
+ "rev": 1,
+ "stages": [
+  {
+   "n": 1,
+   "title": "1단계",
+   "desc": "인사·자기소개·아주 쉬운 일상",
+   "dialogueIds": [
+    "r0_culture_a1",
+    "r0_culture_a2",
+    "r0_culture_a3",
+    "r0_friends_a1",
+    "r0_friends_a2",
+    "r0_friends_a3",
+    "r0_life_a1",
+    "r0_life_a2",
+    "r0_life_a3",
+    "r0_love_a1",
+    "r0_love_a2",
+    "r0_love_a3",
+    "r0_travel_a1",
+    "r0_travel_a2",
+    "r1_friends_a1",
+    "r1_friends_a2",
+    "r1_friends_a3",
+    "r1_friends_a4",
+    "r1_friends_c1",
+    "r1_life_a1",
+    "r1_life_a2",
+    "r1_life_a3",
+    "r1_life_a4",
+    "r1_life_a5",
+    "r1_love_a1",
+    "r1_love_a2",
+    "r1_love_a3",
+    "r1_love_a4",
+    "r1_love_c1",
+    "r1_study_a1",
+    "r1_study_a2",
+    "r1_study_a3",
+    "r1_study_a4",
+    "r1_survival_s1",
+    "r1_survival_s2",
+    "r1_survival_s3",
+    "r1_travel_a1",
+    "r1_travel_a2",
+    "r1_travel_a3",
+    "r1_travel_a4",
+    "r1_work_a1",
+    "r1_work_a2",
+    "r1_work_a3",
+    "r1_work_a4"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 2,
+   "title": "2단계",
+   "desc": "장보기·길 묻기·약속",
+   "dialogueIds": [
+    "r2_culture_a1",
+    "r2_culture_a2",
+    "r2_friends_a1",
+    "r2_friends_a2",
+    "r2_friends_a3",
+    "r2_life_a1",
+    "r2_life_a2",
+    "r2_life_a3",
+    "r2_love_a1",
+    "r2_love_a2",
+    "r2_love_a3",
+    "r2_study_a1",
+    "r2_study_a2",
+    "r2_travel_a1",
+    "r2_travel_a2",
+    "r2_work_a1",
+    "r2_work_a2"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 3,
+   "title": "3단계",
+   "desc": "여행·일·감정 표현",
+   "dialogueIds": [
+    "r3_culture_a1",
+    "r3_friends_a1",
+    "r3_friends_a2",
+    "r3_life_a1",
+    "r3_life_a2",
+    "r3_love_a1",
+    "r3_love_a2",
+    "r3_study_a1",
+    "r3_study_a2",
+    "r3_travel_a1",
+    "r3_travel_a2",
+    "r3_work_a1",
+    "r3_work_a2"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  },
+  {
+   "n": 4,
+   "title": "4단계",
+   "desc": "의견·설명·긴 대화",
+   "dialogueIds": [
+    "r4_love_a1"
+   ],
+   "pick": [
+    3,
+    5,
+    10
+   ],
+   "pass": 80,
+   "daily": {
+    "light": 1,
+    "normal": 2,
+    "focus": 3
+   }
+  }
+ ],
+ "prep": []
+}

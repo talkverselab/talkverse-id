@@ -133,4 +133,31 @@ void main() {
       expect(find.byType(ChoiceChip), findsNWidgets(3));
     });
   }
+
+  group('단계(§12) — 서버·묶음 JSON', () {
+    final known = {'a': _d('a', 'life', 3), 'b': _d('b', 'love', 3)};
+    test('앱에 없는 편은 건너뛰고 편이 0개인 단계는 숨김', () {
+      final st = parseStages({
+        'rev': 1,
+        'stages': [
+          {'n': 1, 'title': '1단계', 'dialogueIds': ['a', 'zz']},
+          {'n': 2, 'title': '2단계', 'dialogueIds': ['zz']},
+          {'n': 3, 'title': '3단계', 'dialogueIds': ['b']},
+        ]
+      }, (id) => known[id]);
+      expect(st.map((s) => s.key), ['1', '3']);
+      expect(st.first.ids, ['a']);
+    });
+    test('형식이 틀리면 빈 목록(→ 회화 레벨로 돌아감)', () {
+      expect(parseStages({'rev': 1}, (id) => known[id]), isEmpty);
+      expect(parseStages({'stages': 'x'}, (id) => known[id]), isEmpty);
+    });
+    test('옛 레벨 R0·R1 → 1단계, R3 → 3단계, 없으면 첫 단계', () {
+      final st = [const CurStage('1', '', '', ['a']), const CurStage('3', '', '', ['b'])];
+      expect(migrateLevel('R0', st), '1');
+      expect(migrateLevel('R1', st), '1');
+      expect(migrateLevel('R3', st), '3');
+      expect(migrateLevel('R2', st), '1');
+    });
+  });
 }
