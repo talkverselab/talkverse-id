@@ -9,6 +9,9 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/prefs.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
+import '../services/curriculum_service.dart';
+import '../widgets/lock.dart';
 import '../services/tts_service.dart';
 import 'affix_screen.dart';
 import 'loanword_screen.dart';
@@ -65,6 +68,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _load() async {
+    await CurriculumService.instance.ensureLoaded(); // freeSenseLevels(서버 값)
     final d = await SenseCourse.load();
     final done = await SenseCourse.done();
     if (!mounted) return;
@@ -74,8 +78,13 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
     });
   }
 
+  /// 이용권 없이 열리는 급 수를 넘은 급의 회차인가(참고·다른 메뉴 단추는 늘 열림 — PAYWALL_SPEC 2026-11-23).
+  bool _locked(Map<String, dynamic> lv, Map<String, dynamic> ls) =>
+      !Entitlement.premium && ls['open'] == null && ls['kind'] != 'ref' && SenseCourse.levels(_data!).indexOf(lv) >= CurriculumService.instance.freeSenseLevels;
+
   Future<void> _open(int index) async {
-    final ls = SenseCourse.flat(_data!)[index].$2;
+    final (lv0, ls) = SenseCourse.flat(_data!)[index];
+    if (!await unlockOrPay(context, _locked(lv0, ls)) || !mounted) return;
     if (ls['open'] == 'affix') {
       await openPane(context, (_) => const AffixScreen()); // 참고 = 접사 체계 화면
       return;
@@ -162,7 +171,9 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
                     child: Text(ls['title'] as String,
                         style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.sumi)),
                   ),
-                  if (isDone)
+                  if (_locked(lv, ls))
+                    const LockIcon()
+                  else if (isDone)
                     const Icon(Icons.check_circle, color: AppColors.matcha, size: 20)
                   else if (isNext)
                     Text(tr('다음'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.ai)),

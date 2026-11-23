@@ -5,6 +5,8 @@ import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 import '../core/prefs.dart';
 
 import 'account.dart';
@@ -38,6 +40,8 @@ class Purchase {
   static final products = ValueNotifier<Map<String, ProductDetails>>(const {});
   /// 구매 진행 상태 알림(화면이 듣고 안내): null = 없음, 'pending' · 'error' · 'done' · 'restored' · 'nothing'
   static final status = ValueNotifier<String?>(null);
+  /// 스토어 상품 조회를 마쳤는가(성공·실패 모두) — 결제 화면이 끝없이 기다리지 않게(PAYWALL_SPEC 2026-11-23).
+  static final queried = ValueNotifier<bool>(false);
   static StreamSubscription<List<PurchaseDetails>>? _sub;
 
   /// 통합 앱 연결(2026-11-09): false 면 이 패키지가 스토어 구매 스트림을 직접 듣지 않는다 —
@@ -63,15 +67,36 @@ class Purchase {
     final raw = p.getString('iap_owned2');
     final m = <String, int>{if (raw != null) ...(jsonDecode(raw) as Map).map((k, v) => MapEntry('$k', (v as num).toInt()))};
     if ((p.getStringList('iap_owned') ?? const []).contains(code)) m['lang_${code}_life'] = 0; // 옛 저장 방식(평생 하나)
+    m.addAll(_readMap(p.getString(_entKey))); // <언어>_entitlement_v1(Prefs 가 id_ 를 붙임)
+    try {
+      m.addAll(_readMap((await SharedPreferences.getInstance()).getString(_allKey))); // 종합 이용권 — 22개 언어 공통 키
+    } catch (_) {}
     owned.value = m;
     Account.user.addListener(_onAccount);
-    if (kIsWeb || !(Platform.isIOS || Platform.isAndroid)) return;
+    if (kIsWeb || !(Platform.isIOS || Platform.isAndroid)) {
+      queried.value = true;
+      return;
+    }
     if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(onPurchaseUpdates, onError: (_) => status.value = 'error');
     try {
-      if (!await InAppPurchase.instance.isAvailable()) return;
-      final r = await InAppPurchase.instance.queryProductDetails({for (final x in list) x.id});
-      products.value = {for (final d in r.productDetails) d.id: d};
+      if (await InAppPurchase.instance.isAvailable().timeout(const Duration(seconds: 10))) {
+        final r = await InAppPurchase.instance.queryProductDetails({for (final x in list) x.id}).timeout(const Duration(seconds: 15));
+        products.value = {for (final d in r.productDetails) d.id: d};
+        // 시작 때 조용히 복원 조회 — 안드로이드는 창이 뜨지 않는다. iOS 는 Apple ID 창이 뜰 수 있어 「구매 복원」 단추로만(끝나지 않은 거래는 스트림이 다시 보낸다).
+        if (Platform.isAndroid && ownStream) await InAppPurchase.instance.restorePurchases();
+      }
     } catch (_) {}
+    queried.value = true;
+  }
+
+  static const _entKey = 'entitlement_v1', _allKey = 'all_entitlement_v1';
+  static Map<String, int> _readMap(String? raw) {
+    if (raw == null) return const {};
+    try {
+      return (jsonDecode(raw) as Map).map((k, v) => MapEntry('$k', (v as num).toInt()));
+    } catch (_) {
+      return const {};
+    }
   }
 
   /// 스토어 표시 가격(예 ₩3,900). 상품을 못 받았으면 null.
@@ -146,6 +171,13 @@ class Purchase {
     if (!keep) owned.value = {...owned.value, id: exp};
     final p = await Prefs.getInstance();
     await p.setString('iap_owned2', jsonEncode(owned.value));
+    await p.setString(_entKey, jsonEncode(owned.value));
+    if (id.startsWith('all_')) {
+      try {
+        final sp = await SharedPreferences.getInstance();
+        await sp.setString(_allKey, jsonEncode({..._readMap(sp.getString(_allKey)), id: owned.value[id]}));
+      } catch (_) {}
+    }
     // 서버로 보낼 영수증 — 로그인 전이면 쌓아 두었다가 로그인 때 보낸다
     final rec = {
       'platform': Platform.isIOS ? 'ios' : 'android',

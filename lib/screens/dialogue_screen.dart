@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/lock.dart';
 
 import '../core/l10n.dart';
 import '../core/platform.dart';
@@ -182,7 +183,7 @@ class DialogueListScreen extends StatelessWidget {
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: dialogueLocked(d) ? const LockIcon() : Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
               ),
             ),
           );
@@ -219,7 +220,14 @@ class _DialogueScreenState extends State<DialogueScreen> {
   void _openPlay({int at = 0}) => openFull(context, (_) => _PlayFull(dialogue: d, at: at));
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => ListenableBuilder(
+        listenable: premiumChanged,
+        builder: (context, _) => dialogueLocked(d)
+            ? Scaffold(backgroundColor: AppColors.washi, appBar: AppBar(title: Text('${d.emoji} ${d.title}')), body: LockedView(what: trf('{0} 회화는 이용권으로 열려요', [tr(DialogueService.levelKo[d.region] ?? d.region)])))
+            : _open(context),
+      );
+
+  Widget _open(BuildContext context) {
     final wide = isWide(context);
     return Scaffold(
       backgroundColor: AppColors.washi,

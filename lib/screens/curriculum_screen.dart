@@ -8,6 +8,7 @@ import '../services/curriculum_service.dart';
 import '../services/dialogue_audio.dart';
 import '../services/dialogue_service.dart';
 import '../widgets/indo_decor.dart';
+import '../widgets/lock.dart';
 
 /// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22). 일본어앱이 기준 구현.
 /// 레벨 고르기 → 다이얼로그 고르기(3·5·10) → 편마다 듣기·확인 문제 → 코스 시험(80% 이상 통과) → 다음 코스. 하루 분량·복습.
@@ -44,6 +45,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   }
 
   Future<void> _setLevel(String lv) async {
+    if (!await unlockOrPay(context, _svc.stageLocked(lv)) || !mounted) return; // 잠긴 단계 → 결제 화면
     _st.level = lv;
     _svc.syncDaily();
     await _svc.save();
@@ -121,7 +123,9 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => ListenableBuilder(listenable: premiumChanged, builder: (context, _) => _build(context));
+
+  Widget _build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.washi,
       appBar: AppBar(
@@ -168,7 +172,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                   ),
                 ]),
               ),
-              if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
+              if (_svc.stageLocked(lv)) const LockIcon() else if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
             ]),
           ),
     ];
@@ -244,6 +248,13 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   // ── 코스 ──
   List<Widget> _courseBody() {
     final c = _st.course;
+    // 지금 단계가 잠겼으면(이용권이 끝났거나 서버가 잠금으로 바꿈) 자물쇠 + 다른 단계 고르기
+    if (_st.level != null && _svc.stageLocked(_st.level!)) {
+      return [
+        SizedBox(height: 320, child: LockedView(what: trf('{0}는 이용권으로 열려요', [_svc.stageTitle(_st.level!)]))),
+        TextButton(onPressed: () => setState(() => _levelPick = true), child: Text(tr('다른 단계 고르기'))),
+      ];
+    }
     if (_confirmNew) {
       return [
         _card(

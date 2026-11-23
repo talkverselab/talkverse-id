@@ -1,6 +1,6 @@
 {
  "lang": "id",
- "rev": 1,
+ "rev": 2,
  "stages": [
   {
    "n": 1,
@@ -62,7 +62,8 @@
     "light": 1,
     "normal": 2,
     "focus": 3
-   }
+   },
+   "free": true
   },
   {
    "n": 2,
@@ -97,7 +98,8 @@
     "light": 1,
     "normal": 2,
     "focus": 3
-   }
+   },
+   "free": false
   },
   {
    "n": 3,
@@ -128,7 +130,8 @@
     "light": 1,
     "normal": 2,
     "focus": 3
-   }
+   },
+   "free": false
   },
   {
    "n": 4,
@@ -147,8 +150,11 @@
     "light": 1,
     "normal": 2,
     "focus": 3
-   }
+   },
+   "free": false
   }
  ],
- "prep": []
+ "prep": [],
+ "freeSteps": 2,
+ "freeSenseLevels": 1
 }

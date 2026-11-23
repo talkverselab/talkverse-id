@@ -7,6 +7,7 @@ import '../data/account.dart';
 import '../data/purchase.dart';
 import '../widgets/legal_links.dart';
 import 'login_screen.dart';
+import 'custom_script_screen.dart' show kCustomScriptLive;
 import '../core/embed_env.dart' show embedded;
 
 /// 스토어에 보이는 앱 이름 — 통합 앱이면 Talkverse(출시 심사 점검 11-23).
@@ -37,8 +38,6 @@ class PaywallScreen extends StatefulWidget {
 class _PaywallScreenState extends State<PaywallScreen> {
   String? _sel; // 미리 고르지 않는다
 
-  static String _won(int v) => '₩${v.toString().replaceAllMapped(RegExp(r'(\d)(?=(\d{3})+$)'), (m) => '${m[1]},')}';
-
   String _title(Plan p) => switch ((p.bundle, p.months)) {
         (false, 1) => tr('1개월'),
         (false, 3) => tr('3개월'),
@@ -63,11 +62,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
           });
         }
         final busy = st == 'pending';
-        return ValueListenableBuilder(
-          valueListenable: Purchase.products,
-          builder: (c, _, _) {
+        return ListenableBuilder(
+          listenable: Listenable.merge([Purchase.products, Purchase.queried]),
+          builder: (c, _) {
             final sel = _sel == null ? null : Purchase.plan(_sel!);
             final selPrice = sel == null ? null : Purchase.price(sel.id);
+            final noStore = Purchase.queried.value && Purchase.products.value.isEmpty;
             return SafeArea(
               top: false,
               child: SingleChildScrollView(
@@ -76,9 +76,18 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   Text(_storeName, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.beni)),
                   Text(tr('이용권 선택'), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.sumi)),
                   const SizedBox(height: 10),
-                  _row(Icons.check_circle, tr('앞으로 추가되는 유료 과정(회화 레벨·장면 그림·음성)을 이용권 기간 동안')),
+                  _row(Icons.check_circle, tr('토크버스 커리큘럼 2단계 이상')),
+                  _row(Icons.check_circle, tr('회화 2단계 이상(중급·고급·최상급) 편')),
+                  _row(Icons.check_circle, tr('언어감각 익히기 2급 이상')),
+                  if (kCustomScriptLive) _row(Icons.check_circle, tr('맞춤 회화 만들기')),
                   _row(Icons.check_circle, isIOS ? tr('로그인하면 아이폰·아이패드 어디서나') : tr('로그인하면 다른 기기에서도')),
-                  _row(Icons.check_circle_outline, tr('지금 있는 알파벳·어근·접사·회화·단어·복습 메뉴는 모두 무료'), muted: true),
+                  _row(Icons.check_circle_outline, tr('1단계 회화·커리큘럼 1단계·언어감각 1급과 글자·발음·어근·접사·단어 기본은 무료'), muted: true),
+                  if (noStore) ...[
+                    const SizedBox(height: 10),
+                    Text(tr('스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.'), key: const ValueKey('paywall-nostore'), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.beni)),
+                    const SizedBox(height: 6),
+                    OutlinedButton(onPressed: () => Navigator.maybePop(context), child: Text(tr('닫기'))),
+                  ],
                   const SizedBox(height: 10),
                   Text(tr('인도네시아어'), style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.sumiLight)),
                   const SizedBox(height: 6),
@@ -96,8 +105,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       padding: const EdgeInsets.only(bottom: 8),
                       child: Text(
                         sel.lifetime
-                            ? trf('{0} · {1} · 한 번 결제, 자동 갱신 없음', [_title(sel), selPrice ?? _won(sel.krw)])
-                            : trf('{0} · {1} · 기간이 끝나면 같은 가격으로 자동 갱신됩니다. 갱신 24시간 전까지 해지하면 다음 결제가 되지 않습니다.', [_title(sel), selPrice ?? _won(sel.krw)]),
+                            ? trf('{0} · {1} · 한 번 결제, 자동 갱신 없음', [_title(sel), selPrice ?? '—'])
+                            : trf('{0} · {1} · 기간이 끝나면 같은 가격으로 자동 갱신됩니다. 갱신 24시간 전까지 해지하면 다음 결제가 되지 않습니다.', [_title(sel), selPrice ?? '—']),
                         style: const TextStyle(fontSize: 12, color: AppColors.sumi, height: 1.45, fontWeight: FontWeight.w600),
                       ),
                     ),
@@ -109,7 +118,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         : Text(sel == null
                             ? tr('이용권을 골라 주세요')
                             : selPrice == null
-                                ? tr('스토어에 연결하는 중…')
+                                ? (noStore ? tr('스토어에 연결하지 못했어요') : tr('스토어에 연결하는 중…'))
                                 : '${tr('구매')} · $selPrice'),
                   ),
                   const SizedBox(height: 8),
@@ -153,13 +162,13 @@ class _PaywallScreenState extends State<PaywallScreen> {
 
   Widget _planTile(Plan p, bool busy) {
     final on = _sel == p.id;
-    final price = Purchase.price(p.id) ?? _won(p.krw);
+    final price = Purchase.price(p.id) ?? '—'; // 가격은 스토어 값만(코드에 원화를 박지 않음 — PAYWALL_SPEC 2026-11-23)
     return Padding(
       padding: const EdgeInsets.only(bottom: 6),
       child: Semantics(
         selected: on,
         button: true,
-        label: '${_title(p)} $price ${p.listKrw > 0 ? '(정가 ${_won(p.listKrw)})' : ''} ${_terms(p)}',
+        label: '${_title(p)} $price ${_terms(p)}',
         child: InkWell(
           borderRadius: BorderRadius.circular(12),
           onTap: busy ? null : () => setState(() => _sel = p.id),
@@ -180,8 +189,6 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 ]),
               ),
               Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                if (p.listKrw > 0)
-                  Text('${_won(p.listKrw)} · ${tr('출시 기념 30%')}', style: const TextStyle(fontSize: 10.5, color: AppColors.muted, decoration: TextDecoration.lineThrough, decorationColor: AppColors.muted)),
                 Text(price, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: AppColors.sumi)),
               ]),
             ]),

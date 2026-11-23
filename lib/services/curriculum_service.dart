@@ -7,6 +7,7 @@ import 'package:http/http.dart' as http;
 
 import '../core/embed_env.dart';
 import '../core/prefs.dart';
+import '../data/entitlement.dart';
 import 'dialogue_service.dart';
 
 /// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22).
@@ -330,7 +331,15 @@ class CurriculumService {
     _fetch(); // 뒤에서 서버 판 확인(기다리지 않음)
   }
 
+  /// 이용권 없이 열리는 문법 스텝·언어감각 급 수(커리큘럼 JSON 최상위, 없으면 2·1).
+  int freeSteps = 2, freeSenseLevels = 1;
+
+  /// 잠긴 단계인가(이용권이 있으면 늘 열림).
+  bool stageLocked(String key) => !(stageOf(key)?.free ?? true) && !Entitlement.premium;
+
   void _apply(Map<String, dynamic>? content) {
+    freeSteps = (content?['freeSteps'] as num?)?.toInt() ?? 2;
+    freeSenseLevels = (content?['freeSenseLevels'] as num?)?.toInt() ?? 1;
     final st = content == null ? <CurStage>[] : parseStages(content, DialogueService.instance.byId);
     stages = st.isNotEmpty ? st : regionStages();
     contentRev = st.isNotEmpty ? ((content!['rev'] as num?)?.toInt() ?? 0) : -1;
@@ -400,7 +409,8 @@ class CurStage {
   final List<int> pick; // 고를 개수
   final int pass; // 통과 점수(%)
   final Map<int, int> daily; // 하루 목표 1·2·3 → 새 편 수
-  const CurStage(this.key, this.title, this.desc, this.ids, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = const {1: 1, 2: 2, 3: 3}});
+  final bool free; // 이용권 없이 열림(서버 값, 없으면 1단계만 — PAYWALL_SPEC 2026-11-23)
+  const CurStage(this.key, this.title, this.desc, this.ids, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = const {1: 1, 2: 2, 3: 3}, this.free = true});
 }
 
 /// 서버·묶음 JSON → 단계. 앱에 없는 편 id 는 건너뛰고, 편이 0개인 단계는 숨긴다.
@@ -419,7 +429,8 @@ List<CurStage> parseStages(Map<String, dynamic> j, Dialogue? Function(String) by
     out.add(CurStage(n, '${s['title'] ?? '$n단계'}', '${s['desc'] ?? ''}', ids,
         pick: pick.isEmpty ? const [3, 5, 10] : pick,
         pass: s['pass'] is num && (s['pass'] as num) > 0 && (s['pass'] as num) <= 100 ? (s['pass'] as num).toInt() : kPassPercent,
-        daily: {1: dn('light', 1), 2: dn('normal', 2), 3: dn('focus', 3)}));
+        daily: {1: dn('light', 1), 2: dn('normal', 2), 3: dn('focus', 3)},
+        free: s['free'] is bool ? s['free'] as bool : n == '1'));
   }
   return out;
 }
@@ -428,7 +439,7 @@ List<CurStage> parseStages(Map<String, dynamic> j, Dialogue? Function(String) by
 List<CurStage> regionStages() => [
       for (final r in DialogueService.levels)
         if (DialogueService.instance.count(r) > 0)
-          CurStage(r, '$r ${DialogueService.levelKo[r] ?? ''}'.trim(), '', [for (final d in DialogueService.instance.list(region: r)) d.id]),
+          CurStage(r, '$r ${DialogueService.levelKo[r] ?? ''}'.trim(), '', [for (final d in DialogueService.instance.list(region: r)) d.id], free: r == 'R0' || r == 'R1'),
     ];
 
 /// 옛 진도의 레벨 값(R0~R5) → 단계(기본 대응 R0·R1 → 1, Rn → n). 맞는 단계가 없으면 첫 단계.
