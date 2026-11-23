@@ -26,7 +26,6 @@
   "udah"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -246,47 +245,5 @@
    ],
    "emotion": "embarrassed"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Bro, nanti malam jadi?",
-    "ko": "야, 오늘 밤 약속 그대로지?"
-   },
-   {
-    "num": 2,
-    "id": "Jadi! Aku kirim pesan suara, ya.",
-    "ko": "그대로지! 음성 메시지 보낼게."
-   },
-   {
-    "num": 3,
-    "id": "🎤 (pesan suara 0:42)",
-    "ko": "🎤 (음성 메시지 0:42)"
-   },
-   {
-    "num": 4,
-    "id": "Itu masuk grup kantor, bro 😂",
-    "ko": "그거 회사 단톡방에 갔어 😂"
-   },
-   {
-    "num": 5,
-    "id": "HAH?! Isinya aku nyanyi!",
-    "ko": "뭐?! 그거 내가 노래한 건데!"
-   },
-   {
-    "num": 6,
-    "id": "Bos kamu udah balas: \"Suaranya bagus.\"",
-    "ko": "너네 사장님이 벌써 답장했어: \"목소리 좋네.\""
-   },
-   {
-    "num": 7,
-    "id": "Aku mau pindah negara.",
-    "ko": "나 다른 나라로 이사 갈래."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_friends_c1_grok.md",
-  "kick": "라카한테만 부르려던 노래가 회사 단톡에 가서 사장님한테 목소리 칭찬받은 황당 설렘",
-  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
- }
+ ]
 }

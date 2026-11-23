@@ -27,7 +27,6 @@
   "Enak"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -230,46 +229,5 @@
    ],
    "emotion": "tired"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Mau makan apa hari ini?",
-    "ko": "오늘은 뭐 먹을래요?"
-   },
-   {
-    "num": 2,
-    "id": "Apa saja, Bu. Semua enak.",
-    "ko": "아무거나요, 아주머니. 다 맛있어서요."
-   },
-   {
-    "num": 3,
-    "id": "Oke! Apa saja… ya.",
-    "ko": "오케이! 아무거나… 라."
-   },
-   {
-    "num": 4,
-    "id": "Ini ayam, ikan, tahu, tempe, sayur, telur…",
-    "ko": "닭, 생선, 두부, 템페, 채소, 달걀…"
-   },
-   {
-    "num": 5,
-    "id": "Bu! Ini buat sepuluh orang!",
-    "ko": "아주머니! 이거 열 명분이에요!"
-   },
-   {
-    "num": 6,
-    "id": "Kamu bilang apa saja. Habiskan, ya!",
-    "ko": "아무거나라며. 다 먹어요!"
-   },
-   {
-    "num": 7,
-    "id": "Saya… sudah kenyang lihat saja.",
-    "ko": "저… 보기만 해도 배불러요."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_life_a2_grok.md",
-  "kick": "아무거나라고 했더니 한 상 가득 나와서 눈으로만 배부른 상황."
- }
+ ]
 }

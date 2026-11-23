@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Ini undangan pernikahan kakakku. Datang, ya.",
+      "ko": "우리 언니 결혼식 청첩장이야. 꼭 와."
+     },
+     {
+      "num": 2,
+      "id": "Wah, terima kasih. Tamunya berapa orang?",
+      "ko": "와, 고마워. 하객이 몇 명이야?"
+     },
+     {
+      "num": 3,
+      "id": "Sekitar seribu lima ratus.",
+      "ko": "천오백 명쯤."
+     },
+     {
+      "num": 4,
+      "id": "Seribu lima ratus? Kakakmu kenal semua?",
+      "ko": "천오백? 언니가 다 아는 사람이야?"
+     },
+     {
+      "num": 5,
+      "id": "Tidak. Kebanyakan teman orang tuaku.",
+      "ko": "아니. 대부분 부모님 친구분들."
+     },
+     {
+      "num": 6,
+      "id": "Aku harus pakai baju apa?",
+      "ko": "나 뭐 입어야 해?"
+     },
+     {
+      "num": 7,
+      "id": "Bebas. Yang penting jangan putih.",
+      "ko": "자유야. 하얀색만 빼고."
+     },
+     {
+      "num": 8,
+      "id": "Hadiahnya apa yang bagus?",
+      "ko": "선물은 뭐가 좋을까?"
+     },
+     {
+      "num": 9,
+      "id": "Datang dan makan banyak. Makanannya untuk tiga ribu.",
+      "ko": "와서 많이 먹기. 음식이 삼천 명분이야."
+     }
+    ],
+    "grok": "data/review/grok/out/r2_culture_a2.md",
+    "grok_mode": "빠른",
+    "kick": "하객 천오백인데 아는 사람 거의 없고 음식은 삼천 명분"
+   },
+   "draft": true
+  }
+ ]
+}

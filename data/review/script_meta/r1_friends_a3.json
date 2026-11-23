@@ -1,0 +1,49 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Kalian mau ke mana malam ini?",
+      "ko": "너희 오늘 밤 어디 가?"
+     },
+     {
+      "num": 2,
+      "id": "Ke pasar malam. Mau ikut?",
+      "ko": "야시장. 같이 갈래?"
+     },
+     {
+      "num": 3,
+      "id": "Mau! Tapi aku gak punya uang.",
+      "ko": "갈래! 근데 나 돈 없어."
+     },
+     {
+      "num": 4,
+      "id": "Enggak apa-apa. Aku traktir.",
+      "ko": "괜찮아. 내가 쏠게."
+     },
+     {
+      "num": 5,
+      "id": "Benar? Kalau begitu aku makan sepuluh sate!",
+      "ko": "진짜? 그럼 나 사테 열 개!"
+     },
+     {
+      "num": 6,
+      "id": "Sepuluh? Untuk kamu sendiri?",
+      "ko": "열 개? 너 혼자?"
+     },
+     {
+      "num": 7,
+      "id": "Untuk aku sendiri. Kamu makan nasi saja.",
+      "ko": "나 혼자. 넌 밥만 먹어."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_friends_a3_grok.md",
+    "kick": "사테 열 개에 아이스티까지 혼자 먹겠다는 과장과, 너는 밥만 먹으라는 받아치기.",
+    "final": "재작성 반영 + 5번 쉼표"
+   },
+   "draft": true
+  }
+ ]
+}

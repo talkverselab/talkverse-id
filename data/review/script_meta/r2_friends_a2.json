@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Eh, utangku bulan lalu belum dibayar, ya?",
+      "ko": "어, 나 지난달 빌린 돈 아직 안 갚았지?"
+     },
+     {
+      "num": 2,
+      "id": "Utang yang mana? Aku sudah lupa.",
+      "ko": "무슨 돈? 나 잊어버렸는데."
+     },
+     {
+      "num": 3,
+      "id": "Yang lima puluh ribu, waktu nonton konser.",
+      "ko": "콘서트 보던 날 오만 루피아."
+     },
+     {
+      "num": 4,
+      "id": "Oh, itu. Santai saja.",
+      "ko": "아, 그거. 신경 쓰지 마."
+     },
+     {
+      "num": 5,
+      "id": "Tidak bisa. Aku bayar sekarang.",
+      "ko": "안 돼. 지금 갚을게."
+     },
+     {
+      "num": 6,
+      "id": "Kenapa tiba-tiba rajin begini?",
+      "ko": "왜 갑자기 이렇게 꼼꼼해?"
+     },
+     {
+      "num": 7,
+      "id": "Soalnya aku mau pinjam lagi, seratus ribu.",
+      "ko": "왜냐면 또 빌리려고. 십만."
+     },
+     {
+      "num": 8,
+      "id": "Jadi kamu bayar lima puluh untuk pinjam seratus?",
+      "ko": "그러니까 오만 갚고 십만 빌리겠다고?"
+     },
+     {
+      "num": 9,
+      "id": "Hitungannya bagus, kan?",
+      "ko": "계산 잘했지?"
+     }
+    ],
+    "grok": "data/review/grok/out/r2_friends_a2.md",
+    "grok_mode": "빠른",
+    "kick": "갚겠다고 고집하더니 사실은 두 배 더 빌리려고"
+   },
+   "draft": true
+  }
+ ]
+}

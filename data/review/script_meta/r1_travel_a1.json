@@ -1,0 +1,53 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Pak, ke stasiun, ya.",
+      "ko": "아저씨, 역이요."
+     },
+     {
+      "num": 2,
+      "id": "Siap! Bapak tahu jalan pintas.",
+      "ko": "알겠어요! 아저씨가 지름길 알아요."
+     },
+     {
+      "num": 3,
+      "id": "Wah, bagus. Berapa menit?",
+      "ko": "와, 좋네요. 몇 분 걸려요?"
+     },
+     {
+      "num": 4,
+      "id": "Sepuluh menit. Eh, itu rumah ibu saya!",
+      "ko": "10분. 어, 저기 우리 어머니 집이네!"
+     },
+     {
+      "num": 5,
+      "id": "Pak… ini jalan pintas?",
+      "ko": "아저씨… 이게 지름길이에요?"
+     },
+     {
+      "num": 6,
+      "id": "Sebentar! Ibu mau kasih kamu pisang.",
+      "ko": "잠깐만! 어머니가 바나나 주신대."
+     },
+     {
+      "num": 7,
+      "id": "Saya cuma mau ke stasiun…",
+      "ko": "저는 그냥 역에 가고 싶은데요…"
+     },
+     {
+      "num": 8,
+      "id": "Tenang! Sekarang kamu keluarga.",
+      "ko": "걱정 마! 이제 너도 가족이야."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_travel_a1_grok.md",
+    "kick": "지름길이 갑자기 엄마 집 방문으로 돌변하고 바나나까지 받은 뒤 가족이 되어버리는 황당함."
+   },
+   "draft": true
+  }
+ ]
+}

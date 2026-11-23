@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Selamat datang. Ada beberapa aturan di sini.",
+      "ko": "어서 와. 여기 규칙이 몇 개 있어."
+     },
+     {
+      "num": 2,
+      "id": "Baik, Bu. Apa saja?",
+      "ko": "네. 뭐가 있어요?"
+     },
+     {
+      "num": 3,
+      "id": "Jam sepuluh malam pintu dikunci.",
+      "ko": "밤 열 시에 문 잠가."
+     },
+     {
+      "num": 4,
+      "id": "Kalau saya pulang terlambat?",
+      "ko": "제가 늦게 오면요?"
+     },
+     {
+      "num": 5,
+      "id": "Telepon saya dulu. Dan tidak boleh masak durian.",
+      "ko": "먼저 전화해. 그리고 두리안 요리는 금지야."
+     },
+     {
+      "num": 6,
+      "id": "Durian dimasak? Siapa yang masak durian?",
+      "ko": "두리안을 요리해요? 누가 그래요?"
+     },
+     {
+      "num": 7,
+      "id": "Anak kamar tiga. Seminggu baunya tidak hilang.",
+      "ko": "3호실 학생. 일주일 동안 냄새가 안 빠졌어."
+     },
+     {
+      "num": 8,
+      "id": "Oke, Bu. Saya janji tidak.",
+      "ko": "알겠어요. 안 할게요, 약속해요."
+     },
+     {
+      "num": 9,
+      "id": "Satu lagi. Jangan dekat-dekat anak kamar tiga.",
+      "ko": "하나 더. 3호실 학생 가까이 가지 마."
+     }
+    ],
+    "grok": "data/review/grok/out/r2_life_a3.md",
+    "grok_mode": "빠른",
+    "kick": "문 잠그는 질문에 두리안 금지로 넘어가고 3호실 피하라고 함"
+   },
+   "draft": true
+  }
+ ]
+}

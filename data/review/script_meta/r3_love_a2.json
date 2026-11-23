@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Ingat, panggil ayahku \"Bapak\", jangan \"Om\".",
+      "ko": "기억해, 우리 아빠는 「옴」 말고 「바빡」이라고 불러."
+     },
+     {
+      "num": 2,
+      "id": "Oke. Ada lagi yang harus kuperhatikan?",
+      "ko": "알았어. 더 조심할 거 있어?"
+     },
+     {
+      "num": 3,
+      "id": "Kalau ditanya pekerjaan, jawab dengan tenang dan jelas.",
+      "ko": "직업 물어보시면 차분하고 분명하게 대답해."
+     },
+     {
+      "num": 4,
+      "id": "Kalau ditanya gaji?",
+      "ko": "월급 물어보시면?"
+     },
+     {
+      "num": 5,
+      "id": "Senyum saja, lalu puji masakan ibuku.",
+      "ko": "그냥 웃고 우리 엄마 요리 칭찬해."
+     },
+     {
+      "num": 6,
+      "id": "Kalau masakannya pedas sekali?",
+      "ko": "요리가 엄청 매우면?"
+     },
+     {
+      "num": 7,
+      "id": "Pokoknya habiskan. Itu ujian pertama.",
+      "ko": "무조건 다 먹어. 그게 첫 시험이야."
+     },
+     {
+      "num": 8,
+      "id": "Ujian? Ada berapa ujian semuanya?",
+      "ko": "시험? 전부 몇 개인데?"
+     },
+     {
+      "num": 9,
+      "id": "Tiga. Makan, catur dengan ayah, dan karaoke dengan nenek.",
+      "ko": "셋. 밥, 아빠랑 체스, 할머니랑 노래방."
+     },
+     {
+      "num": 10,
+      "id": "Aku tidak bisa main catur!",
+      "ko": "나 체스 못 둬!"
+     },
+     {
+      "num": 11,
+      "id": "Tidak apa-apa, ayahku juga selalu kalah.",
+      "ko": "괜찮아, 우리 아빠도 맨날 져."
+     },
+     {
+      "num": 12,
+      "id": "Lalu siapa yang selalu menang?",
+      "ko": "그럼 누가 맨날 이기는데?"
+     },
+     {
+      "num": 13,
+      "id": "Nenek. Dan dia juga jago karaoke.",
+      "ko": "할머니. 노래방도 잘하셔."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_love_a2.md",
+    "grok_mode": "빠른",
+    "kick": "매운 음식 다 먹는 게 첫 시험이라더니, 체스도 노래방도 할머니가 다 이기는 집안의 시험이 세 개나 있음."
+   },
+   "draft": true
+  }
+ ]
+}

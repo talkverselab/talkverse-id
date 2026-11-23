@@ -25,44 +25,6 @@
   "Kamar nomor …"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Selamat malam. Mau check-in.",
-    "ko": "안녕하세요. 체크인하려고요."
-   },
-   {
-    "num": 2,
-    "id": "Atas nama siapa?",
-    "ko": "누구 이름으로 하셨어요?"
-   },
-   {
-    "num": 3,
-    "id": "Atas nama {name}.",
-    "ko": "{name} 이름으로요."
-   },
-   {
-    "num": 4,
-    "id": "Maaf, nama itu tidak ada.",
-    "ko": "죄송한데, 그 이름이 없어요."
-   },
-   {
-    "num": 5,
-    "id": "Ini hotel Melati, kan?",
-    "ko": "여기 멜라티 호텔 맞죠?"
-   },
-   {
-    "num": 6,
-    "id": "Bukan. Melati di sebelah.",
-    "ko": "아니요. 멜라티는 옆집이에요."
-   }
-  ],
-  "grok": "data/review/grok/out/r0_travel_a2.md",
-  "grok_mode": "빠른",
-  "kick": "이름 없다더니 그 호텔이 바로 옆집"
- },
  "turns": [
   {
    "num": 1,

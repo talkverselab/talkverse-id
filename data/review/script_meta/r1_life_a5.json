@@ -1,0 +1,54 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Pak, ini berapa?",
+      "ko": "아저씨, 이거 얼마예요?"
+     },
+     {
+      "num": 2,
+      "id": "Hmm? Saya tidak dengar.",
+      "ko": "응? 안 들려요."
+     },
+     {
+      "num": 3,
+      "id": "Maaf, Bu! Ini berapa, Bu?",
+      "ko": "죄송해요, 아주머니! 이거 얼마예요?"
+     },
+     {
+      "num": 4,
+      "id": "Nah, sekarang saya dengar. Lima ribu.",
+      "ko": "자, 이제 들리네. 오천."
+     },
+     {
+      "num": 5,
+      "id": "Bagaimana saya harus bayar, Bu?",
+      "ko": "어떻게 내면 돼요?"
+     },
+     {
+      "num": 6,
+      "id": "Bayar dengan senyum dulu.",
+      "ko": "먼저 웃는 얼굴로 내요."
+     },
+     {
+      "num": 7,
+      "id": "Baik, Bu... begini?",
+      "ko": "네… 이렇게요?"
+     },
+     {
+      "num": 8,
+      "id": "Ditambahi lima ribu lagi, baru bagus.",
+      "ko": "오천 더 얹어야 딱 좋겠네."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_life_a5_grok.md",
+    "kick": "호칭 하나로 귀가 열리고, 미소 하나에 가격이 오르는 장난.",
+    "final": "4번 sih 오용(Akhirnya saya dengar sih)"
+   },
+   "draft": true
+  }
+ ]
+}

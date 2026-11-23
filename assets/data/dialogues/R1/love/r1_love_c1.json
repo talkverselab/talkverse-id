@@ -29,7 +29,6 @@
   "Mimpi indah"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -211,52 +210,5 @@
    "lemmas": [],
    "emotion": "shy"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Udah tidur?",
-    "ko": "벌써 자?"
-   },
-   {
-    "num": 2,
-    "id": "Belum. Kamu?",
-    "ko": "아직. 너는?"
-   },
-   {
-    "num": 3,
-    "id": "Belum juga. Mimpi indah, ya.",
-    "ko": "나도 아직. 좋은 꿈 꿔."
-   },
-   {
-    "num": 4,
-    "id": "❤️❤️❤️",
-    "ko": "❤️❤️❤️"
-   },
-   {
-    "num": 5,
-    "id": "Kok sepi? Kamu kirim ke mana?",
-    "ko": "왜 조용해? 어디로 보낸 거야?"
-   },
-   {
-    "num": 6,
-    "id": "Ke grup keluarga… Ibu udah balas.",
-    "ko": "가족 단톡방에… 엄마가 벌써 답장했어."
-   },
-   {
-    "num": 7,
-    "id": "Hahaha. Terus buat aku mana?",
-    "ko": "하하하. 그럼 내 건?"
-   },
-   {
-    "num": 8,
-    "id": "❤️",
-    "ko": "❤️"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_love_c1_grok.md",
-  "kick": "엄마가 하트 세 개에 바로 답장한 황당함과 “내 건?” 하는 한 줄이 주는 설렘.",
-  "final": "최소 수정: 4번 「salah」가 5번 반전을 미리 터뜨려 하트만으로 되돌림"
- }
+ ]
 }

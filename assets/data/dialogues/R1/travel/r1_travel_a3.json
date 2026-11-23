@@ -26,7 +26,6 @@
   "masih ada"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -252,52 +251,5 @@
    ],
    "emotion": "cheerful"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Pak, ke stasiun, ya. Saya terlambat!",
-    "ko": "아저씨, 역으로요. 저 늦었어요!"
-   },
-   {
-    "num": 2,
-    "id": "Siap! Pegangan dengan kuat!",
-    "ko": "알겠어요! 꽉 잡아요!"
-   },
-   {
-    "num": 3,
-    "id": "Pak, kenapa kita masuk gang?",
-    "ko": "아저씨, 왜 골목으로 들어가요?"
-   },
-   {
-    "num": 4,
-    "id": "Jalan pintas. Bapak tahu semua jalan.",
-    "ko": "지름길이야. 아저씨는 길 다 알아."
-   },
-   {
-    "num": 5,
-    "id": "Pak... ini rumah Bapak?",
-    "ko": "아저씨… 여기 아저씨 집이에요?"
-   },
-   {
-    "num": 6,
-    "id": "Iya, mampir dulu. Istri saya masak!",
-    "ko": "응, 잠깐 들러. 아내가 밥 했어!"
-   },
-   {
-    "num": 7,
-    "id": "Pak! Kereta saya bagaimana?",
-    "ko": "아저씨! 제 기차는요?"
-   },
-   {
-    "num": 8,
-    "id": "Kereta berikutnya masih ada. Makan dulu!",
-    "ko": "다음 기차 아직 있어. 밥부터 먹어!"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_travel_a3_grok.md",
-  "kick": "지름길인 줄 알고 탔는데 기사 집으로 초대해 아내가 한 통 밥 했다는 엉뚱한 반전",
-  "final": "재작성 반영 + 아저씨 말 한국어 반말로 통일"
- }
+ ]
 }

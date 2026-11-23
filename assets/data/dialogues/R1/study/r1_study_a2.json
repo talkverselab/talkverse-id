@@ -30,7 +30,6 @@
   "Malu"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -198,46 +197,5 @@
    ],
    "emotion": "teasing"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Ssst. Ini perpustakaan.",
-    "ko": "쉿. 여기 도서관이야."
-   },
-   {
-    "num": 2,
-    "id": "Iya, maaf… Hah… HACIH!",
-    "ko": "응, 미안… 하… 에취!"
-   },
-   {
-    "num": 3,
-    "id": "Semua orang lihat kita!",
-    "ko": "사람들이 다 우리 봐!"
-   },
-   {
-    "num": 4,
-    "id": "Aduh, aku malu banget.",
-    "ko": "아이고, 나 진짜 창피해."
-   },
-   {
-    "num": 5,
-    "id": "Kamu lucu kalau malu.",
-    "ko": "너 창피해할 때 귀엽다."
-   },
-   {
-    "num": 6,
-    "id": "Hah? Kamu bilang apa?",
-    "ko": "어? 뭐라고 했어?"
-   },
-   {
-    "num": 7,
-    "id": "Ssst. Ini perpustakaan.",
-    "ko": "쉿. 여기 도서관이야."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_study_a2_grok.md",
-  "kick": "창피해서 도망가겠다는 과장 반응에, 바로 “창피할 때 귀엽다”고 받아치는 한 줄이 심쿵."
- }
+ ]
 }

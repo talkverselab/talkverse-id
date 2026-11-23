@@ -1,0 +1,53 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Tenang, presentasi kita cuma lima menit.",
+      "ko": "걱정 마, 우리 발표 5분이면 끝이야."
+     },
+     {
+      "num": 2,
+      "id": "Bagaimana kalau Pak dosen bertanya?",
+      "ko": "교수님이 질문하시면 어떡해?"
+     },
+     {
+      "num": 3,
+      "id": "Tidak akan. Dia selalu tidur.",
+      "ko": "안 하셔. 늘 주무시잖아."
+     },
+     {
+      "num": 4,
+      "id": "Maaf, Pak... sudah bangun?",
+      "ko": "죄송한데요, 교수님… 깨셨어요?"
+     },
+     {
+      "num": 5,
+      "id": "Siapa yang bikin dia bangun?!",
+      "ko": "누가 깨운 거야?!"
+     },
+     {
+      "num": 6,
+      "id": "Dia bertanya lagi dan lagi!",
+      "ko": "또 묻고 또 물으셔!"
+     },
+     {
+      "num": 7,
+      "id": "Sekarang mereka semua harus menjawab.",
+      "ko": "이제 다른 조들도 전부 대답해야 해."
+     },
+     {
+      "num": 8,
+      "id": "Lima menit... jadi dua jam.",
+      "ko": "5분이… 두 시간 됐네."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_study_a4_grok.md",
+    "kick": "안 깰 줄 알고 안심했는데 A가 바로 깨워서 5분이 2시간 참사가 된 순간"
+   },
+   "draft": true
+  }
+ ]
+}

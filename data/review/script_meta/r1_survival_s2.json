@@ -1,0 +1,49 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Selamat siang. Ada yang bisa saya bantu?",
+      "ko": "안녕하세요. 무엇을 도와드릴까요?"
+     },
+     {
+      "num": 2,
+      "id": "Paspor saya tidak ada!",
+      "ko": "제 여권이 없어요!"
+     },
+     {
+      "num": 3,
+      "id": "Tenang. Sudah cari di tas?",
+      "ko": "진정하세요. 가방은 찾아보셨어요?"
+     },
+     {
+      "num": 4,
+      "id": "Sudah. Tas saya kosong.",
+      "ko": "찾아봤어요. 가방이 텅 비었어요."
+     },
+     {
+      "num": 5,
+      "id": "Itu apa di tangan Anda?",
+      "ko": "손에 드신 건 뭐예요?"
+     },
+     {
+      "num": 6,
+      "id": "Oh... ini paspor saya. Terima kasih!",
+      "ko": "아… 이거 제 여권이네요. 고맙습니다!"
+     },
+     {
+      "num": 7,
+      "id": "Sama-sama. Silakan duduk dan minum dulu.",
+      "ko": "천만에요. 앉아서 물부터 드세요."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_survival_s2_grok.md",
+    "kick": "손에 들고 있는데 잃어버렸다고 뛰어온 황당함과 직원의 놀",
+    "final": "재작성 반영 + Kak 음역(카) → 손님, 5번 sih 어색 정리"
+   },
+   "draft": true
+  }
+ ]
+}

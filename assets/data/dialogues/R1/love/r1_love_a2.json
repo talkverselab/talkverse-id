@@ -28,7 +28,6 @@
   "dari tadi"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -259,52 +258,5 @@
    ],
    "emotion": "teasing"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Kamu punya pacar?",
-    "ko": "너 애인 있어?"
-   },
-   {
-    "num": 2,
-    "id": "Tidak punya. Kenapa?",
-    "ko": "없어. 왜?"
-   },
-   {
-    "num": 3,
-    "id": "Nggak apa-apa. Tanya saja.",
-    "ko": "아니 그냥. 물어본 거야."
-   },
-   {
-    "num": 4,
-    "id": "Kamu sendiri punya?",
-    "ko": "너는 있어?"
-   },
-   {
-    "num": 5,
-    "id": "Belum. Aku tunggu kamu... eh, kopiku!",
-    "ko": "아직. 너 기다려… 아, 내 커피!"
-   },
-   {
-    "num": 6,
-    "id": "Kopimu sudah datang dari tadi.",
-    "ko": "네 커피 아까부터 와 있었는데."
-   },
-   {
-    "num": 7,
-    "id": "Ya sudah. Jangan lihat aku begitu!",
-    "ko": "됐어. 그렇게 쳐다보지 마!"
-   },
-   {
-    "num": 8,
-    "id": "Aku lihat kopimu saja kok.",
-    "ko": "나 네 커피만 보는 건데."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_love_a2_grok.md",
-  "kick": "Ayu가 무심코 \"너 기다리고 있어\"라고 실수하고 커피로 무마하려 하지만 이미 와 있어서 더 당황하는 설렘",
-  "final": "재작성 반영 + R1 목표 토큰 되살림(-mu·lihat 표준형)"
- }
+ ]
 }

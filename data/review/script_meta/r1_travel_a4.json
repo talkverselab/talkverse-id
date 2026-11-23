@@ -1,0 +1,49 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Pak, ini perjalanan terakhir saya.",
+      "ko": "아저씨, 이게 저 마지막으로 타는 거예요."
+     },
+     {
+      "num": 2,
+      "id": "Lho, mau pulang ke Korea?",
+      "ko": "어, 한국 돌아가?"
+     },
+     {
+      "num": 3,
+      "id": "Iya, besok. Terima kasih untuk semuanya.",
+      "ko": "네, 내일요. 그동안 다 고마웠어요."
+     },
+     {
+      "num": 4,
+      "id": "Kamu sudah seperti anak Bapak sendiri.",
+      "ko": "넌 이미 내 자식 같아."
+     },
+     {
+      "num": 5,
+      "id": "Pak... jangan bikin saya menangis.",
+      "ko": "아저씨… 울리지 마세요."
+     },
+     {
+      "num": 6,
+      "id": "Ini, helm untuk kenang-kenangan.",
+      "ko": "자, 기념으로 헬멧."
+     },
+     {
+      "num": 7,
+      "id": "Pak, ini helm Bapak satu-satunya!",
+      "ko": "아저씨, 이거 하나뿐인 헬멧이잖아요!"
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_travel_a4_grok.md",
+    "kick": "하나뿐인 아끼는 헬멧을 건네는 감동과 “그럼 아저씨는 뭐 타요?” 하는 엉뚱한 받아치기.",
+    "final": "재작성 그대로 반영(검수 통과)"
+   },
+   "draft": true
+  }
+ ]
+}

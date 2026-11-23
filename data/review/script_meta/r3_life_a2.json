@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Selamat malam. Keluhannya apa, Kak?",
+      "ko": "안녕하세요. 어디가 불편하세요?"
+     },
+     {
+      "num": 2,
+      "id": "Perut saya sakit sekali dan agak demam.",
+      "ko": "배가 너무 아프고 열이 좀 있어요."
+     },
+     {
+      "num": 3,
+      "id": "Sejak kapan sakitnya terasa?",
+      "ko": "언제부터 아프셨어요?"
+     },
+     {
+      "num": 4,
+      "id": "Sejak tadi sore, setelah makan di pinggir jalan.",
+      "ko": "오늘 오후부터요, 길거리에서 먹고 나서."
+     },
+     {
+      "num": 5,
+      "id": "Makan apa saja? Tolong disebutkan semuanya.",
+      "ko": "뭐 드셨어요? 전부 말씀해 주세요."
+     },
+     {
+      "num": 6,
+      "id": "Sate, es kelapa, rujak, martabak, dan bakso.",
+      "ko": "사테, 코코넛 얼음, 루작, 마르타박, 박소요."
+     },
+     {
+      "num": 7,
+      "id": "Semua itu dalam satu sore?",
+      "ko": "그걸 오후 한나절에 다요?"
+     },
+     {
+      "num": 8,
+      "id": "Saya sedang wisata kuliner. Waktunya sempit.",
+      "ko": "먹방 여행 중이라서요. 시간이 없어서."
+     },
+     {
+      "num": 9,
+      "id": "Ada alergi obat atau makanan tertentu?",
+      "ko": "약이나 특정 음식 알레르기 있어요?"
+     },
+     {
+      "num": 10,
+      "id": "Tidak ada. Apakah saya harus dirawat inap?",
+      "ko": "없어요. 입원해야 하나요?"
+     },
+     {
+      "num": 11,
+      "id": "Kemungkinan tidak. Dokter akan memeriksa sebentar lagi.",
+      "ko": "아마 아닐 거예요. 곧 의사 선생님이 보실 거예요."
+     },
+     {
+      "num": 12,
+      "id": "Terima kasih. Boleh saya minta air putih?",
+      "ko": "고마워요. 물 좀 주실 수 있어요?"
+     },
+     {
+      "num": 13,
+      "id": "Boleh. Tapi jangan es kelapa lagi, ya.",
+      "ko": "네. 근데 코코넛 얼음은 이제 그만이에요."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_life_a2.md",
+    "grok_mode": "빠른",
+    "kick": "길거리 음식 다섯 가지를 반나절에 다 먹었다고 줄줄이 말하자 간호사가 놀라며, 물 달라니까 코코넛 아이스는 이제 그만이라고 못 박음."
+   },
+   "draft": true
+  }
+ ]
+}

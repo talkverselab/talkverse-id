@@ -1,0 +1,48 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Ayo foto! Senyum!",
+      "ko": "사진 찍자! 웃어!"
+     },
+     {
+      "num": 2,
+      "id": "Oke. Satu, dua…",
+      "ko": "오케이. 하나, 둘…"
+     },
+     {
+      "num": 3,
+      "id": "Eh, ada bapak ikut senyum.",
+      "ko": "어, 아저씨 한 분도 같이 웃는데."
+     },
+     {
+      "num": 4,
+      "id": "Siapa dia?",
+      "ko": "그분 누구야?"
+     },
+     {
+      "num": 5,
+      "id": "Nggak tahu! Sekarang ada anjing juga!",
+      "ko": "몰라! 이제 강아지도 있어!"
+     },
+     {
+      "num": 6,
+      "id": "Kenapa semua orang datang?",
+      "ko": "왜 다들 오는 거야?"
+     },
+     {
+      "num": 7,
+      "id": "Satu lagi, ya. Bapaknya minta.",
+      "ko": "한 장만 더. 아저씨가 원하셔."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_friends_a1_grok.md",
+    "kick": "모르는 아저씨에 강아지와 백 명 단체까지 끼어들어 둘 다 셀럽이 된 줄 아는 황당 상황."
+   },
+   "draft": true
+  }
+ ]
+}

@@ -25,44 +25,6 @@
   "Enak"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Aku lapar sekali.",
-    "ko": "나 엄청 배고파."
-   },
-   {
-    "num": 2,
-    "id": "Aku juga. Ada makanan?",
-    "ko": "나도. 먹을 거 있어?"
-   },
-   {
-    "num": 3,
-    "id": "Ada mi, tapi satu.",
-    "ko": "라면 있어, 근데 하나."
-   },
-   {
-    "num": 4,
-    "id": "Kita bagi dua.",
-    "ko": "반씩 나누자."
-   },
-   {
-    "num": 5,
-    "id": "Kamu baik sekali.",
-    "ko": "너 진짜 착하다."
-   },
-   {
-    "num": 6,
-    "id": "Tapi itu mi aku!",
-    "ko": "근데 그거 내 라면이잖아!"
-   }
-  ],
-  "grok": "data/review/grok/out/r0_friends_a2.md",
-  "grok_mode": "빠른",
-  "kick": "착하다고 감동한 순간 원래 내 라면이었다는 걸 알아챔"
- },
  "turns": [
   {
    "num": 1,

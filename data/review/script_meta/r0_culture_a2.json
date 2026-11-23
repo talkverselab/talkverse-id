@@ -1,0 +1,44 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Bajumu bagus sekali.",
+      "ko": "네 옷 정말 멋지다."
+     },
+     {
+      "num": 2,
+      "id": "Ini batik. Hari Jumat.",
+      "ko": "이거 바틱이야. 금요일이거든."
+     },
+     {
+      "num": 3,
+      "id": "Kenapa hari Jumat?",
+      "ko": "왜 금요일이야?"
+     },
+     {
+      "num": 4,
+      "id": "Kantor kami pakai batik.",
+      "ko": "우리 회사는 바틱 입어."
+     },
+     {
+      "num": 5,
+      "id": "Aku tidak punya batik.",
+      "ko": "나 바틱이 없는데."
+     },
+     {
+      "num": 6,
+      "id": "Ini, untukmu. Hadiah.",
+      "ko": "여기, 너 거야. 선물."
+     }
+    ],
+    "grok": "data/review/grok/out/r0_culture_a2.md",
+    "grok_mode": "빠른",
+    "kick": "바틱 없다고 걱정했는데 준비해 둔 걸 내미는 순간"
+   },
+   "draft": true
+  }
+ ]
+}

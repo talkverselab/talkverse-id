@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Kamu sudah lihat email dari klien pagi ini?",
+      "ko": "오늘 아침 고객사 메일 봤어요?"
+     },
+     {
+      "num": 2,
+      "id": "Belum, Pak. Ada masalah dengan penawarannya?",
+      "ko": "아직요. 견적에 문제 있어요?"
+     },
+     {
+      "num": 3,
+      "id": "Harganya tertulis sepuluh kali lipat dari seharusnya.",
+      "ko": "가격이 원래보다 열 배로 적혀 있어요."
+     },
+     {
+      "num": 4,
+      "id": "Astaga, itu salah ketik saya. Akan segera saya perbaiki.",
+      "ko": "세상에, 제 오타예요. 바로 고칠게요."
+     },
+     {
+      "num": 5,
+      "id": "Tunggu dulu. Baca balasan mereka sampai selesai.",
+      "ko": "잠깐만요. 답장 끝까지 읽어 봐요."
+     },
+     {
+      "num": 6,
+      "id": "\"Kami setuju dengan harga yang diajukan.\"",
+      "ko": "「제시하신 가격에 동의합니다.」"
+     },
+     {
+      "num": 7,
+      "id": "Mereka setuju harga sepuluh kali lipat.",
+      "ko": "열 배 가격에 동의했어요."
+     },
+     {
+      "num": 8,
+      "id": "Kita harus jujur dan memberi tahu mereka.",
+      "ko": "솔직하게 알려야 해요."
+     },
+     {
+      "num": 9,
+      "id": "Saya setuju. Kamu yang bertanggung jawab menelepon.",
+      "ko": "동의해요. 전화는 당신이 책임지고 해요."
+     },
+     {
+      "num": 10,
+      "id": "Baik, Pak. Saya telepon sekarang.",
+      "ko": "네. 지금 전화할게요."
+     },
+     {
+      "num": 11,
+      "id": "Bagaimana? Mereka marah?",
+      "ko": "어때요? 화났어요?"
+     },
+     {
+      "num": 12,
+      "id": "Tidak. Mereka malah memesan dua kali lebih banyak.",
+      "ko": "아니요. 오히려 두 배를 더 주문했어요."
+     },
+     {
+      "num": 13,
+      "id": "Karena kejujuranmu. Kopi hari ini saya yang traktir.",
+      "ko": "솔직해서 그런 거죠. 오늘 커피는 내가 살게요."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_work_a2.md",
+    "grok_mode": "빠른",
+    "kick": "견적서에 0 하나 더 붙여 열 배 가격을 보냈는데 고객사가 동의해 버렸고, 솔직히 말하자 오히려 주문을 두 배로 늘림."
+   },
+   "draft": true
+  }
+ ]
+}

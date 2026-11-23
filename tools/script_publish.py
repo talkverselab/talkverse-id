@@ -21,6 +21,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 DATA = ROOT / 'assets/data'
 BASE = DATA / 'script_rev.json'
 BUCKET = 'talkverse-art'
@@ -56,6 +57,8 @@ def write_base(rev, files):
 
 
 def main():
+    import strip_review  # 작업 기록 칸(review·draft)을 공개 원고에서 뺀다(출시 심사 점검 11-23)
+    strip_review.strip()
     now = current()
     if '--init' in sys.argv:
         if BASE.exists():

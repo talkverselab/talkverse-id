@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Saya sudah membaca draf skripsimu sampai halaman terakhir.",
+      "ko": "네 졸업 논문 초고 마지막 쪽까지 읽었어."
+     },
+     {
+      "num": 2,
+      "id": "Bagaimana menurut Ibu? Apakah perlu banyak diperbaiki?",
+      "ko": "어떻게 보셨어요? 많이 고쳐야 할까요?"
+     },
+     {
+      "num": 3,
+      "id": "Hampir setiap paragraf saya beri catatan merah.",
+      "ko": "거의 모든 문단에 빨간 메모를 달았어."
+     },
+     {
+      "num": 4,
+      "id": "Kalau boleh saya jelaskan, datanya memang belum lengkap.",
+      "ko": "설명드려도 된다면, 데이터가 아직 다 안 모였어요."
+     },
+     {
+      "num": 5,
+      "id": "Bukan datanya. Bahasamu terlalu indah untuk tulisan ilmiah.",
+      "ko": "데이터가 아니야. 학술 글치고 문장이 너무 아름다워."
+     },
+     {
+      "num": 6,
+      "id": "Terlalu indah? Itu masalah, Bu?",
+      "ko": "너무 아름답다고요? 그게 문제예요?"
+     },
+     {
+      "num": 7,
+      "id": "Pembaca jadi lupa sedang membaca laporan penelitian.",
+      "ko": "읽는 사람이 연구 보고서라는 걸 잊어버려."
+     },
+     {
+      "num": 8,
+      "id": "Sebenarnya saya dulu ingin jadi penulis novel.",
+      "ko": "사실 예전에 소설가가 되고 싶었어요."
+     },
+     {
+      "num": 9,
+      "id": "Kelihatan. Bab dua dibuka dengan hujan di jendela.",
+      "ko": "보여. 2장이 창가의 비로 시작하잖아."
+     },
+     {
+      "num": 10,
+      "id": "Akan saya ubah jadi kalimat yang lebih kering.",
+      "ko": "좀 더 건조한 문장으로 바꿀게요."
+     },
+     {
+      "num": 11,
+      "id": "Ubah skripsinya, tapi jangan buang draf ini.",
+      "ko": "논문은 바꾸되, 이 초고는 버리지 마."
+     },
+     {
+      "num": 12,
+      "id": "Kenapa, Bu?",
+      "ko": "왜요, 교수님?"
+     },
+     {
+      "num": 13,
+      "id": "Saya ingin tahu akhir ceritanya. Sungguh.",
+      "ko": "이야기 끝이 궁금하거든. 진심으로."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_study_a1.md",
+    "grok_mode": "빠른",
+    "kick": "빨간 펜으로 가득 채운 초고의 문제가 데이터가 아니라 문장이 너무 아름다워서 연구 보고서인 걸 잊게 만든다는 반전."
+   },
+   "draft": true
+  }
+ ]
+}

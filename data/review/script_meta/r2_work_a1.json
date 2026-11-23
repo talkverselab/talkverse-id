@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Selamat pagi. Perkenalkan, saya Dimas, tim pemasaran.",
+      "ko": "안녕하세요. 소개할게요, 마케팅팀 디마스예요."
+     },
+     {
+      "num": 2,
+      "id": "Senang bertemu, Mas. Saya {name}, karyawan baru.",
+      "ko": "반가워요. 신입 {name}이에요."
+     },
+     {
+      "num": 3,
+      "id": "Ini meja kamu. Komputernya sudah disiapkan.",
+      "ko": "여기가 자리예요. 컴퓨터는 준비해 뒀어요."
+     },
+     {
+      "num": 4,
+      "id": "Terima kasih. Bos kita yang mana, Mas?",
+      "ko": "감사해요. 우리 팀장님은 어느 분이세요?"
+     },
+     {
+      "num": 5,
+      "id": "Yang pakai kemeja kuning di sana.",
+      "ko": "저기 노란 셔츠 입은 분요."
+     },
+     {
+      "num": 6,
+      "id": "Oh, tadi saya kira beliau tukang parkir.",
+      "ko": "아, 아까 주차 요원인 줄 알았어요."
+     },
+     {
+      "num": 7,
+      "id": "Kamu bilang apa ke beliau?",
+      "ko": "그분한테 뭐라고 했어요?"
+     },
+     {
+      "num": 8,
+      "id": "Saya kasih dua ribu untuk parkir motor.",
+      "ko": "오토바이 주차비로 이천 드렸어요."
+     },
+     {
+      "num": 9,
+      "id": "Kalau ada apa-apa, jangan sungkan tanya saya dulu.",
+      "ko": "무슨 일 있으면 망설이지 말고 나한테 먼저 물어요."
+     }
+    ],
+    "grok": "data/review/grok/out/r2_work_a1.md",
+    "grok_mode": "빠른",
+    "kick": "노란 셔츠를 팀장이 아니라 주차 요원으로 착각하고 오토바이 주차비까지 건넨 첫 출근의 흑역사."
+   },
+   "draft": true
+  }
+ ]
+}

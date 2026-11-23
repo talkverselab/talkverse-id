@@ -1,0 +1,54 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Mau pesan apa, Kak?",
+      "ko": "뭐 주문할래요?"
+     },
+     {
+      "num": 2,
+      "id": "Nasi goreng satu, Bu.",
+      "ko": "나시고렝 하나요, 아주머니."
+     },
+     {
+      "num": 3,
+      "id": "Pedas atau nggak?",
+      "ko": "맵게? 아니면 안 맵게?"
+     },
+     {
+      "num": 4,
+      "id": "Pedas sedikit aja, ya.",
+      "ko": "조금만 맵게요."
+     },
+     {
+      "num": 5,
+      "id": "Siap! Sedikit… sedikit… sedikit…",
+      "ko": "네! 조금… 조금… 조금…"
+     },
+     {
+      "num": 6,
+      "id": "Bu! Itu bukan sedikit!",
+      "ko": "아주머니! 그건 조금이 아니에요!"
+     },
+     {
+      "num": 7,
+      "id": "Lho, ini sedikit buat orang sini.",
+      "ko": "어머, 여기 사람한텐 이게 조금인데."
+     },
+     {
+      "num": 8,
+      "id": "Minta es teh manis… tiga.",
+      "ko": "달달한 아이스티… 세 잔 주세요."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_survival_s1_grok.md",
+    "kick": "‘조금’이라고 웃으며 확 많이 넣는 반전과, 입이 불타서 아이스티 세 잔을 시키는 과장된 받아치기.",
+    "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+   },
+   "draft": true
+  }
+ ]
+}

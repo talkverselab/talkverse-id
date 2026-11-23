@@ -25,64 +25,6 @@
   "Tenang saja"
  ],
  "region": "R2",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Bagian kamu sudah dikerjakan?",
-    "ko": "네 부분 다 했어?"
-   },
-   {
-    "num": 2,
-    "id": "Hampir. Tinggal kesimpulannya saja.",
-    "ko": "거의. 결론만 남았어."
-   },
-   {
-    "num": 3,
-    "id": "Syukurlah. Yang lain belum mulai sama sekali.",
-    "ko": "다행이다. 다른 사람들은 아예 시작도 안 했어."
-   },
-   {
-    "num": 4,
-    "id": "Lho, besok pagi harus dikumpulkan, kan?",
-    "ko": "어, 내일 아침에 내야 하잖아?"
-   },
-   {
-    "num": 5,
-    "id": "Iya. Makanya aku telepon kamu.",
-    "ko": "응. 그래서 너한테 전화한 거야."
-   },
-   {
-    "num": 6,
-    "id": "Jangan bilang aku harus mengerjakan semuanya.",
-    "ko": "설마 나더러 다 하라는 거 아니지."
-   },
-   {
-    "num": 7,
-    "id": "Bukan. Aku sudah selesaikan bagian mereka.",
-    "ko": "아니. 그 사람들 부분은 내가 벌써 끝냈어."
-   },
-   {
-    "num": 8,
-    "id": "Hah? Kapan kamu sempat?",
-    "ko": "뭐? 언제 그럴 시간이 있었어?"
-   },
-   {
-    "num": 9,
-    "id": "Aku tidak tidur dua hari.",
-    "ko": "나 이틀 못 잤어."
-   },
-   {
-    "num": 10,
-    "id": "Dimas, tidur sekarang. Kesimpulannya biar aku.",
-    "ko": "디마스, 지금 자. 결론은 내가 할게."
-   }
-  ],
-  "grok": "data/review/grok/out/r2_study_a2.md",
-  "grok_mode": "빠른",
-  "kick": "다른 애 몫 다 했다더니 이틀 밤샘"
- },
  "turns": [
   {
    "num": 1,

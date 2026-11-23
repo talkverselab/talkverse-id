@@ -25,59 +25,6 @@
   "Ikut aku"
  ],
  "region": "R2",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Tiket mudik habis semua. Aku tidak bisa pulang.",
-    "ko": "귀성 표가 다 팔렸어. 나 집에 못 가."
-   },
-   {
-    "num": 2,
-    "id": "Kampungmu di mana?",
-    "ko": "고향이 어디야?"
-   },
-   {
-    "num": 3,
-    "id": "Di Solo. Ibu sudah masak opor.",
-    "ko": "솔로. 엄마가 벌써 오포르 만들어 놓으셨대."
-   },
-   {
-    "num": 4,
-    "id": "Aku juga ke arah Solo. Naik mobil sewaan.",
-    "ko": "나도 솔로 쪽으로 가. 빌린 차로."
-   },
-   {
-    "num": 5,
-    "id": "Serius? Boleh aku ikut?",
-    "ko": "진짜? 나 같이 가도 돼?"
-   },
-   {
-    "num": 6,
-    "id": "Boleh, tapi perjalanannya dua belas jam.",
-    "ko": "돼, 근데 열두 시간 걸려."
-   },
-   {
-    "num": 7,
-    "id": "Tidak apa-apa. Aku bawa camilan banyak.",
-    "ko": "괜찮아. 간식 많이 가져갈게."
-   },
-   {
-    "num": 8,
-    "id": "Sebenarnya aku tidak bisa menyetir.",
-    "ko": "사실 나 운전 못 해."
-   },
-   {
-    "num": 9,
-    "id": "Jadi kamu cari teman yang bisa menyetir?",
-    "ko": "그러니까 운전할 사람 찾고 있었던 거야?"
-   }
-  ],
-  "grok": "data/review/grok/out/r2_culture_a1.md",
-  "grok_mode": "빠른",
-  "kick": "같이 가자더니 사실 운전할 사람을 찾고 있었음"
- },
  "turns": [
   {
    "num": 1,

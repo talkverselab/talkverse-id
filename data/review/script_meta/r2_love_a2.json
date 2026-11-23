@@ -1,0 +1,64 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Ayu, pesanmu barusan untuk siapa?",
+      "ko": "아유, 방금 그 메시지 누구한테 보낸 거야?"
+     },
+     {
+      "num": 2,
+      "id": "Pesan apa? Aku tidak kirim apa-apa.",
+      "ko": "무슨 메시지? 나 아무것도 안 보냈는데."
+     },
+     {
+      "num": 3,
+      "id": "\"Aku kangen kamu\" dan tiga hati.",
+      "ko": "「보고 싶어」랑 하트 세 개."
+     },
+     {
+      "num": 4,
+      "id": "Aduh! Itu salah kirim! Hapus, ya!",
+      "ko": "아이고! 그거 잘못 보낸 거야! 지워 줘!"
+     },
+     {
+      "num": 5,
+      "id": "Sudah terlanjur dibaca. Untuk siapa?",
+      "ko": "이미 읽어 버렸어. 누구한테 보내려던 건데?"
+     },
+     {
+      "num": 6,
+      "id": "Untuk... kucingku. Dia di rumah nenek.",
+      "ko": "우리… 고양이한테. 할머니 댁에 있거든."
+     },
+     {
+      "num": 7,
+      "id": "Kucingmu punya HP sendiri?",
+      "ko": "네 고양이 휴대폰 있어?"
+     },
+     {
+      "num": 8,
+      "id": "Oke, oke. Bukan untuk kucing.",
+      "ko": "알았어, 알았어. 고양이한테 아니야."
+     },
+     {
+      "num": 9,
+      "id": "Jadi untuk siapa?",
+      "ko": "그럼 누구?"
+     },
+     {
+      "num": 10,
+      "id": "Baca lagi nama penerimanya, deh.",
+      "ko": "받는 사람 이름 다시 읽어 봐."
+     }
+    ],
+    "grok": "data/review/grok/out/r2_love_a2.md",
+    "grok_mode": "빠른",
+    "kick": "고양이한테라더니 받는 사람 이름이 바로 나"
+   },
+   "draft": true
+  }
+ ]
+}

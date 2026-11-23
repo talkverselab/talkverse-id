@@ -1,0 +1,49 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Kamu dari {country}? Bahasa Indonesia kamu bagus!",
+      "ko": "{country}에서 왔어? 인도네시아어 잘한다!"
+     },
+     {
+      "num": 2,
+      "id": "Makasih! Aku belajar tiap hari.",
+      "ko": "고마워! 매일 공부해."
+     },
+     {
+      "num": 3,
+      "id": "Mau minum apa? Aku traktir.",
+      "ko": "뭐 마실래? 내가 살게."
+     },
+     {
+      "num": 4,
+      "id": "Aku mau es kepala muda!",
+      "ko": "나 어린 머리 아이스!"
+     },
+     {
+      "num": 5,
+      "id": "Kepala?! Maksudnya kelapa, ya?",
+      "ko": "머리?! 코코넛 말하는 거지?"
+     },
+     {
+      "num": 6,
+      "id": "Iya, kelapa! Bukan kepala!",
+      "ko": "응, 코코넛! 머리 말고!"
+     },
+     {
+      "num": 7,
+      "id": "Oke. Satu es kelapa muda… tanpa kepala.",
+      "ko": "오케이. 어린 코코넛 아이스 하나… 머리는 빼고."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_study_a1_grok.md",
+    "kick": "머리-코코넛 말실수와 ㅋㅋ 받아치기, ‘머리는 빼고’ 펀치로 웃음 터지고 대접이 살짝 설렘.",
+    "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
+   },
+   "draft": true
+  }
+ ]
+}

@@ -34,7 +34,6 @@
   "meN-"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -237,47 +236,5 @@
    ],
    "emotion": "teasing"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Ayo, bantu Ibu masak!",
-    "ko": "자, 아줌마 요리 좀 도와줘요!"
-   },
-   {
-    "num": 2,
-    "id": "Saya tak bisa masak, Bu.",
-    "ko": "저 요리 못 해요, 아주머니."
-   },
-   {
-    "num": 3,
-    "id": "Gampang, kan? Potong bawang saja.",
-    "ko": "쉽잖아요? 양파만 썰어요."
-   },
-   {
-    "num": 4,
-    "id": "Bu... mata saya menangis!",
-    "ko": "아주머니… 눈이 울어요!"
-   },
-   {
-    "num": 5,
-    "id": "Itu bukan menangis. Itu bawang!",
-    "ko": "우는 거 아니에요. 양파 때문이지!"
-   },
-   {
-    "num": 6,
-    "id": "Bu, bawangnya sudah habis.",
-    "ko": "아주머니, 양파 다 썰었어요."
-   },
-   {
-    "num": 7,
-    "id": "Bagus! Sekarang potong sepuluh lagi!",
-    "ko": "좋아요! 이제 열 개 더!"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_life_a4_grok.md",
-  "kick": "눈 울고 있는데 양파 스무 개 더 썰라는 아주머니의 무심폭주",
-  "final": "재작성 반영 + 7번 명령형 자연스럽게"
- }
+ ]
 }

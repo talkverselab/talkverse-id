@@ -1,0 +1,44 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Kamu suka kopi?",
+      "ko": "너 커피 좋아해?"
+     },
+     {
+      "num": 2,
+      "id": "Suka sekali. Kamu?",
+      "ko": "엄청 좋아해. 너는?"
+     },
+     {
+      "num": 3,
+      "id": "Aku suka teh manis.",
+      "ko": "난 단 차가 좋아."
+     },
+     {
+      "num": 4,
+      "id": "Aku juga suka kamu.",
+      "ko": "나도 너 좋아해."
+     },
+     {
+      "num": 5,
+      "id": "Apa? Suka aku?",
+      "ko": "뭐? 나를 좋아한다고?"
+     },
+     {
+      "num": 6,
+      "id": "Maksudku... teh! Teh manis!",
+      "ko": "내 말은… 차! 단 차!"
+     }
+    ],
+    "grok": "data/review/grok/out/r0_love_a2.md",
+    "grok_mode": "빠른",
+    "kick": "맞장구치려다 ‘너 좋아해’로 미끄러지고 당황 수습"
+   },
+   "draft": true
+  }
+ ]
+}

@@ -25,64 +25,6 @@
   "Kalau begitu"
  ],
  "region": "R2",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Maaf, ini tempat saya. Tasku ada di situ.",
-    "ko": "미안한데, 여기 내 자리야. 내 가방 거기 있잖아."
-   },
-   {
-    "num": 2,
-    "id": "Tas itu? Kukira tas yang ditinggal orang.",
-    "ko": "그 가방? 누가 두고 간 줄 알았어."
-   },
-   {
-    "num": 3,
-    "id": "Aku cuma ke toilet lima menit.",
-    "ko": "나 화장실 5분 다녀왔을 뿐이야."
-   },
-   {
-    "num": 4,
-    "id": "Lima menit? Aku sudah di sini dari tadi.",
-    "ko": "5분? 나 아까부터 여기 있었는데."
-   },
-   {
-    "num": 5,
-    "id": "Berarti kamu duduk di samping tasku sejam?",
-    "ko": "그럼 너 내 가방 옆에 한 시간 앉아 있었던 거야?"
-   },
-   {
-    "num": 6,
-    "id": "Iya, dan tasmu terus bergetar.",
-    "ko": "응, 그리고 네 가방 계속 진동하던데."
-   },
-   {
-    "num": 7,
-    "id": "Astaga, itu alarm ujianku!",
-    "ko": "세상에, 그거 내 시험 알람이야!"
-   },
-   {
-    "num": 8,
-    "id": "Ujian jam berapa?",
-    "ko": "시험 몇 시인데?"
-   },
-   {
-    "num": 9,
-    "id": "Jam sepuluh. Sekarang jam berapa?",
-    "ko": "열 시. 지금 몇 시야?"
-   },
-   {
-    "num": 10,
-    "id": "Sepuluh lewat lima. Lari!",
-    "ko": "열 시 5분. 뛰어!"
-   }
-  ],
-  "grok": "data/review/grok/out/r2_study_a1.md",
-  "grok_mode": "빠른",
-  "kick": "화장실 5분이 한 시간이 되고, 가방 진동이 시험 알람이었다는 반전에 이미 늦어서 패닉"
- },
  "turns": [
   {
    "num": 1,

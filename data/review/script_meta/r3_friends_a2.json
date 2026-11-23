@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Aku serius kali ini. Ayo kita buka kafe berdua.",
+      "ko": "이번엔 진심이야. 우리 둘이 카페 열자."
+     },
+     {
+      "num": 2,
+      "id": "Kamu bilang begitu tiap tahun, Raka.",
+      "ko": "라카, 너 그 말 해마다 해."
+     },
+     {
+      "num": 3,
+      "id": "Kali ini ada rencana bisnis lengkap. Baca dulu.",
+      "ko": "이번엔 사업계획서도 있어. 일단 읽어 봐."
+     },
+     {
+      "num": 4,
+      "id": "Modal awalnya dari mana?",
+      "ko": "초기 자금은 어디서 나는데?"
+     },
+     {
+      "num": 5,
+      "id": "Setengah dari tabunganku, setengah dari kamu.",
+      "ko": "반은 내 저금, 반은 너."
+     },
+     {
+      "num": 6,
+      "id": "Kapan kira-kira mulai untung?",
+      "ko": "대략 언제부터 이익이 나?"
+     },
+     {
+      "num": 7,
+      "id": "Menurut hitunganku, bulan ketiga sudah balik modal.",
+      "ko": "내 계산으로는 석 달째면 본전 찾아."
+     },
+     {
+      "num": 8,
+      "id": "Bulan ketiga? Hitungannya terlalu optimis.",
+      "ko": "석 달? 계산이 너무 낙관적이야."
+     },
+     {
+      "num": 9,
+      "id": "Karena kita tidak perlu bayar sewa tempat.",
+      "ko": "가게 월세를 안 내도 되거든."
+     },
+     {
+      "num": 10,
+      "id": "Kok bisa? Tempatnya di mana?",
+      "ko": "어떻게? 장소가 어딘데?"
+     },
+     {
+      "num": 11,
+      "id": "Di garasi rumahmu. Ibumu sudah setuju.",
+      "ko": "너희 집 차고. 너희 어머니가 벌써 허락하셨어."
+     },
+     {
+      "num": 12,
+      "id": "Kamu tanya ibuku sebelum tanya aku?",
+      "ko": "나보다 우리 엄마한테 먼저 물어봤어?"
+     },
+     {
+      "num": 13,
+      "id": "Ibumu juga mau jadi barista. Kita pikir-pikir dulu, ya.",
+      "ko": "너희 엄마도 바리스타 하고 싶으시대. 일단 생각해 봐."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_friends_a2.md",
+    "grok_mode": "빠른",
+    "kick": "매년 하는 카페 창업 말에 계획서까지 내밀더니, 장소가 내 집 차고고 엄마가 이미 바리스타 하겠다고 동의한 상황."
+   },
+   "draft": true
+  }
+ ]
+}

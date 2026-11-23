@@ -26,7 +26,6 @@
   "baik sekali"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -244,47 +243,5 @@
    ],
    "emotion": "teasing"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Mau makan apa, Nak?",
-    "ko": "뭐 먹을래요?"
-   },
-   {
-    "num": 2,
-    "id": "Nasi goreng satu, Bu. Yang pedas.",
-    "ko": "나시고렝 하나요, 아주머니. 매운 걸로요."
-   },
-   {
-    "num": 3,
-    "id": "Ini dia. Makan yang banyak.",
-    "ko": "자 여기요. 많이 먹어요."
-   },
-   {
-    "num": 4,
-    "id": "Terima kasih, Bu. Berapa?",
-    "ko": "고맙습니다, 아주머니. 얼마예요?"
-   },
-   {
-    "num": 5,
-    "id": "Tidak usah bayar. Kamu seperti anak saya.",
-    "ko": "돈 안 내도 돼요. 내 자식 같아서."
-   },
-   {
-    "num": 6,
-    "id": "Wah, Ibu baik sekali!",
-    "ko": "와, 아주머니 정말 좋으세요!"
-   },
-   {
-    "num": 7,
-    "id": "Tapi yang kemarin belum dibayar, ya.",
-    "ko": "근데 어제 거는 아직 안 냈죠?"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_life_a3_grok.md",
-  "kick": "너무 친절해서 감동했는데 갑자기 어제 거 안 냈다고 터지는 반전.",
-  "final": "재작성 그대로 반영(검수 통과)"
- }
+ ]
 }

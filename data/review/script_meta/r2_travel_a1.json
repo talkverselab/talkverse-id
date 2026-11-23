@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Pak, mobil yang saya pesan di mana?",
+      "ko": "기사님, 제가 예약한 차 어디 있어요?"
+     },
+     {
+      "num": 2,
+      "id": "Maaf, Mbak, mobilnya dipakai orang lain.",
+      "ko": "죄송해요, 차를 다른 사람이 쓰고 있어요."
+     },
+     {
+      "num": 3,
+      "id": "Lho, saya sudah bayar seminggu lalu!",
+      "ko": "어, 저 일주일 전에 돈 냈어요!"
+     },
+     {
+      "num": 4,
+      "id": "Bisa diganti motor. Lebih murah dan cepat.",
+      "ko": "오토바이로 바꿔 드릴 수 있어요. 더 싸고 빨라요."
+     },
+     {
+      "num": 5,
+      "id": "Koper saya dua dan besar sekali.",
+      "ko": "제 캐리어 두 개고 엄청 커요."
+     },
+     {
+      "num": 6,
+      "id": "Tenang. Saya sudah biasa bawa kulkas.",
+      "ko": "걱정 마요. 냉장고도 실어 봤어요."
+     },
+     {
+      "num": 7,
+      "id": "Di atas motor? Bagaimana caranya?",
+      "ko": "오토바이 위에요? 어떻게요?"
+     },
+     {
+      "num": 8,
+      "id": "Satu di depan, satu di belakang, Mbak di tengah.",
+      "ko": "하나는 앞에, 하나는 뒤에, 손님은 가운데."
+     },
+     {
+      "num": 9,
+      "id": "Kalau begitu, pelan-pelan, ya, Pak!",
+      "ko": "그럼 천천히 가 주세요!"
+     }
+    ],
+    "grok": "data/review/grok/out/r2_travel_a1.md",
+    "grok_mode": "빠른",
+    "kick": "캐리어 두 개 어떻게 실리냐니 앞뒤 가운데"
+   },
+   "draft": true
+  }
+ ]
+}

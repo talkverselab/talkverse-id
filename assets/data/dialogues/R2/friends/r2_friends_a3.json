@@ -25,59 +25,6 @@
   "Habis ini"
  ],
  "region": "R2",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Mulai hari ini aku diet. Ayo lari bareng!",
-    "ko": "오늘부터 나 다이어트야. 같이 뛰자!"
-   },
-   {
-    "num": 2,
-    "id": "Jam enam pagi? Kamu serius?",
-    "ko": "아침 여섯 시에? 진심이야?"
-   },
-   {
-    "num": 3,
-    "id": "Serius. Tiga putaran saja.",
-    "ko": "진심. 세 바퀴만."
-   },
-   {
-    "num": 4,
-    "id": "Baru satu putaran, kamu sudah duduk.",
-    "ko": "한 바퀴 돌았는데 벌써 앉았네."
-   },
-   {
-    "num": 5,
-    "id": "Aku capek. Kakiku tidak kuat lagi.",
-    "ko": "힘들어. 다리가 더는 못 버텨."
-   },
-   {
-    "num": 6,
-    "id": "Ya sudah, kita pulang?",
-    "ko": "그럼 집에 갈까?"
-   },
-   {
-    "num": 7,
-    "id": "Tunggu, habis ini ada bubur ayam di depan.",
-    "ko": "잠깐, 이따 앞에 닭죽 있어."
-   },
-   {
-    "num": 8,
-    "id": "Katanya diet?",
-    "ko": "다이어트 한다며?"
-   },
-   {
-    "num": 9,
-    "id": "Lari sudah. Sekarang hadiahnya.",
-    "ko": "뛰기는 했잖아. 이제 상 받아야지."
-   }
-  ],
-  "grok": "data/review/grok/out/r2_friends_a3.md",
-  "grok_mode": "빠른",
-  "kick": "한 바퀴 만에 포기하고 닭죽 먹으러 감"
- },
  "turns": [
   {
    "num": 1,

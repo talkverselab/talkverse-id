@@ -1,0 +1,54 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Besok rapat jam sembilan, ya.",
+      "ko": "내일 아홉 시에 회의예요."
+     },
+     {
+      "num": 2,
+      "id": "Siap, Mas Dimas.",
+      "ko": "알겠어요, 디마스 씨."
+     },
+     {
+      "num": 3,
+      "id": "Selamat malam! Saya sudah siap.",
+      "ko": "안녕하세요(저녁)! 준비됐어요."
+     },
+     {
+      "num": 4,
+      "id": "Lho? Kamu di kantor jam sembilan malam?",
+      "ko": "어? 밤 아홉 시에 회사에 있어요?"
+     },
+     {
+      "num": 5,
+      "id": "Rapatnya bukan sekarang?",
+      "ko": "회의 지금 아니에요?"
+     },
+     {
+      "num": 6,
+      "id": "Jam sembilan pagi! Pulang, tidur!",
+      "ko": "아침 아홉 시요! 집에 가서 자요!"
+     },
+     {
+      "num": 7,
+      "id": "Oke… tapi saya bawa kopi dua.",
+      "ko": "네… 근데 커피 두 잔 사 왔는데요."
+     },
+     {
+      "num": 8,
+      "id": "Nggak apa-apa. Saya temani lima menit.",
+      "ko": "괜찮아요. 오 분만 같이 있어 줄게요."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_work_a1_grok.md",
+    "kick": "밤 아홉 시에 완전 준비해서 나타난 학습자와 커피 두 잔 들고 온 반전, 디마스가 오 분 더 남으라고 붙잡는 설렘.",
+    "final": "최소 수정: 마지막 심쿵 줄(같이 있어 줄게) 되살림"
+   },
+   "draft": true
+  }
+ ]
+}

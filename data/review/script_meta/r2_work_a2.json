@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Maaf, mikrofon kamu masih menyala.",
+      "ko": "저기, 마이크 아직 켜져 있어요."
+     },
+     {
+      "num": 2,
+      "id": "Hah? Dari kapan, Mas?",
+      "ko": "네? 언제부터요?"
+     },
+     {
+      "num": 3,
+      "id": "Dari waktu kamu bilang rapatnya membosankan.",
+      "ko": "회의 지루하다고 한 때부터요."
+     },
+     {
+      "num": 4,
+      "id": "Semua orang bisa dengar?",
+      "ko": "다들 들렸어요?"
+     },
+     {
+      "num": 5,
+      "id": "Termasuk Pak Direktur. Dia tertawa.",
+      "ko": "사장님까지요. 웃으시던데요."
+     },
+     {
+      "num": 6,
+      "id": "Aduh. Saya harus minta maaf sekarang.",
+      "ko": "아이고. 지금 사과해야겠어요."
+     },
+     {
+      "num": 7,
+      "id": "Tunggu. Dia barusan bilang setuju denganmu.",
+      "ko": "잠깐만요. 사장님이 방금 당신 말에 동의한대요."
+     },
+     {
+      "num": 8,
+      "id": "Setuju rapatnya membosankan?",
+      "ko": "회의가 지루하다는 데 동의하신다고요?"
+     },
+     {
+      "num": 9,
+      "id": "Iya. Mulai minggu depan rapatnya cuma lima belas menit.",
+      "ko": "네. 다음 주부터 회의 15분만 한대요."
+     }
+    ],
+    "grok": "data/review/grok/out/r2_work_a2.md",
+    "grok_mode": "빠른",
+    "kick": "마이크 켜진 줄 모르고 “회의 지루해” 혼잣말 했는데, 사장님이 동의하고 회의를 15분으로 줄여버림."
+   },
+   "draft": true
+  }
+ ]
+}

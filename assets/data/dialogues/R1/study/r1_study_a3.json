@@ -30,7 +30,6 @@
   "Benar?"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -258,47 +257,5 @@
    ],
    "emotion": "teasing"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Bagaimana ujianmu tadi?",
-    "ko": "아까 시험 어땠어?"
-   },
-   {
-    "num": 2,
-    "id": "Jelek. Aku tidak belajar.",
-    "ko": "망했어. 공부 안 했어."
-   },
-   {
-    "num": 3,
-    "id": "Kenapa tidak bilang aku?",
-    "ko": "왜 나한테 말 안 했어?"
-   },
-   {
-    "num": 4,
-    "id": "Aku malu. Kamu selalu pintar.",
-    "ko": "창피해서. 넌 늘 똑똑하잖아."
-   },
-   {
-    "num": 5,
-    "id": "Mulai besok aku akan mengajarimu.",
-    "ko": "내일부터 내가 가르쳐 줄게."
-   },
-   {
-    "num": 6,
-    "id": "Benar? Setiap hari?",
-    "ko": "진짜? 매일?"
-   },
-   {
-    "num": 7,
-    "id": "Setiap hari. Tapi kamu traktir kopi.",
-    "ko": "매일. 대신 커피는 네가 사."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_study_a3_grok.md",
-  "kick": "갑자기 개인 과외 선생님이 되겠다는 큰 제안이 터지고, 매일 커피 사는 조건으로 받아치는 펀치.",
-  "final": "재작성 그대로 반영(검수 통과)"
- }
+ ]
 }

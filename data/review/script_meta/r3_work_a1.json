@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Hasil penilaian kinerjamu tahun ini sangat baik.",
+      "ko": "올해 성과 평가 결과가 아주 좋아요."
+     },
+     {
+      "num": 2,
+      "id": "Terima kasih, Pak. Saya banyak belajar dari tim.",
+      "ko": "감사합니다. 팀에서 많이 배웠어요."
+     },
+     {
+      "num": 3,
+      "id": "Sekarang kita bicara soal gaji tahun depan.",
+      "ko": "이제 내년 연봉 얘기를 하죠."
+     },
+     {
+      "num": 4,
+      "id": "Kalau boleh, saya berharap ada kenaikan sepuluh persen.",
+      "ko": "가능하다면 10% 인상을 바라요."
+     },
+     {
+      "num": 5,
+      "id": "Sepuluh? Apa alasan utamanya?",
+      "ko": "10%요? 주된 이유가 뭐예요?"
+     },
+     {
+      "num": 6,
+      "id": "Proyek ekspor yang saya pegang naik dua kali lipat.",
+      "ko": "제가 맡은 수출 프로젝트가 두 배로 늘었어요."
+     },
+     {
+      "num": 7,
+      "id": "Itu benar. Ada pertimbangan lain?",
+      "ko": "맞아요. 다른 고려 사항은요?"
+     },
+     {
+      "num": 8,
+      "id": "Saya juga sering lembur sampai malam.",
+      "ko": "저녁 늦게까지 야근도 자주 해요."
+     },
+     {
+      "num": 9,
+      "id": "Justru itu masalahnya. Lembur itu tanda beban terlalu berat.",
+      "ko": "바로 그게 문제예요. 야근은 일이 너무 많다는 뜻이에요."
+     },
+     {
+      "num": 10,
+      "id": "Jadi permintaan saya ditolak?",
+      "ko": "그럼 제 요청은 거절인가요?"
+     },
+     {
+      "num": 11,
+      "id": "Tidak. Gajimu naik lima belas persen, dan kita tambah satu orang.",
+      "ko": "아니요. 15% 올리고, 사람도 한 명 더 뽑아요."
+     },
+     {
+      "num": 12,
+      "id": "Lima belas? Saya tidak salah dengar?",
+      "ko": "15%요? 제가 잘못 들은 거 아니죠?"
+     },
+     {
+      "num": 13,
+      "id": "Tidak. Tapi mulai besok, pulang jam enam.",
+      "ko": "아니요. 대신 내일부터 여섯 시에 퇴근해요."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_work_a1.md",
+    "grok_mode": "빠른",
+    "kick": "10% 인상 요청했는데 야근이 문제라는 말에 거절인 줄 알았더니, 15%에 사람 한 명 더 뽑고 대신 6시 퇴근하라는 조건."
+   },
+   "draft": true
+  }
+ ]
+}

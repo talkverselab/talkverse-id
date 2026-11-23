@@ -1,0 +1,49 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Ayo nyanyi! Kamu dan aku, duet!",
+      "ko": "자 노래하자! 너랑 나랑 듀엣!"
+     },
+     {
+      "num": 2,
+      "id": "Oke. Suaramu bagus?",
+      "ko": "오케이. 너 목소리 좋아?"
+     },
+     {
+      "num": 3,
+      "id": "Lebih bagus dari penyanyi!",
+      "ko": "가수보다 낫지!"
+     },
+     {
+      "num": 4,
+      "id": "Aduh, telingaku! Berhenti dulu!",
+      "ko": "아이고 내 귀! 일단 멈춰!"
+     },
+     {
+      "num": 5,
+      "id": "Kenapa tetangga ketuk pintu?",
+      "ko": "왜 이웃이 문을 두드려?"
+     },
+     {
+      "num": 6,
+      "id": "Mereka bilang kami harus diam.",
+      "ko": "우리 조용히 하래."
+     },
+     {
+      "num": 7,
+      "id": "Tidak bisa! Satu lagi untuk mereka!",
+      "ko": "안 돼! 저 사람들 위해 한 곡 더!"
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_friends_a2_grok.md",
+    "kick": "목소리에 설레다 귀 아프다고 멈췄는데 이웃 컴플레인에도 더 크게 부르겠다는 엉뚱한 고집",
+    "final": "재작성 반영 + 2번 논리(설렘↔귀 아픔) 되돌림, 채팅체 wkwk→웃음, R1 kami·harus 되살림"
+   },
+   "draft": true
+  }
+ ]
+}

@@ -29,7 +29,6 @@
   "kok"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -197,47 +196,5 @@
    ],
    "emotion": "amused"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Kursi ini kosong?",
-    "ko": "이 자리 비었어요?"
-   },
-   {
-    "num": 2,
-    "id": "Iya, kosong. Silakan.",
-    "ko": "네, 비었어요. 앉으세요."
-   },
-   {
-    "num": 3,
-    "id": "Makasih. Kamu sering ke sini?",
-    "ko": "고마워요. 여기 자주 와요?"
-   },
-   {
-    "num": 4,
-    "id": "Lumayan. Kopinya enak.",
-    "ko": "꽤요. 커피가 맛있어서."
-   },
-   {
-    "num": 5,
-    "id": "Aku datang tiap Sabtu… bukan karena kopi.",
-    "ko": "나 토요일마다 왔어요… 커피 때문은 아니고."
-   },
-   {
-    "num": 6,
-    "id": "Terus… karena apa?",
-    "ko": "그럼… 뭐 때문에요?"
-   },
-   {
-    "num": 7,
-    "id": "Hehe. Kopinya juga enak kok.",
-    "ko": "헤헤. 커피도 맛있긴 해요."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_love_a1_grok.md",
-  "kick": "토요일마다 오는 이유가 커피가 아니라고 했다가 커피 맛있다고 살짝 빠지는 설렘 장난.",
-  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
- }
+ ]
 }

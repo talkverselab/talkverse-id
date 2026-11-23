@@ -103,7 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Center(
                     child: TextButton(
                       onPressed: () => setState(() => emailOpen = !emailOpen),
-                      child: Text('이메일로 로그인 (심사·테스트용)', style: const TextStyle(fontSize: 12.5, color: AppColors.kayuLight)),
+                      child: Text('이메일로 로그인', style: const TextStyle(fontSize: 12.5, color: AppColors.kayuLight)),
                     ),
                   ),
                   if (emailOpen) ...[

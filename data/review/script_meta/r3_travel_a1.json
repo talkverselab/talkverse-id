@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Permisi, saya kehilangan paspor. Pesawat saya dua jam lagi.",
+      "ko": "실례합니다, 여권을 잃어버렸어요. 비행기가 두 시간 뒤예요."
+     },
+     {
+      "num": 2,
+      "id": "Tenang dulu. Di mana terakhir kali Anda melihatnya?",
+      "ko": "먼저 진정하세요. 마지막으로 어디서 보셨어요?"
+     },
+     {
+      "num": 3,
+      "id": "Di konter check-in. Saya taruh di atas koper.",
+      "ko": "체크인 카운터에서요. 캐리어 위에 올려 뒀어요."
+     },
+     {
+      "num": 4,
+      "id": "Kopernya sudah masuk bagasi?",
+      "ko": "캐리어는 벌써 부쳤어요?"
+     },
+     {
+      "num": 5,
+      "id": "Sudah. Jangan-jangan paspornya ikut masuk.",
+      "ko": "네. 설마 여권도 같이 들어간 거 아니겠죠."
+     },
+     {
+      "num": 6,
+      "id": "Kemungkinan itu ada. Saya hubungi bagian bagasi.",
+      "ko": "그럴 수도 있어요. 수하물 담당에 연락해 볼게요."
+     },
+     {
+      "num": 7,
+      "id": "Kalau tidak ketemu, apa yang harus saya lakukan?",
+      "ko": "못 찾으면 어떻게 해야 해요?"
+     },
+     {
+      "num": 8,
+      "id": "Buat laporan polisi, lalu ke kedutaan untuk dokumen darurat.",
+      "ko": "경찰 신고하고 대사관에서 긴급 서류를 받아야 해요."
+     },
+     {
+      "num": 9,
+      "id": "Itu pasti makan waktu berhari-hari.",
+      "ko": "그럼 며칠은 걸리겠네요."
+     },
+     {
+      "num": 10,
+      "id": "Tunggu, bagian bagasi menelepon balik.",
+      "ko": "잠깐만요, 수하물 쪽에서 다시 전화 왔어요."
+     },
+     {
+      "num": 11,
+      "id": "Bagaimana? Ketemu?",
+      "ko": "어때요? 찾았대요?"
+     },
+     {
+      "num": 12,
+      "id": "Ketemu, tapi koper Anda sudah dimuat ke pesawat Bali.",
+      "ko": "찾았는데, 캐리어가 발리행 비행기에 실렸대요."
+     },
+     {
+      "num": 13,
+      "id": "Saya mau ke Seoul, bukan Bali!",
+      "ko": "저 서울 가요, 발리가 아니라!"
+     }
+    ],
+    "grok": "data/review/grok/out/r3_travel_a1.md",
+    "grok_mode": "빠른",
+    "kick": "여권이 캐리어에 들어간 줄 알고 안심했는데, 그 캐리어가 다른 섬으로 가는 비행기에 실려 버렸음."
+   },
+   "draft": true
+  }
+ ]
+}

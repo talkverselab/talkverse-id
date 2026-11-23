@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Nanti sore ikut buka puasa bareng kami, ya.",
+      "ko": "이따 저녁에 우리랑 같이 부카 푸아사 해."
+     },
+     {
+      "num": 2,
+      "id": "Boleh? Aku kan tidak puasa.",
+      "ko": "그래도 돼? 나는 금식 안 하잖아."
+     },
+     {
+      "num": 3,
+      "id": "Justru itu. Buka puasa itu untuk berbagi.",
+      "ko": "그러니까 더. 부카 푸아사는 나누는 거야."
+     },
+     {
+      "num": 4,
+      "id": "Kamu tidak makan dan minum dari subuh?",
+      "ko": "너 새벽부터 아무것도 안 먹고 안 마셨어?"
+     },
+     {
+      "num": 5,
+      "id": "Iya. Yang paling berat bukan lapar, tapi haus.",
+      "ko": "응. 제일 힘든 건 배고픔이 아니라 목마름이야."
+     },
+     {
+      "num": 6,
+      "id": "Maaf, tadi siang aku minum kopi di depanmu.",
+      "ko": "미안, 아까 낮에 네 앞에서 커피 마셨어."
+     },
+     {
+      "num": 7,
+      "id": "Tidak apa-apa. Menahan godaan juga bagian dari puasa.",
+      "ko": "괜찮아. 유혹 참는 것도 금식의 일부야."
+     },
+     {
+      "num": 8,
+      "id": "Aku harus bawa apa nanti?",
+      "ko": "이따 뭐 가져가야 해?"
+     },
+     {
+      "num": 9,
+      "id": "Bawa kolak kalau mau. Yang manis-manis.",
+      "ko": "원하면 콜락 가져와. 단 거."
+     },
+     {
+      "num": 10,
+      "id": "Kenapa harus yang manis?",
+      "ko": "왜 단 거여야 해?"
+     },
+     {
+      "num": 11,
+      "id": "Kata orang tua, berbuka dengan yang manis.",
+      "ko": "어른들이 단 걸로 금식을 깨라고 하셔."
+     },
+     {
+      "num": 12,
+      "id": "Oke. Aku buat kolak sendiri.",
+      "ko": "알았어. 콜락 내가 직접 만들게."
+     },
+     {
+      "num": 13,
+      "id": "Kamu bisa? Itu resep nenekku, nanti kuajari.",
+      "ko": "할 수 있어? 우리 할머니 레시피야, 내가 알려 줄게."
+     }
+    ],
+    "grok": "data/review/grok/out/r3_culture_a1.md",
+    "grok_mode": "빠른",
+    "kick": "금식 안 하는 사람도 환영한다는 말과, 제일 힘든 건 배고픔이 아니라 목마름이라는 말에 마음이 따뜻해짐."
+   },
+   "draft": true
+  }
+ ]
+}

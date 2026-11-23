@@ -25,44 +25,6 @@
   "Ayo"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Hai! Mau ke mana?",
-    "ko": "안녕! 어디 가?"
-   },
-   {
-    "num": 2,
-    "id": "Ke pasar. Kamu?",
-    "ko": "시장. 너는?"
-   },
-   {
-    "num": 3,
-    "id": "Aku juga! Ikut, yuk.",
-    "ko": "나도! 같이 가자."
-   },
-   {
-    "num": 4,
-    "id": "Oke. Helmnya mana?",
-    "ko": "좋아. 헬멧은?"
-   },
-   {
-    "num": 5,
-    "id": "Helm? Aku lupa.",
-    "ko": "헬멧? 깜빡했다."
-   },
-   {
-    "num": 6,
-    "id": "Kita jalan kaki saja.",
-    "ko": "그냥 걸어가자."
-   }
-  ],
-  "grok": "data/review/grok/out/r0_friends_a1.md",
-  "grok_mode": "빠른",
-  "kick": "태워 준다더니 헬멧을 깜빡한 친구, 결국 걸어가자는 학습자."
- },
  "turns": [
   {
    "num": 1,

@@ -1,0 +1,44 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Silakan minum tehnya.",
+      "ko": "차 드세요."
+     },
+     {
+      "num": 2,
+      "id": "Terima kasih, Pak.",
+      "ko": "감사합니다."
+     },
+     {
+      "num": 3,
+      "id": "Pakai tangan kanan, ya.",
+      "ko": "오른손으로 받아요."
+     },
+     {
+      "num": 4,
+      "id": "Oh, maaf! Begini?",
+      "ko": "아, 죄송해요! 이렇게요?"
+     },
+     {
+      "num": 5,
+      "id": "Itu tangan kiri lagi.",
+      "ko": "그것도 또 왼손이에요."
+     },
+     {
+      "num": 6,
+      "id": "Aku kidal, Pak!",
+      "ko": "저 왼손잡이예요!"
+     }
+    ],
+    "grok": "data/review/grok/out/r0_culture_a3.md",
+    "grok_mode": "빠른",
+    "kick": "사과하며 고치려다 또 왼손으로 잡히고 왼손잡이 고백"
+   },
+   "draft": true
+  }
+ ]
+}

@@ -25,44 +25,6 @@
   "Terima kasih"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Permisi, toilet di mana?",
-    "ko": "실례합니다, 화장실 어디예요?"
-   },
-   {
-    "num": 2,
-    "id": "Lurus, lalu belok kiri.",
-    "ko": "쭉 가서 왼쪽으로 도세요."
-   },
-   {
-    "num": 3,
-    "id": "Kiri? Terima kasih!",
-    "ko": "왼쪽이요? 고맙습니다!"
-   },
-   {
-    "num": 4,
-    "id": "Eh, maaf, kanan!",
-    "ko": "어, 죄송해요, 오른쪽!"
-   },
-   {
-    "num": 5,
-    "id": "Kanan atau kiri?!",
-    "ko": "오른쪽이에요 왼쪽이에요?!"
-   },
-   {
-    "num": 6,
-    "id": "Ikut saya saja!",
-    "ko": "그냥 저 따라오세요!"
-   }
-  ],
-  "grok": "data/review/grok/out/r0_life_a2.md",
-  "grok_mode": "빠른",
-  "kick": "방향 헷갈리자 그냥 따라오라고 함"
- },
  "turns": [
   {
    "num": 1,

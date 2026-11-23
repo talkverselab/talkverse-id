@@ -25,44 +25,6 @@
   "Boleh kurang?"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Bu, ini berapa?",
-    "ko": "아주머니, 이거 얼마예요?"
-   },
-   {
-    "num": 2,
-    "id": "Sepuluh ribu, Nak.",
-    "ko": "만 루피아야."
-   },
-   {
-    "num": 3,
-    "id": "Wah, mahal. Boleh kurang?",
-    "ko": "와, 비싸요. 깎아 주실 수 있어요?"
-   },
-   {
-    "num": 4,
-    "id": "Boleh. Delapan ribu.",
-    "ko": "그래. 팔천."
-   },
-   {
-    "num": 5,
-    "id": "Lima ribu, ya?",
-    "ko": "오천 어때요?"
-   },
-   {
-    "num": 6,
-    "id": "Lima ribu... setengah mangga.",
-    "ko": "오천이면… 망고 반 개."
-   }
-  ],
-  "grok": "data/review/grok/out/r0_life_a1.md",
-  "grok_mode": "빠른",
-  "kick": "반값 부르니까 망고 반 개만 주겠다고 받아침"
- },
  "turns": [
   {
    "num": 1,

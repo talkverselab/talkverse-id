@@ -1,0 +1,54 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Pak, mobil ini ke mana?",
+      "ko": "아저씨, 이 차 어디로 가요?"
+     },
+     {
+      "num": 2,
+      "id": "Ke terminal. Duduk saja.",
+      "ko": "터미널요. 앉아 있어요."
+     },
+     {
+      "num": 3,
+      "id": "Saya harus ke kampus, bukan terminal!",
+      "ko": "저 캠퍼스 가야 해요, 터미널 아니고요!"
+     },
+     {
+      "num": 4,
+      "id": "Tidak bisa berhenti di sini.",
+      "ko": "여기서는 못 세워요."
+     },
+     {
+      "num": 5,
+      "id": "Kiri, Pak! Kiri!",
+      "ko": "세워 주세요! 세워요!"
+     },
+     {
+      "num": 6,
+      "id": "Semua, kalian mau turun? Ayo turun sekali!",
+      "ko": "다들 내릴 거예요? 한꺼번에 내려요!"
+     },
+     {
+      "num": 7,
+      "id": "Kenapa semua orang ikut turun?",
+      "ko": "왜 다 같이 내려요?"
+     },
+     {
+      "num": 8,
+      "id": "Mereka juga salah mobil, dan saya juga.",
+      "ko": "저 사람들도 잘못 탔고, 저도요."
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_survival_s3_grok.md",
+    "kick": "기사가 운전하며 노래 부르다 보니 세우지 못하고, 알고 보니 기사까지 길을 잘못 들어 다 같이 내리는 황당함",
+    "final": "4번 논리 끊김(노래해서 못 세운다), 8번 채팅체 wkwk 를 말에"
+   },
+   "draft": true
+  }
+ ]
+}

@@ -25,59 +25,6 @@
   "Suaramu"
  ],
  "region": "R2",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Nadia, sekarang giliran aku, ya.",
-    "ko": "나디아, 이제 내 차례야."
-   },
-   {
-    "num": 2,
-    "id": "Satu lagu lagi! Ini lagu favoritku.",
-    "ko": "한 곡만 더! 이거 내 최애곡이야."
-   },
-   {
-    "num": 3,
-    "id": "Kamu bilang begitu sudah lima kali.",
-    "ko": "그 말 벌써 다섯 번째야."
-   },
-   {
-    "num": 4,
-    "id": "Oke, kita nyanyi berdua saja.",
-    "ko": "알았어, 그냥 둘이 같이 부르자."
-   },
-   {
-    "num": 5,
-    "id": "Lagu apa? Aku tidak tahu lagu ini.",
-    "ko": "무슨 노래? 나 이 노래 몰라."
-   },
-   {
-    "num": 6,
-    "id": "Tidak apa-apa. Ikuti saja liriknya.",
-    "ko": "괜찮아. 가사만 따라 해."
-   },
-   {
-    "num": 7,
-    "id": "Liriknya bahasa Jawa semua!",
-    "ko": "가사가 전부 자바어잖아!"
-   },
-   {
-    "num": 8,
-    "id": "Makanya aku yang nyanyi terus dari tadi.",
-    "ko": "그러니까 내가 아까부터 계속 부른 거지."
-   },
-   {
-    "num": 9,
-    "id": "Ya sudah, mikrofonnya untukmu. Aku makan saja.",
-    "ko": "그래, 마이크는 너 해. 난 먹기나 할래."
-   }
-  ],
-  "grok": "data/review/grok/out/r2_friends_a1.md",
-  "grok_mode": "빠른",
-  "kick": "같이 부르자더니 가사가 전부 자바어"
- },
  "turns": [
   {
    "num": 1,

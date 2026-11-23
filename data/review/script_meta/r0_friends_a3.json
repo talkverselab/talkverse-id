@@ -1,0 +1,44 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Tolong fotokan aku, ya.",
+      "ko": "나 사진 좀 찍어 줘."
+     },
+     {
+      "num": 2,
+      "id": "Oke. Satu, dua, tiga!",
+      "ko": "좋아. 하나, 둘, 셋!"
+     },
+     {
+      "num": 3,
+      "id": "Lagi, lagi! Senyum dulu.",
+      "ko": "한 번 더! 나 먼저 웃고."
+     },
+     {
+      "num": 4,
+      "id": "Satu, dua... sudah?",
+      "ko": "하나, 둘… 됐어?"
+     },
+     {
+      "num": 5,
+      "id": "Lagi! Dua puluh kali.",
+      "ko": "한 번 더! 스무 번."
+     },
+     {
+      "num": 6,
+      "id": "Tanganku sudah capek!",
+      "ko": "나 팔 아파!"
+     }
+    ],
+    "grok": "data/review/grok/out/r0_friends_a3.md",
+    "grok_mode": "빠른",
+    "kick": "한 장 더 하자더니 스무 장으로 폭주"
+   },
+   "draft": true
+  }
+ ]
+}

@@ -24,44 +24,6 @@
   "Selamat ulang tahun"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Selamat ulang tahun, Bu!",
-    "ko": "생신 축하드려요!"
-   },
-   {
-    "num": 2,
-    "id": "Terima kasih, Nak.",
-    "ko": "고마워."
-   },
-   {
-    "num": 3,
-    "id": "Umur Ibu berapa?",
-    "ko": "몇 살 되셨어요?"
-   },
-   {
-    "num": 4,
-    "id": "Rahasia, dong.",
-    "ko": "그건 비밀이지."
-   },
-   {
-    "num": 5,
-    "id": "Lilinnya banyak sekali.",
-    "ko": "초가 엄청 많네요."
-   },
-   {
-    "num": 6,
-    "id": "Itu lilin cucu saya!",
-    "ko": "그건 손주 초야!"
-   }
-  ],
-  "grok": "data/review/grok/out/r0_life_a3.md",
-  "grok_mode": "빠른",
-  "kick": "나이 비밀이라더니 초는 손주들 거라고 웃으며 말함"
- },
  "turns": [
   {
    "num": 1,

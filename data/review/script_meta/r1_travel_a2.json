@@ -1,0 +1,49 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Waduh, hujan besar!",
+      "ko": "아이고, 비 엄청 오네!"
+     },
+     {
+      "num": 2,
+      "id": "Pak, saya nggak bawa payung.",
+      "ko": "아저씨, 저 우산 안 가져왔어요."
+     },
+     {
+      "num": 3,
+      "id": "Ini, pakai jas hujan Bapak.",
+      "ko": "자, 아저씨 비옷 입어요."
+     },
+     {
+      "num": 4,
+      "id": "Terus Bapak pakai apa?",
+      "ko": "그럼 아저씨는 뭐 입어요?"
+     },
+     {
+      "num": 5,
+      "id": "Bapak sudah biasa basah. Hehe.",
+      "ko": "아저씨는 젖는 거 익숙해. 헤헤."
+     },
+     {
+      "num": 6,
+      "id": "Pak… makasih banyak.",
+      "ko": "아저씨… 정말 고마워요."
+     },
+     {
+      "num": 7,
+      "id": "Nggak usah. Tapi bayar dua kali, ya!",
+      "ko": "됐어. 근데 요금은 두 배야!"
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_travel_a2_grok.md",
+    "kick": "오리처럼 젖는 게 익숙하다는 엉뚱한 반응과 젖은 값으로 요금 두 배라는 받아치기.",
+    "final": "최소 수정: 말로 하는 대사의 wkwk → hehe"
+   },
+   "draft": true
+  }
+ ]
+}

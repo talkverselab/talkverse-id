@@ -26,7 +26,6 @@
   "bilang apa"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -224,47 +223,5 @@
    ],
    "emotion": "sad"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Halo, sayang? Iya, aku masih di kantor.",
-    "ko": "여보세요, 자기야? 응, 아직 회사야."
-   },
-   {
-    "num": 2,
-    "id": "Mas Dimas punya pacar?",
-    "ko": "디마스 씨 애인 있어요?"
-   },
-   {
-    "num": 3,
-    "id": "Ssst! Iya... pacar saya.",
-    "ko": "쉿! 응… 내 여자친구야."
-   },
-   {
-    "num": 4,
-    "id": "Lho, itu bukan nomor Bu Bos?",
-    "ko": "어, 그거 사장님 번호 아니에요?"
-   },
-   {
-    "num": 5,
-    "id": "Aduh! Saya salah sambung!",
-    "ko": "아이고! 전화 잘못 걸었어요!"
-   },
-   {
-    "num": 6,
-    "id": "Terus, Bu Bos bilang apa?",
-    "ko": "그래서 사장님이 뭐래요?"
-   },
-   {
-    "num": 7,
-    "id": "Dia bilang, besok ke ruangan dia.",
-    "ko": "내일 자기 방으로 오래요."
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_work_a2_grok.md",
-  "kick": "사장님한테 \"자기야\" 해버린 순간의 패닉과 \"나 죽었어\" 하는 과장된 한 방",
-  "final": "재작성 반영 + 호칭 Mas(카크 음역 금지), 1번 어색한 deh 정리"
- }
+ ]
 }

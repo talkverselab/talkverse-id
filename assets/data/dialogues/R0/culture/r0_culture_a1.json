@@ -25,44 +25,6 @@
   "Enak"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Mau sambal, Nak?",
-    "ko": "삼발 줄까?"
-   },
-   {
-    "num": 2,
-    "id": "Sedikit saja, Bu.",
-    "ko": "조금만요."
-   },
-   {
-    "num": 3,
-    "id": "Ini sedikit.",
-    "ko": "이게 조금이야."
-   },
-   {
-    "num": 4,
-    "id": "Itu satu piring!",
-    "ko": "그거 한 접시잖아요!"
-   },
-   {
-    "num": 5,
-    "id": "Orang sini makan begini.",
-    "ko": "여기 사람들은 이렇게 먹어."
-   },
-   {
-    "num": 6,
-    "id": "Air! Minta air!",
-    "ko": "물! 물 주세요!"
-   }
-  ],
-  "grok": "data/review/grok/out/r0_culture_a1.md",
-  "grok_mode": "빠른",
-  "kick": "조금만 달라고 했는데 산처럼 얹고, 여기선 원래 이렇다며 태연한 아주머니. 한입 먹고 물 찾는 학습자."
- },
  "turns": [
   {
    "num": 1,

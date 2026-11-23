@@ -36,7 +36,6 @@
   "kami"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -262,52 +261,5 @@
    ],
    "emotion": "shocked"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Sini. Aku mau bilang satu rahasia.",
-    "ko": "이리 와. 비밀 하나 말해 줄게."
-   },
-   {
-    "num": 2,
-    "id": "Rahasia? Kalau aku tak boleh tahu?",
-    "ko": "비밀? 내가 알면 안 되는 거면?"
-   },
-   {
-    "num": 3,
-    "id": "Jangan bilang siapa-siapa, ya.",
-    "ko": "아무한테도 말하지 마."
-   },
-   {
-    "num": 4,
-    "id": "Baik. Aku tutup mulut.",
-    "ko": "알았어. 입 꼭 다물게."
-   },
-   {
-    "num": 5,
-    "id": "Raka dan Dimas tahu rahasia ini.",
-    "ko": "Raka 랑 Dimas 는 이 비밀 알아."
-   },
-   {
-    "num": 6,
-    "id": "Mereka tahu? Benar?",
-    "ko": "걔들이 알아? 진짜?"
-   },
-   {
-    "num": 7,
-    "id": "Kami semua tahu. Cuma kamu belum.",
-    "ko": "우리 다 알아. 너만 아직 몰라."
-   },
-   {
-    "num": 8,
-    "id": "Jadi rahasia ini... tentang aku?!",
-    "ko": "그럼 이 비밀이… 나 얘기야?!"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_friends_a4_grok.md",
-  "kick": "모두가 이미 알고 나만 모르는 비밀이 바로 나 자신이라는 폭로에, 당황하며 들키는 순간의 심쿵.",
-  "final": "sih 위치 어색, duluan banget 비문, 8번 dong 남발로 뜻 흐림"
- }
+ ]
 }

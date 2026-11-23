@@ -1,0 +1,59 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Sebentar lagi sampai. Hati-hati, jalannya licin.",
+      "ko": "조금만 더 가면 도착이에요. 조심해요, 길이 미끄러워요."
+     },
+     {
+      "num": 2,
+      "id": "Kaki saya sudah tidak terasa.",
+      "ko": "다리 감각이 없어요."
+     },
+     {
+      "num": 3,
+      "id": "Pegang tangan saya. Lima menit lagi.",
+      "ko": "제 손 잡아요. 5분만 더."
+     },
+     {
+      "num": 4,
+      "id": "Kamu bilang lima menit tiga puluh menit lalu.",
+      "ko": "30분 전에도 5분이라고 했잖아요."
+     },
+     {
+      "num": 5,
+      "id": "Kali ini benar. Lihat, langitnya mulai merah.",
+      "ko": "이번엔 진짜예요. 봐요, 하늘이 붉어지기 시작했어요."
+     },
+     {
+      "num": 6,
+      "id": "Wah... indah sekali.",
+      "ko": "와… 정말 아름답다."
+     },
+     {
+      "num": 7,
+      "id": "Saya naik ke sini hampir setiap hari.",
+      "ko": "저 여기 거의 매일 올라와요."
+     },
+     {
+      "num": 8,
+      "id": "Tidak bosan?",
+      "ko": "안 질려요?"
+     },
+     {
+      "num": 9,
+      "id": "Tidak pernah. Setiap pagi wajah tamunya beda.",
+      "ko": "한 번도요. 아침마다 손님 표정이 다르거든요."
+     }
+    ],
+    "grok": "data/review/grok/out/r2_travel_a2.md",
+    "grok_mode": "빠른",
+    "kick": "또 5분이라는 말에 짜증 났는데, 붉어지는 하늘과 \"손님 미소가 달라서\"라는 말에 바로 녹음."
+   },
+   "draft": true
+  }
+ ]
+}

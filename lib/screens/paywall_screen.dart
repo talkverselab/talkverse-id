@@ -7,6 +7,10 @@ import '../data/account.dart';
 import '../data/purchase.dart';
 import '../widgets/legal_links.dart';
 import 'login_screen.dart';
+import '../core/embed_env.dart' show embedded;
+
+/// 스토어에 보이는 앱 이름 — 통합 앱이면 Talkverse(출시 심사 점검 11-23).
+String get _storeName => embedded ? 'Talkverse' : '인도네시아어유니버스';
 
 /// 이용권 시트 — 상품 고르기 + 인앱 결제(일본어앱 출시 점검판을 옮김, 가격 = ~/talkverse/PRICING.md 2026-11-09).
 /// 스토어 규정: 가격·기간·자동 갱신·해지 방법을 구매 버튼 가까이, 평생은 「서비스 운영 기간 동안」, 구매 복원, 미리 선택된 상품 없음,
@@ -69,11 +73,11 @@ class _PaywallScreenState extends State<PaywallScreen> {
               child: SingleChildScrollView(
                 padding: EdgeInsets.fromLTRB(20, 0, 20, 16 + bottomInset(context)),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                  Text(tr('인도네시아어유니버스'), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.beni)),
+                  Text(_storeName, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.beni)),
                   Text(tr('이용권 선택'), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.sumi)),
                   const SizedBox(height: 10),
                   _row(Icons.check_circle, tr('앞으로 추가되는 유료 과정(회화 레벨·장면 그림·음성)을 이용권 기간 동안')),
-                  _row(Icons.check_circle, tr('로그인하면 아이폰·아이패드·안드로이드 어디서나')),
+                  _row(Icons.check_circle, isIOS ? tr('로그인하면 아이폰·아이패드 어디서나') : tr('로그인하면 다른 기기에서도')),
                   _row(Icons.check_circle_outline, tr('지금 있는 알파벳·어근·접사·회화·단어·복습 메뉴는 모두 무료'), muted: true),
                   const SizedBox(height: 10),
                   Text(tr('인도네시아어'), style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.sumiLight)),
@@ -111,8 +115,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   const SizedBox(height: 8),
                   Text(
                     isIOS
-                        ? tr('구독 해지: 아이폰 설정 → 내 이름(Apple ID) → 구독 → 인도네시아어유니버스 → 구독 취소')
-                        : tr('구독 해지: Google Play → 프로필 → 결제 및 정기 결제 → 정기 결제 → 인도네시아어유니버스 → 해지'),
+                        ? trf('구독 해지: 아이폰 설정 → 내 이름(Apple ID) → 구독 → {0} → 구독 취소', [_storeName])
+                        : trf('구독 해지: Google Play → 프로필 → 결제 및 정기 결제 → 정기 결제 → {0} → 해지', [_storeName]),
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 11.5, color: AppColors.sumiLight, height: 1.4),
                   ),
@@ -133,7 +137,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         : Text(tr('로그인됨 — 구매는 Talkverse 계정에 기록되어 다른 기기에서도 열립니다.'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
                   ),
                   Text(
-                    tr('결제는 App Store / Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.'),
+                    isIOS ? tr('결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.') : tr('결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.'),
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.4),
                   ),

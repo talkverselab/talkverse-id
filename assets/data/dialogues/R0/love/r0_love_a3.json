@@ -25,44 +25,6 @@
   "Boleh"
  ],
  "region": "R0",
- "draft": true,
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Besok kamu ada waktu?",
-    "ko": "내일 시간 있어?"
-   },
-   {
-    "num": 2,
-    "id": "Ada. Kenapa?",
-    "ko": "있어. 왜?"
-   },
-   {
-    "num": 3,
-    "id": "Mau nonton film?",
-    "ko": "영화 볼래?"
-   },
-   {
-    "num": 4,
-    "id": "Boleh! Jam berapa?",
-    "ko": "좋아! 몇 시?"
-   },
-   {
-    "num": 5,
-    "id": "Jam lima pagi.",
-    "ko": "아침 다섯 시."
-   },
-   {
-    "num": 6,
-    "id": "Pagi?! Film apa itu?",
-    "ko": "아침?! 그게 무슨 영화야?"
-   }
-  ],
-  "grok": "data/review/grok/out/r0_love_a3.md",
-  "grok_mode": "빠른",
-  "kick": "영화 보자더니 시간이 새벽 다섯 시"
- },
  "turns": [
   {
    "num": 1,

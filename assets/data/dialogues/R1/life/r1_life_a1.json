@@ -27,7 +27,6 @@
   "cuma"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -253,52 +252,5 @@
    ],
    "emotion": "shocked"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Mau pakai kantong?",
-    "ko": "봉투 필요하세요?"
-   },
-   {
-    "num": 2,
-    "id": "Iya.",
-    "ko": "네."
-   },
-   {
-    "num": 3,
-    "id": "Struknya mau?",
-    "ko": "영수증 드릴까요?"
-   },
-   {
-    "num": 4,
-    "id": "Iya.",
-    "ko": "네."
-   },
-   {
-    "num": 5,
-    "id": "Ada promo, beli satu gratis satu. Mau?",
-    "ko": "1+1 행사 있어요. 하실래요?"
-   },
-   {
-    "num": 6,
-    "id": "Iya… eh?",
-    "ko": "네… 어?"
-   },
-   {
-    "num": 7,
-    "id": "Totalnya dua ratus ribu, Kak.",
-    "ko": "총 20만 루피아입니다."
-   },
-   {
-    "num": 8,
-    "id": "Saya cuma beli air mineral!",
-    "ko": "저 생수만 샀는데요!"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_life_a1_grok.md",
-  "kick": "뭐든 네라고 했다가 공짜 잔뜩 달라더니 생수 한 병에 20만 나와서 당황하는 장면",
-  "final": "이 세션 최소 수정(호칭 번역·말로 하는 대사의 채팅체·개그 살리기) 2026-11-03"
- }
+ ]
 }

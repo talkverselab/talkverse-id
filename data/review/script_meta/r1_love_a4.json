@@ -1,0 +1,53 @@
+{
+ "history": [
+  {
+   "review": {
+    "draft": [
+     {
+      "num": 1,
+      "id": "Kamu nonton dengan siapa?",
+      "ko": "너 누구랑 보러 왔어?"
+     },
+     {
+      "num": 2,
+      "id": "Sendiri saja. Kamu?",
+      "ko": "그냥 혼자. 너는?"
+     },
+     {
+      "num": 3,
+      "id": "Aku juga. Ayo nonton bersama.",
+      "ko": "나도. 같이 보자."
+     },
+     {
+      "num": 4,
+      "id": "Hai, kalian! Raka, Nadia, Dimas...?",
+      "ko": "어, 너희! Raka, Nadia, Dimas…?"
+     },
+     {
+      "num": 5,
+      "id": "Kenapa mereka semua di sini?",
+      "ko": "왜 얘네가 다 여기 있어?"
+     },
+     {
+      "num": 6,
+      "id": "Kebetulan sekali, ya.",
+      "ko": "우연치고 엄청나네."
+     },
+     {
+      "num": 7,
+      "id": "Aku tak mau nonton dengan lima orang.",
+      "ko": "난 다섯 명이랑 보기 싫어."
+     },
+     {
+      "num": 8,
+      "id": "Jadi... kita berdua saja?",
+      "ko": "그럼… 우리 둘만?"
+     }
+    ],
+    "grok_rewrite": "data/review/rewrite/r1_love_a4_grok.md",
+    "kick": "갑자기 친구들이 몰려와 당황하는 Ayu와, 결국 둘만 보자는 설렘"
+   },
+   "draft": true
+  }
+ ]
+}

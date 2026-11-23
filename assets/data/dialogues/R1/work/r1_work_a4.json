@@ -36,7 +36,6 @@
   "ter-"
  ],
  "region": "R1",
- "draft": true,
  "turns": [
   {
    "num": 1,
@@ -282,52 +281,5 @@
    ],
    "emotion": "teasing"
   }
- ],
- "review": {
-  "draft": [
-   {
-    "num": 1,
-    "id": "Tolong kirim laporan ini dengan satu foto.",
-    "ko": "이 보고서에 사진 한 장 붙여서 보내 주세요."
-   },
-   {
-    "num": 2,
-    "id": "Baik, Pak. Foto yang mana?",
-    "ko": "네, 알겠습니다. 어떤 사진이요?"
-   },
-   {
-    "num": 3,
-    "id": "Foto kantor kami. Jangan foto lain.",
-    "ko": "우리 사무실 사진요. 다른 사진은 안 돼요."
-   },
-   {
-    "num": 4,
-    "id": "Sudah terkirim, Pak.",
-    "ko": "보냈습니다."
-   },
-   {
-    "num": 5,
-    "id": "Kenapa Bapak Bos tertawa?",
-    "ko": "사장님이 왜 웃으시지?"
-   },
-   {
-    "num": 6,
-    "id": "Saya tidak tahu. Coba lihat.",
-    "ko": "모르겠어요. 한번 보세요."
-   },
-   {
-    "num": 7,
-    "id": "Ini foto kamu tidur di meja!",
-    "ko": "이거 당신이 책상에서 자는 사진이잖아!"
-   },
-   {
-    "num": 8,
-    "id": "Itu... foto kantor juga, kan?",
-    "ko": "그것도… 사무실 사진이긴 하잖아요?"
-   }
-  ],
-  "grok_rewrite": "data/review/rewrite/r1_work_a4_grok.md",
-  "kick": "책상 잠 사진이 사무실 사진으로 둔갑해 사장님이 배 잡고 웃고, 뻔뻔하게 받아치는 변명.",
-  "final": "tolong 뒤 명령형은 어근(mengirim→kirim), 5번 8단어·tertawa banget 어색"
- }
+ ]
 }
