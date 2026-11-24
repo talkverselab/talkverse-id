@@ -70,6 +70,16 @@ for i in range(0, len(ids), N):
         pc_run()
         for ep in eps:
             fetch(f'retake/{ep}')
+    for ep in eps:   # 마지막(3회째) 재생성본 검사·반영 — 빠지면 받아만 두고 예전 판을 올린다(2026-11-24)
+        if not glob.glob(f'{work}/wav/retake/{ep}/*.wav'):
+            continue
+        try:
+            r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep], capture_output=True, text=True, timeout=600)
+            log('마지막 검사', ep, r.stdout.strip() or r.stderr.strip()[-200:])
+        except subprocess.TimeoutExpired:
+            log('TIMEOUT', ep)
+            for f in glob.glob(f'{work}/wav/retake/{ep}/*.wav'):
+                os.remove(f)
     for ep in eps:
         r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', '--post', '2', '--keep-id', check=False)  # 후처리 2단계(2026-11-22 이 세션 판단 — 사용자 「진행」)
         if r.returncode:

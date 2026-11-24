@@ -19,17 +19,25 @@ while true; do
   else
     low=0
   fi
-  [ -n "$GIVEUP_AT" ] && [ "$(date +%H%M)" -ge "$GIVEUP_AT" ] && { log "3090 안 빔(${m}MiB) — 포기"; exit 2; }
+  [ -n "${GIVEUP_AT:-}" ] && [ "$(date +%H%M)" -ge "$GIVEUP_AT" ] && { log "3090 안 빔(${m}MiB) — 포기"; exit 2; }
   sleep 60
 done
 log "3090 빔(${m}MiB)"
-if [ ! -f $W/refs_done ]; then
+# 참고 음성: PC 에 실제로 없는 것이 있을 때만 만든다(다 있으면 모델을 읽지 않는다, 2026-11-24). 확인 실패(-1)면 만들기 단계로.
+refs_missing(){ ssh $PC "(Get-ChildItem D:\\tts_test\\job\\out\\ref_id -Filter *.wav).Name -join ' '" 2>/dev/null | python3 -c "
+import json,os,sys
+h=set(sys.stdin.read().split()); j=json.load(open('$W/job/vox_jobs.json'))
+print(sum(os.path.basename(x['out']) not in h for x in j) if h else -1)"; }
+python3 tools/tts/make_jobs.py $W/job --refs >> $W/dawn.log
+miss=$(refs_missing); log "참고 음성 없는 것 $miss"
+if [ "$miss" != 0 ]; then
   until ssh $PC "(Get-ScheduledTask -TaskName 'TTS job 2060').State" | grep -q Ready; do sleep 30; done
   scp -q $W/job/vox_jobs.json "$PC:D:/tts_test/job/"
   ssh $PC "Remove-Item D:\\tts_test\\job\\moss_jobs.json -ErrorAction SilentlyContinue; Start-ScheduledTask -TaskName 'TTS job 2060'"
   sleep 20
   until ssh $PC "(Get-ScheduledTask -TaskName 'TTS job 2060').State" | grep -q Ready; do sleep 30; done
-  touch $W/refs_done; log "참고 음성 끝"
+  miss=$(refs_missing); log "참고 음성 끝 — 없는 것 $miss"
+  [ "$miss" != 0 ] && { log "참고 음성이 모자라 멈춤"; exit 4; }
 fi
 STOP_AT=${STOP_AT:-} $PY tools/tts/run_all.py $W 4 >> $W/run.log 2>&1
 log "run_all 끝 $(cat $W/left.txt 2>/dev/null)"
