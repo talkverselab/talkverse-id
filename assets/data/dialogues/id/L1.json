@@ -3,7 +3,7 @@
  "variant": "id",
  "version": "v2-2026-08-20",
  "schema": "v5-L1-5ep40turn",
- "title": "L1 — 매칭 narrative (200 turn 목표)",
+ "title": "L1 — 언어교류앱 narrative (200 turn 목표)",
  "description": "외국인 Mark 와 인도네시아 여성 Sari 의 첫 만남 → 약속 → 가족 → 갈등 → 미래. 5 ep × 40 turn = 200. (현재 ep1·ep2 완성 = 80턴)",
  "kpi": {
   "episodes_target": 5,
@@ -21,9 +21,9 @@
  "episodes": [
   {
    "id": "ep1",
-   "title": "매칭",
+   "title": "언어교류앱",
    "emoji": "💕",
-   "scenario": "Mark 매칭앱 첫 메시지 → Sari 자기소개 → 직업·취미 → 렌당 약속 → 토요일 카페 약속 확정",
+   "scenario": "Mark 언어교류앱 첫 메시지 → Sari 자기소개 → 직업·취미 → 렌당 약속 → 토요일 카페 약속 확정",
    "turns": [
     {
      "num": 1,

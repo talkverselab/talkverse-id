@@ -197,7 +197,7 @@ class DialogueService {
           next.add(Dialogue(
             id: '${level}_${m['id']}',
             region: level,
-            island: 'love', // 옛 L1 = 매칭 앱에서 시작하는 연애 이야기(원칙: 기존 연애 서사는 love 주제)
+            island: 'love', // 옛 L1 = 언어교류앱에서 시작하는 연애 이야기(원칙: 기존 연애 서사는 love 주제)
             title: m['title'] as String? ?? m['id'] as String,
             emoji: m['emoji'] as String? ?? '💬',
             scene: m['scenario'] as String? ?? '',

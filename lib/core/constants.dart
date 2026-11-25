@@ -26,7 +26,7 @@ enum LangVariant {
 class Levels {
   static const all = ['L1', 'L2', 'L3'];
   static const titles = {
-    'L1': '매칭 narrative',
+    'L1': '언어교류앱 narrative',
     'L2': '카오스 채팅',
     'L3': '사랑 narrative',
   };
