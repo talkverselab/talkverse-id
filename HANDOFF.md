@@ -29,6 +29,17 @@
   - 가볍게 다듬을 편(반전은 살리고 일상 표현 보강): `life_a4`(양파 「스무 개 더」), `work_a2`(사장님께 「자기야」·「나 죽었어」), `friends_a2`(이웃이 두드리는데 「더 크게」).
   - 고칠 때 줄마다 감정 열을 넣고, 장면이 바뀌는 편만 그림·Grok 프롬프트를 새로 만든다(나머지는 이미 통과한 그림 유지).
 
+## 2026-11-28 세션 닫음(uk 전달 — 베트남어·일본어만 남김) — 다음 세션은 여기부터
+- **먼저 `~/talkverse/CHANGES.md`** (전 앱 변경 기록·공지, 이후 uk 공지는 여기에).
+- 돌던 작업 없음: 음성·그림·빌드·크롬 모두 안 돌고 있었음. 예약(cron·launchd)도 없음.
+- 음성(회화 75편·조각 947개 + 참고 목소리 96개) **아직 시작 전**. 사용자(11-23, uk 전달 「지금돌려 가능하면」): 낮에도 됨. 시작 = uk 「id 지금 시작」 또는 앞 차례 fa 의 「GPU 끝」 뒤 `zsh tools/tts/dawn_id.sh`(백그라운드). 시각 제한 기본 없음, 멈춤 = `touch ~/tts_work/id/PAUSE`. 끝나면 「GPU 끝」을 베트남어앱(북부 MOSS 14줄)에 직접, uk 에 한 줄. 독일어는 빠짐.
+  - 11-24 고침(d3f72b2): 3회째 재생성본도 검사·반영 후 묶음, 참고 음성이 PC 에 다 있으면 건너뜀(지금 24/120 있음 → 96개 만듦), GIVEUP_AT 미설정 오류.
+  - 잡음 바닥 qa 수정(it 2ce965d)은 해당 없음 — 이 앱 qa 에는 잡음 판정이 없다.
+- 「매칭앱」→「언어교류앱」(12세 등급, b54f281): L1 원고 3곳(서버 rev 8) + 레벨 이름 1곳(다음 빌드부터). 대사에는 해당 없음.
+- 멈춤(사용자 말로만 풀림): Grok 전부(11-26), Gemini 는 베트남어만(11-25), 단어 목록·단어 그림(11-25, 첫 출시 = 베트남어), 회화 장면 그림은 공개 65편 것만(11-25). 단독 iOS 빌드도 멈춤(11-23).
+- 커밋 안 한 변경(내 것 아님·작업 잡음): `analysis_options.yaml`(analyzer exclude build/android/ios — 누가 넣었는지 모름, 확인 후 커밋 여부 결정), `android/gradle.properties`·`ios/Flutter/*.xcconfig`·`ios/Podfile*`(빌드 잡음), `data/review/scenes/*` 40개(장면 그림 프롬프트 초안 — 그림 멈춤이라 보류), `RELAY_from_ja.md`, `.wrangler/`·`__pycache__/`(지울 후보).
+- 사용자에게 물을 것: CLAUDE.md 의 「지금은 아무것도 잠그지 않는다」 줄을 이용권 잠금(R2+·커리큘럼 2단계+·언어감각 2급+)에 맞게 고쳐도 되는지.
+
 ## 2026-11-18 통합 앱 심사 준비(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`) — 다음 세션은 여기부터
 - **원고 서버 받기 완료**: `lib/services/script_sync.dart`(embedInit 에서 ContentSync 앞, 15초 상한) · 서버 `script/id` **rev 2**(R1 30편 + L1 + 언어감각 과정) · 올리기 `tools/script_publish.py --publish` → `assets/data/script_rev.json` 커밋 · 턴 잠금 `tools/turn_lock.py`(기준표 `data/review/turn_lock_id.json`). 실제 서버로 rev1→rev2 받기 시험 통과.
 - **일본어앱 109~112 수준**: 언어감각 과정 10급(외울 대화 10줄 + 참고 4, 영상 자리는 비어 있음 「영상 준비 중」) · 외국어에서 온 말(kata serapan 120어, 3단계, 퀴즈 복습) · 카드 〇〇/장면 A → 이름. 한자 3자는 해당 없음.
